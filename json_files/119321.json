@@ -1,0 +1,444 @@
+{
+    "documentAuthors": [
+        "R Kusters"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "R Kusters",
+            "referenceName": null,
+            "reference": {
+                "value": "70389"
+            },
+            "firstName": "R",
+            "infix": null,
+            "lastName": "Kusters",
+            "emailAddress": "r.kusters@demeerwaarde.nl",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2018-02-05T15:56:40Z",
+    "bulkId": "bulk-17041135-refresh_all",
+    "identifier": 119321,
+    "title": "Vergadering 06-02 Escape Room",
+    "description": "De Meerwaarde",
+    "lastModifiedDate": "2018-02-05T15:56:40+01:00",
+    "dateCreated": "2018-02-05T15:31:06+01:00",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "Kusters, R",
+                "reference": {
+                    "value": "70389"
+                },
+                "firstName": "R",
+                "infix": null,
+                "lastName": "Kusters",
+                "emailAddress": "r.kusters@demeerwaarde.nl",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-40",
+            "name": "CC Naamsvermelding 4.0 Internationale licentie",
+            "description": "De Internationale Creative Commons 4.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/4.0/.",
+            "link": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/119321/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "4088359"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Escape Room",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Welcome to the Escape Room!</p>\n<p> </p>\n<p>The purpose of this game is get the access code to the lock. Inside the box is a prize for the winner!</p>\n<p> </p>\n<p>You need to finish all the assignments in order to discover the access code to the final puzzle!</p>\n<p> </p>\n<p>The solution to this puzzle is the key to the lock that opens the box...</p>\n<p> </p>\n<p>All the best,</p>\n<p>R. Kusters</p>\n<p>De Meerwaarde</p>\n<p><br/>\n(Thanks Anne for this great idea...!)</p>\n"
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "4088368"
+                    },
+                    "assessmentItem": {
+                        "identifier": "4088368",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "textEntryInteraction",
+                                "content": {
+                                    "body": "<p><strong>Correct answer (1-8):</strong> <textentry identifier=\"TE_661fdd74a3514\"></textentry> Put the letter in the right order, in lower case.</p>",
+                                    "items": [
+                                        {
+                                            "identifier": "TE_661fdd74a3514",
+                                            "responseIdentifier": "TE_661fdd74a3514_0",
+                                            "feedbackInline": null
+                                        }
+                                    ]
+                                },
+                                "label": "Puzzle 5 (be verb):",
+                                "responseIdentifier": null,
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_CORRECT",
+                                        "identifier": "FBC_4088368",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "Code for the puzzle. <strong>Robin</strong>"
+                                        }
+                                    },
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_INCORRECT",
+                                        "identifier": "FBI_4088368",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "That is not correct, please try again!"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "TE_661fdd74a3514_0",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "aabbaccc"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 1,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "4088369"
+                    },
+                    "assessmentItem": {
+                        "identifier": "4088369",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "textEntryInteraction",
+                                "content": {
+                                    "body": "<p><strong>Correct answer (9-16):</strong> <textentry identifier=\"TE_661fdd74a3ba8\"></textentry> Put the letter in the right order, in lower case.</p>",
+                                    "items": [
+                                        {
+                                            "identifier": "TE_661fdd74a3ba8",
+                                            "responseIdentifier": "TE_661fdd74a3ba8_0",
+                                            "feedbackInline": null
+                                        }
+                                    ]
+                                },
+                                "label": "Puzzle 5 (be verb):",
+                                "responseIdentifier": null,
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_CORRECT",
+                                        "identifier": "FBC_4088369",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "Code for the puzzle. <strong>Rules!</strong>"
+                                        }
+                                    },
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_INCORRECT",
+                                        "identifier": "FBI_4088369",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "That is not correct, please try again!"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "TE_661fdd74a3ba8_0",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "babacbac"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 1,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "4088374"
+                    },
+                    "assessmentItem": {
+                        "identifier": "4088374",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "textEntryInteraction",
+                                "content": {
+                                    "body": "<p><strong>What are the letters that unlock the riddle?</strong> <textentry identifier=\"TE_661fdd74a413e\"></textentry> Put the numbers in the right order, in lower case.</p>",
+                                    "items": [
+                                        {
+                                            "identifier": "TE_661fdd74a413e",
+                                            "responseIdentifier": "TE_661fdd74a413e_0",
+                                            "feedbackInline": null
+                                        }
+                                    ]
+                                },
+                                "label": "Final Puzzle:",
+                                "responseIdentifier": null,
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_CORRECT",
+                                        "identifier": "FBC_4088374",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "<strong>Solve this riddle! The solution is the combination for the lock!</strong><br />\n<br />\n2 6 5 = one number is correct and is well placed.<br />\n2 3 4 = one number is correct, but wrongly placed.<br />\n3 8 7 = nothing is correct.<br />\n4 7 1 = two numbers are correct, but wrongly placed."
+                                        }
+                                    },
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_INCORRECT",
+                                        "identifier": "FBI_4088374",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "That is not correct, please try again!"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "TE_661fdd74a413e_0",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "RobinRules!"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 1,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                }
+            ],
+            "sections": []
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": null,
+            "dimension": null,
+            "suppressTitle": null
+        },
+        "color": "#495057"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Escape Room",
+                "reference": {
+                    "value": "4088359"
+                },
+                "sections": []
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": null,
+        "imageSrc": null,
+        "sources": [],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            }
+        ],
+        "usedLearningResources": [
+            {
+                "author": {
+                    "fullName": null,
+                    "referenceName": "Kusters, R",
+                    "reference": {
+                        "value": "70389"
+                    },
+                    "firstName": "R",
+                    "infix": null,
+                    "lastName": "Kusters",
+                    "emailAddress": "r.kusters@demeerwaarde.nl",
+                    "type": "author"
+                },
+                "title": "De Meerwaarde",
+                "url": "https://maken.wikiwijs.nl/116828/",
+                "datePublished": "2017-12-15T10:12:45+01:00"
+            }
+        ]
+    }
+}

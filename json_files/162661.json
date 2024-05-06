@@ -1,0 +1,652 @@
+{
+    "documentAuthors": [
+        "Renee van Tilburg"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Renee van Tilburg",
+            "referenceName": null,
+            "reference": {
+                "value": "127009"
+            },
+            "firstName": "Renee",
+            "infix": null,
+            "lastName": "van Tilburg",
+            "emailAddress": "tilburg@glr.nl",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2020-06-02T12:50:03Z",
+    "bulkId": "bulk-17041658-refresh_all",
+    "identifier": 162661,
+    "title": "Recensie-opdracht Jaar 2",
+    "description": "",
+    "lastModifiedDate": "2020-06-02T12:50:03+02:00",
+    "dateCreated": "2020-05-30T12:53:08+02:00",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "van Tilburg, Renee",
+                "reference": {
+                    "value": "127009"
+                },
+                "firstName": "Renee",
+                "infix": null,
+                "lastName": "van Tilburg",
+                "emailAddress": "tilburg@glr.nl",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-sa-40",
+            "name": "CC Naamsvermelding-GelijkDelen 4.0 Internationale licentie",
+            "description": "De Internationale Creative Commons 4.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarden: Naamsvermelding en Gelijk Delen, zie http://creativecommons.org/licenses/by-sa/4.0/.",
+            "link": "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/162661/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "6073139"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Recensie",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "6073140"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Intro",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/c/c1348e3290a208069f9d0a13e9568e8710786205.png\" class=\"height-200-pixels width-200-pixels float-right\"/>Als je een boek wilt gaan lezen is het soms fijn om alvast wat meer informatie over het boek te hebben. Om daar achter te komen kun je een recensie van een boek lezen. Daarin vertelt een recensent wat hij van het boek vindt en wat het boek wel of juist niet bijzonder maakt.</p>\n<p><strong>Door deze opdracht leer je:</strong></p>\n<ul>\n<li>wat een boekrecensie is</li>\n<li>welke informatie er in een recensie te vinden is</li>\n<li>wat een recensie goed maakt</li>\n<li>hoe je zelf een goede recensie schrijft</li>\n</ul>\n<p><strong>Voor deze opdracht ga je:</strong></p>\n<ul>\n<li>een boek lezen</li>\n<li>een recensie schrijven over je boek</li>\n<li>met een groepje jullie recensie bundelen met InDesign</li>\n<li>elkaars recensie beoordelen</li>\n</ul>\n"
+                        },
+                        {
+                            "type": "question",
+                            "reference": {
+                                "value": "6073142"
+                            },
+                            "assessmentItem": {
+                                "identifier": "6073142",
+                                "itemBody": null,
+                                "questions": [
+                                    {
+                                        "type": "extendedTextInteraction",
+                                        "label": "",
+                                        "prompt": {
+                                            "body": "<p>Denk na over een boek dat je ooit hebt gelezen. Dat kan je lievelingsboek zijn, of een boek dat je moest lezen voor school, maar ook een ander boek.</p>\n<p>Wat zou je iemand anders willen vertellen over dit boek? Wat vind jij bijzonder aan dit boek? Waarom vond je het wel/niet fijn om te lezen? <br />\nNoteer de titel van het boek en in steekwoorden of korte zinnen wat je wilt vertellen over dit boek. <br />\n </p>"
+                                        },
+                                        "feedback": null
+                                    }
+                                ],
+                                "responseDeclarations": [
+                                    {
+                                        "identifier": "6073142_1",
+                                        "cardinality": "single",
+                                        "baseType": "string",
+                                        "correctResponse": {
+                                            "interpretation": null,
+                                            "values": [
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "<p>Vertel een klasgenoot over het boek.&nbsp;Waarom zou je klasgenoot het boek juist wel of niet moeten gaan lezen? Wat was er bijzonder?</p>\r\n\r\n<p>Luister ook naar het verhaal over het boek van je klasgenoot.&nbsp;<br />\r\nJe docent kiest een aantal leerlingen uit die heel kort iets over hun boek vertellen.&nbsp;</p>\r\n"
+                                                }
+                                            ]
+                                        },
+                                        "mapping": {
+                                            "lowerBound": 0,
+                                            "upperBound": 1,
+                                            "default": 0,
+                                            "mapEntries": []
+                                        },
+                                        "areaMapping": null
+                                    }
+                                ],
+                                "outcomeDeclarations": [
+                                    {
+                                        "identifier": "SCORE",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 0,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": null,
+                                        "interpretation": null
+                                    }
+                                ],
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK",
+                                        "identifier": "ANSWER_CORRECT",
+                                        "showHide": true,
+                                        "title": null,
+                                        "content": {
+                                            "body": "<p>Vertel een klasgenoot over het boek. Waarom zou je klasgenoot het boek juist wel of niet moeten gaan lezen? Wat was er bijzonder?</p>\n<p>Luister ook naar het verhaal over het boek van je klasgenoot. <br />\nJe docent kiest een aantal leerlingen uit die heel kort iets over hun boek vertellen. </p>"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6073143"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Wat kan ik straks?",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/2/2b8ba100681abfe9e864e2c76a7fc83dc2caa52b.png\" class=\"height-227-pixels width-200-pixels float-right\"/>Aan het einde van deze opdracht kun je:</p>\n<ul>\n<li>een voorbeeld noemen waar je een recensie over kunt schrijven.</li>\n<li>aangeven dat je in een recensie informatie over het boek verwerkt, de inhoud beschrijft, je mening geeft en een conclusie schrijft.</li>\n<li>een korte recensie schrijven over een zelfgekozen boek.</li>\n</ul>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6073145"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Wat ga ik doen?",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><strong>Activiteiten</strong></p>\n<table border=\"1\" cellpadding=\"5\" class=\"width-100-percent\">\n<tbody>\n<tr>\n<td colspan=\"3\"><strong>Aan de slag</strong></td>\n</tr>\n<tr>\n<td colspan=\"2\" class=\"width-150-pixels\"><strong>Opdrachten</strong></td>\n<td><strong>Activiteit</strong></td>\n</tr>\n<tr>\n<td>Boekkeuze doorgeven</td>\n<td> </td>\n<td>Je leest de korte recensies over de boeken waar je uit kan kiezen en geeft je keuze door via Microsoft Forms.</td>\n</tr>\n<tr>\n<td>Opdracht 1</td>\n<td><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/89ce5d5f072c652dd3e14d36946380f2da1d78ce.png\" class=\"height-15-pixels width-14-pixels\"/></td>\n<td>Je gaat zelf een recensie zoeken over een onderwerp dat jou aanspreekt, en je gaat hier je mening over geven.</td>\n</tr>\n<tr>\n<td>Opdracht 2</td>\n<td><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/89ce5d5f072c652dd3e14d36946380f2da1d78ce.png\" class=\"height-15-pixels width-14-pixels\"/> en <img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/a/a5b03cfe0fdce043daf69c90560fd525b6cde02f.png\" class=\"height-15-pixels width-20-pixels\"/></td>\n<td>Je bedenkt drie eisen aan vorm en inhoud van een recensie. Je vergelijkt je antwoorden met een klasgenoot en samen maken jullie een top 3 van de belangrijkste eisen. Jullie zoeken boekrecensies die aan jullie eisen voldoen en maken een presentatie van jullie bevindingen.</td>\n</tr>\n<tr>\n<td>Opdracht 3</td>\n<td><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/89ce5d5f072c652dd3e14d36946380f2da1d78ce.png\" class=\"height-15-pixels width-14-pixels\"/></td>\n<td>Je bekijkt voorbeelden van korte recensies en beantwoordt over deze recensies vragen.</td>\n</tr>\n<tr>\n<td>Opdracht 4</td>\n<td><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/89ce5d5f072c652dd3e14d36946380f2da1d78ce.png\" class=\"height-15-pixels width-14-pixels\"/> en <img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/a/a5b03cfe0fdce043daf69c90560fd525b6cde02f.png\" class=\"height-15-pixels width-20-pixels\"/></td>\n<td>Je leest een recensie over het boek '<em>Schaduwzuster</em>' en beantwoordt daarna een vraag over de recensie. Je vergelijkt je antwoorden met een klasgenoot.</td>\n</tr>\n<tr>\n<td>Opdracht 5</td>\n<td><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/89ce5d5f072c652dd3e14d36946380f2da1d78ce.png\" class=\"height-15-pixels width-14-pixels\"/></td>\n<td>Je leest een recensie over het boek '<em>De verschrikkelijke verhalen van oom M</em>' en beantwoordt daarna een vragen over de recensie.</td>\n</tr>\n<tr>\n<td colspan=\"3\"><strong>Afronding</strong></td>\n</tr>\n<tr>\n<td colspan=\"2\"><strong>Onderdeel</strong></td>\n<td><strong>Activiteit</strong></td>\n</tr>\n<tr>\n<td>Opdracht 6</td>\n<td><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/89ce5d5f072c652dd3e14d36946380f2da1d78ce.png\" class=\"height-15-pixels width-14-pixels\"/></td>\n<td>Je maakt een schrijfplan om jezelf voor te bereiden op het schrijven van je eigen recensie over het boek dat je gelezen hebt.</td>\n</tr>\n<tr>\n<td>Opdracht 7</td>\n<td><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/89ce5d5f072c652dd3e14d36946380f2da1d78ce.png\" class=\"height-15-pixels width-14-pixels\"/></td>\n<td>Je schrijft zelf een recensie over het boek dat je gelezen hebt.</td>\n</tr>\n<tr>\n<td>Extra opdracht</td>\n<td><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/89ce5d5f072c652dd3e14d36946380f2da1d78ce.png\" class=\"height-15-pixels width-14-pixels\"/> en <img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/a/a5b03cfe0fdce043daf69c90560fd525b6cde02f.png\" class=\"height-15-pixels width-20-pixels\"/></td>\n<td>Maak de extra opdracht. Overleg met je docent.</td>\n</tr>\n<tr>\n<td>Terugkijken</td>\n<td><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/89ce5d5f072c652dd3e14d36946380f2da1d78ce.png\" class=\"height-15-pixels width-14-pixels\"/> en <img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/a/a5b03cfe0fdce043daf69c90560fd525b6cde02f.png\" class=\"height-15-pixels width-20-pixels\"/></td>\n<td>Je kijkt met een klasgenoot terug op de opdracht en je schrijft hier een kort verslagje over.</td>\n</tr>\n</tbody>\n</table>\n<p><strong><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/8b0f5a8db3f2643e04551f2e65bcb7b1054065a1.png\" class=\"height-227-pixels width-200-pixels float-right\"/></strong></p>\n<p><strong>Tijd</strong><br/>\nVoor deze opdracht heb je ongeveer <strong>4 uur</strong> nodig.<br/>\nOmdat je het boek dat je gekozen hebt nog moet lezen, moet je daarvoor de nodige tijd inplannen.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6073163"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Kennisbank",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/9/941b8ea7b0db12fb1ff70052d19814cb3af8a13a.png\" class=\"height-151-pixels width-128-pixels float-right\"/>Hier vind je de kennisbanken die horen bij deze opdracht.</p>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<table cellpadding=\"5\">\n<tbody>\n<tr>\n<td><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/9/941b8ea7b0db12fb1ff70052d19814cb3af8a13a.png\" class=\"height-41-pixels width-35-pixels\"/></td>\n<td>\n<h4><a class=\"content-link-button\" href=\"http://maken.wikiwijs.nl/89567\" onclick=\"window.open(this.href, '', 'resizable=no,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=yes,dependent=no,width=900,height=660'); return false;\">Schrijven: Opbouw</a></h4>\n</td>\n</tr>\n</tbody>\n</table>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<table cellpadding=\"5\">\n<tbody>\n<tr>\n<td><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/9/941b8ea7b0db12fb1ff70052d19814cb3af8a13a.png\" class=\"height-41-pixels width-35-pixels\"/></td>\n<td>\n<h4><a class=\"content-link-button\" href=\"http://maken.wikiwijs.nl/89571\" onclick=\"window.open(this.href, '', 'resizable=no,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=yes,dependent=no,width=900,height=660'); return false;\">Schrijven: Recensie</a></h4>\n</td>\n</tr>\n</tbody>\n</table>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<table cellpadding=\"5\">\n<tbody>\n<tr>\n<td><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/9/941b8ea7b0db12fb1ff70052d19814cb3af8a13a.png\" class=\"height-41-pixels width-35-pixels\"/></td>\n<td>\n<h4><a href=\"https://vmbo.glr.nl/LinkClick.aspx?fileticket=jNgJMI996fs%3d&amp;tabid=102&amp;portalid=0&amp;mid=513\" onclick=\"window.open(this.href, '', 'resizable=no,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=no,dependent=no'); return false;\"/><a class=\"content-link-button\" href=\"https://vmbo.glr.nl/LinkClick.aspx?fileticket=jNgJMI996fs%3d&amp;tabid=102&amp;portalid=0&amp;mid=513\" onclick=\"window.open(this.href, '', 'resizable=no,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=yes,dependent=no,width=900,height=660'); return false;\">5-Stappenplan</a></h4>\n</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<p> </p>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<table cellpadding=\"5\">\n<tbody>\n<tr>\n<td><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/9/941b8ea7b0db12fb1ff70052d19814cb3af8a13a.png\" class=\"height-41-pixels width-35-pixels\"/></td>\n<td>\n<h4><a class=\"content-link-button\" href=\"https://maken.wikiwijs.nl/bestanden/1014437/schrijfplanrecensie.docx\" role=\"button\" target=\"_blank\">Schrijfplan recensie</a></h4>\n</td>\n</tr>\n</tbody>\n</table>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "6073147"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Aan de slag",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "6073167"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Boekkeuze doorgeven",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Op <a href=\"https://sway.office.com/FkX8MImcvKGMn3qy\"><span class=\"underline\"><strong>deze site</strong></span></a> staan de boeken waar je uit mag kiezen. Bij ieder boek staat ook een korte samenvatting.</p>\n<p>Geef je boekkeuze door als je dat nog niet hebt gedaan, op de manier die jij met je docent hebt afgesproken.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6073177"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Opdracht 1: Zelf een recensie zoeken",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p class=\"text-align-left\">Zoek een beoordeling of recensie over een onderwerp dat jou aanspreekt. Je kan hierbij denken aan een film, boek, game, muziekalbum, gadget, enz. Vereiste: het moet iets zijn dat je zelf hebt gezien/gelezen/gedaan/gehoord hebt!</p>\n<p class=\"text-align-left\"><strong>De opdracht</strong></p>\n<ul>\n<li class=\"text-align-left\">Kopieer de tekst van de recensie in een Word-bestand en vermeld de bron.</li>\n<li class=\"text-align-left\">Markeer de meningen van de recensent groen, en de feiten rood.</li>\n<li class=\"text-align-left\">Schrijf onder de tekst op waar je het wel en niet mee eens bent, en waarom je dat vindt.\n<ul>\n<li class=\"text-align-left\">let op: met een feit kan je het niet eens of oneens zijn!</li>\n<li class=\"text-align-left\">je <span class=\"underline\">eigen</span> tekst moet minimaal 200 woorden lang zijn</li>\n<li class=\"text-align-left\">tel het aantal woorden in Word, en vermeld dat onder je tekst.</li>\n</ul>\n</li>\n<li class=\"text-align-left\">Let op je spelling en tekstverzorging.</li>\n</ul>\n<p class=\"text-align-left\"><strong>Deadline: 19 mei</strong></p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6073184"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Opdracht 2: Eisen aan een recensie",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>In de vorige opdracht heb je zelf een recensie gezocht over een onderwerp naar keuze, en aangegeven waar je het wel en niet mee eens was. Je hebt nu dus al een beetje een idee wat een recensie is. Die kennis ga je gebruiken voor de volgende opdracht.</p>\n<p><strong>De opdracht</strong></p>\n<p><em>Opdracht 2A - individueel</em></p>\n<p>Denk na over wat je weet over recensies. Hoe zien ze eruit? Wat staat erin?</p>\n<ul>\n<li>Bedenk 3 eisen aan de vorm (hoe zien recensies eruit?)</li>\n<li>Bedenk 3 eisen aan de inhoud (wat staat erin?)</li>\n</ul>\n<p>Schrijf je eisen op in Word, en sla op in je OneDrive.</p>\n<hr/>\n<p><em>Opdracht 2B - in twee- of drietallen</em></p>\n<p>Je gaat nu jouw antwoorden van opdracht 2A vergelijken met die van je partner(s). Samen kiezen jullie de belangrijkste eisen aan de vorm en inhoud uit.</p>\n<ul>\n<li>Maak samen een top 3 belangrijkste eisen aan de vorm</li>\n<li>Maak samen een top 3 belangrijkste eisen aan de inhoud</li>\n</ul>\n<p>Schrijf dit allebei op in het Word-bestand, en sla op in je OneDrive. Schrijf de naam van je partner ook bij jullie gezamenlijke top 3.</p>\n<hr/>\n<p><em>Opdracht 2C - in twee- of drietallen</em></p>\n<p>Jullie hebben nu een aantal eisen gesteld aan een goede recensie. Zoek met je partner drie boekrecensies die aan al jullie eisen voldoen. Als je met zijn drie\u00ebn bent, zoek je vier recensies op. Gebruik hiervoor de website <strong><a href=\"https://www.hebban.nl/recensies#filter=genregroup[]:7&amp;total=20\">www.hebban.nl.</a></strong></p>\n<p>Kopieer de recensies naar het Word-bestand. Vermeld de bron, en sla op in je OneDrive. Jullie leveren allebei het bestand in, in de daarvoor bestemde inlevermap in Magister.</p>\n<p>Maak van jullie bevindingen een mooie presentatie in <strong><a href=\"http://sway.office.com/\">Sway</a></strong> of <strong><a href=\"https://prezi.com/\">Prezi</a></strong>.</p>\n<p>In je presentatie verwerk je het volgende:</p>\n<ul>\n<li>jullie top 3 eisen aan vorm en inhoud</li>\n<li>drie goede boekrecensies</li>\n</ul>\n<p><strong>Jullie moeten allebei (of alledrie) in staat zijn om te presenteren, dus ook recensies die je niet zelf gevonden hebt.</strong></p>\n<hr/>\n<table border=\"0\" cellpadding=\"1\" cellspacing=\"1\" class=\"width-700-pixels\">\n<tbody>\n<tr>\n<td><strong>Microsoft Sway</strong></td>\n<td><strong>Prezi</strong></td>\n</tr>\n<tr>\n<td>\n<p>Met Microsoft Sway kan je mooie presentaties maken, die eruitzien als een soort website. Het werkt redelijk makkelijk, en je kan als je dat wilt gebruik maken van verschillende templates. Als je er zelf niet uitkomt, kan je op YouTube genoeg informatie vinden.</p>\n<p>Je hoeft geen account te maken, want het zit standaard in het Office 365-pakket van het GLR. Je kan dus gewoon inloggen met je schoolaccount.</p>\n<p>Dit is een voorbeeld van een presentatie gemaakt in Sway:</p>\n<p><a href=\"https://sway.office.com/FkX8MImcvKGMn3qy\"><strong>https://sway.office.com/FkX8MImcvKGMn3qy</strong></a></p>\n</td>\n<td>\n<p>Met Prezi kan je ook mooie presentaties maken, die een stuk interessanter zijn dan gewone PowerPoint-presentaties. Het is soms even een beetje puzzelen, maar ook hier zijn genoeg templates die je kan gebruiken.</p>\n<p>Voor Prezi moet je wel even een (gratis) account aanmaken, maar dat is zo gepiept.</p>\n<p>Dit is een voorbeeld van een presentatie gemaakt in Prezi:</p>\n<p><a href=\"https://prezi.com/view/tALiiVeO0mei0fuE0w1S/\"><strong>https://prezi.com/view/tALiiVeO0mei0fuE0w1S/</strong></a></p>\n</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6073209"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Opdracht 3: Korte recensies",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Je krijgt steeds beter een idee van goede recensies. Je hebt nagedacht waar een recensie aan moet voldoen, en je hebt zelf goede recensies opgezocht.</p>\n<p>De volgende opdracht gaat over korte boekrecensies.Een recensie kan erg kort zijn, maar toch bruikbaar. Het is goed om te weten wat mensen schrijven in zo'n recensie: feiten of meningen?</p>\n<div><strong>De opdracht</strong></div>\n<div>Deze opdracht voer je uit in Padlet.</div>\n<div> </div>\n<div><a class=\"content-link-button\" href=\"https://padlet.com/tilburg/l2a_korteboekrecensies\" role=\"button\" target=\"_blank\">Padlet L2A</a><a class=\"content-link-button\" href=\"https://padlet.com/tilburg/l2b_korteboekrecensies\" role=\"button\" target=\"_blank\">Padlet L2B</a><a class=\"content-link-button\" href=\"https://padlet.com/tilburg/l2e_korteboekrecensies\" role=\"button\" target=\"_blank\">Padlet L2E</a></div>\n<div> </div>\n<div>Lees enkele voorbeelden van korte recensies via <a href=\"https://www.bol.com/nl/l/nederlandstalige-kinderboeken-vanaf-12-jaar-boek/N/24421/filter_N/46061+11209+8293/?rating=all\"><strong>deze pagina van bol.com</strong></a>.</div>\n<div> </div>\n<ol>\n<li><strong>Maak een gratis account aan bij Padlet</strong>. Gebruik hiervoor je Microsoft-account.</li>\n<li><strong>Kies twee of drie titels</strong> die je zou willen lezen, door de recensies die je hebt gelezen.</li>\n<li><strong>Maak voor elke titel een aparte 'post'</strong> en geef je post dezelfde titel als het boek. Zie mijn voorbeelden in Padlet.</li>\n<li><strong>Markeer de stukken tekst</strong> waar de recensent een mening geeft.</li>\n<li><strong>Maak de stukken tekst dik gedrukt</strong> waar de recensent feitelijke informatie geeft.</li>\n<li><strong>Schrijf op waarom dit boek je aanspreekt, door de recensie.</strong> Maak dit stukje tekst herkenbaar door er een 'code' (<strong>&lt;&gt;</strong>) van te maken en de tekst <em>schuin</em> te maken.</li>\n</ol>\n<div></div>\n<p><strong>Deadline: v\u00f3\u00f3r dinsdag 2 juni</strong></p>\n<div></div>\n<div>Volgende keer ga je elkaar feedback geven: zijn de meningen/feiten juist aangegeven? Heeft de recensent jou ook overtuigd?</div>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6073158"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Opdracht 4: Een langere recensie",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><strong>Deadline opdracht 4 en 5: di 9 juni</strong></p>\n<p>Lees onderstaande recensie over <strong>Schaduwzuster</strong> van Simone van der Vlugt en beantwoord dan de vraag.</p>\n<div>\n<hr/>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/3/3babeaa79201d7377aee9ae550cefeb7cc127630.PNG\" class=\"height-287-pixels width-204-pixels float-right\"/></p>\n<p>Niet iedereen is even blij met deze tweede roman. Ook ik ben uiteindelijk niet zo gecharmeerd van dit boek. Waarom niet? Ondanks de gedurfde opzet slaagt Van der Vlugt er op de \u00e9\u00e9n of andere manier niet in me te overtuigen en me mee te slepen in het verhaal.<br/>\nWat mij betreft heeft het grotendeels te maken met haar schrijfstijl en de huis-tuin-en-keuken-dingetjes die constant terugkomen. Van der Vlugt valt erg veel in herhaling. Zo benoemt Marjolein wel tig keer wat 'haar reden is waarom ze in het onderwijs is gegaan'. Marlieke benoemt steeds weer 'dat ze altijd in de schaduw van haar zus stond'. Van der Vlugt legt heel veel details uit, terwijl beschrijvingen van personages en hun gedrag vaak veel meer spanning opleveren. Ik blijf dus zitten met dubbele gevoelens over dit boek met dubbele bodems. Ik waardeer de opzet die op zich potentie heeft. Maar de aankleding levert niet echt een spannend verhaal op en echt boeien deed het boek me uiteindelijk niet.<br/>\nVan de schrijfster is al bekend dat ze een vlotte pen heeft en dat blijkt ook in Schaduwzuster. Het verhaal snelt van bladzijde naar bladzijde en laat zich makkelijk lezen. Sterker dan in haar eerste boek, dat meer een roman dan een thriller was, bouwt Van der Vlugt in Schaduwzuster spanning op. Daarbij volgt ze de lijn van de traditionele Engelse detectiveverhalen waar de speurder op de laatste bladzijde onverwachts de butler als schuldige aanwijst. Net als bij boeken van Ruth Rendell of P.D. Jamer blijkt de lezer voortdurend op het verkeerde been te zijn gezet. Het geeft Schaduwzuster dat beetje extra dat het tot een goed geschreven boek maakt. Maar goed schrijven is nu eenmaal niet genoeg om de lezer te overtuigen.</p>\n<hr/></div>\n<p>Lees de vier uitspraken over de recensie. Welke uitspraken kloppen?<br/>\nMeerdere antwoorden mogelijk.</p>\n<ol start=\"1\">\n<li>In de recensie wordt verklapt hoe het verhaal afloopt.</li>\n<li>In de recensie worden enkele hoofdpersonen genoemd.</li>\n<li>De recensie is alleen maar negatief over dit boek.</li>\n<li>In de recensie wordt het boek vergeleken met andere boeken in dit genre.</li>\n</ol>\n<p>Vergelijk je antwoord met het antwoord van een klasgenoot, bijvoorbeeld via Teams Chat.<br/>\nNoteer je antwoord in een Word-bestand, en sla die op onder de naam 'Recensies beoordelen'.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6073160"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Opdracht 5: Een recensie beoordelen",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><strong>Deadline opdracht 4 en 5: 9 juni</strong></p>\n<p>Lees onderstaande recensie.</p>\n<div>\n<hr/>\n<strong>Niet geschikt voor donkere, stille nachten!</strong><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/b/bf97b3cbfaf1e54caf822515300dbcf456c8a0b4.JPG\" class=\"height-260-pixels width-175-pixels float-right\"/><br/>\nHou jij van griezelverhalen? Spannende spookverhalen waarvan de haartjes op je armen tijdens het lezen langzaam overeind gaan staan? Edgar, de hoofdpersoon uit het boek 'De verschrikkelijke verhalen van oom M.' van schrijver Chris Priestley, is dol op dit soort verhalen. En hij heeft geluk: hij heeft een oom die er geen genoeg van krijgt ze te vertellen.<br/>\n<br/>\nEdgars oom woont in een groot oud huis midden in het bos. De weg ernaartoe is lang, met treurige kale bomen langs het pad en een klemmend tuinhek op het eind. Soms staan de kinderen uit het dorp zwijgend tussen de bomen. Edgar is elke keer blij als hij weer veilig binnen is, in de studeerkamer van oom Montague. Daar, bij het brandende haardvuur en met een kop warme thee binnen handbereik, luistert Edgar ademloos naar de verhalen van zijn oom. Onheilspellende verhalen met namen als 'De on-deur', 'Het duivelse uiteinde van de bank' en 'Offerandes'. In elk verhaal speelt een vreemd voorwerp een belangrijke rol, en op een gegeven moment begint Edgar zich af te vragen hoe het kan dat oom M. al die voorwerpen in zijn huis heeft staan. De verhalen waren allemaal toch maar verzonnen? Of niet? Krijg je hiervan al rillingen, dan kun je maar beter niet aan 'De verschrikkelijke verhalen van oom M.' beginnen. De verhalen die oom Montague vertelt zijn soms namelijk behoorlijk eng. Niet omdat er afgehakte armen of benen in het rond vliegen. Of omdat er steeds allemaal vampiers en weerwolven in opduiken, zoals we dat uit de griezelboeken van bijvoorbeeld Paul van Loon kennen. Nee, in dit boek wordt de spanning juist langzaam opgevoerd. Dat zit hem in de rustige vertelstem van oom M., het flakkerende kaarslicht en de langwerpige schaduwen op de muren. Tel daar het onverwachte einde en de geheimzinnige, sfeervolle zwart-wit illustraties van David Roberts bij op en je bent van kippenvel verzekerd. 'De verschrikkelijke verhalen van oom M.' is een prachtig spookboek dat je zeker moet lezen. Maar misschien niet als je alleen thuis bent en het buiten al donker is!<br/>\n<br/>\nMarlous\n<hr/></div>\n<p>Beantwoord naar aanleiding van de recensie van '<em>De verschrikkelijke verhalen van oom M.</em>' de volgende vragen in je Word-document met de naam 'Recensies beoordelen'.</p>\n<ol start=\"1\">\n<li>Heeft deze recensie een duidelijke inleiding? Waaraan zie je dat?</li>\n<li>Tot welk genre hoort het besproken boek?</li>\n<li>Met welke andere schrijver vergelijkt de recensie dit boek?</li>\n<li>Noem twee redenen waarom deze recensent dit een goed boek vindt.</li>\n<li>Geef een voorbeeld van een persoonlijke mening in deze recensie, waar je het niet mee eens hoeft te zijn. Leg uit waarom niet.</li>\n<li>Zou jij het boek willen lezen na deze recensie? Waarom (niet)?</li>\n</ol>\n<p>Sla je Word-bestand op, en lever deze in via de daarvoor bestemde inlevermap in Magister.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "6073162"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Afronding",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "6073169"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Opdracht 6: Schrijfplan maken",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/e/e5699aaf897428e0545a8e5a42bf22380995ca27.png\" class=\"height-227-pixels width-200-pixels float-right\"/>Je gaat straks een <strong>recensie</strong> schrijven over het boek dat je hebt gelezen.<br/>\n<br/>\nDeze recensie moet goed zijn opgebouwd. Verwerk de volgende punten.</p>\n<ul>\n<li>Zet in je inleiding belangrijke <strong>informatie</strong>, zoals titel en maker.</li>\n<li>Beschrijf in het middenstuk kort de <strong>inhoud</strong>. Beperk je tot de hoofdlijnen.</li>\n<li>Geef je <strong>mening</strong> met argumenten.</li>\n<li>Gebruik <strong>minimaal 3 beoordelingswoorden</strong>. Bekijk daarvoor <a href=\"https://www.mrchadd.nl/academy/vakken/nederlands/beoordelingswoorden\" target=\"_blank\"><strong><span class=\"underline\">deze website</span></strong></a>.</li>\n<li>Vermeld in het slot nog eens kort jouw <strong>conclusie.</strong></li>\n</ul>\n<hr/>"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Om je voor te bereiden op het schrijven van je eigen recensie, ga je eerst een schrijfplan invullen.</p>\n<p>Dit formulier is het bouwplan van je tekst. Hierin geef je aan hoe je je tekst gaat opbouwen en wat voor idee\u00ebn je hebt voor de inleiding, kern en het slot. Dit bouwplan gebruik je bij het schrijven van je tekst.</p>\n<p><a class=\"content-link-button\" href=\"https://maken.wikiwijs.nl/bestanden/1014437/schrijfplanrecensie.docx\" role=\"button\" target=\"_blank\">Schrijfplan Recensie</a></p>\n<hr/>"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<h2><strong>Opdracht 6A - Schrijfplan kort verhaal</strong></h2>\n<p><strong>Deadline: di 16 juni</strong></p>\n<p>Kies een van de twee korte verhalen uit en lees deze. Nadat je hebt gelezen, ga je een schrijfplan invullen. Deze lever je in via de daarvoor bestemde inlevermap in Magister.</p>\n<p> </p>\n<table align=\"left\" border=\"0\" cellpadding=\"1\" cellspacing=\"1\" class=\"width-1000-pixels\">\n<tbody>\n<tr>\n<td>\n<p><a class=\"content-link-button\" href=\"https://maken.wikiwijs.nl/userfiles/a8902c9d817064c472e6916715fb7ae373091fe3.pdf\" role=\"button\" target=\"_blank\">Poep - Manon Uphoff</a></p>\n<p><strong>Een verhaal over hebzucht en vooral over twee hele grote dampende drollen.</strong></p>\n<p>Sommigen beschouwen dit verhaal het beste dat ooit in het Nederlands is geschreven.</p>\n<p>Dit verhaal is ook voorgelezen. Deze versie vind je <strong><a href=\"https://podcastluisteren.nl/ep/Uitgelezen-Verhalen-acteurs-lezen-de-mooiste-verhalen-voor-Het-beste-korte-verhaal-Manon-Uphoffs-Poep-gelezen-door-Carla-Hardy#/\" target=\"_blank\">hier</a></strong>.</p>\n</td>\n<td>\n<p><a class=\"content-link-button\" href=\"https://maken.wikiwijs.nl/userfiles/2dca6c12ead5941c92e9a4784ae30aaceda110f7.docx\" role=\"button\" target=\"_blank\">Een bord vol spaghetti - Adriaan van Dis</a></p>\n<p><strong>Een verhaal over vooroordelen, misverstanden en racisme.</strong></p>\n<p>Dit verhaal maakt bij veel mensen nogal wat emoties los.</p>\n<p> </p>\n</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<p> </p>\n<hr/>"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<h2><strong>Opdracht 6B - Schrijfplan boek</strong></h2>\n<p><strong>Deadline: di 23 juni</strong></p>\n<p>Maak nu een schrijfplan voor het boek dat je gelezen hebt. Lever het schrijfplan in via de daarvoor bestemde inlevermap in Magister.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6073300"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Opdracht 7: Boekrecensie schrijven",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/e/e5699aaf897428e0545a8e5a42bf22380995ca27.png\" class=\"height-227-pixels width-200-pixels float-right\"/><strong>Deadline eerste versie: 29 juni</strong></p>\n<p>Je gaat nu een <strong>recensie</strong> schrijven over het boek dat je hebt gelezen.<br/>\n<br/>\nDeze recensie moet goed zijn opgebouwd (inleiding-kern-slot) en gebruik alinea's. Verwerk de volgende punten.</p>\n<ul>\n<li>Zet in je inleiding belangrijke <strong>informatie</strong>, zoals titel en maker.</li>\n<li>Beschrijf in het middenstuk kort de <strong>inhoud</strong>. Beperk je tot de hoofdlijnen.</li>\n<li>Geef je <strong>mening</strong> met argumenten.</li>\n<li>Gebruik <strong>minimaal 3 beoordelingswoorden</strong>. Bekijk daarvoor <a href=\"https://www.mrchadd.nl/academy/vakken/nederlands/beoordelingswoorden\" target=\"_blank\"><strong><span class=\"underline\">deze website</span></strong></a>.</li>\n<li>Vermeld in het slot nog eens kort jouw <strong>conclusie</strong>.</li>\n</ul>\n<p>Schrijf je recensie eerst in Word. Gebruik lettertype Arial 12. Je recensie mag niet langer zijn dan een A4'tje. Zet je spellingscontrole aan!</p>\n<hr/>\n<p>Publiceer de eerste versie van je recensie via Kidblog<strong>.</strong> Jullie gaan hier elkaar feedback geven op de recensie.</p>\n<p>Het eindproduct, de recensie waarin je de feedback van je klasgenoten verwerkt hebt, lever je <strong>vrijdag 3 juli</strong> in.</p>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<h2><strong>Beoordeling</strong></h2>\n<p>Je recensie wordt beoordeeld door je docent. Je docent beoordeelt je recensie aan de hand van de volgende punten:</p>\n<ul>\n<li>Is de recensie niet langer dan \u00e9\u00e9n A4-tje?</li>\n<li>Staat de juiste informatie in de recensie?</li>\n<li>Staan er voorbeelden/citaten in de recensie?</li>\n<li>Staat je mening met argumenten over het boek in de recensie?</li>\n<li>Gebruik je minimaal 3 beoordelingswoorden?</li>\n<li>Is de recensie opgebouwd in alinea's?</li>\n<li>Is de recensie geschreven in goed en verzorgd Nederlands?</li>\n<li>Is de recensie prettig om te lezen?</li>\n</ul>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6073172"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Extra opdracht",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/c/c442c0086cb1b98c5b0080cdcdb0f647128881f5.png\" class=\"height-200-pixels width-200-pixels float-right\"/>Hier vind je een extra oefening over het schrijven van een recensie.</p>\n<p>Download het <a href=\"https://docs.google.com/document/d/1esOXsNx4DVLf2kA2m0kowUjlr3OSoO1309NKYymq8_U/edit?usp=sharing\" target=\"_blank\"><span class=\"underline\"><strong>tekstbestand Extra oefening A</strong></span></a><br/>\nMaak een kopie van het werkblad in je eigen omgeving (Bestand - Een kopie maken...) of download het werkblad (Bestand - Downloaden als).\u200b<br/>\n<br/>\nLees de recensie van het boek 'Breuklijn' van Ludo Enckels.<br/>\nGeef antwoord op de volgende vragen.</p>\n<ol start=\"1\">\n<li>Noem drie voorbeelden van <strong>feitelijke informatie</strong> in deze recensie.</li>\n<li>Noem twee voorbeelden van een <strong>mening</strong> in deze recensie.</li>\n</ol>\n<p>Noteer de antwoorden onder de recensie. Vergelijk je antwoorden met de antwoorden van een klasgenoot.<br/>\n<br/>\nLees meer over het boek via: <a href=\"https://www.hebban.nl/boek/breuklijn-ludo-enckels\" target=\"_blank\"><span class=\"underline\"><strong>www.hebban.nl</strong></span></a><br/>\n<br/>\n<strong>Extra oefening B</strong><br/>\nDownload het <a href=\"https://docs.google.com/document/d/1T_ZkP97MT7mYs78qZAfLFT9mHEi2qnC5c_RignojimQ/edit?usp=sharing\" target=\"_blank\"><span class=\"underline\"><strong>tekstbestand Extra oefening B</strong></span></a><br/>\nMaak een kopie van het werkblad in je eigen omgeving (Bestand - Een kopie maken...) of download het werkblad (Bestand - Downloaden als).\u200b<br/>\n<br/>\nLees de recensie van het boek 'Alleen op zee' van Michael Morpurgo.<br/>\nGeef antwoord op de volgende vragen.</p>\n<ol start=\"1\">\n<li>Noem drie voorbeelden van <strong>feitelijke informatie</strong> in deze recensie.</li>\n<li>Noem twee voorbeelden van een <strong>mening</strong> in deze recensie.</li>\n</ol>\n<p>Noteer de antwoorden onder de recensie. Vergelijk je antwoorden met de antwoorden van een klasgenoot.</p>\n<p>Lees meer over het boek via: <strong><a href=\"https://www.pluizer.be/kinderboeken-jeugdboeken/alleen-op-zee\" target=\"_blank\">www.pluizer.be</a></strong></p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6073174"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Terugkijken",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/f/fb552223728037f222ef826c022e2bb94af3dfd7.png\" class=\"height-227-pixels width-200-pixels float-right\"/>Bespreek deze vragen met een klasgenoot en schrijf hier een kort verslagje over. Deze lever je <strong>uiterlijk 7 juli</strong> in via de daarvoor bestemde inlevermap in Magister.</p>\n<p><strong>Intro</strong></p>\n<ul>\n<li>Lees de intro van deze opdracht nog eens door.</li>\n</ul>\n<p><strong>Kan ik wat ik moet kunnen?</strong></p>\n<ul>\n<li>Lees de leerdoelen van deze opdracht nog eens door.<br/>\nKun je wat je moet kunnen?</li>\n</ul>\n<p><strong>Hoe ging het?</strong></p>\n<ul>\n<li><strong>Tijd</strong><br/>\nBij de activiteiten stond dat je ongeveer 2 uur met de opdracht bezig zou zijn.<br/>\nHad je die tijd ook nodig voor deze opdracht of kwam je tijd te kort? Hoeveel tijd heb je besteed aan het lezen van je boek?</li>\n</ul>\n<ul>\n<li>\n<p><strong>Inhoud</strong><br/>\nZijn er boeken in deze opdracht behandeld die je al gelezen had? Lukt het om je mening over een boek op te schrijven?</p>\n</li>\n<li>\n<p><strong>Eindopdracht</strong><br/>\nWat vond je van de eindopdracht?<br/>\nIs het gelukt om naast je mening ook goede informatie over het boek te geven?<br/>\nWelk onderdeel van je recensie vond je het meest lastig en welke het minst lastig?<br/>\nHeb je voor het schrijven van je recensie hulp nodig gehad van een klasgenoot of je docent?</p>\n</li>\n</ul>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": "https://maken.wikiwijs.nl/generated/b1200x76_db372b4a53d35a0cf2e637e3e42b9a388797d569.jpg",
+            "dimension": null,
+            "suppressTitle": true
+        },
+        "color": "#333333"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Recensie",
+                "reference": {
+                    "value": "6073139"
+                },
+                "sections": [
+                    {
+                        "title": "Intro",
+                        "reference": {
+                            "value": "6073140"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Wat kan ik straks?",
+                        "reference": {
+                            "value": "6073143"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Wat ga ik doen?",
+                        "reference": {
+                            "value": "6073145"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Kennisbank",
+                        "reference": {
+                            "value": "6073163"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Aan de slag",
+                "reference": {
+                    "value": "6073147"
+                },
+                "sections": [
+                    {
+                        "title": "Boekkeuze doorgeven",
+                        "reference": {
+                            "value": "6073167"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Opdracht 1: Zelf een recensie zoeken",
+                        "reference": {
+                            "value": "6073177"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Opdracht 2: Eisen aan een recensie",
+                        "reference": {
+                            "value": "6073184"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Opdracht 3: Korte recensies",
+                        "reference": {
+                            "value": "6073209"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Opdracht 4: Een langere recensie",
+                        "reference": {
+                            "value": "6073158"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Opdracht 5: Een recensie beoordelen",
+                        "reference": {
+                            "value": "6073160"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Afronding",
+                "reference": {
+                    "value": "6073162"
+                },
+                "sections": [
+                    {
+                        "title": "Opdracht 6: Schrijfplan maken",
+                        "reference": {
+                            "value": "6073169"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Opdracht 7: Boekrecensie schrijven",
+                        "reference": {
+                            "value": "6073300"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Extra opdracht",
+                        "reference": {
+                            "value": "6073172"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Terugkijken",
+                        "reference": {
+                            "value": "6073174"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": "",
+        "imageSrc": null,
+        "sources": [],
+        "metadata": [
+            {
+                "key": "educationalLevels",
+                "label": "Leerniveaus",
+                "terms": {
+                    "12e85a55-b3ae-4e7f-a2a0-d645f4c573bf": "VMBO kaderberoepsgerichte leerweg, 1",
+                    "54edd410-2315-4eb3-a573-0e1cd59184fd": "VMBO theoretische leerweg, 1",
+                    "8ae2af2d-890e-49d6-95cb-3619acb5c2cf": "VMBO gemengde leerweg, 1"
+                }
+            },
+            {
+                "key": "disciplines",
+                "label": "Leerinhoud en doelen",
+                "terms": {
+                    "0b50680d-b0d0-45c3-949d-dfd9507c67ca": "Schrijven",
+                    "3401cf6e-82e4-404c-b216-b980ff407159": "Nederlands",
+                    "35be183e-0a81-41da-985b-35ac29677faa": "Schrijfvaardigheid"
+                }
+            },
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            },
+            {
+                "key": "learningTime",
+                "label": "Studiebelasting",
+                "terms": [
+                    "4 uur en 0 minuten"
+                ]
+            },
+            {
+                "key": "keywords",
+                "label": "Trefwoorden",
+                "terms": [
+                    "arrangeerbaar",
+                    "leerlijn",
+                    "rearrangeerbare"
+                ]
+            }
+        ],
+        "usedLearningResources": [
+            {
+                "author": {
+                    "fullName": null,
+                    "referenceName": "van Tilburg, Renee",
+                    "reference": {
+                        "value": "127009"
+                    },
+                    "firstName": "Renee",
+                    "infix": null,
+                    "lastName": "van Tilburg",
+                    "emailAddress": "tilburg@glr.nl",
+                    "type": "author"
+                },
+                "title": "Fictieopdracht Jaar 2 - Recensie",
+                "url": "https://maken.wikiwijs.nl/161744/",
+                "datePublished": "2020-05-21T14:44:40+02:00"
+            }
+        ]
+    }
+}

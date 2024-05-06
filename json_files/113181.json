@@ -1,0 +1,2525 @@
+{
+    "documentAuthors": [
+        "Hilda Oosterkamp"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Hilda Oosterkamp",
+            "referenceName": null,
+            "reference": {
+                "value": "48718"
+            },
+            "firstName": "Hilda",
+            "infix": null,
+            "lastName": "Oosterkamp",
+            "emailAddress": "hilda.oosterkamp@outlook.com",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2017-10-30T10:38:26Z",
+    "bulkId": "bulk-17041135-refresh_all",
+    "identifier": 113181,
+    "title": "de mens",
+    "description": "",
+    "lastModifiedDate": "2017-10-30T10:38:26+01:00",
+    "dateCreated": "2017-10-25T07:10:43+02:00",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "Oosterkamp, Hilda",
+                "reference": {
+                    "value": "48718"
+                },
+                "firstName": "Hilda",
+                "infix": null,
+                "lastName": "Oosterkamp",
+                "emailAddress": "hilda.oosterkamp@outlook.com",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-30",
+            "name": "CC Naamsvermelding 3.0 Nederland licentie",
+            "description": "De Nederlandse Creative Commons 3.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/3.0/nl/.",
+            "link": "http://creativecommons.org/licenses/by/3.0/nl/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/113181/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "3799633"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "groei en ontwikkeling",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "3799640"
+                    },
+                    "assessmentItem": {
+                        "identifier": "3799640",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "matchInteraction",
+                                "label": "Begrippen",
+                                "prompt": {
+                                    "body": "<p>Welke uitleg hoort bij welk begrip</p>"
+                                },
+                                "shuffle": true,
+                                "minAssociations": 3,
+                                "maxAssociations": 3,
+                                "sourceSimpleMatchSet": [
+                                    {
+                                        "identifier": "SOURCE_1",
+                                        "content": {
+                                            "body": "<p>de bouw van het lichaam, topografie van het lichaam</p>"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "SOURCE_3",
+                                        "content": {
+                                            "body": "<p>de werking en functie van het lichaam</p>"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "SOURCE_2",
+                                        "content": {
+                                            "body": "<p>ziekteleer</p>"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    }
+                                ],
+                                "targetSimpleMatchSet": [
+                                    {
+                                        "identifier": "TARGET_1",
+                                        "content": {
+                                            "body": "<p>Anatomie</p>"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "TARGET_2",
+                                        "content": {
+                                            "body": "<p>Pathologie</p>"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "TARGET_3",
+                                        "content": {
+                                            "body": "<p>Fysiologie</p>"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    }
+                                ],
+                                "responseIdentifier": "3799640_1",
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_CORRECT",
+                                        "identifier": "FBC_3799640",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "Goed!"
+                                        }
+                                    },
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_INCORRECT",
+                                        "identifier": "FBI_3799640",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "Probeer het nog een keer!"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "3799640_1",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": "SOURCE_1",
+                                            "value": "TARGET_1"
+                                        },
+                                        {
+                                            "fieldIdentifier": "SOURCE_2",
+                                            "value": "TARGET_2"
+                                        },
+                                        {
+                                            "fieldIdentifier": "SOURCE_3",
+                                            "value": "TARGET_3"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": "0",
+                                    "upperBound": "1",
+                                    "default": "0",
+                                    "mapEntries": null
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": "0",
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": "1",
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>De groeispurt</p>\n<p>In Nederland wordt de groei van kinderen bijgehouden op het consultatiebureau. Dit geeft een gemiddelde aan van de lengte van kinderen tot 18 jaar. Er zijn 2 groeispurts. Niet alles groeit even snel, verschillende lichaamsdelen groeien in een ander tempo.</p>\n<p>Ontwikkeling is iets anders, dit betekend de verandering in het organisme. Bijvoorbeeld de ontwikkeling van kind naar puber naar volwassene. Ook wordt hiermee de geestelijke veranderingen bedoeld. Er zijn verschillende levensfases te onderscheiden.</p>\n"
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "3799643"
+                    },
+                    "assessmentItem": {
+                        "identifier": "3799643",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "orderInteraction",
+                                "label": "Levensfasen",
+                                "prompt": {
+                                    "body": "<p>Zet op volgorde.</p>"
+                                },
+                                "shuffle": true,
+                                "minChoices": 0,
+                                "maxChoices": 8,
+                                "orientation": "vertical",
+                                "choices": [
+                                    {
+                                        "identifier": "097bb6037e137f462f51b63b005f929b",
+                                        "content": {
+                                            "body": "volwassene"
+                                        },
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "97094d4eb5162950ed0f771abed47e4d",
+                                        "content": {
+                                            "body": "kleuter"
+                                        },
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "1815d0886d3fddd35b602bc0054b868d",
+                                        "content": {
+                                            "body": "schoolgaand kind"
+                                        },
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "7277e44510f33087d07f4066d0ce308b",
+                                        "content": {
+                                            "body": "baby"
+                                        },
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "1295359046aa972a407e41a1350316e7",
+                                        "content": {
+                                            "body": "peuter"
+                                        },
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "d7a77ae98a95e9d53208463bcd77886a",
+                                        "content": {
+                                            "body": "oudere of bejaarde"
+                                        },
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "34a62d178ce02431f5a37d345a57d7a8",
+                                        "content": {
+                                            "body": "adolescent"
+                                        },
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "ec46da4638d1a6bc9c7d601efcb88bd2",
+                                        "content": {
+                                            "body": "puber"
+                                        },
+                                        "feedbackInline": null
+                                    }
+                                ],
+                                "responseIdentifier": "3799643_1",
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_CORRECT",
+                                        "identifier": "FBC_3799643",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "Goed!"
+                                        }
+                                    },
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_INCORRECT",
+                                        "identifier": "FBI_3799643",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "Probeer het nog een keer!"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "3799643_1",
+                                "cardinality": "ordered",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "7277e44510f33087d07f4066d0ce308b"
+                                        },
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "1295359046aa972a407e41a1350316e7"
+                                        },
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "97094d4eb5162950ed0f771abed47e4d"
+                                        },
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "1815d0886d3fddd35b602bc0054b868d"
+                                        },
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "ec46da4638d1a6bc9c7d601efcb88bd2"
+                                        },
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "34a62d178ce02431f5a37d345a57d7a8"
+                                        },
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "097bb6037e137f462f51b63b005f929b"
+                                        },
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "d7a77ae98a95e9d53208463bcd77886a"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": [
+                                        {
+                                            "key": "7277e44510f33087d07f4066d0ce308b",
+                                            "value": 0.1,
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "1295359046aa972a407e41a1350316e7",
+                                            "value": 0.1,
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "97094d4eb5162950ed0f771abed47e4d",
+                                            "value": 0.1,
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "1815d0886d3fddd35b602bc0054b868d",
+                                            "value": 0.1,
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "ec46da4638d1a6bc9c7d601efcb88bd2",
+                                            "value": 0.1,
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "34a62d178ce02431f5a37d345a57d7a8",
+                                            "value": 0.1,
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "097bb6037e137f462f51b63b005f929b",
+                                            "value": 0.1,
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "d7a77ae98a95e9d53208463bcd77886a",
+                                            "value": 0.1,
+                                            "caseSensitive": false
+                                        }
+                                    ]
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": "0",
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": "1",
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "3799634"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "onderdelen en functies van ons lichaam",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "3799655"
+                    },
+                    "assessmentItem": {
+                        "identifier": "3799655",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "matchInteraction",
+                                "label": "Wat is wat",
+                                "prompt": {
+                                    "body": "<p>Zet de juiste plaatjes bij de juiste tekst</p>"
+                                },
+                                "shuffle": true,
+                                "minAssociations": 6,
+                                "maxAssociations": 6,
+                                "sourceSimpleMatchSet": [
+                                    {
+                                        "identifier": "SOURCE_2",
+                                        "content": {
+                                            "body": "beenderenstelsel"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "SOURCE_6",
+                                        "content": {
+                                            "body": "zenuwstelsel"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "SOURCE_3",
+                                        "content": {
+                                            "body": "spierstelsel"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "SOURCE_4",
+                                        "content": {
+                                            "body": "spijsverteringsstelsel"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "SOURCE_5",
+                                        "content": {
+                                            "body": "vaatstelsel"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "SOURCE_1",
+                                        "content": {
+                                            "body": "ademhalingsstelsel"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    }
+                                ],
+                                "targetSimpleMatchSet": [
+                                    {
+                                        "identifier": "TARGET_1",
+                                        "content": {
+                                            "body": "<img src=\"https://maken.wikiwijs.nl/userfiles/6/6f29f60568f5c9c3fc543e52aeae9380d2675a33.jpg\" />"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "TARGET_2",
+                                        "content": {
+                                            "body": "<img src=\"https://maken.wikiwijs.nl/userfiles/4/4e4743cd99e97b0333c94e3ae58d3591703c8fd7.jpg\" />"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "TARGET_3",
+                                        "content": {
+                                            "body": "<img src=\"https://maken.wikiwijs.nl/userfiles/b/bfca94c573cf2416eee9603956f65c71061c44f1.jpg\" />"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "TARGET_4",
+                                        "content": {
+                                            "body": "<img src=\"https://maken.wikiwijs.nl/userfiles/c/c59f7af0101ee224cad308348cd9a6a880505da9.png\" />"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "TARGET_5",
+                                        "content": {
+                                            "body": "<img src=\"https://maken.wikiwijs.nl/userfiles/8/8269c8239a65918a179cb1156f1abf1f4c3f0f49.jpg\" />"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "TARGET_6",
+                                        "content": {
+                                            "body": "<img src=\"https://maken.wikiwijs.nl/userfiles/d/dfcf98569add7f40e1a0196bcaba16bb2b7a0a7e.jpg\" />"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    }
+                                ],
+                                "responseIdentifier": "3799655_1",
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_CORRECT",
+                                        "identifier": "FBC_3799655",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "Goed!"
+                                        }
+                                    },
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_INCORRECT",
+                                        "identifier": "FBI_3799655",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "Probeer het nog een keer!"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "3799655_1",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": "SOURCE_1",
+                                            "value": "TARGET_1"
+                                        },
+                                        {
+                                            "fieldIdentifier": "SOURCE_2",
+                                            "value": "TARGET_2"
+                                        },
+                                        {
+                                            "fieldIdentifier": "SOURCE_3",
+                                            "value": "TARGET_3"
+                                        },
+                                        {
+                                            "fieldIdentifier": "SOURCE_4",
+                                            "value": "TARGET_4"
+                                        },
+                                        {
+                                            "fieldIdentifier": "SOURCE_5",
+                                            "value": "TARGET_5"
+                                        },
+                                        {
+                                            "fieldIdentifier": "SOURCE_6",
+                                            "value": "TARGET_6"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": "0",
+                                    "upperBound": "1",
+                                    "default": "0",
+                                    "mapEntries": null
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": "0",
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": "1",
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "3799658"
+                    },
+                    "assessmentItem": {
+                        "identifier": "3799658",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Orgaanstelsels",
+                                "prompt": {
+                                    "body": "<p>Schrijf op wat een orgaanstelsel is.</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "3799658_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>In je antwoord moeten de volgende woorden staan</p>\r\n\r\n<p>Stelsel</p>\r\n\r\n<p>Organen</p>\r\n\r\n<p>Samenwerken</p>\r\n\r\n<p>Nodig om een taak van het lichaam uit te voeren</p>\r\n\r\n<p>&nbsp;</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>In je antwoord moeten de volgende woorden staan</p>\n<p>Stelsel</p>\n<p>Organen</p>\n<p>Samenwerken</p>\n<p>Nodig om een taak van het lichaam uit te voeren</p>\n<p> </p>"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Ben jij al orgaandonor?</p>\n<p>Lees de tekst en klik op de argumenten voor en tegen. Overleg met je buurman/vrouw waarom je voor of tegen orgaandonatie bent.</p>\n"
+                },
+                {
+                    "type": "link",
+                    "link": "https://www.transplantatiestichting.nl/donor-worden?gclid=Cj0KCQjwybvPBRDBARIsAA7T2khgb0wDlGHDh9JEt7spARRQEdN-qorZUSIRFRqKlJ4C4JWfETeJwukaAqX0EALw_wcB",
+                    "title": "",
+                    "description": "",
+                    "comment": ""
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "3799659"
+                    },
+                    "assessmentItem": {
+                        "identifier": "3799659",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "hottextInteraction",
+                                "content": {
+                                    "body": "<p>In de tekst staan de vitale functies van het lichaam. Het gaat om de begrippen iuit het boek. Selecteer deze!</p>\n<p>Om <hottext identifier=\"H_661fd796465c2\">in leven</hottext> te blijven zijn vitale functies belangrijk. Zonder <hottext identifier=\"H_661fd796465cf\">vitale functies</hottext> kan ons lichaam niet bestaan. Als je <hottext identifier=\"H_661fd796465d3\">bewustzijn</hottext> wegvalt, weet iemand die je vindt <hottext identifier=\"H_661fd796465d6\">niet of het goed met je gaat</hottext>. Ook als je <hottext identifier=\"H_661fd796465d9\">geen adem meer haalt</hottext>kunnen de organen niet worden voorzien van <hottext identifier=\"H_661fd796465dc\">zuurstof</hottext>. Om de zuurstof te vervoeren heb je een bloedsomloop nodig. Je moet een <hottext identifier=\"H_661fd796465de\">hartslag</hottext> houden en een <hottext identifier=\"H_661fd796465e1\">bloeddruk</hottext> om de bloedsomloop voldoende te laten werken. Ook als je <hottext identifier=\"H_661fd796465e3\">erg afkoelt</hottext>, bijvoorbeeld als je onder het ijs zou schieten tijdens het schaatsen, daalt je <hottext identifier=\"H_661fd796465e6\">temperatuur</hottext> en kun je <hottext identifier=\"H_661fd796465e9\">overlijden.</hottext></p>",
+                                    "items": [
+                                        {
+                                            "value": "in leven",
+                                            "identifier": "H_661fd796465c2",
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "value": "vitale functies",
+                                            "identifier": "H_661fd796465cf",
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "value": "bewustzijn",
+                                            "identifier": "H_661fd796465d3",
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "value": "niet of het goed met je gaat",
+                                            "identifier": "H_661fd796465d6",
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "value": "geen adem meer haalt",
+                                            "identifier": "H_661fd796465d9",
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "value": "zuurstof",
+                                            "identifier": "H_661fd796465dc",
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "value": "hartslag",
+                                            "identifier": "H_661fd796465de",
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "value": "bloeddruk",
+                                            "identifier": "H_661fd796465e1",
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "value": "erg afkoelt",
+                                            "identifier": "H_661fd796465e3",
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "value": "temperatuur",
+                                            "identifier": "H_661fd796465e6",
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "value": "overlijden.",
+                                            "identifier": "H_661fd796465e9",
+                                            "feedbackInline": null
+                                        }
+                                    ]
+                                },
+                                "label": "Vitale functies",
+                                "maxChoices": 11,
+                                "minChoices": 0,
+                                "responseIdentifier": "3799659_1",
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_CORRECT",
+                                        "identifier": "FBC_3799659",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "Goed!"
+                                        }
+                                    },
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_INCORRECT",
+                                        "identifier": "FBI_3799659",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "Probeer het nog een keer!"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "3799659_1",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "H_661fd796465d3"
+                                        },
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "H_661fd796465d9"
+                                        },
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "H_661fd796465de"
+                                        },
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "H_661fd796465e1"
+                                        },
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "H_661fd796465e6"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": [
+                                        {
+                                            "key": "H_661fd796465c2",
+                                            "value": 0,
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "H_661fd796465cf",
+                                            "value": 0,
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "H_661fd796465d3",
+                                            "value": 0.2,
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "H_661fd796465d6",
+                                            "value": 0,
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "H_661fd796465d9",
+                                            "value": 0.2,
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "H_661fd796465dc",
+                                            "value": 0,
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "H_661fd796465de",
+                                            "value": 0.2,
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "H_661fd796465e1",
+                                            "value": 0.2,
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "H_661fd796465e3",
+                                            "value": 0,
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "H_661fd796465e6",
+                                            "value": 0.2,
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "H_661fd796465e9",
+                                            "value": 0,
+                                            "caseSensitive": false
+                                        }
+                                    ]
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 1,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "3799635"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "cellen en celdeling",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "3799663"
+                    },
+                    "assessmentItem": {
+                        "identifier": "3799663",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "choiceInteraction",
+                                "label": "Welke bewering is waar",
+                                "prompt": {
+                                    "body": "<p>Welke bewering over cellen is waar, kies er 4</p>"
+                                },
+                                "shuffle": true,
+                                "maxChoices": 7,
+                                "minChoices": 0,
+                                "orientation": "vertical",
+                                "choices": [
+                                    {
+                                        "identifier": "0",
+                                        "content": {
+                                            "body": "Cellen zijn erg klein, kunnen alleen met een microscoop gezien worden"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "0",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "1",
+                                        "content": {
+                                            "body": "Cellen zijn altijd rond"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "1",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "2",
+                                        "content": {
+                                            "body": "Cellen bestaan uit een celkern, een celmenbraam, een celkernmenbraan en cytoplasma"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "2",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "3",
+                                        "content": {
+                                            "body": "De vorm van de cellen heeft niets te maken met de functie van die cellen"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "3",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "4",
+                                        "content": {
+                                            "body": "In het cytoplasma zweven opgeloste stoffen zoals voedingsstoffen"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "4",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "5",
+                                        "content": {
+                                            "body": "een celmenbraam bestaat uit eiwitten en en vetten"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "5",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "6",
+                                        "content": {
+                                            "body": "In de celkern gebeurt er weinig, deze zorgt alleen voor de celdeling"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "6",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    }
+                                ],
+                                "responseIdentifier": "3799663_1",
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "3799663_1",
+                                "cardinality": "ordered",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "0"
+                                        },
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "2"
+                                        },
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "4"
+                                        },
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "5"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": "0",
+                                    "upperBound": 0,
+                                    "default": "0",
+                                    "mapEntries": [
+                                        {
+                                            "key": "0",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "1",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "2",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "3",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "4",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "5",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "6",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        }
+                                    ]
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": "0",
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "3799667"
+                    },
+                    "assessmentItem": {
+                        "identifier": "3799667",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "textEntryInteraction",
+                                "content": {
+                                    "body": "<p>In de celkern liggen de <textentry identifier=\"TE_661fd79647bf9\"></textentry>deze bevatten DNA. Bij de celdeling worden ze zichtbaar. We hebben er als mens <textentry identifier=\"TE_661fd79647c04\"></textentry>.Ze zitten in alle cellen van ons lichaam.</p>\n<p>DNA bevat <textentry identifier=\"TE_661fd79647c08\"></textentry>over ons lichaam. het DNA heeft de vorm van een <textentry identifier=\"TE_661fd79647c0b\"></textentry>. Het DNA bestaat uit basen, <textentry identifier=\"TE_661fd79647c0d\"></textentry>soorten. Deze hebben een letter als naam en vormen altijd een paar met de dezelfde letter, namelijk <textentry identifier=\"TE_661fd79647c10\"></textentry>en <textentry identifier=\"TE_661fd79647c12\"></textentry>. Een stukje DNA heet een <textentry identifier=\"TE_661fd79647c15\"></textentry>.</p>",
+                                    "items": [
+                                        {
+                                            "identifier": "TE_661fd79647bf9",
+                                            "responseIdentifier": "TE_661fd79647bf9_0",
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "TE_661fd79647c04",
+                                            "responseIdentifier": "TE_661fd79647c04_1",
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "TE_661fd79647c08",
+                                            "responseIdentifier": "TE_661fd79647c08_2",
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "TE_661fd79647c0b",
+                                            "responseIdentifier": "TE_661fd79647c0b_3",
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "TE_661fd79647c0d",
+                                            "responseIdentifier": "TE_661fd79647c0d_4",
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "TE_661fd79647c10",
+                                            "responseIdentifier": "TE_661fd79647c10_5",
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "TE_661fd79647c12",
+                                            "responseIdentifier": "TE_661fd79647c12_6",
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "TE_661fd79647c15",
+                                            "responseIdentifier": "TE_661fd79647c15_7",
+                                            "feedbackInline": null
+                                        }
+                                    ]
+                                },
+                                "label": "Vul de juiste woorden in",
+                                "responseIdentifier": null,
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_CORRECT",
+                                        "identifier": "FBC_3799667",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "Goed!"
+                                        }
+                                    },
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_INCORRECT",
+                                        "identifier": "FBI_3799667",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "Probeer het nog een keer!"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "TE_661fd79647bf9_0",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "chromosomen"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0.13,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            },
+                            {
+                                "identifier": "TE_661fd79647c04_1",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "46"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0.13,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            },
+                            {
+                                "identifier": "TE_661fd79647c08_2",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "informatie"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0.13,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            },
+                            {
+                                "identifier": "TE_661fd79647c0b_3",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "wenteltrap"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0.13,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            },
+                            {
+                                "identifier": "TE_661fd79647c0d_4",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "4"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0.13,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            },
+                            {
+                                "identifier": "TE_661fd79647c10_5",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "A-T"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0.13,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            },
+                            {
+                                "identifier": "TE_661fd79647c12_6",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "C-G"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0.13,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            },
+                            {
+                                "identifier": "TE_661fd79647c15_7",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "gen"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0.13,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 1,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "3799913"
+                    },
+                    "assessmentItem": {
+                        "identifier": "3799913",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "matchInteraction",
+                                "label": "Celdeling",
+                                "prompt": {
+                                    "body": "<p>Wat hoort waar bij</p>"
+                                },
+                                "shuffle": true,
+                                "minAssociations": 4,
+                                "maxAssociations": 4,
+                                "sourceSimpleMatchSet": [
+                                    {
+                                        "identifier": "SOURCE_3",
+                                        "content": {
+                                            "body": "mitose"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "SOURCE_2",
+                                        "content": {
+                                            "body": "de chromosomen dupliceren zich"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "SOURCE_1",
+                                        "content": {
+                                            "body": "cel"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "SOURCE_4",
+                                        "content": {
+                                            "body": "2 cellen"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    }
+                                ],
+                                "targetSimpleMatchSet": [
+                                    {
+                                        "identifier": "TARGET_1",
+                                        "content": {
+                                            "body": "<img src=\"https://maken.wikiwijs.nl/userfiles/4/4f441f7bce078ea34cc8af29297ca3db07c2220a.png\" />"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "TARGET_2",
+                                        "content": {
+                                            "body": "<img src=\"https://maken.wikiwijs.nl/userfiles/9/97c0eebc237ca1dba5290e9a4058b8f297870b67.png\" />"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "TARGET_3",
+                                        "content": {
+                                            "body": "<img src=\"https://maken.wikiwijs.nl/userfiles/a/aafca835147f0774d522c0d60296f415e7a2872f.png\" />"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "TARGET_4",
+                                        "content": {
+                                            "body": "<img src=\"https://maken.wikiwijs.nl/userfiles/b/b57787aad736713f18e85a3eec6177a6f1ce0c20.png\" />"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    }
+                                ],
+                                "responseIdentifier": "3799913_1",
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_CORRECT",
+                                        "identifier": "FBC_3799913",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "Goed!"
+                                        }
+                                    },
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_INCORRECT",
+                                        "identifier": "FBI_3799913",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "Probeer het nog een keer!"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "3799913_1",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": "SOURCE_1",
+                                            "value": "TARGET_1"
+                                        },
+                                        {
+                                            "fieldIdentifier": "SOURCE_2",
+                                            "value": "TARGET_2"
+                                        },
+                                        {
+                                            "fieldIdentifier": "SOURCE_3",
+                                            "value": "TARGET_3"
+                                        },
+                                        {
+                                            "fieldIdentifier": "SOURCE_4",
+                                            "value": "TARGET_4"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": "0",
+                                    "upperBound": "1",
+                                    "default": "0",
+                                    "mapEntries": null
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": "0",
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": "1",
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "video",
+                    "url": "https://www.youtube.com/watch?v=6-BuyVNC3Ks",
+                    "align": "center",
+                    "caption": "https://www.youtube.com/watch?v=6-BuyVNC3Ks",
+                    "poster": "https://img.youtube.com/vi/6-BuyVNC3Ks/maxresdefault.jpg"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "3799637"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "gezondheid",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "3799919"
+                    },
+                    "assessmentItem": {
+                        "identifier": "3799919",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Preventie",
+                                "prompt": {
+                                    "body": "<p>Preventie is voorkoming van ziektes. het valt onder de gezondheidsbevoordering. Het gaat om maatregelen om ziekten te v\u00f3\u00f3rkomen. Er zijn 3 niveau's van preventie. welke?</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "3799919_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>primaire</p>\r\n\r\n<p>secundaire</p>\r\n\r\n<p>tertiaire</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>primaire</p>\n<p>secundaire</p>\n<p>tertiaire</p>"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "3799921"
+                    },
+                    "assessmentItem": {
+                        "identifier": "3799921",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "matchInteraction",
+                                "label": "Wat hoort bij elkaar",
+                                "prompt": {
+                                    "body": "<p>De volgende teksten moeten worden gecombineerd tot een logisch geheel</p>"
+                                },
+                                "shuffle": true,
+                                "minAssociations": 4,
+                                "maxAssociations": 4,
+                                "sourceSimpleMatchSet": [
+                                    {
+                                        "identifier": "SOURCE_1",
+                                        "content": {
+                                            "body": "<p>Inentingen</p>"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "SOURCE_2",
+                                        "content": {
+                                            "body": "<p>Gezondheidsadviezen en screening</p>"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "SOURCE_4",
+                                        "content": {
+                                            "body": "<p>Revalidatie</p>"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "SOURCE_3",
+                                        "content": {
+                                            "body": "<p>Wegnemen ricicofactoren en behandelen van de ziekte</p>"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    }
+                                ],
+                                "targetSimpleMatchSet": [
+                                    {
+                                        "identifier": "TARGET_1",
+                                        "content": {
+                                            "body": "<p>Voordat het voorstadium van een ziekte zich begint te ontwikkelen</p>"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "TARGET_2",
+                                        "content": {
+                                            "body": "<p>Vatbaarheid voor ziekten verminderen bij individuen of de gemeenschap</p>"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "TARGET_3",
+                                        "content": {
+                                            "body": "<p>Vroege en of symptoomloze fase van de ziekte</p>"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "TARGET_4",
+                                        "content": {
+                                            "body": "<p>De ziekte veroorzaakt klachten</p>"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    }
+                                ],
+                                "responseIdentifier": "3799921_1",
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_CORRECT",
+                                        "identifier": "FBC_3799921",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "Goed! weet je ook welke soort preventie bij de welke combinatie hoort?"
+                                        }
+                                    },
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_INCORRECT",
+                                        "identifier": "FBI_3799921",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "Probeer het nog een keer!"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "3799921_1",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": "SOURCE_1",
+                                            "value": "TARGET_1"
+                                        },
+                                        {
+                                            "fieldIdentifier": "SOURCE_2",
+                                            "value": "TARGET_2"
+                                        },
+                                        {
+                                            "fieldIdentifier": "SOURCE_3",
+                                            "value": "TARGET_3"
+                                        },
+                                        {
+                                            "fieldIdentifier": "SOURCE_4",
+                                            "value": "TARGET_4"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": "0",
+                                    "upperBound": "1",
+                                    "default": "0",
+                                    "mapEntries": null
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": "0",
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": "1",
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "3799927"
+                    },
+                    "assessmentItem": {
+                        "identifier": "3799927",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "matchInteraction",
+                                "label": "Screeningsmethoden",
+                                "prompt": {
+                                    "body": "<p>Welke screeningsmethode hoort bij de handeling?</p>"
+                                },
+                                "shuffle": true,
+                                "minAssociations": 7,
+                                "maxAssociations": 7,
+                                "sourceSimpleMatchSet": [
+                                    {
+                                        "identifier": "SOURCE_7",
+                                        "content": {
+                                            "body": "<p>controle foetus</p>"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "SOURCE_4",
+                                        "content": {
+                                            "body": "<p>Baarmoederhalskanker</p>"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "SOURCE_2",
+                                        "content": {
+                                            "body": "<p>Hoge bloeddruk</p>"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "SOURCE_3",
+                                        "content": {
+                                            "body": "<p>Oog en oorziekten</p>"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "SOURCE_1",
+                                        "content": {
+                                            "body": "<p>Eetstoornissen, factoren die groei hinderen</p>"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "SOURCE_5",
+                                        "content": {
+                                            "body": "<p>Borstkanker</p>"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "SOURCE_6",
+                                        "content": {
+                                            "body": "<p>Darmkanker</p>"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    }
+                                ],
+                                "targetSimpleMatchSet": [
+                                    {
+                                        "identifier": "TARGET_1",
+                                        "content": {
+                                            "body": "<p>Gewicht en lengte in de groeileeftijd</p>"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "TARGET_2",
+                                        "content": {
+                                            "body": "<p>Bloeddruk meten</p>"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "TARGET_3",
+                                        "content": {
+                                            "body": "<p>Screening van zicht, kleuren zien en gehoor</p>"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "TARGET_4",
+                                        "content": {
+                                            "body": "<p>Uitstrijkje</p>"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "TARGET_5",
+                                        "content": {
+                                            "body": "<p>Mammografie</p>"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "TARGET_6",
+                                        "content": {
+                                            "body": "<p>Ontlastingsonderzoek</p>"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "TARGET_7",
+                                        "content": {
+                                            "body": "<p>Echografie</p>"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    }
+                                ],
+                                "responseIdentifier": "3799927_1",
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_CORRECT",
+                                        "identifier": "FBC_3799927",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "Goed!"
+                                        }
+                                    },
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_INCORRECT",
+                                        "identifier": "FBI_3799927",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "Probeer het nog een keer!"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "3799927_1",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": "SOURCE_1",
+                                            "value": "TARGET_1"
+                                        },
+                                        {
+                                            "fieldIdentifier": "SOURCE_2",
+                                            "value": "TARGET_2"
+                                        },
+                                        {
+                                            "fieldIdentifier": "SOURCE_3",
+                                            "value": "TARGET_3"
+                                        },
+                                        {
+                                            "fieldIdentifier": "SOURCE_4",
+                                            "value": "TARGET_4"
+                                        },
+                                        {
+                                            "fieldIdentifier": "SOURCE_5",
+                                            "value": "TARGET_5"
+                                        },
+                                        {
+                                            "fieldIdentifier": "SOURCE_6",
+                                            "value": "TARGET_6"
+                                        },
+                                        {
+                                            "fieldIdentifier": "SOURCE_7",
+                                            "value": "TARGET_7"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": "0",
+                                    "upperBound": "1",
+                                    "default": "0",
+                                    "mapEntries": null
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": "0",
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": "1",
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "3799929"
+                    },
+                    "assessmentItem": {
+                        "identifier": "3799929",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Bewegen is goed voor jou!",
+                                "prompt": {
+                                    "body": "<p>De Fitnorm is een amerikaanse richtlijn. Wat houdt deze rihtlijn in?</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "3799929_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>Minimaal 3x per week 20 min. zwaar intensief bewegen</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>Minimaal 3x per week 20 min. zwaar intensief bewegen</p>"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "3799932"
+                    },
+                    "assessmentItem": {
+                        "identifier": "3799932",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Bewegen is goed voor jou 2!",
+                                "prompt": {
+                                    "body": "<p>De NNGB gaar uit van een andere normering.</p>\n<p>Hoeveel tijd moeten de volgende doelgroepen bewegen?-</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "3799932_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>- Jongeren, dagelijks 1 uur matig intensief, minimaal 2x per week sporten</p>\r\n\r\n<p>- Volwassenen, 5 dagen een &nbsp;1/2 uur matig intensief bewegen, liefst elke dag</p>\r\n\r\n<p>- 55+, 5 dagen een &nbsp;1/2 uur matig intensief bewegen, liefst elke dag</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>- Jongeren, dagelijks 1 uur matig intensief, minimaal 2x per week sporten</p>\n<p>- Volwassenen, 5 dagen een  1/2 uur matig intensief bewegen, liefst elke dag</p>\n<p>- 55+, 5 dagen een  1/2 uur matig intensief bewegen, liefst elke dag</p>"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/5/5619a117ce2514a1fdb9c0de8c0e88067a7baecd.png",
+                    "altText": "klik op de volgende link en maak de crosswordpuzzle",
+                    "alignment": "center",
+                    "scale": 0.3,
+                    "link": ""
+                },
+                {
+                    "type": "link",
+                    "link": "https://www.educaplay.com/en/learningresources/3302992/html5/gezondheid_van_de_nederlanders.htm",
+                    "title": "",
+                    "description": "",
+                    "comment": ""
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "3800061"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Afsluiting",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Maak nu een lijst met moeilijke woorden uit hoofdstuk 1 en zoek de betekenis hiervan op.</p>\n"
+                }
+            ],
+            "sections": []
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": null,
+            "dimension": null,
+            "suppressTitle": null
+        },
+        "color": "#495057"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "groei en ontwikkeling",
+                "reference": {
+                    "value": "3799633"
+                },
+                "sections": []
+            },
+            {
+                "title": "onderdelen en functies van ons lichaam",
+                "reference": {
+                    "value": "3799634"
+                },
+                "sections": []
+            },
+            {
+                "title": "cellen en celdeling",
+                "reference": {
+                    "value": "3799635"
+                },
+                "sections": []
+            },
+            {
+                "title": "gezondheid",
+                "reference": {
+                    "value": "3799637"
+                },
+                "sections": []
+            },
+            {
+                "title": "Afsluiting",
+                "reference": {
+                    "value": "3800061"
+                },
+                "sections": []
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": null,
+        "imageSrc": null,
+        "sources": [
+            {
+                "type": "link",
+                "title": "",
+                "origin": "https://www.transplantatiestichting.nl/donor-worden?gclid=Cj0KCQjwybvPBRDBARIsAA7T2khgb0wDlGHDh9JEt7spARRQEdN-qorZUSIRFRqKlJ4C4JWfETeJwukaAqX0EALw_wcB",
+                "customOrigin": null,
+                "link": "https://www.transplantatiestichting.nl/donor-worden?gclid=Cj0KCQjwybvPBRDBARIsAA7T2khgb0wDlGHDh9JEt7spARRQEdN-qorZUSIRFRqKlJ4C4JWfETeJwukaAqX0EALw_wcB",
+                "visible": true
+            },
+            {
+                "type": "video",
+                "title": "",
+                "origin": "https://www.youtube.com/watch?v=6-BuyVNC3Ks",
+                "customOrigin": null,
+                "link": "https://www.youtube.com/watch?v=6-BuyVNC3Ks",
+                "visible": true
+            },
+            {
+                "type": "link",
+                "title": "",
+                "origin": "https://www.educaplay.com/en/learningresources/3302992/html5/gezondheid_van_de_nederlanders.htm",
+                "customOrigin": null,
+                "link": "https://www.educaplay.com/en/learningresources/3302992/html5/gezondheid_van_de_nederlanders.htm",
+                "visible": true
+            }
+        ],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

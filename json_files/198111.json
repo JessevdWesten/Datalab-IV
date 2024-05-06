@@ -1,0 +1,657 @@
+{
+    "documentAuthors": [
+        "Linda le Grand (SURF)",
+        "Harm le Grand",
+        "Huib Aldewereld"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Linda le Grand (SURF)",
+            "referenceName": null,
+            "reference": {
+                "value": "167660"
+            },
+            "firstName": "Linda",
+            "infix": null,
+            "lastName": "le Grand (SURF)",
+            "emailAddress": "l.legrand@kennisnet.nl",
+            "type": "author"
+        },
+        {
+            "fullName": "Harm le Grand",
+            "referenceName": null,
+            "reference": {
+                "value": "174179"
+            },
+            "firstName": "Harm",
+            "infix": null,
+            "lastName": "le Grand",
+            "emailAddress": "harm321@hotmail.nl",
+            "type": "author"
+        },
+        {
+            "fullName": "Huib Aldewereld",
+            "referenceName": null,
+            "reference": {
+                "value": "175416"
+            },
+            "firstName": "Huib",
+            "infix": null,
+            "lastName": "Aldewereld",
+            "emailAddress": "huib.aldewereld@hu.nl",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2024-02-19T15:24:31Z",
+    "bulkId": "bulk-17041658-refresh_all",
+    "identifier": 198111,
+    "title": "Learning Materials",
+    "description": "All Lesson Plans for Module A, B and C",
+    "lastModifiedDate": "2024-02-19T15:24:31+01:00",
+    "dateCreated": "2023-06-20T21:03:09+02:00",
+    "published": true,
+    "publisher": {
+        "reference": {
+            "value": "3390"
+        },
+        "name": "HCAIM Consortium",
+        "emailAddresses": [
+            null
+        ],
+        "webAddress": null
+    },
+    "team": {
+        "reference": {
+            "value": "3390"
+        },
+        "name": "HCAIM Consortium",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "le Grand (SURF), Linda",
+                "reference": {
+                    "value": "167660"
+                },
+                "firstName": "Linda",
+                "infix": null,
+                "lastName": "le Grand (SURF)",
+                "emailAddress": "l.legrand@kennisnet.nl",
+                "type": "author"
+            },
+            {
+                "fullName": null,
+                "referenceName": "Douna, Sietske",
+                "reference": {
+                    "value": "168485"
+                },
+                "firstName": "Sietske",
+                "infix": null,
+                "lastName": "Douna",
+                "emailAddress": "sietske.douna@hu.nl",
+                "type": "author"
+            },
+            {
+                "fullName": null,
+                "referenceName": "le Grand, Harm",
+                "reference": {
+                    "value": "174179"
+                },
+                "firstName": "Harm",
+                "infix": null,
+                "lastName": "le Grand",
+                "emailAddress": "harm321@hotmail.nl",
+                "type": "author"
+            },
+            {
+                "fullName": null,
+                "referenceName": "Offereins, Jelly",
+                "reference": {
+                    "value": "174753"
+                },
+                "firstName": "Jelly",
+                "infix": null,
+                "lastName": "Offereins",
+                "emailAddress": "jelly.offereins@hu.nl",
+                "type": "author"
+            },
+            {
+                "fullName": null,
+                "referenceName": "Aldewereld, Huib",
+                "reference": {
+                    "value": "175416"
+                },
+                "firstName": "Huib",
+                "infix": null,
+                "lastName": "Aldewereld",
+                "emailAddress": "huib.aldewereld@hu.nl",
+                "type": "author"
+            },
+            {
+                "fullName": null,
+                "referenceName": "Grol, Meike",
+                "reference": {
+                    "value": "176640"
+                },
+                "firstName": "Meike",
+                "infix": null,
+                "lastName": "Grol",
+                "emailAddress": "meike.grol@hu.nl",
+                "type": "author"
+            }
+        ],
+        "emailAddress": "",
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-sa-40",
+            "name": "CC Naamsvermelding-GelijkDelen 4.0 Internationale licentie",
+            "description": "De Internationale Creative Commons 4.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarden: Naamsvermelding en Gelijk Delen, zie http://creativecommons.org/licenses/by-sa/4.0/.",
+            "link": "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/198111/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "7609183"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Modelling (Module A)",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>The first module, namely <em><strong>Modelling</strong> (Module A),</em> focuses on the first phase of the MLOps lifecycle and is related to the lowest maturity level of the application of Machine Learning (ML) in organizations: modelling data. It includes the activities that form the basis of the application of ML, such as data extraction, data analysis, data preparation, model training and (mainly manual) model validation and evaluation.</p>\n<p>In this phase, the focus is on correctly analyzing and modelling the data to achieve the business objectives and little use is made of automation (e.g. CI/CD), which is only added in the second phase of MLOps (<em><strong>Deployment</strong> - Module B</em>). The modelling activities are often characterized by the manual, script-driven and interactive method by which the data analysis, preparation, model training and validation are carried out. To maintain an overview of the different models, parameters and choices that are being experimented with, experiment tracking is used.</p>\n<p>From an ethical perspective, it is important in the modelling phase to devote sufficient time and attention to <strong>finding out the client's objectives, mapping the stakeholders and exploring how the individual values of these stakeholders are affected</strong> (and recognizing possible conflicts between them). Aspects such as <strong>transparency, inclusion, security</strong> and <strong>privacy</strong> are of great importance in this. Naturally, attention must also be paid to the social and moral desirability of the client's objectives. In addition, it is important to have (timely) awareness of possible biases/prejudices in the available data, recognise the possible consequences of these prejudices and find mitigations to deal with these prejudices.</p>\n<h4>Learning Outcomes</h4>\n<hr/>\n<table border=\"0\" cellpadding=\"1\" cellspacing=\"20\" class=\"width-800-pixels\">\n<tbody>\n<tr>\n<td class=\"text-align-center vertical-align-top width-230-pixels\" style=\"background-color:#58b897;\">\n<p> </p>\n<p><span class=\"font-size-12px\" style=\"color:#ffffff;\">The student evaluates various ML techniques to make a well-founded choice, matching the required requirements of the custormer and implementing a prototype of the chosen ML technique to advise on solving a given data modelling problem</span></p>\n<p> </p>\n</td>\n<td class=\"text-align-left vertical-align-top width-25-pixels\" style=\"background-color:#ffffff;\"> </td>\n<td class=\"text-align-center vertical-align-top width-230-pixels\" style=\"background-color:#58b897;\">\n<p> </p>\n<p><span class=\"font-size-12px\" style=\"color:#ffffff;\">The student argues, using fundamental ethical frameworks how moral dilemmas can be solved and evaluates the possible consequences of existing biases in data and the influence of designed mitigations to counteract the consequences of this biases.</span></p>\n</td>\n<td class=\"text-align-left vertical-align-top width-25-pixels\" style=\"background-color:#ffffff;\"> </td>\n<td class=\"text-align-center vertical-align-top width-230-pixels\" style=\"background-color:#58b897;\">\n<p> </p>\n<p><span class=\"font-size-12px\" style=\"color:#ffffff;\">The student applies quantative and qualitative research methods to scientifically substantiate their choices during the ethical consideration(s) and making of the prototype.</span></p>\n</td>\n</tr>\n<tr>\n<td class=\"text-align-center vertical-align-top\" style=\"background-color:#000000;\"><span style=\"color:#ffffff;\">LEARNING OUTCOME 1</span></td>\n<td class=\"text-align-left vertical-align-top width-25-pixels\" style=\"background-color:#ffffff;\"> </td>\n<td class=\"text-align-center vertical-align-top\" style=\"background-color:#000000;\"><span style=\"color:#ffffff;\">LEARNING OUTCOME 2</span></td>\n<td class=\"text-align-left vertical-align-top width-25-pixels\" style=\"background-color:#ffffff;\"> </td>\n<td class=\"text-align-center vertical-align-top\" style=\"background-color:#000000;\"><span style=\"color:#ffffff;\">LEARNING OUTCOME 3</span></td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<h2>More information</h2>\n<p>Click here for an overview of all <a href=\"/198111/7609183\" target=\"_blank\" data-section=\"7609183\" data-resource=\"198111\">lesson plans of the master human centred AI</a></p>\n<p>Please visit the <a href=\"https://humancentered-ai.eu/#\" target=\"_blank\">home page</a> of the consortium HCAIM</p>\n<h2>Acknowledgements</h2>\n<table border=\"0\" cellpadding=\"1\" cellspacing=\"1\" class=\"width-98-percent\">\n<tbody>\n<tr>\n<td class=\"text-align-left vertical-align-top width-151-pixels\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/85b144cadea12e28dfbd499b4e42fb4ec17e0ef7.png\" class=\"height-118-pixels width-150-pixels float-left\"/></td>\n<td class=\"text-align-left vertical-align-top\">\n<p><span class=\"font-size-14px\">The Human-Centered AI Masters programme was Co-Financed by the Connecting Europe Facility of the European Union Under Grant \u00c3\u00a2\u00c2\u0084\u00c2\u0096CEF-TC-2020-1 Digital Skills 2020-EU-IA-0068.</span></p>\n<p><span class=\"font-size-14px\">The materials of this learning event are available under CC BY-NC-ND 4.0</span></p>\n<p> </p>\n</td>\n</tr>\n<tr>\n<td colspan=\"2\" class=\"text-align-left vertical-align-top width-151-pixels\">\n<p class=\"text-align-left\"><strong>The HCAIM consortium consists of three excellence centres, three SMEs and four Universities</strong></p>\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/f/fc1201c1c08722b01030f26be8d80cbc613215cd.png\" class=\"height-157-pixels width-1000-pixels\"/></td>\n</tr>\n</tbody>\n</table>\n"
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "7609184"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Technical focus: Foundation of AI",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><strong>General AI</strong></p>\n<ul>\n<li><a href=\"https://maken.wikiwijs.nl/199039/Lecture__Historical_Introduction_to_Scientific_Explanation_Models\" target=\"_blank\">Lecture: Historical Introduction to Scientific Explanation Models</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/199044/Lecture__Understanding_data\" target=\"_blank\">Lecture: Understanding Data</a></li>\n</ul>\n<p><strong>Data Exploration for Machine Learning</strong></p>\n<ul>\n<li><a href=\"https://maken.wikiwijs.nl/199044/Lecture__Understanding_data\" target=\"_blank\">Tutorial: Understanding Data</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/199038/Lecture__Exploratory_Data_Analysis\" target=\"_blank\">Lecture: Exploratory Data Analysis</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/199041/Lecture__Exploratory_Data_Analysis_II\" target=\"_blank\">Lecture: Exploratory Data Analysis II</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/199047/Tutorial__Exploratory_Data_Analysis\" target=\"_blank\">Tutorial: Exploratory Data Analysis</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/199040/Lecture__Inference_and_Prediction\" target=\"_blank\">Lecture: Inference and Prediction</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/199049/Tutorial__Inference_and_Prediction\" target=\"_blank\">Tutorial: Inference and Prediction</a></li>\n</ul>\n<p><strong>Machine Learning Fundamentals</strong></p>\n<ul>\n<li><a href=\"https://maken.wikiwijs.nl/199042/Lecture__Model_Evaluation\" target=\"_blank\">Lecture: Model Evaluation</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/199048/Tutorial__Model_Evaluation\" target=\"_blank\">Tutorial: Model Evaluation</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/199043/Lecture__Model_Fitting_and_Optimization\" target=\"_blank\">Lecture: Model Fitting and Optimization</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/199051/Practical__Model_Fitting_and_Optimization\" target=\"_blank\">Practical: Model Fitting and Optimization</a></li>\n</ul>\n<p><strong>Decision Theory</strong></p>\n<ul>\n<li><a href=\"https://maken.wikiwijs.nl/199052/Lecture__Decision_Theory\" target=\"_blank\">Lecture: Decision Theory</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/199046/Tutorial__Decision_Theory\" target=\"_blank\">Tutorial: Decision Theory</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/199037/Lecture__Decision_Networks\" target=\"_blank\">Lecture: Decision Networks</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/199045/Tutorial__Decision_Networks\" target=\"_blank\">Tutorial: Decision Networks</a></li>\n</ul>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<h2>More information</h2>\n<p>Click here for an overview of all <a href=\"/198111/7609183\" target=\"_blank\" data-section=\"7609183\" data-resource=\"198111\">lesson plans of the master human centred AI</a></p>\n<p>Please visit the <a href=\"https://humancentered-ai.eu/#\" target=\"_blank\">home page</a> of the consortium HCAIM</p>\n<h2>Acknowledgements</h2>\n<table border=\"0\" cellpadding=\"1\" cellspacing=\"1\" class=\"width-98-percent\">\n<tbody>\n<tr>\n<td class=\"text-align-left vertical-align-top width-151-pixels\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/85b144cadea12e28dfbd499b4e42fb4ec17e0ef7.png\" class=\"height-118-pixels width-150-pixels float-left\"/></td>\n<td class=\"text-align-left vertical-align-top\">\n<p><span class=\"font-size-14px\">The Human-Centered AI Masters programme was Co-Financed by the Connecting Europe Facility of the European Union Under Grant \u00c3\u00a2\u00c2\u0084\u00c2\u0096CEF-TC-2020-1 Digital Skills 2020-EU-IA-0068.</span></p>\n<p><span class=\"font-size-14px\">The materials of this learning event are available under CC BY-NC-ND 4.0</span></p>\n<p> </p>\n</td>\n</tr>\n<tr>\n<td colspan=\"2\" class=\"text-align-left vertical-align-top width-151-pixels\">\n<p class=\"text-align-left\"><strong>The HCAIM consortium consists of three excellence centres, three SMEs and four Universities</strong></p>\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/f/fc1201c1c08722b01030f26be8d80cbc613215cd.png\" class=\"height-157-pixels width-1000-pixels\"/></td>\n</tr>\n</tbody>\n</table>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7609185"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Practical focus: AI modelling",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><strong>Data Science</strong></p>\n<ul>\n<li><a href=\"https://maken.wikiwijs.nl/199023/Lecture__The_Data_Analysis_Process\" target=\"_blank\">Lecture: The Data Analysis Process</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/199034/Practical__Platforms\" target=\"_blank\">Practical: Platforms</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/199014/Lecture__Data_Preparation_and_Exploration\" target=\"_blank\">Lecture: Data Preparation and Exploration</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/199030/Practical__Data_Preparation_and_Exploration\" target=\"_blank\">Practical: Data Preparation and Exploration</a></li>\n</ul>\n<p><strong>Supervised Machine Learning</strong></p>\n<ul>\n<li><a href=\"https://maken.wikiwijs.nl/199017/Lecture__Linear_Regression\" target=\"_blank\">Lecture: Linear Regression</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/199032/Practical__Linear_Regression\" target=\"_blank\">Practical: Linear Regression</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/199015/Lecture__Decision_Trees\" target=\"_blank\">Lecture: Decision Trees</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/199029/Practical__Decision_Trees\" target=\"_blank\">Practical: Decision Trees</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/199016/Lecture__SVMS_and_Kernels\" target=\"_blank\">Lecture: SVMS and Kernels</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/199031/Practical__SVMS_and_Kernels\" target=\"_blank\">Practical: SVMS and Kernels</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/199018/Lecture__Neural_Networks\" target=\"_blank\">Lecture: Neural Networks</a></li>\n</ul>\n<p><strong>Unsupervised Machine Learning</strong></p>\n<ul>\n<li><a href=\"https://maken.wikiwijs.nl/199028/Lecture__Unsupervised_Learning\" target=\"_blank\">Lecture: Unsupervised Learning</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/199036/Practical__Unsupervised_Learning\" target=\"_blank\">Practical: Unsupervised Learning</a></li>\n</ul>\n<p><strong>ML applications</strong></p>\n<ul>\n<li><a href=\"https://maken.wikiwijs.nl/199008/Lecture__Natural_Language_Processing\" target=\"_blank\">Lecture: Natural Language Processing</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/199033/Practical__Natural_Language_Processing\" target=\"_blank\">Practical: Natural Language Processing</a></li>\n</ul>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<h2>More information</h2>\n<p>Click here for an overview of all <a href=\"/198111/7609183\" target=\"_blank\" data-section=\"7609183\" data-resource=\"198111\">lesson plans of the master human centred AI</a></p>\n<p>Please visit the <a href=\"https://humancentered-ai.eu/#\" target=\"_blank\">home page</a> of the consortium HCAIM</p>\n<h2>Acknowledgements</h2>\n<table border=\"0\" cellpadding=\"1\" cellspacing=\"1\" class=\"width-98-percent\">\n<tbody>\n<tr>\n<td class=\"text-align-left vertical-align-top width-151-pixels\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/85b144cadea12e28dfbd499b4e42fb4ec17e0ef7.png\" class=\"height-118-pixels width-150-pixels float-left\"/></td>\n<td class=\"text-align-left vertical-align-top\">\n<p><span class=\"font-size-14px\">The Human-Centered AI Masters programme was Co-Financed by the Connecting Europe Facility of the European Union Under Grant \u00c3\u00a2\u00c2\u0084\u00c2\u0096CEF-TC-2020-1 Digital Skills 2020-EU-IA-0068.</span></p>\n<p><span class=\"font-size-14px\">The materials of this learning event are available under CC BY-NC-ND 4.0</span></p>\n<p> </p>\n</td>\n</tr>\n<tr>\n<td colspan=\"2\" class=\"text-align-left vertical-align-top width-151-pixels\">\n<p class=\"text-align-left\"><strong>The HCAIM consortium consists of three excellence centres, three SMEs and four Universities</strong></p>\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/f/fc1201c1c08722b01030f26be8d80cbc613215cd.png\" class=\"height-157-pixels width-1000-pixels\"/></td>\n</tr>\n</tbody>\n</table>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7609186"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Ethical focus: Ethics fundamentals",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><strong>General Ethics</strong></p>\n<ul>\n<li><a href=\"https://maken.wikiwijs.nl/198968/Lecture__Introduction_to_Human_centered_AI\" role=\"link\" target=\"_blank\">Lecture: Introduction to Human-Centered AI</a></li>\n</ul>\n<p><strong>Ethical Frameworks</strong></p>\n<ul>\n<li><a href=\"https://maken.wikiwijs.nl/199004/Interactive_session__Ethical_Frameworks\" target=\"_blank\">Interactive session: Ethical Frameworks</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/198973#!page-7649249\" target=\"_blank\">Lecture: Utilitarianism</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/199005/Interactive_session__Utilitarianism\" target=\"_blank\">Interactive session: Utilitarianism</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/198974/Lecture__Virtue_Ethics\" target=\"_blank\">Lecture: Virtue Ethics</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/199007/Interactive_session__Virtue_Ethics\" target=\"_blank\">Interactive session: Virtue Ethics</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/198966/Lecture__Duty_Ethics#!page-7649192\" target=\"_blank\">Lecture: Duty Ethics</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/199003/Interactive_session__Duty_Ethics\" target=\"_blank\">Interactive session: Duty Ethics</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/198972/Lecture__Theory_of_Justice\" target=\"_blank\">Lecture: Theory of Justice</a></li>\n</ul>\n<p><strong>Advanced Ethics</strong></p>\n<ul>\n<li><a href=\"https://maken.wikiwijs.nl/198970/Lecture__Social_Contract_Theories\" target=\"_blank\">Lecture: Social Contract Theories</a></li>\n</ul>\n<p><strong>Applied Ethics</strong></p>\n<ul>\n<li><a href=\"https://maken.wikiwijs.nl/198680/Lecture__Value_Sensitive_Design\" target=\"_blank\">Lecture: Value-Sensitive Design</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/199006/Interactive_session__Value_sensitive_Design\" target=\"_blank\">Interactive session: Value-sensitive Design</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/198969/Lecture__Privacy\" target=\"_blank\">Lecture: Privacy</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/198967/Lecture__Ethics_of_Decision_Support_Systems\" target=\"_blank\">Lecture: Ethics of Decision Support Systems</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/198939/Lecture__Decision_making_and__cognitive__biases\" target=\"_blank\">Lecture: Decision making and (cognitive) biases</a></li>\n</ul>\n<p> </p>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<h2>More information</h2>\n<p>Click here for an overview of all <a href=\"/198111/7609183\" target=\"_blank\" data-section=\"7609183\" data-resource=\"198111\">lesson plans of the master human centred AI</a></p>\n<p>Please visit the <a href=\"https://humancentered-ai.eu/#\" target=\"_blank\">home page</a> of the consortium HCAIM</p>\n<h2>Acknowledgements</h2>\n<table border=\"0\" cellpadding=\"1\" cellspacing=\"1\" class=\"width-98-percent\">\n<tbody>\n<tr>\n<td class=\"text-align-left vertical-align-top width-151-pixels\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/85b144cadea12e28dfbd499b4e42fb4ec17e0ef7.png\" class=\"height-118-pixels width-150-pixels float-left\"/></td>\n<td class=\"text-align-left vertical-align-top\">\n<p><span class=\"font-size-14px\">The Human-Centered AI Masters programme was Co-Financed by the Connecting Europe Facility of the European Union Under Grant \u00c3\u00a2\u00c2\u0084\u00c2\u0096CEF-TC-2020-1 Digital Skills 2020-EU-IA-0068.</span></p>\n<p><span class=\"font-size-14px\">The materials of this learning event are available under CC BY-NC-ND 4.0</span></p>\n<p> </p>\n</td>\n</tr>\n<tr>\n<td colspan=\"2\" class=\"text-align-left vertical-align-top width-151-pixels\">\n<p class=\"text-align-left\"><strong>The HCAIM consortium consists of three excellence centres, three SMEs and four Universities</strong></p>\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/f/fc1201c1c08722b01030f26be8d80cbc613215cd.png\" class=\"height-157-pixels width-1000-pixels\"/></td>\n</tr>\n</tbody>\n</table>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "7609187"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Deployment (Module B)",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>The module <em><strong>Deployment</strong> (Module B)</em> focuses on the second phase of the MLOps development cycle; the deployment. After the data exploratory phase of modelling (see Module A - Modelling), comes the integration of the ML solution into the business systems. It is now important to start thinking about the ML architecture and how it plays together with the existing systems (legacy). To experience real benefit from automated ML solutions, pipelines need to be introduced; on the one hand, to be able to deal with continuous and live data supplies (stream processing), and on the other hand, to link the results of the ML model to other systems.</p>\n<p>Moreover, Module B enhances the complexity of AI technology by moving towards (the use of) neural networks and deep learning. A major advantage of these more complex models is that they are more flexible and versatile than the techniques introduce in Module A - Modelling. However, the important disadvantages of these techniques are that they are more complex (to understand and configure) and opaquer. Therein lies an important ethical dilemma in the use of (advanced) AI techniques: how do you still understand what the AI solution calculates and whether this is done in the right way. Making the deployment of AI solutions more transparent and being able to determine the possible risks and mitigate these risks are important (social) themes in this module.</p>\n<h4>Learning Outcomes</h4>\n<hr/>\n<table border=\"0\" cellpadding=\"1\" cellspacing=\"20\" class=\"width-800-pixels\">\n<tbody>\n<tr>\n<td class=\"text-align-center vertical-align-top width-230-pixels\" style=\"background-color:rgb(88, 184, 151);\">\n<p> </p>\n<p><span class=\"font-size-12px\" style=\"color:#FFFFFF;\">The student assesses the possible choices for the integration of an advanced AI technique, such as Deep and/or Reinforcement Learning, and authors an one-page report, based on a prototype that has been developed taking into account the limitations of and influences on the existing ICT systems and data facilities of the customer, which have been obtained in collaboration with, for example, ICT architects or developers.</span></p>\n<p> </p>\n</td>\n<td class=\"text-align-left vertical-align-top width-25-pixels\" style=\"background-color:rgb(255, 255, 255);\"> </td>\n<td class=\"text-align-center vertical-align-top width-230-pixels\" style=\"background-color:rgb(88, 184, 151);\">\n<p> </p>\n<p><span class=\"font-size-12px\" style=\"color:#FFFFFF;\">The student assesses the potential risk involved and tests the degree of transparency (includien interpretability, reproducibility and explainibility) of a chosen AI/ML implementation and designs solutions using techniques that increase insight and transparency among Stakeholders (so called Explainable AI (XAI) techniques) to remedy shortcomings in this respect compared to the social and customer specific requirements.</span></p>\n</td>\n<td class=\"text-align-left vertical-align-top width-25-pixels\" style=\"background-color:rgb(255, 255, 255);\"> </td>\n<td class=\"text-align-center vertical-align-top width-230-pixels\" style=\"background-color:rgb(88, 184, 151);\">\n<p> </p>\n<p><span class=\"font-size-12px\" style=\"color:#FFFFFF;\">The student  formulates a research design for a scientifically sound (practic oriented) research project related to a company case by formulating a relevant, consistent, functional research question, considering the applied research methods to be used, and establishing a precise, relevant and critical theoretical framework.</span></p>\n</td>\n</tr>\n<tr>\n<td class=\"text-align-center vertical-align-top\" style=\"background-color:rgb(0, 0, 0);\"><span style=\"color:#FFFFFF;\">LEARNING OUTCOME 1</span></td>\n<td class=\"text-align-left vertical-align-top width-25-pixels\" style=\"background-color:rgb(255, 255, 255);\"> </td>\n<td class=\"text-align-center vertical-align-top\" style=\"background-color:rgb(0, 0, 0);\"><span style=\"color:#FFFFFF;\">LEARNING OUTCOME 2</span></td>\n<td class=\"text-align-left vertical-align-top width-25-pixels\" style=\"background-color:rgb(255, 255, 255);\"> </td>\n<td class=\"text-align-center vertical-align-top\" style=\"background-color:rgb(0, 0, 0);\"><span style=\"color:#FFFFFF;\">LEARNING OUTCOME 3</span></td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<h2>More information</h2>\n<p>Click here for an overview of all <a href=\"/198111/7609183\" target=\"_blank\" data-section=\"7609183\" data-resource=\"198111\">lesson plans of the master human centred AI</a></p>\n<p>Please visit the <a href=\"https://humancentered-ai.eu/#\" target=\"_blank\">home page</a> of the consortium HCAIM</p>\n<h2>Acknowledgements</h2>\n<table border=\"0\" cellpadding=\"1\" cellspacing=\"1\" class=\"width-98-percent\">\n<tbody>\n<tr>\n<td class=\"text-align-left vertical-align-top width-151-pixels\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/85b144cadea12e28dfbd499b4e42fb4ec17e0ef7.png\" class=\"height-118-pixels width-150-pixels float-left\"/></td>\n<td class=\"text-align-left vertical-align-top\">\n<p><span class=\"font-size-14px\">The Human-Centered AI Masters programme was Co-Financed by the Connecting Europe Facility of the European Union Under Grant \u00c3\u00a2\u00c2\u0084\u00c2\u0096CEF-TC-2020-1 Digital Skills 2020-EU-IA-0068.</span></p>\n<p><span class=\"font-size-14px\">The materials of this learning event are available under CC BY-NC-ND 4.0</span></p>\n<p> </p>\n</td>\n</tr>\n<tr>\n<td colspan=\"2\" class=\"text-align-left vertical-align-top width-151-pixels\">\n<p class=\"text-align-left\"><strong>The HCAIM consortium consists of three excellence centres, three SMEs and four Universities</strong></p>\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/f/fc1201c1c08722b01030f26be8d80cbc613215cd.png\" class=\"height-157-pixels width-1000-pixels\"/></td>\n</tr>\n</tbody>\n</table>\n"
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "7609188"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Technical focus: deep learning",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><strong>Fundamentals of Deep Learning</strong></p>\n<ul>\n<li><a href=\"https://maken.wikiwijs.nl/203715/Lecture__Fundamentals_of_deep_learning\" target=\"_blank\">Lecture: Fundamentals of deep learning</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/203709/Tutorial__Fundamentals_of_deep_learning\" target=\"_blank\">Tutorial: Fundamentals of deep learning</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/203711/Practical__Fundamentals_of_deep_learning\" target=\"_blank\">Practical: Fundamentals of deep learning</a></li>\n</ul>\n<p><strong>Optimization of Deep Learning</strong></p>\n<ul>\n<li><a href=\"https://maken.wikiwijs.nl/200300/Lecture__Regularization\" target=\"_blank\">Lecture: Regularization</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/203708/Tutorial__Regularization\">Tutorial: Regularization</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/200290/Lecture__Batch_processing\">Lecture: Batch processing</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/200305/Tutorial__Batch_processing\">Tutorial: Batch processing</a></li>\n</ul>\n<p><strong>Applications of Deep Learning</strong></p>\n<ul>\n<li><a href=\"https://maken.wikiwijs.nl/200291/Lecture__Building_computational_graphs__modern_architectures\">Lecture: Building computational graphs, modern architectures</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/200292/Lecture__Convolutional_Neural_Networks\" target=\"_blank\">Lecture: Convolutional Neural Networks</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/200306/Tutorial__Convolutional_Neural_Networks\" target=\"_blank\">Tutorial: Convolutional Neural Networks</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/203710/Practical__Convolutional_Neural_Networks\" target=\"_blank\">Practical: Convolutional Neural Networks</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/200298/Lecture__Recurrent_Neural_Networks\">Lecture: Recurrent Neural Networks</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/200304/Lecture__Transformer_networks\">Lecture: Transformer networks</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/200307/Tutorial__CNNs_and_Transformers_for_images\" target=\"_blank\">Tutorial: CNNs and Transformers for images</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/200295/Lecture__Hardware_and_software_frameworks_for_deep_learning\" target=\"_blank\">Lecture: Hardware and software frameworks for deep learning</a></li>\n</ul>\n<p><strong>Deriving and Implementing Backpropagation</strong></p>\n<ul>\n<li><a href=\"https://maken.wikiwijs.nl/200293/Lecture__Derivation_and_application_of_backpropagation\">Lecture: Derivation and application of backpropagation</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/200308/Tutorial__Derivation_and_application_of_backpropagation\">Tutorial: Derivation and application of backpropagation</a></li>\n</ul>\n<p><strong>Forward pass</strong></p>\n<ul>\n<li><a href=\"https://maken.wikiwijs.nl/200294/Lecture__Forward_propagation\">Lecture: Forward propagation</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/200309/Tutorial__Forward_propagation\">Tutorial: Forward propagation</a></li>\n</ul>\n<p><strong>Hyperparameter tuning</strong></p>\n<ul>\n<li><a href=\"https://maken.wikiwijs.nl/200297/Lecture__Hyperparameter_tuning\">Lecture: Hyperparameter tuning</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/203706/Tutorial__Hyperparameter_tuning\">Tutorial: Hyperparameter tuning</a></li>\n</ul>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<h2>More information</h2>\n<p>Click here for an overview of all <a href=\"/198111/7609183\" target=\"_blank\" data-section=\"7609183\" data-resource=\"198111\">lesson plans of the master human centred AI</a></p>\n<p>Please visit the <a href=\"https://humancentered-ai.eu/#\" target=\"_blank\">home page</a> of the consortium HCAIM</p>\n<h2>Acknowledgements</h2>\n<table border=\"0\" cellpadding=\"1\" cellspacing=\"1\" class=\"width-98-percent\">\n<tbody>\n<tr>\n<td class=\"text-align-left vertical-align-top width-151-pixels\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/85b144cadea12e28dfbd499b4e42fb4ec17e0ef7.png\" class=\"height-118-pixels width-150-pixels float-left\"/></td>\n<td class=\"text-align-left vertical-align-top\">\n<p><span class=\"font-size-14px\">The Human-Centered AI Masters programme was Co-Financed by the Connecting Europe Facility of the European Union Under Grant \u00c3\u00a2\u00c2\u0084\u00c2\u0096CEF-TC-2020-1 Digital Skills 2020-EU-IA-0068.</span></p>\n<p><span class=\"font-size-14px\">The materials of this learning event are available under CC BY-NC-ND 4.0</span></p>\n<p> </p>\n</td>\n</tr>\n<tr>\n<td colspan=\"2\" class=\"text-align-left vertical-align-top width-151-pixels\">\n<p class=\"text-align-left\"><strong>The HCAIM consortium consists of three excellence centres, three SMEs and four Universities</strong></p>\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/f/fc1201c1c08722b01030f26be8d80cbc613215cd.png\" class=\"height-157-pixels width-1000-pixels\"/></td>\n</tr>\n</tbody>\n</table>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7609189"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Practical focus: Organisational AI",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><strong>MLOps</strong></p>\n<ul>\n<li><a href=\"https://maken.wikiwijs.nl/200240/Lecture__ML_Ops\" target=\"_blank\">Lecture: ML-Ops</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/198212#!page-7614198\" role=\"link\" target=\"_blank\">Tutorial: ML-Ops</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/200239/Lecture__ML_Ops_Lifecycle\" target=\"_blank\">Lecture: ML-Ops Lifecycle</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/200288/Practical__ML_Ops_Lifecycle\">Practical: ML-Ops Lifecycle</a></li>\n</ul>\n<p><strong>Deployment of AI</strong></p>\n<ul>\n<li><a href=\"https://maken.wikiwijs.nl/200242/Tutorial__Data_architecture\" target=\"_blank\">Tutorial: Data architecture</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/200289/Interactive_session__Data_architecture\" target=\"_blank\">Interactive session: Data architecture</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/200244/Practical__Hadoop_based_technologies\" target=\"_blank\">Practical: Hadoop-based technologies</a></li>\n</ul>\n<p><strong>Quality of Development &amp; Deployment</strong></p>\n<ul>\n<li><a href=\"https://maken.wikiwijs.nl/200238/Lecture__CI_CD\" target=\"_blank\">Lecture: CI/CD</a></li>\n</ul>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<h2>More information</h2>\n<p>Click here for an overview of all <a href=\"/198111/7609183\" target=\"_blank\" data-section=\"7609183\" data-resource=\"198111\">lesson plans of the master human centred AI</a></p>\n<p>Please visit the <a href=\"https://humancentered-ai.eu/#\" target=\"_blank\">home page</a> of the consortium HCAIM</p>\n<h2>Acknowledgements</h2>\n<table border=\"0\" cellpadding=\"1\" cellspacing=\"1\" class=\"width-98-percent\">\n<tbody>\n<tr>\n<td class=\"text-align-left vertical-align-top width-151-pixels\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/85b144cadea12e28dfbd499b4e42fb4ec17e0ef7.png\" class=\"height-118-pixels width-150-pixels float-left\"/></td>\n<td class=\"text-align-left vertical-align-top\">\n<p><span class=\"font-size-14px\">The Human-Centered AI Masters programme was Co-Financed by the Connecting Europe Facility of the European Union Under Grant \u00c3\u00a2\u00c2\u0084\u00c2\u0096CEF-TC-2020-1 Digital Skills 2020-EU-IA-0068.</span></p>\n<p><span class=\"font-size-14px\">The materials of this learning event are available under CC BY-NC-ND 4.0</span></p>\n<p> </p>\n</td>\n</tr>\n<tr>\n<td colspan=\"2\" class=\"text-align-left vertical-align-top width-151-pixels\">\n<p class=\"text-align-left\"><strong>The HCAIM consortium consists of three excellence centres, three SMEs and four Universities</strong></p>\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/f/fc1201c1c08722b01030f26be8d80cbc613215cd.png\" class=\"height-157-pixels width-1000-pixels\"/></td>\n</tr>\n</tbody>\n</table>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7609190"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Ethical focus: Trustworthy AI",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><strong>General Explainable AI</strong></p>\n<ul>\n<li><a href=\"https://maken.wikiwijs.nl/200136/Lecture__Introduction_General_Explainable_AI\">Lecture: Introduction General Explainable AI</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/203713/Lecture__Explainable_AI_for_end_users\">Lecture: Explainable AI for end-users</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/200231/Practical__Practice_with_XAI_models_1\">Practical: Practice with XAI models 1</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/200234/Practical__Practice_with_XAI_models_2\">Practical: Practice with XAI models 2</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/203712/Lecture__Cutting_edge_XAI_developments\">Lecture: Cutting-edge XAI developments</a></li>\n</ul>\n<p><strong>Privacy</strong></p>\n<ul>\n<li><a href=\"https://maken.wikiwijs.nl/200135/Lecture__Introduction_to_privacy_and_risk\">Lecture: Introduction to privacy and risk</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/200237/Interactive_session__Perspectives_on_privacy\">Interactive session: Perspectives on privacy</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/200230/Practical__Auditing_frameworks_of_privacy_and_data_protection\">Practical: Auditing frameworks of privacy and data protection</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/200137/Lecture__Privacy_and_machine_learning\">Lecture: Privacy and machine learning</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/200227/Practical__Applying_and_evaluating_privacy_preserving_techniques\" target=\"_blank\">Practical: Applying and evaluating privacy-preserving techniques</a></li>\n</ul>\n<p><strong>Security and robustness</strong></p>\n<ul>\n<li><a href=\"https://maken.wikiwijs.nl/200140/Lecture__Security_and_robustness\">Lecture: Security and robustness</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/200229/Practical__Apply_auditing_frameworks\">Practical: Apply auditing frameworks</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/200228/Practical__Enhancing_ML_security_and_robustness\">Practical: Enhancing ML security and robustness</a></li>\n</ul>\n<p><strong>Risk</strong></p>\n<ul>\n<li><a href=\"https://maken.wikiwijs.nl/200139/Lecture__Risk___Risk_mitigation\">Lecture: Risk &amp; Risk mitigation</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/200236/Interactive_session__Risk___Risk_mitigation\">Interactive session: Risk &amp; Risk mitigation</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/200232/Practical__Risk___Risk_mitigation\">Practical: Risk &amp; Risk mitigation</a></li>\n</ul>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<h2>More information</h2>\n<p>Click here for an overview of all <a href=\"/198111/7609183\" target=\"_blank\" data-section=\"7609183\" data-resource=\"198111\">lesson plans of the master human centred AI</a></p>\n<p>Please visit the <a href=\"https://humancentered-ai.eu/#\" target=\"_blank\">home page</a> of the consortium HCAIM</p>\n<h2>Acknowledgements</h2>\n<table border=\"0\" cellpadding=\"1\" cellspacing=\"1\" class=\"width-98-percent\">\n<tbody>\n<tr>\n<td class=\"text-align-left vertical-align-top width-151-pixels\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/85b144cadea12e28dfbd499b4e42fb4ec17e0ef7.png\" class=\"height-118-pixels width-150-pixels float-left\"/></td>\n<td class=\"text-align-left vertical-align-top\">\n<p><span class=\"font-size-14px\">The Human-Centered AI Masters programme was Co-Financed by the Connecting Europe Facility of the European Union Under Grant \u00c3\u00a2\u00c2\u0084\u00c2\u0096CEF-TC-2020-1 Digital Skills 2020-EU-IA-0068.</span></p>\n<p><span class=\"font-size-14px\">The materials of this learning event are available under CC BY-NC-ND 4.0</span></p>\n<p> </p>\n</td>\n</tr>\n<tr>\n<td colspan=\"2\" class=\"text-align-left vertical-align-top width-151-pixels\">\n<p class=\"text-align-left\"><strong>The HCAIM consortium consists of three excellence centres, three SMEs and four Universities</strong></p>\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/f/fc1201c1c08722b01030f26be8d80cbc613215cd.png\" class=\"height-157-pixels width-1000-pixels\"/></td>\n</tr>\n</tbody>\n</table>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "7609191"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Evaluation (Module C)",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>The <strong><em>Evaluation</em></strong> module <em>(Module C)</em> focuses on the evaluation aspects of AI development including both the societal aspects of an AI product, and the development of an appreciation of the potential future directions that AI may take, looking at technology trends; socially responsible AI; compliance, as well as ensuring that the human element is ever-present in the design, development, and evaluation of AI systems.</p>\n<p>As part of the future of AI, an exploration of the level of AI adoption in different industries is discussed, as well as how AI is adapted for different domains. Looking at socially responsible AI includes how AI affects individuals and different groups in society. And as a crucial part of the module, there is a focus on laws, policies and codes of conduct related to AI (with an emphasis on issues such as explainability and trust), as well as quality control and quality management processes, to evaluate the results of AI initiatives.</p>\n<h4>Learning Outcomes</h4>\n<hr/>\n<table border=\"0\" cellpadding=\"1\" cellspacing=\"20\" class=\"width-800-pixels\">\n<tbody>\n<tr>\n<td class=\"text-align-center vertical-align-top width-230-pixels\" style=\"background-color:#58b897;\">\n<p> </p>\n<p><span class=\"font-size-12px\" style=\"color:#ffffff;\">The student develops an appreciation of the cutting-edge approches of AI and machine learning, as well as an understanding of how artificiale intelligence is utilized in different domains, and how to evaluate the potential directions artificial intelligence may go in the future.</span></p>\n<p> </p>\n</td>\n<td class=\"text-align-left vertical-align-top width-25-pixels\" style=\"background-color:#ffffff;\"> </td>\n<td class=\"text-align-center vertical-align-top width-230-pixels\" style=\"background-color:#58b897;\">\n<p> </p>\n<p><span class=\"font-size-12px\" style=\"color:#ffffff;\">The student shows a well-defined approach to consequence scanning, considering issues such as evaluating the potential impact new technology could have on individuals and society, focussing specificaally on minorities and marginilized groups as well as potential environmental impact..</span></p>\n</td>\n<td class=\"text-align-left vertical-align-top width-25-pixels\" style=\"background-color:#ffffff;\"> </td>\n<td class=\"text-align-center vertical-align-top width-230-pixels\" style=\"background-color:#58b897;\">\n<p> </p>\n<p><span class=\"font-size-12px\" style=\"color:#ffffff;\">The student demonstrates the ability to emply a full-articulated research methodolgy with ethics embedded at all stages, with an awareness of the contextual nature of the specific approaches that should be utilized which will be informed by the case studies covered in this module.</span></p>\n</td>\n</tr>\n<tr>\n<td class=\"text-align-center vertical-align-top\" style=\"background-color:#000000;\"><span style=\"color:#ffffff;\">LEARNING OUTCOME 1</span></td>\n<td class=\"text-align-left vertical-align-top width-25-pixels\" style=\"background-color:#ffffff;\"> </td>\n<td class=\"text-align-center vertical-align-top\" style=\"background-color:#000000;\"><span style=\"color:#ffffff;\">LEARNING OUTCOME 2</span></td>\n<td class=\"text-align-left vertical-align-top width-25-pixels\" style=\"background-color:#ffffff;\"> </td>\n<td class=\"text-align-center vertical-align-top\" style=\"background-color:#000000;\"><span style=\"color:#ffffff;\">LEARNING OUTCOME 3</span></td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<h2>More information</h2>\n<p>Click here for an overview of all <a href=\"/198111/7609183\" target=\"_blank\" data-section=\"7609183\" data-resource=\"198111\">lesson plans of the master human centred AI</a></p>\n<p>Please visit the <a href=\"https://humancentered-ai.eu/#\" target=\"_blank\">home page</a> of the consortium HCAIM</p>\n<h2>Acknowledgements</h2>\n<table border=\"0\" cellpadding=\"1\" cellspacing=\"1\" class=\"width-98-percent\">\n<tbody>\n<tr>\n<td class=\"text-align-left vertical-align-top width-151-pixels\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/85b144cadea12e28dfbd499b4e42fb4ec17e0ef7.png\" class=\"height-118-pixels width-150-pixels float-left\"/></td>\n<td class=\"text-align-left vertical-align-top\">\n<p><span class=\"font-size-14px\">The Human-Centered AI Masters programme was Co-Financed by the Connecting Europe Facility of the European Union Under Grant \u00c3\u00a2\u00c2\u0084\u00c2\u0096CEF-TC-2020-1 Digital Skills 2020-EU-IA-0068.</span></p>\n<p><span class=\"font-size-14px\">The materials of this learning event are available under CC BY-NC-ND 4.0</span></p>\n<p> </p>\n</td>\n</tr>\n<tr>\n<td colspan=\"2\" class=\"text-align-left vertical-align-top width-151-pixels\">\n<p class=\"text-align-left\"><strong>The HCAIM consortium consists of three excellence centres, three SMEs and four Universities</strong></p>\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/f/fc1201c1c08722b01030f26be8d80cbc613215cd.png\" class=\"height-157-pixels width-1000-pixels\"/></td>\n</tr>\n</tbody>\n</table>\n"
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "7609192"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Technical focus: Future AI",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><strong>Introduction</strong></p>\n<ul>\n<li><a href=\"https://maken.wikiwijs.nl/202201/Lecture__Introduction_to_the_resurgence_of_AI_and_ML\">Lecture: Introduction to the resurgence of AI and ML</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/202200/Lecture__Guest_Lecture_on_Future_of_AI\">Lecture: Guest Lecture on Future of AI</a></li>\n</ul>\n<p><strong>Open Problems and Challenges</strong></p>\n<ul>\n<li><a href=\"https://maken.wikiwijs.nl/202198/Lecture__Guest_Lecture_on_Explainable_Machine_Learning__XAI_\">Lecture: Guest Lecture on Explainable Machine Learning (XAI)</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/202207/Practical__Explainable_Machine_Learning__XAI_\">Practical: Explainable Machine Learning (XAI)</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/202206/Lecture__Trust__Normativity_and_Model_Drift\" target=\"_blank\">Lecture: Trust, Normativity and Model Drift</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/202212/Interactive_Session__Trust__Normativity_and_Model_Drift\">Interactive Session: Trust, Normativity and Model Drift</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/202211/Interactive_Session__Privacy_Preserving_Machine_Learning\">Interactive Session: Privacy Preserving Machine Learning</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/202195/Lecture__Generalizability_and_Artificial_General_Intelligence__AGI_\">Lecture: Generalizability and Artificial General Intelligence (AGI)</a></li>\n</ul>\n<p><strong>Advances in ML Models Through an HC Lens. A Result-Oriented Study</strong></p>\n<ul>\n<li><a href=\"https://maken.wikiwijs.nl/202203/Lecture__Semi_supervised_and_Unsupervised_Learning\">Lecture: Semi-supervised and Unsupervised Learning</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/202197/Lecture__Generative_Models__Transform_Deep_Learning_and_Hybrid_learning_models\">Lecture: Generative Models, Transform Deep Learning and Hybrid learning models</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/202204/Lecture__Theory_of_Federated_Learning__Profiling_and_Personalization_\">Lecture: Theory of Federated Learning (Profiling and Personalization)</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/202194/Lecture__Federated_Learning___Advances_and_Open_Challenges\">Lecture: Federated Learning - Advances and Open Challenges</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/202209/Practical__Federated_Learning___Train_deep_models\">Practical: Federated Learning - Train deep models</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/202202/Lecture__Model_Compression___Edge_Computing\">Lecture: Model Compression - Edge Computing</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/202210/Practical__Model_Compression___Edge_Computing\" role=\"link\" target=\"_blank\">Practical: Model Compression - Edge Computing</a></li>\n</ul>\n<p><strong>Emerging Evaluations for HCAI Models - Discussion-Based Study</strong></p>\n<ul>\n<li><a href=\"https://maken.wikiwijs.nl/202205/Lecture__Trust_Models_and_Trust_quantification\">Lecture: Feature Importance, Trust Models and Trust Quantification</a></li>\n</ul>\n<p><strong>Philosophical Discussion on Future AI technology</strong></p>\n<ul>\n<li><a href=\"https://maken.wikiwijs.nl/202213/Interactive_Session__Living_with_Robots\" target=\"_blank\">Interactive Session: Living with Robots</a></li>\n</ul>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<h2>More information</h2>\n<p>Click here for an overview of all <a href=\"/198111/7609183\" target=\"_blank\" data-section=\"7609183\" data-resource=\"198111\">lesson plans of the master human centred AI</a></p>\n<p>Please visit the <a href=\"https://humancentered-ai.eu/#\" target=\"_blank\">home page</a> of the consortium HCAIM</p>\n<h2>Acknowledgements</h2>\n<table border=\"0\" cellpadding=\"1\" cellspacing=\"1\" class=\"width-98-percent\">\n<tbody>\n<tr>\n<td class=\"text-align-left vertical-align-top width-151-pixels\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/85b144cadea12e28dfbd499b4e42fb4ec17e0ef7.png\" class=\"height-118-pixels width-150-pixels float-left\"/></td>\n<td class=\"text-align-left vertical-align-top\">\n<p><span class=\"font-size-14px\">The Human-Centered AI Masters programme was Co-Financed by the Connecting Europe Facility of the European Union Under Grant \u00c3\u00a2\u00c2\u0084\u00c2\u0096CEF-TC-2020-1 Digital Skills 2020-EU-IA-0068.</span></p>\n<p><span class=\"font-size-14px\">The materials of this learning event are available under CC BY-NC-ND 4.0</span></p>\n<p> </p>\n</td>\n</tr>\n<tr>\n<td colspan=\"2\" class=\"text-align-left vertical-align-top width-151-pixels\">\n<p class=\"text-align-left\"><strong>The HCAIM consortium consists of three excellence centres, three SMEs and four Universities</strong></p>\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/f/fc1201c1c08722b01030f26be8d80cbc613215cd.png\" class=\"height-157-pixels width-1000-pixels\"/></td>\n</tr>\n</tbody>\n</table>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7609193"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Practical focus: Socially responsible AI",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><strong>EU And International Legislation/Frameworks On Data, AI, Human Rights And Equality</strong></p>\n<ul>\n<li><a href=\"https://maken.wikiwijs.nl/202165/Lecture__Overview_of_Ethical__Professional_and_legal_Aspects_of_HCAI_applications\">Lecture: Overview Of Ethical, Professional And Legal Aspects Of HCAI Applications</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/202175/Interactive_Session__Ethical__Professional_and_legal_Aspects_of_HCAI_applications\">Interactive Session: Ethical, Professional And Legal Aspects Of HCAI Applications</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/202161/Lecture__Data_and_its_challenges___EU_GDPR__US_COPPA__HIPPA\">Lecture: Data And Its Challenges - EU GDPR, US COPPA, HIPPA</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/202160/Lecture__Data_and_its_challenges___Data_Regulations__Data_Sourcing_and_HCAI_prospective\">Lecture: Data And Its Challenges - Data Regulations, Data Sourcing And HCAI Perspective</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/202170/Interactive_Session__Data_and_its_challenges___How_GDPR_impacts_AI_solutions\">Interactive Session: Data And Its Challenges. How GDPR Impacts AI Solutions</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/202162/Lecture__EU_Human_Rights_Legislation\">Lecture: EU Human Rights Legislation</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/202172/Interactive_session__EU_Human_Right_Legislation___A_case_study\">Interactive Session: EU Human Right Legislation - A Case Study</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/202163/Lecture__EU_proposal_of_Regulation_on_HCAI_applications\">Lecture: EU Proposal Of Regulation On HCAI Applications</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/202174/Interactive_session__EU_proposal_of_Regulation_on_AI___A_case_study\">Interactive Session: EU Proposal Of Regulation On AI - A Case Study</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/202168/Practical__Effective_of_EU_proposal_of_Regulation_on_AI\">Practical: Effective Of EU Proposal Of Regulation On AI</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/202166/Lecture__Strengths_and_Limitations_of_existing_laws___a_deeper_dive\">Lecture: Strengths And Limitations Of Existing Laws A Deeper Dive</a></li>\n</ul>\n<p><strong>Data Management, Audit And Assessment</strong></p>\n<ul>\n<li><a href=\"https://maken.wikiwijs.nl/202155/Lecture__Data_Security_and_compliance__Data_lineage_and_Management\">Lecture: Data Security And Compliance, Data Lineage And Management</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/202164/Lecture__Governance_and_Stewardship__Key_Stakeholders_and_Personal_data_Management\">Lecture: Governance And Stewardship, Key Stakeholders And Personal Data Management</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/202167/Practical__Common_Roles_and_Cross_Overs_between_Data_Management_and_AI_teams\">Practical: Common Roles And Cross Overs Between Data Management And AI Teams</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/202169/Practical__Investigate_data_lineage__challenges_and_potential_impact_of_the_AI_teams\">Practical: Investigate Data Lineage, Challenges And Potential Impact Of The AI Teams</a></li>\n</ul>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<h2>More information</h2>\n<p>Click here for an overview of all <a href=\"/198111/7609183\" target=\"_blank\" data-section=\"7609183\" data-resource=\"198111\">lesson plans of the master human centred AI</a></p>\n<p>Please visit the <a href=\"https://humancentered-ai.eu/#\" target=\"_blank\">home page</a> of the consortium HCAIM</p>\n<h2>Acknowledgements</h2>\n<table border=\"0\" cellpadding=\"1\" cellspacing=\"1\" class=\"width-98-percent\">\n<tbody>\n<tr>\n<td class=\"text-align-left vertical-align-top width-151-pixels\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/85b144cadea12e28dfbd499b4e42fb4ec17e0ef7.png\" class=\"height-118-pixels width-150-pixels float-left\"/></td>\n<td class=\"text-align-left vertical-align-top\">\n<p><span class=\"font-size-14px\">The Human-Centered AI Masters programme was Co-Financed by the Connecting Europe Facility of the European Union Under Grant \u00c3\u00a2\u00c2\u0084\u00c2\u0096CEF-TC-2020-1 Digital Skills 2020-EU-IA-0068.</span></p>\n<p><span class=\"font-size-14px\">The materials of this learning event are available under CC BY-NC-ND 4.0</span></p>\n<p> </p>\n</td>\n</tr>\n<tr>\n<td colspan=\"2\" class=\"text-align-left vertical-align-top width-151-pixels\">\n<p class=\"text-align-left\"><strong>The HCAIM consortium consists of three excellence centres, three SMEs and four Universities</strong></p>\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/f/fc1201c1c08722b01030f26be8d80cbc613215cd.png\" class=\"height-157-pixels width-1000-pixels\"/></td>\n</tr>\n</tbody>\n</table>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7609194"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Ethical focus: Compliance, Legality, Humanity",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><strong>Scope Of Socially Responsible AI</strong></p>\n<ul>\n<li><a href=\"https://maken.wikiwijs.nl/202179/Lecture__Positive_and_Negative_Externalities\">Lecture: Positive And Negative Externalities</a></li>\n</ul>\n<p><strong>Corporate Social Responsibility (ISO 26000) - When Using HCAI System</strong></p>\n<ul>\n<li><a href=\"https://maken.wikiwijs.nl/202178/Lecture__Fair_Operating_Practices___AI_Recruitment_and_Malpractices_of_AI_Monitoring\">Lecture: Fair Operating Practices - AI Recruitment And Malpractices Of AI Monitoring</a></li>\n<li><a href=\"https://humancentered-ai.eu/interactive-session-ai-based-decision-making-recruitment-and-promotion/\" role=\"link\" target=\"_blank\">Interactive Session: AI-Based Decision Making - Recruitment And Promotion</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/202190/Interactive_session__Decision_making_based_on_AI_monitoring\">Interactive Session: Decision Making Based On AI Monitoring</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/202183/Interactive_session__Human_Intervention_on_inconsistent_and_or_good_AI_decisions\">Interactive Session: Human Intervention On Inconsistent And/Or Good AI Decisions</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/202184/Interactive_session__Transfer_of_control_back_and_forth_between_Human_and_AI\">Interactive Session: Transfer Of Control Back And Forth Between Human And AI</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/202185/Interactive_session__Psychological_Aspects_when_working_with_AI___stress__anxiety__depression\">Interactive Session: Phycological Aspects When Working With AI - Stress, Anxiety, Depression</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/202176/Lecture__Consumer_Issues___Filter_Bubbles__Data_Storage__AI_monitoring__fair_practices\">Lecture: Consumer Issues - Filter Bubbles, Data Storage, AI Monitoring, Fair Practices</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/202189/Interactive_session__Consumer_Issues___Filter_Bubbles__Data_Storage__AI_monitoring__fair_practices\">Interactive Session: Consumer Issues - Filter Bubbles, Data Storage, AI Monitoring, Fair Practices</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/202188/Interactive_session__Community_development___Societal_impact_assessment_prior_to_working_on_AI_project\">Interactive Session: - Community Development - Societal Impact Assessment Prior To Working On AI Project</a></li>\n</ul>\n<p><strong>Socio-Legal Aspects For AI</strong></p>\n<ul>\n<li><a href=\"https://maken.wikiwijs.nl/202186/Interactive_session__Who_is_responsible____Product_responsibility__copyright_problems\">Interactive Session: Who Is Responsible? - Product Responsibility, Copyright Problems</a></li>\n</ul>\n<p><strong>AI For All</strong></p>\n<ul>\n<li><a href=\"https://maken.wikiwijs.nl/202177/Lecture__Economic_Gaps___Digital_Divide\">Lecture: Economic Gaps - Digital Divide</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/202181/Interactive_session__Economic_Gaps___Digital_Divide_in_categories_geographical__technical__financial_and_political\">Interactive Session: Economic Gaps - Digital Divide In Categories</a>: <a href=\"https://maken.wikiwijs.nl/202181/Interactive_session__Economic_Gaps___Digital_Divide_in_categories_geographical__technical__financial_and_political\">Geographical, Technical, Financial And Political</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/202182/Interactive_session__How_AI_affects_human_behaviour__eg_mobility____Positive_and_Negative\">Interactive Session: How AI Affects Human Behaviour - Positive And Negative</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/202192/Interactive_session__Environment_impact___carbon_footprint\">Interactive Session: Environment Impact - Carbon Footprint</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/202191/Interactive_session__Education_impact___Auto_AI_decision_making\">Interactive Session: Education Impact - Auto AI Decision Making</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/202193/Interactive_session__Filter_Bubble___Political__Corporate_and_Geographical\">Interactive Session: Filter Bubble - Political, Corporate And Geographical</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/202187/Interactive_session__AI_powered_warfare_and_international_peace\">Interactive Session: AI-Powered Warfare And International Peace</a></li>\n</ul>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<h2>More information</h2>\n<p>Click here for an overview of all <a href=\"/198111/7609183\" target=\"_blank\" data-section=\"7609183\" data-resource=\"198111\">lesson plans of the master human centred AI</a></p>\n<p>Please visit the <a href=\"https://humancentered-ai.eu/#\" target=\"_blank\">home page</a> of the consortium HCAIM</p>\n<h2>Acknowledgements</h2>\n<table border=\"0\" cellpadding=\"1\" cellspacing=\"1\" class=\"width-98-percent\">\n<tbody>\n<tr>\n<td class=\"text-align-left vertical-align-top width-151-pixels\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/85b144cadea12e28dfbd499b4e42fb4ec17e0ef7.png\" class=\"height-118-pixels width-150-pixels float-left\"/></td>\n<td class=\"text-align-left vertical-align-top\">\n<p><span class=\"font-size-14px\">The Human-Centered AI Masters programme was Co-Financed by the Connecting Europe Facility of the European Union Under Grant \u00c3\u00a2\u00c2\u0084\u00c2\u0096CEF-TC-2020-1 Digital Skills 2020-EU-IA-0068.</span></p>\n<p><span class=\"font-size-14px\">The materials of this learning event are available under CC BY-NC-ND 4.0</span></p>\n<p> </p>\n</td>\n</tr>\n<tr>\n<td colspan=\"2\" class=\"text-align-left vertical-align-top width-151-pixels\">\n<p class=\"text-align-left\"><strong>The HCAIM consortium consists of three excellence centres, three SMEs and four Universities</strong></p>\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/f/fc1201c1c08722b01030f26be8d80cbc613215cd.png\" class=\"height-157-pixels width-1000-pixels\"/></td>\n</tr>\n</tbody>\n</table>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "7609207"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Graduation (Module D)",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>The <strong><em>Graduation</em></strong> <em>module (Module D)</em> reflects the core principle of the HCAIM programme that is built on the concept of project-based learning (PBL). The goal of this module is to position the graduation project (making a professional product) centrally in the student's learning trajectory. As part of their Graduation project (the Master Thesis), students show that they can independently solve challenges proposed by the industry based on current needs and requirements, considering both the technical and the ethical aspects of the issue at hand.</p>\n<p>Each thesis is considered locally, with an internal supervisor (a professor from the University in which the student is pursuing the degree) and an external supervisor belonging to the party proposing the thesis (if any). This latter aspect, despite not being mandatory, is rigorously pursued. The proposing party can be an SME, an Excellence Centre, or another University, both at a national and international level. Proposing parties are expected to provide both national and international thesis (i.e. thesis organised in with a University from the same country or from a foreign one).</p>\n<h4>Learning Outcomes</h4>\n<hr/>\n<table border=\"0\" cellpadding=\"1\" cellspacing=\"20\" class=\"width-800-pixels\">\n<tbody>\n<tr>\n<td class=\"text-align-center vertical-align-top width-230-pixels\" style=\"background-color:#58b897;\">\n<p> </p>\n<p><span class=\"font-size-12px\" style=\"color:#ffffff;\">The student recognizes and reflects on the AI lifecycle in a realistic, industry-informed context, and in diverse locations, scenarios and use cases.</span></p>\n<p> </p>\n</td>\n<td class=\"text-align-left vertical-align-top width-25-pixels\" style=\"background-color:#ffffff;\"> </td>\n<td class=\"text-align-center vertical-align-top width-230-pixels\" style=\"background-color:#58b897;\">\n<p> </p>\n<p><span class=\"font-size-12px\" style=\"color:#ffffff;\">The student demonstrates a robust and valid research attitude through a project with a well-defined interdisciplinary approach producing industry-relevant and technologically competent solutions, while evaluating the potential impact of their work on individuals and society.</span></p>\n</td>\n<td class=\"text-align-left vertical-align-top width-25-pixels\" style=\"background-color:#ffffff;\"> </td>\n<td class=\"text-align-center vertical-align-top width-230-pixels\" style=\"background-color:#58b897;\">\n<p> </p>\n<p><span class=\"font-size-12px\" style=\"color:#ffffff;\">The student demonstrates a professional attitude regarding communication with relevant stakeholders (e.q. mentors, advisors, peers, and customers) an analytical attitude, work ethos, planning competence, pro-activeness and self-awareness.</span></p>\n</td>\n</tr>\n<tr>\n<td class=\"text-align-center vertical-align-top\" style=\"background-color:#000000;\"><span style=\"color:#ffffff;\">LEARNING OUTCOME 1</span></td>\n<td class=\"text-align-left vertical-align-top width-25-pixels\" style=\"background-color:#ffffff;\"> </td>\n<td class=\"text-align-center vertical-align-top\" style=\"background-color:#000000;\"><span style=\"color:#ffffff;\">LEARNING OUTCOME 2</span></td>\n<td class=\"text-align-left vertical-align-top width-25-pixels\" style=\"background-color:#ffffff;\"> </td>\n<td class=\"text-align-center vertical-align-top\" style=\"background-color:#000000;\"><span style=\"color:#ffffff;\">LEARNING OUTCOME 3</span></td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<h2>More information</h2>\n<p>Click here for an overview of all <a href=\"/198111/7609183\" target=\"_blank\" data-section=\"7609183\" data-resource=\"198111\">lesson plans of the master human centred AI</a></p>\n<p>Please visit the <a href=\"https://humancentered-ai.eu/#\" target=\"_blank\">home page</a> of the consortium HCAIM</p>\n<h2>Acknowledgements</h2>\n<table border=\"0\" cellpadding=\"1\" cellspacing=\"1\" class=\"width-98-percent\">\n<tbody>\n<tr>\n<td class=\"text-align-left vertical-align-top width-151-pixels\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/85b144cadea12e28dfbd499b4e42fb4ec17e0ef7.png\" class=\"height-118-pixels width-150-pixels float-left\"/></td>\n<td class=\"text-align-left vertical-align-top\">\n<p><span class=\"font-size-14px\">The Human-Centered AI Masters programme was Co-Financed by the Connecting Europe Facility of the European Union Under Grant \u00c3\u00a2\u00c2\u0084\u00c2\u0096CEF-TC-2020-1 Digital Skills 2020-EU-IA-0068.</span></p>\n<p><span class=\"font-size-14px\">The materials of this learning event are available under CC BY-NC-ND 4.0</span></p>\n<p> </p>\n</td>\n</tr>\n<tr>\n<td colspan=\"2\" class=\"text-align-left vertical-align-top width-151-pixels\">\n<p class=\"text-align-left\"><strong>The HCAIM consortium consists of three excellence centres, three SMEs and four Universities</strong></p>\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/f/fc1201c1c08722b01030f26be8d80cbc613215cd.png\" class=\"height-157-pixels width-1000-pixels\"/></td>\n</tr>\n</tbody>\n</table>\n"
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "7844271"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Ethical focus: Ethics fundamentals",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><strong>Ethical focus: Research in Practice</strong></p>\n<ul>\n<li><a href=\"https://maken.wikiwijs.nl/203264/Interactive_session__Ethics_in_research\">Interactive session: Ethics in research</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/203263/Interactive__Qualitative_methods_in_data_gathering\" target=\"_blank\">Interactive: Qualitative methods in data gathering</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/203257/Lecture__Conducting_a_literature_review\">Lecture: Conducting a literature review</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/203259/Lecture__Critically_reviewing_sources\">Lecture: Critically reviewing sources</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/203261/Lecture__Research_design\">Lecture: Research design</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/203260/Lecture__Research_proposal_writing\">Lecture: Research proposal writing</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/203258/Tutorial__Research_portfolio\">Tutorial: Research portfolio</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/203262/Tutorial__Writing_a_scientific_research_paper_work\">Tutorial: Writing a scientific research paper/work</a></li>\n</ul>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<h2>More information</h2>\n<p>Click here for an overview of all <a href=\"/198111/7609183\" target=\"_blank\" data-section=\"7609183\" data-resource=\"198111\">lesson plans of the master human centred AI</a></p>\n<p>Please visit the <a href=\"https://humancentered-ai.eu/#\" target=\"_blank\">home page</a> of the consortium HCAIM</p>\n<h2>Acknowledgements</h2>\n<table border=\"0\" cellpadding=\"1\" cellspacing=\"1\" class=\"width-98-percent\">\n<tbody>\n<tr>\n<td class=\"text-align-left vertical-align-top width-151-pixels\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/85b144cadea12e28dfbd499b4e42fb4ec17e0ef7.png\" class=\"height-118-pixels width-150-pixels float-left\"/></td>\n<td class=\"text-align-left vertical-align-top\">\n<p><span class=\"font-size-14px\">The Human-Centered AI Masters programme was Co-Financed by the Connecting Europe Facility of the European Union Under Grant \u00c3\u00a2\u00c2\u0084\u00c2\u0096CEF-TC-2020-1 Digital Skills 2020-EU-IA-0068.</span></p>\n<p><span class=\"font-size-14px\">The materials of this learning event are available under CC BY-NC-ND 4.0</span></p>\n<p> </p>\n</td>\n</tr>\n<tr>\n<td colspan=\"2\" class=\"text-align-left vertical-align-top width-151-pixels\">\n<p class=\"text-align-left\"><strong>The HCAIM consortium consists of three excellence centres, three SMEs and four Universities</strong></p>\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/f/fc1201c1c08722b01030f26be8d80cbc613215cd.png\" class=\"height-157-pixels width-1000-pixels\"/></td>\n</tr>\n</tbody>\n</table>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7609210"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Guidelines for the Thesis",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"width-98-percent\">\n<tbody>\n<tr>\n<td class=\"text-align-left vertical-align-top\">Ethical guidelines</td>\n<td class=\"text-align-left vertical-align-top\">\n<p><a href=\"https://humancentered-ai.eu/wp-content/uploads/2022/10/Ethical-Guidelines-for-Theses.pdf\" role=\"link\" target=\"_blank\"><strong>These guidelines</strong></a> are intended to provide ethical guidance for the HCAIM theses.</p>\n<p> </p>\n</td>\n</tr>\n<tr>\n<td class=\"text-align-left vertical-align-top\">HCAIM Thesis Proposals Guidelines</td>\n<td class=\"text-align-left vertical-align-top\">\n<p><strong><a href=\"https://humancentered-ai.eu/wp-content/uploads/2022/09/Guidelines-for-Thesis-Proposals-HCAIM.pdf\" role=\"link\" target=\"_blank\">These guidelines</a></strong> are intended to support parties which intend to propose a new thesis.</p>\n<p> </p>\n</td>\n</tr>\n<tr>\n<td class=\"text-align-left vertical-align-top\">HCAIM Thesis Template</td>\n<td class=\"text-align-left vertical-align-top\">\n<p>View the HCAIM Thesis Template <strong><a href=\"https://humancentered-ai.eu/wp-content/uploads/2022/09/HCAIM-Thesis-Template.pdf\" role=\"link\" target=\"_blank\">here</a></strong>.</p>\n<p> </p>\n</td>\n</tr>\n<tr>\n<td class=\"text-align-left vertical-align-top\">Risks Template</td>\n<td class=\"text-align-left vertical-align-top\">\n<p><strong><a href=\"https://humancentered-ai.eu/wp-content/uploads/2022/10/Risk-and-Mitigation-Plan.pdf\" role=\"link\" target=\"_blank\">This template</a></strong> allows the supervisor to support the student in identifying and dealing with problems. At the same time, a thesis proposing party will be asked to compile this template.</p>\n<p> </p>\n</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<h2>More information</h2>\n<p>Click here for an overview of all <a href=\"/198111/7609183\" target=\"_blank\" data-section=\"7609183\" data-resource=\"198111\">lesson plans of the master human centred AI</a></p>\n<p>Please visit the <a href=\"https://humancentered-ai.eu/#\" target=\"_blank\">home page</a> of the consortium HCAIM</p>\n<h2>Acknowledgements</h2>\n<table border=\"0\" cellpadding=\"1\" cellspacing=\"1\" class=\"width-98-percent\">\n<tbody>\n<tr>\n<td class=\"text-align-left vertical-align-top width-151-pixels\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/85b144cadea12e28dfbd499b4e42fb4ec17e0ef7.png\" class=\"height-118-pixels width-150-pixels float-left\"/></td>\n<td class=\"text-align-left vertical-align-top\">\n<p><span class=\"font-size-14px\">The Human-Centered AI Masters programme was Co-Financed by the Connecting Europe Facility of the European Union Under Grant \u00c3\u00a2\u00c2\u0084\u00c2\u0096CEF-TC-2020-1 Digital Skills 2020-EU-IA-0068.</span></p>\n<p><span class=\"font-size-14px\">The materials of this learning event are available under CC BY-NC-ND 4.0</span></p>\n<p> </p>\n</td>\n</tr>\n<tr>\n<td colspan=\"2\" class=\"text-align-left vertical-align-top width-151-pixels\">\n<p class=\"text-align-left\"><strong>The HCAIM consortium consists of three excellence centres, three SMEs and four Universities</strong></p>\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/f/fc1201c1c08722b01030f26be8d80cbc613215cd.png\" class=\"height-157-pixels width-1000-pixels\"/></td>\n</tr>\n</tbody>\n</table>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7609211"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Examples of Thesis Topics",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<ul>\n<li><a href=\"https://humancentered-ai.eu/wp-content/uploads/2022/09/Thesis-Topic-Example-1.pdf\" role=\"link\" target=\"_blank\">Thesis Topic Example 1: Evasion Attacks Against ML-based Malware Detectors</a></li>\n<li><a href=\"https://humancentered-ai.eu/wp-content/uploads/2022/10/Thesis-Topic-Example-2.pdf\" role=\"link\" target=\"_blank\">Thesis Topic Example 2: PICO-ML: Pipeline Defined Computing and the role of continuous AI in it</a></li>\n<li><a href=\"https://humancentered-ai.eu/wp-content/uploads/2022/09/Thesis-Topic-Example-3.pdf\" role=\"link\" target=\"_blank\">Thesis Topic Example 3: Investigating Bias in Pre-trained NLP Models</a></li>\n</ul>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<h2>More information</h2>\n<p>Click here for an overview of all <a href=\"/198111/7609183\" target=\"_blank\" data-section=\"7609183\" data-resource=\"198111\">lesson plans of the master human centred AI</a></p>\n<p>Please visit the <a href=\"https://humancentered-ai.eu/#\" target=\"_blank\">home page</a> of the consortium HCAIM</p>\n<h2>Acknowledgements</h2>\n<table border=\"0\" cellpadding=\"1\" cellspacing=\"1\" class=\"width-98-percent\">\n<tbody>\n<tr>\n<td class=\"text-align-left vertical-align-top width-151-pixels\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/85b144cadea12e28dfbd499b4e42fb4ec17e0ef7.png\" class=\"height-118-pixels width-150-pixels float-left\"/></td>\n<td class=\"text-align-left vertical-align-top\">\n<p><span class=\"font-size-14px\">The Human-Centered AI Masters programme was Co-Financed by the Connecting Europe Facility of the European Union Under Grant \u00c3\u00a2\u00c2\u0084\u00c2\u0096CEF-TC-2020-1 Digital Skills 2020-EU-IA-0068.</span></p>\n<p><span class=\"font-size-14px\">The materials of this learning event are available under CC BY-NC-ND 4.0</span></p>\n<p> </p>\n</td>\n</tr>\n<tr>\n<td colspan=\"2\" class=\"text-align-left vertical-align-top width-151-pixels\">\n<p class=\"text-align-left\"><strong>The HCAIM consortium consists of three excellence centres, three SMEs and four Universities</strong></p>\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/f/fc1201c1c08722b01030f26be8d80cbc613215cd.png\" class=\"height-157-pixels width-1000-pixels\"/></td>\n</tr>\n</tbody>\n</table>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [
+                {
+                    "content": "<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/86021dc44fb01973071ecaab03a24bd590abe280.png\" class=\"height-60-pixels width-265-pixels\" />"
+                },
+                {
+                    "content": "<strong><span class=\"font-size-24px\" style=\"color:#FFFFFF;\">Learning Materials</span></strong>"
+                }
+            ],
+            "backgroundImageUrl": "https://maken.wikiwijs.nl/generated/l1200x76_7327fd369b8b559254ae17abb042c0e4611b89cc.png",
+            "dimension": null,
+            "suppressTitle": true
+        },
+        "color": "#333333"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Modelling (Module A)",
+                "reference": {
+                    "value": "7609183"
+                },
+                "sections": [
+                    {
+                        "title": "Technical focus: Foundation of AI",
+                        "reference": {
+                            "value": "7609184"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Practical focus: AI modelling",
+                        "reference": {
+                            "value": "7609185"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Ethical focus: Ethics fundamentals",
+                        "reference": {
+                            "value": "7609186"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Deployment (Module B)",
+                "reference": {
+                    "value": "7609187"
+                },
+                "sections": [
+                    {
+                        "title": "Technical focus: deep learning",
+                        "reference": {
+                            "value": "7609188"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Practical focus: Organisational AI",
+                        "reference": {
+                            "value": "7609189"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Ethical focus: Trustworthy AI",
+                        "reference": {
+                            "value": "7609190"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Evaluation (Module C)",
+                "reference": {
+                    "value": "7609191"
+                },
+                "sections": [
+                    {
+                        "title": "Technical focus: Future AI",
+                        "reference": {
+                            "value": "7609192"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Practical focus: Socially responsible AI",
+                        "reference": {
+                            "value": "7609193"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Ethical focus: Compliance, Legality, Humanity",
+                        "reference": {
+                            "value": "7609194"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Graduation (Module D)",
+                "reference": {
+                    "value": "7609207"
+                },
+                "sections": [
+                    {
+                        "title": "Ethical focus: Ethics fundamentals",
+                        "reference": {
+                            "value": "7844271"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Guidelines for the Thesis",
+                        "reference": {
+                            "value": "7609210"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Examples of Thesis Topics",
+                        "reference": {
+                            "value": "7609211"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": "<p>Acknowledgements</p>\n\n<p>The Human-Centered AI Masters programme was Co-Financed by the Connecting Europe Facility of the European Union Under Grant \u2116CEF-TC-2020-1 Digital Skills 2020-EU-IA-0068.</p>\n\n<p>The materials of this learning event are available under CC BY-NC-ND 4.0</p>\n",
+        "imageSrc": null,
+        "sources": [],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

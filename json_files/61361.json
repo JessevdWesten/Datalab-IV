@@ -1,0 +1,275 @@
+{
+    "documentAuthors": [
+        "Niels De With"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Niels De With",
+            "referenceName": null,
+            "reference": {
+                "value": "30978"
+            },
+            "firstName": "Niels",
+            "infix": "De",
+            "lastName": "With",
+            "emailAddress": "wh@jfc.nl",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2015-05-19T14:34:06Z",
+    "bulkId": "bulk-17041135-refresh_all",
+    "identifier": 61361,
+    "title": "Proefles",
+    "description": "",
+    "lastModifiedDate": "2015-05-19T14:34:06+02:00",
+    "dateCreated": "-0001-11-30T00:00:00+00:19",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "De With, Niels",
+                "reference": {
+                    "value": "30978"
+                },
+                "firstName": "Niels",
+                "infix": "De",
+                "lastName": "With",
+                "emailAddress": "wh@jfc.nl",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-30",
+            "name": "CC Naamsvermelding 3.0 Nederland licentie",
+            "description": "De Nederlandse Creative Commons 3.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/3.0/nl/.",
+            "link": "http://creativecommons.org/licenses/by/3.0/nl/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/61361/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "empty_section"
+            },
+            "heading": {
+                "type": "empty_heading",
+                "content": "",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "questionnaire",
+                    "reference": {
+                        "value": "1224860"
+                    },
+                    "assessmentTestItem": {
+                        "label": "Toets",
+                        "type": "exam",
+                        "header": {
+                            "url": "https://maken.wikiwijs.nl/p/questionnaire/standalone/1224860",
+                            "title": "Proeftoets"
+                        },
+                        "introduction": {
+                            "body": "<p>Hoi</p>"
+                        },
+                        "countQuestions": 1,
+                        "sections": [
+                            {
+                                "type": "assessment",
+                                "identifier": "SECTION_1224860",
+                                "name": "MAIN_SECTION",
+                                "select": null,
+                                "shuffle": null,
+                                "selection": null,
+                                "assessmentItems": [
+                                    {
+                                        "identifier": "1224860_0",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "choiceInteraction",
+                                                "label": "Vraag 1.",
+                                                "prompt": {
+                                                    "body": "<p>Welke datum is het vandaag</p>"
+                                                },
+                                                "shuffle": false,
+                                                "maxChoices": 2,
+                                                "minChoices": 1,
+                                                "orientation": "vertical",
+                                                "choices": [
+                                                    {
+                                                        "identifier": "0",
+                                                        "content": {
+                                                            "body": "Dinsdag 19 mei"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "0",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "1",
+                                                        "content": {
+                                                            "body": "Woensdag 20 mei"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "1",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    }
+                                                ],
+                                                "responseIdentifier": "1224860_0_1",
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "1224860_0_1",
+                                                "cardinality": "ordered",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "0"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0,
+                                                    "default": 0,
+                                                    "mapEntries": [
+                                                        {
+                                                            "key": "0",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "1",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        }
+                                                    ]
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": false,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": true,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_THRESHOLD",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    }
+                                ]
+                            }
+                        ],
+                        "outcomeDeclarations": null,
+                        "showEvaluation": null,
+                        "feedback": null
+                    }
+                }
+            ],
+            "sections": []
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [
+                {
+                    "content": ""
+                }
+            ],
+            "backgroundImageUrl": "https://maken.wikiwijs.nl/generated/b1200x76_b704a40a7f80cbcd3892780c2105128e626e641c.jpg",
+            "dimension": null,
+            "suppressTitle": false
+        },
+        "color": "#495057"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": "",
+        "imageSrc": null,
+        "sources": [],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

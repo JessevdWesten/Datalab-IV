@@ -1,0 +1,352 @@
+{
+    "documentAuthors": [
+        "Kennisnet LleG",
+        "Linda le Grand"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Kennisnet LleG",
+            "referenceName": null,
+            "reference": {
+                "value": "10380"
+            },
+            "firstName": "Kennisnet",
+            "infix": null,
+            "lastName": "LleG",
+            "emailAddress": "l.legrand@kennisnet.nl",
+            "type": "author"
+        },
+        {
+            "fullName": "Linda le Grand",
+            "referenceName": null,
+            "reference": {
+                "value": "77827"
+            },
+            "firstName": "Linda",
+            "infix": null,
+            "lastName": "le Grand",
+            "emailAddress": "l.legrand@kennisnet.nl",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2022-08-19T23:44:07Z",
+    "bulkId": "bulk-17041658-refresh_all",
+    "identifier": 189001,
+    "title": "test 27-6 embedden beeld en geluid",
+    "description": "test",
+    "lastModifiedDate": "2022-08-19T23:44:07+02:00",
+    "dateCreated": "2022-06-27T11:25:04+02:00",
+    "published": true,
+    "publisher": {
+        "reference": {
+            "value": "77"
+        },
+        "name": "Publicatienaam test",
+        "emailAddresses": [
+            null
+        ],
+        "webAddress": null
+    },
+    "team": {
+        "reference": {
+            "value": "77"
+        },
+        "name": "linda test",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "LleG, Kennisnet",
+                "reference": {
+                    "value": "10380"
+                },
+                "firstName": "Kennisnet",
+                "infix": null,
+                "lastName": "LleG",
+                "emailAddress": "l.legrand@kennisnet.nl",
+                "type": "author"
+            },
+            {
+                "fullName": null,
+                "referenceName": "le Grand, Linda",
+                "reference": {
+                    "value": "77827"
+                },
+                "firstName": "Linda",
+                "infix": null,
+                "lastName": "le Grand",
+                "emailAddress": "l.legrand@kennisnet.nl",
+                "type": "author"
+            }
+        ],
+        "emailAddress": "",
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-40",
+            "name": "CC Naamsvermelding 4.0 Internationale licentie",
+            "description": "De Internationale Creative Commons 4.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/4.0/.",
+            "link": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/189001/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "7216823"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "link in tekstelement",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "7263669"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Deellink",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>hieronder is de 'deellink' in het venster geplakt. Dat werkt niet. (dat is logisch want die link leidt gewoon naar een webpagina met omschrijving etc.)</p>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p><iframe allowfullscreen=\"allowfullscreen\" frameborder=\"0\" height=\"315\" src=\"https://www.beeldengeluidopschool.nl/#/details/program/urn:vme:default:program:2101608170155529231\" width=\"560\"/></p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7263670"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Link uit embedcode",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Plak je alleen de link DIE IN DE EMBEDCODE STAAT, dan werkt het</p>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p><iframe allowfullscreen=\"allowfullscreen\" frameborder=\"0\" height=\"315\" src=\"https://www.beeldengeluidopschool.nl/#/embed/program/urn:vme:default:program:2101608170155529231\" width=\"560\"/></p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7263671"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Hele embedcode",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Plak je in het venster de hele embedcode, (maar wel /&gt; vervangen door &gt;&lt;/frame&gt; dan werkt het.</p>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p><iframe allowfullscreen=\"allowfullscreen\" frameborder=\"0\" height=\"315\" src=\"https://www.beeldengeluidopschool.nl/#/embed/program/urn:vme:default:program:2101608170155529231\" width=\"560\"/></p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "7216825"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Link in video-element",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "7263673"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Deellink",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Plak je de deellink in het video-element, dan werkt het niet. Maar dat is logisch want die link verwijst naar een webpagina met omschrijving.</p>\n"
+                        },
+                        {
+                            "type": "video",
+                            "url": "https://www.beeldengeluidopschool.nl/#/details/program/urn:vme:default:program:2101608170155529231",
+                            "align": "left",
+                            "caption": "https://www.beeldengeluidopschool.nl/#/details/program/urn:vme:default:program:2101608170155529231",
+                            "poster": "https://maken.wikiwijs.nl/res/images/playicon_wikiwijs.png"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7263674"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "(Link uit) embedcode",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Plak je de link DIE JE IN DE EMBEDCODE VINDT, of plak je de hele embedcode waarbij je /&gt; vervangt door &gt;&lt;/iframe&gt; dan werkt het ook.</p>\n"
+                        },
+                        {
+                            "type": "video",
+                            "url": "https://www.beeldengeluidopschool.nl/#/embed/program/urn:vme:default:program:2101608170155529231",
+                            "align": "left",
+                            "caption": "https://www.beeldengeluidopschool.nl/#/embed/program/urn:vme:default:program:2101608170155529231",
+                            "poster": "https://maken.wikiwijs.nl/res/images/playicon_wikiwijs.png"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [
+                {
+                    "content": ""
+                },
+                {
+                    "content": "<span style=\"color:#FFFFFF;\">test 27-6 embedden beeld en geluid</span>"
+                }
+            ],
+            "backgroundImageUrl": "https://maken.wikiwijs.nl/generated/l1200x76_e2a713e9cc0cca135e0c1c197e4dde8565b9e596.jpg",
+            "dimension": null,
+            "suppressTitle": true
+        },
+        "color": "#333333"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "link in tekstelement",
+                "reference": {
+                    "value": "7216823"
+                },
+                "sections": [
+                    {
+                        "title": "Deellink",
+                        "reference": {
+                            "value": "7263669"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Link uit embedcode",
+                        "reference": {
+                            "value": "7263670"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Hele embedcode",
+                        "reference": {
+                            "value": "7263671"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Link in video-element",
+                "reference": {
+                    "value": "7216825"
+                },
+                "sections": [
+                    {
+                        "title": "Deellink",
+                        "reference": {
+                            "value": "7263673"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "(Link uit) embedcode",
+                        "reference": {
+                            "value": "7263674"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": null,
+        "imageSrc": null,
+        "sources": [
+            {
+                "type": "video",
+                "title": "",
+                "origin": "https://www.beeldengeluidopschool.nl/#/details/program/urn:vme:default:program:2101608170155529231",
+                "customOrigin": null,
+                "link": "https://www.beeldengeluidopschool.nl/#/details/program/urn:vme:default:program:2101608170155529231",
+                "visible": true
+            },
+            {
+                "type": "video",
+                "title": "",
+                "origin": "https://www.beeldengeluidopschool.nl/#/embed/program/urn:vme:default:program:2101608170155529231",
+                "customOrigin": null,
+                "link": "https://www.beeldengeluidopschool.nl/#/embed/program/urn:vme:default:program:2101608170155529231",
+                "visible": true
+            }
+        ],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            },
+            {
+                "key": "learningTime",
+                "label": "Studiebelasting",
+                "terms": [
+                    "4 uur en 0 minuten"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

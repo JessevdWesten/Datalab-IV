@@ -1,0 +1,246 @@
+{
+    "documentAuthors": [
+        "Gerard Gerard"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Gerard Gerard",
+            "referenceName": null,
+            "reference": {
+                "value": "121509"
+            },
+            "firstName": "Gerard",
+            "infix": null,
+            "lastName": "Gerard",
+            "emailAddress": "g.vandeweerd@kennisnet.nl",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2021-01-26T11:05:27Z",
+    "bulkId": "bulk-17041658-refresh_all",
+    "identifier": 172631,
+    "title": "text entry processing",
+    "description": "",
+    "lastModifiedDate": "2021-01-26T11:05:27+01:00",
+    "dateCreated": "2021-01-26T11:04:05+01:00",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "Gerard, Gerard",
+                "reference": {
+                    "value": "121509"
+                },
+                "firstName": "Gerard",
+                "infix": null,
+                "lastName": "Gerard",
+                "emailAddress": "g.vandeweerd@kennisnet.nl",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-40",
+            "name": "CC Naamsvermelding 4.0 Internationale licentie",
+            "description": "De Internationale Creative Commons 4.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/4.0/.",
+            "link": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/172631/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "empty_section"
+            },
+            "heading": {
+                "type": "empty_heading",
+                "content": "",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6534878"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6534878",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "textEntryInteraction",
+                                "content": {
+                                    "body": "<p>waar een <textentry identifier=\"TE_6620192011996\"></textentry> is, is een <textentry identifier=\"TE_66201920119b2\"></textentry></p>",
+                                    "items": [
+                                        {
+                                            "identifier": "TE_6620192011996",
+                                            "responseIdentifier": "TE_6620192011996_0",
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "TE_66201920119b2",
+                                            "responseIdentifier": "TE_66201920119b2_1",
+                                            "feedbackInline": null
+                                        }
+                                    ]
+                                },
+                                "label": "abacus",
+                                "responseIdentifier": null,
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_CORRECT",
+                                        "identifier": "FBC_6534878",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "goood"
+                                        }
+                                    },
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_INCORRECT",
+                                        "identifier": "FBI_6534878",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "not so good"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "TE_6620192011996_0",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "wil"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0.5,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            },
+                            {
+                                "identifier": "TE_66201920119b2_1",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "wet"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0.5,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 1,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                }
+            ],
+            "sections": []
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": null,
+            "dimension": null,
+            "suppressTitle": null
+        },
+        "color": "#333333"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": null,
+        "imageSrc": null,
+        "sources": [],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            },
+            {
+                "key": "learningTime",
+                "label": "Studiebelasting",
+                "terms": [
+                    "4 uur en 0 minuten"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

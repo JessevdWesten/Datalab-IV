@@ -1,0 +1,399 @@
+{
+    "documentAuthors": [
+        "M v R"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "M v R",
+            "referenceName": null,
+            "reference": {
+                "value": "53693"
+            },
+            "firstName": "M",
+            "infix": null,
+            "lastName": "v R",
+            "emailAddress": "maurice.vanree@luminis.eu",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2017-12-06T11:31:18Z",
+    "bulkId": "bulk-17041135-refresh_all",
+    "identifier": 114866,
+    "title": "TotalScoreTest",
+    "description": "",
+    "lastModifiedDate": "2017-12-06T11:31:18+01:00",
+    "dateCreated": "2017-11-16T10:06:08+01:00",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "v R, M",
+                "reference": {
+                    "value": "53693"
+                },
+                "firstName": "M",
+                "infix": null,
+                "lastName": "v R",
+                "emailAddress": "maurice.vanree@luminis.eu",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-30",
+            "name": "CC Naamsvermelding 3.0 Nederland licentie",
+            "description": "De Nederlandse Creative Commons 3.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/3.0/nl/.",
+            "link": "http://creativecommons.org/licenses/by/3.0/nl/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/114866/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "empty_section"
+            },
+            "heading": {
+                "type": "empty_heading",
+                "content": "",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "questionnaire",
+                    "reference": {
+                        "value": "3885623"
+                    },
+                    "assessmentTestItem": {
+                        "label": "Oefening",
+                        "type": "exercise",
+                        "header": {
+                            "url": "https://maken.wikiwijs.nl/p/questionnaire/standalone/3885623",
+                            "title": "TotalScoreTest"
+                        },
+                        "introduction": {
+                            "body": ""
+                        },
+                        "countQuestions": 2,
+                        "sections": [
+                            {
+                                "type": "assessment",
+                                "identifier": "SECTION_3885623",
+                                "name": "MAIN_SECTION",
+                                "select": null,
+                                "shuffle": null,
+                                "selection": null,
+                                "assessmentItems": [
+                                    {
+                                        "identifier": "3885623_0",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "choiceInteraction",
+                                                "label": "Select something",
+                                                "prompt": {
+                                                    "body": "<p>Choose A</p>"
+                                                },
+                                                "shuffle": false,
+                                                "maxChoices": 2,
+                                                "minChoices": 1,
+                                                "orientation": "vertical",
+                                                "choices": [
+                                                    {
+                                                        "identifier": "0",
+                                                        "content": {
+                                                            "body": "A"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "0",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "1",
+                                                        "content": {
+                                                            "body": "B"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "1",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    }
+                                                ],
+                                                "responseIdentifier": "3885623_0_1",
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "3885623_0_1",
+                                                "cardinality": "ordered",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "0"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0,
+                                                    "default": 0,
+                                                    "mapEntries": [
+                                                        {
+                                                            "key": "0",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "1",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        }
+                                                    ]
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": false,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": true,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_THRESHOLD",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    },
+                                    {
+                                        "identifier": "3885623_1",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "choiceInteraction",
+                                                "label": "Select something else",
+                                                "prompt": {
+                                                    "body": "<p>Select B</p>"
+                                                },
+                                                "shuffle": false,
+                                                "maxChoices": 2,
+                                                "minChoices": 1,
+                                                "orientation": "vertical",
+                                                "choices": [
+                                                    {
+                                                        "identifier": "0",
+                                                        "content": {
+                                                            "body": "A"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "0",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": {
+                                                                "body": "Je moet B kiezen.."
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "1",
+                                                        "content": {
+                                                            "body": "B"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "1",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    }
+                                                ],
+                                                "responseIdentifier": "3885623_1_1",
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "3885623_1_1",
+                                                "cardinality": "ordered",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "1"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": "5",
+                                                    "default": 0,
+                                                    "mapEntries": [
+                                                        {
+                                                            "key": "0",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "1",
+                                                            "value": "5",
+                                                            "caseSensitive": false
+                                                        }
+                                                    ]
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": false,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": true,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_THRESHOLD",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": "5",
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    }
+                                ]
+                            }
+                        ],
+                        "outcomeDeclarations": null,
+                        "showEvaluation": null,
+                        "feedback": null
+                    }
+                }
+            ],
+            "sections": []
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": null,
+            "dimension": null,
+            "suppressTitle": null
+        },
+        "color": "#495057"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": null,
+        "imageSrc": null,
+        "sources": [],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

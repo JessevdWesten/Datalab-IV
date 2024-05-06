@@ -1,0 +1,572 @@
+{
+    "documentAuthors": [
+        "Calvin Vermeulen"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Calvin Vermeulen",
+            "referenceName": null,
+            "reference": {
+                "value": "116464"
+            },
+            "firstName": "Calvin",
+            "infix": null,
+            "lastName": "Vermeulen",
+            "emailAddress": "S1105375@student.windesheim.nl",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2019-11-18T10:07:58Z",
+    "bulkId": "bulk-17041658-refresh_all",
+    "identifier": 153456,
+    "title": "Opdrachten over de Steentijd",
+    "description": "Filmfragment over de steentijd met daarbij enkele vragen",
+    "lastModifiedDate": "2019-11-18T10:07:58+01:00",
+    "dateCreated": "2019-11-18T09:48:44+01:00",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "Vermeulen, Calvin",
+                "reference": {
+                    "value": "116464"
+                },
+                "firstName": "Calvin",
+                "infix": null,
+                "lastName": "Vermeulen",
+                "emailAddress": "S1105375@student.windesheim.nl",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-40",
+            "name": "CC Naamsvermelding 4.0 Internationale licentie",
+            "description": "De Internationale Creative Commons 4.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/4.0/.",
+            "link": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/153456/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "5667975"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Opdrachten over de Steentijd",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "video",
+                    "url": "https://www.youtube.com/watch?v=RgaPZFFMEJ8",
+                    "align": "left",
+                    "caption": "Verhalen uit de steentijd",
+                    "poster": "https://img.youtube.com/vi/RgaPZFFMEJ8/maxresdefault.jpg"
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "5667994"
+                    },
+                    "assessmentItem": {
+                        "identifier": "5667994",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Vraag 1",
+                                "prompt": {
+                                    "body": "<p>Hoe reisden de Jagers en Verzamelaars</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "5667994_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>Ze reisden te voet</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>Ze reisden te voet</p>"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "5667996"
+                    },
+                    "assessmentItem": {
+                        "identifier": "5667996",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "choiceInteraction",
+                                "label": "Vraag 2",
+                                "prompt": {
+                                    "body": "<p>Wat is een <em>nomadische </em>bestaanswijze?</p>"
+                                },
+                                "shuffle": false,
+                                "maxChoices": 3,
+                                "minChoices": 1,
+                                "orientation": "vertical",
+                                "choices": [
+                                    {
+                                        "identifier": "0",
+                                        "content": {
+                                            "body": "De mensen leefden niet op \u00e9\u00e9n plek, ze trokken rond"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "0",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "1",
+                                        "content": {
+                                            "body": "De mensen leefden op \u00e9\u00e9n plek"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "1",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "2",
+                                        "content": {
+                                            "body": "De mensen reisden tussen verschillende dorpen die zij zelf hebben gebouwd"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "2",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    }
+                                ],
+                                "responseIdentifier": "5667996_1",
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "5667996_1",
+                                "cardinality": "ordered",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0,
+                                    "default": 0,
+                                    "mapEntries": [
+                                        {
+                                            "key": "0",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "1",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "2",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        }
+                                    ]
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "5667998"
+                    },
+                    "assessmentItem": {
+                        "identifier": "5667998",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Vraag 3",
+                                "prompt": {
+                                    "body": "<p>Wat ontdekten de Reizende mensen dat de mensheid voor eeuwig heeft veranderd?</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "5667998_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>Ze ontdekten een nieuw soort planten en gras wat zorgde voor een grote aanvoer van graan</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>Ze ontdekten een nieuw soort planten en gras wat zorgde voor een grote aanvoer van graan</p>"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "5668001"
+                    },
+                    "assessmentItem": {
+                        "identifier": "5668001",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Vraag 4",
+                                "prompt": {
+                                    "body": "<p>Waarom was <strong>graan </strong>uniek voor de mensen?</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "5668001_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>Graan rot niet en het blijft lang goed als je het droog bewaard. Voor de eerste keer hadden ze voedsel dat lang houdbaar was.</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>Graan rot niet en het blijft lang goed als je het droog bewaard. Voor de eerste keer hadden ze voedsel dat lang houdbaar was.</p>"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "5668002"
+                    },
+                    "assessmentItem": {
+                        "identifier": "5668002",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Vraag 5",
+                                "prompt": {
+                                    "body": "<p>Wat is de grote verandering van de mensen in de stijl van leven?</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "5668002_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>Mensen bleven op een vaste plaats wonen in plaats van rond te trekken.</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>Mensen bleven op een vaste plaats wonen in plaats van rond te trekken.</p>"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "sections": []
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": null,
+            "dimension": null,
+            "suppressTitle": null
+        },
+        "color": "#333333"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Opdrachten over de Steentijd",
+                "reference": {
+                    "value": "5667975"
+                },
+                "sections": []
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": null,
+        "imageSrc": null,
+        "sources": [
+            {
+                "type": "video",
+                "title": "Verhalen uit de steentijd",
+                "origin": "Verhalen uit de steentijd",
+                "customOrigin": null,
+                "link": "https://www.youtube.com/watch?v=RgaPZFFMEJ8",
+                "visible": true
+            }
+        ],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            },
+            {
+                "key": "learningTime",
+                "label": "Studiebelasting",
+                "terms": [
+                    "4 uur en 0 minuten"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

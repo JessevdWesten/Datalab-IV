@@ -1,0 +1,2067 @@
+{
+    "documentAuthors": [
+        "Alien Siero",
+        "Guido van Dijk"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Alien Siero",
+            "referenceName": null,
+            "reference": {
+                "value": "1087"
+            },
+            "firstName": "Alien",
+            "infix": null,
+            "lastName": "Siero",
+            "emailAddress": "a.siero@scalamedia.nl",
+            "type": "author"
+        },
+        {
+            "fullName": "Guido van Dijk",
+            "referenceName": null,
+            "reference": {
+                "value": "85525"
+            },
+            "firstName": "Guido",
+            "infix": null,
+            "lastName": "van Dijk",
+            "emailAddress": "g.vandijk@niekee.nl",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2024-01-29T09:26:34Z",
+    "bulkId": "bulk-17041658-refresh_all",
+    "identifier": 189711,
+    "title": "Cryptografie",
+    "description": "Cryptografie",
+    "lastModifiedDate": "2024-01-29T09:26:34+01:00",
+    "dateCreated": "2022-08-18T10:00:54+02:00",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "2593"
+        },
+        "name": "Informatica",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "van Dijk, Guido",
+                "reference": {
+                    "value": "85525"
+                },
+                "firstName": "Guido",
+                "infix": null,
+                "lastName": "van Dijk",
+                "emailAddress": "g.vandijk@niekee.nl",
+                "type": "author"
+            }
+        ],
+        "emailAddress": "",
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-sa-40",
+            "name": "CC Naamsvermelding-GelijkDelen 4.0 Internationale licentie",
+            "description": "De Internationale Creative Commons 4.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarden: Naamsvermelding en Gelijk Delen, zie http://creativecommons.org/licenses/by-sa/4.0/.",
+            "link": "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/189711/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "7260715"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "A Inleiding",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "7260716"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Inleiding",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/a/aa1a1313df4cde03b30c82d206e02c9b0e7569ec.png\" class=\"height-336-pixels width-220-pixels float-right\"/>Sinds mensenheugenis versturen mensen berichten naar elkaar. Soms is het belangrijk dat de inhoud van het bericht niet door derden gelezen wordt. In het verleden had die geheimhouding meestal betrekking op staatszaken. Koningen en generaals vertrouwden op effici\u00ebnte communicatie om hun rijk en land te regeren en hun legers te commanderen. Om te voorkomen dat vijandige partijen berichten konden lezen, werden ze gecodeerd. Vandaag de dag is door de mogelijkheden die het internet biedt steeds meer behoefte aan de beveiliging van berichten, denk bijvoorbeeld aan bankieren via het internet.<br/>\n<br/>\nIn deze module wordt de cryptografie in drie fasen behandeld. De oudste vorm van cryptografie is de klassieke cryptografie waarbij berichten handmatig versleuteld worden. Bij de mechanische cryptografie wordt bij het versleutelen gebruik gemaakt van apparaten. Tenslotte is er de digitale cryptografie, waarbij het bericht met behulp van computers versleuteld wordt.</p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260718"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Leerdoelen",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/a/a204ff5ac614576dca6474739f51934ad34e82bf.png\" class=\"height-200-pixels width-200-pixels float-right\"/></p>\n<p>Na verwerking van deze module:</p>\n<ul>\n<li>weet je wat steganografie is en kun je daar enkele voorbeelden van geven;</li>\n<li>weet je wat cryptografie is;</li>\n<li>weet je het verschil tussen cijfer en code;</li>\n<li>weet je wat een transpositiecijfer en een substitutiecijfer is;</li>\n<li>kun je de Caesarversleuteling uitleggen en toepassen;</li>\n<li>kun je uitleggen dat Caesarversleuteling een vorm van modulorekening in zich heeft;</li>\n<li>kun je de verbeterde versie van de Caesarversleuteling uitleggen en toepassen;</li>\n<li>kun je frequentieanalyse uitleggen en toepassen;</li>\n<li>weet je het verschil tussen monoalfabetische substitutie en polyalfabetische substitutie;</li>\n<li>kun je de versleuteling van de Vigen\u00e8re uitleggen en toepassen;</li>\n<li>kun je de ontcijferingsmethode van de Babbage uitleggen en toepassen;</li>\n<li>weet je voorbeelden van mechanische encryptie;</li>\n<li>kun je het verband tussen nieuwe communicatiemiddelen en cryptografie uitleggen;</li>\n<li>weet je voorbeelden van cryptografie uit de Eerste Wereldoorlog;</li>\n<li>kun je de werking van de Enigma uitleggen;</li>\n<li>kun je uitleggen hoe de Enigma gekraakt werd.</li>\n<li>weet je de verschillen tussen traditionele cryptografie en digitale cryptografie;</li>\n<li>kun je een XOR-versleuteling uitleggen en toepassen;</li>\n<li>kun je DES uitleggen en aangeven waar de zwakte in zit;</li>\n<li>weet je waarom AES een beter algoritme is dan DES;</li>\n<li>weet je het verschil tussen symmetrische en asymmetrische cryptografie;</li>\n<li>weet je hoe Diffie en Helmann het probleem van de sleuteldistributie oplosten;</li>\n<li>weet je wat public key cryptografie inhoudt;</li>\n<li>kun je het RSA-algoritme uitleggen;</li>\n<li>weet je waarom RSA een populair algoritme is;</li>\n<li>weet je hoe PGP is ontstaan;</li>\n<li>kun je uitleggen hoe het PGP-algoritme werkt;</li>\n<li>kun je uitleggen hoe de man-in-the-middle-attack-werkt;</li>\n<li>weet je het verschil tussen een encryptiefunctie en een hashfunctie;</li>\n<li>kun je toepassingen van hashfuncties noemen.</li>\n</ul>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260720"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Zo werkt het",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/c/cc89907a55ab4ee09a9e8dfe611aaad007d511ed.png\" class=\"height-200-pixels width-200-pixels float-right\"/></p>\n<p>Je bent begonnen in de module <strong>cryptografie</strong>. Deze module bestaat uit meerdere onderdelen. In ieder onderdeel vind je, verdeeld over verschillende pagina's, informatie in de vorm van teksten, afbeeldingen en video's.<br/>\n<br/>\nDaarnaast ga je zelf aan de slag. Onder het kopje \"Aan de slag\" vind je steeds toepassingsopdrachten. Deze opdrachten maak je alleen of met een klasgenoot.</p>\n<p>Er zijn ook toetsen. Deze herken je aan de blauwe knop met daarop \"Adaptieve Toets\".<br/>\nEen toets bestaat uit meerdere vragen. Dat kunnen gesloten vragen zijn, die door de computer worden nagekeken, of open vragen, die moet je zelf nakijken.<br/>\nBij een enkele vraag moet je een bestand uploaden.<br/>\n<br/>\nVan de toetsen wordt, als je ingelogd bent, de voortgang bijgehouden.<br/>\nHet resultaat vind je onder de knop \"Voortgang\". Deze voortgang is ook door je docent te bekijken.</p>\n<p>Voor deze module maken leerlingen gebruik van het simulatieprogramma Enigma simulator. Klik op de links om het programma en de handleiding te downloaden.<br/>\n<br/>\n<a href=\"http://ontwikkel.scalamedia.nl/data/content-studiovo/concept/Informatica/Cryptografie/Cryptografie/EnigmaSim.zip\" target=\"_blank\">EnigmaSim</a><br/>\n<a href=\"http://ontwikkel.scalamedia.nl/data/content-studiovo/concept/Informatica/Cryptografie/Cryptografie/Handleiding_Enigma_Sim.pdf\" target=\"_blank\">Handleiding_EnigmaSim</a><br/>\n<br/>\nSucces met de module cryptografie.</p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "7260722"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "B Klassiek",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "7260723"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Steganografie",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/f/fb2a3cad4da653cd3ece6830fad025696083aaba.mp4\" class=\"float-right\"/><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/7/779d5e0018c28d0c122d0d43f946e1e4b3038871.PNG\" class=\"height-284-pixels width-217-pixels float-right\"/>De geschiedenis van het verbergen van berichten is al duizenden jaren oud. De Grieken maakten gebruik van met was bedekte houten planken om een bericht te schrijven. Het voordeel was dat deze schrijftabletten opnieuw gebruikt konden worden.<br/>\nDe Griekse schrijver Herodotus vertelt hoe Demeratos de Spartanen voor een aanval van de Perzische koning Xerxes wilde waarschuwen. Hij schraapte de was van de houten schrijftabletten en schreef het bericht over de aanvalsplannen van Xerxes rechtstreeks op het hout. Daarna liet hij er weer een gesmolten waslaag overheen lopen, waardoor de boodschap niet te lezen was.<br/>\n<br/>\nDeze vorm van geheimschrift wordt steganografie genoemd, het verbergen van een bericht. Het begrip is afgeleid is van <em>steganos</em> en <em>graphein</em>. Steganos betekent 'verborgen' en graphein 'schrijven'.<br/>\n<br/>\nEen bekende vorm van steganografie is een bericht met onzichtbare inkt schrijven naast een onbeduidende tekst met zichtbare inkt. Dit gebeurt niet alleen in detectives, maar werd tot aan de Tweede Wereldoorlog veelvuldig gebruikt.<br/>\n<br/>\nIn 1941 onderschepte de Amerikaanse geheime dienst een brief van de Duitse ambassadeur naar Duitsland. Na een nauwgezette inspectie bleek een punt op de enveloppe in werkelijkheid een microfilm te zijn die belangrijke informatie bevatte. Het was de Duitse geheime dienst gelukt om een A4-tje volledig leesbaar te verkleinen tot een punt.<br/>\n<br/>\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/5321aff93b96a81e09f5be4648504d2fae24ae20.PNG\" class=\"height-271-pixels width-200-pixels float-right\"/>Een moderne toepassing van steganografie zijn de markeringen in de vorm van \"gele puntjes\" op een print. Met het blote oog zijn ze nauwelijks waar te nemen. Ze bevatten de informatie over de datum, de tijd en het serienummer van de printer waarmee geprint is. Fabrikanten van printers passen deze techniek toe op verzoek van overheden om te kunnen achterhalen waar een print vandaan komt.<br/>\n<br/>\nSteganografie is door de eeuwen heen gebruikt als een methode om de informatie te verbergen in een ogenschijnlijk onbelangrijk bericht. Het grote voordeel van steganografie is dat het bestaan van het geheime bericht verborgen is. Anderen weten niet van het bestaan. Het nadeel is dat de ontvanger vooraf ge\u00efnformeerd moet worden over het bestaan van geheime berichten en op welke wijze zij verborgen zijn. Als deze informatie bekend wordt dan is de bericht eenvoudig te lezen. Om dit te voorkomen worden steganografische methode gecombineerd met versleutelingstechnieken.</p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260725"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 1",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/d/da67ffb468d8037b26df46376f73a5132d0a30b2.png\" class=\"height-336-pixels width-220-pixels float-right\"/>De onderstaande Engelse tekst in telegramstijl werd door een Duitse spion tijdens de Tweede Wereldoorlog verstuurd:<br/>\n<br/>\n<em>\"Apparently neutral's protest is thoroughly discounted and ignored. Isman hard hit. Blockade issue affectes pretext for embargo on by-products, ejectig suets and vegetable oils.\"<br/>\n<br/>\n\"Ogenschijnlijk worden neutrale protesten met de nodige voorzichtigheid verdisconteerd en genegeerd. Isman zwaar getroffen. Blokkade wordt gebruikt als voorwendsel voor embargo van bijprodukten uitgesloten talg en plantaardige oli\u00ebn.\"</em><br/>\n<br/>\nDe tweede letter in de opvolgende woorden vormen tezamen het bericht.</p>\n<ol type=\"a\">\n<li>Welk bericht verstuurde de Duitse spion?</li>\n<li>Is hier sprake van steganografie of versleuteling?<br/>\nLeg je antwoord uit.</li>\n</ol>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260727"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 2",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/d/d3d6ae5ee5b9f5fee9b01050d1c8ea3593a4f04f.png\" class=\"height-336-pixels width-220-pixels float-right\"/>Bekijk het filmpje over de rap van 2Pac.</p>\n<p><iframe allowfullscreen=\"allowfullscreen\" frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/sdz8Pd_535w?rel=0\" width=\"560\" class=\"video-item\"/></p>\n<p><br/>\nIs hier sprake van steganografie of versleuteling?<br/>\nLeg je antwoord uit.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260729"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 3",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/f/fa2bec1cbee5fbcd57b58f033712812cf3fa9f6d.png\" class=\"height-336-pixels width-220-pixels float-right\"/>Een moderne vorm van steganografie is het verbergen van een bericht in een afbeelding.<br/>\nIn het filmpje wordt uitgelegd hoe een bericht wordt verborgen in een afbeelding.<br/>\nBekijk het filmpje.</p>\n<p><video height=\"267\" src=\"https://maken.wikiwijs.nl/userfiles/d38387a56cfa9dc52a956a8d4b4b461ab41142d0.mp4\" title=\"Steganografie\"> </video></p>\n<p> </p>\n<ol type=\"a\">\n<li>Om informatie te verbergen wordt gebruik gemaakt van de twee minst significante bits. Welke bits in deze reeks zijn de twee minst significante bits: 01010011?</li>\n<li>Waarom worden de twee minst significante bits gebruikt om de boodschap op te slaan en niet de twee meest significante bits?</li>\n<li>Aan welke voorwaarden moet worden voldaan om het bericht veilig te versturen?</li>\n<li>Welke tekst is opgeslagen in de foto van de boom?</li>\n</ol>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260731"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Cryptografie",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/0/06c43c0ffc3053053ae048ccb4aecbf7fa97a156.png\" class=\"height-336-pixels width-220-pixels float-right\"/>Omdat het verbergen van berichten maar een betrekkelijke veiligheid biedt, bedacht men ook een andere methode om berichten veilig te versturen: <strong>cryptografie</strong>.<br/>\nHet begrip is samengesteld uit de twee oud-Griekse woorden kruptos en graphein, die samen 'geheim schrijven' betekenen. Je schrijft iets, maar de betekenis van wat je schrijft is geheim, is verborgen voor iemand die niet weet welke sleutel je hebt gebruikt om het onleesbaar te maken.<br/>\n<br/>\nIn de basis werken cryptografie modellen altijd op eenzelfde manier. Het oorspronkelijke bericht, dat klare tekst wordt genoemd, wordt versleuteld. Het resultaat daarvan is een geheime tekst die je niet meer kunt lezen. Om de tekst weer te kunnen lezen moet je de geheime tekst ontcijferen. Versleuteling (vercijfering) wordt ook <strong>encryptie</strong> genoemd. Ontcijfering wordt <strong>decryptie</strong> genoemd.</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/9/98a761bec3dd07a6a52627e1f67bcbbb5b5f69b4.png\" class=\"height-150-pixels width-573-pixels\"/></p>\n<p><br/>\nDe termen <strong>cijfer(schrift)</strong> en <strong>code</strong> worden vaak door elkaar gebruikt, maar in de cryptografie is er een verschil.<br/>\nMet een code vervang je een woord of zinsnede door een symbool, getal of woord. De code 007 kent iedereen als de aanduiding van de Britse geheim agent James Bond. De bedoeling van de code is om de ware identiteit te verhullen.<br/>\nHet cijferschrift werkt op een elementairder niveau omdat er letters mee worden vervangen. Elke letter zou je kunnen vervangen door de volgende letter in het alfabet. 'Enigma' wordt dan 'Fojhnb'.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260733"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 4",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<ol type=\"a\">\n<li><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/0/022fd00b608d25268ccfef9a5bc1319227b759e7.png\" class=\"height-336-pixels width-220-pixels float-right\"/>Wat is het verschil tussen steganografie en cryptografie?</li>\n<li>Wat is het verschil tussen een cijferschrift en een code?</li>\n</ol>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260735"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Cryptografie - 2",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/4/476dc2bc23239fa53faf6d4595fbb76e5780072d.png\" class=\"height-273-pixels width-220-pixels float-right\"/>Cryptografie kan verdeeld worden in twee vormen: <strong>transpositie</strong> en <strong>substitutie</strong>.<br/>\nBij transpositie worden de letters van het bericht herschikt. Een simpel voorbeeld van transpositieversleuteling is de codeermachine uit de module visueel programmeren met Java. Bij deze versleuteling worden de letters van het bericht om en om opgeschreven. De twee letterreeksen vormen tezamen het gecodeerde bericht.<br/>\n<span>informatica is het leukste vak</span><br/>\n<br/>\n<span>i f r a i a i e e k t a<br/>\nn o m t c s h t l u s e v k</span><br/>\n<br/>\n<span>ifraiai e ekt anomtc shtlusevk</span><br/>\n<br/>\nEen van de allereerste cryptografische technieken, de scytale, is een voorbeeld van transpositieversleuteling. Rond de scytale werd heel strak een lange reep leer of perkament gewikkeld. Vervolgens werd er in de lengterichting een boodschap op geschreven. Daarna werd de reep losgemaakt en aan een bode meegegeven. De ontvanger kon het bericht lezen door de strook om een scytale met dezelfde diameter te winden.</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/59108b4d41c644e61dd54c4b495930e12692f092.png\" class=\"height-286-pixels width-500-pixels\"/>\n<figcaption>Scytale</figcaption>\n</figure>\n<p> </p>\n<p>Vrijwel alle cryptografische technieken uit de oudere geschiedenis maken gebruik van <strong>substitutie</strong>.<br/>\nDat betekent dat een tekst versleuteld wordt door de letters vervangen worden door andere.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260737"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 5",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<ol>\n<li>Wat is het verschil tussen transpositie- en substitutieversleuteling?<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/d/d0855246c724a949824a8801e99ceacd78114e1c.png\" class=\"height-400-pixels width-263-pixels float-right\"/></li>\n<li>Het rozenkruisersgeheimschrift is een versleutelingsmethode waarbij de letters van de platte tekst door middel van eenvoudig te onthouden diagrammen verborgen worden. Dit geheimschrift wordt toegeschreven aan de rozenkruisers, een geheim genootschap van wijsgeren.\n<ol start=\"1\">\n<li>Op welk vorm van cryptografie is deze methode gebaseerd?<br/>\nLeg je antwoord uit.</li>\n<li>Ontcijfer de volgende code:</li>\n</ol>\n</li>\n</ol>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/12c44a29ef134eb5d92021b69a66af4826a8e8ae.png\" class=\"height-30-pixels width-251-pixels\"/></p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260739"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Caesarversleuteling",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/4/41e1034447844bd8906677f3fb5ecdd3ce96744a.png\" class=\"height-217-pixels width-217-pixels float-right\"/>Een van de bekendste methodes om een bericht geheim te maken, is de zogenaamde Caesarversleuteling of Caesarcijfer, die op substitutie gebaseerd is. Deze techniek is vernoemd naar Julius Caesar, die deze methode gebruikte om geheime opdrachten aan zijn legerleiders door te geven.<br/>\n<br/>\nVrijwel iedereen kent deze methode. Je spreekt met elkaar af dat de letters van het bericht een aantal plaatsen verschoven worden in het alfabet. Spreek je af dat die verschuiving +3 letters (posities) moet zijn, dan wordt de <strong>a</strong> een <strong>d</strong>, de <strong>m</strong> een <strong>p</strong> enz.<br/>\n<br/>\nHet zinnetje IK HOU VAN JOU wordt op die manier LN KRX YDQ MRX.<br/>\n<br/>\nAls de ontvanger weet dat de letters van de ontvangen boodschap 3 posities verschoven zijn dan hoeft hij of zij maar 3 posities terug te schuiven om de echte boodschap te kunnen lezen.<br/>\n<br/>\nIn de video van de Khan Academy wordt dit gedemonstreerd.<br/>\nBekijk de video.</p>\n<p><video height=\"267\" src=\"https://maken.wikiwijs.nl/userfiles/1ade0f630e6c948ff89dbd5ef8712a6d7afff2f6.mp4\" title=\"CaesarVersleuteling\"> </video></p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260741"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 6",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<ol>\n<li><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/1be3bafb213dc95db37ec22cbdb869e874ecf5ac.png\" class=\"height-336-pixels width-220-pixels float-right\"/>Als de ontvanger van het bericht niet weet welke Caesarverschuiving nodig is, hoeveel verschuivingen moet hij of zij maximaal controleren om de oorspronkelijke tekst te vinden?</li>\n<li>Wat wordt het geheime bericht als je de boodschap BEGRIJP JE DIT met een Caesar-versleuteling van 10 versleutelt?</li>\n</ol>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260743"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Modulorekening",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/3/3bd310ea6a26f5518c0531bac94cbc395c803649.png\" class=\"height-336-pixels width-220-pixels float-right\"/>Een probleem bij het verschuiven van de letters in de Caesarverschuiving is het gegeven dat je op een bepaald moment bij de 26e letter terecht komt en niet verder kunt. Je hebt inmiddels begrepen dat je dan verder moet bij de eerste letter van het alfabet. Net als bij een klok komt het eerste teken na het laatste. Bij het alfabet komt de A na de Z en bij de klok de 1 na de 12 (of na de 00 als je een digitale klok neemt). Hetzelfde doe je bij het klokkijken. Als je om 11 uur 's avonds naar bed gaat en je slaapt 8 uur, dan word je om 7 uur 's morgens wakker.<br/>\n<br/>\nBij klokrekenen geldt: 23 + 8 = 7.<br/>\n<br/>\nKlokrekenen is een voorbeeld van modulorekenen. Klokrekenen is rekenen modulo 24. De uitkomst kan nooit groter dan 24 zijn.<br/>\n<br/>\nJe schrijft: z = (x + y) (mod 24)<br/>\n<br/>\nHierin is x is de eerste tijd, y het aantal uur dat je erbij optelt en z de te vinden tijd. Als x gelijk is aan de eerste tijd, y aan de tijd die erbij opgeteld moet worden en z is de te vinden tijd, dan maak je dit probleem als volgt in een formule zichtbaar:<br/>\n<br/>\nz = (x + y) (mod 24)<br/>\n<br/>\nOok moet je weten dat mod (afkorting van modulo) betekent: de rest die je krijgt als je het gedeelte v\u00f3\u00f3r mod deelt door het getal achter mod; dat getal achter mod geeft altijd het deelgetal aan.<br/>\n </p>\n<table border=\"1\" cellpadding=\"5\" cellspacing=\"5\" class=\"width-500-pixels\">\n<tbody>\n<tr>\n<td>In Java heb je als eens gezien dat dit mod aangeduid wordt als %. Daar is de expressie 24 % 7 gelijk aan: wat is de rest als je 24 door 7 deelt. We gaan er bij al deze berekeningen vanuit dat er geen gebroken getallen gebruikt worden. Normaal is 14 gedeeld door 3 gelijk aan 4,6666\u2026 maar we maken hiervan 4 rest 2. Het is overigens gewoonte om bij cryptografie die met getallen werkt, uitsluitend van gehele getallen gebruik te maken.</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260745"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 7",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/c/cb1fb08470fbb490d4ea723ab2156e0d9657b777.png\" class=\"height-336-pixels width-220-pixels float-right\"/>Een paar opdrachten om aan het modulorekenen te wennen.</p>\n<ol type=\"a\">\n<li>de uitkomst van 123 (mod 12) =</li>\n<li>(34 x 7 + 2) (mod 7) =</li>\n<li>als a = 12, b = 15 en c = 5 dan is de uitkomst van (a x b) (mod c):</li>\n</ol>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260747"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Caesar formule",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/0/0ee88b196f70fbc9efc627e88b3add9307aaaaba.png\" class=\"height-336-pixels width-220-pixels float-right\"/>De Caesarversleuteling is op deze wijze in een formule te vangen, namelijk:</p>\n<p><strong>E = (x + k) (mod 26)</strong></p>\n<p>In de formule staat <strong>E</strong> voor de positie van de versleutelde letter, <strong>x</strong> voor de positie van de letter in het alfabet en <strong>k</strong> voor de verschuiving.</p>\n<p>Om een tekst te ontsleutelen gebruik je de formule:</p>\n<p><strong>D = (x - k) (mod 26)</strong></p>\n<p>In deze formule staat <strong>D</strong> voor de positie van de ontcijferde letter.</p>\n<p>Het rekenbladprogramma MS Excel stelt je op eenvoudige wijze in staat de Caesar-versleuteling toe te passen. Hoe dat gaat, kun je zien door het bestand <a href=\"https://maken.wikiwijs.nl/userfiles/4/435162641f30852cc165ad90d22b0f4ab9f58404.xlsx\">caesar.xlsx</a> te downloaden en te openen.</p>\n<ul>\n<li>In rij 3 van het spreadsheet wordt de tekst gezet die gecodeerd moet worden.</li>\n<li>In rij 4 wordt de positie van de letter in het alfabet berekend. De functie <span><strong>CODE()</strong></span> geeft de ASCII-code van de letter. Omdat de ASCII-codes van de hoofdletters lopen van 65 tot en met 90, trekken we 64 af van de ASCII-code.</li>\n<li>In rij 5 wordt de ASCII-code van de versleutelde letter berekend. De functie <span><strong>REST()</strong></span> is de modulo-functie in Excel: <span><strong>REST(getal:deler)</strong></span>.</li>\n<li>In rij 6 wordt met behulp van de functie <span><strong>TEKEN()</strong></span> de ASCII-code omgezet naar een letter.</li>\n</ul>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260749"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 8",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/f/f447a8629fead795de5ec7060df5588f13e05f62.png\" class=\"height-336-pixels width-220-pixels float-right\"/>Geef een geheime boodschap door volgens de Caesarversleuteling door aan je buurman of -vrouw. Vraag die om de oorspronkelijke boodschap eruit te halen.<br/>\nMaak gebruik van het spreadsheet <a href=\"https://maken.wikiwijs.nl/userfiles/4/435162641f30852cc165ad90d22b0f4ab9f58404.xlsx\" target=\"_blank\">Caesar</a><span class=\"c1\"> </span>bij het versleutelen en ontcijferen van de boodschap.</p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260751"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Caesar verbeterd",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/8ef599cc8349772713e355ad2ceb4a097f004c8e.png\" class=\"height-336-pixels width-220-pixels float-right\"/>Zoals je hebt gezien, is een codering van een tekst met behulp van het Caesar-algoritme betrekkelijk zwak. Als het bericht onderschept wordt, dan volstaat het om de 25 mogelijkheden na te lopen.<br/>\nEen verbetering van het systeem is dat je je niet beperkt tot alleen een verschuiving van de letters, maar dat ze ook door elkaar gehusseld mogen worden. In principe zijn er dan ruim 4x`10^(26)` ofwel 400.000.000.000.000.000.000.000.000 verschillende sleutels mogelijk. Het wordt nu onmogelijk om de code te breken door alle mogelijke sleutels na te lopen.</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/9/9e802dee0e6061f43d29cb84fe927ef6394a31e8.png\" class=\"height-41-pixels width-500-pixels\"/></p>\n<p><br/>\nEen nadeel aan deze sleutel is dat je het door elkaar gehusselde alfabet niet zo makkelijk kunt onthouden. En als je de sleutel op gaat schrijven dan is er het risico dan het handen van onbevoegden valt. Wanneer je een geringe vermindering van het aantal sleutels accepteert kun je een sleutelwoord gebruiken.</p>\n<p>We nemen als sleutelwoorden ENIGMA ONLINE. Als eerste schrappen we de spaties en de letters die vaker voorkomen in de woorden. Dit levert ENIGMAOL op. Dit sleutelwoord nemen we als begin op van het gehusselde alfabet. Vervolgens vullen we het alfabet aan met een verschuiving die begint waar het sleutelwoord ophoudt.</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/b/b9beca204496bf8a1c7f211a663c9a4b9c999268.png\" class=\"height-41-pixels width-500-pixels\"/></p>\n<p><br/>\nDe versleutelingsmethodes die we tot nu toe behandeld hebben behoren tot de <strong>monoalfabetische substitutie</strong>, omdat er gebruik wordt gemaakt van \u00e9\u00e9n substitutie-alfabet om een letter te vervangen.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260753"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 9",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/3/35966d2ee352ec5a27b44f3fc9a2d3a52bc2cf0e.png\" class=\"height-336-pixels width-220-pixels float-right\"/>Ook voor het versleutelen met een sleutelwoord maken we gebruik van het rekenbladprogramma MS Excel. Open daarvoor het bestand <a href=\"https://maken.wikiwijs.nl/userfiles/7/744b2db27d2aad34d42db42c0a1d62df4f3aefa9.xlsx\">verbeterde caesar</a> in Excel. Om de juiste bijbehorende letter te vinden, maken we gebruik van de <span>functie horiz.zoeken()</span>, waarmee je in een tabel op basis van een zoekwaarde uit een opgegeven rij een waarde (in dit geval een letter) kunt ophalen.<br/>\n<br/>\nGeef een geheime boodschap door volgens de verbeterde Caesarversleuteling door aan je buurman of -vrouw. Vraag die om de oorspronkelijke boodschap eruit te halen.</p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260755"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Frequentie analyse",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/3/39607d3e9363659f75299245d0aa159b6d25a864.png\" class=\"height-336-pixels width-220-pixels float-right\"/>De techniek om een boodschap te ontcijferen wordt cryptoanalyse genoemd. Deze <strong>cryptoanalyse</strong> maakt daarbij geen gebruik van de sleutel. Degene die een boodschap versleutelt, maakt gebruik van de geheime sleutel (bijv. de Caesarverschuiving). De cryptoanalist bestudeert de geheime tekst om er zwakke plekken in te ontdekken of bepaalde regelmatigheden, die kunnen bijdragen aan de oplossing van het probleem.</p>\n<p>Veel geleerden uit de oudheid meenden dat het substitutieschrift vanwege het gigantische aantal sleutels niet te breken was. Een lange tijd leek dat ook te kloppen. De doorbraak deed zich in de 9e eeuw voor in het oosten door de Arabieren.</p>\n<p>In Bagdad werd veel gedaan aan de bestudering van allerlei talen, maar vooral ook aan de Hadith, waarin vele uitspraken stonden die de profeet Mohammed in zijn dagelijkse leven gedaan had. De geleerden gingen zelfs zover dat ze trachtten aan te tonen of bepaalde zinswendingen en woorden al dan niet consistent waren met bekende lingu\u00efstische patronen van de profeet. Met andere woorden: konden ze met het tellen van specifieke woorden en zinnen laten zien of een uitspraak inderdaad van de profeet afkomstig was?</p>\n<p>Afgezien van de uitkomst daarvan was het voor de eerste keer dat taalgeleerden zich bezighielden met frequentieanalyse in taal. Zo kwamen zij erachter dat de letters 'a' en 'l' in het Arabisch tien keer zo vaak voorkwamen als de letter 'j'. De letters 'a' en 'l' kwamen immers voor in het zeer vaak gebruikte lidwoord al-.</p>\n<p>Deze ontdekking lijkt nogal onbetekenend, maar ze is een grote doorbraak geweest voor de cryptoanalyse. In de 9e eeuw schreef de geleerde al-Kindi een handleiding voor het achterhalen van geheime boodschappen op basis van <strong>frequentieanalyse</strong>.</p>\n<table border=\"1\" cellpadding=\"5\" cellspacing=\"1\" class=\"width-100-percent\">\n<tbody>\n<tr>\n<td>\n<p><strong>Handleiding Al-Kindi</strong><br/>\nAls we een taal kennen is een methode om een geheim bericht te ontcijferen, dat bericht te vergelijken met een bekende tekst in diezelfde taal. Deze tekst moet zeker een pagina lang zijn.</p>\n<p>Vervolgens gaan we na hoe vaak elke letter in de bekende tekst voorkomt. De meest voorkomende letter krijgt in een tabel positie 1, de volgende positie 2 enzovoort, totdat we de frequentie van alle letters in kaart hebben gebracht.<br/>\nDan kijken we naar de geheime tekst en brengen daarvan ook de frequentie van de letters onder in een tabel.</p>\n<p>Vervolgens zetten we de letters uit de twee verschillende tabellen met gelijke frequenties naast elkaar.<br/>\nDe letter op de eerste positie in de tabel met de geheime tekst wordt vervangen door de eerste letter in de tabel met de bekende tekst.</p>\n<p>Op deze wijze kunnen we de geheime tekst ontcijferen.</p>\n</td>\n</tr>\n</tbody>\n</table>\n<p><br/>\nHet basisprincipe van frequentieanalyse wordt aan de hand van een eenvoudige Caesarversleuteling in de video van de Khan Academy gedemonstreerd.<br/>\nBekijk de video.</p>\n<p><video height=\"267\" src=\"https://maken.wikiwijs.nl/userfiles/bc7d7fce7e280352c24c7102ea2080f256cb845a.mp4\" title=\"Basisprincipe frequentieanalyse\"> </video></p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260757"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 10",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/d/d7042e7576548d65a36cad8df2c3afa659d79063.png\" class=\"height-336-pixels width-220-pixels float-right\"/>De onderstaande tekst is een monoalfabetische substitutie, waarbij gebruik is gemaakt van een sleutelwoord.</p>\n<table border=\"1\" cellpadding=\"5\" cellspacing=\"1\">\n<tbody>\n<tr>\n<td>\n<p><strong>Monoalfabetische substitutie</strong></p>\n<p>TLTQX YVGQO WXRQI TTQ IM BGMO ZTQ IM PRIMVQM ERPSYXMV. IM HTWGW ZRRV FGJQ VRMP LMOIM NGJ PMX IM SYHLGETXGM ZTQ NMX TVXGKML RQ ERPSYXTHLM QYPHMVW. NGJ WENVMMA NMX GQ MMQ SMVGRIM BTTVGQ NGJ BMVKXM TTQ IM SVMWXGOGMYFM SVGQEMXRQ YQGZMVWGXD BTTV QTTWX TLHMVX MGQWXMGQ RRK IM NRQOTTVW-TPMVGKTTQWM BGWKYQIGOM JRNQ ZRQ QMYPTQQ BMVKXM. ZRQ QMYPTQQ KRQ PMX NYLS ZTQ IM FROMQTTPIM XYVGQOPTENGQM MMQ XNMRVMXGWEN PRIML MMQ SVTKXGWENM PTQGMV RQXBGKKMLMQ RP ERPSYXMVW HVYGKHTTV XM PTKMQ. ITTVQTTWX LMOIM NMX IMQKBMVK ZTQ XYVGQO RRK IM HTWGW ZRRV IM GQARVPTXGET.</p>\n</td>\n</tr>\n</tbody>\n</table>\n<p><br/>\nDe opdracht is om deze tekst zo snel mogelijk te ontcijferen door gebruik te maken van frequentieanalyse. In tabel zie je een schatting van de frequentie van Nederlandse letters. Deze tabel is gebaseerd op onderzoek uit 1985 van de Stichting voor Publieksvoorlichting over Wetenschap en Techniek (PWT).</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/4/478d81bcb4d3b89c8236b9d80868a61c512ff839.png\" class=\"height-252-pixels width-480-pixels\"/>\n<figcaption>Frequentieanalyse Tabel</figcaption>\n</figure>\n<p><br/>\nDownload het met de gecodeerde tekst. In het Worddocument vind je ook een tabel waarin je kunt zien hoe vaak de verschillende letters in het gecodeerde bericht voorkomen.</p>\n<ol type=\"a\">\n<li>Probeer het bericht te ontcijferen.</li>\n<li>Drie letters worden naar zichzelf gecodeerd. Welke letters zijn dat?</li>\n<li>Voor het coderen is een sleutelwoord gebruikt. Wat is het sleutelwoord?</li>\n</ol>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260759"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Polyalfabetisch",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/6/69556d3e889017808f998968bce815142664b104.png\" class=\"height-270-pixels width-177-pixels float-right\"/>Door de ontwikkeling van de frequentieanalyse was het monoalfabetisch versleutelingssysteem onvoldoende om geheimhouding te verzekeren.<br/>\nHet zou tot de Renaissance duren voordat er een nieuw systeem gerealiseerd werd. Tot dan bleef men gebruik maken van het monoalfabetische substitutie<br/>\nondanks het feit dat dit systeem niet veilig meer was voor codebrekers.<br/>\n<br/>\nLeon Battista Alberti, een vijftiende-eeuwse Florentijnse geleerde, gaf een eerst aanzet tot het ontwikkelen van een systeem dat bestand was tegen frequentieanalyse.<br/>\nAlberti beschreef een methode waarbij twee alfabetten werden gebruikt waartussen geswitcht werd tijdens het versleutelen om daarmee de cryptoanalisten op een dwaalspoor te brengen.<br/>\n<br/>\nDie Alberti-techniek zag er schematisch als volgt uit:</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/3/33f28385ea037e43c663baef64fc249087fd3613.png\" class=\"height-60-pixels width-576-pixels\"/></p>\n<p><br/>\nDe eerste rij vormt de letters van het normale alfabet. De tweede rij (1) is het eerste codeeralfabet en de derde rij (2) is het tweede codeeralfabet. Je ziet dat beide laatste alfabetten uit normale tekens bestaan maar dat de letters daarvan in willekeurige volgorde staan.<br/>\n<br/>\nWe gaan met behulp van het systeem van Alberti de zin 'ZULLEN WE MORGEN UITGAAN' coderen.<br/>\n<br/>\nOnder de Z staat in alfabet 1 een W: Z \u2192 W<br/>\nOnder de U staat in alfabet 2 een C: U \u2192 C<br/>\nOnder de L staat in alfabet 1 een P: L \u2192 P<br/>\nOnder de L staat in alfabet 2 een A: L \u2192 A</p>\n<p>In de Caesar-versleuteling zouden die twee letters L uit ZULLEN altijd twee gelijke andere letters opleveren. Zoals je ziet is dat in de methode van Alberti niet het geval.<br/>\n<br/>\nOmdat er meerdere alfabetten gebruikt worden om het bericht te versleutelen spreken we van <strong>polyalfabetische substitutie</strong>.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260761"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 11",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/b/b3215ac1e69a223dba46a1cc8bf6e057fc200343.png\" class=\"height-336-pixels width-220-pixels float-right\"/>Leg uit waarom polyalfabetische substitutie beter bestand is tegen frequentieanalyse dan monoalfabetische substitutie.</p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260763"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "De Vigen\u00e8re ",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/2/269b265a6d54efa278a04ab506161037dc639598.png\" class=\"height-336-pixels width-220-pixels float-right\"/>Alberti had een aanzet gegeven tot de ontwikkeling van een nieuwe encryptiemethode. Hij werkte het echter niet uit tot een werkend systeem.<br/>\nAnderen borduurden voort op zijn idee. Het was de Fransman Blaise de Vigen\u00e8re die toen hij op diplomatieke missie was in Rome kennis maakte met de geschriften van Alberti. Hij werkte het uit tot een nieuw encryptiesysteem.<br/>\n<br/>\nDe kracht van het systeem zit erin dat de Vigen\u00e8re 26 alfabetten gebruikte voor de encryptie van berichten. Daarbij moest ook nog een sleutelwoord toegepast worden om het alfabet te bepalen dat gebruikt wordt.<br/>\n<br/>\nDe basis voor het versleutelen vormde het zogenaamde vierkant van De Vigen\u00e8re. De eerste rij wordt gevormd door het normale alfabet gevolgd door 26 codeeralfabetten elk ervan een letter verschoven ten opzichte van de vorige.</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/9/95f3c1349febe91dadb3da92869b506dc422e3ed.png\" class=\"height-400-pixels width-433-pixels\"/></p>\n<p><br/>\nBekijk de video om te zien hoe de Vigen\u00e8reversleuteling in zijn werk gaat.</p>\n<p><video height=\"267\" src=\"https://maken.wikiwijs.nl/userfiles/5025de7086b5e3812ed1a42d70fdcbf97cf5c843.mp4\" title=\"De Vigenere\"> </video></p>\n<p> </p>\n<p>Het grote voordeel van de encryptie-methode van De Vigen\u00e8re is dat het door middel van frequentieanalyse niet ontcijferd kan worden, omdat een letter op verschillende manier gecodeerd wordt en twee verschillende letters eenzelfde code kunnen opleveren. Daarnaast telt het een enorm aantal sleutels.<br/>\n<br/>\nJe zou verwachten dat het Vigen\u00e8resysteem algemeen werd ingevoerd, maar dat was niet het geval. Het systeem werd te complex gevonden om snel en eenvoudig berichten te versturen. In plaats daarvan werd er gezocht naar oplossingen voor het verbeteren van het monoalfabetisch substitutiesysteem. Pas eind 18e, eeuw ging men over op polyalfabetische encryptie.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260765"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 12",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/7/77c2c0708d58f9d012c2a1d58c51dfe999d331d7.png\" class=\"height-336-pixels width-220-pixels float-right\"/>Voor het versleutelen volgens de methode van de Vigen\u00e8re maken we gebruik van het rekenbladprogramma MS Excel. Open daarvoor het bestand <span class=\"underline\"><a href=\"https://maken.wikiwijs.nl/userfiles/0/06bf181d1ef8651e244859b40c382e5a408eba3a.xlsx\"><strong>de Vig\u00e8nere</strong></a></span>in Excel.<br/>\n<br/>\nOm de tekst te coderen, maken we gebruik van de formule <span><strong>=VERT.ZOEKEN(B$5;$B$14:$AA$39;CODE(B$4)-64;ONWAAR)</strong></span><br/>\nom in de Vigen\u00e8retabel de gecodeerde letter te vinden.<br/>\n<br/>\nVoor het decoderen van de tekst gebruiken we de formule<br/>\n<span><strong>=TEKEN(REST(26+(CODE(B$9)- CODE(B$10));26)+65)</strong></span><br/>\nom de oorspronkelijke letter in het alfabet te bereken.<br/>\n<br/>\nGeef een geheime boodschap door volgens de Vigen\u00e8reversleuteling door aan je buurman of -vrouw. Vraag die om de oorspronkelijke boodschap eruit te halen.</p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260767"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 13",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<ol type=\"a\">\n<li><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/6/6132b1c8f8148d050221bf9a71c7ca98db32f6d1.png\" class=\"height-336-pixels width-220-pixels float-right\"/>Waarom wordt het versleutelingssysteem volgens de Vigen\u00e8re een polyalfabetisch substitutiesysteem genoemd?</li>\n<li>Waarom was ontcijfering van boodschappen, die volgens de Vigen\u00e8re waren versleuteld, vrijwel onmogelijk?</li>\n</ol>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260769"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Babbage",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/a/abe8f5790bf2a8aa78367e796596a2be2acde2fa.png\" class=\"height-336-pixels width-220-pixels float-right\"/>Tot het midden van de 19e eeuw was de polyalfabetische Vigen\u00e8reversleuteling de beste manier om geheimhouding te verzekeren voor belangrijke communicatie. Zij stond bekend als le chiffre ind\u00e9chiffrable: een onbreekbare versleuteling.<br/>\n<br/>\nTerwijl de meesten de hoop hadden opgegeven om de code te kraken, was het de Britse wiskundige Charles Babbage die werd uitgedaagd. John Hall Brock Thwaites, een tandarts uit Bristol, schreef naar het Journal of Society Arts dat hij een nieuwe encryptiemethode ontwikkeld had. Babbage gaf aan dat het in niet anders dan een variatie op de methode van de Vigen\u00e8re was. Thwaites daagde vervolgens Babbage uit om de encryptie te breken.<br/>\n<br/>\nOm de code te breken moest Babbage op zoek naar het zwakke punt.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260771"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 14",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<ol type=\"a\">\n<li>Versleutel de tekst CCCCCCCCCCCCCCC (15 maal de letter C) met de Vigen\u00e8re-methode met behulp van het sleutelwoord HALLO.<br/>\nWat is de wordt de encrypte tekst?</li>\n<li>Wat valt je op als je het resultaat van vraag a bekijkt?</li>\n<li>Welke rol speelt de lengte van het sleutelwoord bij de betrouwbaarheid van de Vigen\u00e8reversleuteling?</li>\n</ol>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260773"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Babbage - 2",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/5f8ceeb1253204cb486065d92a792c3ae144cf7b.png\" class=\"height-336-pixels width-220-pixels float-right\"/>Bekijk de video om te zien hoe Charles Babbage dat gegeven gebruikt om de versleuteling te breken.</p>\n<p><video height=\"267\" src=\"https://maken.wikiwijs.nl/userfiles/d48c1b6e20d1000987294a9104be149ec2e26fa3.mp4\" title=\"Breken Vigenerebersleuteling door Babbage\"> </video></p>\n<p>Babbage was het gelukt om de Vigen\u00e8re-encryptie te breken, maar hij maakte haar nooit openbaar. Het kwam pas aan het licht toen in de 20e eeuw onderzoek werd gedaan naar zijn aantekeningen.<br/>\n<br/>\nGelijktijdig had een oud-officier van het Pruisische leger, Friedrich Wilhelm Kasiski, onafhankelijk van Babbage eenzelfde methode bedacht om de Vigen\u00e8reversleuteling te breken. Hij publiceerde in 1863 zijn vondst in 'Die Geheimschriften und die Dechiffrirkunst'. Sindsdien staat deze techniek bekend als de Kasiski-test.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260775"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 15",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Hieronder zie je in de tabel een tekst die versleuteld is met de methode van De Vigen\u00e8re.</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/4/489a85b12eb129bb44c0300d5c063eeabc677f78.png\" class=\"height-240-pixels width-489-pixels\"/>\n<figcaption>Versleutelde tekst</figcaption>\n</figure>\n<p> </p>\n<ol type=\"a\">\n<li>Welke letterreeksen komen meer dan \u00e9\u00e9nmaal voor. Ga uit van een minimale lengte van 3 tekens.</li>\n<li>Bepaal de ruimte tussen de overeenkomstige letterreeksen.</li>\n<li>Wat is de waarschijnlijke lengte van de sleutel?</li>\n</ol>\n<p>Gebruik het <a href=\"https://maken.wikiwijs.nl/userfiles/f/f1ca114227f384e917685cefce2af37b1ffef265.docx\"><span class=\"underline\"><strong>word-bestand</strong></span></a> met de gecodeerde tekst om de opdrachten te maken.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260777"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Extra opdrachten",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<ol type=\"d\">\n<li><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/4/4e054ae9cc0abcb689466765b4e604603e5b2cad.png\" class=\"height-336-pixels width-220-pixels float-right\"/>Decodeer de tekst door op iedere reeks frequentieanalyse toe te passen.<br/>\nGebruik het excel-bestand <a href=\"https://maken.wikiwijs.nl/userfiles/5/5f820ff86f3a30e356498466729d5b92c45b3c2f.xlsx\"><span class=\"underline\"><strong>frequentieanalyse</strong></span></a> om de frequentie van de letters in de tekst te bepalen.</li>\n<li>Wat is de sleutel geweest?</li>\n</ol>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260779"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Toets 1",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><strong><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/e/e05e3a82feabe2d0000b7920e5151f08e2f70071.png\" class=\"height-150-pixels width-150-pixels float-right\"/></strong>In de volgende toets wordt getoetst wat je inmiddels zou moeten weten over het onderwerp Klassieke cryptografie<br/>\n<br/>\nMaak de toets:</p>\n<table border=\"0\" cellpadding=\"5\">\n<tbody>\n<tr>\n<td><a href=\"http://vo-content.azurewebsites.net/informatica-voortgang/exercise/48080/if-cryptografie-toets1\" onclick=\"window.open(this.href, '', 'resizable=no,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=no,dependent=no,width=1000,height=600'); return false;\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/7/7362ba59d9162f5f0e6713de57cf917713872547.png\" class=\"height-26-pixels width-134-pixels\"/></a></td>\n<td>Klassieke cryptografie</td>\n</tr>\n</tbody>\n</table>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "7260781"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "C Mechanisch",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "7260782"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Cijferschrijven",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/6/6c473a5f749d6b2d9a4a4e947b4d9991b25092b8.png\" class=\"height-169-pixels width-220-pixels float-right\"/>Het oudst bekende hulpmiddel om teksten te versleutelen werd in de vijftiende eeuw ontwikkeld door Leon Battista Alberti, die we al eerder zijn tegenkomen als diegene die een eerste aanzet gaf tot het polyalfabetische substitutiesysteem.<br/>\nDe Alberti cijferschijf bestaat uit twee schijven, de vaste buitenste schijf (de 'Stabilis') en een draaiende binnenring (de 'Mobilis').<br/>\nBeide schijven bevatten aan de buitenrand het alfabet. Door de binnenring te verdraaien kan een substitutie over een aantal posities worden verkregen, zodat je makkelijk een Caesarverschuiving kunt aflezen.<br/>\nDe cijferschijf kon ook voor polyalfabetische substitutie gebruikt worden.<br/>\n </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260784"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 16",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/118f7c1661167bab7efac0e5b7b648f12b272eac.png\" class=\"height-400-pixels width-400-pixels float-right\"/>Hoe zou je de Alberti cijferschijf kunnen gebruiken bij polyalfabetische substitutie?</p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260786"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Cijferschrijven - 2",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/2/2b2426f0023fd544f640ff2dbdf911471f8a205e.png\" class=\"height-334-pixels width-153-pixels float-right\"/>Cijferschijven kenden vele kleine variaties op het basisontwerp. In de video wordt gedemonstreerd hoe in de Amerikaanse Burgeroorlog (1861-1865) deze disk werd gebruikt om berichten te versleutelen.<br/>\n<br/>\nBekijk de video:</p>\n<p><iframe allowfullscreen=\"allowfullscreen\" frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/i0KgZSF9hmc?rel=0\" width=\"560\" class=\"video-item\"/></p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260788"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 17",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<ol type=\"a\">\n<li>Op de buitenring van de cijferschijf staan getallen gevormd met de cijfers 1 en 8.<br/>\nWat is de betekenis van die cijfer?</li>\n<li>Hoe wordt de sleutel op de cijferschijf ingesteld?</li>\n<li>Wat is de betekenis van de letters A.J.M. in het midden van de schijf?</li>\n<li>Op de cijferschijf hiernaast is de sleutel al ingesteld.<br/>\nCodeer de volgende tekst: DISK</li>\n</ol>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/3/332e835fd057cd49778b371fb74803a4a510011b.jpg\" class=\"height-350-pixels width-385-pixels\"/>\n<figcaption>Cijferschijf</figcaption>\n</figure>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260790"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Communicatiemiddelen",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/1d4debd0784bb2a7d2f5564a26058996077780f0.png\" class=\"height-336-pixels width-220-pixels float-right\"/>Door de ontdekking van Charles Babbage en Friedrich Kasiski was de Vigen\u00e8re-versleuteling niet meer betrouwbaar. Hoewel cryptografen nieuwe encryptiemethoden probeerden te ontwerpen kwam er in het verdere verloop van de negentiende eeuw geen grote doorbraak.<br/>\n<br/>\nDoor de uitvinding van de telegraaf werd het mogelijk over grote afstand met elkaar te communiceren. Voor zowel diplomatiek als zakelijk verkeer betekende het dat afstanden een minder belangrijke rol gingen spelen.<br/>\nDe eerste telegrafieverbinding over zee kwam in 1850 tussen Calais en Dover. Een trans-Atlantische telegraafverbinding werd in 1866 operationeel. Rond 1900 lukte het de Italiaan Guglielmo Marconi berichten te versturen door gebruik te maken van radiogolven. Daarmee was draadloze telegrafie gerealiseerd.<br/>\n<br/>\nOok militairen zagen de voordelen van zo'n nieuw communicatiemiddel in, maar zij waren zich ook bewust van de gevaren ervan. Immers een boodschap kon zo maar uit de lucht geplukt worden, omdat radiogolven alle richtingen uit gaan. Het was dus noodzakelijk betrouwbare encryptie te bedenken.<br/>\n<br/>\nDe Eerste Wereldoorlog maakte deze problemen voor de nieuwe militaire functie van de radio maar al te duidelijk. Er werden allerlei versleutelingsmethodes bedacht, maar die werden vroeg of laat weer gekraakt.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260792"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 18",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/4/4c493386e573bd43c2741a852fa74f7e4f4d61be.png\" class=\"height-336-pixels width-220-pixels float-right\"/>Om berichten te sturen via telegrafie werd gebruik gemaakt van morsecode.<br/>\nKun je morsecode beschouwen als een vorm van een substitutiecijfer?<br/>\nLeg je antwoord uit.</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/3/357c5a1da0ca8fb62df6d2e273972db450bf6484.png\" class=\"height-400-pixels width-307-pixels\"/>\n<figcaption>International Morse Code</figcaption>\n</figure>\n<p> </p>\n<p>Een van de beroemdste cijfersystemen uit de Eerste Wereldoorlog was het ADFGVX-systeem, dat werd ingevoerd op 5 maart 1918. De kracht van het systeem lag in de combinatie van substitutie en transpositie. Toch wisten de Fransen het al op 2 juni te kraken, zodat men tijdig op de hoogte was waar het Duitse aanval zou plaatsvinden.<br/>\n<br/>\nBekijk de video om te zien hoe de ADFGVX-encryptie werkt.</p>\n<p><video height=\"267\" src=\"https://maken.wikiwijs.nl/userfiles/49ca08b39355700ea8db853fa895ccb4c7628760.mp4\" title=\"ADFGVX-encryptie\"> </video></p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260794"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 19",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/e/ebe719474c13a47cfb6c8b667c91cc4dd780b6b2.png\" class=\"height-336-pixels width-220-pixels float-right\"/>In aan de slag 18 heb je een filmpje gezien over versleuteling met ADFGVX. </p>\n<p>Het volgende bericht is binnengekomen: <strong>FAVGVDVVXXGXVDDDAADDAGXG</strong>.<br/>\nHet is versleuteld met het ADFGVX-cijfer.<br/>\nOntcijfer het bericht.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260796"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Communicatiemiddelen - 2",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/8fc968ce77c1e8cdc4145d9c76b4eab8b6acaeac.png\" class=\"height-336-pixels width-220-pixels float-right\"/>In het volgende vind je het sleutelwoord en het rooster met 26 letters en 10 cijfers om de tekst te coderen.<br/>\n<br/>\nEen ander voorbeeld van de kracht van de Geallieerde cryptoanalisten was de ontcijfering van het Zimmermann telegram. Tot april 1917 hadden de Verenigde Staten zich buiten de oorlog gehouden maar toen de Britten de inhoud van het telegram van Duitse minister van buitenlandse zaken Zimmermann lieten uitlekken, zag de Amerikaanse president Wilson daarin het bewijs dat Duitsland erop uit was agressie tegen de Verenigde Staten aan te moedigen en hij verklaarde de oorlog aan Duitsland. Waarschijnlijk was dat niet gebeurd als het gecodeerde bericht niet was ontcijferd.<br/>\n<br/>\nVoor het versleutelen van berichten maakten de Duitsers veel gebruik van codeboeken. Een codeboek bevat een lijst met codes en een lijst met woorden die horen bij de codes. Tijdens de Eerste Wereldoorlog had de Britse geheime dienst verschillende Duitse codeboeken in handen gekregen.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260798"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 20",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Bekijk de video om te zien hoe het Zimmermann telegram werd ontcijferd.</p>\n<p><video height=\"267\" src=\"https://maken.wikiwijs.nl/userfiles/5d1d82203662846806bbdfc24190214bb6a8aac6.mp4\" title=\"Zimmermann telegram\"> </video></p>\n<p> </p>\n<ol type=\"a\">\n<li>Om de code te breken gingen de cryptoanalisten op zoek in de code naar een woord dat in een telegram het eind van zin aangeeft.<br/>\nWelk woord is dat?</li>\n<li>Welk woord kwam niet voor in de Duitse codeboeken?</li>\n<li>Met welk doel had Zimmermann het telegram verstuurd?</li>\n</ol>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/3/3d2ec85e1cd54fb78008c2d0fd6791317916f54e.png\" class=\"height-260-pixels width-554-pixels\"/>\n<figcaption>Zimmerman telegram</figcaption>\n</figure>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260800"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Enigma",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/9/9b63d904f55c303d935e9322f5e7de62cab4f355.png\" class=\"height-336-pixels width-220-pixels float-right\"/>De Eerste Wereldoorlog had duidelijk gemaakt dat er krachtiger methodes nodig waren om berichten geheim te houden. In 1918 ontwikkelde de Duitse uitvinder Arthur Scherbius een apparaat waarmee hij probeerde op destijds moderne wijze cryptografie te bedrijven. Er zouden mechanische en elektrische onderdelen bij gebruikt worden. In feite was het een elektrische versie van de cijferschijf van Alberti. Scherbius noemde het apparaat Enigma. Enigma betekent 'raadsel' en dat was deze machine ook een lange tijd.<br/>\nDe Enigma werd in de jaren twintig op de markt gebracht en gebruikt door bedrijven, diplomatieke diensten en legers, maar het kreeg grote bekendheid als de cijfermachine van de Duitse Wehrmacht.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260802"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 21",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/82420927c53f55625b282f443e58aa6f96b32e9f.png\" class=\"height-336-pixels width-220-pixels float-right\"/>Bekijk de video van Dr. James Grimes over de werking van de Enigma.</p>\n<p><iframe allowfullscreen=\"allowfullscreen\" frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/G2_Q9FoD-oQ?rel=0\" width=\"560\" class=\"video-item\"/></p>\n<ol type=\"a\">\n<li>Om een bericht te coderen en te decoderen moesten de zender en de ontvanger de beschikking hebben over een Enigmamachine, die op dezelfde manier was ingesteld.<br/>\nWelke instellingen moesten gedaan worden om de Enigma operationeel te maken?</li>\n<li>Wat is het verschil tussen de commerci\u00eble versie van de Enigma en de militaire versie?</li>\n<li>Hoeveel verschillende instellingen kunnen er gemaakt worden met de Enigma?</li>\n<li>In het volgende staat in de rechterkolom een schematische voorstelling van de Enigma.<br/>\nVul in de linkerkolom achter de nummers de stappen in de ontbreken in het verhaal over de werking van de Enigmamachine.</li>\n<li>Hoe wisten de zender en ontvanger de instellingen van de Enigmamachine?</li>\n</ol>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260804"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Enigma - 2",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/f/ff95aa6de7fdcae79870a44c410eb7e9fabd74c2.png\" class=\"height-336-pixels width-220-pixels float-right\"/>Met de Enigma hadden de Duitsers na de Eerste Wereldoorlog een apparaat dat de Britse cryptoanalisten voor een raadsel plaatsten. Het lukte hen net zomin als de Fransen en Amerikanen om het Enigma-cijfer te breken.<br/>\n<br/>\nIn de jaren dertig was de Poolse inlichtingendienst 'Biuro Szyfr\u00f3w' al begonnen met een project om de Enigma-codes te ontcijferen. Nadat ze een replica van de Enigma in handen kregen, ging de wiskundige Marian Rejewski met hulp van Henryk Zygalski en Jerzy Rozycki aan de slag.<br/>\n<br/>\nZoals we al eerder gezien hebben is het vinden van patronen in berichten een middel om de zwakke plek in een cijfermethode te vinden. Rejewski ontdekte dat iedere Duitse boodschap een berichtsleutel had, die tweemaal werd vercijferd aan het begin van elk bericht. Rejewski zocht naar alle mogelijke patronen en koppelde die met de rotorinstellingen van de Enigma. De eerste berichten werden in 1932 gekraakt en de ontcijferingsmethoden werkten tot eind 1938 toen de Duitsers de procedures verbeterden. De Duitsers vergrootten het aantal instellingen van de Enigma, waardoor de methode haar effici\u00ebntie verloor.<br/>\n<br/>\nDaarop besloot de Poolse inlichtingendiensten in juli 1939 hun vondsten aan de Britten te geven. Zij gebruikten deze informatie vervolgens bij het opzetten van hun eigen team cryptologen in Bletchley Park om de Enigma te kraken. In dat team zaten onder meer de wiskundigen Alan Turing en Gordon Welchman.<br/>\n<br/>\nDit zogeheten 'Project Ultra' zou uiteindelijk een sleutelrol spelen in het verdere verloop van de Tweede Wereldoorlog door de onderschepping van geheime Duitse communicatie.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260806"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 22",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/3/3e9ff8452b2b7000e16e4d27ec715f538e477c83.png\" class=\"height-336-pixels width-220-pixels float-right\"/>Hoe wisten de Polen de eerste versies van de Enigma te kraken?<br/>\n<br/>\nBekijk de video over hoe de Britten de Enigma ontcijferden. De video bestaat uit twee delen.</p>\n<p><video height=\"267\" src=\"https://maken.wikiwijs.nl/userfiles/9bc7f3e09f1c2dadf325a24fb1b2901b120e1704.mp4\" title=\"Enigma a\"> </video></p>\n<p><video height=\"267\" src=\"https://maken.wikiwijs.nl/userfiles/5c525ae47663217ea55d20651dfd2e58d3adf15e.mp4\" title=\"Enigma b\"> </video></p>\n<p>\u200b\u200b</p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260808"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 23",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<ol type=\"a\">\n<li><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/f/f15b599debd94f47196033b5b0738ea624e1545c.png\" class=\"height-336-pixels width-220-pixels float-right\"/>Welk type bericht gaf een doorbraak bij het zoeken naar een oplossing?</li>\n<li>Alan Turing zocht in die berichten naar een mogelijke crib. Wat verstond hij onder een crib?</li>\n<li>Om een crib te vinden maakte Turing gebruik van een zwakte in de Enigma. Welke zwakte zat er in de Enigma?</li>\n<li>Hoe konden de Britten alle mogelijke permutaties doorlopen om de berichten te ontcijferen?</li>\n</ol>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260810"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 24",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>In deze opdracht ga je aan de slag met een simulatie van de Enigma.</p>\n<ol type=\"a\">\n<li>Download het <a href=\"https://maken.wikiwijs.nl/userfiles/2/2ff252165b7ccc71653e21664a26e1d17354489f.zip\" target=\"_blank\"><span class=\"underline\"><strong>simulatieprogramma</strong></span></a> en de bijbehorende <span class=\"underline\"><strong><a href=\"https://maken.wikiwijs.nl/userfiles/0/00693c51b0dfb4224575eb3a8c6c968615d72f42.pdf\" target=\"_blank\">handleiding</a>.</strong></span></li>\n<li>In dit <a href=\"https://maken.wikiwijs.nl/userfiles/7/78725b98b9b8b22d107ae488407804b41e3c6db0.docx\" target=\"_blank\"><span class=\"underline\"><strong>bestand</strong></span></a> staat een vercijferd bericht dat is binnengekomen.</li>\n<li>Decodeer het bericht met behulp van de instructies in de opdracht en het simulatieprogramma Enigma Sim.</li>\n</ol>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260812"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Enigma - 3",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/0/0c728a1daf6433842600d98bb751d711796327d1.png\" class=\"height-368-pixels width-220-pixels float-right\"/>Naast de Enigma, die vooral gebruikt werd door het leger in het veld, werd voor de communicatie tussen Hitler en zijn generaals de Lorenz SZ40 gebruikt. De Lorenz genereerde codesleutels waarmee de communicatie op hoog niveau versleuteld werd. Elke letter werd vercijferd door haar in vijf bits (in totaal worden 32 karakters gebruikt) te splitsen en die bits door middel van een XOR-operatie te versleutelen. Op het principe van een XOR-versleuteling komen we later in deze module terug.<br/>\n<br/>\nIn Bletchley Park hield men zich ook bezig met breken van de Lorenzvercijfering. Al snel werd duidelijk dat het ontcijferen geautomatiseerd moest worden. De Bombe die gebruikt werd om de code van de Enigma te breken, was niet flexibel genoeg om het Lorenzversleuteling te verwerken.<br/>\nDaartoe werd in 1943 een project gestart om een machine te bouwen die dat werk kon verrichten, de Colossus. De machine bestond uit 1500 elektronenbuizen die aanzienlijk sneller waren dan de trage elektromagnetische relais in de Bombe. Het belangrijkste verschil met de Bombe was dat de Colossus geprogrammeerd kon worden. Dat maakt dat de Colossus beschouwd kan worden als de eerste moderne computer.<br/>\nBegin 1944 was de eerste versie, de Mark I, operationeel.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "7260814"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "D Digitaal",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "7260815"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Inleiding",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><strong><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/1d352ffa132e7a0e46908ea9360aa1a83e147230.png\" class=\"height-336-pixels width-220-pixels float-right\"/></strong>Met de eerste moderne computer treden we in een ander cryptografisch tijdperk. Cryptoanalisten konden profiteren van de mogelijkheden die de computer bood om naar de juiste sleutel te zoeken. Maar de cryptografen hadden met de computer een tool gekregen om steeds complexere cijfers te maken.<br/>\n<br/>\nIn principe lijkt het versleutelen van een bericht per computer sterk op de traditionele vormen van encryptie. Er zijn echter drie belangrijke verschillen:</p>\n<ul>\n<li>Een mechanische machine zoals de Enigma wordt beperkt door het praktisch realiseerbare, terwijl een computer bijvoorbeeld een Enigma met meer dan honderd rotors kan imiteren.</li>\n<li>Computers werken veel sneller dan mechanische machines.</li>\n<li>En het belangrijkste verschil. Computers versleutelen reeksen bits in plaats van letters van het alfabet.</li>\n</ul>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260817"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "XOR-encryptie",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/4/4f44f115310429551b6ebf5dc63117cb7bade56c.png\" class=\"height-336-pixels width-220-pixels float-right\"/>Een van de eerste vormen van digitale cryptografie is de XOR-versleuteling, die we al tegengekomen zijn bij de Lorenzmachine. In tegenstelling tot traditionele vormen van vercijfering, waarbij die op letterniveau plaatsvindt, gebeurt dat bij een XOR-encryptie op binair niveau.<br/>\n<br/>\nStel je wilt het bericht HALLO met behulp van de sleutel ALAN versleutelen.<br/>\nVan zowel het bericht als de sleutel noteer je de bitcode van iedere letter (in dit voorbeeld de ASCII-code) en zet je de bitreeks van de sleutel onder het bericht. Indien het bericht langer is dan de sleutel herhaal je de sleutel.<br/>\nVervolgens versleutel je het bericht door een XOR-operatie op iedere bitpaar toe te passen.</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/8cffb24524c9eb774318ce6be771f7907a93397c.png\" class=\"height-104-pixels width-580-pixels\"/></p>\nMet dezelfde sleutel kun je het versleutelde bericht weer ontcijferen:\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/1f71d5b549a4b23b263fa8d8ebab32e20fe9394d.png\" class=\"height-104-pixels width-580-pixels\"/></p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260819"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 25",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/4/4f0bc4ed10e6bbec9d2b5a3f765fc1f746d5ed29.png\" class=\"height-336-pixels width-220-pixels float-right\"/>Je ziet een bericht van twee letters met daaronder de sleutel.</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/d/d4b3a5654bb68f6a3bb6fd4af66a36e12adc7164.png\" class=\"height-116-pixels width-285-pixels\"/><br/>\n </p>\n<ol type=\"a\">\n<li>Uit welke twee letters bestaat het bericht?</li>\n<li>Wat is de binaire code van de sleutel?</li>\n<li>Welk cijfer levert de XOR-versleuteling op?</li>\n</ol>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260821"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 26",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<ol type=\"a\">\n<li><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/0/0399ce970a3a2227fe8783b824666fd9ce9d1c87.png\" class=\"height-336-pixels width-220-pixels float-right\"/>Vercijfer het bericht <strong>VERCIJFERBITS</strong><br/>\nmet behulp van het rekenblad <a href=\"https://maken.wikiwijs.nl/userfiles/b/bca3604a7807ffcb38d4ebbf71848244a8476cad.xlsx\"><span class=\"underline\"><strong>XOR-versleuteling</strong></span></a>.<br/>\nHet sleutelwoord is ENIGMA.<br/>\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/9/9b4a253fd4d5d1276882d123fa4008aeca237311.png\" class=\"height-85-pixels width-348-pixels\"/></li>\n<li>Ontcijfer het vercijferde bericht terug naar het oorspronkelijke bericht door de bitcode te knippen en te plakken (Plakken speciaal \u2026 \u2192 Waarden plakken naar het bruine vak.<br/>\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/a/a60f4826d19ed92c2dd605b7b848f905bc709bdd.png\" class=\"height-162-pixels width-345-pixels\"/></li>\n</ol>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260823"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Data Encryption Standard",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/3/3f566ff37348895d315df5635a63c950a836d669.png\" class=\"height-231-pixels width-220-pixels float-right\"/>In de eerste jaren bleef computerencryptie beperkt tot regering en krijgsmacht, omdat zij alleen toegang hadden tot computersystemen. Vanaf de jaren zestig werden computers goedkoper en krachtiger. Steeds meer bedrijven konden zich een computer veroorloven om geldtransfers en zakelijke onderhandelingen te vercijferen. Naarmate er meer gebruik gemaakt werd van computerencryptie ontstond ook de behoefte om te standaardiseren.<br/>\n<br/>\nEen van de meest gebruikte cijferalgoritmes in die tijd, Lucifer, was een belangrijke kandidaat om de Amerikaanse norm te worden. Het werd beschouwd als een van de sterkste commercieel beschikbare encryptiestemen en werd door veel bedrijven gebruikt. Het was de NSA (National Security Agency) die daar een stokje voor stak. Zij wilde geen encryptiestandaard die zij mogelijk zelf niet kon breken.<br/>\n<br/>\nDe oplossing voor dit probleem was het beperken van de lengte van de sleutel tot 56-bits. Deze sleutellengte was groot genoeg om ervoor te zorgen dat hij niet gekraakt kon worden door computers die door burgerlijke organisaties werd gebruikt, maar dat de NSA, die 's werelds grootste computervermogen bezat dan net wel in staat was om de berichten te ontcijferen.<br/>\n<br/>\nIn 1977 werd <strong>DES (Data Encryption Standard)</strong>, de 64 bits versie van Lucifer (56 bits sleutel en 8 controle bits), de offici\u00eble Amerikaanse encryptiestandaard.</p>\n<table border=\"1\" cellpadding=\"5\" cellspacing=\"1\" class=\"width-100-percent\">\n<tbody>\n<tr>\n<td>\n<p><strong>Werking Data Encryption Standard</strong><br/>\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/a/af161d96786781634bbf28710cfdf9aef64caf20.png\" class=\"height-276-pixels width-316-pixels float-right\"/>Bij DES wordt de informatie opgedeeld in datablokken van 64 bits.</p>\n<p>Per blok worden de 64 getallen door elkaar 'gehusseld' waarna een blok verdeeld wordt in twee 32-bits blokken. Een van de twee blokken wordt versleuteld met behulp van een XOR-functie. Daarvoor wordt door de sleutelgenerator een 48 bits sleutel aangemaakt. Vervolgens worden de blokken weer in een andere volgorde aan elkaar 'geplakt' tot nieuwe 64 bits blokken.</p>\n<p>Dit proces wordt 16 keer doorlopen.</p>\n</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/112075030b16d0ac6862f8727a80bc430042a771.png\" class=\"height-336-pixels width-220-pixels float-right\"/>DES is in principe geen zwak algoritme. De zwakte zit hem in de lengte van de sleutel: 56 bits. De rekenkracht van moderne computers is zo groot dat het mogelijk is om binnen 24 uur een DES-cijfer te ontsleutelen. Om dit probleem op te lossen heeft men <strong>3DES</strong> (triple DES) ontwikkeld.<br/>\nBij dit algoritme wordt de data door drie afzonderlijke DES-bewerkingen versleuteld.<br/>\n<br/>\nDat kan op twee manieren:</p>\n<ul>\n<li>met twee sleutels van 56 bits waarbij de eerste en derde bewerking met dezelfde sleutel worden uitgevoerd;</li>\n<li>met drie onafhankelijke sleutels van 56 bits.</li>\n</ul>\n<p>De totale sleutellengte waarmee gecodeerd wordt is dus respectievelijk 112 bits of 168 bits, waarvan de laatste de veiligste vorm is.<br/>\n<br/>\nIn 2001 kwam er een opvolger voor DES: <strong>AES (Advanced Encryption Standard)</strong>, die tot op de dag van vandaag nog steeds gebruikt wordt.<br/>\nAES is afgeleid van het Rijndael-algoritme dat is ontwikkeld door de Belgen Vincent Rijmen en Joan Daemen uit Leuven.<br/>\n<br/>\nAES heeft een blokgrootte van 128 bits en de sleutel kan 128, 192 of 256 bits groot zijn. AES is in theorie te kraken, maar dat duurt miljarden jaren. Documenten van Edward Snowden geven aan dat de NSA aan het onderzoeken is of AES te kraken is, maar tot nu toe zijn er geen gevallen in de praktijk bekend. AES wordt dan ook nog steeds gebruikt, bijvoorbeeld als standaardversleuteling voor je desktop.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260825"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 27",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<ol type=\"a\">\n<li><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/9/9128bab6395696adba4792efd878c8bc9da492b0.png\" class=\"height-336-pixels width-220-pixels float-right\"/>Waarom was de NSA tegen het gebruik van het Lucifer-algoritme als Amerikaanse standaard?</li>\n<li>Welk compromis werd gesloten om tot een standaard te komen?</li>\n<li>Leg de werking van het DES-algoritme uit.</li>\n<li>Waarom werd 3DES ontwikkeld?</li>\n<li>Welk algoritme wordt vandaag de dag standaard gebruikt voor versleuteling?</li>\n</ol>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260827"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Asymmetrisch",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/e/ea7d8918217b9ad24a38f87fec61fda65e14a41d.png\" class=\"height-336-pixels width-220-pixels float-right\"/>Het probleem van een standaard, betrouwbaar encryptiesysteem was met de komst van DES en de opvolger AES opgelost. Een ander groot vraagstuk was echter nog niet opgelost: <strong>sleuteldistributie</strong>.<br/>\nEen bank stuurt vertrouwelijke data naar haar klanten. Wanneer zij deze data met AES versleutelt, dan kan de data veilig verstuurd worden. Het probleem is hoe de bank veilig de sleutel aan de klant meedeelt. Dit was een groot probleem, waar de naoorlogse cryptografen hun hoofd over bogen.<br/>\n<br/>\nBekijk de video over de sleuteldistributie.</p>\n<p><video height=\"267\" src=\"https://maken.wikiwijs.nl/userfiles/66a6fec1c077bc50131fb6a1076e444e0bad5756.mp4\" title=\"Sleuteldistributie\"> </video></p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260829"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 28",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<ol type=\"a\">\n<li>Voor welk groot probleem stonden de cryptografen na de Tweede Wereldoorlog?</li>\n<li>Leg uit hoe symmetrische encryptie werkt.</li>\n<li>Leg uit hoe asymmetrische encryptie werkt.</li>\n</ol>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260831"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Asymmetrisch - 2",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/3/334b601eae49624eccbac6b05bd9f56dd74581cb.png\" class=\"height-336-pixels width-220-pixels float-right\"/>Het voorbeeld van de hangsloten betekende niet dat het sleuteldistributiesysteem opgelost was. Het probleem is de volgorde waarin de encrypties worden uitgevoerd. In het algemeen geldt het principe \"last in, first out.\"<br/>\n<br/>\nBekijk de video over het last in, first out principe.</p>\n<p><video height=\"267\" src=\"https://maken.wikiwijs.nl/userfiles/e9084f92320284185f3dd61496d1d2c297eaf081.mp4\" title=\"Last in, first out principe\"> </video></p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260833"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 29",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Tegen welk probleem lopen de cryptografen aan als ze het hangslotensysteem willen toepassen voor encryptie?</p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260835"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Sleuteldistributie",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>De methode van de hangsloten gaat niet op voor cryptografie maar het gaf wel de inspiratie om op zoek te gaan naar een methode om het probleem van de sleuteldistributie op te lossen.<br/>\n<br/>\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/f/fb05e87a2ffb4ae519ddc0507c9b16ab3f436dff.png\" class=\"height-148-pixels width-220-pixels float-right\"/>In 1976 publiceerden <strong>Whitfield Diffie</strong> en <strong>Martin Hellman</strong> een baanbrekend artikel: New directions in cryptography. Daarin beschreven zij een methode hoe het probleem van sleuteldistributie omzeild kon worden.<br/>\nDiffie en Hellman waren twee jaar eerder met elkaar in contact gekomen door hun gemeenschappelijke interesse in cryptografie en sleuteldistributie in het bijzonder. Zij dachten dat de oplossing voor dit probleem gevonden kon worden door gebruik te maken van een wiskundige functie, die niet omkeerbaar is.<br/>\n<br/>\nDe meeste wiskundige functies zijn tweewegfuncties, omdat je de bewerking weer ongedaan kunt maken met een andere bewerking:</p>\n<table border=\"0\" cellpadding=\"5\">\n<tbody>\n<tr>\n<td>5 x 2 =10<br/>\n4<sup>2</sup> = 16<br/>\nsin(44) = 0,69466</td>\n<td>\u2192 10 / 2 = 5<br/>\n\u2192 \u221a16 = 4<br/>\n\u2192 asin(0,69466) = 44</td>\n</tr>\n</tbody>\n</table>\n<p>Omdat deze functies omkeerbaar zijn, is het terugrekenen relatief eenvoudig:</p>\n<table border=\"0\" cellpadding=\"5\">\n<tbody>\n<tr>\n<td><em>n</em> x 7 = 56<br/>\n<em>n</em><sup>2</sup> = 256</td>\n<td>\u2192 <em>n</em> = 56 / 7<br/>\n\u2192 <em>n</em> = \u221a256</td>\n</tr>\n</tbody>\n</table>\n<p><br/>\nHierin waren zij niet ge\u00efnteresseerd Zij zochten naar een functie die makkelijk uit te voeren is, maar heel moeilijk ongedaan gemaakt kan worden.<br/>\nEen voorbeeld van zo'n type functie is de modulo die we ook bij de Caesarversleuteling zijn tegengekomen. Stel we willen de waarde van <em>x</em> bepalen:<br/>\n11<em><sup>x</sup></em> (mod 13) = 2</p>\n<p>Dat is veel lastiger te bepalen. Een waarde proberen bijvoorbeeld <em>x</em> = 4 levert:<br/>\n11<sup>4</sup> (mod 13) = 3</p>\n<p>Omdat de uitkomst te hoog is zou je een kleiner getal kunnen proberen, maar dat levert:<br/>\n11<sup>3</sup> (mod 13) = 5<br/>\n<br/>\nVaak is de enige mogelijkheid om tot een oplossing te komen een tabel te maken met de vele waarden voor <em>x</em>.</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/0/09a0e6e12a3a6bd0a6988267d73aeea057ba14f5.png\" class=\"height-29-pixels width-500-pixels\"/></p>\n<p><br/>\nHet opstellen van een tabel is in dit voorbeeld nog eenvoudig, omdat we te maken hebben met kleine getallen.<br/>\nWanneer we echter <em>x</em> zouden moeten bereken uit 453<sup>x</sup> (mod 21.997) = 5787 is dat een enorme klus. Dit is een voorbeeld van een <strong>eenwegfunctie</strong>.<br/>\n<br/>\nNa twee jaar alle aandacht gericht te hebben op eenwegfuncties en modulair rekening vonden ze een oplossing voor het sleuteldistributieprobleem. Alice en Bob konden een geheime sleutel afspreken zonder elkaar te ontmoeten.<br/>\n<br/>\nBekijk de video over het Diffie-Hellman algoritme.</p>\n<p><video height=\"400\" src=\"https://maken.wikiwijs.nl/userfiles/ae4dd1101766f8f11d6b988267222d4c307dbe93.mp4\" title=\"Diffie-Hellman algoritme\"> </video></p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260837"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 30",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<ol type=\"a\">\n<li><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/d/dcf64e21822c62090a816d384b315a0f2bf61caf.webm\" class=\"float-right\"/><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/c/c2f38e899170255907d7c752d9f6d980828413fa.png\" class=\"height-336-pixels width-220-pixels float-right\"/>Waarom moest de functie waarnaar Diffie en Hellman op zoek waren een eenwegfunctie zijn?</li>\n<li>Gegeven de eenwegfunctie:<em>Y<sup>x</sup></em> (mod <em>P</em>).<br/>\nAlice en Bob kiezen <em>Y</em> = 2 en <em>P</em> = 5.<br/>\nAan welke voorwaarden moeten <em>Y</em> en <em>P</em> voldoen?</li>\n<li>In dit voorbeeld zijn <em>Y</em> en <em>P</em> kleine getallen.<br/>\nWaarom moet je in de praktijk voor grote getallen kiezen?</li>\n<li>Alice kiest als geheim getal 3.<br/>\nWat is de uitkomst die zij doorgeeft aan Bob?</li>\n<li>Alice ontvangt van Bob de waarde 4. Bereken de sleutel.</li>\n</ol>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260839"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Public key cryptografie",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/b/b4a1fef7b81604d1d6a4e5ae8d975c04065f5077.png\" class=\"height-275-pixels width-225-pixels float-right\"/>De vondst van Diffie en Hellman had het probleem van de sleuteldistributie opgelost, maar in de praktijk was het niet handig. Stel dat Alice naar Bob een versleutelde e-mail wil sturen. Dan moeten ze eerst contact met elkaar opnemen om de sleuteluitwisseling te regelen. Daarna kan de e-mail pas gecodeerd en verstuurd worden.</p>\n<p>Whitfield Diffie kwam met een oplossing: Alice moet niet alleen een sleutel hebben voor het versleutelen van een bericht, maar ook een sleutel om een bericht te ontcijferen.</p>\n<p>De encryptiesleutel noemen we de <strong>public key</strong><br/>\nen die mag bekend gemaakt worden.</p>\n<p>De decryptiesleutel noemen we de <strong>private key</strong><br/>\nen die houd je voor jezelf.</p>\n<p>Alice kan de public key gewoon bekend maken, desnoods via een lijst op internet.<br/>\nAls Bob een bericht aan Alice wil sturen, kan hij de public key van Alice gebruiken om het bericht te versleutelen. Alleen Alice kan na ontvangst van het bericht dit met haar private key ontcijferen.</p>\n<p>Het idee van Diffie is een ommekeer geweest in het denken over het versleutelen van berichten. Het verschil tussen de encryptie- en de decryptiesleutel is waar het om draait. De uitdaging was om een cryptografische eenwegfunctie te vinden, die voldeed aan de vereiste voor een asymmetrisch cijfer. Diffie en Hellman zouden daar niet in slagen, maar een groep wetenschappers van het Massachusetts Institute of Technology in Boston.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260841"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 31",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<ol type=\"a\">\n<li><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/f/fcdab421559d71b667a1fe14386c10461b96f6cf.png\" class=\"height-167-pixels width-220-pixels float-right\"/>Waarom is public key cryptografie een voorbeeld van asymmetrische versleuteling?</li>\n<li>Wat is de functie van de public key?</li>\n<li>Wat is de functie van de private key?</li>\n</ol>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260843"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "RSA",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/d/d80fe000d805e11168abbd5b7f25783738873d08.png\" class=\"height-190-pixels width-220-pixels float-right\"/>De idee\u00ebn van Diffie en Hellman werden ook bekend bij het MIT Laboratory for Computer Science. Daar waren het de onderzoekers Rivest, Shamir en Adleman die ge\u00efnteresseerd raakten in de zoektocht naar een asymmetrisch cijfer.<br/>\nNa een flitsende inval van Rivest, te vergelijken met het <em>eureka</em> van Archimedes, werd een oplossing gevonden.<br/>\n<br/>\nHet cijfer moet aan de volgende voorwaarde voldoen:</p>\n<ul>\n<li>Alice maakt een public key aan, die ze aan iedereen bekend maakt. Deze sleutel kan gebruikt worden om berichten aan haar te vercijferen.<br/>\nDe public key is een eenwegfunctie, zodat het vrijwel onmogelijk is dat iemand die kan omkeren om de berichten van Alice te ontcijferen.</li>\n<li>Alice maakt ook een private key, waarmee ze het effect van de public key kan omkeren, zodat zij alleen de berichten aan haar kan ontcijferen.</li>\n</ul>\n<p>Bekijk de video over het RSA-algoritme.</p>\n<p><video height=\"400\" src=\"https://maken.wikiwijs.nl/userfiles/11a30a2f5e0e649a4ef4fb68caf55c04580617e2.mp4\" title=\"RSA-algoritme\"> </video></p>\n<p><strong><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/147a06c705d0975d265b2eeeb0a1c19202f46f0b.png\" class=\"height-210-pixels width-195-pixels float-right\"/></strong>Deze methode staat bekend onder de naam RSA, de eerste letters van de achternamen van Rivest, Shamir en Adleman.<br/>\n<br/>\nIn het voorbeeld hebben we voor p en q gekozen voor twee kleine priemgetallen 17 en 11. Als je N hebt bepaald door p en q te vermenigvuldigen dan is het met wat proberen uit de uitkomst 187 wel te achterhalen wat p en q zijn geweest. Daarom moet er gekozen worden voor zeer grote priemgetallen, bijvoorbeeld:</p>\n<table border=\"1\" cellpadding=\"5\" cellspacing=\"1\">\n<tbody>\n<tr>\n<td><strong><em>686479766013060971498190079908139321726943530014330540939446345918554318339765605212255964 0661454554977296311391480858037121987999716643812574028291115057151</em><br/>\n<br/>\n<strong>en</strong><br/>\n<br/>\n<em>531137992816767098689588206552468627329593117727031923199444382004035598608522427391625022 65229285668889329486246501015346579337652707239409519978766587351943831270835393219031728 127</em></strong></td>\n</tr>\n</tbody>\n</table>\n<p><br/>\nAls je deze twee getallen met elkaar vermenigvuldigt, krijg je:</p>\n<table border=\"1\" cellpadding=\"5\" cellspacing=\"1\">\n<tbody>\n<tr>\n<td><strong><em>36461548502950113697071310114387110954007991399431704908725856286835490343625520659558095 89514611470241298944167703929337528884908857116141935206466329731087514964112054543019336 53621610762952359760633015466919606414418247273955697450246240243890311584572563094642894 3768540714098264727068026730424033578827886916761701429264950573899186177</em></strong></td>\n</tr>\n</tbody>\n</table>\n<p><br/>\nWanneer je uit deze uitkomst weer de oorspronkelijke priemgetallen wilt achterhalen dan is zelfs een snelle computer daar jaren mee bezig.<br/>\n<br/>\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/4/422a1d04e0e90c07838301a047899660b05aa2bd.png\" class=\"height-336-pixels width-220-pixels float-right\"/>RSA is heel populair geworden en daar zijn een paar redenen voor te noemen.</p>\n<ul>\n<li>Het systeem is asymmetrisch zodat de sleutel die nodig is voor het decoderen, nooit hoeft te worden verzonden;</li>\n<li>De snelheid van het coderen en decoderen met RSA is hoog genoeg om acceptabel te zijn;</li>\n<li>RSA werkt asymmetrisch zodat authenticatie (het zetten van een digitale unieke handtekening die het bewijs is van de afzender van het bericht) tot de mogelijkheden behoort;</li>\n<li>Op voorwaarde dat je van sleutels van een behoorlijke lengte gebruik maakt, is RSA met de meest geavanceerde computers niet te kraken</li>\n</ul>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260845"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 32",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<ol>\n<li>Aan welke voorwaarde moet een asymmetrisch cijfer voldoen?</li>\n<li>Maak de volgende opdrachten:\n<ol start=\"1\">\n<li><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/6/62e00dc02aa150c35cf329fe141beacdeaca8253.png\" class=\"height-336-pixels width-220-pixels float-right\"/>Conny wil een bericht M = 13 versturen naar Alice.<br/>\nVersleutel het bericht met gebruikmaking de public keys van Alice, <em>N</em> =187,<br/>\n<em>e</em> = 7.</li>\n<li>Dylan wil zijn eigen public en private key cre\u00ebren.<br/>\nHij kiest <em>p</em> = 23, <em>q</em> = 19 en <em>e</em> = 283.<br/>\nBereken de eerste public key <em>N</em> voor Dylan.</li>\n<li>Bereken de private key <em>d</em> voor Dylan.<br/>\nTip: Gebruik Excel om een tabel te maken voor de oplopende reeks van <em>d</em>.</li>\n</ol>\n</li>\n<li>Waaraan dankt RSA zijn populariteit?</li>\n</ol>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260847"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "PGP",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/7/7920f8dc7e80eba79c48bfe535471df604ff14ee.png\" class=\"height-219-pixels width-217-pixels float-right\"/>Veel communicatie gebeurt via encryptie: mobiel telefoonverkeer, digitaal betaalverkeer, e-mail.<br/>\n<br/>\nHet uitwisselen van digitale informatie is een vast onderdeel van ons bestaan geworden. Elke dag worden honderden miljoenen mailtjes verstuurd. Internet is een centrale plek geworden voor de digitale markt: de e-commerce groeit met de dag. Geld vliegt door cyberspace en men schat dat de helft van 's wereld bruto product verloopt via de SWIFT (Society for Worldwide Interbank Financial Telecommunications).<br/>\n<br/>\nAl deze zaken moeten veilig verlopen. En hoewel er meestal geen problemen zijn met de meeste transacties, zijn sommige regeringen er niet echt op uit onbreekbare encryptie aan te moedigen. De overheid wilde controle houden over de versleuteling van digitale gegevens. De Amerikaanse Senaat kwam in 1991 met een wetsvoorstel dat programmeurs zou verplichten om een achterdeur in hun beveiliging te bouwen, zodat de overheid mee kon blijven kijken.</p>\n<p>In datzelfde jaar publiceerde Phil Zimmermann het e-mail encryptiepakket PGP (Pretty Good Privacy) gratis op het internet. Zimmerman vond dat elke burger de beschikking moest hebben over een encryptiemogelijkheid om zijn communicatie te beschermen. Omdat het als freeware op het internet stond, werd Zimmermann het doelwit van een drie jaar durend strafrechtelijk onderzoek. De Amerikaanse overheid was van oordeel dat de exportrestricties voor 'wapens' werden geschonden door de wereldwijde verspreiding van PGP.<br/>\nDe Amerikaanse overheid besloot in 1996 echter om de zaak zonder aanklachten te laten varen, waarop Zimmermann het bedrijf PGP Incorporated oprichtte.<br/>\n<br/>\nBekijk de video over de lezing van Phil Zimmermann.</p>\n<p><video height=\"267\" src=\"https://maken.wikiwijs.nl/userfiles/827ce72940e254926e61b06c9b10a9797798e87e.mp4\" title=\"Lezing van Phil Zimmerman\"> </video></p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260849"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 33",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<ol type=\"a\">\n<li><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/6/6bac3aff915e8254ec84eb48ca62b010659576d3.png\" class=\"height-310-pixels width-220-pixels float-right\"/>Waarom had Phil Zimmermann PGP in eerste instantie ontwikkeld?</li>\n<li>Welke principieel uitgangspunt lag aan het vrij beschikbaar stellen van PGP ten grondslag?</li>\n<li>Met wie kwam hij daarmee in aanvaring?</li>\n</ol>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260851"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "PGP - 2",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Bekijk de video over het PGP-algoritme.</p>\n<p><video height=\"267\" src=\"https://maken.wikiwijs.nl/userfiles/dc6f6c94d775af879cec09d4132fb1ab7f4bd5f9.mp4\" title=\"PGP-algoritme\"> </video></p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260853"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 34",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<ol type=\"a\">\n<li><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/164b19feca8918211f199fe9c7d29c3065e437c7.png\" class=\"height-336-pixels width-220-pixels float-right\"/>Leg uit dat PGP een combinatie is van symmetrische en asymmetrische cryptografie.</li>\n<li>Hoe wordt de sessiesleutel gecre\u00eberd?</li>\n</ol>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260855"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Man-in-the-middle-attack",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/7/74b518bb8b3b303a83f274ab1ef3e5e272a5d705.png\" class=\"height-336-pixels width-220-pixels float-right\"/>Een belangrijk probleem waar encryptietechnieken geen passend antwoord op geven is de <strong>man-in-the-middle-attack</strong>.</p>\n<p><video height=\"267\" src=\"https://maken.wikiwijs.nl/userfiles/2e381de0c3aa737257cc3d4ce1f6c6d016d66055.mp4\" title=\"MITMA\"> </video></p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260857"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 35",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Leg uit hoe een man-in-the-middle-attack werkt.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260859"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Man-in-the-middle-attack - 2 ",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/6/6c6c1405218e66baaf3e676544ba81663255ac22.png\" class=\"height-336-pixels width-220-pixels float-right\"/>Een middel om een man-in-the-middle-attack te voorkomen is door het bericht te voorzien van een beveiligd, digitaal certificaat (handtekening), zodat Bob weet dat het bericht van Alice komt en niet van Mallory.<br/>\nEen digitaal certificaat wordt gebruikt bij het uitwisselen van berichten voor:</p>\n<ul>\n<li><strong>Authenticatie</strong>: de ontvanger van het bericht weet dat zender van het bericht diegene is voor wie hij zich uitgeeft.</li>\n<li><strong>Integriteit</strong>: de afzender en ontvanger zijn er zeker van dat het bericht niet veranderd is tijdens de transmissie.</li>\n<li><strong>Onweerlegbaarheid</strong>: de verzender kan niet ontkennen dat hij een bepaald bericht verzonden heeft (en de ontvanger kan niet ontkennen dat hij het bericht ontvangen heeft).</li>\n</ul>\n<p>Een certificaat wordt uitgegeven door een <strong>Certificate Authority (CA)</strong>. De CA stelt vast dat een certificaat toebehoort aan de persoon, organisatie of server die in het certificaat vermeld wordt.<br/>\n<br/>\nHet uitgangspunt is dat de Certificate Authority betrouwbaar is, zodat de gebruiker erop kan vertrouwen dat de CA de eigenaar van een certificaat controleert. Er bestaan diverse commerci\u00eble CA's die tegen betaling hun diensten aanbieden, bijvoorbeeld Comodo, Symantec.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260861"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 36",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<ol type=\"a\">\n<li>Hoe kan een man-in-the-middle-attack voorkomen worden?</li>\n<li>Waarvoor kan een digitaal certificaat gebruikt worden?</li>\n</ol>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260863"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Hashfunctie",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/e/e334f4c11ce1ec4307cbe8ef74deea6a80d71f8c.png\" class=\"height-336-pixels width-220-pixels float-right\"/>De Certificate Authority plaatst een digitale handtekening op de <strong>hash</strong> van een certificaat dat zij uitgeeft, waarmee de echtheid van het certificaat gecontroleerd kan worden. Een hash is net zoals encryptie een cryptografische functie, maar er is een belangrijk verschil. Wanneer data wordt versleuteld dan kan met de juiste sleutel de data weer ontsleuteld worden. Een hashfunctie maakt van data een unieke hashcode die niet teruggerekend kan worden naar de oorspronkelijke data.<br/>\n<br/>\nEen essenti\u00eble eigenschap van een goede hashfunctie is dat verschillende invoerwaarden niet dezelfde hashcode opleveren. Een zwakke hashfunctie maakt het mogelijk twee certificaten met dezelfde hash te maken, wat het mogelijk maakt certificaten te vervalsen. Daarnaast zorgt iedere wijziging in de invoer voor een wijziging in de hashcode.<br/>\n<br/>\nEen veelgebruikte hashfunctie is MD5. De 128-bit (16-byte) MD5-hashes worden meestal weergegeven als 32-cijferige hexadecimale getallen.<br/>\n<br/>\nHet volgende laat een 46 bytes grote ASCII-invoer (inclusief de spaties) en de bijbehorende MD5-hash zien:<br/>\n<span>MD5 ('Pa's wijze lynx bezag vroom het fikse aquaduct') = b06c0444f37249a0a8f748d3b823ef2a</span><br/>\n<br/>\nZelfs een kleine verandering in de tekst zal een compleet andere hash veroorzaken, bijvoorbeeld het vervangen van de letter P door een M:<br/>\n<span>MD5 ('Ma's wijze lynx bezag vroom het fikse aquaduct') = de1c058b9a0d069dc93917eefd61f510</span><br/>\n<br/>\nDe hashwaarde van een lege tekenreeks is:<br/>\n<span>MD5 ('') = d41d8cd98f00b204e9800998ecf8427e</span><br/>\n<br/>\nEen andere toepassing van een hashfunctie is het opslaan van een wachtwoord.<br/>\nEen wachtwoord wordt in principe versleuteld opgeslagen, zodat de wachtwoorden niet bekend worden als het bestand met wachtwoorden door een onbevoegde gelezen wordt. Wanneer het wachtwoord versleuteld is door middel van een hashfunctie, is het onmogelijk de versleutelde gegevens te decoderen. Dat is ook niet nodig, aangezien het voldoende is te controleren of de gebruiker het juiste wachtwoord heeft opgegeven.</p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260865"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Hash-algoritmen",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><strong><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/9/95a121e933d2763a67b70d63d60b33faf648cac0.png\" class=\"height-336-pixels width-220-pixels float-right\"/></strong><strong>MD5</strong> (Message Digest Algorithm 5) is een veelgebruikte hashfunctie. MD5 (Message Digest Algorithm 5) is als internetstandaard gebruikt in vele veiligheidstoepassingen en wordt ook gebruikt om de integriteit van bestanden te controleren. In 1996 werd er een fout in het MD5-ontwerp gevonden en ofschoon het geen ernstige fout was, werd er vanaf toen aanbevolen om andere algoritmen zoals SHA te gebruiken.<br/>\n<br/>\n<strong>SHA</strong> (Secure Hash Algorithm) is een hashfunctie ontworpen door de NSA (National Security Agency) als de standaard voor het verwerken van federale informatie. Er zijn in totaal vier SHA-algoritmes, ieder met een verschillende structuur. Deze staan bekend als: SHA-0, SHA-1, SHA-2 en SHA-3.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260867"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 37",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<ol type=\"a\">\n<li>Wat is het verschil tussen encryptiefunctie en hashfunctie?</li>\n<li>Geef twee toepassingen van een hashfunctie?</li>\n<li>Noem twee hash-algoritmen</li>\n</ol>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7260869"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Toets 2",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><strong><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/e/e05e3a82feabe2d0000b7920e5151f08e2f70071.png\" class=\"height-150-pixels width-150-pixels float-right\"/></strong>In de volgende toets wordt getoetst wat je inmiddels zou moeten weten over het onderwerp Mechanische en digitale cryptografie.<br/>\n<br/>\nMaak de toets:</p>\n<p><a href=\"http://vo-content.azurewebsites.net/informatica-voortgang/exercise/48081/if-cryptografie-toets2\" onclick=\"window.open(this.href, '', 'resizable=no,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=no,dependent=no,width=1000,height=600'); return false;\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/7/7362ba59d9162f5f0e6713de57cf917713872547.png\" class=\"height-26-pixels width-134-pixels\"/></a> Mechanische en digitale cryptografie</p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "7260871"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Voortgang",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/4/4435ff470ef4e67e6cb1192d899accef00c23445.png\" class=\"height-223-pixels width-223-pixels float-right\"/>Bekijk hier je voortgang</p>\n<table cellpadding=\"5\">\n<tbody>\n<tr>\n<td><a href=\"https://vo-content.azurewebsites.net/informatica-voortgang/SetProgress/9?httproute=True\" onclick=\"window.open(this.href, '', 'resizable=no,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=no,dependent=no,width=1000,height=600'); return false;\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/9/923dd9254334b8ef02a235e1a4ae0fe71f96618d.png\" class=\"height-26-pixels width-94-pixels\"/></a></td>\n<td>Keuzedeel</td>\n</tr>\n</tbody>\n</table>\n<br/>\n<br/>\nDocent kan klassen aanmaken en leerlingen volgen<br/>\nEen docent kan op de profielpagina klassen aanmaken. Als een docent dat gedaan heeft, kunnen de leerlignen zich aan de klas koppelen. Als de leerlingen dat gedaan hebben, kan de docent de voortgang van de leerlingen volgen.<br/>\n<br/>\n>> <a href=\"https://vo-content.azurewebsites.net/User\" target=\"_blank\">&#13; <span class=\"underline\"/> &#13;</a>"
+                }
+            ],
+            "sections": []
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": null,
+            "dimension": null,
+            "suppressTitle": null
+        },
+        "color": "#333333"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "A Inleiding",
+                "reference": {
+                    "value": "7260715"
+                },
+                "sections": [
+                    {
+                        "title": "Inleiding",
+                        "reference": {
+                            "value": "7260716"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Leerdoelen",
+                        "reference": {
+                            "value": "7260718"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Zo werkt het",
+                        "reference": {
+                            "value": "7260720"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "B Klassiek",
+                "reference": {
+                    "value": "7260722"
+                },
+                "sections": [
+                    {
+                        "title": "Steganografie",
+                        "reference": {
+                            "value": "7260723"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 1",
+                        "reference": {
+                            "value": "7260725"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 2",
+                        "reference": {
+                            "value": "7260727"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 3",
+                        "reference": {
+                            "value": "7260729"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Cryptografie",
+                        "reference": {
+                            "value": "7260731"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 4",
+                        "reference": {
+                            "value": "7260733"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Cryptografie - 2",
+                        "reference": {
+                            "value": "7260735"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 5",
+                        "reference": {
+                            "value": "7260737"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Caesarversleuteling",
+                        "reference": {
+                            "value": "7260739"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 6",
+                        "reference": {
+                            "value": "7260741"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Modulorekening",
+                        "reference": {
+                            "value": "7260743"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 7",
+                        "reference": {
+                            "value": "7260745"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Caesar formule",
+                        "reference": {
+                            "value": "7260747"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 8",
+                        "reference": {
+                            "value": "7260749"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Caesar verbeterd",
+                        "reference": {
+                            "value": "7260751"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 9",
+                        "reference": {
+                            "value": "7260753"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Frequentie analyse",
+                        "reference": {
+                            "value": "7260755"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 10",
+                        "reference": {
+                            "value": "7260757"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Polyalfabetisch",
+                        "reference": {
+                            "value": "7260759"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 11",
+                        "reference": {
+                            "value": "7260761"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "De Vigen\u00e8re ",
+                        "reference": {
+                            "value": "7260763"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 12",
+                        "reference": {
+                            "value": "7260765"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 13",
+                        "reference": {
+                            "value": "7260767"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Babbage",
+                        "reference": {
+                            "value": "7260769"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 14",
+                        "reference": {
+                            "value": "7260771"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Babbage - 2",
+                        "reference": {
+                            "value": "7260773"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 15",
+                        "reference": {
+                            "value": "7260775"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Extra opdrachten",
+                        "reference": {
+                            "value": "7260777"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Toets 1",
+                        "reference": {
+                            "value": "7260779"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "C Mechanisch",
+                "reference": {
+                    "value": "7260781"
+                },
+                "sections": [
+                    {
+                        "title": "Cijferschrijven",
+                        "reference": {
+                            "value": "7260782"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 16",
+                        "reference": {
+                            "value": "7260784"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Cijferschrijven - 2",
+                        "reference": {
+                            "value": "7260786"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 17",
+                        "reference": {
+                            "value": "7260788"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Communicatiemiddelen",
+                        "reference": {
+                            "value": "7260790"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 18",
+                        "reference": {
+                            "value": "7260792"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 19",
+                        "reference": {
+                            "value": "7260794"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Communicatiemiddelen - 2",
+                        "reference": {
+                            "value": "7260796"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 20",
+                        "reference": {
+                            "value": "7260798"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Enigma",
+                        "reference": {
+                            "value": "7260800"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 21",
+                        "reference": {
+                            "value": "7260802"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Enigma - 2",
+                        "reference": {
+                            "value": "7260804"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 22",
+                        "reference": {
+                            "value": "7260806"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 23",
+                        "reference": {
+                            "value": "7260808"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 24",
+                        "reference": {
+                            "value": "7260810"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Enigma - 3",
+                        "reference": {
+                            "value": "7260812"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "D Digitaal",
+                "reference": {
+                    "value": "7260814"
+                },
+                "sections": [
+                    {
+                        "title": "Inleiding",
+                        "reference": {
+                            "value": "7260815"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "XOR-encryptie",
+                        "reference": {
+                            "value": "7260817"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 25",
+                        "reference": {
+                            "value": "7260819"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 26",
+                        "reference": {
+                            "value": "7260821"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Data Encryption Standard",
+                        "reference": {
+                            "value": "7260823"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 27",
+                        "reference": {
+                            "value": "7260825"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Asymmetrisch",
+                        "reference": {
+                            "value": "7260827"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 28",
+                        "reference": {
+                            "value": "7260829"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Asymmetrisch - 2",
+                        "reference": {
+                            "value": "7260831"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 29",
+                        "reference": {
+                            "value": "7260833"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Sleuteldistributie",
+                        "reference": {
+                            "value": "7260835"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 30",
+                        "reference": {
+                            "value": "7260837"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Public key cryptografie",
+                        "reference": {
+                            "value": "7260839"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 31",
+                        "reference": {
+                            "value": "7260841"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "RSA",
+                        "reference": {
+                            "value": "7260843"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 32",
+                        "reference": {
+                            "value": "7260845"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "PGP",
+                        "reference": {
+                            "value": "7260847"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 33",
+                        "reference": {
+                            "value": "7260849"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "PGP - 2",
+                        "reference": {
+                            "value": "7260851"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 34",
+                        "reference": {
+                            "value": "7260853"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Man-in-the-middle-attack",
+                        "reference": {
+                            "value": "7260855"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 35",
+                        "reference": {
+                            "value": "7260857"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Man-in-the-middle-attack - 2 ",
+                        "reference": {
+                            "value": "7260859"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 36",
+                        "reference": {
+                            "value": "7260861"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Hashfunctie",
+                        "reference": {
+                            "value": "7260863"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Hash-algoritmen",
+                        "reference": {
+                            "value": "7260865"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 37",
+                        "reference": {
+                            "value": "7260867"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Toets 2",
+                        "reference": {
+                            "value": "7260869"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Voortgang",
+                "reference": {
+                    "value": "7260871"
+                },
+                "sections": []
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": null,
+        "imageSrc": null,
+        "sources": [],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            },
+            {
+                "key": "learningTime",
+                "label": "Studiebelasting",
+                "terms": [
+                    "4 uur en 0 minuten"
+                ]
+            },
+            {
+                "key": "keywords",
+                "label": "Trefwoorden",
+                "terms": [
+                    "arrangeerbaar",
+                    "leerlijn",
+                    "rearrangeerbare"
+                ]
+            }
+        ],
+        "usedLearningResources": [
+            {
+                "author": null,
+                "title": "Module: Enigma - Cryptografie",
+                "url": "https://maken.wikiwijs.nl/157989/",
+                "datePublished": "2020-03-12T11:38:12+01:00"
+            }
+        ]
+    }
+}

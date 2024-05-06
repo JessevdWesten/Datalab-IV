@@ -1,0 +1,1347 @@
+{
+    "documentAuthors": [
+        "Kaya"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": " Kaya",
+            "referenceName": null,
+            "reference": {
+                "value": "87634"
+            },
+            "firstName": "",
+            "infix": null,
+            "lastName": "Kaya",
+            "emailAddress": "0930804@hr.nl",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2019-02-04T17:59:57Z",
+    "bulkId": "bulk-17041658-refresh_all",
+    "identifier": 130996,
+    "title": "De Spaanse Burgeroorlog",
+    "description": "",
+    "lastModifiedDate": "2019-02-04T17:59:57+01:00",
+    "dateCreated": "2018-09-21T10:37:22+02:00",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "Kaya,",
+                "reference": {
+                    "value": "87634"
+                },
+                "firstName": "",
+                "infix": null,
+                "lastName": "Kaya",
+                "emailAddress": "0930804@hr.nl",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-40",
+            "name": "CC Naamsvermelding 4.0 Internationale licentie",
+            "description": "De Internationale Creative Commons 4.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/4.0/.",
+            "link": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/130996/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "4799594"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Startpagina",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "4799599"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "De Spaanse Burgeroorlog",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "question",
+                            "reference": {
+                                "value": "4827057"
+                            },
+                            "assessmentItem": {
+                                "identifier": "4827057",
+                                "itemBody": null,
+                                "questions": [
+                                    {
+                                        "type": "choiceInteraction",
+                                        "label": "Voorkennis over het onderwerp",
+                                        "prompt": {
+                                            "body": "<p>Heb je eerder gehoord over de Spaanse Burgeroorlog?</p>"
+                                        },
+                                        "shuffle": true,
+                                        "maxChoices": 2,
+                                        "minChoices": 1,
+                                        "orientation": "vertical",
+                                        "choices": [
+                                            {
+                                                "identifier": "0",
+                                                "content": {
+                                                    "body": "Ja, ik heb er van gehoord"
+                                                },
+                                                "feedback": {
+                                                    "outcomeIdentifier": "FEEDBACK",
+                                                    "identifier": "0",
+                                                    "showHide": true,
+                                                    "title": null,
+                                                    "content": {
+                                                        "body": "Mooi, dan kunnen we zometeen goed beginnen!"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "identifier": "1",
+                                                "content": {
+                                                    "body": "Nee, ik heb er niet van gehoord"
+                                                },
+                                                "feedback": {
+                                                    "outcomeIdentifier": "FEEDBACK",
+                                                    "identifier": "1",
+                                                    "showHide": true,
+                                                    "title": null,
+                                                    "content": {
+                                                        "body": "Geen zorgen, na dit arrangement ben je een expert!"
+                                                    }
+                                                }
+                                            }
+                                        ],
+                                        "responseIdentifier": "4827057_1",
+                                        "feedback": null
+                                    }
+                                ],
+                                "responseDeclarations": [
+                                    {
+                                        "identifier": "4827057_1",
+                                        "cardinality": "ordered",
+                                        "baseType": "identifier",
+                                        "correctResponse": {
+                                            "interpretation": null,
+                                            "values": []
+                                        },
+                                        "mapping": {
+                                            "lowerBound": 0,
+                                            "upperBound": 0,
+                                            "default": 0,
+                                            "mapEntries": [
+                                                {
+                                                    "key": "0",
+                                                    "value": "0",
+                                                    "caseSensitive": false
+                                                },
+                                                {
+                                                    "key": "1",
+                                                    "value": "0",
+                                                    "caseSensitive": false
+                                                }
+                                            ]
+                                        },
+                                        "areaMapping": null
+                                    }
+                                ],
+                                "outcomeDeclarations": [
+                                    {
+                                        "identifier": "SCORE",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 0,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK_CORRECT",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": false,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK_INCORRECT",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": true,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK_THRESHOLD",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 0,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "RESPONSE_CORRECT",
+                                        "cardinality": "single",
+                                        "baseType": "boolean",
+                                        "defaultValue": null,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "RESPONSE_INCORRECT",
+                                        "cardinality": "single",
+                                        "baseType": "boolean",
+                                        "defaultValue": null,
+                                        "interpretation": null
+                                    }
+                                ],
+                                "feedback": null
+                            }
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p> </p>\n<p><iframe allowfullscreen=\"allowfullscreen\" frameborder=\"0\" height=\"360\" src=\"https://www.youtube.com/embed/NmhnKG8JLmg?rel=0\" width=\"640\" class=\"video-item\"/></p>\n<p>Ik heet jullie allemaal van harte welkom beste leerlingen. Wij zullen het in deze les hebben over de Spaanse Burgeroorlog. Wij zullen de oorzaken, de gevolgen en de belangrijke aspecten van deze weggelaten deel van de Spaanse geschiedenis behandelen.</p>\n<p>Jullie zullen je geheid afvragen waarom wij het gaan hebben over een oorlog dat zich heeft afgespeeld in de jaren 30 van de twintigste eeuw. \"Heeft het betrekking tot ons, Nederlanders?\" is de welgestelde vraag altijd.</p>\n<p>In deze les krijgen jullie in algemene lijnen het ideologische conflict mee, het belang van democratie en vrijheid en de gevolgen van de Spaanse Burgeroorlog voor Spanje en Europa.</p>\n<p>Ik wens jullie veel succes en ik hoop oprecht ook dat jullie iets zullen leren vandaag!</p>\n<figure class=\"image\"><img alt=\"Een groep Brits Republikeinse ambulancebestuurders in Barcelona, 1937\" src=\"https://maken.wikiwijs.nl/userfiles/8/8fbd5e7818d8b0d61642045ee940140013c7702d.jpg\" class=\"height-620-pixels width-1000-pixels\"/>\n<figcaption>Een groep Britse internationale vrijwilligers in Barcelona, 1937</figcaption>\n</figure>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "4799597"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Inhoud van deze les",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "4791800"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Inleiding",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>De Spaanse Burgeroorlog (<span class=\"font-size-13.93px\" style=\"background-color:transparent; color:rgb(34, 34, 34);\">17 juli 1936 tot 1 april 1939) is een zwarte bladzijde in de Spaanse geschiedenisboeken. Het is een conflict geweest waarin veel burgerdoden zijn gevallen en een tijd waarin chaos overheerste. Wij zullen in deze les meer leren over de sociaal-politieke structuur van Spanje circa 1930 tot 1940, de redenen van deze burgeroorlog en uiteindelijk over het einde van de oorlog en het aandeel van Nederlanders hierin. Hierna zullen jullie een reeks oefenopdrachten maken waarna wij deze les zullen afsluiten met een toets.</span></p>\n<p>Veel succes!</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4791801"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "De sociaal-politieke structuur van Spanje tussen 1930 en 1940",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Een revolutionair comit\u00e9 onder leiding van <a href=\"https://nl.wikipedia.org/wiki/Niceto_Alcala_Zamora\">Alc\u00e1la Zamora</a> riep in 1931 de Spaanse Republiek uit. Nadat er na afloop van de gemeenteraadsverkiezingen rellen uitbraken en de koning van Spanje, Alfons XIII, het land ontvluchtte riep deze comit\u00e9 zich uit als interim-regering met <a href=\"https://nl.wikipedia.org/wiki/Niceto_Alcala_Zamora\">Alc\u00e1la Zamora</a> als staatshoofd hiervan. Hoewel het systeem in Spanje veranderde van een monarchie naar een democratie was het land zeer instabiel omdat er heel grote verschillen tussen links en rechts in het land waren.</p>\n<p>Met het uitroepen van de Spaanse Republiek werd er een linkse grondwet aangenomen waarin er drastische maatregelen werden genomen: er werden landhervormingen uitgevoerd, een sterke <strong>antiklerikale</strong> wetgeving, lokaal werden er in verschillende delen van Spanje spontaan overgegaan op <strong>collectivisatie</strong>, mensen die betrokken waren bij de dictatuur van <a href=\"https://nl.wikipedia.org/wiki/Miguel_Primo_de_Rivera\">Miguel Primo de Rivera</a> voorafgaand de Spaanse Republiek werden vervolgd en gestraft, er kwam officieel een scheiding tussen kerk en staat wat openlijk werd bekritiseert door Spaanse bischoppen.</p>\n<p>Al deze ontwikkelingen en wijzingen in de grondwet leidden er toe dat een deel van de rechtse Spanjaarden zich in het nauw gedreven voelden. Op 10 augustus 1932 pleegde generaal <a href=\"https://nl.wikipedia.org/wiki/Jos%C3%A9_Sanjurjo\">Jos\u00e9 Sanjurjo</a> een mislukte staatsgreep tegen de Spaanse Republiek. De spanningen liepen daarna hoog op. De retoriek van links en rechts werden in de jaren erna steeds dreigender, vooral bij de verkiezingen van 1936 waarbij het Volksfront, een linkse <strong>alliantie</strong>, krap won.</p>\n<figure class=\"image float-left\"><img alt=\"Vlag van de Volksfront\" src=\"https://maken.wikiwijs.nl/userfiles/3/3a0e0a5f470e4b49192f6da1efa29af129b1b2fa.png\" class=\"height-176-pixels width-244-pixels\"/>\n<figcaption>Vlag van het Volksfront</figcaption>\n</figure>\n<p>De gebeurtenissen in het land werden erger en erger. Het geweld tussen de <strong>Republikeinen</strong>, links, en de <strong>Nationalisten</strong>, rechts, laaide op waarna het land langzaam maar zeker een chaotisch pad in sloeg.</p>\n<p> </p>\n<p> </p>\n<p> </p>\n<p> </p>\n<p> </p>\n<p> </p>\n<p><strong><span class=\"underline\">Begrippen</span></strong></p>\n<p><strong>Antiklerikaal:</strong> Een stroming die zich keert tegen de invloed en machtspositie van de geestelijkheid en kerk op het vlak van het openbaar leven, het onderwijs of politiek.</p>\n<p><strong>Collectivisatie:</strong> Het maken tot gemeenschappelijk eigendom maken van eerder priv\u00e9-eigendom bijv. boerderijen.</p>\n<p><strong>Alliantie:</strong> Bondgenootschap</p>\n<p><strong>Republikeinen:</strong> Een collectief begrip voor links geori\u00ebnteerde partijen waaronder het Volksfront, CNT en UGT vielen.</p>\n<p><strong>Nationalisten:</strong> Een collectief begrip voor rechts geori\u00ebnteerde partijen waaronder de Falangisten, Carlisten en Alfonsisten vielen.</p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4791802"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Het conflict is niet wat het lijkt",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Veel mensen denken dat de Spaanse Burgeroorlog een eenvoudig conflict was dat door twee partijen werd uitgevochten. Dit is allesbehalve correct. Het conflict was niet een eenvoudig conflict dat werd uitgevochten door de Republikeinen links en de Nationalisten rechts, maar een veel gecompliceerder conflict waarbij meer partijen betrokken waren en er ook onderlinge strijd heerste.</p>\n<p>Dit is te zien aan de vele verschillende conflicten onderling in de Spaanse Burgeroorlog. Vooral in de stad Barcelona, dat als een bakermat van de revolutie gold en een grote betekenis had voor de Republikeinen.</p>\n<p>Een klein voorbeeld hierbij:</p>\n<p>\"Nu had <a href=\"http://nl.wikipedia.org/wiki/George_Orwell\">Orwell</a>, zoals veel internationale vrijwilligers, aanvankelijk geen idee van het soort oorlog waarin hij terecht was gekomen. Hij was eenvoudig naar Spanje getrokken om 'tegen de <strong>fascisten</strong>' te vechten, en min of meer toevallig was hij in een <strong>POUM-militie</strong> beland. Hij zag daar pas dat er binnen de republiek zelf ook een revolutie gaande was, dat de <strong>anarchisten</strong> omwille van de oorlog de ene na de andere revolutionaire 'verworvenheid' moesten loslaten en dat de communisten in deze interne strijd niet aan de revolutionaire kant stonden maar, integendeel, aan de kant van uiterst rechts. Zowel in Madrid als in Barcelona waren talloze gevechten gevoerd om de macht over bepaalde bedrijven en comit\u00e9s. Er vonden steeds meer onderlinge moordpartijen plaats, en langzaam verloren de <strong>anarchistische</strong> ministers de greep op hun volgelingen.\"</p>\n<p><a href=\"http://nl.wikipedia.org/wiki/George_Orwell\">George Orwell</a> - Saluut aan Cataloni\u00eb, pagina 9</p>\n<figure class=\"image\"><img alt=\"George Orwell\" src=\"https://maken.wikiwijs.nl/userfiles/e/e04d5ac7a4662041f190b14e218f95685eb10e2d.jpg\" class=\"height-113-pixels width-83-pixels\"/>\n<figcaption>George Orwell</figcaption>\n</figure>\n<p> </p>\n<p>Bij het lezen van dit stukje uit de persoonlijke ervaringen van George Orwell komt duidelijk naar voren dat de Republikeinen onderling ook erg verdeeld waren en dat de strijd dus niet per defenitie tussen links en rechts werd gevoerd.</p>\n<p> </p>\n<p><iframe allowfullscreen=\"allowfullscreen\" frameborder=\"0\" height=\"315\" src=\"https://player.ntr.nl/index.php?id=WO_NTR_3098854\" width=\"560\"/></p>\n<p> </p>\n<p><span class=\"underline\"><strong>Begrippen</strong></span></p>\n<p><strong>Fascisme:</strong> <span class=\"font-size-14px\">Totalitaire politieke stroming, waarbij democratie wordt verwerpt.</span></p>\n<p><strong>POUM-Militie:</strong> <span class=\"font-size-14px\"><span style=\"background-color:transparent; color:rgb(34, 34, 34);\"><span>Arbeiderspartij</span> van de</span> Marxistische <span style=\"background-color:transparent; color:rgb(34, 34, 34);\">Eenheid, afgekort</span> <strong>POUM</strong> <span style=\"background-color:transparent; color:rgb(34, 34, 34);\">was een</span> Spaanse revolutionair-socialistische partij<span style=\"background-color:transparent; color:rgb(34, 34, 34);\">.</span></span></p>\n<p><strong>Anarchisme:</strong> <span class=\"font-size-14px\" style=\"background-color:rgb(255, 255, 255); color:rgb(34, 34, 51);\">Systeem of theorie van een samenleving zonder regering, waarin elk individu zich vrij voelt ten opzichte van alle bestuur door een overheid.</span></p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4791803"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "De ideologische botsingen",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>De ideologische verschillen tussen de republikeinen en fascisten waren te groot om nog tot een politieke oplossing te kunnen komen. Daarnaast waren er onderling ook grote verschillen tussen de republikeinen, maar ook de fascisten kenden onderling ideologische verschillen.</p>\n<p>De republikeinen waren grofweg te verdelen tussen communisten en anarchisten. De communisten bestonden voornamelijk uit gematigde partijen, die niks zagen in de radicale hervormingen die doorgezet wilden worden door de anarchisten. Het enige wat de partijen aan elkaar verbond was het verslaan van de fascisten en nationalisten.</p>\n<p>De nationalisten daarentegen hadden als gemeenschappelijk belang voornamelijk, het voorkomen van verdere <strong>Catalaanse</strong> en <strong>Baskische</strong> autonomie en het behouden van de band tussen de kerk en de staat. Daarnaast waren er ook bepaalde groepen die monarchistisch waren en de terugkeer van de koning en de monarchie wilden.  </p>\n<figure class=\"image\"><img alt=\"Situatie in Spanje, november 1938\" src=\"https://maken.wikiwijs.nl/userfiles/3/328b81528ca1d81f9bf7d242fc6680b74652d3a6.png\" class=\"height-380-pixels width-459-pixels\"/>\n<figcaption>Situatie in Spanje, november 1938</figcaption>\n</figure>\n<p> </p>\n<p><span class=\"underline\"><strong>Begrippen</strong></span></p>\n<p><strong>Cataloni\u00eb:</strong> Een autonoom gebied in Spanje dat door Catalanen wordt bewoond en waar voornamelijk het Catalaans wordt gesproken</p>\n<p><strong>Baskenland:</strong> Een autonoom gebied in Spanje dat voornamelijk door Basken wordt bewoond en waar voornamelijk het Baskisch wordt gesproken</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4791804"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Europa, vriend of vijand?",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Dit is een vraag waarbij het antwoord allesbehalve simpel is. Toen de Spaanse Burgeroorlog net begon sloot Frankrijk de grenzen met Spanje en begon er in Europa een <strong>non-interventie</strong> beleid jegens de Burgeroorlog. De communisten en anarchisten werden door Europa gevreesd en daardoor kregen de republikeinen ook nihil aan steun. De Sovjet Unie en Mexico steunden de republikeinen in hun strijd tegen de nationalisten en het fascisme.</p>\n<p>De nationalisten kregen daarentegen immens veel steun van Duistland en Itali\u00eb, beide landen waren in een fascistisch bolwerk veranderd. In Duitsland was Adolf Hitler aan de macht met een totalitair nationaalsocialistisch bewind en in Itali\u00eb was de opkomst van Benito Mussolini en het facisme ook onvermijdelijk. De Spaanse Burgeroorlog werd door Hitler ook gebruikt om de nieuwste Duitse wapens en technologie te testen. De luchtsteun van de Nazi's was een belangrijke voordeel voor de nationalisten in Spanje.</p>\n<p>Tegenover dit alles bestond er ook een grote groep internationalisten voor wie het een plicht was het fascisme in Spanje en Europa te stoppen. Deze groep bestond uit internationale vrijwilligers die uit allerlei Europese landen naar Spanje kwamen om tegen het fascisme te vechten. Hieronder was er ook een grote groep Nederlanders die het als een plicht zagen om naar Spanje te gaan en daar tegen het fascisme te vechten. </p>\n<p><span class=\"underline\"><strong>Begrippen</strong></span></p>\n<p><strong>Non-interventie:</strong> Geen inmening met de intern-politieke aangelegenheid van een land.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4791806"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Het einde nadert",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><span><span style=\"background-color:transparent; color:rgb(34, 34, 34);\">In januari 1939 viel</span> Barcelona <span style=\"background-color:transparent; color:rgb(34, 34, 34);\">en de republikeinse weerstand stortte in. Tienduizenden mensen vluchtten de Pyrenee\u00ebn over. Binnen de eerste vijf dagen na de inname van Barcelona werden door de nationalisten al ongeveer 10.000 mensen zonder proces ge\u00ebxecuteerd. De vluchtelingen die richting de Franse grens vluchten, werden beschoten door de Duitse luchtmacht.</span> <span style=\"background-color:transparent; color:rgb(34, 34, 34);\">Na de inname van Barcelona probeerden de nationalisten alle boeken te verbranden die door de katholieke kerk verboden waren. De nationalistische regering verbood het communiceren in de</span> Catalaanse taal<span style=\"background-color:transparent; color:rgb(34, 34, 34);\">.</span> <span style=\"background-color:transparent; color:rgb(34, 34, 34);\">Op 27 februari 1939 erkenden Frankrijk en Groot-Brittanni\u00eb het Franco-regime als de wettelijke regering van Spanje.</span></span></p>\n<p><span style=\"background-color:transparent; color:rgb(34, 34, 34);\"><span style=\"background-color:transparent; color:rgb(34, 34, 34);\">Na de burgeroorlog werden de privileges van de Katholieke Kerk hersteld. Alle bestaande burgerlijke huwelijken werden ongeldig verklaard, waarna de burgerlijk getrouwde echtparen voor de kerk moesten trouwen om een geldig huwelijk te hebben.</span> Echtscheiding <span style=\"background-color:transparent; color:rgb(34, 34, 34);\">werd afgeschaft. Onderwijs kwam onder controle van de kerk. De kerk besloot wat gecensureerd werd op cultureel en literair gebied. Ook kreeg de kerk een hoge belastingvrije subsidie van het regime.</span> <span style=\"background-color:transparent; color:rgb(34, 34, 34);\">Vrouwen mochten niet buiten huis werken met uitzondering van vrijwilligerswerk bij bepaalde organisaties.</span> <span style=\"background-color:transparent; color:rgb(34, 34, 34);\">Franco verbood daarnaast ook de openbare godsdienstuitoefening van protestanten.</span></span></p>\n<p>Er werd een totalitair regime tot stand gebracht met de basisbeginselen van het fascisme. Francisco Franco werd de hoogste leider met alle macht in het land. Het land werd na de Burgeroorlog bestuurd door \u00e9\u00e9n man, Franco waarbij alle vormen van verzet werd onderdrukt. Een moeilijke periode in de geschiedenis van Spanje begon hier feitelijk mee.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4826891"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Nederlanders in de Spaanse Burgeroorlog",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Een andere vergeten bladzijde uit de Nederlandse geschiedenis is de bladzijde over de honderden zo niet duizenden Nederlandse vrijwilligers die streden in de internationale brigades van het republikeinse leger. Een werkelijkheid die niet heel erg bekend is bij het grootste deel van de Nederlandse bevolking.</p>\n<p> </p>\n<p>De Spaanse Burgeroorlog is een ingewikkeld en moeilijk te begrijpen verhaal. Voor sommigen is het grofweg een 'normale' burgeroorlog, voor anderen is het een strijd tussen vrijheid en slavernij, tolerantie en intolerantie, gelijkheid en ongelijkheid, rechtvaardigheid en onrechtvaardigheid.</p>\n<p> </p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "4827051"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Tijdlijn",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<h2 class=\"font-style-normal text-align-left\"><span class=\"font-size-20.93px\" style=\"background-color:transparent; color:rgb(0, 0, 0);\">De burgeroorlog in jaartallen</span></h2>\n<ul>\n<li><strong>1931</strong> Koning Alfons XIII ontvlucht het land. Uitroeping van de republiek.</li>\n<li><strong>1934</strong> Linkse gewapende opstand in diverse delen van Spanje, het hevigst in <a href=\"https://nl.wikipedia.org/wiki/Asturi%C3%AB_(regio)\">Asturi\u00eb</a>, 1500 slachtoffers waarbij 1100 doden bij de rebellen. <a href=\"https://nl.wikipedia.org/wiki/Cataloni%C3%AB\">Cataloni\u00eb</a> roept de <a href=\"https://nl.wikipedia.org/wiki/Onafhankelijkheid_(staatkunde)\">onafhankelijkheid</a> uit.</li>\n<li>Februari <strong>1936</strong> Parlementsverkiezingen; Volksfront en Nationaal Front krijgen 34,3% en 33,2% van het electoraat. De rest blijft thuis of kiest een splinterpartij. Vorming van een Volksfrontregering.</li>\n<li>13 juli <strong>1936</strong> Moord op de parlementaire monarchistische conservatieve leider <a href=\"https://nl.wikipedia.org/wiki/Jos%C3%A9_Calvo_Sotelo\">Jos\u00e9 Calvo Sotelo</a>.</li>\n<li>17 juli <strong>1936</strong> Een groep generaals (onder wie Francisco Franco) onder leiding van de generaals J\u00f3s\u00e9 Sanjurjo en Emilio Mola, begint een opstand tegen de Volksfrontregering. Een nationalistisch en een republikeins territorium ontstaan. <a href=\"https://nl.wikipedia.org/wiki/Adolf_Hitler\">Hitler</a> en <a href=\"https://nl.wikipedia.org/wiki/Benito_Mussolini\">Mussolini</a> steunen de nationalisten, <a href=\"https://nl.wikipedia.org/wiki/Jozef_Stalin\">Stalin</a> de Republiek. De grootmachten stichten een non-interventiecommissie. De enigen die zich aan de daar gemaakte afspraken houden zijn <a href=\"https://nl.wikipedia.org/wiki/Verenigd_Koninkrijk\">Groot-Brittanni\u00eb</a>, <a href=\"https://nl.wikipedia.org/wiki/Frankrijk\">Frankrijk</a> en de <a href=\"https://nl.wikipedia.org/wiki/Verenigde_Staten\">Verenigde Staten</a>.</li>\n<li>20 juli <strong>1936</strong> De nationalistische leider generaal <a href=\"https://nl.wikipedia.org/wiki/Jos%C3%A9_Sanjurjo\">Jos\u00e9 Sanjurjo</a> komt om bij een vliegtuigongeluk.</li>\n<li>21 juli - 27 september <strong>1936</strong> Het <a href=\"https://nl.wikipedia.org/wiki/Beleg_van_het_Alc%C3%A1zar_van_Toledo\">beleg van het Alc\u00e1zar van Toledo</a>.</li>\n<li>Oktober <strong>1936</strong> Franco krijgt de absolute macht bij de nationalisten.</li>\n<li>November <strong>1936</strong> Eerste slag om Madrid. Internationale Brigades betreden het strijdtoneel. Het <a href=\"https://nl.wikipedia.org/wiki/Bloedbad_van_Paracuellos\">bloedbad van Paracuellos</a>.</li>\n</ul>\n<div class=\"text-align-left text-align-center\">\n<figure class=\"image\"><a href=\"https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-H25224,_Guernica,_Ruinen.jpg\"><img alt=\"Ru&#xEF;nes van Guernica\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Bundesarchiv_Bild_183-H25224%2C_Guernica%2C_Ruinen.jpg/220px-Bundesarchiv_Bild_183-H25224%2C_Guernica%2C_Ruinen.jpg\" class=\"height-161-pixels width-220-pixels\"/></a>\n<figcaption>Ru\u00efnes van Guernica</figcaption>\n</figure>\n<div class=\"text-align-left\"> </div>\n</div>\n<ul>\n<li>26 april <strong>1937</strong> Namens de nationalisten bombarderen Duitse vliegtuigen <a href=\"https://nl.wikipedia.org/wiki/Bombardement_op_Guernica\">Guernica</a>, waar enkele dagen tevoren Baskische Republikeinen troepen verzameld hadden.</li>\n<li>Mei <strong>1937</strong> Op communistisch initiatief worden revolutionaire socialisten en anarchisten in Barcelona met geweld buitenspel gezet. Premier <a href=\"https://nl.wikipedia.org/wiki/Francisco_Largo_Caballero\">Francisco Largo Caballero</a> wordt afgedankt omdat hij zich tegen de communistische invloed verzet. Zijn opvolger is <a href=\"https://nl.wikipedia.org/wiki/Juan_Negr%C3%ADn\">Juan Negr\u00edn</a>.</li>\n<li>20 juni <strong>1937</strong> Moord op <a href=\"https://nl.wikipedia.org/w/index.php?title=Andr%C3%A9s_Nin&amp;action=edit&amp;redlink=1\">Andr\u00e9s Nin</a> in opdracht van Stalin.</li>\n<li>30 januari <strong>1938</strong> Franco vormt de eerste formele nationalistische regering en de Wet voor het Centrale Bestuur van de Staat wordt opgesteld.</li>\n<li>12 maart <strong>1938</strong> Frankrijk heft na bezoek van Juan Negr\u00edn aan Parijs het embargo tegen Republikeins Spanje op.</li>\n<li>15 april <strong>1938</strong> De nationalisten nemen de kustplaats Vinaroz in. Hierdoor wordt Cataloni\u00eb gescheiden van het resterende zuidelijke deel van Republikeins Spanje.</li>\n<li>mei <strong>1938</strong> Vredesinitiatief (<em>13 punten-plan</em>) door Juan Negr\u00edn, wordt afgewezen door Franco.</li>\n<li>september <strong>1938</strong> Terugtrekking van het front van de Internationale Brigades door Stalin.</li>\n<li>28 oktober <strong>1938</strong> Afscheidsparade van de Internationale Brigades in Barcelona voor de republikeinse regering.</li>\n<li>november <strong>1938</strong> De Internationale Brigades verlaten Spanje.</li>\n<li>27 februari <strong>1939</strong> Erkenning van Franco door het Verenigd Koninkrijk en Frankrijk.</li>\n<li>5 maart <strong>1939</strong> In republikeins Madrid wordt een tegenregering opgezet, de Nationale Verdedigingsraad.</li>\n<li>6 maart <strong>1939</strong> Juan Negr\u00edn vlucht met de rest van de Republikeinse regering per vliegtuig naar Frankrijk.</li>\n<li>7-12 maart <strong>1939</strong> Interne gevechten tussen troepen van de Nationale Verdedigingsraad en de communisten in Madrid. (2000 doden)</li>\n<li>27 maart <strong>1939</strong> Franquistisch Spanje treedt toe tot het <a href=\"https://nl.wikipedia.org/wiki/Anti-Cominternpact\">Anti-Cominternpact</a>.</li>\n<li>28 maart <strong>1939</strong> De nationalisten trekken Madrid binnen, algemene ineenstorting van het republikeins verzet.</li>\n<li>1 april <strong>1939</strong> Einde van de burgeroorlog. Erkenning van Franco door de Verenigde Staten.</li>\n<li>400.000 republikeinen vluchten naar het buitenland en er volgt een grote zuiveringsactie. Hoeveel republikeinen nog na de burgeroorlog zijn vermoord is omstreden, vermoedelijk meer dan 100.000. Het totale aantal doden van de burgeroorlog inclusief nasleep is ongeveer 500.000.</li>\n<li><strong>1975</strong> Met de dood van Franco eindigt diens dictatuur.</li>\n</ul>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "4799603"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Oefeningen",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "link",
+                    "link": "https://b.socrative.com/teacher/#import-quiz/37297587",
+                    "title": "Quiz Spaanse Burgeroorlog",
+                    "description": "",
+                    "comment": ""
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "4799604"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Toets",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "questionnaire",
+                    "reference": {
+                        "value": "4996157"
+                    },
+                    "assessmentTestItem": {
+                        "label": "Toets",
+                        "type": "exam",
+                        "header": {
+                            "url": "https://maken.wikiwijs.nl/p/questionnaire/standalone/4996157",
+                            "title": "Eindtoets van de Spaanse Burgeroorlog"
+                        },
+                        "introduction": {
+                            "body": "<p>Hierbij krijgen jullie de laatste toets van het onderdeel de Spaanse Burgeroorlog.</p>"
+                        },
+                        "countQuestions": 6,
+                        "sections": [
+                            {
+                                "type": "assessment",
+                                "identifier": "SECTION_4996157",
+                                "name": "MAIN_SECTION",
+                                "select": null,
+                                "shuffle": null,
+                                "selection": null,
+                                "assessmentItems": [
+                                    {
+                                        "identifier": "4996157_0",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "",
+                                                "prompt": {
+                                                    "body": "<p>Wat is de naam van de dictator die Spanje regeerde tussen 1 april 1939 - 20 november 1975?</p>\n<table cellpadding=\"1\" cellspacing=\"1\" class=\"infobox toccolours vatop float-right text-align-left width-270-pixels\">\n<tbody>\n<tr>\n<td class=\"vertical-align-top\"> </td>\n<td colspan=\"2\" class=\"vertical-align-top\"> </td>\n</tr>\n</tbody>\n</table>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "4996157_0_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p>Franco, franco, francisco franco, Francisco Franco&nbsp;</p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p>Franco, franco, francisco franco, Francisco Franco </p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "identifier": "4996157_1",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "choiceInteraction",
+                                                "label": "",
+                                                "prompt": {
+                                                    "body": "<p>Hoeveel Nederlanders bevonden zich tijdens de Spaanse Burgeroorlog in Spanje?</p>"
+                                                },
+                                                "shuffle": true,
+                                                "maxChoices": 3,
+                                                "minChoices": 1,
+                                                "orientation": "vertical",
+                                                "choices": [
+                                                    {
+                                                        "identifier": "0",
+                                                        "content": {
+                                                            "body": "Ongeveer 600"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "0",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "1",
+                                                        "content": {
+                                                            "body": "Ongeveer 1200"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "1",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "2",
+                                                        "content": {
+                                                            "body": "Ongeveer 400"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "2",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    }
+                                                ],
+                                                "responseIdentifier": "4996157_1_1",
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "4996157_1_1",
+                                                "cardinality": "ordered",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "0"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0,
+                                                    "default": 0,
+                                                    "mapEntries": [
+                                                        {
+                                                            "key": "0",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "1",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "2",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        }
+                                                    ]
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": false,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": true,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_THRESHOLD",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    },
+                                    {
+                                        "identifier": "4996157_2",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "orderInteraction",
+                                                "label": "",
+                                                "prompt": {
+                                                    "body": "<p>Zet de gebeurtenissen in de juiste volgorde</p>"
+                                                },
+                                                "shuffle": true,
+                                                "minChoices": 0,
+                                                "maxChoices": 5,
+                                                "orientation": "vertical",
+                                                "choices": [
+                                                    {
+                                                        "identifier": "1295359046aa972a407e41a1350316e7",
+                                                        "content": {
+                                                            "body": "Een groep generaals (onder wie Francisco Franco) onder leiding van de generaals J\u00f3s\u00e9 Sanjurjo en Emilio Mola, begint een opstand tegen de Volksfrontregering."
+                                                        },
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "1815d0886d3fddd35b602bc0054b868d",
+                                                        "content": {
+                                                            "body": "Franco vormt de eerste formele nationalistische regering en de Wet voor het Centrale Bestuur van de Staat wordt opgesteld."
+                                                        },
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "ec46da4638d1a6bc9c7d601efcb88bd2",
+                                                        "content": {
+                                                            "body": "De nationalisten trekken Madrid binnen, algemene ineenstorting van het republikeins verzet."
+                                                        },
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "97094d4eb5162950ed0f771abed47e4d",
+                                                        "content": {
+                                                            "body": "Franco krijgt de absolute macht bij de nationalisten"
+                                                        },
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "7277e44510f33087d07f4066d0ce308b",
+                                                        "content": {
+                                                            "body": "Koning Alfons XIII ontvlucht het land. Uitroeping van de republiek."
+                                                        },
+                                                        "feedbackInline": null
+                                                    }
+                                                ],
+                                                "responseIdentifier": "4996157_2_1",
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "4996157_2_1",
+                                                "cardinality": "ordered",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "7277e44510f33087d07f4066d0ce308b"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "1295359046aa972a407e41a1350316e7"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "97094d4eb5162950ed0f771abed47e4d"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "1815d0886d3fddd35b602bc0054b868d"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "ec46da4638d1a6bc9c7d601efcb88bd2"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": [
+                                                        {
+                                                            "key": "7277e44510f33087d07f4066d0ce308b",
+                                                            "value": 0.2,
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "1295359046aa972a407e41a1350316e7",
+                                                            "value": 0.2,
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "97094d4eb5162950ed0f771abed47e4d",
+                                                            "value": 0.2,
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "1815d0886d3fddd35b602bc0054b868d",
+                                                            "value": 0.2,
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "ec46da4638d1a6bc9c7d601efcb88bd2",
+                                                            "value": 0.2,
+                                                            "caseSensitive": false
+                                                        }
+                                                    ]
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": "0",
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    },
+                                    {
+                                        "identifier": "4996157_3",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "textEntryInteraction",
+                                                "content": {
+                                                    "body": "<p class=\"c1\">Met het uitroepen van de Spaanse Republiek werd er een linkse grondwet aangenomen waarin er drastische maatregelen werden genomen: er werden landhervormingen uitgevoerd, een sterke <textentry identifier=\"TE_661fe875e4361\"></textentry>wetgeving, lokaal werden er in verschillende delen van Spanje spontaan overgegaan op <textentry identifier=\"TE_661fe875e436c\"></textentry>, mensen die betrokken waren bij de dictatuur van Miguel Primo de Rivera voorafgaand de Spaanse Republiek werden vervolgd en gestraft, er kwam officieel een scheiding tussen kerk en staat wat openlijk werd bekritiseert door Spaanse <textentry identifier=\"TE_661fe875e4370\"></textentry>.</p>",
+                                                    "items": [
+                                                        {
+                                                            "identifier": "TE_661fe875e4361",
+                                                            "responseIdentifier": "TE_661fe875e4361_0",
+                                                            "feedbackInline": null
+                                                        },
+                                                        {
+                                                            "identifier": "TE_661fe875e436c",
+                                                            "responseIdentifier": "TE_661fe875e436c_1",
+                                                            "feedbackInline": null
+                                                        },
+                                                        {
+                                                            "identifier": "TE_661fe875e4370",
+                                                            "responseIdentifier": "TE_661fe875e4370_2",
+                                                            "feedbackInline": null
+                                                        }
+                                                    ]
+                                                },
+                                                "label": "",
+                                                "responseIdentifier": null,
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "TE_661fe875e4361_0",
+                                                "cardinality": "record",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "antiklerikale "
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            },
+                                            {
+                                                "identifier": "TE_661fe875e436c_1",
+                                                "cardinality": "record",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "collectivisatie"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            },
+                                            {
+                                                "identifier": "TE_661fe875e4370_2",
+                                                "cardinality": "record",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "bischoppen"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    },
+                                    {
+                                        "identifier": "4996157_4",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "choiceInteraction",
+                                                "label": "",
+                                                "prompt": {
+                                                    "body": "<p>Welke landen hielpen Franco in zijn strijdt tegen de Spaanse Republiek?</p>"
+                                                },
+                                                "shuffle": true,
+                                                "maxChoices": 4,
+                                                "minChoices": 1,
+                                                "orientation": "vertical",
+                                                "choices": [
+                                                    {
+                                                        "identifier": "0",
+                                                        "content": {
+                                                            "body": "Duitsland en Itali\u00eb"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "0",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "1",
+                                                        "content": {
+                                                            "body": "Franrijk en Groot=Brittanni\u00eb"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "1",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "2",
+                                                        "content": {
+                                                            "body": "Polen en de Sovjet-Unie"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "2",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "3",
+                                                        "content": {
+                                                            "body": "Nederland en Belgi\u00eb"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "3",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    }
+                                                ],
+                                                "responseIdentifier": "4996157_4_1",
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "4996157_4_1",
+                                                "cardinality": "ordered",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "0"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0,
+                                                    "default": 0,
+                                                    "mapEntries": [
+                                                        {
+                                                            "key": "0",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "1",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "2",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "3",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        }
+                                                    ]
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": false,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": true,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_THRESHOLD",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    },
+                                    {
+                                        "identifier": "4996157_5",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "choiceInteraction",
+                                                "label": "",
+                                                "prompt": {
+                                                    "body": "<p>Welke politieke stromingen stonden tegenover elkaar in de Spaanse Burgeroorlog?</p>"
+                                                },
+                                                "shuffle": true,
+                                                "maxChoices": 4,
+                                                "minChoices": 1,
+                                                "orientation": "vertical",
+                                                "choices": [
+                                                    {
+                                                        "identifier": "0",
+                                                        "content": {
+                                                            "body": "Communisme/anarchisme en het fascisme"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "0",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "1",
+                                                        "content": {
+                                                            "body": "Islam en Christendom"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "1",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "2",
+                                                        "content": {
+                                                            "body": "Vlamen en Walloni\u00ebrs"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "2",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "3",
+                                                        "content": {
+                                                            "body": "Katholieken en seculieren"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "3",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    }
+                                                ],
+                                                "responseIdentifier": "4996157_5_1",
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "4996157_5_1",
+                                                "cardinality": "ordered",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "0"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0,
+                                                    "default": 0,
+                                                    "mapEntries": [
+                                                        {
+                                                            "key": "0",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "1",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "2",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "3",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        }
+                                                    ]
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": false,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": true,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_THRESHOLD",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    }
+                                ]
+                            }
+                        ],
+                        "outcomeDeclarations": null,
+                        "showEvaluation": null,
+                        "feedback": null
+                    }
+                }
+            ],
+            "sections": []
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": null,
+            "dimension": null,
+            "suppressTitle": null
+        },
+        "color": "#333333"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Startpagina",
+                "reference": {
+                    "value": "4799594"
+                },
+                "sections": [
+                    {
+                        "title": "De Spaanse Burgeroorlog",
+                        "reference": {
+                            "value": "4799599"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Inhoud van deze les",
+                "reference": {
+                    "value": "4799597"
+                },
+                "sections": [
+                    {
+                        "title": "Inleiding",
+                        "reference": {
+                            "value": "4791800"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "De sociaal-politieke structuur van Spanje tussen 1930 en 1940",
+                        "reference": {
+                            "value": "4791801"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Het conflict is niet wat het lijkt",
+                        "reference": {
+                            "value": "4791802"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "De ideologische botsingen",
+                        "reference": {
+                            "value": "4791803"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Europa, vriend of vijand?",
+                        "reference": {
+                            "value": "4791804"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Het einde nadert",
+                        "reference": {
+                            "value": "4791806"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Nederlanders in de Spaanse Burgeroorlog",
+                        "reference": {
+                            "value": "4826891"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Tijdlijn",
+                "reference": {
+                    "value": "4827051"
+                },
+                "sections": []
+            },
+            {
+                "title": "Oefeningen",
+                "reference": {
+                    "value": "4799603"
+                },
+                "sections": []
+            },
+            {
+                "title": "Toets",
+                "reference": {
+                    "value": "4799604"
+                },
+                "sections": []
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": null,
+        "imageSrc": null,
+        "sources": [
+            {
+                "type": "link",
+                "title": "Quiz Spaanse Burgeroorlog",
+                "origin": "Quiz Spaanse Burgeroorlog",
+                "customOrigin": null,
+                "link": "https://b.socrative.com/teacher/#import-quiz/37297587",
+                "visible": true
+            }
+        ],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

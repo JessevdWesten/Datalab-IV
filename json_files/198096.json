@@ -1,0 +1,548 @@
+{
+    "documentAuthors": [
+        "Ewolt van der Berg"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Ewolt van der Berg",
+            "referenceName": null,
+            "reference": {
+                "value": "167099"
+            },
+            "firstName": "Ewolt",
+            "infix": null,
+            "lastName": "van der Berg",
+            "emailAddress": "bee@dockinga.nl",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2023-06-20T10:29:56Z",
+    "bulkId": "bulk-17041658-refresh_all",
+    "identifier": 198096,
+    "title": "Persvrijheid en persveiligheid: de aanslag",
+    "description": "Opdrachten burgerschapsvorming havo 2",
+    "lastModifiedDate": "2023-06-20T10:29:56+02:00",
+    "dateCreated": "2023-06-20T09:52:30+02:00",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "van der Berg, Ewolt",
+                "reference": {
+                    "value": "167099"
+                },
+                "firstName": "Ewolt",
+                "infix": null,
+                "lastName": "van der Berg",
+                "emailAddress": "bee@dockinga.nl",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-40",
+            "name": "CC Naamsvermelding 4.0 Internationale licentie",
+            "description": "De Internationale Creative Commons 4.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/4.0/.",
+            "link": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/198096/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "7608123"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "De aanslag",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>(Foto)journalisten als Bart Heesters moeten helaas regelmatig de hulp van politie inschakelen in verband met een bedreigende situatie. Vaak helpt dit, maar twee jaar geleden ging het helaas verschrikkelijk mis toen er op 6 juli 2021 in Amsterdam een aanslag op misdaadjournalist Peter R. de Vries plaatsvond. Enkele dagen later komt hij te overlijden. De schok is op veel plekken in het land en wereldwijd groot, en door onder andere deze gebeurtenis daalt Nederland het jaar erop bovendien 22 plekken, naar plaats 28, op de wereldranglijst voor persvrijheid. \"We zien een enorme stijging van meldingen van ernstige incidenten in de afgelopen twee jaar', constateert Journalistenvakbond NVJ. Misdaadverslaggevers zoals Peter R. de Vries hebben bovendien regelmatig te maken met bedreigingen uit de onderwereld, toch weigeren ze om op wat voor manier dan ook zelfcensuur toe te passen om zo hun onafhankelijkheid als journalist te kunnen bewaren. Maar tegen welke prijs?</p>\n"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Bekijk de video van Bart Heesters</p>\n"
+                },
+                {
+                    "type": "video",
+                    "url": "https://www.youtube.com/watch?v=CwEWTTH6jdk&ab_channel=Nieuwsindeklas",
+                    "align": "left",
+                    "caption": "https://www.youtube.com/watch?v=CwEWTTH6jdk&ab_channel=Nieuwsindeklas",
+                    "poster": "https://img.youtube.com/vi/CwEWTTH6jdk/maxresdefault.jpg"
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "7608130"
+                    },
+                    "assessmentItem": {
+                        "identifier": "7608130",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Wat zou jij doen?",
+                                "prompt": {
+                                    "body": "<p>Wat zou jij doen als je te maken zou krijgen met een situatie zoals Bart beschrijft? Doorwerken of stoppen?</p>\n<p> </p>\n<p>Geef in je antwoord goed aan waarom je kiest voor stoppen of doorwerken.</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "7608130_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>Geef in je antwoord goed aan waarom je kiest voor stoppen of doorwerken.</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>Geef in je antwoord goed aan waarom je kiest voor stoppen of doorwerken.</p>"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "7608131"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Lees, luister en bekijk de volgende fragmenten",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "link",
+                            "link": "https://myprivacy.dpgmedia.nl/consent?siteKey=5id0G7K93Kr6sOje&callbackUrl=https%3a%2f%2fwww.parool.nl%2fprivacy-wall%2faccept%3fredirectUri%3d%252famsterdam%252fdit-weten-we-over-de-aanslag-op-peter-r-de-vries%257eb602fe01%252f",
+                            "title": "Het parool",
+                            "description": "",
+                            "comment": ""
+                        },
+                        {
+                            "type": "link",
+                            "link": "https://www.parool.nl/nederland/peter-r-de-vries-in-oud-interview-ik-weet-dat-kroongetuige-helpen-gevaarlijk-is~bc7b5a1d/",
+                            "title": "Het Parool",
+                            "description": "",
+                            "comment": ""
+                        },
+                        {
+                            "type": "link",
+                            "link": "https://spodlicht.podbean.com/e/15-je-moet-nu-weggaan-nu-paul-vugts/",
+                            "title": "Luister deze podcast",
+                            "description": "",
+                            "comment": ""
+                        },
+                        {
+                            "type": "video",
+                            "url": "https://www.rtlnieuws.nl/entertainment/misdaad/artikel/5344996/\r\nmick-van-wely-staat-stil-bij-450-dagen-leven-met-beveiliging",
+                            "align": "left",
+                            "caption": "https://www.rtlnieuws.nl/entertainment/misdaad/artikel/5344996/\r\nmick-van-wely-staat-stil-bij-450-dagen-leven-met-beveiliging",
+                            "poster": "https://maken.wikiwijs.nl/res/images/playicon_wikiwijs.png"
+                        },
+                        {
+                            "type": "video",
+                            "url": "https://debatgemist.tweedekamer.nl/node/17426",
+                            "align": "left",
+                            "caption": "Klik op de naam van misdaadjournalist John van den Heuvel en beluister zijn fragment.",
+                            "poster": "https://maken.wikiwijs.nl/res/images/playicon_wikiwijs.png"
+                        },
+                        {
+                            "type": "question",
+                            "reference": {
+                                "value": "7608168"
+                            },
+                            "assessmentItem": {
+                                "identifier": "7608168",
+                                "itemBody": null,
+                                "questions": [
+                                    {
+                                        "type": "choiceInteraction",
+                                        "label": "",
+                                        "prompt": {
+                                            "body": "<p>Waar ligt de verantwoordelijkheid voor de veiligheid van de journalisten?</p>"
+                                        },
+                                        "shuffle": false,
+                                        "maxChoices": 4,
+                                        "minChoices": 1,
+                                        "orientation": "vertical",
+                                        "choices": [
+                                            {
+                                                "identifier": "0",
+                                                "content": {
+                                                    "body": "bij henzelf"
+                                                },
+                                                "feedback": {
+                                                    "outcomeIdentifier": "FEEDBACK",
+                                                    "identifier": "0",
+                                                    "showHide": true,
+                                                    "title": null,
+                                                    "content": null
+                                                }
+                                            },
+                                            {
+                                                "identifier": "1",
+                                                "content": {
+                                                    "body": "Bij de politiek"
+                                                },
+                                                "feedback": {
+                                                    "outcomeIdentifier": "FEEDBACK",
+                                                    "identifier": "1",
+                                                    "showHide": true,
+                                                    "title": null,
+                                                    "content": null
+                                                }
+                                            },
+                                            {
+                                                "identifier": "2",
+                                                "content": {
+                                                    "body": "Bij de politie"
+                                                },
+                                                "feedback": {
+                                                    "outcomeIdentifier": "FEEDBACK",
+                                                    "identifier": "2",
+                                                    "showHide": true,
+                                                    "title": null,
+                                                    "content": null
+                                                }
+                                            },
+                                            {
+                                                "identifier": "3",
+                                                "content": {
+                                                    "body": "Bij de georganiseerde misdaad"
+                                                },
+                                                "feedback": {
+                                                    "outcomeIdentifier": "FEEDBACK",
+                                                    "identifier": "3",
+                                                    "showHide": true,
+                                                    "title": null,
+                                                    "content": null
+                                                }
+                                            }
+                                        ],
+                                        "responseIdentifier": "7608168_1",
+                                        "feedback": null
+                                    }
+                                ],
+                                "responseDeclarations": [
+                                    {
+                                        "identifier": "7608168_1",
+                                        "cardinality": "ordered",
+                                        "baseType": "identifier",
+                                        "correctResponse": {
+                                            "interpretation": null,
+                                            "values": [
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "0"
+                                                }
+                                            ]
+                                        },
+                                        "mapping": {
+                                            "lowerBound": 0,
+                                            "upperBound": 0,
+                                            "default": 0,
+                                            "mapEntries": [
+                                                {
+                                                    "key": "0",
+                                                    "value": "0",
+                                                    "caseSensitive": false
+                                                },
+                                                {
+                                                    "key": "1",
+                                                    "value": "0",
+                                                    "caseSensitive": false
+                                                },
+                                                {
+                                                    "key": "2",
+                                                    "value": "0",
+                                                    "caseSensitive": false
+                                                },
+                                                {
+                                                    "key": "3",
+                                                    "value": "0",
+                                                    "caseSensitive": false
+                                                }
+                                            ]
+                                        },
+                                        "areaMapping": null
+                                    }
+                                ],
+                                "outcomeDeclarations": [
+                                    {
+                                        "identifier": "SCORE",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 0,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK_CORRECT",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": false,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK_INCORRECT",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": true,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK_THRESHOLD",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 0,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "RESPONSE_CORRECT",
+                                        "cardinality": "single",
+                                        "baseType": "boolean",
+                                        "defaultValue": null,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "RESPONSE_INCORRECT",
+                                        "cardinality": "single",
+                                        "baseType": "boolean",
+                                        "defaultValue": null,
+                                        "interpretation": null
+                                    }
+                                ],
+                                "feedback": null
+                            }
+                        },
+                        {
+                            "type": "question",
+                            "reference": {
+                                "value": "7608174"
+                            },
+                            "assessmentItem": {
+                                "identifier": "7608174",
+                                "itemBody": null,
+                                "questions": [
+                                    {
+                                        "type": "extendedTextInteraction",
+                                        "label": "Betoog",
+                                        "prompt": {
+                                            "body": "<p>Schrijf een kort betoog van twee alinea's waarin je jouw keuze onderbouwt met twee argumenten. Bouw je betoog als volgt op. </p>\n<p>Begin de tekst met de zin: \"De verantwoordelijkheid voor de veiligheid van journalisten ligt bij ... omdat...\"argument 1 gevolgd door argument 2 en eindigend met een conclusie</p>"
+                                        },
+                                        "feedback": null
+                                    }
+                                ],
+                                "responseDeclarations": [
+                                    {
+                                        "identifier": "7608174_1",
+                                        "cardinality": "single",
+                                        "baseType": "string",
+                                        "correctResponse": {
+                                            "interpretation": null,
+                                            "values": [
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "<p><em>*Lees de theorie op bladzijde 108 NN voor meer informatie over het schrijven van een betoog.</em></p>\r\n"
+                                                }
+                                            ]
+                                        },
+                                        "mapping": {
+                                            "lowerBound": 0,
+                                            "upperBound": 1,
+                                            "default": 0,
+                                            "mapEntries": []
+                                        },
+                                        "areaMapping": null
+                                    }
+                                ],
+                                "outcomeDeclarations": [
+                                    {
+                                        "identifier": "SCORE",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 0,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": null,
+                                        "interpretation": null
+                                    }
+                                ],
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK",
+                                        "identifier": "ANSWER_CORRECT",
+                                        "showHide": true,
+                                        "title": null,
+                                        "content": {
+                                            "body": "<p><em>*Lees de theorie op bladzijde 108 NN voor meer informatie over het schrijven van een betoog.</em></p>"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": null,
+            "dimension": null,
+            "suppressTitle": null
+        },
+        "color": "#333333"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "De aanslag",
+                "reference": {
+                    "value": "7608123"
+                },
+                "sections": [
+                    {
+                        "title": "Lees, luister en bekijk de volgende fragmenten",
+                        "reference": {
+                            "value": "7608131"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": null,
+        "imageSrc": null,
+        "sources": [
+            {
+                "type": "video",
+                "title": "",
+                "origin": "https://www.youtube.com/watch?v=CwEWTTH6jdk&ab_channel=Nieuwsindeklas",
+                "customOrigin": null,
+                "link": "https://www.youtube.com/watch?v=CwEWTTH6jdk&ab_channel=Nieuwsindeklas",
+                "visible": true
+            },
+            {
+                "type": "link",
+                "title": "Het parool",
+                "origin": "Het parool",
+                "customOrigin": null,
+                "link": "https://myprivacy.dpgmedia.nl/consent?siteKey=5id0G7K93Kr6sOje&callbackUrl=https%3a%2f%2fwww.parool.nl%2fprivacy-wall%2faccept%3fredirectUri%3d%252famsterdam%252fdit-weten-we-over-de-aanslag-op-peter-r-de-vries%257eb602fe01%252f",
+                "visible": true
+            },
+            {
+                "type": "link",
+                "title": "Het Parool",
+                "origin": "Het Parool",
+                "customOrigin": null,
+                "link": "https://www.parool.nl/nederland/peter-r-de-vries-in-oud-interview-ik-weet-dat-kroongetuige-helpen-gevaarlijk-is~bc7b5a1d/",
+                "visible": true
+            },
+            {
+                "type": "link",
+                "title": "Luister deze podcast",
+                "origin": "Luister deze podcast",
+                "customOrigin": null,
+                "link": "https://spodlicht.podbean.com/e/15-je-moet-nu-weggaan-nu-paul-vugts/",
+                "visible": true
+            },
+            {
+                "type": "video",
+                "title": "",
+                "origin": " https://www.rtlnieuws.nl/entertainment/misdaad/artikel/5344996/\r\nmick-van-wely-staat-stil-bij-450-dagen-leven-met-beveiliging",
+                "customOrigin": null,
+                "link": " https://www.rtlnieuws.nl/entertainment/misdaad/artikel/5344996/\r\nmick-van-wely-staat-stil-bij-450-dagen-leven-met-beveiliging",
+                "visible": true
+            },
+            {
+                "type": "video",
+                "title": "Klik op de naam van misdaadjournalist John van den Heuvel en beluister zijn fragment.",
+                "origin": "Klik op de naam van misdaadjournalist John van den Heuvel en beluister zijn fragment.",
+                "customOrigin": null,
+                "link": "https://debatgemist.tweedekamer.nl/node/17426",
+                "visible": true
+            }
+        ],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

@@ -1,0 +1,2665 @@
+{
+    "documentAuthors": [
+        "Nienke Damen"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Nienke Damen",
+            "referenceName": null,
+            "reference": {
+                "value": "30518"
+            },
+            "firstName": "Nienke",
+            "infix": "",
+            "lastName": "Damen",
+            "emailAddress": "137595@schoolok.nl",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2015-05-29T11:39:57Z",
+    "bulkId": "bulk-17041135-refresh_all",
+    "identifier": 61871,
+    "title": "Sportvragen",
+    "description": "",
+    "lastModifiedDate": "2015-05-29T11:39:57+02:00",
+    "dateCreated": "-0001-11-30T00:00:00+00:19",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "Damen, Nienke",
+                "reference": {
+                    "value": "30518"
+                },
+                "firstName": "Nienke",
+                "infix": "",
+                "lastName": "Damen",
+                "emailAddress": "137595@schoolok.nl",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-30",
+            "name": "CC Naamsvermelding 3.0 Nederland licentie",
+            "description": "De Nederlandse Creative Commons 3.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/3.0/nl/.",
+            "link": "http://creativecommons.org/licenses/by/3.0/nl/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/61871/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "empty_section"
+            },
+            "heading": {
+                "type": "empty_heading",
+                "content": "",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "questionnaire",
+                    "reference": {
+                        "value": "1248188"
+                    },
+                    "assessmentTestItem": {
+                        "label": "Toets",
+                        "type": "exam",
+                        "header": {
+                            "url": "https://maken.wikiwijs.nl/p/questionnaire/standalone/1248188",
+                            "title": "Sportvragen"
+                        },
+                        "introduction": {
+                            "body": ""
+                        },
+                        "countQuestions": 20,
+                        "sections": [
+                            {
+                                "type": "assessment",
+                                "identifier": "SECTION_1248188",
+                                "name": "MAIN_SECTION",
+                                "select": null,
+                                "shuffle": null,
+                                "selection": null,
+                                "assessmentItems": [
+                                    {
+                                        "identifier": "1248188_0",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "choiceInteraction",
+                                                "label": "Beantwoord de sportvragen",
+                                                "prompt": {
+                                                    "body": "<p>Welke voetbalclub heeft het grootste voetbalstadion van Nederland?</p>"
+                                                },
+                                                "shuffle": false,
+                                                "maxChoices": 2,
+                                                "minChoices": 1,
+                                                "orientation": "vertical",
+                                                "choices": [
+                                                    {
+                                                        "identifier": "0",
+                                                        "content": {
+                                                            "body": "Ajax"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "0",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "1",
+                                                        "content": {
+                                                            "body": "Feynoord"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "1",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    }
+                                                ],
+                                                "responseIdentifier": "1248188_0_1",
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "1248188_0_1",
+                                                "cardinality": "ordered",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "0"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0,
+                                                    "default": 0,
+                                                    "mapEntries": [
+                                                        {
+                                                            "key": "0",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "1",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        }
+                                                    ]
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": false,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": true,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_THRESHOLD",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    },
+                                    {
+                                        "identifier": "1248188_1",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "choiceInteraction",
+                                                "label": "Beantwoord de sportvragen",
+                                                "prompt": {
+                                                    "body": "<p>Welk Engels woord gebruikt men voor opslag bij tennis en volleybal?</p>"
+                                                },
+                                                "shuffle": false,
+                                                "maxChoices": 2,
+                                                "minChoices": 1,
+                                                "orientation": "vertical",
+                                                "choices": [
+                                                    {
+                                                        "identifier": "0",
+                                                        "content": {
+                                                            "body": "Service"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "0",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "1",
+                                                        "content": {
+                                                            "body": "racket"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "1",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    }
+                                                ],
+                                                "responseIdentifier": "1248188_1_1",
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "1248188_1_1",
+                                                "cardinality": "ordered",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "0"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0,
+                                                    "default": 0,
+                                                    "mapEntries": [
+                                                        {
+                                                            "key": "0",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "1",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        }
+                                                    ]
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": false,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": true,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_THRESHOLD",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    },
+                                    {
+                                        "identifier": "1248188_2",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "choiceInteraction",
+                                                "label": "Beantwoord de sportvragen",
+                                                "prompt": {
+                                                    "body": "<p> Welke sport heeft de onderdelen speerwerken, horden en verspringen?</p>"
+                                                },
+                                                "shuffle": false,
+                                                "maxChoices": 2,
+                                                "minChoices": 1,
+                                                "orientation": "vertical",
+                                                "choices": [
+                                                    {
+                                                        "identifier": "0",
+                                                        "content": {
+                                                            "body": "Atletiek"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "0",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "1",
+                                                        "content": {
+                                                            "body": "3 sprong"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "1",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    }
+                                                ],
+                                                "responseIdentifier": "1248188_2_1",
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "1248188_2_1",
+                                                "cardinality": "ordered",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "0"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0,
+                                                    "default": 0,
+                                                    "mapEntries": [
+                                                        {
+                                                            "key": "0",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "1",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        }
+                                                    ]
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": false,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": true,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_THRESHOLD",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    },
+                                    {
+                                        "identifier": "1248188_3",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "choiceInteraction",
+                                                "label": "Beantwoord de sportvragen",
+                                                "prompt": {
+                                                    "body": "<p>Hoe wordt de platte schijf genoemd waarmee men bij ijshockey dient te scoren?</p>"
+                                                },
+                                                "shuffle": false,
+                                                "maxChoices": 2,
+                                                "minChoices": 1,
+                                                "orientation": "vertical",
+                                                "choices": [
+                                                    {
+                                                        "identifier": "0",
+                                                        "content": {
+                                                            "body": "puck"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "0",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "1",
+                                                        "content": {
+                                                            "body": "bool"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "1",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    }
+                                                ],
+                                                "responseIdentifier": "1248188_3_1",
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "1248188_3_1",
+                                                "cardinality": "ordered",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "0"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0,
+                                                    "default": 0,
+                                                    "mapEntries": [
+                                                        {
+                                                            "key": "0",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "1",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        }
+                                                    ]
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": false,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": true,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_THRESHOLD",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    },
+                                    {
+                                        "identifier": "1248188_4",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "choiceInteraction",
+                                                "label": "Beantwoord de sportvragen",
+                                                "prompt": {
+                                                    "body": "<p>Welke sport wordt ook wel kunstzwemmen of waterballet genoemd?</p>"
+                                                },
+                                                "shuffle": false,
+                                                "maxChoices": 2,
+                                                "minChoices": 1,
+                                                "orientation": "vertical",
+                                                "choices": [
+                                                    {
+                                                        "identifier": "0",
+                                                        "content": {
+                                                            "body": "synchroonzwemmen"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "0",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "1",
+                                                        "content": {
+                                                            "body": "waterpolo"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "1",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    }
+                                                ],
+                                                "responseIdentifier": "1248188_4_1",
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "1248188_4_1",
+                                                "cardinality": "ordered",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "0"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0,
+                                                    "default": 0,
+                                                    "mapEntries": [
+                                                        {
+                                                            "key": "0",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "1",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        }
+                                                    ]
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": false,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": true,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_THRESHOLD",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    },
+                                    {
+                                        "identifier": "1248188_5",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "choiceInteraction",
+                                                "label": "Beantwoord de sportvragen",
+                                                "prompt": {
+                                                    "body": "<p>Welke Argentijnse voetballer wordt de kleine Maradonna genoemd?</p>"
+                                                },
+                                                "shuffle": false,
+                                                "maxChoices": 2,
+                                                "minChoices": 1,
+                                                "orientation": "vertical",
+                                                "choices": [
+                                                    {
+                                                        "identifier": "0",
+                                                        "content": {
+                                                            "body": "Messi"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "0",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "1",
+                                                        "content": {
+                                                            "body": "Ronaldo"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "1",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    }
+                                                ],
+                                                "responseIdentifier": "1248188_5_1",
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "1248188_5_1",
+                                                "cardinality": "ordered",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "0"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0,
+                                                    "default": 0,
+                                                    "mapEntries": [
+                                                        {
+                                                            "key": "0",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "1",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        }
+                                                    ]
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": false,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": true,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_THRESHOLD",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    },
+                                    {
+                                        "identifier": "1248188_6",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "choiceInteraction",
+                                                "label": "Beantwoord de sportvragen",
+                                                "prompt": {
+                                                    "body": "<p>Welke trui mag de wereldkampioen wielrennen dragen?</p>"
+                                                },
+                                                "shuffle": false,
+                                                "maxChoices": 2,
+                                                "minChoices": 1,
+                                                "orientation": "vertical",
+                                                "choices": [
+                                                    {
+                                                        "identifier": "0",
+                                                        "content": {
+                                                            "body": "regenboogtrui"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "0",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "1",
+                                                        "content": {
+                                                            "body": "bolletjestrui"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "1",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    }
+                                                ],
+                                                "responseIdentifier": "1248188_6_1",
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "1248188_6_1",
+                                                "cardinality": "ordered",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "0"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0,
+                                                    "default": 0,
+                                                    "mapEntries": [
+                                                        {
+                                                            "key": "0",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "1",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        }
+                                                    ]
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": false,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": true,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_THRESHOLD",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    },
+                                    {
+                                        "identifier": "1248188_7",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "choiceInteraction",
+                                                "label": "Beantwoord de sportvragen",
+                                                "prompt": {
+                                                    "body": "<p>Welke sport beoefent Ireen W\u00fcst?</p>"
+                                                },
+                                                "shuffle": false,
+                                                "maxChoices": 2,
+                                                "minChoices": 1,
+                                                "orientation": "vertical",
+                                                "choices": [
+                                                    {
+                                                        "identifier": "0",
+                                                        "content": {
+                                                            "body": "zwemmen"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "0",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "1",
+                                                        "content": {
+                                                            "body": "schaatsen"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "1",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    }
+                                                ],
+                                                "responseIdentifier": "1248188_7_1",
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "1248188_7_1",
+                                                "cardinality": "ordered",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "1"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0,
+                                                    "default": 0,
+                                                    "mapEntries": [
+                                                        {
+                                                            "key": "0",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "1",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        }
+                                                    ]
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": false,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": true,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_THRESHOLD",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    },
+                                    {
+                                        "identifier": "1248188_8",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "choiceInteraction",
+                                                "label": "beantwoord de sportvragen",
+                                                "prompt": {
+                                                    "body": "<p>Wat is het oudste tennistoernooi ter wereld?</p>"
+                                                },
+                                                "shuffle": false,
+                                                "maxChoices": 2,
+                                                "minChoices": 1,
+                                                "orientation": "vertical",
+                                                "choices": [
+                                                    {
+                                                        "identifier": "0",
+                                                        "content": {
+                                                            "body": "Roland garos"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "0",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "1",
+                                                        "content": {
+                                                            "body": "Wimbledon"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "1",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    }
+                                                ],
+                                                "responseIdentifier": "1248188_8_1",
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "1248188_8_1",
+                                                "cardinality": "ordered",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "1"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0,
+                                                    "default": 0,
+                                                    "mapEntries": [
+                                                        {
+                                                            "key": "0",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "1",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        }
+                                                    ]
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": false,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": true,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_THRESHOLD",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    },
+                                    {
+                                        "identifier": "1248188_9",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "choiceInteraction",
+                                                "label": "beantwoord de sportvragen",
+                                                "prompt": {
+                                                    "body": "<p>Welke sport wordt in het Engels baseball genoemd?</p>"
+                                                },
+                                                "shuffle": false,
+                                                "maxChoices": 2,
+                                                "minChoices": 1,
+                                                "orientation": "vertical",
+                                                "choices": [
+                                                    {
+                                                        "identifier": "0",
+                                                        "content": {
+                                                            "body": "Honkbal"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "0",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "1",
+                                                        "content": {
+                                                            "body": "puck"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "1",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    }
+                                                ],
+                                                "responseIdentifier": "1248188_9_1",
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "1248188_9_1",
+                                                "cardinality": "ordered",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "0"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0,
+                                                    "default": 0,
+                                                    "mapEntries": [
+                                                        {
+                                                            "key": "0",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "1",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        }
+                                                    ]
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": false,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": true,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_THRESHOLD",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    },
+                                    {
+                                        "identifier": "1248188_10",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "choiceInteraction",
+                                                "label": "beantwoord de sportvragen",
+                                                "prompt": {
+                                                    "body": "<p>Hoe wordt bij tennis een winnende opslag genoemd waarbij de tegenstander de bal niet raakt?\"</p>"
+                                                },
+                                                "shuffle": false,
+                                                "maxChoices": 2,
+                                                "minChoices": 1,
+                                                "orientation": "vertical",
+                                                "choices": [
+                                                    {
+                                                        "identifier": "0",
+                                                        "content": {
+                                                            "body": "Ace"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "0",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "1",
+                                                        "content": {
+                                                            "body": "Service"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "1",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    }
+                                                ],
+                                                "responseIdentifier": "1248188_10_1",
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "1248188_10_1",
+                                                "cardinality": "ordered",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "0"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0,
+                                                    "default": 0,
+                                                    "mapEntries": [
+                                                        {
+                                                            "key": "0",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "1",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        }
+                                                    ]
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": false,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": true,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_THRESHOLD",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    },
+                                    {
+                                        "identifier": "1248188_11",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "choiceInteraction",
+                                                "label": "beantwoord de sportvragen",
+                                                "prompt": {
+                                                    "body": "<p>Welke kleur begint altijd bij het schaken?</p>"
+                                                },
+                                                "shuffle": false,
+                                                "maxChoices": 2,
+                                                "minChoices": 1,
+                                                "orientation": "vertical",
+                                                "choices": [
+                                                    {
+                                                        "identifier": "0",
+                                                        "content": {
+                                                            "body": "Zwart"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "0",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "1",
+                                                        "content": {
+                                                            "body": "wit"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "1",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    }
+                                                ],
+                                                "responseIdentifier": "1248188_11_1",
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "1248188_11_1",
+                                                "cardinality": "ordered",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "0"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0,
+                                                    "default": 0,
+                                                    "mapEntries": [
+                                                        {
+                                                            "key": "0",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "1",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        }
+                                                    ]
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": false,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": true,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_THRESHOLD",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    },
+                                    {
+                                        "identifier": "1248188_12",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "choiceInteraction",
+                                                "label": "beantwoord de sportvragen",
+                                                "prompt": {
+                                                    "body": "<p>Welk land mag in 2022 het WK voetbal organiseren?</p>"
+                                                },
+                                                "shuffle": false,
+                                                "maxChoices": 2,
+                                                "minChoices": 1,
+                                                "orientation": "vertical",
+                                                "choices": [
+                                                    {
+                                                        "identifier": "0",
+                                                        "content": {
+                                                            "body": "Quatar"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "0",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "1",
+                                                        "content": {
+                                                            "body": "London"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "1",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    }
+                                                ],
+                                                "responseIdentifier": "1248188_12_1",
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "1248188_12_1",
+                                                "cardinality": "ordered",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "0"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0,
+                                                    "default": 0,
+                                                    "mapEntries": [
+                                                        {
+                                                            "key": "0",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "1",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        }
+                                                    ]
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": false,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": true,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_THRESHOLD",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    },
+                                    {
+                                        "identifier": "1248188_13",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "choiceInteraction",
+                                                "label": "beantwoord de sportvragen",
+                                                "prompt": {
+                                                    "body": "<p>Wat is de start en aankomstplaats van de Elfstedentocht?</p>"
+                                                },
+                                                "shuffle": false,
+                                                "maxChoices": 2,
+                                                "minChoices": 1,
+                                                "orientation": "vertical",
+                                                "choices": [
+                                                    {
+                                                        "identifier": "0",
+                                                        "content": {
+                                                            "body": "Friesland"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "0",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "1",
+                                                        "content": {
+                                                            "body": "Leeuwarden"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "1",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    }
+                                                ],
+                                                "responseIdentifier": "1248188_13_1",
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "1248188_13_1",
+                                                "cardinality": "ordered",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "0"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0,
+                                                    "default": 0,
+                                                    "mapEntries": [
+                                                        {
+                                                            "key": "0",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "1",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        }
+                                                    ]
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": false,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": true,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_THRESHOLD",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    },
+                                    {
+                                        "identifier": "1248188_14",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "choiceInteraction",
+                                                "label": "beantwoord de sportvragen",
+                                                "prompt": {
+                                                    "body": "<p> Bij welke sport horen de termen pancake, side-out en floater?</p>"
+                                                },
+                                                "shuffle": false,
+                                                "maxChoices": 2,
+                                                "minChoices": 1,
+                                                "orientation": "vertical",
+                                                "choices": [
+                                                    {
+                                                        "identifier": "0",
+                                                        "content": {
+                                                            "body": "Volleybal"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "0",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "1",
+                                                        "content": {
+                                                            "body": "Handbal"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "1",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    }
+                                                ],
+                                                "responseIdentifier": "1248188_14_1",
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "1248188_14_1",
+                                                "cardinality": "ordered",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "0"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0,
+                                                    "default": 0,
+                                                    "mapEntries": [
+                                                        {
+                                                            "key": "0",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "1",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        }
+                                                    ]
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": false,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": true,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_THRESHOLD",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    },
+                                    {
+                                        "identifier": "1248188_15",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "choiceInteraction",
+                                                "label": "beantwoord de sportvragen",
+                                                "prompt": {
+                                                    "body": "<p>Hoe worden de kegels bij het bowlen genoemd?</p>"
+                                                },
+                                                "shuffle": false,
+                                                "maxChoices": 2,
+                                                "minChoices": 1,
+                                                "orientation": "vertical",
+                                                "choices": [
+                                                    {
+                                                        "identifier": "0",
+                                                        "content": {
+                                                            "body": "Pins"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "0",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "1",
+                                                        "content": {
+                                                            "body": "Puck"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "1",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    }
+                                                ],
+                                                "responseIdentifier": "1248188_15_1",
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "1248188_15_1",
+                                                "cardinality": "ordered",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "0"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0,
+                                                    "default": 0,
+                                                    "mapEntries": [
+                                                        {
+                                                            "key": "0",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "1",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        }
+                                                    ]
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": false,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": true,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_THRESHOLD",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    },
+                                    {
+                                        "identifier": "1248188_16",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "choiceInteraction",
+                                                "label": "beantwoord de sportvragen",
+                                                "prompt": {
+                                                    "body": "<p>In welke stad brandde het Olympische vuur voor het eerst?</p>"
+                                                },
+                                                "shuffle": false,
+                                                "maxChoices": 2,
+                                                "minChoices": 1,
+                                                "orientation": "vertical",
+                                                "choices": [
+                                                    {
+                                                        "identifier": "0",
+                                                        "content": {
+                                                            "body": "Athene"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "0",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "1",
+                                                        "content": {
+                                                            "body": "Amsterdam"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "1",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    }
+                                                ],
+                                                "responseIdentifier": "1248188_16_1",
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "1248188_16_1",
+                                                "cardinality": "ordered",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "1"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0,
+                                                    "default": 0,
+                                                    "mapEntries": [
+                                                        {
+                                                            "key": "0",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "1",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        }
+                                                    ]
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": false,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": true,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_THRESHOLD",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    },
+                                    {
+                                        "identifier": "1248188_17",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "choiceInteraction",
+                                                "label": "beantwoord de sportvragen",
+                                                "prompt": {
+                                                    "body": "<p>Welk turnonderdeel is geen Olympische sport voor vrouwen?</p>"
+                                                },
+                                                "shuffle": false,
+                                                "maxChoices": 2,
+                                                "minChoices": 1,
+                                                "orientation": "vertical",
+                                                "choices": [
+                                                    {
+                                                        "identifier": "0",
+                                                        "content": {
+                                                            "body": "ringen"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "0",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "1",
+                                                        "content": {
+                                                            "body": "bok"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "1",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    }
+                                                ],
+                                                "responseIdentifier": "1248188_17_1",
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "1248188_17_1",
+                                                "cardinality": "ordered",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "0"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0,
+                                                    "default": 0,
+                                                    "mapEntries": [
+                                                        {
+                                                            "key": "0",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "1",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        }
+                                                    ]
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": false,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": true,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_THRESHOLD",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    },
+                                    {
+                                        "identifier": "1248188_18",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "choiceInteraction",
+                                                "label": "beantwoord de sportvragen",
+                                                "prompt": {
+                                                    "body": "<p>Hoe wordt de vorm van surfen genoemd waarbij de surfplank minimaal 233 cm lang is?</p>"
+                                                },
+                                                "shuffle": false,
+                                                "maxChoices": 2,
+                                                "minChoices": 1,
+                                                "orientation": "vertical",
+                                                "choices": [
+                                                    {
+                                                        "identifier": "0",
+                                                        "content": {
+                                                            "body": "Longboarden"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "0",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "1",
+                                                        "content": {
+                                                            "body": "Surfboarden"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "1",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    }
+                                                ],
+                                                "responseIdentifier": "1248188_18_1",
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "1248188_18_1",
+                                                "cardinality": "ordered",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "0"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0,
+                                                    "default": 0,
+                                                    "mapEntries": [
+                                                        {
+                                                            "key": "0",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "1",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        }
+                                                    ]
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": false,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": true,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_THRESHOLD",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    },
+                                    {
+                                        "identifier": "1248188_19",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "choiceInteraction",
+                                                "label": "beantwoord de sportvragen",
+                                                "prompt": {
+                                                    "body": "<p>Welke sport kent de termen freeze, windmill en headspin?</p>"
+                                                },
+                                                "shuffle": false,
+                                                "maxChoices": 2,
+                                                "minChoices": 1,
+                                                "orientation": "vertical",
+                                                "choices": [
+                                                    {
+                                                        "identifier": "0",
+                                                        "content": {
+                                                            "body": "breakdance"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "0",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "1",
+                                                        "content": {
+                                                            "body": "dansen"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "1",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    }
+                                                ],
+                                                "responseIdentifier": "1248188_19_1",
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "1248188_19_1",
+                                                "cardinality": "ordered",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "0"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0,
+                                                    "default": 0,
+                                                    "mapEntries": [
+                                                        {
+                                                            "key": "0",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "1",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        }
+                                                    ]
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": false,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": true,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_THRESHOLD",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    }
+                                ]
+                            }
+                        ],
+                        "outcomeDeclarations": null,
+                        "showEvaluation": null,
+                        "feedback": null
+                    }
+                }
+            ],
+            "sections": []
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": null,
+            "dimension": null,
+            "suppressTitle": null
+        },
+        "color": ""
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": "",
+        "imageSrc": null,
+        "sources": [],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

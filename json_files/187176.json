@@ -1,0 +1,1763 @@
+{
+    "documentAuthors": [
+        "Dianne Brouwer"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Dianne Brouwer",
+            "referenceName": null,
+            "reference": {
+                "value": "167144"
+            },
+            "firstName": "Dianne",
+            "infix": null,
+            "lastName": "Brouwer",
+            "emailAddress": "DEBW@mboamersfoort.nl",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2022-04-06T11:53:01Z",
+    "bulkId": "bulk-17041658-refresh_all",
+    "identifier": 187176,
+    "title": "Diagnostische toets Ademhaling (respiratie) - kopie 1",
+    "description": "Deze toets hoort bij de module MZA (Gezondheid en Ziekte)",
+    "lastModifiedDate": "2022-04-06T11:53:01+02:00",
+    "dateCreated": "2022-04-05T12:42:25+02:00",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "Brouwer, Dianne",
+                "reference": {
+                    "value": "167144"
+                },
+                "firstName": "Dianne",
+                "infix": null,
+                "lastName": "Brouwer",
+                "emailAddress": "DEBW@mboamersfoort.nl",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-40",
+            "name": "CC Naamsvermelding 4.0 Internationale licentie",
+            "description": "De Internationale Creative Commons 4.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/4.0/.",
+            "link": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/187176/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "empty_section"
+            },
+            "heading": {
+                "type": "empty_heading",
+                "content": "",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "questionnaire",
+                    "reference": {
+                        "value": "7131402"
+                    },
+                    "assessmentTestItem": {
+                        "label": "Test",
+                        "type": "diagnostic",
+                        "header": {
+                            "url": "https://maken.wikiwijs.nl/p/questionnaire/standalone/7131402",
+                            "title": "Diagnostische toets Ademhaling (respiratie)"
+                        },
+                        "introduction": {
+                            "body": ""
+                        },
+                        "countQuestions": 25,
+                        "sections": [
+                            {
+                                "type": "diagnostic",
+                                "identifier": "0",
+                                "name": "Nieuwe Categorie",
+                                "select": null,
+                                "shuffle": null,
+                                "selection": null,
+                                "assessmentItems": [
+                                    {
+                                        "identifier": "7131402_0",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "Functie ademhaling",
+                                                "prompt": {
+                                                    "body": "<p>Wat is de functie van de ademhaling?</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "7131402_0_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p><em>De ademhaling brengt zuurstof in het bloed en verwijdert het afvalgas koolstofdioxide</em></p>\r\n\r\n<p><em>(koolzuurgas) uit het bloed.</em></p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p><em>De ademhaling brengt zuurstof in het bloed en verwijdert het afvalgas koolstofdioxide</em></p>\n<p><em>(koolzuurgas) uit het bloed.</em></p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "identifier": "7131402_1",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "Het ademcentrum",
+                                                "prompt": {
+                                                    "body": "<p>De ademhaling staat onder invloed van het ademcentrum. Leg uit wat dit betekent.</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "7131402_1_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p><em>Het ademcentrum in de hersenstam reageert primair op het koolstofdioxidegehalte van het bloed en in de tweede plaats op het zuurstofgehalte. Registreert het ademcentrum een te hoog gehalte aan koolstofdioxide dan krijgen je ademhalingsspieren prikkels om sneller adem te gaan halen.</em></p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p><em>Het ademcentrum in de hersenstam reageert primair op het koolstofdioxidegehalte van het bloed en in de tweede plaats op het zuurstofgehalte. Registreert het ademcentrum een te hoog gehalte aan koolstofdioxide dan krijgen je ademhalingsspieren prikkels om sneller adem te gaan halen.</em></p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "identifier": "7131402_2",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "Ademhalen door de neus.",
+                                                "prompt": {
+                                                    "body": "<p>Wat is de functie van ademhalen door de neus?</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "7131402_2_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p><em>De functie van ademhalen door de neus is ruiken (gevaarlijke stoffen), bevochtigen, verwarmenen zuiveren van de ingeademde lucht.</em></p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p><em>De functie van ademhalen door de neus is ruiken (gevaarlijke stoffen), bevochtigen, verwarmenen zuiveren van de ingeademde lucht.</em></p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "identifier": "7131402_3",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "Trilhaarepitheel.",
+                                                "prompt": {
+                                                    "body": "<p>Wat is de functie van het trilhaar-epitheel in de luchtwegen?</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "7131402_3_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p><em>In het slijmerige trilhaar-epitheel blijven veel stofdeeltjes en mogelijke ziekteverwekkers uit de ingeademde lucht steken. De trilharen wapperen de vuiltjes weg in de richting van de keel, waarna het vuile slijm ingeslikt wordt</em>.</p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p><em>In het slijmerige trilhaar-epitheel blijven veel stofdeeltjes en mogelijke ziekteverwekkers uit de ingeademde lucht steken. De trilharen wapperen de vuiltjes weg in de richting van de keel, waarna het vuile slijm ingeslikt wordt</em>.</p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "identifier": "7131402_4",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "Luchtwegen en gaswisseling",
+                                                "prompt": {
+                                                    "body": "<p>Op welke plaats in de luchtwegen vindt gaswisseling plaats? Welke gassen worden hierbij uitgewisseld?</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "7131402_4_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p><em>Gaswisseling vindt plaats in de longblaasjes: zuurstof komt het bloed in en tegelijkertijd gaat koolstofdioxide uit het bloed weg.</em></p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p><em>Gaswisseling vindt plaats in de longblaasjes: zuurstof komt het bloed in en tegelijkertijd gaat koolstofdioxide uit het bloed weg.</em></p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "identifier": "7131402_5",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "Buikademhaling",
+                                                "prompt": {
+                                                    "body": "<p>Beschrijf wat er gebeurt bij buikademhaling.</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "7131402_5_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p><em>Bij buikademhaling wordt de borstholte vergroot doordat het middenrif naar beneden getrokken wordt (dit zorgt voor het verder openen van de long waardoor de lucht naar binnen stroomt). Dat doen de middenrifspieren. Het middenrif duwt daarbij de buikorganen wat naar beneden en naar voren, waardoor de buik uitzet.</em></p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p><em>Bij buikademhaling wordt de borstholte vergroot doordat het middenrif naar beneden getrokken wordt (dit zorgt voor het verder openen van de long waardoor de lucht naar binnen stroomt). Dat doen de middenrifspieren. Het middenrif duwt daarbij de buikorganen wat naar beneden en naar voren, waardoor de buik uitzet.</em></p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "identifier": "7131402_6",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "Spierkracht bij ademhaling",
+                                                "prompt": {
+                                                    "body": "<p>Gebruik je spierkracht bij de gewone inademing of bij de gewone uitademing? Verklaar je antwoord.</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "7131402_6_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p><em>Bij een gewone inademing gebruik je spieren (bepaalde tussenribspieren en/of</em></p>\r\n\r\n<p><em>middenrifspieren). Bij de uitademing gebruik je deze spieren niet, want ze ontspannen. Hierdoor wordt de borstkas kleiner en de lucht uit de longen geperst.</em></p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p><em>Bij een gewone inademing gebruik je spieren (bepaalde tussenribspieren en/of</em></p>\n<p><em>middenrifspieren). Bij de uitademing gebruik je deze spieren niet, want ze ontspannen. Hierdoor wordt de borstkas kleiner en de lucht uit de longen geperst.</em></p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "identifier": "7131402_7",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "Ademprikkel",
+                                                "prompt": {
+                                                    "body": "<p>Welke stof in het bloed is de belangrijkste prikkel om te gaan ademen?</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "7131402_7_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p><em>Koolstofdioxide is de belangrijkste prikkel om te gaan ademen.</em></p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p><em>Koolstofdioxide is de belangrijkste prikkel om te gaan ademen.</em></p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "identifier": "7131402_8",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "Kraakbeenringen in de luchtpijp",
+                                                "prompt": {
+                                                    "body": "<p>Wat is de functie van kraakbeenringen in de wand van de luchtpijp?</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "7131402_8_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p><em>De kraakbeenstukken geven de wand stevigheid en zorgen ervoor dat de luchtpijp niet dichtklapt.</em></p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p><em>De kraakbeenstukken geven de wand stevigheid en zorgen ervoor dat de luchtpijp niet dichtklapt.</em></p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "identifier": "7131402_9",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "Bronchitis",
+                                                "prompt": {
+                                                    "body": "<p>Wat kun je horen aan de ademhaling van een pati\u00ebnt die een acute bronchitis heeft?</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "7131402_9_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p><em>Een pati&euml;nt met een acute bronchitis heeft een hoorbare ademhaling met piepende geluiden, vooral bij het uitademen.</em></p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p><em>Een pati\u00ebnt met een acute bronchitis heeft een hoorbare ademhaling met piepende geluiden, vooral bij het uitademen.</em></p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "identifier": "7131402_10",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "Longontsteking en zuurstoftekort",
+                                                "prompt": {
+                                                    "body": "<p>Waardoor kan bij een ernstige longontsteking een tekort aan zuurstof in het bloed ontstaan?</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "7131402_10_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p><em>Bij een ernstige longontsteking kan een tekort aan zuurstof in het bloed ontstaan doordat een deel van de longen zo ziek is dat daar geen gaswisseling kan plaatsvinden, omdat er geen gas komt, er zit daar een ophoping van slijm.&nbsp;Het gevolg is dat de pati&euml;nt niet genoeg zuurstof kan inademen</em>.</p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p><em>Bij een ernstige longontsteking kan een tekort aan zuurstof in het bloed ontstaan doordat een deel van de longen zo ziek is dat daar geen gaswisseling kan plaatsvinden, omdat er geen gas komt, er zit daar een ophoping van slijm. Het gevolg is dat de pati\u00ebnt niet genoeg zuurstof kan inademen</em>.</p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "identifier": "7131402_11",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "Functie van hoesten",
+                                                "prompt": {
+                                                    "body": "<p>Wat is de functie van hoesten?</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "7131402_11_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p><em>De functie van hoesten is het uit de luchtpijp en bronchi&euml;n wegwerken van vuiltjes en deeltjes die niet in de longen mogen komen</em>.</p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p><em>De functie van hoesten is het uit de luchtpijp en bronchi\u00ebn wegwerken van vuiltjes en deeltjes die niet in de longen mogen komen</em>.</p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "identifier": "7131402_12",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "Emfyseem",
+                                                "prompt": {
+                                                    "body": "<p>Hoe komt het dat mensen met emfyseem bijna niet kunnen uitademen?</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "7131402_12_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p><em>Normale longblaasjes duwen door hun eigen elasticiteit de lucht uit de longen Bij mensen met emfyseem is de rek uit de wand van de longblaasjes en kan de lucht er niet gemakkelijk uit.</em></p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p><em>Normale longblaasjes duwen door hun eigen elasticiteit de lucht uit de longen Bij mensen met emfyseem is de rek uit de wand van de longblaasjes en kan de lucht er niet gemakkelijk uit.</em></p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "identifier": "7131402_13",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "Longkanker",
+                                                "prompt": {
+                                                    "body": "<p>Waarom komt longkanker steeds vaker bij vrouwen voor?</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "7131402_13_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p><em>Doordat steeds meer vrouwen roken, komt longkanker ook steeds vaker bij vrouwen voor.</em></p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p><em>Doordat steeds meer vrouwen roken, komt longkanker ook steeds vaker bij vrouwen voor.</em></p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "identifier": "7131402_14",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "Pleuravocht",
+                                                "prompt": {
+                                                    "body": "<p>Hoe komt het dat het verlies van pleuravocht de pati\u00ebnt zo verzwakt?</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "7131402_14_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p><em>Pleuravocht is een eiwitrijk vocht, waardoor kostbare bouwstoffen aan het lichaam worden onttrokken.</em></p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p><em>Pleuravocht is een eiwitrijk vocht, waardoor kostbare bouwstoffen aan het lichaam worden onttrokken.</em></p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "identifier": "7131402_15",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "Kapot longvlies",
+                                                "prompt": {
+                                                    "body": "<p>Hoe komt het dat iemand het benauwd krijgt als zijn longvlies kapot is?</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "7131402_15_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p><em>Als het longvlies kapot is, kan er pleuravocht in de long stromen. Het&nbsp;vacu&uuml;m in de ruimte tussen de beide longbladen wordt opgeheven, omdat lucht&nbsp;tussen het borstvlies en de long komt. Deze lucht drukt de long in elkaar.</em></p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p><em>Als het longvlies kapot is, kan er pleuravocht in de long stromen. Het vacu\u00fcm in de ruimte tussen de beide longbladen wordt opgeheven, omdat lucht tussen het borstvlies en de long komt. Deze lucht drukt de long in elkaar.</em></p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "identifier": "7131402_16",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "Functie vacu\u00fcm tussen longvlies en borstvlies",
+                                                "prompt": {
+                                                    "body": "<p>Wat is de functie van het vacu\u00fcm tussen het longvlies en het borstvlies?</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "7131402_16_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p><em>Door het vacu&uuml;m plakken de beide vliezen aan elkaar vast. Dit is belangrijk bij het inademen. Want dan vergroot de borstholte zich en wordt het longvlies met het eraan vastgeplakte borstvlies meegetrokken</em>.</p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p><em>Door het vacu\u00fcm plakken de beide vliezen aan elkaar vast. Dit is belangrijk bij het inademen. Want dan vergroot de borstholte zich en wordt het longvlies met het eraan vastgeplakte borstvlies meegetrokken</em>.</p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "identifier": "7131402_17",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "Ademen bij COPD",
+                                                "prompt": {
+                                                    "body": "<p>Waar heeft een pati\u00ebnt met COPD meer moeite mee, met inademen of met uitademen en waarom?</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "7131402_17_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p><em>De uitademing is gestoord. Er kan wel lucht in, maar moeilijk weer uit door de obstructie. De ribbenkast staat permanent in een inademingsstand en raakt tonvormig vergroot.</em></p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p><em>De uitademing is gestoord. Er kan wel lucht in, maar moeilijk weer uit door de obstructie. De ribbenkast staat permanent in een inademingsstand en raakt tonvormig vergroot.</em></p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "identifier": "7131402_18",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "Gewichtsverlies COPD",
+                                                "prompt": {
+                                                    "body": "<p>Verklaar waarom een pati\u00ebnt met COPD de neiging heeft om af te vallen.</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "7131402_18_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p><em>Een pati&euml;nt met COPD verricht veel arbeid door de geforceerde ademhaling. Hierdoor ontstaat al gauw een negatieve energiebalans.</em></p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p><em>Een pati\u00ebnt met COPD verricht veel arbeid door de geforceerde ademhaling. Hierdoor ontstaat al gauw een negatieve energiebalans.</em></p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "identifier": "7131402_19",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "Effecten van roken",
+                                                "prompt": {
+                                                    "body": "<p>Wat zijn de effecten van roken?</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "7131402_19_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p><em>De belangrijkste negatieve effecten van het roken zijn:</em></p>\r\n\r\n<p><em>&bull; beschadiging van de longblaasjes, waardoor het oppervlak van de longen afneemt;</em></p>\r\n\r\n<p><em>&bull; kankerverwekkende invloed op de luchtpijpjes en longblaasjes, met longcarcinoom tot gevolg;</em></p>\r\n\r\n<p><em>&bull; beschadiging van de bloedvaten, waardoor atherosclerotische plaques worden bevorderd.</em></p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 3,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p><em>De belangrijkste negatieve effecten van het roken zijn:</em></p>\n<p><em>\u2022 beschadiging van de longblaasjes, waardoor het oppervlak van de longen afneemt;</em></p>\n<p><em>\u2022 kankerverwekkende invloed op de luchtpijpjes en longblaasjes, met longcarcinoom tot gevolg;</em></p>\n<p><em>\u2022 beschadiging van de bloedvaten, waardoor atherosclerotische plaques worden bevorderd.</em></p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "identifier": "7131402_20",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "verstoorde uitademing",
+                                                "prompt": {
+                                                    "body": "<p>Beschrijf wat er verkeerd gaat met de gaswisseling als het uitademen niet goed mogelijk is.</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "7131402_20_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p><em>Als uitademen niet goed mogelijk is (er is onvoldoende verversing van de lucht in de long), dan blijft er te veel koolstofdioxide in de longblaasjes zitten. Daardoor kan er geen koolstofdioxide uit het bloed meer bij. Het gevolg is dat te veel koolstofdioxide in het bloed en de organen blijft zitten. Ook de zuurstofopname in het bloed wordt door de het te veel aan koolstofdioxide gehinderd. Met andere woorden de gaswisseling is ernstig vertraagd als de pati&euml;nt niet goed kan uitademen.</em></p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p><em>Als uitademen niet goed mogelijk is (er is onvoldoende verversing van de lucht in de long), dan blijft er te veel koolstofdioxide in de longblaasjes zitten. Daardoor kan er geen koolstofdioxide uit het bloed meer bij. Het gevolg is dat te veel koolstofdioxide in het bloed en de organen blijft zitten. Ook de zuurstofopname in het bloed wordt door de het te veel aan koolstofdioxide gehinderd. Met andere woorden de gaswisseling is ernstig vertraagd als de pati\u00ebnt niet goed kan uitademen.</em></p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "identifier": "7131402_21",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "Hijgen",
+                                                "prompt": {
+                                                    "body": "<p>Welke functie heeft hijgen?</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "7131402_21_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p><em>De functie van hijgen is de luchtverversing in de longen sneller te doen gaan, waardoor de gaswisseling ook sneller kan gebeuren (groter concentratieverschil).</em></p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p><em>De functie van hijgen is de luchtverversing in de longen sneller te doen gaan, waardoor de gaswisseling ook sneller kan gebeuren (groter concentratieverschil).</em></p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "identifier": "7131402_22",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "Spirometrieonderzoek",
+                                                "prompt": {
+                                                    "body": "<p>Noem drie longwaarden die bij een spirometrieonderzoek bepaald worden.</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "7131402_22_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p><em>Het ademteugvolume, de vitale capaciteit en het restvolume.</em></p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p><em>Het ademteugvolume, de vitale capaciteit en het restvolume.</em></p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "identifier": "7131402_23",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "Beschrijving longwaarden",
+                                                "prompt": {
+                                                    "body": "<p>Geef een beschrijving van de drie longwaarden.</p>\n<p><em>1.het ademteugvolume</em></p>\n<p><em>2. de vitale capaciteit</em></p>\n<p><em>3. het restvolume.</em></p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "7131402_23_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p><em>Ademteugvolume = de hoeveelheid lucht die je bij een rustige ademhaling inademt (of uitademt).</em></p>\r\n\r\n<p><em>Vitale capaciteit = de hoeveelheid lucht die je na een zo diep mogelijke uitademing</em></p>\r\n\r\n<p><em>inademt.</em></p>\r\n\r\n<p><em>Restvolume = de hoeveelheid lucht die na een zo diep mogelijke uitademing in de</em></p>\r\n\r\n<p><em>longen achterblijft.</em></p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 3,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p><em>Ademteugvolume = de hoeveelheid lucht die je bij een rustige ademhaling inademt (of uitademt).</em></p>\n<p><em>Vitale capaciteit = de hoeveelheid lucht die je na een zo diep mogelijke uitademing</em></p>\n<p><em>inademt.</em></p>\n<p><em>Restvolume = de hoeveelheid lucht die na een zo diep mogelijke uitademing in de</em></p>\n<p><em>longen achterblijft.</em></p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "identifier": "7131402_24",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "Functie restvolume",
+                                                "prompt": {
+                                                    "body": "<p>Wat is de functie van het restvolume?</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "7131402_24_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p><em>Zonder restvolume zouden de longen in elkaar klappen, vanwege het vacu&uuml;m dat zou ontstaan na diepe uitademing.</em></p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p><em>Zonder restvolume zouden de longen in elkaar klappen, vanwege het vacu\u00fcm dat zou ontstaan na diepe uitademing.</em></p>"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "outcomeDeclarations": null,
+                        "showEvaluation": null,
+                        "feedback": null
+                    }
+                }
+            ],
+            "sections": []
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": null,
+            "dimension": null,
+            "suppressTitle": null
+        },
+        "color": "#333333"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": null,
+        "imageSrc": null,
+        "sources": [],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            }
+        ],
+        "usedLearningResources": [
+            {
+                "author": {
+                    "fullName": null,
+                    "referenceName": "Caerteling, Marcel",
+                    "reference": {
+                        "value": "49767"
+                    },
+                    "firstName": "Marcel",
+                    "infix": null,
+                    "lastName": "Caerteling",
+                    "emailAddress": "marcelcaerteling@gmail.com",
+                    "type": "author"
+                },
+                "title": "Diagnostische toets Ademhaling (respiratie)",
+                "url": "https://maken.wikiwijs.nl/181808/",
+                "datePublished": "2023-01-17T14:35:38+01:00"
+            }
+        ]
+    }
+}

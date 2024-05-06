@@ -1,0 +1,264 @@
+{
+    "documentAuthors": [
+        "Jan de Geus"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Jan de Geus",
+            "referenceName": null,
+            "reference": {
+                "value": "2673"
+            },
+            "firstName": "Jan",
+            "infix": "de",
+            "lastName": "Geus",
+            "emailAddress": "j.degeus@baudartius.nl",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2011-01-11T16:34:37Z",
+    "bulkId": "bulk-17041135-refresh_all",
+    "identifier": 27841,
+    "title": "De grafische rekenmachine en de afgeleide",
+    "description": "Functionaliteiten van de GR bij het leren omgaan met het begrip \"afgeleide functie\". ",
+    "lastModifiedDate": "2011-01-11T16:34:37+01:00",
+    "dateCreated": "2011-01-10T17:37:21+01:00",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "de Geus, Jan",
+                "reference": {
+                    "value": "2673"
+                },
+                "firstName": "Jan",
+                "infix": "de",
+                "lastName": "Geus",
+                "emailAddress": "j.degeus@baudartius.nl",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-30",
+            "name": "CC Naamsvermelding 3.0 Nederland licentie",
+            "description": "De Nederlandse Creative Commons 3.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/3.0/nl/.",
+            "link": "http://creativecommons.org/licenses/by/3.0/nl/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/27841/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "61905"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Differenti\u00ebren met de TI 84(+)",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "61904"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Start: voorkennis en machine-instellingen",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p/>\n<p class=\"MsoListParagraph\"><span class=\"font-size-small\" style=\"color:#000000;\"><strong>Voorkennis</strong>                                                    </span></p>\n<p class=\"MsoListParagraph\"><span class=\"font-size-small\" style=\"color:#000000;\">Je moet enige oefening hebben gehad in het tekenen van grafieken op je GR.<br/>\nOok moet je theorie over het differentiequoti\u00ebnt hebben bestudeerd en hellinggrafieken<br/>\nhebben getekend.</span></p>\n<p class=\"MsoListParagraph\"><span class=\"font-size-small\" style=\"color:#000000;\">Zorg er voor, dat je machine \"schoon\" is.<br/>\nDat wil zeggen: zorg voor een zichtbaar assenstelsel, en een leeg Y-venster.<br/>\nGeen zichtbaar assenstelsel? Controleer of je WINDOW-venster in orde is.<br/>\nBijvoorbeeld: (achter de // staat toelichting)<br/>\nXmin = -3<br/>\nXmax = 3         //  <em>x</em> = 0 is in beeld<br/>\nXscl = 1           // op de x-as staan de streepjes om de 1.<br/>\nYmin = -2<br/>\nYmax = 10       // <em>y</em> = 0 is ook in beeld, dus beide assen moeten zichtbaar zijn.<br/>\nYscl = 2           // op de y-as staan de streepjes om de 2.<br/>\nXres = 1           // langzaamste tekenmodus; ook het nauwkeurigst.</span></p>\n<p class=\"MsoListParagraph\"><span class=\"font-size-small\" style=\"color:#000000;\">Zie je nog steeds geen assenstelsel, toets dan 2ND FORMAT in<br/>\nen zet een zwart balkje van AxesOff naar AxesOn.<br/>\nBovenstaand WINDOW is ook te noteren als [-3,3]<sub>1</sub> x [-2,10]<sub>2</sub> , 1</span></p>\n<p class=\"MsoListParagraph\"><span class=\"font-size-small\" style=\"color:#000000;\"><strong>Afspraak over schrijfwijze<br/></strong> <br/>\nIn \"rekenmachine-taal\" schrijf ik X en Y en gebruik ik de decimale punt.<br/>\nIn \"wiskunde-taal\" schrijf ik <em>x</em> en <em>y</em> en gebruik ik de decimale komma.</span></p>\n<p class=\"MsoListParagraph\"><span class=\"font-size-small\" style=\"color:#000000;\">Volgende paragraaf: de eerste techniek.<br/></span></p>\n<p class=\"MsoListParagraph\"><span class=\"font-size-small\" style=\"color:#000000;\"> </span></p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "61920"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "De eerste techniek: het gebruik van CALC, optie 6",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><span class=\"font-size-small\" style=\"color:#000000;\"><strong>Optie CALC 6 (dy/dx)</strong>                                                                        </span></p>\n<p><span class=\"font-size-small\" style=\"color:#000000;\"> <br/>\nOpmerking vooraf: letterlijke GR-invoer staat vanaf nu altijd tussen &lt; &gt; .<br/>\nDus &lt;ENTER&gt; betekent: gebruik de ENTER-toets.<br/>\nWaar verwarring kan ontstaan gebruik ik soms het woord  \"toets\" .</span></p>\n<p><span class=\"font-size-small\" style=\"color:#000000;\">Voer  [ - 3, 3]<sub>1</sub> x [ - 2, 10]<sub>2</sub>  ,1 als WINDOW in.<br/>\nVoer Y1 = X<sup>2</sup> in.</span></p>\n<p><span class=\"font-size-small\" style=\"color:#000000;\">Breng Y1 in beeld (met TRACE), &lt;CALC&gt; &lt; 6&gt; , &lt;1.5&gt; , &lt;ENTER&gt; . <br/>\nOptie CALC 6 heet d<em>y</em>/d<em>x</em>. <br/>\nIn beeld linksonder verschijnt: d<em>y</em>/d<em>x</em> = 3</span></p>\n<p><span class=\"font-size-small\" style=\"color:#000000;\">Dat is het hellingsgetal van de grafiek bij die ene <em>x</em>-waarde <em>x</em> = 1,5.<br/>\nAls je in het Y-venster direct een <em>x</em>-waarde intoetst, krijg je na &lt;ENTER&gt; de <em>y</em>-waarde.<br/>\n&lt;1.5&gt; &lt;ENTER&gt; geeft links onderin je venster X = 1.5 en rechtsonder Y = 2.25</span></p>\n<p><span class=\"font-size-small\" style=\"color:#000000;\">De combinatie van die twee uitkomsten ,  bij <em>x</em> = 1,5 horen <em>y</em> = 2,25 en dy/dx = 3 , <br/>\nlevert na enig rekenwerk de raaklijn op.</span></p>\n<p><span class=\"font-size-small\" style=\"color:#000000;\">Zie voorbeeld in volgend onderdeel.</span></p>\n<p> </p>\n<p> </p>\n<p><span style=\"color:#000000;\"> </span></p>\n<p><span class=\"font-size-small\"/></p>\n<p><span class=\"font-size-small\"> </span></p>\n<span class=\"font-size-small\"/>"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p><span class=\"font-size-small\" style=\"color:#000000;\"><strong>Voorbeeld                                                                      </strong></span></p>\n<p><span class=\"font-size-small\" style=\"color:#000000;\">Voer in: Y1 = X^3 - 2X^2  met Window: [-2, 3]<sub>1</sub> x [-8, 8]<sub>2</sub> ,1<br/>\nToets &lt;TRACE&gt; , daarna &lt;2&gt; . Machine geeft Y = 0; Toets &lt;CALC&gt; &lt;6&gt; en weer &lt;2&gt; .<br/>\nDe machine geeft dy/dx = 4.</span></p>\n<p><span class=\"font-size-small\" style=\"color:#000000;\">Dat wil zeggen: in punt (2,0) is de rc. van de raaklijn (want dat is dat hellinggetal!) = 4.</span></p>\n<p><span class=\"font-size-small\" style=\"color:#000000;\">De raaklijn heeft dus als vergelijking:  <em>y</em> = 4<em>x</em> + <em>b</em>, waarbij geldt dat 0 = 4 \u00b7 2 + <em>b</em>, dus <em>b</em> =  - 8.</span></p>\n<p><span class=\"font-size-small\" style=\"color:#000000;\"/></p>\n<span class=\"font-size-small\" style=\"color:#000000;\"/>\n<p><span class=\"font-size-small\" style=\"color:#000000;\"><strong>Conclusie</strong></span></p>\n<span class=\"font-size-small\" style=\"color:#000000;\">&#13; <span class=\"font-size-small\" style=\"color:#000000;\">&#13;</span></span>\n<p><span class=\"font-size-small\" style=\"color:#000000;\">De lijn :  <em>y</em> = 4<em>x</em> - 8 is de raaklijn aan de grafiek van f(x) = x<sup>3</sup> - 2x<sup>2</sup> in punt (2,0).<br/>\nHint: voer in: Y2 = 4X - 8 en controleer dit!</span></p>\n<span class=\"font-size-small\" style=\"color:#000000;\"/>\n<p> </p>\n<p> </p>\n<p> </p>\n<p> </p>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p><span class=\"font-size-x-small\"/></p>\n<p><span class=\"font-size-x-small font-size-small\" style=\"color:#000000;\"><strong>   Oefeningen bij eerste methode</strong>                                             </span></p>\n<p> </p>\n<p><span class=\"font-size-small\" style=\"color:#000000;\"> 1. Y1 = 2X^3 + X - 4 <span> </span>WINDOW: [ - 2,3]<sub>1</sub> x <span> </span>[ - 8,8]<sub>2</sub> , 1</span></p>\n<p><span class=\"font-size-small\" style=\"color:#000000;\"><span>    </span> a. Teken de grafiek.</span></p>\n<p><span class=\"font-size-small\" style=\"color:#000000;\"><span>     </span>b. Bereken d<em><span>y</span></em>/d<em><span>x</span></em> bij <em><span>x</span></em> = - 1, <em><span>x</span></em> = 0, en <em><span>x</span></em> = 2.</span></p>\n<p><span class=\"font-size-small\" style=\"color:#000000;\"><span>    </span> c. Bereken ook de <em><span>y</span></em>-co\u00f6rdinaten bij deze <em><span>x</span></em>-waarden en stel de vergelijkingen op</span></p>\n<p><span class=\"font-size-small\" style=\"color:#000000;\"><span>       </span> van de drie raaklijnen.</span></p>\n<p><span class=\"font-size-small\" style=\"color:#000000;\"> </span></p>\n<p><span class=\"font-size-small\" style=\"color:#000000;\"> 2. Y1 = 0.5X^3 - 4X^2 + 3X - 1 <span> </span>WINDOW: [ - 2, 8]<sub>2</sub> x [ - 30, 10]<sub>5</sub> , 2</span></p>\n<p><span class=\"font-size-small\" style=\"color:#000000;\"><span>    </span> a. Teken de grafiek. Verander Xres in 1 en teken de grafiek opnieuw. Wat valt je op?</span></p>\n<p><span class=\"font-size-small\" style=\"color:#000000;\"><span>     </span>b. Bereken d<em><span>y</span></em>/d<em><span>x</span></em> bij <em><span>x</span></em> = - 1, <em><span>x</span></em> = 1, en <em><span>x</span></em> = 4. Gebruik deze resultaten bij onderdeel c, d en e.</span></p>\n<p><span class=\"font-size-small\" style=\"color:#000000;\"><span>     </span>c. Stel de vergelijking op van de raaklijn in punt <em>A</em> met <em>x<sub>A</sub></em> = 4.</span></p>\n<p><span class=\"font-size-small\" style=\"color:#000000;\"><span> </span><span>    </span>d. De raaklijn aan de grafiek in punt <em>B</em> met <em>x<sub>B</sub></em> = - 1 snijdt de <em>y</em>-as in <em>C</em>. Bereken <em>y<sub>C</sub></em>.</span></p>\n<p><span class=\"font-size-small\" style=\"color:#000000;\"><span>    </span> e. De raaklijnen aan de grafiek in de punten <em>B</em> en <em>E</em> met <em>x<sub>E</sub></em> = - 1 snijden elkaar in <em>S.</em></span></p>\n<p><span class=\"font-size-small\" style=\"color:#000000;\"><span>        </span> Bereken de co\u00f6rdinaten van <em>S</em>.</span></p>\n<span class=\"font-size-x-small\"/>\n<p><span class=\"font-size-x-small\"> </span></p>\n<span class=\"font-size-x-small\"/>\n<p> </p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "61921"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "De tweede techniek: het gebruik van DRAW, optie 5",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><span>&#13;</span></p>\n<p class=\"MsoListParagraphCxSpFirst\"><span class=\"font-size-small\" style=\"color:#000000;\">Optie DRAW 5 (Tangent)                                                  </span></p>\n<p class=\"MsoListParagraphCxSpFirst\"><span class=\"font-size-small\"><br/></span><span class=\"font-size-small\" style=\"color:#000000;\">\"Tangent\" betekent \"rakende\" of \"raaklijn\".</span></p>\n<p class=\"MsoListParagraphCxSpMiddle\"><span class=\"font-size-small\" style=\"color:#000000;\">DRAW vind je als &lt;2ND&gt;&lt;PRGM&gt;<br/>\n<br/>\nVoer in: Y1 = X^3 - 2X^2 , &lt;TRACE&gt;, &lt;DRAW&gt; &lt;5&gt; en <span> </span>&lt;2&gt;. met WINDOW [ - 2,3]<sub>1</sub> x [ - 8,8]<sub>2</sub>  , 1<br/></span><span class=\"font-size-small\" style=\"color:#000000;\">In beeld verschijnt nu de raaklijn z\u00e8lf, maar ook haar vergelijking. Omdat de GR hiervoor het sjabloon Y = AX + B gebruikt en alleen maar A en B door een (benaderde) waarde vervangt, ziet het er soms wat raar uit. In dit geval:<span> </span> Y =<span> </span> 4.000001X + <span> </span>- 8.000002<span> </span><br/>\nHet \"goede\" antwoord is natuurlijk(?) <span> </span><em>y</em> = 4<em>x</em> - 8<span> </span> Zie <strong><span>TIP.</span></strong></span></p>\n<p class=\"MsoListParagraphCxSpMiddle\"><span class=\"font-size-small\" style=\"color:#000000;\">Om deze lijn weg te krijgen (je hebt hem niet zelf ingevoerd als Y2!) toets je &lt;DRAW&gt; &lt;1&gt;, <span><strong>Cl</strong></span>ea<strong><span>r</span> <span>Draw</span></strong>ing</span></p>\n<p class=\"MsoListParagraphCxSpMiddle\"><span class=\"font-size-small\" style=\"color:#000000;\"> </span></p>\n<p class=\"MsoListParagraphCxSpLast\"><span class=\"font-size-small\" style=\"color:#000000;\"><strong><span>TIP</span></strong><br/>\nWees hier op bedacht: Als je in het MODE-venster op de tweede regel het keuze-balkje op FLOAT hebt staan, krijg je in bepaalde gevallen <strong>niet-afgeronde</strong> uitkomsten. Zet je het balkje op 2 en voer je bovenstaand voorbeeld nog eens uit, krijg je Y = 4X +- 8.<span> </span> Die <span> </span>+- <span> </span>moet je zelf omzetten in een enkele min!<br/>\nDe rekenmachine kan namelijk alleen maar vergelijkingen vinden of oplossen door een heel systeem van benaderingen en stopt na een beperkt aantal pogingen. De laatste, die je te zien krijgt, is vaak wel erg <strong>nauwkeurig</strong> maar soms niet <strong>exact</strong>!</span></p>\n<p class=\"MsoListParagraphCxSpLast\"><span class=\"font-size-small\" style=\"color:#000000;\"><em>Let op: als gevraagd wordt om de vergelijking van de raaklijn algebra\u00efsch op te stellen,</em></span></p>\n<p class=\"MsoListParagraphCxSpLast\"><span class=\"font-size-small\" style=\"color:#000000;\">&#13;</span></p>\n<p class=\"MsoListParagraphCxSpLast\"><span style=\"color:#000000;\"><em>gebruik je <strong><span class=\"font-size-medium\">niet</span></strong> deze methode. Dan is deze manier <strong>alleen</strong> ter contr\u00f4le toegestaan.<br/></em></span></p>\n<p><span style=\"color:#000000;\"> </span></p>\n<p class=\"MsoListParagraphCxSpMiddle\"><span style=\"color:#000000;\"> </span></p>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p><span class=\"font-size-small\" style=\"color:#000000;\"><strong>Oefeningen bij tweede methode</strong></span></p>\n<p><span class=\"font-size-small\" style=\"color:#000000;\">1.  Gegeven is de functie <em>f</em>(<em>x</em>) = - 0,5<em>x<sup>3</sup></em> + 3<em>x<sup>2</sup></em> - 4<em>x</em> + 1</span></p>\n<p><span class=\"font-size-small\" style=\"color:#000000;\">     Voer deze functie in bij Y1 met WINDOW [ - 2, 6]<sub>1</sub> x [ - 8, 6]<sub>2</sub>  , 1</span></p>\n<p><span style=\"color:#000000;\"><span class=\"font-size-small\">     a. Teken de raaklijn aan de grafiek van<em>  f </em> in punt <em>A</em> met <em>x<sub>A</sub></em> = 0</span><span class=\"font-size-small\"> <span class=\"font-size-small\">en noteer de vergelijking.</span></span></span></p>\n<p><span class=\"font-size-small\" style=\"color:#000000;\">     b. Teken de raaklijn aan de grafiek van <em>f</em>  in het rechtersnijpunt van de grafiek met de <em>x</em>-as.<br/>\n          Noteer ook hiervan de vergelijking. Geef <em>a</em> en <em>b</em> zonodig in twee decimalen. <br/></span><span class=\"font-size-small\">    <span style=\"color:#ff0000;\"><strong>TIP<br/></strong>        </span> <span style=\"color:#000000;\">Gebruik de optie &lt;CALC&gt; &lt;2&gt; om eerst de <em>x</em>-co\u00f6rdinaat van dat punt te berekenen.</span></span></p>\n<p><span class=\"font-size-small font-size-small\" style=\"color:#000000;\"><br/>\n     c. De raaklijn aan de grafiek van<em>  f </em> in punt <em>B</em> met <em>x<sub>B</sub></em>= 1 snijdt de grafiek ook in een punt <em>C</em>.<br/>\n     </span> <span class=\"font-size-small\"><span style=\"color:#000000;\">  </span><span><span style=\"color:#000000;\">Bereken de co\u00f6rdinaten van <em>C</em> en geef je antwoord in twee decimalen nauwkeurig.<br/></span>    <span style=\"color:#ff0000;\"><strong>TIP<br/></strong>        </span> <span style=\"color:#000000;\">Voer de vergelijking van de raaklijn in bij Y2.</span></span></span></p>\n<p> </p>\n<p> </p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "61927"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "De derde techniek: het gebruik van MATH, optie 8",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><span class=\"font-size-small\" style=\"color:#000000;\"><strong>In voorbereiding</strong></span></p>\n<p><span style=\"color:#000000;\"><span class=\"font-size-small\"><strong>optie MATH 8, nDeriv(                                           <br/>\n<br/></strong> Oudere TI-84+ machines, waarop geen nieuwe software is ge\u00efnstalleerd, hebben een redelijk Spartaans notatiesysteem voor formules. Een TI-84 (+) kan worden voorzien van het nieuwste softwarepakket, OS255,<br/></span><span class=\"font-size-small\">met behulp van TI-Connect en door ook de bijbehorende handleiding te downloaden. Hiervoor heb je een verbindingskabeltje nodig van GR naar PC.</span></span></p>\n<p><span class=\"font-size-small\">Op de \"ouderwetse\" manier, die je overigens kunt simuleren door op een nieuwe machine in het MENU naar beneden te scrollen en op de regel \"MATPRINT     CLASSIC\"  voor CLASSIC te kiezen, werkt het<br/>\nals volgt: ga naar het Y-menu, kies Y2 en Toets &lt;MATH&gt; &lt;8&gt; . Er verschijnt:  nDeriv(</span></p>\n<p><span class=\"font-size-small\">Toets nu &lt;Y1&gt; (Via sneltoets &lt;ALPHA&gt; &lt;F4&gt;, &lt;F4&gt; staat boven &lt;TRACE&gt; en kies Y1) dan naar Y-Vars met  &lt; \u2192 &gt; en &lt;2&gt;. Daarna&lt; , X , X , &gt;  en &lt;ENTER&gt;</span></p>\n<p><span class=\"font-size-small\">Er staat nu Y2 = nDeriv( Y1, X, X) Daarmee kan de GR de grafiek van de hellingfunctie tekenen.</span></p>\n<p><span class=\"font-size-small\" style=\"color:#ff0000;\">Opmerking: de optie &lt;CALC&gt; &lt;6&gt; &lt;2&gt;, toegepast op een getekende Y1-functie, waarmee je d<em>y</em>/d<em>x</em> uitrekent bij <em>x</em> = 2, komt overeen met Y2 = nDeriv( Y1, X, 2)</span></p>\n<p><span class=\"font-size-small\" style=\"color:#000000;\">Je kunt op Y2 allerlei opties loslaten, want Y2 gedraagt zich als een gewone functie. Dus &lt;CALC&gt; &lt;5&gt;, Intersect, werkt uitstekend. Zie voorbeeld.</span></p>\n<p><span class=\"font-size-small\" style=\"color:#ff0000;\"><strong>Voorbeeld</strong></span></p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": "https://maken.wikiwijs.nl/generated/l1200x76_ac3e7db9975f0fdeda6f95bb671d103c.gif",
+            "dimension": null,
+            "suppressTitle": false
+        },
+        "color": "#495057"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Differenti\u00ebren met de TI 84(+)",
+                "reference": {
+                    "value": "61905"
+                },
+                "sections": [
+                    {
+                        "title": "Start: voorkennis en machine-instellingen",
+                        "reference": {
+                            "value": "61904"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "De eerste techniek: het gebruik van CALC, optie 6",
+                        "reference": {
+                            "value": "61920"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "De tweede techniek: het gebruik van DRAW, optie 5",
+                        "reference": {
+                            "value": "61921"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "De derde techniek: het gebruik van MATH, optie 8",
+                        "reference": {
+                            "value": "61927"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": null,
+        "imageSrc": null,
+        "sources": [],
+        "metadata": [
+            {
+                "key": "educationalLevels",
+                "label": "Leerniveaus",
+                "terms": {
+                    "70af3752-c6ad-43d9-aa0c-9ff099931f8a": "HAVO 4",
+                    "cb61531d-61eb-4412-a52f-ca065ca37e39": "HAVO 5",
+                    "e2026706-0829-4a4c-b726-9409b6f407e1": "VWO 4",
+                    "f2513775-3d54-423b-803b-15e06a8c89a8": "VWO 5"
+                }
+            },
+            {
+                "key": "disciplines",
+                "label": "Leerinhoud en doelen",
+                "terms": {
+                    "7afbb7a6-c29b-425c-9c59-6f79c845f5f0": "Rekenen/wiskunde"
+                }
+            },
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            },
+            {
+                "key": "learningTime",
+                "label": "Studiebelasting",
+                "terms": [
+                    "0 uur en 50 minuten"
+                ]
+            },
+            {
+                "key": "keywords",
+                "label": "Trefwoorden",
+                "terms": [
+                    "afgeleide",
+                    "afgeleide functies",
+                    "grafische rekenmachine",
+                    "technisch-instrumentele vaardigheden",
+                    "ti-84",
+                    "wiskunde_b"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

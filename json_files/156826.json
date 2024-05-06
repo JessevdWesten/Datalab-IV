@@ -1,0 +1,1800 @@
+{
+    "documentAuthors": [
+        "Petra Hotting"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Petra Hotting",
+            "referenceName": null,
+            "reference": {
+                "value": "123182"
+            },
+            "firstName": "Petra",
+            "infix": null,
+            "lastName": "Hotting",
+            "emailAddress": "lhotting@kliksafe.nl",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2020-02-07T12:30:21Z",
+    "bulkId": "bulk-17041658-refresh_all",
+    "identifier": 156826,
+    "title": "The secret garden",
+    "description": "Vragen bij Engelstalig boekje\n",
+    "lastModifiedDate": "2020-02-07T12:30:21+01:00",
+    "dateCreated": "2020-02-06T22:23:32+01:00",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "Hotting, Petra",
+                "reference": {
+                    "value": "123182"
+                },
+                "firstName": "Petra",
+                "infix": null,
+                "lastName": "Hotting",
+                "emailAddress": "lhotting@kliksafe.nl",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-40",
+            "name": "CC Naamsvermelding 4.0 Internationale licentie",
+            "description": "De Internationale Creative Commons 4.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/4.0/.",
+            "link": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/156826/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "5804503"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Before Reading",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p class=\"text-align-justify\">1. Read the story introduction on the first page of the book, and the back cover. What do you know about Mary Lennox? For each sentence choose Yes or No</p>\n"
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "5804509"
+                    },
+                    "assessmentItem": {
+                        "identifier": "5804509",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "choiceInteraction",
+                                "label": "",
+                                "prompt": {
+                                    "body": "<p>1. She is from India</p>"
+                                },
+                                "shuffle": false,
+                                "maxChoices": 2,
+                                "minChoices": 1,
+                                "orientation": "vertical",
+                                "choices": [
+                                    {
+                                        "identifier": "0",
+                                        "content": {
+                                            "body": "Yes"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "0",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "1",
+                                        "content": {
+                                            "body": "No"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "1",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    }
+                                ],
+                                "responseIdentifier": "5804509_1",
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "5804509_1",
+                                "cardinality": "ordered",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0,
+                                    "default": 0,
+                                    "mapEntries": [
+                                        {
+                                            "key": "0",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "1",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        }
+                                    ]
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "5804511"
+                    },
+                    "assessmentItem": {
+                        "identifier": "5804511",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "choiceInteraction",
+                                "label": "",
+                                "prompt": {
+                                    "body": "<p>2. She moves to a large house in Yorkshire</p>"
+                                },
+                                "shuffle": false,
+                                "maxChoices": 2,
+                                "minChoices": 1,
+                                "orientation": "vertical",
+                                "choices": [
+                                    {
+                                        "identifier": "0",
+                                        "content": {
+                                            "body": "Yes"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "0",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "1",
+                                        "content": {
+                                            "body": "No"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "1",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    }
+                                ],
+                                "responseIdentifier": "5804511_1",
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "5804511_1",
+                                "cardinality": "ordered",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0,
+                                    "default": 0,
+                                    "mapEntries": [
+                                        {
+                                            "key": "0",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "1",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        }
+                                    ]
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "5804513"
+                    },
+                    "assessmentItem": {
+                        "identifier": "5804513",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "choiceInteraction",
+                                "label": "",
+                                "prompt": {
+                                    "body": "<p>She has a lot of friends</p>"
+                                },
+                                "shuffle": false,
+                                "maxChoices": 2,
+                                "minChoices": 1,
+                                "orientation": "vertical",
+                                "choices": [
+                                    {
+                                        "identifier": "0",
+                                        "content": {
+                                            "body": "Yes"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "0",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "1",
+                                        "content": {
+                                            "body": "No"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "1",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    }
+                                ],
+                                "responseIdentifier": "5804513_1",
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "5804513_1",
+                                "cardinality": "ordered",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0,
+                                    "default": 0,
+                                    "mapEntries": [
+                                        {
+                                            "key": "0",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "1",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        }
+                                    ]
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "5804516"
+                    },
+                    "assessmentItem": {
+                        "identifier": "5804516",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "choiceInteraction",
+                                "label": "",
+                                "prompt": {
+                                    "body": "<p>4. Both she and Ben Weatherstaff are bad-tempered</p>"
+                                },
+                                "shuffle": false,
+                                "maxChoices": 2,
+                                "minChoices": 1,
+                                "orientation": "vertical",
+                                "choices": [
+                                    {
+                                        "identifier": "0",
+                                        "content": {
+                                            "body": "Yes"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "0",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "1",
+                                        "content": {
+                                            "body": "No"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "1",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    }
+                                ],
+                                "responseIdentifier": "5804516_1",
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "5804516_1",
+                                "cardinality": "ordered",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0,
+                                    "default": 0,
+                                    "mapEntries": [
+                                        {
+                                            "key": "0",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "1",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        }
+                                    ]
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "5804517"
+                    },
+                    "assessmentItem": {
+                        "identifier": "5804517",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "choiceInteraction",
+                                "label": "",
+                                "prompt": {
+                                    "body": "<p>5. She often cries in the night</p>"
+                                },
+                                "shuffle": false,
+                                "maxChoices": 2,
+                                "minChoices": 1,
+                                "orientation": "vertical",
+                                "choices": [
+                                    {
+                                        "identifier": "0",
+                                        "content": {
+                                            "body": "Yes"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "0",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "1",
+                                        "content": {
+                                            "body": "No"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "1",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    }
+                                ],
+                                "responseIdentifier": "5804517_1",
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "5804517_1",
+                                "cardinality": "ordered",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0,
+                                    "default": 0,
+                                    "mapEntries": [
+                                        {
+                                            "key": "0",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "1",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        }
+                                    ]
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>2. Why is the garden locked? Choose one of these ideas</p>\n"
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "5804545"
+                    },
+                    "assessmentItem": {
+                        "identifier": "5804545",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "choiceInteraction",
+                                "label": "",
+                                "prompt": {
+                                    "body": "<p>The secret garden is locked because...</p>"
+                                },
+                                "shuffle": false,
+                                "maxChoices": 5,
+                                "minChoices": 1,
+                                "orientation": "vertical",
+                                "choices": [
+                                    {
+                                        "identifier": "0",
+                                        "content": {
+                                            "body": "Nobody wants to use it"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "0",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "1",
+                                        "content": {
+                                            "body": "Somebody died there"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "1",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "2",
+                                        "content": {
+                                            "body": "A ghost was Deen there"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "2",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "3",
+                                        "content": {
+                                            "body": "A murder happened there"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "3",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "4",
+                                        "content": {
+                                            "body": "There is a dangerous animal inside it"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "4",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    }
+                                ],
+                                "responseIdentifier": "5804545_1",
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "5804545_1",
+                                "cardinality": "ordered",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0,
+                                    "default": 0,
+                                    "mapEntries": [
+                                        {
+                                            "key": "0",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "1",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "2",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "3",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "4",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        }
+                                    ]
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "5804548"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "While Reading",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Read Chapter 1. Who said this, and to whom? What, or who, were they talking about?</p>\n"
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "5804555"
+                    },
+                    "assessmentItem": {
+                        "identifier": "5804555",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "",
+                                "prompt": {
+                                    "body": "<p>1. I ll hit her when she comes back!</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "5804555_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>Mary to herself, about her Indian servant, Kamala.</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>Mary to herself, about her Indian servant, Kamala.</p>"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "5804556"
+                    },
+                    "assessmentItem": {
+                        "identifier": "5804556",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "",
+                                "prompt": {
+                                    "body": "<p>2. People are dying like flies</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "5804556_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>A young Englishman to Mary&rsquo;s mother, about the disease that was killing so many people in the town.</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>A young Englishman to Mary's mother, about the disease that was killing so many people in the town.</p>"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "5804557"
+                    },
+                    "assessmentItem": {
+                        "identifier": "5804557",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "",
+                                "prompt": {
+                                    "body": "<p>3. It s the child, the one nobody ever sew!</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "5804557_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>Another Englishman to his friend, about Mary when they found her alone in her parents&rsquo; house.</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>Another Englishman to his friend, about Mary when they found her alone in her parents' house.</p>"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "5804558"
+                    },
+                    "assessmentItem": {
+                        "identifier": "5804558",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "",
+                                "prompt": {
+                                    "body": "<p>4. He s got a crooked back, and he s horrid!</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "5804558_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>A young boy called Basil to Mary, about her uncle in Yorkshire, Mr Craven.</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>A young boy called Basil to Mary, about her uncle in Yorkshire, Mr Craven.</p>"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "5804559"
+                    },
+                    "assessmentItem": {
+                        "identifier": "5804559",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "",
+                                "prompt": {
+                                    "body": "<p>5. You must stay out of this wat.</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "5804559_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>Mrs Medlock, Mr Craven&rsquo;s housekeeper, to Mary, about Mr Craven.</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>Mrs Medlock, Mr Craven's housekeeper, to Mary, about Mr Craven.</p>"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "5804560"
+                    },
+                    "assessmentItem": {
+                        "identifier": "5804560",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "",
+                                "prompt": {
+                                    "body": "<p>6. I don t like it.</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "5804560_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>Mary to herself, about the frightening sound of the wind blowing across the wild Yorkshire moor.</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>Mary to herself, about the frightening sound of the wind blowing across the wild Yorkshire moor.</p>"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Read Chapter 2, and answer these questions.</p>\n"
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "5804583"
+                    },
+                    "assessmentItem": {
+                        "identifier": "5804583",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "choiceInteraction",
+                                "label": "",
+                                "prompt": {
+                                    "body": "<p>1. Who was going to clean Mary s room and bring her food?</p>"
+                                },
+                                "shuffle": true,
+                                "maxChoices": 5,
+                                "minChoices": 1,
+                                "orientation": "vertical",
+                                "choices": [
+                                    {
+                                        "identifier": "0",
+                                        "content": {
+                                            "body": "Martha Sowerby"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "0",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "1",
+                                        "content": {
+                                            "body": "Martha's brother, Dickon Sowerby"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "1",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "2",
+                                        "content": {
+                                            "body": "Ben Weatherstaff, the gardener"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "2",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "3",
+                                        "content": {
+                                            "body": "Mary's uncle, Mr Craven, because his wife had died after an accident in the garden."
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "3",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "4",
+                                        "content": {
+                                            "body": "Mrs. Madlock the housekeeper."
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "4",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    }
+                                ],
+                                "responseIdentifier": "5804583_1",
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "5804583_1",
+                                "cardinality": "ordered",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0,
+                                    "default": 0,
+                                    "mapEntries": [
+                                        {
+                                            "key": "0",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "1",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "2",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "3",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "4",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        }
+                                    ]
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "5804584"
+                    },
+                    "assessmentItem": {
+                        "identifier": "5804584",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "choiceInteraction",
+                                "label": "",
+                                "prompt": {
+                                    "body": "<p>2. Who sometimes rode a wild horse on the moor</p>"
+                                },
+                                "shuffle": true,
+                                "maxChoices": 5,
+                                "minChoices": 1,
+                                "orientation": "vertical",
+                                "choices": [
+                                    {
+                                        "identifier": "0",
+                                        "content": {
+                                            "body": "Martha Sowerby, one of the servants"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "0",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "1",
+                                        "content": {
+                                            "body": "Martha's brother, Dickon Sowerby."
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "1",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "2",
+                                        "content": {
+                                            "body": "Ben Weatherstaff, the gardener."
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "2",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "3",
+                                        "content": {
+                                            "body": "Mary's uncle, Mr Craven, because his wife had died after an accident in the garden."
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "3",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "4",
+                                        "content": {
+                                            "body": "Mrs Medlock, the housekeeper."
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "4",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    }
+                                ],
+                                "responseIdentifier": "5804584_1",
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "5804584_1",
+                                "cardinality": "ordered",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0,
+                                    "default": 0,
+                                    "mapEntries": [
+                                        {
+                                            "key": "0",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "1",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "2",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "3",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "4",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        }
+                                    ]
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                }
+            ],
+            "sections": []
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": null,
+            "dimension": null,
+            "suppressTitle": null
+        },
+        "color": "#333333"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Before Reading",
+                "reference": {
+                    "value": "5804503"
+                },
+                "sections": []
+            },
+            {
+                "title": "While Reading",
+                "reference": {
+                    "value": "5804548"
+                },
+                "sections": []
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": null,
+        "imageSrc": null,
+        "sources": [],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            },
+            {
+                "key": "learningTime",
+                "label": "Studiebelasting",
+                "terms": [
+                    "4 uur en 0 minuten"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

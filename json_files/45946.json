@@ -1,0 +1,307 @@
+{
+    "documentAuthors": [
+        "B\u00e8tapartners"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "B\u00e8tapartners ",
+            "referenceName": null,
+            "reference": {
+                "value": "163410"
+            },
+            "firstName": "B\u00e8tapartners",
+            "infix": null,
+            "lastName": "",
+            "emailAddress": "bureau@betapartners.nl",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2014-12-18T14:13:35Z",
+    "bulkId": "bulk-17041135-refresh_all",
+    "identifier": 45946,
+    "title": "12. Les 12 Algoritme van Euclides",
+    "description": "Deze les maakt onderdeel uit van de e-klas 'Cryptografie' voor Havo 5 voor het vak wiskunde D.",
+    "lastModifiedDate": "2014-12-18T14:13:35+01:00",
+    "dateCreated": "2013-08-15T18:35:55+02:00",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": ", B\u00e8tapartners",
+                "reference": {
+                    "value": "163410"
+                },
+                "firstName": "B\u00e8tapartners",
+                "infix": null,
+                "lastName": "",
+                "emailAddress": "bureau@betapartners.nl",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-sa-30",
+            "name": "CC Naamsvermelding-GelijkDelen 3.0 Nederland licentie",
+            "description": "De Nederlandse Creative Commons 3.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarden: Naamsvermelding en Gelijk Delen, zie http://creativecommons.org/licenses/by-sa/3.0/nl/.",
+            "link": "http://creativecommons.org/licenses/by-sa/3.0/nl/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/45946/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "647954"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Les 12 Algoritme van Euclides",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p><span class=\"font-size-small\" style=\"color:rgb(0, 0, 0);\">Inhoud van les 12: Algoritme van Euclides</span><br/>\n<br/>\n<span class=\"font-size-small\" style=\"color:rgb(0, 0, 0);\">12.1 </span>Deler, priemdeler en priemfactor<br/>\n<span class=\"font-size-small\" style=\"color:rgb(0, 0, 0);\">12.2 </span>Gemene delers<br/>\n<span class=\"font-size-small\" style=\"color:rgb(0, 0, 0);\">12.3 </span>De grootste gemene deler<br/>\n<span class=\"font-size-small\" style=\"color:rgb(0, 0, 0);\">12.4 </span>Algoritme van Euclides<br/>\n<span class=\"font-size-small\" style=\"color:rgb(0, 0, 0);\">12.5 </span>Het algoritme van Euclides en Excel</p>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "647849"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "12.1 Deler, priemdeler en priemfactor",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Een <em>geheel getal a </em>is een <em>deler</em> van een <em>geheel getal b </em>als het getal <em>a</em> precies een <em>geheel aantal keer</em>in het getal <em>b </em>past. Meer wiskundig: een <em>geheel getal a</em> is een <em>deler </em>van een <em>geheel getal b </em>als er een<em>geheel getal k</em> is, zodanig dat er geldt <em>a*k </em>= <em>b</em></p>\n<p>In de wiskunde is er een notatie voor \"deler zijn van\". Deze notatie is een verticale rechte streep: |. Wanneer je schrijft <em>a </em>| <em>b</em>, bedoel je dus dat <em>a </em>een deler is van <em>b</em>.</p>\n<p>Het getal <strong>a </strong>is<strong> </strong>een <em>priemdeler </em>van <strong>b</strong> als<strong> a </strong>zelf een priemgetal is en als je <strong>b </strong>door <strong>a </strong>kunt delen. Voor het vervolg van de module is het belangrijk dat je jezelf er eerst van overtuigt dat je het begrip<strong>priemdeler</strong> goed beheerst. <span class=\"font-size-small\" style=\"color:rgb(0, 0, 0);\">Op de sub-pagina staat een aantal opgaven over </span>delers en priemdelers<span class=\"font-size-small\" style=\"color:rgb(0, 0, 0);\">. </span><span class=\"font-size-small\" style=\"color:rgb(0, 0, 0);\">Voer deze eerst uit voor je verder gaat.</span></p>\n"
+                },
+                {
+                    "type": "file",
+                    "title": "https://maken.wikiwijs.nl/userfiles/9/9e050fb87ef0edf293641a65c0d905fe.docx",
+                    "file": "https://maken.wikiwijs.nl/userfiles/9/9e050fb87ef0edf293641a65c0d905fe.docx"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>In de moderne cryptografie zijn priemgetallen erg belangrijk. Dit komt doordat het voor producten van twee heel grote priemgetallen van bijvoorbeeld elk 150 cijfers lang, heel erg moeilijk is de priemfactorontbinding te bepalen, anders gezegd is het nauwelijks mogelijk te ontdekken hoe het product van de vermenigvuldiging tot stand is gekomen. Van de priemgetallen die nodig zijn voor moderne cryptografie zijn er heel veel bekend. Zoveel zelfs dat je ze niet allemaal kunt gaan proberen om een ontbinding van m te vinden. Veel grotere priemgetallen vinden van bijvoorbeeld miljoenen cijfers lang, is niet eenvoudig. De grootste bekende priemgetallen zijn Mersenne-priemgetallen, genoemd naar de Franse wiskundige Marin Mersenne. Deze priemgetallen zijn van de vorm 2<em><sup>p</sup></em>-1, waarbij <em>p</em> een priemgetal is. Maar niet alle getallen van deze vorm zijn priemgetallen. Voor getallen van deze vorm bestaan testen om te onderzoeken of ze priem zijn.</p>\n<p><img alt=\"\" height=\"899\" src=\"https://maken.wikiwijs.nl/userfiles/d/dc5e6870d8274a9e9ad9723a3ba99e36.PNG\" width=\"788\"/></p>\n<p>Klik <a href=\"http://www.kennislink.nl/publicaties/priemgetallen-van-meer-dan-tien-miljoen-cijfers\" target=\"_blank\">hier</a> om naar de site te gaan.</p>\n<p> </p>\n<p><img alt=\"\" height=\"39\" src=\"https://maken.wikiwijs.nl/userfiles/f/fcd9a9ed684340b6125f24ae4a75406d.PNG\" width=\"53\"/><span style=\"color:rgb(255, 0, 0);\">Leesactiviteit</span></p>\n<p> </p>\n<div id=\"ta256_22_4\">Lees de tekst op onderstaande site van Kennislink over priemgetallen van meer dan 10.000.000 cijfers en beantwoord daarna de vragen.</div>\n<p> </p>\n<div id=\"ta256_22_5\">\n<p>a) Wat zijn Mersenne-getallen?</p>\n<p>b) Wat is GIMPS?</p>\n<p>c) Wie was Edson Smith?</p>\n<p>d) Is het voor de cryptografie van belang dat er een priemgetal is gevonden van meer dan 10.000.000 cijfers?</p>\n<p><a href=\"https://maken.wikiwijs.nl/userfiles/c/c25fca0a6e4b9f77eaab3d5337c8f8d3.txt\" onclick=\"window.open(this.href, '', 'resizable=no,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=no,dependent=no,width=800,height=700'); return false;\">klik hier</a></p>\n<p> </p>\n<p>Priemfactoren van een groot samengesteld getal vinden is erg moeilijk. Zo is bijvoorbeeld wel bekend dat het getal 2<sup>16384</sup>+1 niet priem is, maar is er geen enkele priemfactor van bekend. Het is een getal van 5000 cijfers.<br/>\nVoor de cryptografie zijn priemgetallen van een paar honderd cijfers van belang. We zullen daar in deze module niet mee hoeven rekenen, maar we willen wel proberen te begrijpen waarom priemgetallen de oplossing boden in een zoektocht naar asymmetrische sleutels.</p>\n<p>Daarvoor moeten we het begrip <em>grootste gemene deler</em> kennen. Op de sub-pagina Grootste Gemene Deler wordt een tweetal opgaven aangeboden die je moet kunnen maken om het vervolg te kunnen begrijpen. <span style=\"background-color:rgb(255, 160, 122);\">Voer de opgaven onder het kopje Grootste Gemene Deler hieronder uit .</span></p>\n<p> </p>\n</div>\n<div id=\"nodeDecoration\">\n<p><strong>Grootste Gemene Deler</strong></p>\n</div>\n<div id=\"id258\">\n<div id=\"ta258_1\">\n<p>De grootste gemene deler van a en m is het grootste gehele getal dat deler is van zowel a als m. We noteren dit als ggd(a,m).<br/>\nDe volgende methode is goed te doen voor kleine getallen, maar voor grote getallen is de priemfactorontbinding erg moeilijk te vinden en kun je deze methode dus niet gebruiken. Het is wel van belang om grip te krijgen op de <em>ggd</em>.</p>\n<p>Eerst een voorbeeld:<br/>\nDaarbij hanteren we een paar eenvoudige wetmatigheden:<br/>\nEen even getal is deelbaar door 2.<br/>\nAls de som van de cijfers deelbaar is door 3, dan is het getal deelbaar door 3<br/>\nAls het getal eindigt op een 5 of een 0 dan is het deelbaar door 5.<br/>\nHiermee vind je de ontbindingen van de meeste 'kleine' getallen wel, maar als je meer regeltjes wilt dan kun je die vinden op <a href=\"http://members.chello.nl/f.waanders1/deelbaar.htm\" target=\"_blank\">http://members.chello.nl/f.waanders1/deelbaar.htm</a><br/>\nBepaal de ggd(264, 2436)<br/>\nWe ontbinden 264 en 2436 zo ver mogelijk in priemfactoren. <br/>\n264=2*132=2*2*66=2*2*2*33=2*2*2*3*11<br/>\n2436=2*1218=2*2*609=2*2*3*203=2*2*3*7*29<br/>\nDe gemeenschappelijke delers van 264 en 2436 zijn 2, 2 en 3.<br/>\nDe ggd(264,2436) is nu 2*2*3=12</p>\n<p><strong>Opgave 1</strong></p>\na) Geef de positieve delers van 120.<br/>\nb) Geef de positieve delers van 112.<br/>\nc) Wat zijn de gemeenschappelijke delers van 120 en 112?<br/>\nd) Wat is grootste gemeenschappelijke deler van 120 en 112?\n<p> </p>\n<p><br/>\nNog een voorbeeld:<br/>\nBereken ggd(980, 504). <br/>\n980=2*2*5*7*7, <br/>\n504=2*2*2*3*3*7. <br/>\nIn beide priemfactorontbindingen zit twee keer de priemfactor 2 en een keer de priemfactor 7, dus ggd(980,504)=2*2*7=28.</p>\n<p><strong>Opgave 2</strong></p>\na) Bereken ggd(252, 198).<br/>\nb) Bereken ggd(6466, 5429).<br/>\nc) Bereken ggd(47, 0).<br/>\nd) Geef ggd(a, 0) a \u2260 0.<br/>\ne) Geef ggd(0,0)\n<p> </p>\n<p>Ga nu verder met 12.2 Gemene delers</p>\n</div>\n</div>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "647850"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "12.2 Gemene delers",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p><span class=\"font-size-small\" style=\"color:rgb(0, 0, 0);\">De Griek Euclides van Alexandri\u00eb heeft een methode beschreven waarmee je de grootste gemene deler voor grote getallen kunt berekenen. Euclides is \u00e9\u00e9n van de belangrijkste wiskundigen van de afgelopen 2400 jaar.</span></p>\n<p> </p>\n<p><span class=\"font-size-small\" style=\"color:rgb(0, 0, 0);\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/9/9365875bd159e075e72b8bd0b535e2a8.PNG\" class=\"height-47-pixels width-53-pixels\"/></span><span class=\"font-size-small\" style=\"color:#FF0000;\">Wie was Euclides</span></p>\n<div>\n<div id=\"id263\">\n<div id=\"ta263_29_2\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/f/f706a28986926196b9431c97bd51df20.PNG\" class=\"float-right height-253-pixels width-230-pixels\"/>Euclides (ook Euclides van Alexandri\u00eb genoemd) was een Griekse wiskundige uit de 3e eeuw v. Chr. die werkzaam was in de bibliotheek van Alexandri\u00eb. Zijn bekendste werk is de Elementen, een boek waarin hij de eigenschappen van geometrische vormen en gehele getallen afleidt uit een verzameling axioma's. Hij wordt daarom wel beschouwd als een voorloper van de axiomatische methode in de moderne wiskunde. Veel van de resultaten in de Elementen zijn afkomstig van eerdere wiskundigen. Euclides' belangrijke prestatie was om ze allemaal in \u00e9\u00e9n samenhangend logisch kader te plaatsen. Zijn vijfde postulaat staat bekend als het parallellenpostulaat. Lang is geprobeerd dit axioma, dat ingewikkelder en minder vanzelfsprekend is dan de andere, uit de eerste vier axioma's te bewijzen. Maar in de 19e eeuw realiseerden Janos Bolyai, Nikolai Ivanovich Lobachevsky en waarschijnlijk ook Carl Friedrich Gauss zich dat het verwerpen van dit postulaat leidt tot volledig consistente niet-Euclidische meetkundes, die verder werden ontwikkeld door Bernhard Riemann. Naast meetkunde behandelt de Elementen ook elementaire getaltheorie, zoals de theorie van deelbaarheid, de grootste gemene deler en het algoritme van Euclides. Tot in de 20e eeuw werd de Elementen gebruikt als leerboek voor de meetkunde en was het zelfs samen met de Bijbel een van de meest gedrukte boeken. Toch schiet Euclides' methodologie tekort vergeleken met de huidige standaard van wiskundige precisie, omdat een aantal logische axioma's ontbreekt. De moderne axiomatische behandeling van de meetkunde gaat terug op David Hilbert in 1899.</div>\n</div>\n<div id=\"id266\">\n<div id=\"ta266_1\">\n<p>Van de wiskunde die Euclides in 'De Elementen' beschreef, gebruiken we in de cryptografie niets. Het algoritme van Euclides dat we nu gaan bespreken is wel een belangrijke stelling in de cryptografie. Hoe je het algoritme op een snelle wijze kunt toepassen in een Excel-blad wordt <span class=\"underline\">na opgave 9 in 12.5</span> gedemonstreerd in een filmpje.</p>\n<p> </p>\n<p><strong>Opgave 1 </strong></p>\nHet getal 11 is deler van 66 en 33.<br/>\na) Is het getal 11 ook deler van 66+33?<br/>\nb) Is het getal 11 ook deler van 66-33?<br/>\nc) Is het getal 11 ook deler van 33-66?\n<p>Uit opgave 1 ontstaat het vermoeden dat:<br/>\n<strong>Als <em>d</em> een deler is van <em>a</em> en een deler is van <em>b</em>, dan is <em>d</em> ook een deler van <em>a</em>+<em>b</em> en <em>a</em>-<em>b</em></strong><br/>\nAls we er goed over nadenken dan is dat ook wel logisch, immers<br/>\n<em>d</em> is een deler van <em>a</em>, dus er is een geheel getal <em>v </em>waarvoor geldt<em><strong> </strong></em><strong><em>a</em>=<em>v</em><sub>*</sub></strong><em><strong><span style=\"background-color:rgb(255, 153, 204);\">d</span></strong>. <br/>\nd </em>is een deler van <em>b</em>, dus er is een geheel getal <em>w</em> waarvoor geldt <strong><em>b</em>=<em>w</em><sub>*</sub></strong><em><strong><span style=\"background-color:rgb(255, 204, 153);\">d</span></strong>.</em><br/>\nWe kunnen <em>a</em>+<em>b</em> dus schrijven als <strong><em>a</em>+<em>b=</em><em>v</em><sub>*</sub><em>d</em>+<em>w</em><sub>*</sub><em>d</em>=(<em>v</em>+<em>w</em>)<sub>*</sub><em>d</em></strong>. <br/>\n<em>v</em>+<em>w</em> is een heel getal, dus <em>d</em> is een deler van <em>a</em>+<em>b.</em></p>\n<div> </div>\n</div>\n</div>\n<div id=\"id267\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/3/3dca526d03a400a3097eb00d139920c7.PNG\" class=\"height-44-pixels width-52-pixels\"/><span style=\"color:#FF0000;\">Reflectie</span></div>\n<div><span class=\"font-size-small\" style=\"background-color:rgb(255, 255, 241); color:rgb(0, 0, 0);\">Waarom moet </span><em>d </em><span class=\"font-size-small\" style=\"background-color:rgb(255, 255, 241); color:rgb(0, 0, 0);\">ook een deler zijn van </span><em>a</em><span class=\"font-size-small\" style=\"background-color:rgb(255, 255, 241); color:rgb(0, 0, 0);\">-</span><em>b</em><span class=\"font-size-small\" style=\"background-color:rgb(255, 255, 241); color:rgb(0, 0, 0);\">?</span></div>\n<div><span class=\"font-size-small\" style=\"background-color:rgb(255, 255, 241); color:rgb(0, 0, 0);\"><a href=\"https://maken.wikiwijs.nl/userfiles/f/f263ea6188a9a55e41ae285d82b8f6f6.txt\" onclick=\"window.open(this.href, '', 'resizable=no,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=no,dependent=no,width=500,height=200'); return false;\">klik hier</a></span></div>\n</div>\n<p> </p>\n<p><strong>Opgave 2 </strong></p>\n<p>Het getal <em>d</em> = 11 is deler van de getallen <em>a</em> = 187 en <em>m</em> = 341.<br/>\na) Zoek getallen <em>v</em> en w waarvoor geldt dat 187 = <em>v </em><sub>* </sub>11 en 341 = <em>w </em><sub>* </sub>11.<br/>\nb) Laat zien dat <em>a</em> + <em>m</em> = (<em>v</em> + <em>w</em>)<sub>*</sub>11 en <em>a</em> - <em>m</em> = (<em>v</em> - <em>w</em>)<sub>*</sub>11.<br/>\n<br/>\n<strong>Opgave 3</strong></p>\n<p>Als <strong><em>a</em></strong>=6885 en <strong><em>m</em></strong>=2574 dan ggd(<strong><em>a</em></strong>,<strong><em>m</em></strong>) = 9, Deze noemen we d.<br/>\na) Leg uit dat d|(a-2*m).<br/>\nb) Leg uit dat m en (a-2*m) geen grotere deler dan d gemeenschappelijk kunnen hebben <br/>\nen dat er dus geldt dat d=ggd(<strong><em>m</em></strong>,<strong><em>a</em></strong>-2*<strong><em>m</em></strong>).</p>\n<p>Uit opgave 3 ontstaat het vermoeden dat:<br/>\n<strong>Als <em>d</em> een deler is van <em>a</em> en een deler is van <em>m</em>, dan is <em>d</em> ook een deler van <em>a</em>+<em>qm</em> en <em>a</em>-<em>qm</em></strong><br/>\nAls we er goed over nadenken dan is ook dat wel logisch, immers<br/>\n<em>d</em> is een deler van <em>a</em>, dus er is een geheel getal <em>v </em>waarvoor geldt<em><strong> </strong></em><strong><em>a=</em><em>v</em><sub>*</sub></strong><em><strong><span style=\"background-color:rgb(255, 153, 204);\">d</span></strong>. <br/>\nd </em>is een deler van <em>m</em>, dus er is een geheel getal <em>w</em> waarvoor geldt <strong><em>m</em>=<em>w</em><sub>*</sub></strong><em><strong><span style=\"background-color:rgb(255, 204, 153);\">d</span></strong>.</em><br/>\nWe kunnen <em>a</em>+<em>qm</em> dus schrijven als <strong><em>a</em>+<em>qm=</em><em>v</em><sub>*</sub><em>d</em>+<em>q</em><em>w</em><sub>*</sub><em>d</em>=(<em>v</em>+<em>q</em><em>w</em>)<sub>*</sub><em>d</em></strong>. <br/>\n<em>v</em>+<em>q</em><em>w</em><em> </em>is een geheel getal, dus <em>d</em> is een deler van <em>a</em>+<em>qm.</em></p>\n<p> </p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/6/6eb57c3c494b09ad4895842a3dfd4951.PNG\" class=\"height-44-pixels width-52-pixels\"/><span style=\"color:#FF0000;\">Reflectie</span></p>\n<p><span class=\"font-size-small\" style=\"background-color:rgb(255, 255, 241); color:rgb(0, 0, 0);\">Waarom is </span><em>d </em><span class=\"font-size-small\" style=\"background-color:rgb(255, 255, 241); color:rgb(0, 0, 0);\">ook een deler van </span><strong><em>a</em>-<em>qm</em></strong><span class=\"font-size-small\" style=\"background-color:rgb(255, 255, 241); color:rgb(0, 0, 0);\">?</span></p>\n<p><a href=\"https://maken.wikiwijs.nl/userfiles/8/8dc99c791a8e0cede093a1a761daa70d.txt\" onclick=\"window.open(this.href, '', 'resizable=no,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=no,dependent=no,width=500,height=200'); return false;\">klik hier</a></p>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "647852"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "12.3 De grootste gemene deler",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p><strong>Opgave 4 </strong></p>\n<p>Gegeven de getallen <em>a</em>, <em>m</em> en <em>d</em> = ggd(<em>a</em> ,<em> m</em>), <br/>\nHet getal <em>q</em> is een geheel getal. <br/>\nWe weten nu dat <em>d</em>|(<em>a</em> - <em>q </em><sub>* </sub><em>m</em>).<br/>\nLeg uit dat <em>m</em> en (<em>a</em> - <em>q </em><sub>* </sub><em>m</em>) geen grotere deler dan d gemeenschappelijk kunnen hebben en dat er dus geldt dat <br/>\n<em>d</em> = ggd(<em>m </em>,<em>a </em>- <em>q </em><sub>* </sub><em>m</em>).</p>\n<p> </p>\n<p>We hebben nu gezien dat we de grootste gemene deler van een paar getallen kunnen vinden, zonder eerst alle delers op te moeten schrijven. We trekken telkens het kleinste getal een aantal keer van het grootste getal af. Zoiets deden we eerder in opgave 2 van les 10. Omdat we graag met zo klein mogelijke getallen rekenen, berekenen we liever de ggd van <em>a - m </em>en<em> m</em> dan van <em>a</em> en <em>m</em>. Het beste kunnen we het kleinste getal zo vaak mogelijk van het grootste getal aftrekken, maar wel zo dat de uitkomst positief blijft.</p>\n<p>Voorbeeld:<br/>\nBereken de ggd(252, 198)<br/>\nBerkening: 252 - 198 = 54, dus ggd(252, 198) = ggd(198, 54)<br/>\n198 - 3 <sub>* </sub>54 = 36, dus ggd(252, 198) = ggd(198, 54) = ggd(54, 36)<br/>\n54 - 36 = 18, dus ggd(252, 198) = ggd(198, 54) = ggd(54, 36) = ggd(36, 18)<br/>\n36 - 2 <sub>* </sub>18 = 0, dus ggd(252, 198) = ggd(198, 54) = ggd(54, 36) = ggd(36, 18) = ggd(18, 0) = 18. <br/>\nMerk op dat weer geldt als ieder getal een deler is van 0, behalve 0 zelf. Zie opgave 2 op de sub-pagina Grootste Gemene Delers.</p>\n<p><strong>Opgave 5 </strong></p>\n<p>Bereken op bovenstaande manier:<br/>\na) ggd(6466,5429)<br/>\nb) ggd(5346,897)<br/>\nc) ggd(47,0)</p>\n<p> </p>\n<div id=\"id270\">\n<div id=\"ta270_1\">\n<p>In het voorbeeld boven opgave 5 zagen we, dat als we de ggd(<strong>252,198</strong>) willen bereken we <strong>252</strong>reduceren door het getal <strong>198</strong> daar zovaak als mogelijk is van af te trekken (in dit geval \u00e9\u00e9n keer) zodat het resultaat nog net positief is. Bij de berekening maken we intu\u00eftief gebruik van de geheeltallige deling en de REST-functie, of modulo-berekening.<br/>\n<br/>\nWe geven nu een paar formele definities. Op de sub-pagina <strong>(a div m) en (a mod m)</strong> worden deze verder toegelicht en kun je het modulo-rekenen oefenen met een paar opgaven.</p>\n<p><strong>Definitie </strong><strong>a div b</strong><span class=\"font-size-10pt\">:<br/>\nVoor gehele getallen <em>a</em> en positieve gehele getallen <em>m</em> is <em>a</em> div <em>m</em> het grootste gehele getal <em>k</em> dat voldoet aan <em>k</em><sub>*</sub><em>m</em> </span><img src=\"http://www.e-klassen.nl/access/content/group/e-klas-project/gepubliceerd/wiskunde/Cryptografie/Html_nieuw/eXe_LaTeX_math_1.2.gif\" class=\"height-12-pixels width-13-pixels\"/><span class=\"font-size-12pt\"> <em>a</em>.</span><br/>\nVoorbeeld: 17 div 5 = 3 en -17 div 5 =-4</p>\n<p><strong>Definitie a mod m: </strong><br/>\nVoor gehele getallen <em>a</em> en positieve gehele getallen <em>m</em> is <em>a </em>mod <em>m = a - m</em><sub>*</sub>(<em>a</em> div <em>m</em>),</p>\n<p><strong>Samengevat:</strong><br/>\nVoor gehele getallen <em>a</em> en positieve gehele getallen <em>m</em> geldt<br/>\n(1) <strong><em>a</em> = <em>m</em>*(<em>a </em>div <em>m</em>) + (<em>a</em> mod <em>m</em>)</strong><br/>\n(2) <strong>0 <img src=\"http://www.e-klassen.nl/access/content/group/e-klas-project/gepubliceerd/wiskunde/Cryptografie/Html_nieuw/eXe_LaTeX_math_1.2.gif\" class=\"height-10-pixels width-11-pixels\"/> <em>a</em> mod <em>m</em> &lt; <em>m</em></strong>.</p>\n<p><span style=\"background-color:#FFA07A;\">Als je met het bovenstaande geen moeite hebt kun je rustig verder. </span><br/>\n<span style=\"background-color:#FFA07A;\">Zo niet kijk dan eerst naar de voorbeelden en verdere uitleg onder het kopje <span class=\"underline\">12.3A </span></span><span class=\"underline\" style=\"background-color:#FFA07A;\">(a div m) en (a mod m)</span><span style=\"background-color:#FFA07A;\"> </span></p>\n<p><strong>Opgave 6 </strong></p>\nGegeven zijn de positieve gehele getallen a=2164, m=153 en q=2164 div 153, <br/>\nmet a &gt; m dan is q het grootste getal waarvoor geldt dat a-q<sub>*</sub>m<img src=\"http://www.e-klassen.nl/access/content/group/e-klas-project/gepubliceerd/wiskunde/Cryptografie/Html_nieuw/eXe_LaTeX_math_1.1.gif\" class=\"height-10-pixels width-10-pixels\"/>0. <br/>\nEr geldt dus 2164-2164<sub>*</sub>153=2164(mod 153).<br/>\na) Leg uit dat ggd(2164,153)=ggd(153,2164(mod 153)).<br/>\nb) Onderzoek of ggd(153,2164)=ggd(2164,153(mod 2164)).\n<p> </p>\n<p><strong>Opgave 7 </strong></p>\nGegeven zijn de positieve gehele getallen a, m en q=a div m, met a&gt;m en q is het grootste getal is waarvoor geldt dat a-q*m&gt;=0. <br/>\nEr geldt dus a-q*m=a(mod m).<br/>\na) Leg uit dat ggd(a,m)=ggd(m,a(modm)).<br/>\nb) Onderzoek of ggd(m,a)=ggd(a,m(mod a)) ook geldt als <em>m</em>&gt;<em>a</em>.\n<p> </p>\n<p>De methode om een grootste gemene deler snel te berekenen die we in de bovenstaande opgaven ontdekt hebben, heet het \"Algoritme van Euclides\".</p>\n<p> </p>\n</div>\n</div>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "665447"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "12.3A (a div m) en (a mod m)",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p><span class=\"font-size-small\" style=\"color:rgb(0, 0, 0);\">Inhoud van deze pagina</span><br/>\n<br/>\n<span class=\"font-size-small\" style=\"color:rgb(0, 0, 0);\">E.1 </span>Breukdeling en gehele deling<br/>\n<span class=\"font-size-small\" style=\"color:rgb(0, 0, 0);\">E.2 </span>De rest bij deling<br/>\n<span class=\"font-size-small\" style=\"color:rgb(0, 0, 0);\">E.3 </span>Somregel en productregel</p>\n<p> </p>\n<p><strong><span class=\"font-size-small\" style=\"color:rgb(0, 0, 0);\">E.1 </span>Breukdeling en gehele deling</strong></p>\n<p>In les 1 heb je het verschil gezien tussen coderen en versleutelen. Doordat we het omzetten van rijtjes symbolen naar getallen (coderen) en omgekeerd (decoderen) op een van tevoren afgesproken manier gaan doen, kunnen we ons bij het beschrijven van de cryptosystemen beperken tot het werken met getallen. In de systemen die we in les 1 hebben bekeken, hadden we maar 26 symbolen en daarmee hadden we aan de getallen 0 tot en met 25 genoeg. De bewerkingen die we met deze getallen hebben uitgevoerd lieten zich eenvoudig informeel beschrijven. Nu we de beschikking hebben over meer symbolen en we ook nog gaan werken met rijtjes symbolen, krijgen we te maken met veel grotere getallen. En omdat we ons niet vast willen leggen op welke getallen er in onze boodschappen voor zullen komen, is het nodig wat gestructureerder naar de bewerkingen met gehele getallen te kijken.</p>\n<p>Bij affiene cryptografie in les 2 was het nodig om bij elke uitkomst van een berekening te bepalen wat de rest bij deling door 26 was. Op die manier bestond zowel de onbewerkte als de versleutelde boodschap uit een rij van getallen uit de verzameling<br/>\n0, 1, 2, 3, ..., 25. In deze subpagina wordt dat idee uitgebreid.</p>\n<p>Hoeveel pootjes van 25 cm kun je zagen uit een balk van 240 cm? Het antwoord dat de rekenmachine geeft bij de deling 240:25 is in dit geval onzin: als je pootjes van 25 cm nodig hebt, dan heb je niets aan het laatste stukje dat toch te klein is. Als <em>k</em> het (grootste) aantal pootjes van 25 cm is dat we uit de balk van 240 cm kunnen zagen, dan is <em>k </em>het grootste gehele getal dat voldoet aan 25*<em>k <span>=</span>2</em>40. In dit geval is dat dus 9.</p>\n<p>Om onderscheid te maken tussen de<strong> 'breukdeling' </strong>en de<strong> 'geheeltallige deling'  </strong>noteren we<strong> <br/>\nde gehele deling als 240 div 5 (= 9)<br/>\nen de breukdeling als 240:25 (= 9,6). <br/>\nVoor positieve gehele getallen <em>a</em> en <em>m</em> verstaan we onder <em>a</em> div <em>m</em> dus het geheel aantal keren dat <em>m</em> in <em>a</em> past.</strong></p>\n<p>Voor negatieve gehele getallen <em>a</em> is het wat lastiger in te zien wat <em>a</em> div <em>m</em> zou moeten zijn. Bij de positieve gehele <em>a</em> zochten we de grootste gehele <em>k</em> die voldeed aan <em>k*m <span>= </span></em><em>a</em>. We spreken af dat we dat voor negatieve gehele <em>a</em> net zo doen.</p>\n<p>Wanneer we (-240)div25 berekenen, komt daar dus -10 uit, want -10*25=-250 en dat is kleiner dan -240. De uitkomst -9 is niet goed, want -9*25=-225 en dat is meer dan -240.</p>\n<p>Formeel kunnen we de operator div dus als volgt vastleggen:</p>\n<div>\n<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td>\n<p><strong>Voor gehele getallen <em>a</em> en positieve gehele getallen <em>m</em> is <em>a</em> div <em>m</em> het grootste gehele getal <em>k</em> dat voldoet aan <em>k*m <span>=</span> </em><em>a</em>.</strong></p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p><strong>Opgave 1</strong> </p>\n<p>Bereken:<br/>\na) 17 div 5.<br/>\nb) 944 div 13.<br/>\nc) 91 div 7.<br/>\nd) (-22) div 7.</p>\n<p> </p>\n<p><strong><span class=\"font-size-small\" style=\"color:rgb(0, 0, 0);\">E.2 </span>De rest bij deling</strong></p>\n<p>Zoals je bij het zagen van pootjes uit een balk in het algemeen iets overhoudt, blijft er bij geheeltallige deling in het algemeen een rest over. Bij deling van 25 door 7 is het resultaat 3. Maar 3*7 maakt de 25 niet vol. Er blijft als rest over: 25-3*7=25-21=4. Deze rest noteren we als 25 mod 7. <br/>\nWe spreken dit uit als: \"25 modulo 7<em>\". </em>De rest van een geheel getal bepalen na deling door <em>m</em>, noemen we <em>a</em> reduceren modulo <em>m</em>.</p>\n<p>In het algemeen is voor gehele getallen <em>a</em> en positieve gehele getallen <em>m</em> het getal <em>a</em>mod<em>m</em> de rest bij geheeltallige deling van <em>a</em> door <em>m</em>. Formeel:</p>\n<div>\n<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td>\n<p><strong>Voor gehele getallen <em>a </em>en positieve gehele getallen <em>m</em> is<br/>\n<em>a</em> mod<em> m</em> = <em>a</em>-<em>m</em>*(<em>a</em>div<em>m</em>) de rest bij geheeltallige deling van <em>a</em> door <em>m</em></strong></p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p> </p>\n<p><strong>Opgave 2</strong> </p>\n<p>Bereken:<br/>\na) 17 mod 5.<br/>\nb) 944 mod 13.<br/>\nc) 91 mod 7.<br/>\nd) (-22) mod 7.</p>\n<p> </p>\n<p>De operatoren div en mod voldoen aan de volgende eigenschappen:</p>\n<div>\n<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\" class=\"height-51-pixels width-572-pixels\">\n<tbody>\n<tr>\n<td>\n<p>Voor gehele getallen <em>a</em> en positieve gehele getallen <em>m</em> geldt<br/>\n(1)<strong> <em>a</em> = <em>m*</em>(<em>a</em> div<em> m</em>)+(<em>a </em>mod<em> m</em>)</strong><br/>\n(2) <strong>0 <span>\u2264 </span></strong><strong><em>a</em> mod <em>m</em> &lt;<em> m</em></strong></p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p><br/>\n<strong>Opgave 3</strong></p>\n<p>a) Controleer deze eigenschappen voor <em>a</em> = 17 en <em>m </em>= 5.<br/>\nb) Controleer deze eigenschappen voor <em>a</em> = -22 en <em>m</em> =7.<br/>\nc) Leg uit hoe deze twee eigenschappen volgen uit de definities van div en mod.</p>\n<p> </p>\n<p>Als we berekeningen modulo een bepaald getal moeten uitvoeren, kunnen we gebruik maken van een aantal rekenregels. We zullen deze regels hier aan de hand van voorbeelden aannemelijk maken, maar ze niet bewijzen. In hoofdstuk 6 kom je precies te weten waarom de rekenregels kloppen.</p>\n<div>\n<p> </p>\n<p><strong>Opgave 4</strong></p>\n<p><span class=\"font-size-14px\">We hebben een balk van 240 cm en een balk van 190 cm en we gaan daar zo veel mogelijk pootjes van 25 cm afzagen.</span></p>\n</div>\n<p>a) Hoeveel cm houden we bij elke balk over?<br/>\nb) Het is niet verrassend dat we dezelfde lengte overhouden. Waarom niet?</p>\n<p>We zagen in deze opgave dat het verschil van twee getallen een veelvoud is van <em>m</em> als de twee getallen dezelfde rest hebben na deling door <em>m</em>. Dit resulteert in de volgende regel:</p>\n<div>\n<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\" class=\"height-36-pixels width-572-pixels\">\n<tbody>\n<tr>\n<td>\n<p>Voor gehele getallen <em>a</em> en <em>b</em> en positieve gehele getallen <em>m</em> geldt:<br/>\n<em>a(</em>mod<em>m</em>) =<em>b(</em>mod<em>m</em>) precies dan als (<em>a</em>-<em>b</em>) mod<em>m</em>= 0.</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div><br/>\n<strong>Opgave 5</strong>\n<p>a) Controleer deze eigenschap voor <em>a</em>=17, b=32 en <em>m=</em>5.<br/>\nb) Laat zien dat het drietal <em>a=</em>22, <em>b</em>=35<em> en </em>m<em>=</em>11 niet voldoet.<br/>\nc) Geef een <em>m</em> zodanig dat het drietal <em>a</em>=22, <em>b</em>=35 en <em>m</em> wel voldoet.</p>\n<p> </p>\n</div>\n<p><strong>Opgave 6</strong> </p>\n<p>We hebben een balk van 240 cm en een balk van 155 cm. We plakken de balken aan elkaar en zagen hier pootjes van 25 cm van.<br/>\na) Hoe lang is het stukje balk dat we uiteindelijk overhouden?</p>\n<p><span class=\"font-size-14px\">We doen hetzelfde nog een keer, maar nu met een balk van 190 cm en een balk van 305 cm.</span></p>\n<p>b) Hoe lang is nu het stukje balk dat we uiteindelijk overhouden?<br/>\nc) Leg uit waarom de uitkomsten bij a) en b) hetzelfde zijn.</p>\n<p> </p>\n<p><strong>Opgave 7</strong> </p>\n<p>We nemen 7 balken van 240 cm en zagen er pootjes van 25 cm van. Vervolgens plakken we alle restanten aan elkaar en zagen daar ook weer pootjes van 25 cm van.<br/>\na)Hoe lang is het stukje balk dat we uiteindelijk overhouden?</p>\n<p><span class=\"font-size-14px\">We doen hetzelfde met 7 balken van 190 cm.</span></p>\n<p>b) Hoe bereken je makkelijk hoe lang het stukje is dat we uiteindelijk overhouden?</p>\n<p>Weer hetzelfde, dit keer met 32 balken van 240 cm.<br/>\nc) Hoe bereken je nu makkelijk hoe lang het stukje is dat we uiteindelijk overhouden?<br/>\nd) Waarom doen die 25 balken extra er niet toe?</p>\n<p> </p>\n<p><strong><span class=\"font-size-small\" style=\"color:rgb(0, 0, 0);\">E.3 </span>Somregel en productregel</strong></p>\n<p>In opgave 5 en 6 hebben we een idee gekregen hoe het optellen en vermenigvuldigen bij modulo-rekenen werkt. Inderdaad blijkt er een somregel en een productregel voor het modulo-rekenen te zijn:</p>\n<div>\n<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\" class=\"height-95-pixels width-572-pixels\">\n<tbody>\n<tr>\n<td>\n<p>Voor gehele getallen <em>a</em>, <em>b</em>, <em>c</em> en <em>d</em> en positieve gehele getallen <em>m</em> geldt:<br/>\nals <em>a</em>(mod<em>m</em>)=<em>b</em>(mod<em>m</em>) en <em>c</em>(mod<em>m</em>)=<em>d</em>(mod<em>m</em>) dan</p>\n<p><strong>Somregel: (<em>a+c</em>) mod<em>m</em>=(<em>b</em>+<em>d</em>) mod<em>m</em></strong></p>\n<p><strong>Productregel: (<em>a</em></strong>*<strong><em>c</em>) mod<em>m</em>=(<em>b</em></strong>*<strong><em>d</em>) mod<em>m</em></strong></p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p><br/>\n<strong>Opgave 8</strong></p>\n<p>Bereken de volgende uitdrukkingen. Doe dit zonder je rekenmachine te gebruiken en geef steeds aan welke rekenregel je gebruikt.<br/>\na) (123+456)mod10.<br/>\nb) (113*222)mod10.<br/>\nc) 17*(355+773)mod7.</p>\n<p>Als we met de getallen 0 tot en met 25, de rangnummers van de 26 letters in het alfabet rekenen dan brengen we bij de rekenkundige bewerkingen (optellen en vermenigvuldigen) eigenlijk met behulp van modulo-rekenen het resultaat terug tot een getal in dit domein, ook al noemden we dat niet zo. De verzameling getallen {0,1,...<em>m</em>-1} duiden we aan met <strong>Z</strong><em><sub>m</sub></em>.</p>\n<div>\n<address>Wanneer het duidelijk is dat we in <strong>Z</strong><em><sub>m</sub></em> rekenen, en dus modulo <em>m</em> rekenen, laten we het \"mod(<em>m</em>)\" soms weg.</address>\n</div>\n<p><em>Voorbeeld</em>:<br/>\nBereken 7*5 in <strong>Z<em><sub>m</sub></em></strong>.<br/>\nBerekening (7*5)mod12 = 35mod12 = 11 of 7*5 = 11.</p>\n<p><strong>Opgave 9</strong> </p>\n<p>Waarom kun je de berekening in bovenstaand voorbeeld niet opschrijven als 7*5 = 35 = 11?</p>\n<p><strong>Opgave 10</strong> </p>\n<p>Vul onderstaande tabellen in <strong>Z<sub>5 </sub></strong>verder in.</p>\n<div>\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\">\n<tbody>\n<tr>\n<td>+</td>\n<td>0</td>\n<td>1</td>\n<td>2</td>\n<td>3</td>\n<td>4</td>\n<td> </td>\n<td>*</td>\n<td>0</td>\n<td>1</td>\n<td>2</td>\n<td>3</td>\n<td>4</td>\n<td> </td>\n</tr>\n<tr>\n<td>0</td>\n<td>0</td>\n<td>1</td>\n<td>2</td>\n<td> </td>\n<td> </td>\n<td> </td>\n<td>0</td>\n<td>0</td>\n<td>0</td>\n<td>0</td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>1</td>\n<td>1</td>\n<td>2</td>\n<td> </td>\n<td> </td>\n<td> </td>\n<td> </td>\n<td>1</td>\n<td>0</td>\n<td>1</td>\n<td> </td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>2</td>\n<td>2</td>\n<td> </td>\n<td> </td>\n<td> </td>\n<td> </td>\n<td> </td>\n<td>2</td>\n<td>0</td>\n<td> </td>\n<td> </td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>3</td>\n<td> </td>\n<td> </td>\n<td> </td>\n<td> </td>\n<td> </td>\n<td> </td>\n<td>3</td>\n<td> </td>\n<td> </td>\n<td> </td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>4</td>\n<td> </td>\n<td> </td>\n<td> </td>\n<td> </td>\n<td> </td>\n<td> </td>\n<td>4</td>\n<td> </td>\n<td> </td>\n<td> </td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n</tbody>\n</table>\n</div>\n<p><br/>\n<strong>Opgave 11</strong></p>\n<p>Los de volgende vergelijkingen op:<br/>\na) In <strong>Z<sub>5</sub></strong>: 3+<em>x </em>= 1<br/>\nb) In <strong>Z<sub>8</sub></strong>: 3+<em>x</em> = 1<br/>\nc) In <strong>Z<sub>19</sub></strong>: 14+<em>x </em>= 5<br/>\nd) In <strong>Z<sub>19</sub></strong>: 11+<em>x</em> = 0</p>\n<p>Het oplossen van vergelijkingen van het type zoals in de vorige opgave zal niet zoveel problemen geven. Ook zonder dat je de hele opteltabel hebt uitgeschreven lukt het wel 14 +<em>x</em> = 5 op te lossen in <strong>Z<sub>19</sub></strong>. In <strong>Z<sub>19</sub></strong> betekent 14 +<em>x</em>= 5 eigenlijk (14 +<em>x</em>) mod19 = 5 en dat wil zeggen dat je rest 5 overhoudt als je 14 +<em>x</em> door 19 deelt. Er is dus een <em>k</em> zodanig dat 14 + <em>x </em>- 19*<em>k </em>= 5, ofwel 9 +<em>x</em>= 19*<em>k</em>. Voor <em>k</em>=0 levert dit geen getal uit <strong>Z<sub>19</sub></strong>; voor <em>k</em>=1 levert dit 9+<em>x</em>=19, dus <em>x</em>=10.</p>\n<p>De berekening verloopt dus als volgt:<br/>\n14+<em>x </em>= 5 in <strong>Z<sub>19</sub></strong><br/>\n(14+<em>x</em>)mod19 = 5<br/>\n14+<em>x</em>-19*<em>k</em> = 5<br/>\n9+<em>x</em> = 19<em>k</em>, dus <em>x</em> = 10 en <em>k </em>=1</p>\n<p>Misschien heb je het bij de opgave op een manier gedaan die je makkelijker vindt, maar bekijk ook de manier van redeneren hierboven goed.</p>\n<p><strong>Opgave 12</strong> </p>\n<p>Los de volgende vergelijkingen op bovenstaande manier op:<br/>\na) In <strong>Z<sub>23</sub></strong>: 16+<em>x</em> = 7<br/>\nb) In <strong>Z<sub>1278</sub></strong>: 756+<em>x</em> = 341</p>\n<p>Je ziet dat een vergelijking met een optelling oplossen niet zo moeilijk is. Wanneer er een vermenigvuldiging in de vergelijking zit, is een oplossing vinden minder eenvoudig. Een van de problemen is het volgende.</p>\n<p>Als je niet modulo-rekent, kun je concluderen dat als <em>ac</em> = <em>bc</em>, dat dan daaruit <em>a</em> = <em>b</em> volgt. <br/>\n<br/>\nBij modulo-rekenen geldt <strong>niet altijd </strong>dat als<br/>\n<strong><em>a</em>*<em>c</em><span>\u2261</span></strong><em><strong><sub>m</sub>b*c</strong>,</em>dat dan<strong> <em>a</em><span>\u2261</span><em><sub>m</sub>b</em>. </strong>(<span>\u2261</span><em><sub>m</sub></em> staat voor \"gelijkwaardig in Z<em><sub>m</sub></em>\")</p>\n<p><strong>Opgave 13</strong></p>\n<p>a) Ga dit na voor <em>a</em> = 12, <em>b </em>= 7, <em>c</em> = 6 en <em>m</em> = 10.<br/>\nb) Leg uit waarom het in dit voorbeeld niet geldt.<br/>\nc) Wat voor een getal moet <em>m </em>zijn om wel te laten gelden dat <em>a <span>\u2261 </span></em><em><sub>m</sub>b</em> als <em>a</em>*<em>c <span>\u2261</span></em><em><sub>m</sub>b*c</em>?</p>\n<p>Afgezien daarvan is het ook lastig omdat je niet eenvoudig links en rechts door hetzelfde getal kunt delen.</p>\n<p>Ga nu verder met <a href=\"http://www.e-klassen.nl/access/content/group/e-klas-project/gepubliceerd/wiskunde/Cryptografie/Html_nieuw/les_12_grootste_gemene_deler.html#samengevat\" target=\"_self\">l</a>es 12.3 opgave 6</p>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "647853"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "12.4 Algoritme van Euclides",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Voor a &gt; 0 en a een geheel getal is ggd(a,0)=a en als m geheel, <br/>\ndan geldt ggd(a,m)=ggd(m,a(mod m)).<br/>\n<br/>\nVoorbeeld:<br/>\nBereken ggd(99, 45) met behulp van het algoritme van Euclides.<br/>\n99 : 45 = 2 rest 9, want 99=2*45+9,<br/>\ndus ggd(99, 45) = ggd(45, 9).<br/>\n45 : 9 = 5 rest 0, want 45=5*9+0,<br/>\ndus ggd(45, 9) = ggd(9,0) = 9 (want ggd(a, 0) = a).<br/>\nHieruit volgt dus ook ggd(99, 45) = 9.</p>\n<p>Voor een berekening met kleine getallen kun je de berekening wel als hierboven opschrijven.<br/>\nWe zetten de tussenstappen in een tabel. We willen de 2 en de 9 uit de uitkomst 2 rest 9 graag in twee verschillende kolommen zetten. De 9 is de rest na deling. De rest geven we aan met de letter r. De 2 is het gehele deel van het quoti\u00ebnt. Dit gehele deel geven we aan met de letter q.</p>\n<p> </p>\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\">\n<tbody>\n<tr>\n<td>a</td>\n<td>m</td>\n<td>q</td>\n<td>r</td>\n</tr>\n<tr>\n<td>99</td>\n<td>45</td>\n<td>2</td>\n<td>9</td>\n</tr>\n<tr>\n<td>45</td>\n<td>9</td>\n<td>5</td>\n<td>0</td>\n</tr>\n<tr>\n<td>9</td>\n<td>0</td>\n<td> </td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<p>Op elke regel is de ggd(a,m) gelijk, dus ggd(99,45)=ggd(45,9)=ggd(9,0)=9.</p>\n<p>Voor het begruik van grotere getallen wordt een tabel onontbeerlijk.<br/>\nVoorbeeld:<br/>\nBereken ggd(148104,47223).<br/>\nHerhaald het algoritme van Euclides toepassen levert:</p>\n<p> </p>\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\">\n<tbody>\n<tr>\n<td>a</td>\n<td>m</td>\n<td>q</td>\n<td>r</td>\n</tr>\n<tr>\n<td>148104</td>\n<td>47223</td>\n<td>3</td>\n<td>6435</td>\n</tr>\n<tr>\n<td>47223</td>\n<td>6435</td>\n<td>7</td>\n<td>2178</td>\n</tr>\n<tr>\n<td>6435</td>\n<td>2178</td>\n<td>2</td>\n<td>2079</td>\n</tr>\n<tr>\n<td>2178</td>\n<td>2079</td>\n<td>1</td>\n<td>99</td>\n</tr>\n<tr>\n<td>2079</td>\n<td>99</td>\n<td>21</td>\n<td>0</td>\n</tr>\n<tr>\n<td>99</td>\n<td>0</td>\n<td> </td>\n<td> </td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<p><strong>Opgave 8 </strong></p>\n<p>a) Waar vind je de grootste gemene deler in de bovenstaande tabel?<br/>\nb) Wat is dus ggd(148104,47223)?</p>\n<p> </p>\n<p><strong>Opgave 9 </strong></p>\n<p>a) Bereken ggd(96, 22) met behulp van het algoritme van Euclides.<br/>\nb) Bereken ggd(484, 576).<br/>\nc) Bereken ggd(47957, 32395).</p>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "647955"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "12.5 Het algoritme van Euclides en Excel",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Wanneer je het algoritme voor echt grote getallen moet uitvoeren, doe je het natuurlijk niet met de hand, maar wordt er een computerprogramma geschreven dat het werk voor je doet. Dit is niet zo moeilijk en je zou het eens kunnen proberen als je informatica hebt gekozen. In de antwoorden van les 10 vind je bij opgave 2 de pseudo-code voor een recursieve formule.<br/>\nVoor de getallen waarmee wij werken in deze module heb je voldoende aan een rekenblad zoals Excel.<br/>\nHoe je dit in Excel uitvoert wordt gedemonstreerd in dit filmpje. </p>\n"
+                },
+                {
+                    "type": "file",
+                    "title": "Klik hier voor film.",
+                    "file": "https://maken.wikiwijs.nl/userfiles/a/a16a6d41db4dc1670bf805c903765b23.mp4"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>In opgave <strong>9b</strong> hebben we berekend dat de ggd(484,576)=4. Als we het getallenpaar (484,576) zouden gebruiken om het klare alfabet te vercijferen dan blijkt het een beetje mis te gaan. Alle getallen in de bewerking blijken veelvouden van 4 te zijn! Ondanks dat de getallen van het getallenpaar groot genoeg zijn om 26 verschillende getallen op te leveren voor de vercijfering, krijgen we toch een probleem bij het ontcijferen. Er is geen inverse te vinden voor de ontcijfering. Als we echter 484 en 576 delen door 4, dan krijgen we getallen waarvoor de ggd gelijk is aan 1: ggd(121,144)=1. De inverse van 121 blijkt 25 te zijn waarmee we nu wel de code kunnen ontcijferen.<br/>\nOnderzoek het probleem in het volgende werkblad in kolom C en D en de oplossing voor het probleem in kolom F en G:</p>\n<p><img alt=\"\" height=\"490\" src=\"https://maken.wikiwijs.nl/userfiles/1/1507481f808909f8c121df8920ffd630.jpg\" width=\"665\"/></p>\n<p><img alt=\"\" height=\"44\" src=\"https://maken.wikiwijs.nl/userfiles/8/82f773328dcb0d621580f71511a0f789.PNG\" width=\"52\"/><span style=\"color:rgb(255, 0, 0);\">Reflectie</span></p>\n<p><span class=\"font-size-small\" style=\"background-color:rgb(255, 255, 241); color:rgb(0, 0, 0);\">In het voorbeeld bij opgave </span><strong>8</strong><span class=\"font-size-small\" style=\"background-color:rgb(255, 255, 241); color:rgb(0, 0, 0);\"> en bij opgave </span><strong>9a en 9c</strong><span class=\"font-size-small\" style=\"background-color:rgb(255, 255, 241); color:rgb(0, 0, 0);\"> wordt steeds een ggd berekend die ongelijk is 1.</span><br/>\n<span class=\"font-size-small\" style=\"background-color:rgb(255, 255, 241); color:rgb(0, 0, 0);\">Welke getallenparen kun je daaruit afleiden die geschikt zijn om te gebruiken voor een encryptie met modulo-vermenigvuldiging?</span></p>\n<p><span class=\"font-size-small\" style=\"background-color:rgb(255, 255, 241); color:rgb(0, 0, 0);\"><a href=\"https://maken.wikiwijs.nl/userfiles/3/3a7fbe2e1984144a31b4fbd62f304052.txt\" onclick=\"window.open(this.href, '', 'resizable=no,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=no,dependent=no,width=500,height=200'); return false;\">klik hier</a></span></p>\n<p> </p>\n<p>In les 9 hebben we met gebruik van de computer de letters van de klare tekst \u00e9\u00e9n voor \u00e9\u00e9n omgezet in ASCII-code. We hebben toen het volgende voorbeeld bekeken:<br/>\nVoorbeeld<br/>\nDe zin: \"Ik wou dat ik 2 hondjes was\".<br/>\nwordt gecodeerd in de volgende rij gehele getallen<br/>\n<br/>\n073 107 032 119 111 117 032 100 097 116 032 105 107 032 <br/>\n050 032 104 111 110 100 106 101 115 032 119 097 115 046</p>\n<p>We hebben een mogelijkheid om dit met de computer, rekenblad en een getallenpaar te versleutelen. We voegen de codes twee aan twee bij elkaar tot 6-cijferige getallen:<br/>\n073107 032119 111117 032100 097116 032105 107032 <br/>\n050032 104111 110100 106101 115032 119097 115046<br/>\nWe zoeken een getallenpaar waarvan de modus groot genoeg is, bijvoorbeeld <span class=\"font-size-12pt\">(1234,192731</span>). <br/>\nMerk op dat de ggd(1234,192731)=1:</p>\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\">\n<tbody>\n<tr>\n<td>a</td>\n<td>m</td>\n<td>q</td>\n<td>r</td>\n</tr>\n<tr>\n<td>1234</td>\n<td>192731</td>\n<td>0</td>\n<td>1234</td>\n</tr>\n<tr>\n<td>192731</td>\n<td>1234</td>\n<td>156</td>\n<td>227</td>\n</tr>\n<tr>\n<td>1234</td>\n<td>227</td>\n<td>5</td>\n<td>99</td>\n</tr>\n<tr>\n<td>227</td>\n<td>99</td>\n<td>2</td>\n<td>29</td>\n</tr>\n<tr>\n<td>99</td>\n<td>29</td>\n<td>3</td>\n<td>12</td>\n</tr>\n<tr>\n<td>29</td>\n<td>12</td>\n<td>2</td>\n<td>5</td>\n</tr>\n<tr>\n<td>12</td>\n<td>5</td>\n<td>2</td>\n<td>2</td>\n</tr>\n<tr>\n<td>5</td>\n<td>2</td>\n<td>2</td>\n<td>1</td>\n</tr>\n<tr>\n<td>2</td>\n<td>1</td>\n<td>2</td>\n<td>0</td>\n</tr>\n<tr>\n<td>1</td>\n<td>0</td>\n<td> </td>\n<td> </td>\n</tr>\n</tbody>\n</table>\n<p>We gebruiken nu het rekenblad om de tekst te vercijferen en vermenigvuldigen alle getallen met 1234 mod 192731.<br/>\nNoteer de code op de eerste rij en sleep de functie REST(getal*1234;192731) over de tweede rij:<br/>\n<br/>\n<img alt=\"\" height=\"59\" src=\"https://maken.wikiwijs.nl/userfiles/0/05a21f45c43d33e027bc0e4c7ff2b128.jpg\" width=\"856\"/></p>\n<p>Met het resultaat kunnen we nu de boodschap versturen:<br/>\n015 930 124 991 086 637 101 545 155 193 107 715 056 753<br/>\n065 568 114 128 180 776 064 285 099 472 104 676 116 748<br/>\nZonder sleutel zal het lastig worden deze boodschap te ontcijferen, zeker als je de deler 192731 niet kent.</p>\n<p><strong>Opgave 10</strong></p>\n<p>Codeer de tekst 'nijmegen' volgens de ASCII-tabel, voeg de codes twee aan twee samen tot getallen van 6 cijfers en encrypt de tekst met de encryptiefunctie <strong><em>E</em>(<em>x</em>)=1234<sub>*</sub><em>x</em>+192731 mod 437217</strong>.</p>\n<p> </p>\n<p><strong>Opgave 11 </strong></p>\n<p>Een boodschap is op de afgesproken manier gecodeerd en daarna versleuteld met de encryptiefunctie<br/>\n<em><strong>E</strong></em><strong>(<em>x</em>)=<em>x</em>+398843 mod 468713</strong><br/>\nDe versleutelde boodschap is 466 957 027 229 034 246 031 240.<br/>\nOntcijfer en decodeer deze boodschap.</p>\n<p> </p>\n<p>Nu we weten hoe we een getallenpaar kunnen vinden waarvan de ggd=1 is, wordt het ook interessant om een manier te bedenken voor het vinden van de inverse, die we weer nodig hebben voor de decryptie! Het algoritme van Euclides zal ons in de volgende les helpen bij het vinden van de inverse.</p>\n"
+                }
+            ],
+            "sections": []
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": "https://maken.wikiwijs.nl/generated/l1200x76_64adc0644666e5d889717e198a4eb8a0.png",
+            "dimension": null,
+            "suppressTitle": true
+        },
+        "color": "#495057"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Les 12 Algoritme van Euclides",
+                "reference": {
+                    "value": "647954"
+                },
+                "sections": []
+            },
+            {
+                "title": "12.1 Deler, priemdeler en priemfactor",
+                "reference": {
+                    "value": "647849"
+                },
+                "sections": []
+            },
+            {
+                "title": "12.2 Gemene delers",
+                "reference": {
+                    "value": "647850"
+                },
+                "sections": []
+            },
+            {
+                "title": "12.3 De grootste gemene deler",
+                "reference": {
+                    "value": "647852"
+                },
+                "sections": []
+            },
+            {
+                "title": "12.3A (a div m) en (a mod m)",
+                "reference": {
+                    "value": "665447"
+                },
+                "sections": []
+            },
+            {
+                "title": "12.4 Algoritme van Euclides",
+                "reference": {
+                    "value": "647853"
+                },
+                "sections": []
+            },
+            {
+                "title": "12.5 Het algoritme van Euclides en Excel",
+                "reference": {
+                    "value": "647955"
+                },
+                "sections": []
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": "<p>Dit materiaal is achtereenvolgens ontwikkeld &nbsp;en getest in een SURF-project &nbsp;(2008-2011: e-klassen als voertuig voor aansluiting VO-HO) en een IIO-project (2011-2015: e-klassen&amp;PAL-student).&nbsp; In het SURF project zijn in samenwerking met vakdocenten van VO-scholen, universiteiten en hogescholen e-modules ontwikkeld voor Informatica, Wiskunde D en NLT.&nbsp; In het IIO-project (Innovatie Impuls Onderwijs) zijn in zo&rsquo;n samenwerking modules ontwikkeld voor de vakken Biologie, Natuurkunde en Scheikunde (bovenbouw havo/vwo). &nbsp;Meer dan 40 scholen waren bij deze ontwikkeling betrokken.</p>\n\n<p>Organisatie en begeleiding van uitvoering en ontwikkeling is geco&ouml;rdineerd vanuit <strong>B&egrave;tapartners/Its Academy,</strong> een samenwerkingsverband tussen scholen en vervolgopleidingen. Zie ook <a href=\"http://www.itsacademy.nl\">www.itsacademy.nl</a></p>\n\n<p>De auteurs hebben bij de ontwikkeling van de module gebruik gemaakt van materiaal van derden en daarvoor toestemming verkregen. Bij het achterhalen en voldoen van de rechten op teksten, illustraties, en andere gegevens is de grootst mogelijke zorgvuldigheid betracht. Mochten er desondanks personen of instanties zijn die rechten menen te kunnen doen gelden op tekstgedeeltes, illustraties, enz. van een module, dan worden zij verzocht zich in verbinding te stellen met de programmamanager van de Its Academy (zie website).&nbsp;</p>\n\n<p>Gebruiksvoorwaarden:&nbsp; creative commons cc-by sa 3.0</p>\n\n<p>Handleidingen, toetsen en achtergrondmateriaal zijn voor docenten verkrijgbaar via de b&egrave;tasteunpunten.</p>\n\n<p>&nbsp;</p>\n",
+        "imageSrc": null,
+        "sources": [],
+        "metadata": [
+            {
+                "key": "educationalLevels",
+                "label": "Leerniveaus",
+                "terms": {
+                    "cb61531d-61eb-4412-a52f-ca065ca37e39": "HAVO 5"
+                }
+            },
+            {
+                "key": "disciplines",
+                "label": "Leerinhoud en doelen",
+                "terms": {
+                    "dd0cf4aa-f2f1-4b56-bcbf-5e5293bac0b6": "Wiskunde D",
+                    "ee274481-3a9f-4799-9f41-4b1d80b42b65": "Inzicht en handelen"
+                }
+            },
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            },
+            {
+                "key": "keywords",
+                "label": "Trefwoorden",
+                "terms": [
+                    "e-klassen rearrangeerbaar"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

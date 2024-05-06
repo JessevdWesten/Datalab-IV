@@ -1,0 +1,1176 @@
+{
+    "documentAuthors": [
+        "joris Nelissen"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "joris Nelissen",
+            "referenceName": null,
+            "reference": {
+                "value": "72583"
+            },
+            "firstName": "joris",
+            "infix": null,
+            "lastName": "Nelissen",
+            "emailAddress": "jorisnelissen@denieuwsteschool.nl",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2018-02-03T14:52:25Z",
+    "bulkId": "bulk-17041135-refresh_all",
+    "identifier": 118751,
+    "title": "Kennismaken met de Arduino",
+    "description": "Deze opdracht volgt uit de evaluatie van het NLT-thema \u2018meten en \r\nregelen\u2019. In dit thema hebben de leerlingen van 5VWO de arduino\r\ntoegepast bij een zelfgebouwde klimaatkamer. In de evaluatie geven de \r\nleerlingen aan dat zij enorm geholpen zouden zijn (te beginnen in het \r\n2\r\nde\r\nsemester van klas 4) met een overzichtelijk, beknopt, lesprogramma \r\nover de arduino, eenvoudig programmeren in C+, en enkele duidelijke \r\ntoepassingen met uitwerkingen. Zij willen hun ervaringen dan ook graag \r\ndelen met de ESoE-studenten en het project ook verder ondersteunen.",
+    "lastModifiedDate": "2018-02-03T14:52:25+01:00",
+    "dateCreated": "2018-01-25T09:24:54+01:00",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "Nelissen, joris",
+                "reference": {
+                    "value": "72583"
+                },
+                "firstName": "joris",
+                "infix": null,
+                "lastName": "Nelissen",
+                "emailAddress": "jorisnelissen@denieuwsteschool.nl",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-40",
+            "name": "CC Naamsvermelding 4.0 Internationale licentie",
+            "description": "De Internationale Creative Commons 4.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/4.0/.",
+            "link": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/118751/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "4057448"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Introductie",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p class=\"text-align-justify\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/d/dcd7226661e701604332c0a649adb86c5c04ba1a.jpg\" class=\"height-410-pixels width-410-pixels\"/></p>\n<p class=\"text-align-justify\">In deze serie opdrachten ga je leren werken met de Arduino. Wat is dat voor ding, wat zijn de mogelijkheden, maar vooral: wat kun jij er nou zelf mee doen?</p>\n<p class=\"text-align-justify\">Het doel is om een aantal vaardigheden aan te leren, zodat je de Arduino na deze module kunt gebruiken bij practica van de andere vakken. Daarvoor moet je met de Arduino kunnen meten en regelen, daarom is het einddoel om een basis meet-regelsysteem te kunnen bouwen.</p>\n"
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "4057450"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Aansluiten van de Arduino",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Deze handleiding bestaat uit 9 stappen die je moet doorlopen om met de Arduino te kunnen werken. De laatste stap is een test om te controleren of je alles goed hebt gedaan. </p>\n<ol>\n<li><strong>Leg een Arduino, een USB-kabel en een LED-lampje klaar</strong><br/>\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/b/b0a6dcf3845eb67279217a711702733211dd85a3.PNG\" class=\"height-200-pixels width-145-pixels\"/><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/e/e9776ea0b43daa59f513dc8bc44ab39ac4c4c1ca.PNG\" class=\"height-200-pixels width-191-pixels\"/><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/8b7f2a60159743c850f3ccd63dd9b6165e40a3e3.PNG\" class=\"height-200-pixels width-118-pixels\"/><br/>\n </li>\n<li><strong>Download de Arduino software</strong><br/>\n<a href=\"http://arduino.cc/en/Main/Software\">http://arduino.cc/en/Main/Software</a><br/>\n </li>\n<li><strong>Sluit de Arduino aan op de computer met de USB-kabel aan op de computer.</strong><br/>\nEen groen LED-lampje (ON) op de Arduino zal gaan branden.<br/>\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/4/448dfb124cb69817627303875df0c279092bc67c.PNG\" class=\"height-200-pixels width-270-pixels\"/><br/>\n </li>\n<li><strong>Installeer de Driver</strong><br/>\nNa stap 3 zal de computer zelf beginnen met de installatie van de driver software. De computer kan dit echter niet helemaal zelfstandig, je moet nu achtereenvolgens het volgende doen:<br/>\nKlik op het Start menu en open het Control Panel.<br/>\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/8ba4ed9e047fc9ae9872d664f32221836c420cf4.PNG\" class=\"height-300-pixels width-339-pixels\"/><br/>\n<br/>\nIn het Control Panel ga je naar 'System and Security'.  <br/>\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/e/e209fab41c09ea09c7a73bd875cd47d9791cb144.PNG\" class=\"height-300-pixels width-506-pixels\"/><br/>\n<br/>\nVervolgens selecteer je 'System'.<br/>\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/a/ab364ca0fe6f8d1fe9c664cff1f33b706da57ca0.PNG\" class=\"height-300-pixels width-503-pixels\"/><br/>\n<br/>\nOpen tenslotte de 'Device Manager'.<br/>\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/8dbbafbcc2dc804f60228a3860f56ae977a1c5d4.PNG\" class=\"height-300-pixels width-499-pixels\"/><br/>\n<br/>\nKlik in de Device Manager op 'Ports (COM &amp; LPT)', hier moet nu de Arduino Uno (COM3) zichtbaar zijn. <br/>\nAls de Arduino hier NIET bijstaat, zoek dan in 'Other Devices' naar 'Unknown Device'.<br/>\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/8f8b3864869a48440e9c53549d723d2883809fda.PNG\" class=\"height-300-pixels width-407-pixels\"/><br/>\n<br/>\nKlik met de rechter muisknop op 'Arduino Uno (COM3)' en selecteer de optie 'Update Driver Software'.<br/>\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/2/20df87006af74abb14edaa59f45a44a71d21408e.PNG\" class=\"height-300-pixels width-390-pixels\"/><br/>\n<br/>\nSelecteer nu de optie 'Browse my computer for Driver software'.<br/>\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/b/b778b04f0eb6c97e85ebecfa2e8a5810ee53508b.PNG\" class=\"height-300-pixels width-410-pixels\"/><br/>\n<br/>\nJe moet nu aangeven in welk mapje de Driver Software gezocht moet worden. Hiervoor klik je op 'Browse' en blader je via de map 'Program Files' naar de map met de naam 'Arduino', hierin staat de map 'drivers'. Deze map moet je selecteren en vervolgens klik je op OK.<br/>\nLET OP: Selecteer NIET de map 'FTDI USB Drivers'. <br/>\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/82376a42406293e12f1ed6fdfc86ae63cfbba1da.PNG\" class=\"height-300-pixels width-489-pixels\"/><br/>\n<br/>\nIn het volgende scherm klik je op 'Next'.<br/>\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/d/dfbad55412109b591a1ab6b3ff4c5b09dff01814.PNG\" class=\"height-300-pixels width-408-pixels\"/><br/>\n<br/>\nWindows zal de installatie nu afmaken.<br/>\n </li>\n<li><strong>Open de Arduino applicatie.</strong><br/>\nJe krijgt nu het volgende scherm.<br/>\n<strong><strong><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/133cfeb6ae699279a0b6e2ad1f2d412f65bd4d1f.PNG\" class=\"height-300-pixels width-250-pixels\"/></strong></strong><br/>\n </li>\n<li><strong>Open het voorbeeld van het knipperende LED-lampje. </strong><br/>\nGa in het 'File' menu naar 'Examples', kies vervolgens '01. Basics' en selecteer tenslotte 'Blink'. Maximaliseer het gekregen scherm<br/>\n<strong><strong><strong><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/b/bc49c8ea981bc51561496e23bd8b6a9f05463f25.PNG\" class=\"height-300-pixels width-248-pixels\"/></strong></strong></strong><br/>\n </li>\n<li><strong>Selecteer het juiste type Arduino</strong><br/>\nGa in het 'Tools' menu naar 'Board' en selecteer nu 'Arduino Uno'<br/>\n<strong><strong><strong><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/6/67e4141c0d5d3b9c9b9361c63ba38aae0e526046.PNG\" class=\"height-300-pixels width-246-pixels\"/></strong></strong></strong><br/>\n </li>\n<li><strong>Selecteer de juiste poort. </strong><br/>\nGa in het 'Tools' menu naar 'Port' en selecteer nu 'COM3' (of hoger).<br/>\n<strong><strong><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/7/72a94697fec74f0fd3620e98b056683985dd061a.PNG\" class=\"height-300-pixels width-199-pixels\"/></strong></strong><br/>\n </li>\n<li><strong>Upload het programma</strong><br/>\nPlaats het LED-lampje met de lange pin in poort 13 en de korte pin in de poort ernaast met de naam GND (afkorting van Ground).<br/>\nUpload het programma 'Blink' naar de Arduino door in de balk bovenaan op de tweede knop van links te klikken:<br/>\n<strong><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/589b0012fede66f12d90899986dc1da2de563c21.PNG\" class=\"height-300-pixels width-266-pixels\"/></strong><br/>\nAls je alle stappen goed hebt doorlopen heb je nu een knipperend LED-lampje.<br/>\n<br/>\n<strong>Je kunt nu zelf aan de slag met de Arduino!</strong></li>\n</ol>\n<p> </p>\n<p><strong>Heb je nog een probleem met installeren van de drivers op Windows 8?<br/>\nVolg dan de instructie op deze site: </strong><a href=\"http://mytechblog.com/tutorials/arduino/install-arduino-drivers-on-windows-8/\">http://mytechblog.com/tutorials/arduino/install-arduino-drivers-on-windows-8/</a><br/>\n </p>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>De Arduino maakt gebruik van codes. Als je codes lastig vindt om mee te werken kun je gebruik maken van het programma ArduBlocks.<br/>\nUiteindelijk is het de bedoeling dat je programmeert in het Arduino programma.<br/>\nOm aan het werken met codes te wennen kun je beginnen met ArduBlocks.<br/>\nEen korte introductie van ArduBlocks vind je op de deze pagina.<br/>\nJe mag natuurlijk ook gelijk beginnen met de codes. Lees dan verder op de volgende pagina.</p>\n<h2 class=\"font-style-italic\">Aan de slag met ArduBlocks</h2>\n<p>ArduBlocks is geen standaard Arduino onderdeel. Je kunt ArduBlocks downloaden via <a href=\"http://blog.ardublock.com/engetting-started-ardublockzhardublock/\">deze link</a>.<br/>\nOp deze site staat hoe je het moet installeren, je docent kan je hierbij helpen.</p>\n<p>Na het installeren kun je ArduBlocks openen via het Arduino programma door naar Tools te gaan en vervolgens te kiezen voor ArduBlocks (zie onderstaande afbeelding)</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/2/2d9ee1ef456e0fe255f359b569378769181e8007.png\" class=\"height-395-pixels width-328-pixels\"/></p>\n<p>Als je ArduBlocks geopend hebt kun je allerlei opdrachten naar het werkvlak slepen om een werkende 'code' te cre\u00ebren.<br/>\nJe gaat nu met behulp van ArduBlocks een code samenstellen om een LED lampje te laten knipperen.</p>\n<p>De code zelf krijg je niet te zien in ArduBlocks, maar deze kun je vervolgens wel naar het Arduino programma uploaden.<br/>\nDit kun je doen door op de knop 'Upload' te drukken bovenaan in het scherm.<br/>\n<br/>\nMaak nu het onderstaande programma door vanuit het linker menu opdrachten te slepen naar het werkvlak en eventuele waarden aan te passen in de blokken.</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/a/a91a0bb3a36a4de2f87c3456ef285cd7c8942fad.png\" class=\"height-386-pixels width-513-pixels\"/></p>\n<p>Met bovenstaande 'code' is de LED steeds \u00e9\u00e9n seconde aan en \u00e9\u00e9n seconde uit.<br/>\nDeze code kun je uploaden naar de Arduino door bovenin het scherm op de knop 'Upload' te klikken.<br/>\nKijk eens in het Arduino programma hoe de code eruit ziet en of je de overeenkomsten ziet met de code in blokken.</p>\n<p><strong>Ga zelf eens proberen hoe je de 'code' aan kunt passen zodat de LED met andere aan/uit tijden gaat knipperen.</strong><br/>\nDoor de waarden in de blokken aan te passen kun je de LED met andere aan/uit tijden laten knipperen.</p>\n<h3 class=\"font-style-italic\" style=\"color:#aaa;\">Blokken uitbreiden</h3>\n<p>Programmeer codes kun je eindeloos uitbreiden. De bovenstaande 'code' kun je verder uitbreiden door de LED een S-O-S signaal te laten uitzenden.<br/>\nOm dit te kunnen doen moet je waarden in de huidige blokken aanpassen, maar ook blokken toevoegen. <br/>\nDeze extra blokken heb je in de huidige 'code' ook al gebruikt om de LED te laten knipperen.</p>\n<p><strong>Ga eens verder experimenteren met de huidige 'code'.<br/>\nVergelijk de codes die je maakt eens met het volgende blokje in de introductie.</strong></p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4057454"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Knipperend LED-lampje",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>In het eerste stukje van de introductie heb je na het aansluiten van de Arduino een code geselecteerd waardoor er een LED lampje ging knipperen.</p>\n<p>Hieronder staat die code en het aansluitschema nog een keer.</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/7/72791d1612d5266706b032c323602c2f04a10e16.png\" class=\"height-400-pixels width-380-pixels float-right\"/></p>\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"width-450-pixels\">\n<tbody>\n<tr>\n<td>/* Het programma Blink laat een LED knipperen met 1 seconde aan en 1 seconde uit. Dit voorbeeld mag door iedereen gebruikt worden en is vrij toegankelijk. */<br/>\n// Pin 13 is bij de meeste Arduino's standaard aangesloten op het LED lampje van de Arduino zelf. <br/>\n// Geef de variabele een naam (nu led):<br/>\n<span style=\"color:rgb(255, 140, 0);\">int</span> led = 13;<br/>\n// De 'setup' opdracht wordt \u00e9\u00e9n keer uitgevoerd als op reset drukt:<br/>\n<span style=\"color:rgb(255, 140, 0);\">void <strong>setup</strong></span>() {<br/>\n// Definieer de digitale punt als uitgang signaal. <br/>\n<span style=\"color:rgb(255, 140, 0);\">pinMode</span>(led, <span style=\"color:rgb(0, 128, 128);\">OUTPUT</span>); }<br/>\n// De 'loop' opdracht zorgt ervoor dat de onderdelen steeds opnieuw worden herhaald:<br/>\n<span style=\"color:rgb(255, 140, 0);\">void<strong> loop</strong></span>() {<br/>\n<span style=\"color:rgb(255, 140, 0);\">digitalWrite</span>(led, <span style=\"color:rgb(0, 128, 128);\">HIGH</span>);<br/>\n// Zet de LED aan (HIGH is het spannings niveau)<br/>\n<span style=\"color:rgb(255, 140, 0);\">delay</span>(1000);<br/>\n// Wacht \u00e9\u00e9n seconde<br/>\n<span style=\"color:rgb(255, 140, 0);\">digitalWrite</span>(led, <span style=\"color:rgb(0, 128, 128);\">LOW</span>);<br/>\n// Zet de LED uit door het spanningsniveau op laag (LOW) te zetten<br/>\n<span style=\"color:rgb(255, 140, 0);\">delay</span>(1000);<br/>\n// Wacht \u00e9\u00e9n seconde<br/>\n}</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<p>Met bovenstaande code is de LED steeds \u00e9\u00e9n seconde aan en \u00e9\u00e9n seconde uit.<br/>\nDoor de code aan te passen kun je de led met andere aan/uit tijden laten knipperen.</p>\n<p><strong>Ga zelf eens proberen hoe je de code aan kunt passen zodat de LED met andere aan/uit tijden gaat knipperen.</strong></p>\n<h3 class=\"font-style-italic\" style=\"color:#aaa;\">Code uitbreiden</h3>\n<p>Programmeer codes kun je eindeloos uitbreiden. De bovenstaande code kun je verder uitbreiden door de LED een S-O-S signaal te laten uitzenden.<br/>\nOm dit te kunnen doen moet je dingen in de huidige code aanpassen, maar ook stukjes extra code toevoegen. <br/>\nDeze extra stukjes code kun je uit de huidige code halen om de LED te laten knipperen.</p>\n<p><strong>Ga eens verder experimenteren met de huidige code.</strong></p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "4057456"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Sensoren",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Sensoren zijn de zintuigen van een apparaat. Hiermee kunnen dingen uit de 'echte wereld' worden gevoeld en door de sensor omgezet worden in elektrische signalen die de Arduino kan verwerken.</p>\n<p>In dit blok leer je een aantal sensoren kennen en gebruiken met de Arduino.</p>\n"
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "4057458"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Zintuigen van de Arduino",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Een sensor is dus een zintuig voor een apparaat. Voor de door mensen waar te nemen grootheden bestaan dus ook sensoren: <br/>\n </p>\n<p>Je <strong>ogen</strong> zien licht en kunnen onderscheiden of dit fel is of juist niet, en welke kleur het licht heeft. Voor de Arduino bestaan bijvoorbeeld <strong>lichtsensoren</strong> die de hoeveelheid licht meten dat op de sensor valt.</p>\n<p class=\"text-align-center\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/584d1b22a624e5a31e34919640b9166a6f34a2e3.png\" class=\"height-150-pixels width-182-pixels\"/><br/>\nFotoresistor<br/>\n<br/>\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/5e65bb138cdc43db56f393be0050af5c6d3a9d72.jpg\" class=\"height-150-pixels width-207-pixels\"/><br/>\nLicht-frequentie sensor</p>\n<p>Je <strong>oren </strong>kunnen geluid horen in verschillende frequenties vari\u00ebrend van ongeveer 20 Hz tot 20.000 Hz, en kunnen ook onderscheiden of het om hard of zacht geluid gaat. Voor de apparaten bestaat een <strong>decibelmeter</strong>, waarmee je kunt bepalen hoe hard het geluid is, maar je kunt ook een <strong>microfoon </strong>gebruiken om geluid op te nemen.</p>\n<p class=\"text-align-center\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/3/37c9e89f31984be0d2918944be2849e54aa28c76.PNG\" class=\"height-150-pixels width-137-pixels\"/><br/>\nGeluidsensor</p>\n<p>Zo bestaan er dus voor alle zintuigen ook sensoren die hetzelfde kunnen 'voelen'. Maar er bestaan ook sensoren die meer kunnen voelen dan mensen. Denk bijvoorbeeld aan een <strong>infraroodsensor</strong> die warmte kan 'zien' of waarmee je het signaal van een afstandsbediening kunt detecteren. Of een <strong>ultrasoonsensor</strong> om afstand te bepalen tot een voorwerp, of juist de dichtheid zoals bij een echo.</p>\n<p class=\"text-align-center\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/b/b850449d87f5131102b3fcc432a1f7d68a351dbc.PNG\" class=\"height-150-pixels width-311-pixels\"/><br/>\nInfraroodsensor</p>\n<p class=\"text-align-center\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/83656a5f8895f941887bfbdfb048e3b6f5084f22.PNG\" class=\"height-150-pixels width-246-pixels\"/><br/>\nUltrasoonsensor</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4057460"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Temperatuur bepalen",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Sluit de temperatuursensor aan op de Arduino, met behulp van een breadboard. De middelste pin geeft de uitgangsspanning, die je omrekent naar temperatuur. Sluit die aan op analoge input 1 (A1). De andere twee pinnen voorzien de sensor van stroom, en worden aangesloten op 5V en GND (= ground = 0V). <strong>Let op</strong>, als je deze verkeerd aansluit brandt de sensor door!</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/5a8f31ed858775d48d479c7b5dd0d25f774f4f6d.PNG\" class=\"height-300-pixels width-407-pixels\"/></p>\n<p>De gebruikte temperatuursensor is de LM35, hieronder staat een plaatje uit de <a href=\"https://www.google.nl/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;cad=rja&amp;uact=8&amp;ved=0CCgQFjAA&amp;url=http%3A%2F%2Fwww.ti.com%2Flit%2Fds%2Fsymlink%2Flm35.pdf&amp;ei=GgFTVZj9MuTC7gam24CgAQ&amp;usg=AFQjCNEYRFMfIX0Uy2rBPHutCN0J7Z9Zvg&amp;sig2=KzjBlgUVt16k5sKQ7Ae42w&amp;bvm=bv.93112503,d.ZGU\">datasheet</a> waarop je ziet hoe de pinnen moeten worden aangesloten.</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/b/b378fad165a9ba61084b0103ffe5356184b1eeb6.jpg\" class=\"height-135-pixels width-200-pixels\"/></p>\n<p> </p>\n<p>Nu je de schakeling gebouwd hebt kun je verder met het computerprogramma naar de Arduino te uploaden.</p>\n<p> </p>\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"width-450-pixels\">\n<tbody>\n<tr>\n<td class=\"vertical-align-top\">\n<p><span style=\"background-color:transparent;\"><span style=\"color:#FF8C00;\">int</span> val;</span></p>\n<p><span style=\"color:#FF8C00;\">int</span> tempPin = 1;</p>\n<p><span style=\"color:#FF8C00;\">void setup</span>()<br/>\n{<br/>\n  <span style=\"color:#FF8C00;\">Serial</span>.<span style=\"color:#FF8C00;\">begin</span>(9600);<br/>\n}</p>\n<p><span style=\"color:#FF8C00;\">void loop</span>()<br/>\n{<br/>\n  val = <span style=\"color:#FF8C00;\">analogRead</span>(tempPin);<br/>\n  <span style=\"color:#FF8C00;\">float</span> mv = ( val/1024.0)*5000; <br/>\n  <span style=\"color:#FF8C00;\">float</span> cel = mv/10;<br/>\n </p>\n<p>  <span style=\"color:#FF8C00;\">Serial</span>.<span style=\"color:#FF8C00;\">print</span>(\"TEMPRATURE = \");<br/>\n<span class=\"font-size-12px\" style=\"color:rgb(51, 51, 51);\">  </span><span class=\"font-size-12px\" style=\"color:rgb(255, 140, 0);\">Serial</span><span class=\"font-size-12px\" style=\"color:rgb(51, 51, 51);\">.</span><span class=\"font-size-12px\" style=\"color:rgb(255, 140, 0);\">print</span>(cel);<br/>\n<span class=\"font-size-12px\" style=\"color:rgb(51, 51, 51);\">  </span><span class=\"font-size-12px\" style=\"color:rgb(255, 140, 0);\">Serial</span><span class=\"font-size-12px\" style=\"color:rgb(51, 51, 51);\">.</span><span class=\"font-size-12px\" style=\"color:rgb(255, 140, 0);\">print</span>(\"*C\");<br/>\n<span class=\"font-size-12px\" style=\"color:rgb(51, 51, 51);\">  </span><span class=\"font-size-12px\" style=\"color:rgb(255, 140, 0);\">Serial</span><span class=\"font-size-12px\" style=\"color:rgb(51, 51, 51);\">.</span><span class=\"font-size-12px\" style=\"color:rgb(255, 140, 0);\">println</span>();<br/>\n  <span style=\"color:#FF8C00;\">delay</span>(1000);<br/>\n<span style=\"background-color:transparent;\">}</span></p>\n</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<p>Upload het programma en open de Seri\u00eble monitor (onder Hulpmiddelen in het Arduino programma op de computer). Nu krijg je als alles goed gegaan is elke seconde de actuele waarde van de temperatuur die de sensor meet.</p>\n"
+                        },
+                        {
+                            "type": "questionnaire",
+                            "reference": {
+                                "value": "4057462"
+                            },
+                            "assessmentTestItem": {
+                                "label": "Oefening",
+                                "type": "exercise",
+                                "header": {
+                                    "url": "https://maken.wikiwijs.nl/p/questionnaire/standalone/4057462",
+                                    "title": "De code leren kennen"
+                                },
+                                "introduction": {
+                                    "body": "<p>Je hebt nu een temperatuursensor aan de praat die elke seconde de temperatuur op je scherm weergeeft. We gaan nu wat beter naar de code kijken en daar wat dingetjes in veranderen om zo de code te leren begrijpen.</p>"
+                                },
+                                "countQuestions": 2,
+                                "sections": [
+                                    {
+                                        "type": "assessment",
+                                        "identifier": "SECTION_4057462",
+                                        "name": "MAIN_SECTION",
+                                        "select": null,
+                                        "shuffle": null,
+                                        "selection": null,
+                                        "assessmentItems": [
+                                            {
+                                                "identifier": "4057462_0",
+                                                "itemBody": null,
+                                                "questions": [
+                                                    {
+                                                        "type": "extendedTextInteraction",
+                                                        "label": "Variabelen",
+                                                        "prompt": {
+                                                            "body": "<p>Op de eerste regel code staat 'int val'. Hier wordt een variabele van het type 'int (kort voor integer)' aangemaakt, met de naam 'val (kort voor value)'. Verander eens de naam van de variabele naar value en probeer de nieuwe code te uploaden naar de Arduino. </p>\n<p>Wat moet je nog meer veranderen om de nieuwe code te laten werken?</p>"
+                                                        },
+                                                        "feedback": null
+                                                    }
+                                                ],
+                                                "responseDeclarations": [
+                                                    {
+                                                        "identifier": "4057462_0_1",
+                                                        "cardinality": "single",
+                                                        "baseType": "string",
+                                                        "correctResponse": {
+                                                            "interpretation": null,
+                                                            "values": [
+                                                                {
+                                                                    "fieldIdentifier": null,
+                                                                    "value": "<p>De variabele &#39;val&#39; komt verderop in de code weer terug. Bijvoorbeeld waar de waarde van de andere variabele &#39;mv (kort voor millivolt)&#39; wordt berekend. Om de naam van de variabele &#39;val&#39; te veranderen, moet je dit dus overal in de code doorvoeren.</p>\r\n"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "mapping": {
+                                                            "lowerBound": 0,
+                                                            "upperBound": 1,
+                                                            "default": 0,
+                                                            "mapEntries": []
+                                                        },
+                                                        "areaMapping": null
+                                                    }
+                                                ],
+                                                "outcomeDeclarations": [
+                                                    {
+                                                        "identifier": "SCORE",
+                                                        "cardinality": "single",
+                                                        "baseType": "float",
+                                                        "defaultValue": 0,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "FEEDBACK",
+                                                        "cardinality": "single",
+                                                        "baseType": "identifier",
+                                                        "defaultValue": null,
+                                                        "interpretation": null
+                                                    }
+                                                ],
+                                                "feedback": [
+                                                    {
+                                                        "outcomeIdentifier": "FEEDBACK",
+                                                        "identifier": "ANSWER_CORRECT",
+                                                        "showHide": true,
+                                                        "title": null,
+                                                        "content": {
+                                                            "body": "<p>De variabele 'val' komt verderop in de code weer terug. Bijvoorbeeld waar de waarde van de andere variabele 'mv (kort voor millivolt)' wordt berekend. Om de naam van de variabele 'val' te veranderen, moet je dit dus overal in de code doorvoeren.</p>"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "identifier": "4057462_1",
+                                                "itemBody": null,
+                                                "questions": [
+                                                    {
+                                                        "type": "extendedTextInteraction",
+                                                        "label": "Andere input-poort gebruiken",
+                                                        "prompt": {
+                                                            "body": "<p>Het zou kunnen dat je poort 1 van de Arduino al in gebruik is voor iets anders. Pas je code en de schakeling aan zodat de sensor op een andere poort is aangesloten. Werkt het ook op een digitale poort?</p>"
+                                                        },
+                                                        "feedback": null
+                                                    }
+                                                ],
+                                                "responseDeclarations": [
+                                                    {
+                                                        "identifier": "4057462_1_1",
+                                                        "cardinality": "single",
+                                                        "baseType": "string",
+                                                        "correctResponse": {
+                                                            "interpretation": null,
+                                                            "values": [
+                                                                {
+                                                                    "fieldIdentifier": null,
+                                                                    "value": "<p>Je moet de waarde van &#39;tempPin = 1&#39; aanpassen naar de poort waarop nu de sensor is aangesloten. Een digitale input-poort gebruiken werkt niet, want de sensor geeft een analoog signaal uit, dus moet op een analoge input worden aangesloten.</p>\r\n"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "mapping": {
+                                                            "lowerBound": 0,
+                                                            "upperBound": 1,
+                                                            "default": 0,
+                                                            "mapEntries": []
+                                                        },
+                                                        "areaMapping": null
+                                                    }
+                                                ],
+                                                "outcomeDeclarations": [
+                                                    {
+                                                        "identifier": "SCORE",
+                                                        "cardinality": "single",
+                                                        "baseType": "float",
+                                                        "defaultValue": 0,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "FEEDBACK",
+                                                        "cardinality": "single",
+                                                        "baseType": "identifier",
+                                                        "defaultValue": null,
+                                                        "interpretation": null
+                                                    }
+                                                ],
+                                                "feedback": [
+                                                    {
+                                                        "outcomeIdentifier": "FEEDBACK",
+                                                        "identifier": "ANSWER_CORRECT",
+                                                        "showHide": true,
+                                                        "title": null,
+                                                        "content": {
+                                                            "body": "<p>Je moet de waarde van 'tempPin = 1' aanpassen naar de poort waarop nu de sensor is aangesloten. Een digitale input-poort gebruiken werkt niet, want de sensor geeft een analoog signaal uit, dus moet op een analoge input worden aangesloten.</p>"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "outcomeDeclarations": null,
+                                "showEvaluation": null,
+                                "feedback": null
+                            }
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4057463"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Afstand bepalen",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Nu heb je net je eerste sensor aangesloten en de code daarvan beter bekeken. Om nu een andere sensor te gebruiken die net als de temperatuursensor een analoge waarde (spanning) geeft is min om meer de zelfde code nodig.</p>\n<p>Kopi\u00eber de code van net en sla deze op als een nieuw bestand met de naam ultrasoon_afstand. </p>\n<p>Sluit nu de sensor als hieronder aan.<br/>\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/e/e8e80ef3ce634e5ca9f597d698eb1fa08abb0330.jpg\" class=\"height-400-pixels width-613-pixels\"/></p>\n<p>Probeer de oude code zo aan te passen dat je de spanning van de twee ultrasoon-sensors kunt weergeven op de Serial Monitor. De afstand berekenen uit die spanning komt daarna.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "4057465"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Gebruikersinput",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "4057466"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Wat is gebruikersinput",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Als je een systeem gaat ontwikkelen, dan wil je dat het systeem uiteindelijk de dingen doet die jij instelt. Dit noem je gebruikersinput. Er zijn verschillende manieren waarop je een systeem kan laten doen wat je wil. Enkele voorbeelden hiervan zijn het gebruik van schakelaars, knoppen of een numerieke waarde.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4057468"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Drukschakelaar",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Als je een systeem gaat ontwikkelen, dan wil je dat het systeem uiteindelijk de dingen doet die jij instelt. Dit noem je gebruikersinput.<br/>\nEr zijn verschillende manieren waarop je een systeem kan laten doen wat je wil.<br/>\nEnkele voorbeelden hiervan zijn het gebruik van schakelaars, knoppen of een numerieke waarde.</p>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>De Arduino maakt gebruik van codes.<br/>\nOm een LED (of ander apparaat) aan te laten gaan door het drukken op een knop (een knop zonder geheugen in dit voorbeeld) kun je onderstaande code gebruiken:</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/2/28512aa911e8db1b7b76e311bcf64703246bf62d.png\" class=\"height-420-pixels\"/></p>\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\">\n<tbody>\n<tr>\n<td>\n<p>// start de code<br/>\n<span style=\"color:rgb(255, 140, 0);\">void <strong>setup</strong></span>() {<br/>\n<span style=\"color:rgb(255, 140, 0);\">pinMode</span>(12,<span style=\"color:#008080;\">OUTPUT</span>); // Dit is de uitgang waarop de LED of het apparaat is aangesloten<br/>\n<span style=\"color:rgb(255, 140, 0);\">pinMode</span><span>(4,</span><span style=\"color:rgb(0, 128, 128);\">INPUT</span><span>); // Dit is de ingang waarop de drukknop is aangesloten</span><br/>\n<span style=\"background-color:initial;\">}</span><br/>\n<span style=\"background-color:initial;\">// door het instellen van een loop blijven de volgende stappen zich eindeloos herhalen</span><br/>\n<span style=\"background-color:initial; color:rgb(255, 140, 0);\">void<strong> loop</strong></span><span style=\"background-color:initial;\">() {</span><br/>\n<span style=\"background-color:initial;\">// Als er een hoog signaal van de knop is treed de LED of het andere apparaat in werking, anders blijft hij uit.</span><br/>\n<span style=\"background-color:initial; color:rgb(255, 140, 0);\">if</span><span style=\"background-color:initial;\">(</span><span style=\"background-color:initial; color:rgb(255, 140, 0);\">digitalRead</span><span style=\"background-color:initial;\">(4) ==</span> <span style=\"background-color:initial; color:rgb(0, 128, 128);\">HIGH</span><span style=\"background-color:initial;\">)</span><br/>\n<span style=\"background-color:initial;\">{</span><br/>\n<span style=\"background-color:initial; color:rgb(255, 140, 0);\">digitalWrite</span><span style=\"background-color:initial;\">(12,</span><span style=\"background-color:initial; color:rgb(0, 128, 128);\">HIGH</span><span style=\"background-color:initial;\">);</span><br/>\n<span style=\"background-color:initial;\">}else</span><br/>\n<span style=\"background-color:initial;\">{</span><br/>\n<span style=\"background-color:initial; color:rgb(255, 140, 0);\">digitalWrite</span><span style=\"background-color:initial;\">(12,</span><span style=\"background-color:initial; color:rgb(0, 128, 128);\">LOW</span><span style=\"background-color:initial;\">);</span><br/>\n<span style=\"background-color:initial;\">}</span><br/>\n<span style=\"background-color:initial;\">}</span></p>\n</td>\n</tr>\n</tbody>\n</table>\n<p><strong>Ga zelf eens uitzoeken wat er gebeurt als je een waarde ( bijvoorbeeld HIGH/LOW) in de code verandert.</strong></p>\n<h3 class=\"font-style-italic\" style=\"color:rgb(170, 170, 170);\">Code uitbreiden</h3>\n<p>Programmeer codes kun je eindeloos uitbreiden. De bovenstaande code kun je verder uitbreiden door de LED langer te laten branden dan dat je de knop indrukt.<br/>\nOm dit te kunnen doen moet je dingen uit een vorige code toevoegen. </p>\n<p><strong>Ga eens verder experimenteren met de huidige code.</strong></p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4057471"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "POT-meter",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Je kunt een POT-meter gebruiken om waarden in te stellen.<br/>\nIn onderstaande code wordt de spanning uitgelezen die als gevolg van het draaien aan een POT-meter verandert.<br/>\nDeze spanning kun je vervolgens gebruiken om je systeem de dingen te laten doen die je wil.</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/5924ecdd0c98377d20605da15eca1f8f685e1640.png\" class=\"height-332-pixels width-445-pixels\"/></p>\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"width-450-pixels\">\n<tbody>\n<tr>\n<td>\n<p>// start de code<br/>\n<span style=\"color:rgb(255, 140, 0);\">void <strong>setup</strong></span>() {<br/>\n// maak verbinding met de computer met een gegeven snelheid. <br/>\n<span style=\"color:rgb(255, 140, 0);\"><strong>Serial</strong></span>.<span style=\"color:rgb(255, 140, 0);\">begin</span>(9600); }<br/>\n// door het instellen van een loop blijven de volgende stappen zich eindeloos herhalen<br/>\n<span style=\"color:rgb(255, 140, 0);\">void<strong> loop</strong></span>() {<br/>\n// vanaf de POT-meter uitgang komt er een draad op de analoge input 0.<br/>\n<span style=\"color:rgb(255, 140, 0);\">int </span>sensor = <span style=\"color:rgb(255, 140, 0);\">analogRead</span>(A0);<br/>\n// de input spanning is 5 volt en het wordt afgelezen in 2^10 stappen.<br/>\n<span style=\"color:rgb(255, 140, 0);\">float </span>voltage = sensor * 5 / 1023;<br/>\n// de spanning na de POT-meter wordt doorgegeven aan de computer<br/>\n<span style=\"color:rgb(255, 140, 0);\"><strong>Serial</strong></span>.<span style=\"color:rgb(255, 140, 0);\">println</span>(voltage);<br/>\n// wacht een halve seconde voor de volgende meting<br/>\n<span style=\"color:rgb(255, 140, 0);\">delay</span>(500);<br/>\n}</p>\n</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<p><strong>Ga zelf eens uitzoeken wat er gebeurt als je een waarde in de code verandert.</strong></p>\n<h3 class=\"font-style-italic\" style=\"color:rgb(170, 170, 170);\">Code uitbreiden</h3>\n<p>Programmeer codes kun je eindeloos uitbreiden. De bovenstaande code kun je verder uitbreiden.<br/>\nProbeer de code eens zodanig te veranderen dat de 'output' op je scherm het percentage doorgelaten spanning is (hoe ver de POT-meter dus gedraaid is).<br/>\nOm dit te kunnen doen moet je dingen in de huidige code aanpassen, maar ook stukjes extra code toevoegen. <br/>\nDeze extra stukjes code kun je maken door achter het <span style=\"color:#FF8C00;\">float</span> commando een berekening te maken.</p>\n<p><strong>Ga eens verder experimenteren met de huidige code.</strong></p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4057473"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Numerieke waarden",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Soms wil je geen schakelaar, (draai)knop of een andere externe bron gebruiken om iets in te stellen, dan kun je ook een code gebruiken om een numerieke waarde in te vullen als gebruikersinput.<br/>\nHiervoor gebruik je de volgende coderegel in je bestaande programma:</p>\n<div>\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"width-450-pixels\">\n<tbody>\n<tr>\n<td class=\"vertical-align-top\">\n<p><span style=\"color:rgb(255, 140, 0);\">int</span> waarde = 999;</p>\n</td>\n</tr>\n</tbody>\n</table>\n<p>De naam 'waarde' kun je veranderen voor iets wat je zelf wil, bijvoorbeeld 'lichtsterkte'.<br/>\nDit is de naam van de variabele.<br/>\nDe waarde van de variabele (999 in dit voorbeeld) kun je naar je eigen wil veranderen.<br/>\nJe kunt alleen gehele waarden instellen.</p>\n<h3 class=\"font-style-italic\" style=\"color:#aaa;\">Decimale getallen gebruiken</h3>\n</div>\n<p>Als je een decimaal getal in wil vullen kun je een andere code invoegen in je bestaande programma, namelijk de volgende:</p>\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"width-450-pixels\">\n<tbody>\n<tr>\n<td class=\"vertical-align-top\">\n<p><span style=\"background-color:transparent; color:rgb(255, 140, 0);\">float </span><span style=\"background-color:transparent;\">waarde = 10.5;</span></p>\n</td>\n</tr>\n</tbody>\n</table>\n<p><span>Ook hier kun je de naam van de variabele en de waarde weer veranderen.</span></p>\n<h2 class=\"font-style-italic\"><span>Code verder uitbreiden</span></h2>\n<p>Dit soort codes kun je niet alleen gebruiken om input te geven aan het programma, maar ook om berekeningen uit te voeren, op dezelfde manier als beschreven bij de POT-meter.<br/>\nZo is het mogelijk om een nieuwe waarde te berekenen aan de hand van gegevens uit je gebruikersinput in combinatie met iets wat je Arduino meet met een sensor.<br/>\nEen voorbeeld van een dergelijke code om toe te voegen aan je huidige programma staat hieronder:</p>\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"width-450-pixels\">\n<tbody>\n<tr>\n<td class=\"vertical-align-top\">\n<p><span style=\"background-color:transparent;\"><span style=\"color:#FF8C00;\">int</span> waarde = 12;</span><br/>\n<span style=\"color:rgb(255, 140, 0);\">int </span><span>sensor = </span><span style=\"color:rgb(255, 140, 0);\">analogRead</span><span>(A0);</span><br/>\n<span style=\"background-color:transparent;\"><span style=\"color:#FF8C00;\">float</span> factor = 10.5;<br/>\n<span style=\"color:#FF8C00;\">float</span> uitkomst = waarde * factor * sensor;</span></p>\n<p> </p>\n</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<h2 class=\"font-style-italic\">Belangrijke opmerking bij het schrijven van een code</h2>\n<p><span>Let bij het gebruik van dit soort codes op het maken van typfouten.<br/>\nJe vergeet snel een puntkomma of gebruikt een kleine letter in plaats van een hoofdletter.<br/>\nAls je dat doet werkt je code niet meer. Een dergelijke fout heet een syntax fout.<br/>\nDe software van de Arduino kan zulke fouten vinden en benoemen als je de code checkt met de 'verify' knop (zie onderstaande afbeelding).</span></p>\n<p><span><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/f/f3680b2b1d535f6acc236bbce3e45fd8594b537d.png\" class=\"height-417-pixels width-347-pixels\"/></span></p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "4057475"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Actuatoren",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Een actuator zet elektrische energie om in andere vormen van energie. Dit kan bijvoorbeeld licht, warmte, beweging of geluid zijn. Als de actuator hiervoor een commando krijgt zal hij overgaan tot actie. Je stuurt de actuator aan met behulp van de code, waarbij je eventueel gebruik maakt van een sensor.<br/>\nEen actuator is de laatste schakel in je circuit, het zorgt voor een waarneembare output. Een lamp, een sirene, een beeldscherm, een luidspreker, een ventilator en een elektromotor zijn allemaal voorbeelden van actuatoren.</p>\n"
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "4057477"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "LED-lampjes",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>LED-lampjes zetten elektrische stroom om in licht, en zijn dus ook actuatoren.</p>\n<p> </p>\n<p><strong>Benodigdheden:</strong><br/>\n- Jumper draden: Rood, zwart en nog een willekeurige draad<br/>\n- Een LED-lampje<br/>\n- Een 220 Ohm weerstandje (voor een overzicht van de kleurcodering kun je de volgende link gebruiken: <a href=\"http://www.esdsite.nl/elektronica/kleurcode.html\">http://www.esdsite.nl/elektronica/kleurcode.html</a>)</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/a/a0b0e3b754aba2a43df3b02db17e3896b16a48b8.jpg\" class=\"height-300-pixels width-400-pixels\"/>          <img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/1c68e3b9f2d19141ee7b0c3bb3c290c81edfd304.jpg\" class=\"height-300-pixels width-225-pixels\"/>                                                                                                </p>\n<p> </p>\n<p><strong>Maak nu het volgende circuit:</strong><br/>\nPlaats de rode draad in de 5V uitgang op de Arduino en in de + kolom op het broodbord.<br/>\nPlaats de zwarte draad in de Ground uitgang op de Arduino en in de - kolom op het broodbord.<br/>\nPlaats het LED-lampje in het broodbord met de poten in 2 verschillende rijen van het broodbord. Plaats de lange poot in de rij boven de korte poot.<br/>\nVerbind nu de lange poot van het LED-lampje met poort 2 met de draad die nog over is.<br/>\nPlaats hiervoor het ene uiteinde van de draad in poort 2, het andere uiteinde plaats je op het broodbord in de rij waar ook de lange poot van het LED-lampje in zit.<br/>\nTenslotte plaats je de 220 Ohm weerstand op het broodbord. Het ene uiteinde van de weerstand plaats je in de rij waar ook de korte poot van het LED-lampje in zit.<br/>\nHet andere uiteinde plaats je in de - kolom. Het circuit is nu rond.</p>\n<p>              <img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/0/0a47242f5342ee5def90a751e07a7247403ae8af.jpg\" class=\"height-332-pixels width-500-pixels\"/></p>\n<p> </p>\n<p><strong>Code:</strong></p>\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"width-450-pixels\">\n<tbody>\n<tr>\n<td class=\"vertical-align-top\">\n<p><span style=\"color:#FFA500;\">void <strong>setup</strong>()</span> {<br/>\n  // declare the LED pins as outputs:<br/>\n<span style=\"color:#FFA500;\">pinMode</span>(2,<span style=\"color:#008080;\">OUTPUT</span>);<br/>\n}<br/>\n<span style=\"background-color:transparent; color:rgb(255, 165, 0);\">void <strong>loop</strong>()</span> <span style=\"background-color:transparent;\">{</span><br/>\n<span style=\"background-color:transparent;\"> </span><span style=\"background-color:transparent; color:rgb(255, 165, 0);\">digitalWrite</span><span style=\"background-color:transparent;\">(2,</span> <span style=\"background-color:transparent; color:rgb(0, 128, 128);\">HIGH</span><span style=\"background-color:transparent;\">);// turn the LED on pin 2 on</span><br/>\n<span style=\"background-color:transparent; color:rgb(255, 165, 0);\"> delay</span><span style=\"background-color:transparent;\">(1000);//wait for a second</span><br/>\n<span style=\"background-color:transparent;\"> </span><span style=\"background-color:transparent; color:rgb(255, 165, 0);\">digitalWrite</span><span style=\"background-color:transparent;\">(2,</span><span style=\"background-color:transparent; color:rgb(0, 128, 128);\">LOW</span><span style=\"background-color:transparent;\">);//turn the LED on pin 2 on</span><br/>\n<span style=\"background-color:transparent; color:rgb(255, 165, 0);\"> delay</span><span style=\"background-color:transparent;\">(1000);//wait for a second</span><br/>\n<span style=\"background-color:transparent;\">}</span></p>\n</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<p>Je hebt nu weer een knipperend LED-lampje, zoals je al eerder hebt gezien. Nu hebben we het LED-lampje niet via poort 13 op de Arduino zelf ingeplugd, maar hebben we gebruik gemaakt van het breadboard.<br/>\nOp deze manier kun je meer lampjes toevoegen. Je gaat hier in volgende oefening zelf mee experimenteren.</p>\n<p> </p>\n"
+                        },
+                        {
+                            "type": "questionnaire",
+                            "reference": {
+                                "value": "4057479"
+                            },
+                            "assessmentTestItem": {
+                                "label": "Oefening",
+                                "type": "exercise",
+                                "header": {
+                                    "url": "https://maken.wikiwijs.nl/p/questionnaire/standalone/4057479",
+                                    "title": "LED-lampjes toevoegen"
+                                },
+                                "introduction": {
+                                    "body": "<p>Je hebt nu een circuit gemaakt met 1 LED-lampje. Je kunt echter ook een tweede LED-lampje opnemen in het circuit, en natuurlijk ook een derde, vierde of nog meer LED-lampjes.</p>\n<p><br />\nZorg er bij het toevoegen van een LED-lampje voor dat je de lange poot verbindt met een nieuwe poort op de Arduino en dat je de korte poot door middel van een weerstandje (220 Ohm) verbindt met de - kolom op het breaddbord.</p>\n<p> </p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/c/c73fc769efd0c4c912acd94b11bda0a819fc0b0a.jpg\" class=\"height-375-pixels width-500-pixels\" /></p>\n<p> </p>"
+                                },
+                                "countQuestions": 3,
+                                "sections": [
+                                    {
+                                        "type": "assessment",
+                                        "identifier": "SECTION_4057479",
+                                        "name": "MAIN_SECTION",
+                                        "select": null,
+                                        "shuffle": null,
+                                        "selection": null,
+                                        "assessmentItems": [
+                                            {
+                                                "identifier": "4057479_0",
+                                                "itemBody": null,
+                                                "questions": [
+                                                    {
+                                                        "type": "extendedTextInteraction",
+                                                        "label": "Twee knipperende LED-lampjes",
+                                                        "prompt": {
+                                                            "body": "<p>Voeg een tweede LED-lampje toe en pas de code zo aan dat beide LED-lampjes om de beurt gaan knipperen. Je hebt hiervoor alleen commando's nodig die al in de gegeven code staan, je kunt de code dus aanpassen en uitbreiden door regels te kopi\u00ebren.</p>"
+                                                        },
+                                                        "feedback": null
+                                                    }
+                                                ],
+                                                "responseDeclarations": [
+                                                    {
+                                                        "identifier": "4057479_0_1",
+                                                        "cardinality": "single",
+                                                        "baseType": "string",
+                                                        "correctResponse": {
+                                                            "interpretation": null,
+                                                            "values": [
+                                                                {
+                                                                    "fieldIdentifier": null,
+                                                                    "value": "<p>Voor het gebruik van de nieuwe poort gebruik je het commando <strong>pinMode(3,OUTPUT)</strong>, als je een andere poort dan poort 3 gebruikt dan geef je het nummer van deze poort in.</p>\r\n\r\n<p>Om de lampjes om de beurt te laten kipperen zul je ook moeten aangeven wanneer het tweede LED-lampje moet branden of juist niet moet branden. Hiervoor gebruik je de commando&#39;s <strong>digitalWrite(3,HIGH)</strong> en <strong>digitalWrite(3,LOW)</strong>.&nbsp;</p>\r\n"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "mapping": {
+                                                            "lowerBound": 0,
+                                                            "upperBound": 1,
+                                                            "default": 0,
+                                                            "mapEntries": []
+                                                        },
+                                                        "areaMapping": null
+                                                    }
+                                                ],
+                                                "outcomeDeclarations": [
+                                                    {
+                                                        "identifier": "SCORE",
+                                                        "cardinality": "single",
+                                                        "baseType": "float",
+                                                        "defaultValue": 0,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "FEEDBACK",
+                                                        "cardinality": "single",
+                                                        "baseType": "identifier",
+                                                        "defaultValue": null,
+                                                        "interpretation": null
+                                                    }
+                                                ],
+                                                "feedback": [
+                                                    {
+                                                        "outcomeIdentifier": "FEEDBACK",
+                                                        "identifier": "ANSWER_CORRECT",
+                                                        "showHide": true,
+                                                        "title": null,
+                                                        "content": {
+                                                            "body": "<p>Voor het gebruik van de nieuwe poort gebruik je het commando <strong>pinMode(3,OUTPUT)</strong>, als je een andere poort dan poort 3 gebruikt dan geef je het nummer van deze poort in.</p>\n<p>Om de lampjes om de beurt te laten kipperen zul je ook moeten aangeven wanneer het tweede LED-lampje moet branden of juist niet moet branden. Hiervoor gebruik je de commando's <strong>digitalWrite(3,HIGH)</strong> en <strong>digitalWrite(3,LOW)</strong>. </p>"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "identifier": "4057479_1",
+                                                "itemBody": null,
+                                                "questions": [
+                                                    {
+                                                        "type": "extendedTextInteraction",
+                                                        "label": "Vijf knipperende LED-lampjes",
+                                                        "prompt": {
+                                                            "body": "<p>Breidt dit nu uit tot een rijtje van 5 knipperende LED-lampjes.</p>\n<div><iframe allowfullscreen=\"allowfullscreen\" frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/hw7L0MioGug\" width=\"560\" class=\"video-item\"></iframe></div>\n<p> </p>"
+                                                        },
+                                                        "feedback": null
+                                                    }
+                                                ],
+                                                "responseDeclarations": [
+                                                    {
+                                                        "identifier": "4057479_1_1",
+                                                        "cardinality": "single",
+                                                        "baseType": "string",
+                                                        "correctResponse": {
+                                                            "interpretation": null,
+                                                            "values": [
+                                                                {
+                                                                    "fieldIdentifier": null,
+                                                                    "value": "<p>Laat je resultaat zien aan de docent en sla de code op zodat je hem later nog eens kan gebruiken.</p>\r\n\r\n<p>&nbsp;</p>\r\n"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "mapping": {
+                                                            "lowerBound": 0,
+                                                            "upperBound": 1,
+                                                            "default": 0,
+                                                            "mapEntries": []
+                                                        },
+                                                        "areaMapping": null
+                                                    }
+                                                ],
+                                                "outcomeDeclarations": [
+                                                    {
+                                                        "identifier": "SCORE",
+                                                        "cardinality": "single",
+                                                        "baseType": "float",
+                                                        "defaultValue": 0,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "FEEDBACK",
+                                                        "cardinality": "single",
+                                                        "baseType": "identifier",
+                                                        "defaultValue": null,
+                                                        "interpretation": null
+                                                    }
+                                                ],
+                                                "feedback": [
+                                                    {
+                                                        "outcomeIdentifier": "FEEDBACK",
+                                                        "identifier": "ANSWER_CORRECT",
+                                                        "showHide": true,
+                                                        "title": null,
+                                                        "content": {
+                                                            "body": "<p>Laat je resultaat zien aan de docent en sla de code op zodat je hem later nog eens kan gebruiken.</p>\n<p> </p>"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "identifier": "4057479_2",
+                                                "itemBody": null,
+                                                "questions": [
+                                                    {
+                                                        "type": "extendedTextInteraction",
+                                                        "label": "Andere knippervolgorde",
+                                                        "prompt": {
+                                                            "body": "<p>Probeer of het volgende je ook lukt:</p>\n<div><iframe allowfullscreen=\"allowfullscreen\" frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/1GgNFjaWqlU\" width=\"560\" class=\"video-item\"></iframe></div>\n<p> </p>"
+                                                        },
+                                                        "feedback": null
+                                                    }
+                                                ],
+                                                "responseDeclarations": [
+                                                    {
+                                                        "identifier": "4057479_2_1",
+                                                        "cardinality": "single",
+                                                        "baseType": "string",
+                                                        "correctResponse": {
+                                                            "interpretation": null,
+                                                            "values": [
+                                                                {
+                                                                    "fieldIdentifier": null,
+                                                                    "value": "<p>Laat het resultaat zien aan je docent en sla de code op.</p>\r\n"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "mapping": {
+                                                            "lowerBound": 0,
+                                                            "upperBound": 1,
+                                                            "default": 0,
+                                                            "mapEntries": []
+                                                        },
+                                                        "areaMapping": null
+                                                    }
+                                                ],
+                                                "outcomeDeclarations": [
+                                                    {
+                                                        "identifier": "SCORE",
+                                                        "cardinality": "single",
+                                                        "baseType": "float",
+                                                        "defaultValue": 0,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "FEEDBACK",
+                                                        "cardinality": "single",
+                                                        "baseType": "identifier",
+                                                        "defaultValue": null,
+                                                        "interpretation": null
+                                                    }
+                                                ],
+                                                "feedback": [
+                                                    {
+                                                        "outcomeIdentifier": "FEEDBACK",
+                                                        "identifier": "ANSWER_CORRECT",
+                                                        "showHide": true,
+                                                        "title": null,
+                                                        "content": {
+                                                            "body": "<p>Laat het resultaat zien aan je docent en sla de code op.</p>"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "outcomeDeclarations": null,
+                                "showEvaluation": null,
+                                "feedback": null
+                            }
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4057480"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Piezo",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Een Piezo element kan gebruikt worden als een sensor, omdat het vibraties kan detecteren. Een Piezo element kan echter zelf ook geluid maken, je kunt het dus ook als actuator gebruiken. Het piezo element zet elektrische stroom dan om in geluid. Je kunt de toon bepalen door het opgeven van een frequentie. </p>\n<p>De volgende link geeft je een schema van tonen met de bijbehorende frequentie: <a href=\"http://phy.mtu.edu/~suits/notefreqs.html\">http://phy.mtu.edu/~suits/notefreqs.html</a></p>\n<p>Je gaat nu een deurbel maken. </p>\n<p><strong>Benodigdheden:</strong><br/>\n- Jumper draden: Rood, zwart, 2 lange en 2 korte draden.<br/>\n- Piezo element<br/>\n- 10 kilo Ohm weerstandje<br/>\n- Drukknopje</p>\n<p>Je maakt hiermee het volgende circuit:<br/>\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/3/3487f739ecc2ea989a0e2498411626c50bff91bd.jpg\" class=\"height-321-pixels width-500-pixels\"/></p>\n<p><strong>Code:</strong></p>\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"width-450-pixels\">\n<tbody>\n<tr>\n<td>\n<p><span style=\"color:#FFA500;\">void <strong>setup</strong></span>() {<br/>\n  //start serial communication<br/>\n  <span style=\"color:#FFA500;\"><strong>Serial</strong>.begin</span>(9600);<br/>\n}<br/>\n<span style=\"color:rgb(255, 165, 0);\">void <strong>loop</strong>()</span> {<br/>\n  // create a local variable to hold the input on pin A0<br/>\n  <span style=\"color:rgb(255, 165, 0);\">int</span> keyVal = <span style=\"color:rgb(255, 165, 0);\">analogRead</span>(A0);<br/>\n  // send the value from A0 to the Serial Monitor<br/>\n<span style=\"color:rgb(255, 165, 0);\">  <strong>Serial</strong>.println</span>(keyVal);<br/>\n  // play the note corresponding to each value on A0<br/>\n  <span style=\"color:rgb(255, 165, 0);\">if</span> (keyVal == 1023) {<br/>\n    // play the first frequency in the array on pin 8<br/>\n    tone(2, 262);<br/>\n  }<br/>\n<span style=\"color:rgb(255, 165, 0);\">  else if</span> (keyVal == 0) {<br/>\n    // play the second frequency in the array on pin 8   <span style=\"color:rgb(255, 165, 0);\">noTone</span>(2);<br/>\n  }<br/>\n}</p>\n</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<p>Als je op de knop indrukt zal het Piezo element een toon produceren.</p>\n<p> </p>\n"
+                        },
+                        {
+                            "type": "questionnaire",
+                            "reference": {
+                                "value": "4057482"
+                            },
+                            "assessmentTestItem": {
+                                "label": "Oefening",
+                                "type": "exercise",
+                                "header": {
+                                    "url": "https://maken.wikiwijs.nl/p/questionnaire/standalone/4057482",
+                                    "title": "Deurbel"
+                                },
+                                "introduction": {
+                                    "body": "<p>De deurbel maakt nu alleen geluid als je de knop ingedrukt houdt. Je kunt er natuurlijk ook voor zorgen dat het geluid langer aanhoudt als je op de knop drukt. Je kunt ook de toonhoogte veranderen of het Piezo element een melodie laten spelen. <br />\nIn de volgende oefeningen ga je hier mee experimenteren.</p>"
+                                },
+                                "countQuestions": 2,
+                                "sections": [
+                                    {
+                                        "type": "assessment",
+                                        "identifier": "SECTION_4057482",
+                                        "name": "MAIN_SECTION",
+                                        "select": null,
+                                        "shuffle": null,
+                                        "selection": null,
+                                        "assessmentItems": [
+                                            {
+                                                "identifier": "4057482_0",
+                                                "itemBody": null,
+                                                "questions": [
+                                                    {
+                                                        "type": "extendedTextInteraction",
+                                                        "label": "Duur beltoon aanpassen",
+                                                        "prompt": {
+                                                            "body": "<p>Als je op de knop drukt hoor je de beltoon. Zorg er nu eens voor dat deze beltoon 3 seconden aanhoudt als je de knop kort induwt. <br />\nHiervoor heb je maar 1 extra regel nodig in de code.</p>\n<p>Welk commando moet je invoegen? <br />\n </p>"
+                                                        },
+                                                        "feedback": null
+                                                    }
+                                                ],
+                                                "responseDeclarations": [
+                                                    {
+                                                        "identifier": "4057482_0_1",
+                                                        "cardinality": "single",
+                                                        "baseType": "string",
+                                                        "correctResponse": {
+                                                            "interpretation": null,
+                                                            "values": [
+                                                                {
+                                                                    "fieldIdentifier": null,
+                                                                    "value": "<p>Het commando dat je nodig hebt is <strong>delay(3000)</strong></p>\r\n\r\n<p>Je moet dit commando op de juiste plaats zetten.&nbsp;<br />\r\nJe kunt zelf controleren of je deurbel werkt.</p>\r\n"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "mapping": {
+                                                            "lowerBound": 0,
+                                                            "upperBound": 1,
+                                                            "default": 0,
+                                                            "mapEntries": []
+                                                        },
+                                                        "areaMapping": null
+                                                    }
+                                                ],
+                                                "outcomeDeclarations": [
+                                                    {
+                                                        "identifier": "SCORE",
+                                                        "cardinality": "single",
+                                                        "baseType": "float",
+                                                        "defaultValue": 0,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "FEEDBACK",
+                                                        "cardinality": "single",
+                                                        "baseType": "identifier",
+                                                        "defaultValue": null,
+                                                        "interpretation": null
+                                                    }
+                                                ],
+                                                "feedback": [
+                                                    {
+                                                        "outcomeIdentifier": "FEEDBACK",
+                                                        "identifier": "ANSWER_CORRECT",
+                                                        "showHide": true,
+                                                        "title": null,
+                                                        "content": {
+                                                            "body": "<p>Het commando dat je nodig hebt is <strong>delay(3000)</strong></p>\n<p>Je moet dit commando op de juiste plaats zetten. <br />\nJe kunt zelf controleren of je deurbel werkt.</p>"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "identifier": "4057482_1",
+                                                "itemBody": null,
+                                                "questions": [
+                                                    {
+                                                        "type": "extendedTextInteraction",
+                                                        "label": "Beltoon veranderen",
+                                                        "prompt": {
+                                                            "body": "<p>Je kunt de deurbel een andere toonhoogte laten spelen. Je kunt zelfs een melodietje laten spelen. Probeer eerst eens de toonhoogte te veranderen en laat de deurbel daarna een zelf gekozen melodie spelen.</p>"
+                                                        },
+                                                        "feedback": null
+                                                    }
+                                                ],
+                                                "responseDeclarations": [
+                                                    {
+                                                        "identifier": "4057482_1_1",
+                                                        "cardinality": "single",
+                                                        "baseType": "string",
+                                                        "correctResponse": {
+                                                            "interpretation": null,
+                                                            "values": [
+                                                                {
+                                                                    "fieldIdentifier": null,
+                                                                    "value": "<p>Om een melodie te laten spelen gebruik je steeds de delayfunctie <strong>delay(....)</strong> en geef je op de volgende regel een andere frequntie in bij het commando <strong>tone(2,frequentie)</strong>.</p>\r\n\r\n<p>Voor frequenties van tonen kun je gebruik maken van de eerder gegeven link.</p>\r\n"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "mapping": {
+                                                            "lowerBound": 0,
+                                                            "upperBound": 1,
+                                                            "default": 0,
+                                                            "mapEntries": []
+                                                        },
+                                                        "areaMapping": null
+                                                    }
+                                                ],
+                                                "outcomeDeclarations": [
+                                                    {
+                                                        "identifier": "SCORE",
+                                                        "cardinality": "single",
+                                                        "baseType": "float",
+                                                        "defaultValue": 0,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "FEEDBACK",
+                                                        "cardinality": "single",
+                                                        "baseType": "identifier",
+                                                        "defaultValue": null,
+                                                        "interpretation": null
+                                                    }
+                                                ],
+                                                "feedback": [
+                                                    {
+                                                        "outcomeIdentifier": "FEEDBACK",
+                                                        "identifier": "ANSWER_CORRECT",
+                                                        "showHide": true,
+                                                        "title": null,
+                                                        "content": {
+                                                            "body": "<p>Om een melodie te laten spelen gebruik je steeds de delayfunctie <strong>delay(....)</strong> en geef je op de volgende regel een andere frequntie in bij het commando <strong>tone(2,frequentie)</strong>.</p>\n<p>Voor frequenties van tonen kun je gebruik maken van de eerder gegeven link.</p>"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "outcomeDeclarations": null,
+                                "showEvaluation": null,
+                                "feedback": null
+                            }
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4057483"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Servo motor",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Een motor zet elektriche stroom om in beweging. Bij een servomotor is deze beweging een rotatie tot maximaal 180 graden. <br/>\nServomotoren worden gebruikt in machines om bijvoorbeeld machine-onderdelen of producten in de juiste positie te brengen. Een bewakingscamera kan met behulp van een servomotor ook in verschillende posities gebracht worden.</p>\n<p>We gaan nu bekijken hoe je de servomotor kunt aansluiten op de Arduino en hoe je de servomotor vervolgens kunt aansturen. </p>\n<p><strong>Benodigdheden:</strong><br/>\n- Jumper draden: Rood, zwart, nog 1 andere draad<br/>\n- Servomotor<br/>\n- 3 male header pins (zie plaatje hieronder)<br/>\n<br/>\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/4/4b6c63b3e0f7d7964420a24cf9bc70df397cb6bc.jpg\" class=\"height-225-pixels width-300-pixels\"/><br/>\n<br/>\nMaak hiermee het volgende circuit:<br/>\n<br/>\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/6/6a0d7d4a7cb46b5a3121d8d2c433c161991769c3.jpg\" class=\"height-375-pixels width-500-pixels\"/><br/>\n<br/>\nMet de rode draad zorg je ervoor dat het breadboard voorzien wordt van 5V, de zwarte draad verbindt het breadboard weer met Ground.<br/>\nDe drie male header pins zijn de verbinding tussen de servomotor en het breadboard. <br/>\nLet goed op dat je de zwarte draad van de servomotor met de - kolom (Ground) verbindt en de rode draad van de servomotor met de + kolom (5V) verbindt. <br/>\nDe witte draad van de servomotor verbind je met poort 9 op de Arduino.</p>\n<p><strong>Code:</strong></p>\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"width-600-pixels\">\n<tbody>\n<tr>\n<td>\n<p>#include &lt;<span style=\"color:#FFA500;\">Servo</span>.h&gt; <br/>\n <br/>\n<span style=\"color:#FFA500;\">Servo</span> myservo;  // create servo object to control a servo <br/>\n                        // twelve servo objects can be created on most boards<br/>\n <br/>\n<span style=\"color:#FFA500;\">int</span> pos = 0;       // variable to store the servo position <br/>\n <br/>\n<span style=\"color:#FFA500;\">void setup</span>() <br/>\n{ <br/>\n  myservo.<span style=\"color:#FFA500;\">attach</span>(9);  // attaches the servo on pin 9 to the servo object <br/>\n} <br/>\n <br/>\n<span style=\"color:#FFA500;\">void loop</span>() <br/>\n{ <br/>\n  <span style=\"color:#FFA500;\">for</span>(pos = 0; pos &lt;= 180; pos += 1) // goes from 0 degrees to 180 degrees <br/>\n  {                                                  // in steps of 1 degree <br/>\n    myservo.<span style=\"color:#FFA500;\">write</span>(pos);          // tell servo to go to position in variable 'pos' <br/>\n    <span style=\"color:#FFA500;\">delay</span>(15);                       // waits 15ms for the servo to reach the position <br/>\n  } <br/>\n  <span style=\"color:#FFA500;\">for</span>(pos = 180; pos&gt;=0; pos-=1)     // goes from 180 degrees to 0 degrees <br/>\n  {                                <br/>\n    myservo.<span style=\"color:#FFA500;\">write</span>(pos);          // tell servo to go to position in variable 'pos' <br/>\n    <span style=\"color:#FFA500;\">delay</span>(15);                       // waits 15ms for the servo to reach the position <br/>\n  } <br/>\n}</p>\n</td>\n</tr>\n</tbody>\n</table>\n<p>Met deze code laat je de servomotor een rotatie van 0 tot 180 graden en weer terug maken. </p>\n<p>Je kunt de positie van de arm van de servomotor ook zelf bepalen met behulp van een pot-meter.<br/>\nHiervoor gaan we de pot-meter toevoegen aan het eerder opgestelde circuit. </p>\n<p><strong>Extra benodigdheden:</strong><br/>\n- POT-meter<br/>\n- 3 lange jumper draden, 2 korte jumper draden<br/>\n<br/>\nJe zet de pot-meter er op de volgende manier tussen:<br/>\n<br/>\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/c/ccbc0c681f8b1732a509aec51262ebc0963bb542.jpg\" class=\"height-375-pixels width-500-pixels\"/><br/>\n<br/>\nLet erop dat de twee buitenste pinnetjes van de pot-meter met 5V en Ground verbonden zijn. <br/>\nZorg dat je de middelste pin kunt laten aflezen door hem met een jumper draad te verbinden met analoge poort A0.</p>\n<p><strong>Code:</strong></p>\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"width-770-pixels\">\n<tbody>\n<tr>\n<td>\n<p>#include &lt;<span style=\"color:rgb(255, 165, 0);\">Servo</span>.h&gt; <br/>\n<br/>\n<span style=\"color:#FFA500;\">Servo</span> myservo;  // create servo object to control a servo<br/>\n<br/>\n<span style=\"color:#FFA500;\">int</span> potpin = 0;  // analog pin used to connect the potentiometer<br/>\n<span style=\"color:#FFA500;\">int</span> val;             // variable to read the value from the analog pin<br/>\n<br/>\n<span style=\"color:#FFA500;\">void <strong>setup</strong></span>()<br/>\n{<br/>\n  myservo.<span style=\"color:#FFA500;\">attach</span>(9);  // attaches the servo on pin 9 to the servo object<br/>\n  <span style=\"color:#FFA500;\"><strong>Serial</strong>.begin</span>(9600);<br/>\n}<br/>\n<br/>\n<span style=\"color:#FFA500;\">void <strong>loop</strong></span>() <br/>\n{<br/>\n  val = <span style=\"color:#FFA500;\">analogRead</span>(potpin);            // reads the value of the potentiometer (value between 0 and 1023)<br/>\n<span style=\"color:#FFA500;\">  <strong>Serial</strong>.print</span>(val);<br/>\n  val = <span style=\"color:#FFA500;\">map</span>(val, 0, 1023, 0, 180);  // scale it to use it with the servo (value between 0 and 180) <br/>\n<span style=\"color:#FFA500;\">  myservo.write</span>(val);                     // sets the servo position according to the scaled value <br/>\n  <span style=\"color:#FFA500;\">delay</span>(15);                                  // waits for the servo to get there <br/>\n} </p>\n</td>\n</tr>\n</tbody>\n</table>\n<p>De POT-meter fungeert nu als een draaiknop waarmee je de positie van de arm kunt bepalen.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "4057485"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "LCD scherm",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "4057486"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Aan sluiten van een standaard LCD scherm.",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<div><strong>Het aansluiten van een LCD display</strong></div>\n<table border=\"0\" class=\"width-800-pixels\">\n<tbody>\n<tr>\n<td>\n<div align=\"justify\"><br/>\nHet aansluiten van een LCD display was vroeger erg ingewikkeld, maar tegenwoordig is dat een fluitje van een cent. De Arduino software kent een flink aantal libraries (bibliotheken) die al het moelijke werk uit handen nemen. </div>\n</td>\n</tr>\n</tbody>\n</table>\n<p><br/>\n<br/>\n<img alt=\"\" src=\"http://www.arduino.nu/les5/LCM-S01602DTR^A.jpg\" class=\"height-137-pixels width-307-pixels\"/><br/>\n </p>\n<table border=\"0\" class=\"width-800-pixels\">\n<tbody>\n<tr>\n<td>\n<div align=\"justify\">Kijk maar eens naar het onderstaande programma. Je ziet in het programma bovenin het commando #include &lt;LiquidCrystal.h&gt; Dat betekent niets anders dan dat de software straks een beetje extra code mee upload naar de Arduino, zodat je alleen nog maar de tekst hoeft in te typen die je wilt laten zien na het commando lcd.print(\"Elektrotechniek!\");\n<p> </p>\n</div>\n<p>Je gebruikt een normaal 4 bits (geen seri\u00ebel) display zodat zodat het commando LiquidCrystal wil weten waar de pennen rs, rw, d4 t/m d7 zijn aangesloten. Wil je meer weten van displays bekijk dan eens een datasheet.<br/>\n<br/>\nHet commando lcd.setCursor(0, 1); zorgt er voor dat de nieuw te plaatsen tekst op de tweede regel komt. Zou je een display hebben met vier regels dan zou de start van de derde regel dus plaats vinden op regel 0,2. Dat klinkt vreemd, maar de positie 0,0 is namelijk de eerste positie op de eerste regel.</p>\n<p>Je kunt de sketch ook <a href=\"http://www.arduino.nu/Hallo_ROCA12.pde\" target=\"_blank\">hier</a> downloaden.</p>\n</td>\n</tr>\n</tbody>\n</table>\n<p><br/>\n </p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/6/639b5d560741cb039681c067418481ff9b5645fb.png\" class=\"height-408-pixels width-573-pixels\"/></p>\n<p><img alt=\"\" src=\"http://www.arduino.nu/14-3-2009%2019-27-37.jpg\" class=\"height-599-pixels width-500-pixels\"/></p>\n<p> </p>\n<p>Als je ook nog een video wil zien over hoe je het LCD scherm aansluit op een Arduino, kijk volgende video:</p>\n<div><iframe allowfullscreen=\"allowfullscreen\" frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/85LvW1QDLLw\" width=\"560\" class=\"video-item\"/></div>\n<div> </div>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4057488"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Combineren van LCD met Sensor",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<div><br/>\nHet koppelen van de temperatuur sensor aan een Arduino met een LCD scherm, waarbij de temperatuur wordt weergegeven in graden Fahrenheit.</div>\n<div> </div>\n<div> </div>\n<p><a href=\"http://api.ning.com/files/Jec9iT2*pOi0IOrbzrz3mUA-nerqthd8SpGKB5SNJMh*bCLxRTaa3ZTzfGGGLG141vYIvahws8xDI3ythhlFUvE-cEGx0ULe/DSCN2397.JPG\" target=\"_self\"><img alt=\"\" src=\"http://api.ning.com/files/Jec9iT2*pOi0IOrbzrz3mUA-nerqthd8SpGKB5SNJMh*bCLxRTaa3ZTzfGGGLG141vYIvahws8xDI3ythhlFUvE-cEGx0ULe/DSCN2397.JPG?width=500\" class=\"width-500-pixels\"/></a></p>\n<p>Deze les laat op een interessante manier zien hoe je met de Arduino de temperatuur van de omgeving kunt meten en zichtbaar kunt maken op een LCD 16X2 scherm in graden Fahrenheit door gebruik te maken van delen van de programmatuur en de LM35DZ temperatuursensor. </p>\n<p> </p>\n<p>Hiervoor zijn de volgende componenten nodig:</p>\n<p>- 1 Arduino board</p>\n<p>- 1 LCD 16x2 scherm</p>\n<p>- 1 10K potentiometer</p>\n<p>- 1 Temperature LM35 sensor</p>\n<p>- Jumpers </p>\n<p>Deze sensor meet de externe temperatuur en converteert deze in een bijbehoorende spannings waarde.  In deze schakeling koppelen we de output V<sub>0 </sub>van de sensor aan de Arduino pin A0, die verandert het in de <em>float</em>waarde van de temperatuur, daarna, laten we het zien op het LCD scherm.  De 10K potentiometer kan het contrast van het scherm aanpassen.</p>\n<p> </p>\n<p>Maak de onderstaande schakeling met de Arduino en de benodigde componenten:</p>\n<p> </p>\n<p><a href=\"http://api.ning.com/files/xvZFwQ6bwXA5Kv2iUadEvmoZR8BRpy-09CKJ3IV6vlvSoEoCEQtfNqLsVc8HlzM3I*e-TbfEFi*yaXhb57TCqCMgXQluUrET/esquema.bmp\" target=\"_self\"><img alt=\"\" src=\"http://api.ning.com/files/xvZFwQ6bwXA5Kv2iUadEvmoZR8BRpy-09CKJ3IV6vlvSoEoCEQtfNqLsVc8HlzM3I*e-TbfEFi*yaXhb57TCqCMgXQluUrET/esquema.bmp?width=500\" class=\"width-500-pixels\"/></a></p>\n<p> </p>\n<p>Open de Arduino's IDE en voeg de volgende code toe:</p>\n<p> </p>\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" summary=\"#include &lt;LiquidCrystal.h&gt; // Include the library to use a LCD display #define sensor 0 // Define the A0 pin as &#x201C;sensor&#x201D; int Vin; // Variable to read the value from the Arduino&#x2019;s pin float Temperature; // Variable that receives the converted voltage value to temperature float TF; // Variable to receive the converted value from &#xBA;C to &#xBA;F LiquidCrystal lcd (12, 11, 5, 4, 3, 2); /* The function above declares which Arduino&#x2019;s pins will be used for controlling the LCD */ void setup() { lcd.begin(16, 2); // It tells the Arduino that the display is a 16x2 type lcd.print(&quot;Temperature: &quot;); // Send the text to the screen of the display. } void loop() { Vin = analogRead (sensor); /* Tells the Arduino to read the pin and stores the value in &#x201C;Vin&#x201D; */ Temperature=(500*Vin)/1023; /* Converts the voltage value into temperature and stores it into the &#x201C;Temperature&#x201D; variable (in &#xBA;C)*/ TF = ((9*Temperature)/5)+32; // Converts &#xBA;C to &#xBA;F lcd.setCursor(0, 1); // Moves the cursor of the display to the next line lcd.print(TF); // Exhibits the value of the temperature on the display lcd.print(&quot; F&quot;); // Writes &#x201C;F&#x201D; to indicate that it is in Fahrenheit scale. delay(1000); // Waits for a second to read the pin again }\" class=\"width-500-pixels\">\n<tbody>\n<tr>\n<td>\n<p>#include  &lt;<span style=\"color:#FF8C00;\">LiquidCrystal.h</span>&gt;         // Include the library to use a LCD display</p>\n<p>#define          sensor           0        // Define the A0 pin as \"sensor\"</p>\n<p> </p>\n<p><span style=\"color:#FF8C00;\">int</span>  Vin;           //  Variable to read the value from the Arduino's pin</p>\n<p><span style=\"color:#FF8C00;\">float</span>  Temperature; //  Variable that receives the converted voltage value to temperature</p>\n<p><span style=\"color:#FF8C00;\">float</span>     TF; // Variable to receive the converted value from  \u00baC to \u00baF</p>\n<p> </p>\n<p><span style=\"color:#FF8C00;\">LiquidCrystal</span>  lcd    (12, 11, 5, 4, 3, 2); </p>\n<p>/* The function above declares which Arduino's pins will be used for controlling the LCD */</p>\n<p><span style=\"color:#FF8C00;\">void  setup</span>()</p>\n<p>{</p>\n<p>  lcd.<span style=\"color:#FF8C00;\">begin</span>(16, 2);                            //  It tells the Arduino that the display is a 16x2 type</p>\n<p>  lcd.<span style=\"color:#FF8C00;\">print</span>(\"<span style=\"color:#0000FF;\">Temperature:</span> \");           //  Send the text to the screen of the display.</p>\n<p>}</p>\n<p><span style=\"color:#FF8C00;\">void  loop</span>()</p>\n<p>{</p>\n<p>  Vin = <span style=\"color:#FF8C00;\">analogRead</span> (sensor);  /*   Tells the Arduino to read the pin and stores the value in \"Vin\" */</p>\n<p>  Temperature=(500*Vin)/1023;  /* Converts the voltage value into temperature and stores it into the \"Temperature\"  variable  (in  \u00baC)*/</p>\n<p>TF = ((9*Temperature)/5)+32; // Converts  \u00baC to \u00baF</p>\n<p>  lcd.<span style=\"color:#FF8C00;\">setCursor</span>(0, 1);           // Moves  the cursor of the display to the next line</p>\n<p>  lcd.<span style=\"color:#FF8C00;\">print</span>(TF);    // Exhibits the value of the temperature on the display</p>\n<p>  lcd.<span style=\"color:#FF8C00;\">print</span>(\" F\");         // Writes \"F\" to indicate that it is in Fahrenheit scale.</p>\n<p> </p>\n<p>  <span style=\"color:#FF8C00;\">delay</span>(1000);  //  Waits for a second to read the pin again</p>\n<p>}</p>\n</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<p>Als laatste stap laad je de code naar je Arduino.</p>\n<p> </p>\n<p> </p>\n<p>Je project om de temperatuur te laten zien is bijna klaar. De temperatuur wordt op het scherm getoond in graden Farenheit. Kijk in je code om dit te veranderen naar graden Celcius.</p>\n<p> </p>\n<p>Note: de LM35DZ sensor heeft een temperatuur range van waarde van tussen -55\u00baC to 150\u00baC.</p>\n<p>Als je geineresseerd bent in de uitleg hoe de programmatuur dit om rekent van spanning naar temperatuur lees dan het volgende door:</p>\n<p>In deze sensor, voor elke 1 graden Celcius ontvangen, de V<sub>0</sub> output is verhoogt met 10mV, in de range van 0 tot 5V, met 10 bits resolutie voor Analoog/Digitaal conversie (1024 verschillende waardes om de temperatuur te presenteren).</p>\n<p> </p>\n<p>Dus de maximum waarde (1023, omdat het is van 0 tot 1023) is dan 5V.  De helft komt dan overeen met 511 of 2,5V en zo voort.</p>\n<p>Voor de berekening, is het 5V output van de sensor overeenkomen met 500<sup>0</sup>C (Wat verschillend is van de realiteit).</p>\n<p>Alhoewel, dit voorbeeld geeft het ons de volgende generieke relatie:</p>\n<p> </p>\n<p>Temperatuur  ----- Vin</p>\n<p>         500\u00baC  ----- 1023              (maximale waarde)</p>\n<p> </p>\n<p>Dit geeft ons:</p>\n<p>Temperatuur = (500*Vin)/1023, maar omdat het in \u00baC is en we het in \u00baF willen, zullen we het converteren:</p>\n<p>TF = ((9*Temperatuur)/5)+32, en dit is de waarde die getoond wordt op het LCD scherm.</p>\n<p> </p>\n<p>Met deze uitleg zou je ook in staat moeten zijn om de temperatuur in Kelvin op het scherm te laten komen.</p>\n<p>Tenslotte: maak de oefening af zodanig dat de temperatuur in Kelvin op het scherm komt te staan.</p>\n<p> </p>\n<p>Je kunt ook nog de volgende video bekijken:</p>\n<div><iframe allowfullscreen=\"allowfullscreen\" frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/WwUBXFpJZtE\" width=\"420\" class=\"video-item\"/></div>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "4057490"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Meet- en regelsysteem",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<h3 class=\"font-style-italic\" style=\"color:#aaa;\"><strong>Eindopdrachten</strong></h3>\n<p>In de eindopdracht ga je sensoren, gebruikersinput en actuatoren combineren tot een meet- en regelsysteem.<br/>\nJe kunt hierbij gebruik maken van de gegeven codes in de modules.<br/>\nAls het eindproduct af is geef je hierover een presentatie aan de rest van de groep waarin je jouw eindproduct presenteert en laat je zien hoe je hebt gezorgd dat het werkt. In de beoordeling worden ook originaliteit en de moeilijkheidsgraad van het door jou gemaakte eindproduct meegewogen.</p>\n<p>Je mag zelf een project bedenken dat je wilt maken, je mag ook kiezen voor een van de hieronder omschreven eindopdrachten.</p>\n<h3 class=\"font-style-italic\" style=\"color:#aaa;\"><span style=\"color:#B22222;\">Weerstation</span></h3>\n<p>Maak een weerstation dat van de volgende grootheden de gemeten waarden laat zien:<br/>\n- Temperatuur<br/>\n- Luchtvochtigheid</p>\n<p>Je kunt deze waarden op een computerscherm laten zien of op een LCD-scherm. Als je nog andere dingen wilt toevoegen (bijvoorbeeld de tijd), dan mag dit natuurlijk ook.</p>\n<h3 class=\"font-style-italic\" style=\"color:#aaa;\"><span style=\"color:#B22222;\">Verkeerslicht(en)</span></h3>\n<p>Maak een werkend verkeerslicht waarbij je door middel van een sensor of een drukknop zorgt dat het verkeerslicht op groen springt. Breidt de opdracht eventueel uit tot het maken van een functionerend kruispunt.</p>\n<h3 class=\"font-style-italic\" style=\"color:#aaa;\"><span style=\"color:#B22222;\">Automatische fietsverlichting</span></h3>\n<p>Een automatische fietsverlichting heeft een lichtsensor en een bewegingssensor. Wordt het donker en beweegt de fiets, dan gaat het achterlicht vanzelf branden. In het achterlicht zelf bevinden zich drie LED-lampjes. De lichtsensor geeft een spanning van 1,5V af als het donker begint te worden. De bewegingssensor geeft een tweewaardig signaal af. Het signaal is hoog als de fiets beweegt en laag als de fiets stilstaat.</p>\n<h3 class=\"font-style-italic\" style=\"color:#aaa;\"><span style=\"color:#B22222;\">Binaire klok</span></h3>\n<p>Maak een binaire klok met de Arduino. Maak gebruik van het web om idee\u00ebn op te doen om tot een creatief prototype te komen. Er zijn veel varianten mogelijk.</p>\n<h3 class=\"font-style-italic\" style=\"color:#aaa;\"><span style=\"color:#B22222;\">Stopwatch</span></h3>\n<p>Een stopwatch bevat drie drukschakelaars. Elke drukschakelaar geeft een hoog signaal aan de teller als de knop even wordt ingedrukt. De eerste drukschakelaar zorgt voor het starten van de stopwatch. De tweede stopt de stopwatch. De derde zet de stopwatch op nul.</p>\n<h3 class=\"font-style-italic\" style=\"color:#aaa;\"><span style=\"color:#B22222;\">Lichtautomaat</span></h3>\n<p>In een lokaal is een automatisch systeem om de lampen aan en uit te schakelen.<br/>\nDe lampen zijn aan als tegelijkertijd aan de volgende twee voorwaarden is voldaan: er is weinig licht in het lokaal en er is beweging, of er is beweging geweest gedurdende de laatste 8 minuten terwijl er weinig licht was. Zo niet, dan zijn de lampen uit.<br/>\nHet signaal van de lichtsensor wordt groter als er meer licht op valt.<br/>\nDe bewegingssensor geeft een hoog signaal als er iemand beweegt in het lokaal.<br/>\nDe pulsgenerator geeft \u00e9\u00e9n puls per minuut. De LED stelt de verlichting in het lokaal voor.</p>\n<h3 class=\"font-style-italic c1\">Plantenwatermachine</h3>\n<p>Met de Arduino, een bodemvochtigheidssensor en een pompje kun je eenvoudig een 'plantenwatermachine' maken. De spullen die je zou kunnen gebruiken zijn goedkoop op internet te krijgen:</p>\n<p><br/>\n- Pompje voor aquarium: <br/>\n<a href=\"http://www.banggood.com/Mini-Submersible-DC-Motor-Pump-3V-120LH-Low-Noise-Max-Lift-p-87235.html\">http://www.banggood.com/Mini-Submersible-DC-Motor-Pump-3V-120LH-Low-Noise-Max-Lift-p-87235.html</a><br/>\n- Stukje slang voor aan de pomp  (kies 7*10mm)<br/>\n<a href=\"http://www.banggood.com/2M-Food-Grade-Medical-Silicone-Hose-Inner-Diameter-from-2-7MM-p-967089.html\">http://www.banggood.com/2M-Food-Grade-Medical-Silicone-Hose-Inner-Diameter-from-2-7MM-p-967089.html</a><br/>\n- Bodemvochtigheidssensor<br/>\n<a href=\"http://www.banggood.com/Soil-Hygrometer-Humidity-Detection-Module-Moisture-Sensor-For-Arduino-p-79227.html\">http://www.banggood.com/Soil-Hygrometer-Humidity-Detection-Module-Moisture-Sensor-For-Arduino-p-79227.html</a></p>\n<p>Je kunt er zelfs zoiets van maken als je een echte uitdaging wilt.</p>\n<div><iframe allowfullscreen=\"allowfullscreen\" frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/dnnjD7KBEA8\" width=\"560\" class=\"video-item\"/></div>\n<p> </p>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "4057492"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Docenten Handleiding",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<div title=\"Page 1\">\n<h2 class=\"font-style-italic\">Docentenhandleiding Arduino</h2>\n<p>Handleiding voor bij de lessenserie Kennismaken met Arduino.</p>\n<p>De Arduino is ruim 10 jaar geleden ontwikkeld en wordt tegenwoordig steeds vaker ingezet in het onderwijs.  De orginele Arduino UNO komt uit Italie als handig applicatie device dat kan omgaan met output- en inputsignalen.  Met een Arduino kun je eenvoudig een meet- en regelsysteem bouwen.  Het kan LED's laten knipperen of reageren op temperauur, licht en/of beweging, maar dat is nog maar het begin. De mogelijkheden zijn onbeperkt en het is nog goedkoop ook.</p>\n<p>De Arduino-community is sterk aan het groeien.  Voor bijna iedere applicatie kun je wel een voorbeeld of tutorial vinden. Google je op \"Applicatie's met Arduino\" vind je ongetwijfeld iets van instructables.com.  Niet alles wat je vindt kun je direct gebruiken, maar onderschat de leerlingen niet.</p>\n<p>Om met een Arduino te kunnen werken moeten de leerlingen twee dingen kennen.  Een stukje basiselectronica en programmeren.  Van basiskennis over electronica is nodig: Stroomkring, spanning, schakelaar, plus/minpool, weerstanden en LED's aansluiten.  Indien je met de analoge ingangssignalen wilt werken, is kennis van het principe van spanningsverdeler nodig.  Inzake programmeren is er een standaard Arduino IDE software dat werkt via tekstregels, de in te voeren tekst regels lijken veel op de C++ programmeer taal.  Ook kun je gebruik maken van de modulaire programmeer taal Ardu-blocks.  Communicatie van PC naar de Arduino wordt met software geregeld en loopt via een USB poort.</p>\n<p> </p>\n<h2 class=\"font-style-italic\">Betadidactische benadering</h2>\n<p>We hebben geprobeerd deze lesmodule zo veel mogelijk constructivistisch in te richten. Wij willen de leerlingen onderzoekend laten leren door codes aan ze te presenteren, waarmee ze zelf kunnen experimenteren. Op die manier kunnen ze leren omgaan met programmeren, zonder dat het aanvoelt als een cursus programmeren.</p>\n<p>Daarnaast hebben we geprobeerd de stukken tekst zo kort mogelijk te houden, zodat leerlingen zelf op zoek moeten als ze nog meer informatie nodig hebben.</p>\n<p>De eindopdracht zullen we probleemgestuurd inrichten. Leerlingen moeten zelf onderzoeken welke codes uit het lesmateriaal ze nodig hebben, ze moeten deze codes nu zelf gaan aanpassen en hun eigen opstelling maken.</p>\n<p> </p>\n<h2 class=\"font-style-italic\">Hoe ga je van start?</h2>\n<p>Na wat uitleg over het lessen pakket en de opbouw er van, kunnen de leerlingen aan de slag met de eerste oprachten.</p>\n<p>Naast de Arduino-lessen kunnen de leerlingen het geheel afsluiten met een eigen gekozen project. Aan het einde zijn verschillende project idee\u00ebn geformuleerd. Hieruit kan gekozen worden of een van de aantal goede Nederlandstalige voorbeelden, die de komende tijd zeker ontworpen zullen gaan worden.</p>\n<p>Voor de gehele module is ongeveer 12 uur nodig. De bedoeling is dat de leerlingen homogene groepjes van twee gaan formeren. Het project bestaat uit een applicatie systeem ontwerp, een concrete proto-type toepassing naar aanleiding van het ontwerp, de bijbehorende documentatie/beschrijving en een presentatie. Voor de beoordeling van het project kan gebruik gemaakt worden van het volgende beoordelingsschema.  Uiterard kan ook een eigen matrix/rubriks gebruikt/gemaakt worden.</p>\n<p> </p>\n<p><span class=\"underline\">Lessen</span></p>\n<div>\n<p>De modules zijn gemaakt om leerlingen zelfstandig op een constructivistische manier te laten werken. Zorg dat u een aantal van de oefeningen zelf ook al eens gedaan hebt.</p>\n<p>Als leerlingen eenmaal begrijpen dat er digitale en analoge pinnen zijn welke als input of output gedefinieerd kunnen worden om waardes naar toe te schrijven of mee uit te lezen, kunnen ze op een cognitivistische leerstyle heel veel leuke projecten uitvoeren.  He is de bedoeling dat het project met twee-tallen gedaan wordt zoals eerder beschreven.</p>\n<p> </p>\n<p><span class=\"underline\">Niveau</span></p>\n<p>De module is geschikt voor HAVO en VWO leerjaar 4 (voor DNS ontworpen op niveau VWO 4). Het is niet noodzakelijk dat leerlingen basis programmeer concepten al kennen. Het Arduino platform is zeker heel geschikt om basis programmeer vaardigheden aan te leren.</p>\n<p> Talen zoals Python, Pascal, C# of C++ zijn erg geschikt als basis voor deze module, hoewel het met Visual Basic of eventueel iets als PHP ook al wel zou moeten kunnen.</p>\n<p> </p>\n<p><span class=\"underline\">Een Arduino is....</span></p>\n<p>een platform bestaande uit:</p>\n<p>- Een Atmel AVR microcontroller<br/>\n- Een Arduino bordje waarmee je de chip kunt gebruiken<br/>\n- Een programmeertool + taal waarmee de Arduino wat kan doen!<br/>\n- Het 'shield' concept zodat extra functionaliteit in een handomdraai toegevoegd wordt aan de Arduino basis</p>\n<p> </p>\n<p><span class=\"underline\">Leveranciers en hardware</span></p>\n<p>Een paar tips over leveranciers e.d. Ten eerste staat op arduino.cc een lijst van hardware leveranciers (ook voor Nederland). Freeduino.eu heeft kits gemaakt voor een Hogeschool en daar zijn positieve ervaringen mee.<br/>\nA-blocks.org heeft handige kits om zonder solderen (of alleen \u00e9\u00e9nmalig solderen) sensoren en actuatoren meerdere malen toe te kunnen passen. Bij andere kits zullen LED's e.d. bij verkeerd gebruik soms vervangen moeten worden.<br/>\nHet is ook handig om voldoende breadboard draadjes in voorraad te hebben. Deze raken in de praktijk snel op bij opdrachten zoals het verkeerslicht.<br/>\nSoms is het handig als leerlingen bepaalde sensoren (bijv. voor de bumper) solderen. Dit kunt u natuurlijk ook als docent doen.<br/>\nZorg ook dat u wat tangetjes, schoevendraaiers e.d. in de klas heeft zodat leerlingen snel aan de gang kunnen.</p>\n<p>Goedkope (maar goede) Arduino klonen en ander gerelateerd materiaal is zeer goedkoop te krijgen op Chinese webshops. Let hierbij wel op dat een bestelling 3 tot 4 weken onderweg zal zijn.<br/>\n- <a href=\"http://www.banggood.com/buy/Arduino.html\">http://www.banggood.com/buy/Arduino.html</a><br/>\n- <a href=\"http://www.dx.com/s/arduino\">http://www.dx.com/s/arduino</a></p>\n<p> </p>\n<p><span class=\"underline\">Software en klasgebruik</span></p>\n<p>Op Arduino.cc is de Arduino omgeving als Open Source te downloaden. Deze is op zich prima als netwerkversie te installeren. Leerlingen moeten soms wel bij de libraries map kunnen als zij bepaalde sensoren willen gebruiken of zelf de bibliotheek willen uitbreiden. Eventueel kunt u ook zelf eerst zo veel mogelijk uitbreidingen doen aan de bibliotheek en deze aan systeembeheer leveren. Arduino is overigens platform onafhankelijk en het uitpakken van de ZIP naar een USB stick is ook al voldoende om Arduino aan de praat te krijgen.</p>\n</div>\n<p> </p>\n<p><span class=\"underline\">Bij de eindopdrachten</span></p>\n<p>Stimuleer leerlingen  in twee tallen zo veel mogelijk om zelf een eindopdracht te verzinnen. Er worden (in de eerste fase) twee eindopdrachten aangedragen:</p>\n<p>Er zijn tal van andere toepassingen mogelijk, zo bedachten leerlingen uit de testgroep een kubus (gemaakt in een zogenaamd FabLab met Plexiglas) met een acceleratiesensor welke verandert van kleur bij het detecteren van beweging.(Tip: Google: \"resistor color code calculator\") </p>\n<p> </p>\n<p><span class=\"underline\">Veel voorkomende syntax errors</span></p>\n<p><em><span class=\"underline\">Fout bij uploaden</span><br/>\navrdude: ser_open(): can't open device \"\\\\.\\COM6\": Het systeem kan het opgegeven bestand niet vinden.</em><br/>\nDe Arduino is waarschijnlijk niet goed aangeloten op de PC. Kijk of de USB kabel is aangesloten.<br/>\nKies onder Hulpmiddelen &gt; Poort de COM poort waar (Arduino) achter staat.</p>\n<p><em><span class=\"underline\">Fout bij compileren</span></em><br/>\n<em>link.ino: In function 'void loop()':</em><br/>\n<em>Blink.ino:29:1: error: expected ';' before '}' token</em><br/>\n<em>Fout bij compileren.</em></p>\n<p>Waarschijnlijk is dit de meest voorkomende syntax fout, de vergeten puntkomma na een functie.<br/>\nEr staat bij in de hoeveelste regel van de code (hier29). </p>\n<p><span class=\"underline\"><em>Link naar overige syntax errors voor Arduino en C++</em></span><br/>\n<a href=\"http://womble.decadent.org.uk/c++/syntax-errors.html\">http://womble.decadent.org.uk/c++/syntax-errors.html</a></p>\n<p> </p>\n<p><span class=\"underline\">Andere links en/of referentie sites</span></p>\n<p>NVON.tk/fun-electro  voor lespakk1etten en cursussen</p>\n<p>NVON.tk/beta-steun  cursus en DOT over de Arduino ban Betasteunpunt Zuid-Holland</p>\n<p>NVON.tk/verdiep  Cursussen beginners en gevorderen van de Verdiep (Be).</p>\n<p>NVON.tk/ardui-forum  forum voor als je er niet uit komt.</p>\n<p> </p>\n<h2 class=\"font-style-italic\">Beoordelingsmodel</h2>\n<p>Voor de praktisch opdracht kan het volgende model gebruikt worden.</p>\n<p>De beoordeling ( kan gebeuren) gebeurt op basis van een groot aantal punten, die hierna vermeld worden. Zij wordt mede bepaald door de vorm van je toepassing/ applicatie. Onder elk punt worden een aantal criteria vermeld, waarop (indien van toepassing) de beoordeling voornamelijk gebaseerd is. Achter elk beoordelingscriterium is tussen haakjes de bijbehorende mogelijke score vermeld. De score wordt per onderdeel vermeld en levert een maximale totaalscore van 100 op. Het cijfer wordt berekend door het totaal aantal behaalde punten te delen door 10.</p>\n<p>Het niet op tijd inleveren van onderdelen, zoals aangegeven een vooraf afgesproken het tijdpad, betekent per te laat ingeleverd onderdeel 5 punten in mindering op het totaal van 100 punten.</p>\n<p> </p>\n<h2 class=\"font-style-italic\">Beoordelingssysteem</h2>\n<p><span class=\"underline\">Keuze applicatie (1-3)</span></p>\n<p>Hoort de applicatie bij het thema?<br/>\nPast de applicatie bij de gekozen vakken ?</p>\n<p><span class=\"underline\">Voldoende inhoudelijk niveau (1-5)</span></p>\n<p>Diepgang / Complexiteit<br/>\nOriginaliteit<br/>\nOnderzoeksvraag<br/>\n(Relevante) deelvragen    </p>\n<p><span class=\"underline\">Plan van aanpak (1-10) </span></p>\n<p>Duidelijkheid<br/>\nUitvoerbaarheid<br/>\nDeelactiviteiten<br/>\nGeeft het antwoord op de onderzoeksvraag ?<br/>\nTijdsplanning<br/>\nMaken van afspraken met docent en TOA<br/>\nVeiligheid    </p>\n<p><span class=\"underline\">Verzamelde gegevens (informatiebronnen) (1-5)</span></p>\n<p>Voldoende<br/>\nVariatie<br/>\nRelevant<br/>\nBetrouwbaar</p>\n<p><span class=\"underline\">Mate van zelfstandigheid (1-7)</span></p>\n<p>Bij het verzamelen van gegevens<br/>\nBij keuze van de applicatie<br/>\nBij opstellen van het systeem ontwerp<br/>\nBij problemen oplossen<br/>\nBij nemen van (juiste) beslissingen<br/>\nBij meedenken<br/>\nCreativiteit, inventiviteit</p>\n<p><span class=\"underline\">Kwaliteit van het logboek(1-5)</span></p>\n<p>Soort informatie<br/>\nOverzichtelijkheid</p>\n<p><span class=\"underline\">Uitvoering van het systeem ontwerp (in relatie met plan van aanpak) (1-8)</span></p>\n<p>Tijdsplanning<br/>\nAfwijken van aanpak<br/>\nVeiligheid</p>\n<p><span class=\"underline\">Gegevens(verwerking)(1-8)</span><br/>\nVoldoende relevante informatie/waarnemingen/metingen<br/>\nLeesbaarheid<br/>\nRelatie met theorie<br/>\nKwaliteit</p>\n<p><span class=\"underline\">Afwerking (1-5)</span></p>\n<p>Op basis gegevens<br/>\ncomplexiteit</p>\n<p><span class=\"underline\">Mate van zelfstandigheid(1-8)</span></p>\n<p>Bij het verwerken van de gegevens<br/>\nBij opstellen conclusie<br/>\nBij het oplossen van problemen<br/>\nBij het nemen van (juiste) beslissingen<br/>\nBij meedenken<br/>\nCreativitet, inventiviteit<br/>\nEvt. functioneren in de groep</p>\n<p><span class=\"underline\">Inzet(1-8)</span></p>\n<p>Werkverdeling onder de team leden<br/>\nBetrokkenheid van de team leden</p>\n<p><span class=\"underline\">Logboek(1-5)</span></p>\n<p>Soort informatie<br/>\nOverzichtelijkheid<br/>\nVolledigheid<br/>\nInhoudelijke keuzes en motivering<br/>\nDiepgang</p>\n<p><span class=\"underline\">Bronvermelding(1-4)</span></p>\n<p>Aanwezig<br/>\nNotatie</p>\n<p><span class=\"underline\">Presentatie(1-3)</span></p>\n<p>Educatie gehalte<br/>\nCreativiteit<br/>\nDetailering</p>\n<p><span class=\"underline\">Structuur / Opbouw (1-4)</span></p>\n<p>Introductie / inleiding<br/>\nLogische vervolg van presentatie<br/>\nAfsluiting / afronding</p>\n<p><span class=\"underline\">Vormgeving (1-3)</span></p>\n<p>Duur van de presentatie<br/>\nConsistentie van het verhaal<br/>\nGebruik van audiovisuele middelen</p>\n<p><span class=\"underline\">Taalgebruik (1-4)</span></p>\n<p>Correct Nederlands<br/>\nGericht op doelgroep<br/>\nWoordenschat<br/>\nCreativiteit</p>\n<p><span class=\"underline\">Stemgebruik (1-3)</span></p>\n<p>Verstaanbaarheid<br/>\nStemgebruik / intonatie / muziek<br/>\nVlotheid van de spreker</p>\n<p><span class=\"underline\">Non verbale communicatie (1-3)</span></p>\n<p>Enthousiasme<br/>\nHouding<br/>\nUitstraling</p>\n<p> </p>\n<p> </p>\n</div>\n"
+                }
+            ],
+            "sections": []
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": null,
+            "dimension": null,
+            "suppressTitle": null
+        },
+        "color": ""
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Introductie",
+                "reference": {
+                    "value": "4057448"
+                },
+                "sections": [
+                    {
+                        "title": "Aansluiten van de Arduino",
+                        "reference": {
+                            "value": "4057450"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Knipperend LED-lampje",
+                        "reference": {
+                            "value": "4057454"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Sensoren",
+                "reference": {
+                    "value": "4057456"
+                },
+                "sections": [
+                    {
+                        "title": "Zintuigen van de Arduino",
+                        "reference": {
+                            "value": "4057458"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Temperatuur bepalen",
+                        "reference": {
+                            "value": "4057460"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Afstand bepalen",
+                        "reference": {
+                            "value": "4057463"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Gebruikersinput",
+                "reference": {
+                    "value": "4057465"
+                },
+                "sections": [
+                    {
+                        "title": "Wat is gebruikersinput",
+                        "reference": {
+                            "value": "4057466"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Drukschakelaar",
+                        "reference": {
+                            "value": "4057468"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "POT-meter",
+                        "reference": {
+                            "value": "4057471"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Numerieke waarden",
+                        "reference": {
+                            "value": "4057473"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Actuatoren",
+                "reference": {
+                    "value": "4057475"
+                },
+                "sections": [
+                    {
+                        "title": "LED-lampjes",
+                        "reference": {
+                            "value": "4057477"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Piezo",
+                        "reference": {
+                            "value": "4057480"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Servo motor",
+                        "reference": {
+                            "value": "4057483"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "LCD scherm",
+                "reference": {
+                    "value": "4057485"
+                },
+                "sections": [
+                    {
+                        "title": "Aan sluiten van een standaard LCD scherm.",
+                        "reference": {
+                            "value": "4057486"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Combineren van LCD met Sensor",
+                        "reference": {
+                            "value": "4057488"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Meet- en regelsysteem",
+                "reference": {
+                    "value": "4057490"
+                },
+                "sections": []
+            },
+            {
+                "title": "Docenten Handleiding",
+                "reference": {
+                    "value": "4057492"
+                },
+                "sections": []
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": null,
+        "imageSrc": null,
+        "sources": [],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            }
+        ],
+        "usedLearningResources": [
+            {
+                "author": {
+                    "fullName": null,
+                    "referenceName": "Kolk, Hans",
+                    "reference": {
+                        "value": "28404"
+                    },
+                    "firstName": "Hans",
+                    "infix": "",
+                    "lastName": "Kolk",
+                    "emailAddress": "hanskolk1@gmail.com",
+                    "type": "author"
+                },
+                "title": "Kennismaken met de Arduino",
+                "url": "https://maken.wikiwijs.nl/57613/",
+                "datePublished": "2015-06-03T13:16:42+02:00"
+            }
+        ]
+    }
+}

@@ -1,0 +1,2363 @@
+{
+    "documentAuthors": [
+        "Toetsmateriaal Eklassen"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Toetsmateriaal Eklassen",
+            "referenceName": null,
+            "reference": {
+                "value": "22368"
+            },
+            "firstName": "Toetsmateriaal",
+            "infix": "",
+            "lastName": "Eklassen",
+            "emailAddress": "toetsmateriaal.eklassen@gmail.com",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2014-08-14T13:24:09Z",
+    "bulkId": "bulk-17041135-refresh_all",
+    "identifier": 52931,
+    "title": "Bio Informatica - Toets",
+    "description": "",
+    "lastModifiedDate": "2014-08-14T13:24:09+02:00",
+    "dateCreated": "-0001-11-30T00:00:00+00:19",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "Eklassen, Toetsmateriaal",
+                "reference": {
+                    "value": "22368"
+                },
+                "firstName": "Toetsmateriaal",
+                "infix": "",
+                "lastName": "Eklassen",
+                "emailAddress": "toetsmateriaal.eklassen@gmail.com",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-40",
+            "name": "CC Naamsvermelding 4.0 Internationale licentie",
+            "description": "De Internationale Creative Commons 4.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/4.0/.",
+            "link": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/52931/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "empty_section"
+            },
+            "heading": {
+                "type": "empty_heading",
+                "content": "",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "questionnaire",
+                    "reference": {
+                        "value": "905704"
+                    },
+                    "assessmentTestItem": {
+                        "label": "",
+                        "type": "diagnostic",
+                        "header": {
+                            "url": "https://maken.wikiwijs.nl/p/questionnaire/standalone/905704",
+                            "title": "DNA"
+                        },
+                        "introduction": {
+                            "body": ""
+                        },
+                        "countQuestions": 22,
+                        "sections": [
+                            {
+                                "type": "diagnostic",
+                                "identifier": "0",
+                                "name": "DNA",
+                                "select": null,
+                                "shuffle": null,
+                                "selection": null,
+                                "assessmentItems": []
+                            },
+                            {
+                                "type": "diagnostic",
+                                "identifier": "1",
+                                "name": "mRNA",
+                                "select": null,
+                                "shuffle": null,
+                                "selection": null,
+                                "assessmentItems": []
+                            },
+                            {
+                                "type": "diagnostic",
+                                "identifier": "2",
+                                "name": "Begrip en inzicht",
+                                "select": null,
+                                "shuffle": null,
+                                "selection": null,
+                                "assessmentItems": {
+                                    "7": {
+                                        "identifier": "905704_7",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "",
+                                                "prompt": {
+                                                    "body": "<p>Leg uit waarom een mutatie in het DNA grote gevolgen kan hebben voor de werking van een cel, maar niet altijd schadelijk hoeft te zijn.</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "905704_7_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p>Door een mutatie in DNA ontstaat er een andere basevolgorde. Hierdoor zal er ook een andere mRNA volgorde ontstaan.&nbsp;<br />\r\nOmdat de mRNA volgorde anders is, is de code voor het te koppelen aminozuur anders geworden. Hierdoor kan er een ander aminozuur worden gekoppeld, waardoor de structuur van een eiwit anders wordt. Een eiwit heeft een eigen, heel specifieke structuur. Als deze enigszins verandert, verandert gelijk de werking van dit eiwit (sleutel-slot-principe), waardoor in een cel niet meer gebeurt wat er zou moeten gebeuren.</p>\r\n\r\n<p>Het hoeft niet schadelijk te zijn omdat er verschillende mRNA tripletten coderen voor eenzelfde aminozuur. Hierdoor kan een mutatie in het DNA en zodoende in mRNA leiden tot een andere code, maar toch coderen voor eenzelfde aminozuur.</p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 4,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p>Door een mutatie in DNA ontstaat er een andere basevolgorde. Hierdoor zal er ook een andere mRNA volgorde ontstaan. <br />\nOmdat de mRNA volgorde anders is, is de code voor het te koppelen aminozuur anders geworden. Hierdoor kan er een ander aminozuur worden gekoppeld, waardoor de structuur van een eiwit anders wordt. Een eiwit heeft een eigen, heel specifieke structuur. Als deze enigszins verandert, verandert gelijk de werking van dit eiwit (sleutel-slot-principe), waardoor in een cel niet meer gebeurt wat er zou moeten gebeuren.</p>\n<p>Het hoeft niet schadelijk te zijn omdat er verschillende mRNA tripletten coderen voor eenzelfde aminozuur. Hierdoor kan een mutatie in het DNA en zodoende in mRNA leiden tot een andere code, maar toch coderen voor eenzelfde aminozuur.</p>"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "type": "diagnostic",
+                                "identifier": "3",
+                                "name": "Eiwit",
+                                "select": null,
+                                "shuffle": null,
+                                "selection": null,
+                                "assessmentItems": {
+                                    "8": {
+                                        "identifier": "905704_8",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "choiceInteraction",
+                                                "label": "",
+                                                "prompt": {
+                                                    "body": "<p>TTGATACGGTATGCGA...</p>\n<p>Bovenstaande is het beginstuk van een DNA molecuul. Tijdens translatie zal een deel van dit DNA fragment worden vertaald in een eiwit. Geef aan welke eiwitketen ontstaat.</p>"
+                                                },
+                                                "shuffle": false,
+                                                "maxChoices": 4,
+                                                "minChoices": 1,
+                                                "orientation": "vertical",
+                                                "choices": [
+                                                    {
+                                                        "identifier": "0",
+                                                        "content": {
+                                                            "body": "Thr-Met-Pro-Tyr-Ala..."
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "0",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": {
+                                                                "body": "Eerst vindt transcriptie plaats van het DNA, er ontstaat dan complementair mRNA. Vervolgens vindt in de ribosomen de translatie plaats. Translatie kan pas plaatsvinden als het startcodon is afgelezen. Pas als het triplet AUG in het mRNA zit, zal er begonnen worden met de translatie. Een eiwit zal daarom altijd beginnen met het aminozuur Met (Methionine)."
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "1",
+                                                        "content": {
+                                                            "body": "Asn-Tyr-Ala-Ile-Arg..."
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "1",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": {
+                                                                "body": "Eerst vindt transcriptie plaats van het DNA, er ontstaat dan complementair mRNA. Vervolgens vindt in de ribosomen de translatie plaats. Translatie kan pas plaatsvinden als het startcodon is afgelezen. Pas als het triplet AUG in het mRNA zit, zal er begonnen worden met de translatie. Een eiwit zal daarom altijd beginnen met het aminozuur Met (Methionine)."
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "2",
+                                                        "content": {
+                                                            "body": "Met-Pro-Tyr-Ala..."
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "2",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "3",
+                                                        "content": {
+                                                            "body": "<div>Met-Asn-Tyr-Ala-Ile-Arg...</div>"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "3",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": {
+                                                                "body": "Eerst vindt transcriptie plaats van het DNA, er ontstaat dan complementair mRNA. Vervolgens vindt in de ribosomen de translatie plaats. Translatie kan pas plaatsvinden als het startcodon is afgelezen. Pas als het triplet AUG in het mRNA zit, zal er begonnen worden met de translatie. Een eiwit zal daarom altijd beginnen met het aminozuur Met (Methionine)."
+                                                            }
+                                                        }
+                                                    }
+                                                ],
+                                                "responseIdentifier": "905704_8_1",
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "905704_8_1",
+                                                "cardinality": "ordered",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "0"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": "3",
+                                                    "default": 0,
+                                                    "mapEntries": [
+                                                        {
+                                                            "key": "0",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "1",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "2",
+                                                            "value": "3",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "3",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        }
+                                                    ]
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": false,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": true,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_THRESHOLD",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": "3",
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    },
+                                    "9": {
+                                        "identifier": "905704_9",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "choiceInteraction",
+                                                "label": "",
+                                                "prompt": {
+                                                    "body": "<p>AGCTCTACGTCGGCCAG...</p>\n<p>Bovenstaande is het beginstuk van een DNA molecuul. Tijdens translatie zal een deel van dit DNA fragment worden vertaald in een eiwit. Geef aan welke eiwitketen ontstaat.</p>"
+                                                },
+                                                "shuffle": false,
+                                                "maxChoices": 4,
+                                                "minChoices": 1,
+                                                "orientation": "vertical",
+                                                "choices": [
+                                                    {
+                                                        "identifier": "0",
+                                                        "content": {
+                                                            "body": "Met-Ser-Arg-Cys-Ser-Arg..."
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "0",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": {
+                                                                "body": "Eerst vindt transcriptie plaats van het DNA, er ontstaat dan complementair mRNA. Vervolgens vindt in de ribosomen de translatie plaats. Translatie kan pas plaatsvinden als het startcodon is afgelezen. Pas als het triplet AUG in het mRNA zit, zal er begonnen worden met de translatie. Een eiwit zal daarom altijd beginnen met het aminozuur Met (Methionine)."
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "1",
+                                                        "content": {
+                                                            "body": "Glu-Met-Gln-Pro-Val..."
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "1",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": {
+                                                                "body": "Eerst vindt transcriptie plaats van het DNA, er ontstaat dan complementair mRNA. Vervolgens vindt in de ribosomen de translatie plaats. Translatie kan pas plaatsvinden als het startcodon is afgelezen. Pas als het triplet AUG in het mRNA zit, zal er begonnen worden met de translatie. Een eiwit zal daarom altijd beginnen met het aminozuur Met (Methionine)."
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "2",
+                                                        "content": {
+                                                            "body": "Ser-Arg-Cys-Ser-Arg..."
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "2",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": {
+                                                                "body": "Eerst vindt transcriptie plaats van het DNA, er ontstaat dan complementair mRNA. Vervolgens vindt in de ribosomen de translatie plaats. Translatie kan pas plaatsvinden als het startcodon is afgelezen. Pas als het triplet AUG in het mRNA zit, zal er begonnen worden met de translatie. Een eiwit zal daarom altijd beginnen met het aminozuur Met (Methionine)."
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "3",
+                                                        "content": {
+                                                            "body": "Met-Gln-Pro-Val..."
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "3",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    }
+                                                ],
+                                                "responseIdentifier": "905704_9_1",
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "905704_9_1",
+                                                "cardinality": "ordered",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "0"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": "3",
+                                                    "default": 0,
+                                                    "mapEntries": [
+                                                        {
+                                                            "key": "0",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "1",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "2",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "3",
+                                                            "value": "3",
+                                                            "caseSensitive": false
+                                                        }
+                                                    ]
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": false,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": true,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_THRESHOLD",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": "3",
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    },
+                                    "10": {
+                                        "identifier": "905704_10",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "choiceInteraction",
+                                                "label": "",
+                                                "prompt": {
+                                                    "body": "<p>AGCATACTTCGGTCA...</p>\n<p>Bovenstaande is het beginstuk van een DNA molecuul. Tijdens translatie zal een deel van dit DNA fragment worden vertaald in een eiwit. Geef aan welke eiwitketen ontstaat.</p>"
+                                                },
+                                                "shuffle": false,
+                                                "maxChoices": 4,
+                                                "minChoices": 1,
+                                                "orientation": "vertical",
+                                                "choices": [
+                                                    {
+                                                        "identifier": "0",
+                                                        "content": {
+                                                            "body": "Met-Ser-Tyr-Gly-Ala-Ser..."
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "0",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": {
+                                                                "body": "Eerst vindt transcriptie plaats van het DNA, er ontstaat dan complementair mRNA. Vervolgens vindt in de ribosomen de translatie plaats. Translatie kan pas plaatsvinden als het startcodon is afgelezen. Pas als het triplet AUG in het mRNA zit, zal er begonnen worden met de translatie. Een eiwit zal daarom altijd beginnen met het aminozuur Met (Methionine)."
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "1",
+                                                        "content": {
+                                                            "body": "Met-Lys-Pro..."
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "1",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "2",
+                                                        "content": {
+                                                            "body": "Arg-Met-Lys-Pro..."
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "2",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": {
+                                                                "body": "Eerst vindt transcriptie plaats van het DNA, er ontstaat dan complementair mRNA. Vervolgens vindt in de ribosomen de translatie plaats. Translatie kan pas plaatsvinden als het startcodon is afgelezen. Pas als het triplet AUG in het mRNA zit, zal er begonnen worden met de translatie. Een eiwit zal daarom altijd beginnen met het aminozuur Met (Methionine)."
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "3",
+                                                        "content": {
+                                                            "body": "<div>Ser-Tyr-Glu-Ala-Ser...</div>"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "3",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": {
+                                                                "body": "Eerst vindt transcriptie plaats van het DNA, er ontstaat dan complementair mRNA. Vervolgens vindt in de ribosomen de translatie plaats. Translatie kan pas plaatsvinden als het startcodon is afgelezen. Pas als het triplet AUG in het mRNA zit, zal er begonnen worden met de translatie. Een eiwit zal daarom altijd beginnen met het aminozuur Met (Methionine)."
+                                                            }
+                                                        }
+                                                    }
+                                                ],
+                                                "responseIdentifier": "905704_10_1",
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "905704_10_1",
+                                                "cardinality": "ordered",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "0"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": "3",
+                                                    "default": 0,
+                                                    "mapEntries": [
+                                                        {
+                                                            "key": "0",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "1",
+                                                            "value": "3",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "2",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "3",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        }
+                                                    ]
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": false,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": true,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_THRESHOLD",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": "3",
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    }
+                                }
+                            },
+                            {
+                                "type": "diagnostic",
+                                "identifier": "4",
+                                "name": "Begrippenkennis 1",
+                                "select": null,
+                                "shuffle": null,
+                                "selection": null,
+                                "assessmentItems": {
+                                    "11": {
+                                        "identifier": "905704_11",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "matchInteraction",
+                                                "label": "",
+                                                "prompt": {
+                                                    "body": "<p>Zet de juiste omschrijving bij het juiste begrip</p>"
+                                                },
+                                                "shuffle": true,
+                                                "minAssociations": 4,
+                                                "maxAssociations": 4,
+                                                "sourceSimpleMatchSet": [
+                                                    {
+                                                        "identifier": "SOURCE_2",
+                                                        "content": {
+                                                            "body": "<p>DNA-streng die (mede) het geslacht bepaalt</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "SOURCE_1",
+                                                        "content": {
+                                                            "body": "<p>Lang stuk DNA tussen een start - en een stopcodon</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "SOURCE_4",
+                                                        "content": {
+                                                            "body": "<p>Molecuul waarin dezelfde eenheid herhaaldelijk voorkomt</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "SOURCE_3",
+                                                        "content": {
+                                                            "body": "<p>Totaal pakket aan genetisch bepaalde eigenschappen van een organisme</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    }
+                                                ],
+                                                "targetSimpleMatchSet": [
+                                                    {
+                                                        "identifier": "TARGET_1",
+                                                        "content": {
+                                                            "body": "<p>ORF (Open Reading Frame)</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "TARGET_2",
+                                                        "content": {
+                                                            "body": "<p>X-chromosoom</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "TARGET_3",
+                                                        "content": {
+                                                            "body": "<p>genoom</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "TARGET_4",
+                                                        "content": {
+                                                            "body": "<p>Polymeer</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    }
+                                                ],
+                                                "responseIdentifier": "905704_11_1",
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "905704_11_1",
+                                                "cardinality": "record",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": "SOURCE_1",
+                                                            "value": "TARGET_1"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": "SOURCE_2",
+                                                            "value": "TARGET_2"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": "SOURCE_3",
+                                                            "value": "TARGET_3"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": "SOURCE_4",
+                                                            "value": "TARGET_4"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": "0",
+                                                    "upperBound": "3",
+                                                    "default": "0",
+                                                    "mapEntries": null
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": "0",
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    },
+                                    "12": {
+                                        "identifier": "905704_12",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "matchInteraction",
+                                                "label": "",
+                                                "prompt": {
+                                                    "body": "<p>Zet de juiste omschrijving bij het juiste begrip</p>"
+                                                },
+                                                "shuffle": true,
+                                                "minAssociations": 4,
+                                                "maxAssociations": 4,
+                                                "sourceSimpleMatchSet": [
+                                                    {
+                                                        "identifier": "SOURCE_1",
+                                                        "content": {
+                                                            "body": "<p>Lang stuk DNA tussen een start - en een stopcodon</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "SOURCE_2",
+                                                        "content": {
+                                                            "body": "<p>Moleculen die bestaan uit een base, een suiker en een fosfaatgroep en waaruit het DNA is opgebouwd</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "SOURCE_3",
+                                                        "content": {
+                                                            "body": "<p>Groot molecuul, een polymeer, dat is opgebouwd uit aminozuren</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "SOURCE_4",
+                                                        "content": {
+                                                            "body": "<p>Proces van het vormen van mRNA langs een DNA-keten</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    }
+                                                ],
+                                                "targetSimpleMatchSet": [
+                                                    {
+                                                        "identifier": "TARGET_1",
+                                                        "content": {
+                                                            "body": "<p>ORF (Open Reading Frame)</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "TARGET_2",
+                                                        "content": {
+                                                            "body": "<p>Nucleotiden</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "TARGET_3",
+                                                        "content": {
+                                                            "body": "<p>Eiwit</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "TARGET_4",
+                                                        "content": {
+                                                            "body": "<p>Transcriptie</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    }
+                                                ],
+                                                "responseIdentifier": "905704_12_1",
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "905704_12_1",
+                                                "cardinality": "record",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": "SOURCE_1",
+                                                            "value": "TARGET_1"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": "SOURCE_2",
+                                                            "value": "TARGET_2"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": "SOURCE_3",
+                                                            "value": "TARGET_3"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": "SOURCE_4",
+                                                            "value": "TARGET_4"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": "0",
+                                                    "upperBound": "3",
+                                                    "default": "0",
+                                                    "mapEntries": null
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": "0",
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    },
+                                    "13": {
+                                        "identifier": "905704_13",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "matchInteraction",
+                                                "label": "",
+                                                "prompt": {
+                                                    "body": "<p>Zet de juiste omschrijving bij het juiste begrip</p>"
+                                                },
+                                                "shuffle": true,
+                                                "minAssociations": 4,
+                                                "maxAssociations": 4,
+                                                "sourceSimpleMatchSet": [
+                                                    {
+                                                        "identifier": "SOURCE_4",
+                                                        "content": {
+                                                            "body": "<p>Groot molecuul, een polymeer, dat is opgebouwd uit aminozuren</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "SOURCE_3",
+                                                        "content": {
+                                                            "body": "<p>Proces waarbij cellen zich verdubbelen</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "SOURCE_2",
+                                                        "content": {
+                                                            "body": "<p>Een variatie in het DNA van \u00e9\u00e9n stikstofbase</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "SOURCE_1",
+                                                        "content": {
+                                                            "body": "<p>Proces van vertalen van mRNA naar eiwitten</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    }
+                                                ],
+                                                "targetSimpleMatchSet": [
+                                                    {
+                                                        "identifier": "TARGET_1",
+                                                        "content": {
+                                                            "body": "<p>Translatie</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "TARGET_2",
+                                                        "content": {
+                                                            "body": "<p>SNP (Single Nucleotide Polymorfisme)</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "TARGET_3",
+                                                        "content": {
+                                                            "body": "<p>Mitose</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "TARGET_4",
+                                                        "content": {
+                                                            "body": "<p>Eiwit</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    }
+                                                ],
+                                                "responseIdentifier": "905704_13_1",
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "905704_13_1",
+                                                "cardinality": "record",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": "SOURCE_1",
+                                                            "value": "TARGET_1"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": "SOURCE_2",
+                                                            "value": "TARGET_2"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": "SOURCE_3",
+                                                            "value": "TARGET_3"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": "SOURCE_4",
+                                                            "value": "TARGET_4"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": "0",
+                                                    "upperBound": "3",
+                                                    "default": "0",
+                                                    "mapEntries": null
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": "0",
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    },
+                                    "14": {
+                                        "identifier": "905704_14",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "matchInteraction",
+                                                "label": "",
+                                                "prompt": {
+                                                    "body": "<p>Zet de volgende stappen in de juiste volgorde</p>"
+                                                },
+                                                "shuffle": true,
+                                                "minAssociations": 4,
+                                                "maxAssociations": 4,
+                                                "sourceSimpleMatchSet": [
+                                                    {
+                                                        "identifier": "SOURCE_3",
+                                                        "content": {
+                                                            "body": "<p>mRNA gaat naar de ribosomen</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "SOURCE_1",
+                                                        "content": {
+                                                            "body": "<p>Transcriptie: van DNA wordt mRNA gemaakt</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "SOURCE_2",
+                                                        "content": {
+                                                            "body": "<p>mRNA verlaat de celkern</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "SOURCE_4",
+                                                        "content": {
+                                                            "body": "<p>tRNA brengt de losse aminozuren naar de ribosomen</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    }
+                                                ],
+                                                "targetSimpleMatchSet": [
+                                                    {
+                                                        "identifier": "TARGET_1",
+                                                        "content": {
+                                                            "body": "<p>1</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "TARGET_2",
+                                                        "content": {
+                                                            "body": "<p>2</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "TARGET_3",
+                                                        "content": {
+                                                            "body": "<p>3</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "TARGET_4",
+                                                        "content": {
+                                                            "body": "<p>4</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    }
+                                                ],
+                                                "responseIdentifier": "905704_14_1",
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "905704_14_1",
+                                                "cardinality": "record",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": "SOURCE_1",
+                                                            "value": "TARGET_1"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": "SOURCE_2",
+                                                            "value": "TARGET_2"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": "SOURCE_3",
+                                                            "value": "TARGET_3"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": "SOURCE_4",
+                                                            "value": "TARGET_4"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": "0",
+                                                    "upperBound": "3",
+                                                    "default": "0",
+                                                    "mapEntries": null
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": "0",
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    },
+                                    "15": {
+                                        "identifier": "905704_15",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "matchInteraction",
+                                                "label": "",
+                                                "prompt": {
+                                                    "body": "<p>Zet de juiste omschrijving bij het juiste begrip</p>"
+                                                },
+                                                "shuffle": true,
+                                                "minAssociations": 4,
+                                                "maxAssociations": 4,
+                                                "sourceSimpleMatchSet": [
+                                                    {
+                                                        "identifier": "SOURCE_4",
+                                                        "content": {
+                                                            "body": "<p>DNA-streng die (mede) het geslacht bepaalt</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "SOURCE_2",
+                                                        "content": {
+                                                            "body": "<p>Proces van het vormen van mRNA langs een DNA-keten</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "SOURCE_1",
+                                                        "content": {
+                                                            "body": "<p>Totaal pakket aan genetisch bepaalde eigenschappen van een organisme</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "SOURCE_3",
+                                                        "content": {
+                                                            "body": "<p>Groot molecuul, een polymeer, dat is opgebouwd uit aminozuren</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    }
+                                                ],
+                                                "targetSimpleMatchSet": [
+                                                    {
+                                                        "identifier": "TARGET_1",
+                                                        "content": {
+                                                            "body": "<p>Genoom</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "TARGET_2",
+                                                        "content": {
+                                                            "body": "<p>Transcriptie</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "TARGET_3",
+                                                        "content": {
+                                                            "body": "<p>Eiwit</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "TARGET_4",
+                                                        "content": {
+                                                            "body": "<p>X-chromosoom</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    }
+                                                ],
+                                                "responseIdentifier": "905704_15_1",
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "905704_15_1",
+                                                "cardinality": "record",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": "SOURCE_1",
+                                                            "value": "TARGET_1"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": "SOURCE_2",
+                                                            "value": "TARGET_2"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": "SOURCE_3",
+                                                            "value": "TARGET_3"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": "SOURCE_4",
+                                                            "value": "TARGET_4"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": "0",
+                                                    "upperBound": "3",
+                                                    "default": "0",
+                                                    "mapEntries": null
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": "0",
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    },
+                                    "16": {
+                                        "identifier": "905704_16",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "matchInteraction",
+                                                "label": "",
+                                                "prompt": {
+                                                    "body": "<p>Zet de juiste omschrijving bij het juiste begrip</p>"
+                                                },
+                                                "shuffle": true,
+                                                "minAssociations": 4,
+                                                "maxAssociations": 4,
+                                                "sourceSimpleMatchSet": [
+                                                    {
+                                                        "identifier": "SOURCE_2",
+                                                        "content": {
+                                                            "body": "<p>DNA-streng die (mede) het geslacht bepaalt</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "SOURCE_1",
+                                                        "content": {
+                                                            "body": "<p>Groot molecuul, een polymeer, dat is opgebouwd uit aminozuren</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "SOURCE_4",
+                                                        "content": {
+                                                            "body": "<p>Proces van vertalen van mRNA naar eiwitten</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "SOURCE_3",
+                                                        "content": {
+                                                            "body": "<p>Proces waarbij geslachtscellen worden gevormd</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    }
+                                                ],
+                                                "targetSimpleMatchSet": [
+                                                    {
+                                                        "identifier": "TARGET_1",
+                                                        "content": {
+                                                            "body": "<p>Eiwit</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "TARGET_2",
+                                                        "content": {
+                                                            "body": "<p>X-chromosoom</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "TARGET_3",
+                                                        "content": {
+                                                            "body": "<p>Meiose</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "TARGET_4",
+                                                        "content": {
+                                                            "body": "<p>Translatie</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    }
+                                                ],
+                                                "responseIdentifier": "905704_16_1",
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "905704_16_1",
+                                                "cardinality": "record",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": "SOURCE_1",
+                                                            "value": "TARGET_1"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": "SOURCE_2",
+                                                            "value": "TARGET_2"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": "SOURCE_3",
+                                                            "value": "TARGET_3"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": "SOURCE_4",
+                                                            "value": "TARGET_4"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": "0",
+                                                    "upperBound": "3",
+                                                    "default": "0",
+                                                    "mapEntries": null
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": "0",
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    }
+                                }
+                            },
+                            {
+                                "type": "diagnostic",
+                                "identifier": "5",
+                                "name": "Begrippenkennis 2",
+                                "select": null,
+                                "shuffle": null,
+                                "selection": null,
+                                "assessmentItems": {
+                                    "17": {
+                                        "identifier": "905704_17",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "",
+                                                "prompt": {
+                                                    "body": "<p>Leg uit wat er wordt bedoeld met PCR.</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "905704_17_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p>PCR staat voor Polymerase Chain Reaction. Het is een techniek die gebruikt wordt om van een kleine hoeveelheid DNA&nbsp;veel kopie&euml;n te maken.&nbsp;</p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 3,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p>PCR staat voor Polymerase Chain Reaction. Het is een techniek die gebruikt wordt om van een kleine hoeveelheid DNA veel kopie\u00ebn te maken. </p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "18": {
+                                        "identifier": "905704_18",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "",
+                                                "prompt": {
+                                                    "body": "<p>Leg uit wat er wordt bedoeld met sequencing.</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "905704_18_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p>Sequencing is een techniek waarbij de DNA volgorde wordt bepaald.</p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 3,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p>Sequencing is een techniek waarbij de DNA volgorde wordt bepaald.</p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "19": {
+                                        "identifier": "905704_19",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "",
+                                                "prompt": {
+                                                    "body": "<p>Wat is een microarray?</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "905704_19_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p>Een microarray is een plaatje waarin het complete genoom van een bepaald organisme zichtbaar is gemaakt, het wordt ook wel een&nbsp;DNA-chip genoemd. Hiermee kun je testen welke genen in een bepaald weefsel actief zijn, of juist niet actief zijn.</p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 3,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p>Een microarray is een plaatje waarin het complete genoom van een bepaald organisme zichtbaar is gemaakt, het wordt ook wel een DNA-chip genoemd. Hiermee kun je testen welke genen in een bepaald weefsel actief zijn, of juist niet actief zijn.</p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "20": {
+                                        "identifier": "905704_20",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "",
+                                                "prompt": {
+                                                    "body": "<p>Noem een werkgebied van de bioinformatica</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "905704_20_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p>Er zijn veel verschillende antwoorden mogelijk.<br />\r\nDe bioinformatica heeft zich ontwikkeld tot een breed multidisciplinair onderzoeksgebied op het grensvlak van de levenswetenschappen en de informatietechnologie. Zo levert bioinformatica bijdragen op het gebied van landbouw, veeteelt, medische wetenschap, biologisch onderzoek aan o.a. virussen, biotechnologie, genetic engeneering, evolutieleer en forensisch onderzoek.</p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 3,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p>Er zijn veel verschillende antwoorden mogelijk.<br />\nDe bioinformatica heeft zich ontwikkeld tot een breed multidisciplinair onderzoeksgebied op het grensvlak van de levenswetenschappen en de informatietechnologie. Zo levert bioinformatica bijdragen op het gebied van landbouw, veeteelt, medische wetenschap, biologisch onderzoek aan o.a. virussen, biotechnologie, genetic engeneering, evolutieleer en forensisch onderzoek.</p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "21": {
+                                        "identifier": "905704_21",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "",
+                                                "prompt": {
+                                                    "body": "<p>Welke techniek in het lab lijkt op DNA replicatie?</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "905704_21_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p>Dat is PCR, Polymerase Chain Reaction. Dit is een techniek die gebruikt wordt om van een kleine hoeveelheid DNA&nbsp;veel kopie&euml;n te maken.</p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 3,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p>Dat is PCR, Polymerase Chain Reaction. Dit is een techniek die gebruikt wordt om van een kleine hoeveelheid DNA veel kopie\u00ebn te maken.</p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "22": {
+                                        "identifier": "905704_22",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "",
+                                                "prompt": {
+                                                    "body": "<p>Leg uit wat mitose betekent</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "905704_22_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p>Het&nbsp;proces waarbij cellen zich verdubbelen heet mitose</p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 3,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p>Het proces waarbij cellen zich verdubbelen heet mitose</p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "23": {
+                                        "identifier": "905704_23",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "",
+                                                "prompt": {
+                                                    "body": "<p>Leg uit wat meiose betekent</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "905704_23_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p>Het proces waarbij geslachtscellen worden gevormd heet meiose.</p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 3,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p>Het proces waarbij geslachtscellen worden gevormd heet meiose.</p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "24": {
+                                        "identifier": "905704_24",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "",
+                                                "prompt": {
+                                                    "body": "<p>Wat is een karyogram?</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "905704_24_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p>Een karyogram is een afbeelding van de chromosomen. De chromosomen zijn daarbij gerangschikt in een specifieke volgorde.</p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 3,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p>Een karyogram is een afbeelding van de chromosomen. De chromosomen zijn daarbij gerangschikt in een specifieke volgorde.</p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "25": {
+                                        "identifier": "905704_25",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "",
+                                                "prompt": {
+                                                    "body": "<p>Leg uit wat splicing betekent</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "905704_25_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p>Het verwijderen van de intronen en het vastmaken van de exonen wordt splicing<strong><em>&nbsp;</em></strong>genoemd.<br />\r\n(De stukken DNA van een gen die niet omgezet worden in mRNA worden intronen<em>&nbsp;</em>genoemd. De stukken DNA van een gen die wel worden omgezet in mRNA worden exonen genoemd.)</p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 3,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p>Het verwijderen van de intronen en het vastmaken van de exonen wordt splicing<strong><em> </em></strong>genoemd.<br />\n(De stukken DNA van een gen die niet omgezet worden in mRNA worden intronen<em> </em>genoemd. De stukken DNA van een gen die wel worden omgezet in mRNA worden exonen genoemd.)</p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "26": {
+                                        "identifier": "905704_26",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "",
+                                                "prompt": {
+                                                    "body": "<p>Leg uit wat er tijdens translatie gebeurt.</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "905704_26_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p>Het proces waarin&nbsp;mRNA wordt vertaald in een eiwit, wordt translatie genoemd.</p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 3,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p>Het proces waarin mRNA wordt vertaald in een eiwit, wordt translatie genoemd.</p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "27": {
+                                        "identifier": "905704_27",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "",
+                                                "prompt": {
+                                                    "body": "<p>Leg uit wat er tijdens transcriptie gebeurt.</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "905704_27_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p>Het proces waarbij mRNA wordt gevormd lange een DNA keten wordt transcriptie genoemd.</p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 3,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p>Het proces waarbij mRNA wordt gevormd lange een DNA keten wordt transcriptie genoemd.</p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "28": {
+                                        "identifier": "905704_28",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "",
+                                                "prompt": {
+                                                    "body": "<p>Wat is en doet tRNA?</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "905704_28_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p>tRNA is transfer of transport RNA. Dit tRNA brengt de losse aminozuren naar het ribosoom.</p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 3,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p>tRNA is transfer of transport RNA. Dit tRNA brengt de losse aminozuren naar het ribosoom.</p>"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        ],
+                        "outcomeDeclarations": null,
+                        "showEvaluation": null,
+                        "feedback": null
+                    }
+                }
+            ],
+            "sections": []
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": null,
+            "dimension": null,
+            "suppressTitle": null
+        },
+        "color": ""
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": "",
+        "imageSrc": null,
+        "sources": [],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

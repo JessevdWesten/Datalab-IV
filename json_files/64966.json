@@ -1,0 +1,643 @@
+{
+    "documentAuthors": [
+        "Malou Stoffels"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Malou Stoffels",
+            "referenceName": null,
+            "reference": {
+                "value": "32089"
+            },
+            "firstName": "Malou",
+            "infix": "",
+            "lastName": "Stoffels",
+            "emailAddress": "m.stoffels@vumc.nl",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2015-08-24T16:39:56Z",
+    "bulkId": "bulk-17041135-refresh_all",
+    "identifier": 64966,
+    "title": "Rekenen",
+    "description": "Medisch rekenen",
+    "lastModifiedDate": "2015-08-24T16:39:56+02:00",
+    "dateCreated": "-0001-11-30T00:00:00+00:19",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "Stoffels, Malou",
+                "reference": {
+                    "value": "32089"
+                },
+                "firstName": "Malou",
+                "infix": "",
+                "lastName": "Stoffels",
+                "emailAddress": "m.stoffels@vumc.nl",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-30",
+            "name": "CC Naamsvermelding 3.0 Nederland licentie",
+            "description": "De Nederlandse Creative Commons 3.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/3.0/nl/.",
+            "link": "http://creativecommons.org/licenses/by/3.0/nl/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/64966/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "1416771"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Hoofdonderdeel",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "link",
+                    "link": "https://www.youtube.com/watch?v=Gor0Uz9bNRU",
+                    "title": "Filmpje medisch rekenen",
+                    "description": "",
+                    "comment": ""
+                },
+                {
+                    "type": "questionnaire",
+                    "reference": {
+                        "value": "1416524"
+                    },
+                    "assessmentTestItem": {
+                        "label": "Test",
+                        "type": "diagnostic",
+                        "header": {
+                            "url": "https://maken.wikiwijs.nl/p/questionnaire/standalone/1416524",
+                            "title": "Medisch rekenen oefentoets"
+                        },
+                        "introduction": {
+                            "body": "<h2 class=\"font-style-italic\"><span style=\"color:#A52A2A;\">Hallo hier is de oefentoets, kijk maar of het lukt!</span></h2>\n<p><span style=\"color:rgb(165, 42, 42);\">G</span><span style=\"color:rgb(165, 42, 42);\">roetjes van de praktijkopleiders.</span></p>\n<p><span style=\"color:#A52A2A;\"> </span><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/3/30e2ad9d1ab55605b3573a8f8bc661d97bf91059.jpg\" class=\"height-59-pixels width-400-pixels\"/></p>"
+                        },
+                        "countQuestions": 4,
+                        "sections": [
+                            {
+                                "type": "diagnostic",
+                                "identifier": "0",
+                                "name": "Nieuwe Categorie",
+                                "select": null,
+                                "shuffle": null,
+                                "selection": null,
+                                "assessmentItems": {
+                                    "0": {
+                                        "identifier": "1416524_0",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "Voorbeeld Open vraag",
+                                                "prompt": {
+                                                    "body": "<p>Hoeveel is 1 + 2</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "1416524_0_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p>2</p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p>2</p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "1": {
+                                        "identifier": "1416524_1",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "choiceInteraction",
+                                                "label": "Voorbeeld meerkeuzevraag",
+                                                "prompt": {
+                                                    "body": "<p>hoeveel is 1 + 3</p>"
+                                                },
+                                                "shuffle": false,
+                                                "maxChoices": 4,
+                                                "minChoices": 1,
+                                                "orientation": "vertical",
+                                                "choices": [
+                                                    {
+                                                        "identifier": "0",
+                                                        "content": {
+                                                            "body": "1"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "0",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "1",
+                                                        "content": {
+                                                            "body": "2"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "1",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "2",
+                                                        "content": {
+                                                            "body": "3"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "2",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "3",
+                                                        "content": {
+                                                            "body": "4"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "3",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    }
+                                                ],
+                                                "responseIdentifier": "1416524_1_1",
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "1416524_1_1",
+                                                "cardinality": "ordered",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "0"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": "1",
+                                                    "default": 0,
+                                                    "mapEntries": [
+                                                        {
+                                                            "key": "0",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "1",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "2",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "3",
+                                                            "value": "1",
+                                                            "caseSensitive": false
+                                                        }
+                                                    ]
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": false,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": true,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_THRESHOLD",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": "1",
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    },
+                                    "3": {
+                                        "identifier": "1416524_3",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "orderInteraction",
+                                                "label": "Volgordevraag",
+                                                "prompt": {
+                                                    "body": "<p>Geef de juiste volgorde aan</p>"
+                                                },
+                                                "shuffle": true,
+                                                "minChoices": 0,
+                                                "maxChoices": 4,
+                                                "orientation": "vertical",
+                                                "choices": [
+                                                    {
+                                                        "identifier": "97094d4eb5162950ed0f771abed47e4d",
+                                                        "content": {
+                                                            "body": "<span>1</span>"
+                                                        },
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "7277e44510f33087d07f4066d0ce308b",
+                                                        "content": {
+                                                            "body": "<span>4</span>"
+                                                        },
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "1295359046aa972a407e41a1350316e7",
+                                                        "content": {
+                                                            "body": "2"
+                                                        },
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "1815d0886d3fddd35b602bc0054b868d",
+                                                        "content": {
+                                                            "body": "<span>3</span>"
+                                                        },
+                                                        "feedbackInline": null
+                                                    }
+                                                ],
+                                                "responseIdentifier": "1416524_3_1",
+                                                "feedback": [
+                                                    {
+                                                        "outcomeIdentifier": "FEEDBACK_CORRECT",
+                                                        "identifier": "FBC_1416524_3",
+                                                        "showHide": null,
+                                                        "title": null,
+                                                        "content": {
+                                                            "body": "goed, inderdaad...."
+                                                        }
+                                                    },
+                                                    {
+                                                        "outcomeIdentifier": "FEEDBACK_INCORRECT",
+                                                        "identifier": "FBI_1416524_3",
+                                                        "showHide": null,
+                                                        "title": null,
+                                                        "content": {
+                                                            "body": "nee, het moest zo en zo zijn"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "1416524_3_1",
+                                                "cardinality": "ordered",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "7277e44510f33087d07f4066d0ce308b"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "1295359046aa972a407e41a1350316e7"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "97094d4eb5162950ed0f771abed47e4d"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "1815d0886d3fddd35b602bc0054b868d"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": [
+                                                        {
+                                                            "key": "7277e44510f33087d07f4066d0ce308b",
+                                                            "value": 0.3,
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "1295359046aa972a407e41a1350316e7",
+                                                            "value": 0.3,
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "97094d4eb5162950ed0f771abed47e4d",
+                                                            "value": 0.3,
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "1815d0886d3fddd35b602bc0054b868d",
+                                                            "value": 0.3,
+                                                            "caseSensitive": false
+                                                        }
+                                                    ]
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": "0",
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": false,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": true,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_THRESHOLD",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": "1",
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    },
+                                    "4": {
+                                        "identifier": "1416524_4",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "In de instructie kan je ook afbeeldingen opnemen",
+                                                "prompt": {
+                                                    "body": "<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"width-500-pixels\">\n<tbody>\n<tr>\n<td><strong>Opdracht</strong></td>\n<td><strong>Beschikbaar </strong></td>\n<td><strong>Aantal milililiter in infuus</strong></td>\n</tr>\n<tr>\n<td>25 mmol magnesiumsulfaat </td>\n<td>Ampul 1, 25 mmol/ml.</td>\n<td>???</td>\n</tr>\n<tr>\n<td>\n<p class=\"text-align-center\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/85e0066c42143c9d0962213c405c22298e3e81bf.jpg\" class=\"height-60-pixels width-60-pixels\" /></p>\n</td>\n<td>\n<p class=\"text-align-center\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/d/d797d8fbb7d00294f6c4e3aa650b75973a74eaf3.jpg\" class=\"height-88-pixels width-20-pixels\" /></p>\n</td>\n<td><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/7/79ea85c33c770e1c673d1418ec9cb50953479c20.jpg\" class=\"height-83-pixels width-50-pixels\" /></td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<p>Wat moet er op de plek van het vraagteken staan?</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "1416524_4_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p>dddddd</p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p>dddddd</p>"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "type": "diagnostic",
+                                "identifier": "1",
+                                "name": "Nieuwe Categorie",
+                                "select": null,
+                                "shuffle": null,
+                                "selection": null,
+                                "assessmentItems": []
+                            }
+                        ],
+                        "outcomeDeclarations": null,
+                        "showEvaluation": null,
+                        "feedback": null
+                    }
+                }
+            ],
+            "sections": []
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": "https://maken.wikiwijs.nl/generated/l1200x76_30e2ad9d1ab55605b3573a8f8bc661d97bf91059.jpg",
+            "dimension": null,
+            "suppressTitle": false
+        },
+        "color": "#436ea3"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Hoofdonderdeel",
+                "reference": {
+                    "value": "1416771"
+                },
+                "sections": []
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": "",
+        "imageSrc": null,
+        "sources": [
+            {
+                "type": "link",
+                "title": "Filmpje medisch rekenen",
+                "origin": "Filmpje medisch rekenen",
+                "customOrigin": null,
+                "link": "https://www.youtube.com/watch?v=Gor0Uz9bNRU",
+                "visible": true
+            }
+        ],
+        "metadata": [
+            {
+                "key": "disciplines",
+                "label": "Leerinhoud en doelen",
+                "terms": {
+                    "750580b3-11c3-46a8-9bc2-dd5a6e7612b6": "Zorg en welzijn breed"
+                }
+            },
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            },
+            {
+                "key": "learningTime",
+                "label": "Studiebelasting",
+                "terms": [
+                    "1 uur en 0 minuten"
+                ]
+            },
+            {
+                "key": "keywords",
+                "label": "Trefwoorden",
+                "terms": [
+                    "rekenen medisch"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

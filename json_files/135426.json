@@ -1,0 +1,2003 @@
+{
+    "documentAuthors": [
+        "Martin Bruggink"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Martin Bruggink",
+            "referenceName": null,
+            "reference": {
+                "value": "94404"
+            },
+            "firstName": "Martin",
+            "infix": null,
+            "lastName": "Bruggink",
+            "emailAddress": "m.bruggink@tudelft.nl",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2020-05-23T14:55:07Z",
+    "bulkId": "bulk-17041658-refresh_all",
+    "identifier": 135426,
+    "title": "Inleiding - Micro:bit",
+    "description": "Je leert te werken met de Micro:bit. Wat kun je er mee? Hoe sluit je 'm aan, hoe kun je 'm programmeren? ",
+    "lastModifiedDate": "2020-05-23T14:55:07+02:00",
+    "dateCreated": "2018-11-29T16:24:31+01:00",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "1693"
+        },
+        "name": "Physical Computing",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "Dijkstra, Eelco",
+                "reference": {
+                    "value": "31098"
+                },
+                "firstName": "Eelco",
+                "infix": "",
+                "lastName": "Dijkstra",
+                "emailAddress": "eelco.j.dijkstra@gmail.com",
+                "type": "author"
+            },
+            {
+                "fullName": null,
+                "referenceName": "Tolboom, Jos",
+                "reference": {
+                    "value": "46400"
+                },
+                "firstName": "Jos",
+                "infix": null,
+                "lastName": "Tolboom",
+                "emailAddress": "j.tolboom@slo.nl",
+                "type": "author"
+            },
+            {
+                "fullName": null,
+                "referenceName": "Bruggink, Martin",
+                "reference": {
+                    "value": "94404"
+                },
+                "firstName": "Martin",
+                "infix": null,
+                "lastName": "Bruggink",
+                "emailAddress": "m.bruggink@tudelft.nl",
+                "type": "author"
+            },
+            {
+                "fullName": null,
+                "referenceName": "de Gelder, Leen",
+                "reference": {
+                    "value": "95217"
+                },
+                "firstName": "Leen",
+                "infix": null,
+                "lastName": "de Gelder",
+                "emailAddress": "gll@gsr.nl",
+                "type": "author"
+            },
+            {
+                "fullName": null,
+                "referenceName": "Woudt, Remie",
+                "reference": {
+                    "value": "95869"
+                },
+                "firstName": "Remie",
+                "infix": null,
+                "lastName": "Woudt",
+                "emailAddress": "remie.woudt@gmail.com",
+                "type": "author"
+            },
+            {
+                "fullName": null,
+                "referenceName": "Klop, Christa",
+                "reference": {
+                    "value": "97662"
+                },
+                "firstName": "Christa",
+                "infix": null,
+                "lastName": "Klop",
+                "emailAddress": "c.klop@instruct.nl",
+                "type": "author"
+            },
+            {
+                "fullName": null,
+                "referenceName": "Bruggink, Martin",
+                "reference": {
+                    "value": "137128"
+                },
+                "firstName": "Martin",
+                "infix": null,
+                "lastName": "Bruggink",
+                "emailAddress": "martin.bruggink@gmail.com",
+                "type": "author"
+            }
+        ],
+        "emailAddress": "m.bruggink@tudelft.nl",
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-40",
+            "name": "CC Naamsvermelding 4.0 Internationale licentie",
+            "description": "De Internationale Creative Commons 4.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/4.0/.",
+            "link": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/135426/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "4855371"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Inleiding Micro:bit",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "4889670"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Inleiding",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>De Micro:bit is een microcontroller waarop je allerlei sensoren en actuatoren kunt aansluiten. Dat aansluiten gaat via de pinnen. Als je kijkt naar de Micro:bit kun je de pinnen zien: 0, 1, 2, en daarnaast de 3V en GND.</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/f/f233b1899ea17c1850d7dd9e1fcc84fa39c873df.png\" class=\"height-364-pixels width-431-pixels\"/>\n<figcaption>Voorkant Micro:bit</figcaption>\n</figure>\n<p> </p>\n<p>De 3V is kun je wel de plus noemen en de GND de min, net als bij een batterij. Als de Micro:bit is aangesloten komt er 3 volt te staan op de 3V pin. Ter vergelijking, op het stopcontact staat standaard 230 volt. Je hoeft je niet druk te maken dat je een elektrische schok voelt bij de Micro:bit. GND staat voor ground, oftewel de aarde.</p>\n<p>De pinnen 0, 1 en 2 kun je gebruiken om sensoren aan te sluiten. Je kunt bijvoorbeeld een temperatuurmeter aansluiten op pin 0 en daarmee meten welke waarde de temperatuursensor doorgeeft. Je kunt de pinnen ook gebruiken om een actuator aan te sluiten. Dan werkt de pin als een soort schakelaar. Je kunt bijvoorbeeld een motor aansluiten op pin 0 en dan de motor aan en uit zetten. Later leer je meer over het aansluiten van sensoren en actuatoren.</p>\n<p>De Micro:bit heeft overigens nog veel meer pinnen, die zijn echter veel kleiner. Toch kun je die wel gebruiken door gebruik te maken van een speciaal breakout board. Daarover later meer.</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/4/487fc745ecb084dc4b335fd9a62dc6968b479197.png\" class=\"height-364-pixels width-431-pixels\"/>\n<figcaption>Micro:bit achterkant</figcaption>\n</figure>\n<p> </p>\n<p>De Micro:bit heeft op de voorkant 5x5=25 ledjes die je ieder apart aan en uit kunt zetten. </p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/f/fdb28a0bade32c8ecb13e03a4ac48d7a31216612.png\" class=\"height-227-pixels width-277-pixels\"/>\n<figcaption>De leds van de Micro:bit</figcaption>\n</figure>\n<p> </p>\n<p>Bekijk de onderstaande link als je meer wilt wilt weten over de pinnen van de Micro:bit.</p>\n<p> </p>\n"
+                        },
+                        {
+                            "type": "link",
+                            "link": "https://microbit.org/nl/guide/hardware/pins/",
+                            "title": "BBC micro:bit pinnen",
+                            "description": "",
+                            "comment": ""
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "5379795"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Sensoren Micro:bit",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Op de Micro:bit zitten allerlei sensoren die je kunt gebruiken. Je hoeft dus lang niet altijd externe sensoren aan te sluiten. Bekijk de onderstaande link voor een mooi overzicht van alle sensoren op de Micro:bit.</p>\n"
+                        },
+                        {
+                            "type": "link",
+                            "link": "https://microbit.org/nl/guide/features/",
+                            "title": "Eigenschappen van de Micro:bit",
+                            "description": "",
+                            "comment": ""
+                        },
+                        {
+                            "type": "question",
+                            "reference": {
+                                "value": "4866377"
+                            },
+                            "assessmentItem": {
+                                "identifier": "4866377",
+                                "itemBody": null,
+                                "questions": [
+                                    {
+                                        "type": "choiceInteraction",
+                                        "label": "Sensoren Micro:bit",
+                                        "prompt": {
+                                            "body": "<p>De Micro:bit bevat standaard enkele sensoren. Wat kun je meten of waarnemen met een Micro:bit zonder dat je een externe sensor nodig hebt?</p>"
+                                        },
+                                        "shuffle": false,
+                                        "maxChoices": 12,
+                                        "minChoices": 0,
+                                        "orientation": "vertical",
+                                        "choices": [
+                                            {
+                                                "identifier": "0",
+                                                "content": {
+                                                    "body": "Waar het noorden is"
+                                                },
+                                                "feedback": {
+                                                    "outcomeIdentifier": "FEEDBACK",
+                                                    "identifier": "0",
+                                                    "showHide": true,
+                                                    "title": null,
+                                                    "content": null
+                                                }
+                                            },
+                                            {
+                                                "identifier": "1",
+                                                "content": {
+                                                    "body": "De luchtvochtigheid"
+                                                },
+                                                "feedback": {
+                                                    "outcomeIdentifier": "FEEDBACK",
+                                                    "identifier": "1",
+                                                    "showHide": true,
+                                                    "title": null,
+                                                    "content": null
+                                                }
+                                            },
+                                            {
+                                                "identifier": "2",
+                                                "content": {
+                                                    "body": "Verschillende kleuren licht"
+                                                },
+                                                "feedback": {
+                                                    "outcomeIdentifier": "FEEDBACK",
+                                                    "identifier": "2",
+                                                    "showHide": true,
+                                                    "title": null,
+                                                    "content": null
+                                                }
+                                            },
+                                            {
+                                                "identifier": "3",
+                                                "content": {
+                                                    "body": "Infrarood"
+                                                },
+                                                "feedback": {
+                                                    "outcomeIdentifier": "FEEDBACK",
+                                                    "identifier": "3",
+                                                    "showHide": true,
+                                                    "title": null,
+                                                    "content": null
+                                                }
+                                            },
+                                            {
+                                                "identifier": "4",
+                                                "content": {
+                                                    "body": "Lichtintensiteit"
+                                                },
+                                                "feedback": {
+                                                    "outcomeIdentifier": "FEEDBACK",
+                                                    "identifier": "4",
+                                                    "showHide": true,
+                                                    "title": null,
+                                                    "content": null
+                                                }
+                                            },
+                                            {
+                                                "identifier": "5",
+                                                "content": {
+                                                    "body": "Geluidsintensiteit"
+                                                },
+                                                "feedback": {
+                                                    "outcomeIdentifier": "FEEDBACK",
+                                                    "identifier": "5",
+                                                    "showHide": true,
+                                                    "title": null,
+                                                    "content": null
+                                                }
+                                            },
+                                            {
+                                                "identifier": "6",
+                                                "content": {
+                                                    "body": "Locatie"
+                                                },
+                                                "feedback": {
+                                                    "outcomeIdentifier": "FEEDBACK",
+                                                    "identifier": "6",
+                                                    "showHide": true,
+                                                    "title": null,
+                                                    "content": null
+                                                }
+                                            },
+                                            {
+                                                "identifier": "7",
+                                                "content": {
+                                                    "body": "Bewegingen (zoals schudden)"
+                                                },
+                                                "feedback": {
+                                                    "outcomeIdentifier": "FEEDBACK",
+                                                    "identifier": "7",
+                                                    "showHide": true,
+                                                    "title": null,
+                                                    "content": null
+                                                }
+                                            },
+                                            {
+                                                "identifier": "8",
+                                                "content": {
+                                                    "body": "Luchtdruk"
+                                                },
+                                                "feedback": {
+                                                    "outcomeIdentifier": "FEEDBACK",
+                                                    "identifier": "8",
+                                                    "showHide": true,
+                                                    "title": null,
+                                                    "content": null
+                                                }
+                                            },
+                                            {
+                                                "identifier": "9",
+                                                "content": {
+                                                    "body": "Temperatuur"
+                                                },
+                                                "feedback": {
+                                                    "outcomeIdentifier": "FEEDBACK",
+                                                    "identifier": "9",
+                                                    "showHide": true,
+                                                    "title": null,
+                                                    "content": null
+                                                }
+                                            },
+                                            {
+                                                "identifier": "10",
+                                                "content": {
+                                                    "body": "Hartslag"
+                                                },
+                                                "feedback": {
+                                                    "outcomeIdentifier": "FEEDBACK",
+                                                    "identifier": "10",
+                                                    "showHide": true,
+                                                    "title": null,
+                                                    "content": null
+                                                }
+                                            },
+                                            {
+                                                "identifier": "11",
+                                                "content": {
+                                                    "body": "Radio-signalen"
+                                                },
+                                                "feedback": {
+                                                    "outcomeIdentifier": "FEEDBACK",
+                                                    "identifier": "11",
+                                                    "showHide": true,
+                                                    "title": null,
+                                                    "content": null
+                                                }
+                                            }
+                                        ],
+                                        "responseIdentifier": "4866377_1",
+                                        "feedback": null
+                                    }
+                                ],
+                                "responseDeclarations": [
+                                    {
+                                        "identifier": "4866377_1",
+                                        "cardinality": "ordered",
+                                        "baseType": "identifier",
+                                        "correctResponse": {
+                                            "interpretation": null,
+                                            "values": [
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "0"
+                                                },
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "4"
+                                                },
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "7"
+                                                },
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "9"
+                                                },
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "11"
+                                                }
+                                            ]
+                                        },
+                                        "mapping": {
+                                            "lowerBound": "0",
+                                            "upperBound": 0,
+                                            "default": "0",
+                                            "mapEntries": [
+                                                {
+                                                    "key": "0",
+                                                    "value": "0",
+                                                    "caseSensitive": false
+                                                },
+                                                {
+                                                    "key": "1",
+                                                    "value": "0",
+                                                    "caseSensitive": false
+                                                },
+                                                {
+                                                    "key": "2",
+                                                    "value": "0",
+                                                    "caseSensitive": false
+                                                },
+                                                {
+                                                    "key": "3",
+                                                    "value": "0",
+                                                    "caseSensitive": false
+                                                },
+                                                {
+                                                    "key": "4",
+                                                    "value": "0",
+                                                    "caseSensitive": false
+                                                },
+                                                {
+                                                    "key": "5",
+                                                    "value": "0",
+                                                    "caseSensitive": false
+                                                },
+                                                {
+                                                    "key": "6",
+                                                    "value": "0",
+                                                    "caseSensitive": false
+                                                },
+                                                {
+                                                    "key": "7",
+                                                    "value": "0",
+                                                    "caseSensitive": false
+                                                },
+                                                {
+                                                    "key": "8",
+                                                    "value": "0",
+                                                    "caseSensitive": false
+                                                },
+                                                {
+                                                    "key": "9",
+                                                    "value": "0",
+                                                    "caseSensitive": false
+                                                },
+                                                {
+                                                    "key": "10",
+                                                    "value": "0",
+                                                    "caseSensitive": false
+                                                },
+                                                {
+                                                    "key": "11",
+                                                    "value": "0",
+                                                    "caseSensitive": false
+                                                }
+                                            ]
+                                        },
+                                        "areaMapping": null
+                                    }
+                                ],
+                                "outcomeDeclarations": [
+                                    {
+                                        "identifier": "SCORE",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": "0",
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK_CORRECT",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": false,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK_INCORRECT",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": true,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK_THRESHOLD",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 0,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "RESPONSE_CORRECT",
+                                        "cardinality": "single",
+                                        "baseType": "boolean",
+                                        "defaultValue": null,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "RESPONSE_INCORRECT",
+                                        "cardinality": "single",
+                                        "baseType": "boolean",
+                                        "defaultValue": null,
+                                        "interpretation": null
+                                    }
+                                ],
+                                "feedback": null
+                            }
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Mocht je het interessant vinden, hieronder vind je een leuk filmpje over hoe de lichtsensor op de Micro:bit werkt. Het is een engelstalig filmpje, je kunt eventueel de automatische vertaling aanzetten op Youtube als je dat prettig vindt.</p>\n"
+                        },
+                        {
+                            "type": "video",
+                            "url": "https://www.youtube.com/watch?v=TKhCr-dQMBY",
+                            "align": "left",
+                            "caption": "De lichtsensor op de Micro:bit (engelstalig)",
+                            "poster": "https://img.youtube.com/vi/TKhCr-dQMBY/maxresdefault.jpg"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Meer van dit soort filmpjes over sensoren van de Micro:bit vind je op Youtube onder de titel Behind the Code - Hardware:</p>\n<p><a href=\"https://www.youtube.com/results?search_query=Behind+the+MakeCode+Hardware\" target=\"_blank\">https://www.youtube.com/results?search_query=Behind+the+MakeCode+Hardware</a></p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4855374"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Je eerste programma voor de Micro:bit",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Je kunt met de Micro:bit al heel snel je eerste programma maken, bijvoorbeeld een knipperend hartje. Daarvoor heb je geen sensoren nodig.</p>\n<p><img alt=\"\" src=\"https://pxt.azureedge.net/blob/7c747185fef1b4f8069beb3c5c2820a5503c64a0/static/mb/projects/flashing-heart/sim.gif\" class=\"height-299-pixels width-365-pixels\"/></p>\n<p>Doorloop de volgende stappen. Als je er niet uitkomt, kijk dan op de site <a href=\"https://microbit.org/nl/guide/quick/\" target=\"_blank\">https://microbit.org/nl/guide/quick/</a> voor meer informatie.</p>\n<p><strong>Stap 1</strong> Verbind de Micro:bit via de USB-kabel met je computer.</p>\n<p><img alt=\"\" src=\"https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/19022191134/original/78CKWQghpVcUan_OolK6-dM5hfe-MHCucg.gif?1519817674\"/></p>\n<p>Als het goed is zie je de Micro:bit als schijf verschijnen.</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/f/f8165e857571f03b3cd7f26cae13322cefd76262.png\" class=\"height-60-pixels width-255-pixels\"/></p>\n<p> </p>\n<p><strong>Stap 2</strong> Programmeer de Micro:bit vanuit de website: <a href=\"https://makecode.microbit.org/\">https://makecode.microbit.org/</a></p>\n<p>Open de site en start een nieuw project.</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/4/41cac969c6652592971313ec58ae8eb2881f60f5.png\" class=\"height-213-pixels width-249-pixels\"/></p>\n<p>Maak het programma (zie het filmpje hieronder). Je kunt de blokjes verslepen.</p>\n<p><img alt=\"\" src=\"https://pxt.azureedge.net/blob/29f08908a686406f6522ef210de8b17a201e1e18/static/mb/projects/flashing-heart/showleds.gif\"/></p>\n<p>Zorg dat je het volgende programma krijgt:</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/3/37c73c6210780014b285d2400f497f77121085f6.png\" class=\"height-698-pixels width-289-pixels\"/></p>\n<p> </p>\n<p><strong>Stap 3</strong> Sla het programma op, bijvoorbeeld onder de naam 'Kloppend hart'.</p>\n<p><strong>Stap 4</strong> Download het programma naar de Micro:bit</p>\n<p>Klik op de Download-knop en sla het bestand op. Vervolgens sleep je het bestand naar de Micro:bit. De Micro:bit zal opnieuw opstarten en dan het programma starten. Als het goed is zie je een kloppend hart verschijnen.</p>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<div style=\"background:#eee; border:1px solid #ccc; padding:5px 10px;\">\n<p><strong>Opdracht Maak twee projecten na</strong></p>\n<p>Je gaat nu de Micro:bit verder verkennen. Werk in tweetallen. Kies twee projecten van de site <a href=\"https://makecode.microbit.org/#\">https://makecode.microbit.org/#</a> en bouw deze na in de Micro:bit.</p>\n</div>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4855375"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Programmeeromgeving Micro:bit",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Hieronder vind je een overzicht van de programmeeromgeving van de Micro:bit en een korte uitleg van de belangrijkste onderdelen.</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/a/adca8ab6fe36d7a64a2405583e241b314af3ab68.png\" class=\"height-720-pixels width-1280-pixels\"/>\n<figcaption>De programmeeromgeving van de Micro:bit</figcaption>\n</figure>\n<p> </p>\n<p>1. Start. Als je terugwilt naar het overzicht jouw projecten en voorbeelden van andere projecten.</p>\n<p>2. Zoek je hulp, bijvoorbeeld over de werking van de verschillende blokken, kijk dan hier.</p>\n<p>3. Bij de instellingen kun je onder meer de taal instellen.</p>\n<p>4. In de simulatie-omgeving kun je je programma testen zonder dat je het eerst hoeft te downloaden.</p>\n<p>5. Dit zijn de blokken waarmee je kunt programmeren. Als je een specifiek blok zoekt kan het helpen te kijken naar de kleur van het blok.</p>\n<p>6. Je maakt een programma door de blokken naar de programmeeromgeving te slepen.</p>\n<p>7. Hier kun je je programma downloaden zodat je het op je Micro:bit kunt zetten.</p>\n<p>8. Sla je programma op onder een duidelijke naam zodat je het later makkelijk terug kunt vinden in je projecten overzicht.</p>\n"
+                        },
+                        {
+                            "type": "question",
+                            "reference": {
+                                "value": "4866798"
+                            },
+                            "assessmentItem": {
+                                "identifier": "4866798",
+                                "itemBody": null,
+                                "questions": [
+                                    {
+                                        "type": "textEntryInteraction",
+                                        "content": {
+                                            "body": "<p>Je kunt de Micro:bit programmeren met behulp van de blokken. Een blok dat je bijna altijd gebruikt is het blok <textentry identifier=\"TE_661fed78bdf14\"></textentry>. Alles wat in dit blok staat wordt continu opnieuw door de Micro:bit uitgevoerd. Als je iets maar \u00e9\u00e9n keer wilt laten uitvoeren bij het opstarten van de Micro:bit gebruik je het blok <textentry identifier=\"TE_661fed78bdf23\"></textentry>.</p>\n<p>Als je een keuze wilt programmeren (als-dan of als-dan-anders) dan gebruik je de blokken die staan bij <textentry identifier=\"TE_661fed78bdf27\"></textentry>. Voor herhalingen kijk je bij <textentry identifier=\"TE_661fed78bdf2a\"></textentry>. Als je wilt dat er iets gebeurt op het moment dat de Micro:bit wordt geschud, gebruik je het blokje <textentry identifier=\"TE_661fed78bdf2d\"></textentry></p>",
+                                            "items": [
+                                                {
+                                                    "identifier": "TE_661fed78bdf14",
+                                                    "responseIdentifier": "TE_661fed78bdf14_0",
+                                                    "feedbackInline": null
+                                                },
+                                                {
+                                                    "identifier": "TE_661fed78bdf23",
+                                                    "responseIdentifier": "TE_661fed78bdf23_1",
+                                                    "feedbackInline": null
+                                                },
+                                                {
+                                                    "identifier": "TE_661fed78bdf27",
+                                                    "responseIdentifier": "TE_661fed78bdf27_2",
+                                                    "feedbackInline": null
+                                                },
+                                                {
+                                                    "identifier": "TE_661fed78bdf2a",
+                                                    "responseIdentifier": "TE_661fed78bdf2a_3",
+                                                    "feedbackInline": null
+                                                },
+                                                {
+                                                    "identifier": "TE_661fed78bdf2d",
+                                                    "responseIdentifier": "TE_661fed78bdf2d_4",
+                                                    "feedbackInline": null
+                                                }
+                                            ]
+                                        },
+                                        "label": "Welke blokken gebruik je?",
+                                        "responseIdentifier": null,
+                                        "feedback": null
+                                    }
+                                ],
+                                "responseDeclarations": [
+                                    {
+                                        "identifier": "TE_661fed78bdf14_0",
+                                        "cardinality": "record",
+                                        "baseType": "identifier",
+                                        "correctResponse": {
+                                            "interpretation": null,
+                                            "values": [
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "de hele tijd"
+                                                }
+                                            ]
+                                        },
+                                        "mapping": {
+                                            "lowerBound": 0,
+                                            "upperBound": 0.2,
+                                            "default": 0,
+                                            "mapEntries": []
+                                        },
+                                        "areaMapping": null
+                                    },
+                                    {
+                                        "identifier": "TE_661fed78bdf23_1",
+                                        "cardinality": "record",
+                                        "baseType": "identifier",
+                                        "correctResponse": {
+                                            "interpretation": null,
+                                            "values": [
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "bij opstarten"
+                                                }
+                                            ]
+                                        },
+                                        "mapping": {
+                                            "lowerBound": 0,
+                                            "upperBound": 0.2,
+                                            "default": 0,
+                                            "mapEntries": []
+                                        },
+                                        "areaMapping": null
+                                    },
+                                    {
+                                        "identifier": "TE_661fed78bdf27_2",
+                                        "cardinality": "record",
+                                        "baseType": "identifier",
+                                        "correctResponse": {
+                                            "interpretation": null,
+                                            "values": [
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "logisch"
+                                                }
+                                            ]
+                                        },
+                                        "mapping": {
+                                            "lowerBound": 0,
+                                            "upperBound": 0.2,
+                                            "default": 0,
+                                            "mapEntries": []
+                                        },
+                                        "areaMapping": null
+                                    },
+                                    {
+                                        "identifier": "TE_661fed78bdf2a_3",
+                                        "cardinality": "record",
+                                        "baseType": "identifier",
+                                        "correctResponse": {
+                                            "interpretation": null,
+                                            "values": [
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "lussen"
+                                                }
+                                            ]
+                                        },
+                                        "mapping": {
+                                            "lowerBound": 0,
+                                            "upperBound": 0.2,
+                                            "default": 0,
+                                            "mapEntries": []
+                                        },
+                                        "areaMapping": null
+                                    },
+                                    {
+                                        "identifier": "TE_661fed78bdf2d_4",
+                                        "cardinality": "record",
+                                        "baseType": "identifier",
+                                        "correctResponse": {
+                                            "interpretation": null,
+                                            "values": [
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "bij schudden"
+                                                }
+                                            ]
+                                        },
+                                        "mapping": {
+                                            "lowerBound": 0,
+                                            "upperBound": 0.2,
+                                            "default": 0,
+                                            "mapEntries": []
+                                        },
+                                        "areaMapping": null
+                                    }
+                                ],
+                                "outcomeDeclarations": [
+                                    {
+                                        "identifier": "SCORE",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 0,
+                                        "interpretation": null
+                                    }
+                                ],
+                                "feedback": null
+                            }
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4869837"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "De rest van dit hoofdstuk",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>De overige paragrafen in dit hoofdstuk gaan over het aansluiten van externe sensoren en actuatoren. Daar kun je gerust al mee aan de slag, dan leer je alvast hoe je dat kunt doen. Het is echter ook mogelijk om nu eerst met cyclus 1 te beginnen en pas hier terug te komen als je externe sensoren of actuatoren nodig hebt en gaat aansluiten.</p>\n<p><strong>Let op:</strong> in deze module leer je werken met toestandsdiagrammen. Dat leer je vanaf cyclus 1. Echter, ook in de voorbeelden in dit hoofdstuk over het aansluiten van externe sensoren en actuatoren maken we gebruik van toestandsdiagrammen.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "4855377"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Uitvinderskit voor het aansluiten van sensoren en actuatoren",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "4866806"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Uitvinderskit",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Als je externe sensoren gaat aansluiten raden we aan dat je een breadboard en breakout board gebruikt. Die zijn onderdeel van de <a href=\"https://www.kitronik.co.uk/5603-inventors-kit-for-the-bbc-microbit.html\" target=\"_blank\"><strong>uitvinderskit</strong></a> van Kitronik. Zonder te solderen kan je alles aansluiten op de Micro:Bit. In de uitvinderskit zit een handleiding, waarin stap voor stap wordt uitgelegd (in het Engels) hoe de Micro:Bit gebruikt kan worden. In het onderstaande filmpje wordt een introductie gegeven van de uitvinderskit en de Micro:bit.</p>\n<p><iframe allowfullscreen=\"allowfullscreen\" frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/lmdzM74XyHw\" width=\"560\" class=\"video-item\"/></p>\n<p> </p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/3/35815c530a1ef8fbcdea06a1405b363b053c2ff6.jpg\" class=\"height-558-pixels width-870-pixels\"/>\n<figcaption>Kitronic Breadboard en Breakoutboard</figcaption>\n</figure>\n<p> </p>\n<p>Op de eerste pagina van de handleiding die bij de uitvinderskit wordt meegeleverd staat beschreven hoe je deze onderdelen aan elkaar koppelt. Zie ook: <a href=\"https://www.kitronik.co.uk/pdf/5609_prototyping_system_for_the_bbc_micro_bit_assembly_instructions.pdf\" target=\"_blank\">https://www.kitronik.co.uk/pdf/5609_prototyping_system_for_the_bbc_micro_bit_assembly_instructions.pdf</a>.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4855378"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Breakoutboard",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Met behulp van het breakoutboard kun je makkelijk verbindingen maken met alle pinnen van de Micro:bit. Hieronder vind je een filmpje waarin de presentator uitlegt waarom het handig is om het breakout board te gebruiken.</p>\n<p><iframe allowfullscreen=\"allowfullscreen\" frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/bzm4zepbGAc\" width=\"560\" class=\"video-item\"/></p>\n<p>Het <a href=\"http://microbit.org/nl/guide/hardware/pins/\" target=\"_blank\">overzicht van de pinnen</a> helpt bij het aansluiten van sensoren via het breakout board. Dit overzicht is ook te vinden op de achterkant van de handleiding van de uitvinderskit.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4855379"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Breadboard",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Ondanks dat de Micro:Bit al allerlei sensoren heeft, zal je waarschijnlijk ook andere dingen op de Micro:Bit willen aansluiten. Die dingen kunnen van alles zijn: extra lampjes, extra knoppen, sensoren, etc. Zeker als we het hebben over een proefopstelling is het erg gemakkelijk om daar een zogenaamd breadboard voor te gebruiken.</p>\n<p>Een breadboard is een bordje met gaatjes waar je draadjes en andere onderdelen in kunt steken en zo verbindingen kunt maken.</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/c/cc8badba8ab44188d049fcd978a27e19ba2a2ed7.jpg\" class=\"height-548-pixels width-360-pixels\"/></p>\n<p>De 5 horizontale gaatjes zijn steeds met elkaar verbonden. Bijvoorbeeld: de gaatjes van rij 5 met de letters F G H I J zijn met elkaar verbonden. Steek je dus een draadje in J5 en een pootje van een led in G5 dan zijn die twee met elkaar verbonden. Maar dus niet met een ander onderdeel dat je in D5 hebt gestoken.</p>\n<p>De rode en blauwe lijnen zijn bedoeld om daar 3V (de rode lijn, de +) en GND (de blauwe lijn, de -) op aan te sluiten. In de voorbeelden verderop in de module zul je zien hoe je gebruikt kunt maken van het breadboard.</p>\n<p>Meer achtergrond over het breadboard vind je <a href=\"https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard\" target=\"_blank\"><strong>op de site van Sparkfun</strong></a>.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4866810"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Aansluiten met krokodillebekken",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Je hoeft niet per se gebruik te maken van het breakoutboard en het breadboard. Je kunt ook werken met draden met zogenaamde krokodillebekjes. Hieronder zie je een voorbeeld van het gebruik daarvan in een opstelling voor het meten van de vochtigheid van aarde. Zie ook: <a href=\"https://makecode.microbit.org/projects/soil-moisture\">https://makecode.microbit.org/projects/soil-moisture</a>.</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/2/218b0373df3b94675bc1b8f3f108ed6c09028d04.jpg\" class=\"height-375-pixels width-500-pixels\"/>\n<figcaption>Gebruik van krokodillebekjes </figcaption>\n</figure>\n<p> </p>\n<p>Het nadeel van het gebruik van deze krokodillebekjes is dat je alleen maar de pinnen 0, 1 en 2 kunt gebruiken, naast 3V en GND. Als je meerdere sensoren en/of actuatoren wilt aansluiten kom je dan wellicht tekort.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "4855380"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Voorbeeld: aansluiten LED en drukknop",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "4889671"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Inleiding",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>In deze paragraaf laten we zien hoe je een externe led en externe drukknop kunt koppelen aan de Micro:bit. We volgen deze stappen:</p>\n<ol>\n<li>Aansluiten van de drukknop en vervolgens testen daarvan</li>\n<li>Aansluiten van de LED en vervolgens testen daarvan</li>\n<li>Een programma maken waarmee je de LED aan en uit kunt zetten met de drukknop.</li>\n</ol>\n<p>Bekijk eerst de onderstaande filmpjes over de drukknop en de LED.</p>\n"
+                        },
+                        {
+                            "type": "video",
+                            "url": "https://www.youtube.com/watch?v=t_Qujjd_38o&feature=youtu.be",
+                            "align": "left",
+                            "caption": "Behind the MakeCode Hardware - Buttons",
+                            "poster": "https://img.youtube.com/vi/t_Qujjd_38o/maxresdefault.jpg"
+                        },
+                        {
+                            "type": "video",
+                            "url": "https://www.youtube.com/watch?v=qqBmvHD5bCw&feature=youtu.be",
+                            "align": "left",
+                            "caption": "Behind the MakeCode Hardware - LEDs",
+                            "poster": "https://img.youtube.com/vi/qqBmvHD5bCw/maxresdefault.jpg"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4870491"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Stap 1: Aansluiten van de drukknop",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Maak de volgende opstelling.</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/a/ade92775171fe323b70c52f60f436a0fafee6033.png\" class=\"height-500-pixels width-600-pixels\"/></p>\n<p>De bovenste rij op het breadboard in het plaatje hierboven is dus de min (0V), de rij daaronder is de plus (3V). Het knopje is dus verbonden met pin P0 en de min (0V).</p>\n<p>Het drukknopje heeft vier pinnen, die twee aan twee zijn verbonden. Als je het knopje indrukt worden alle vier pinnen met elkaar verbonden. Zie: <a href=\"http://www.teachwithict.com/uploads/5/5/8/2/5582303/published/button-fig-1.png?1531054399\" target=\"_blank\">http://www.teachwithict.com/uploads/5/5/8/2/5582303/published/button-fig-1.png?1531054399</a>.</p>\n<p>Je kunt nu op pin P0 meten of het knopje wordt ingedrukt. Belangrijk is om eerst te testen of dit werkt. Dat kan bijvoorbeeld met het volgende programma. Probeer het uit en kijk of het knopje werkt. Als je het knopje indrukt moet er een hartje verschijnen op de Micro:bit.</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/b/b1f47530849234372dd12bebdd4d79a9238f5557.png\" class=\"height-116-pixels width-250-pixels\"/></p>\n<p> </p>\n<p>Enkele opmerkingen voor de experts:</p>\n<ul>\n<li>De pinnen P0, P1, P2, maar ook P5 en P11 hebben een ingebouwde weerstand, die hoeft er dus niet bij worden geplaatst.</li>\n<li>De Micro:bit heeft een ingebouwde pull-up, zie ook: <a href=\"https://makecode.microbit.org/reference/pins/set-pull\" target=\"_blank\">https://makecode.microbit.org/reference/pins/set-pull</a>.</li>\n</ul>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4870492"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Stap 2: Aansluiten van de LED",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Nu je weet dat het drukknopje werkt kun je het ledje gaan aansluiten. Daarbij zijn twee dingen belangrijk:</p>\n<ol>\n<li>Een led kan doorbranden als er teveel spanning op staat. Daarom moet je altijd een weerstand gebruiken. Voor de ledjes die bij de uitvinderskit zitten kun je een ledje gebruiken van 47 Ohm. Dit zijn de weerstanden met de kleuren: geel, paars, zwart, goud. Als je meer wilt weten over deze kleurcodering, zie bijvoorbeeld: <a href=\"https://www.weerstandcalculator.nl/\" target=\"_blank\">https://www.weerstandcalculator.nl/</a></li>\n<li>Een led is een diode. Dat betekent dat de stroom er maar van \u00e9\u00e9n kant door kan. Zorg dat je de platte zijde verbindt met de - (min, 0V) en de bolle zijde met de + (plus, 3V). Doe je het andersom, dan zal de led niet branden. Je kunt het ook zien aan de lengte van de twee pootjes van de led, het lange pootje is de +, het korte pootje de min.</li>\n</ol>\n<p>Breid het systeem uit met een led zoals in het onderstaande schema. Je ziet, de led is aangesloten op pin P1. Die fungeert als een soort schakelaar waarmee je de led aan en uit kunt zetten.</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/c/cb0153a554f95d284b9013c2efb9fa352cae2e68.png\" class=\"height-500-pixels width-600-pixels\"/></p>\n<p> </p>\n<p>Nu moet je eerst de led testen. Je kunt de led bijvoorbeeld steeds aan en uit zetten, met het onderstaande programma. <strong>Let op</strong>: we gebruiken hier 'pauzeer' puur voor het testen van de afzonderlijke LED. In de module leer je om een timer te gebruiken in plaats van 'pauzeer', zie cyclus 2.</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/b/b803a5c9f3b187f2410a34fb86f63a76550367dd.png\" class=\"height-332-pixels width-442-pixels\"/></p>\n"
+                        },
+                        {
+                            "type": "question",
+                            "reference": {
+                                "value": "4870504"
+                            },
+                            "assessmentItem": {
+                                "identifier": "4870504",
+                                "itemBody": null,
+                                "questions": [
+                                    {
+                                        "type": "gapMatchInteraction",
+                                        "content": {
+                                            "body": "<p>Sleep de juiste woorden naar de lege plekken.</p>\n<p>De drukknop is aangesloten op <gap identifier=\"GM_661fed78c872b\"></gap> en <gap identifier=\"GM_661fed78c873e\"></gap>. De led is aangesloten op <gap identifier=\"GM_661fed78c8742\"></gap> en <gap identifier=\"GM_661fed78c8745\"></gap>. De drukknop is een <gap identifier=\"GM_661fed78c8748\"></gap> en de led is een <gap identifier=\"GM_661fed78c874b\"></gap>. Daarom fungeert pin 0 als <gap identifier=\"GM_661fed78c874e\"></gap> en pin 1 als <gap identifier=\"GM_661fed78c8751\"></gap>.</p>",
+                                            "items": [
+                                                {
+                                                    "identifier": "GM_661fed78c874e",
+                                                    "answer": {
+                                                        "identifier": "GMT_661fed78c874f",
+                                                        "content": {
+                                                            "body": "input-pin"
+                                                        }
+                                                    },
+                                                    "feedbackInline": null
+                                                },
+                                                {
+                                                    "identifier": "GM_661fed78c8751",
+                                                    "answer": {
+                                                        "identifier": "GMT_661fed78c8752",
+                                                        "content": {
+                                                            "body": "output-pin"
+                                                        }
+                                                    },
+                                                    "feedbackInline": null
+                                                },
+                                                {
+                                                    "identifier": "GM_661fed78c872b",
+                                                    "answer": {
+                                                        "identifier": "GMT_661fed78c872c",
+                                                        "content": {
+                                                            "body": "pin 0"
+                                                        }
+                                                    },
+                                                    "feedbackInline": null
+                                                },
+                                                {
+                                                    "identifier": "GM_661fed78c873e",
+                                                    "answer": {
+                                                        "identifier": "GMT_661fed78c873f",
+                                                        "content": {
+                                                            "body": "3V"
+                                                        }
+                                                    },
+                                                    "feedbackInline": null
+                                                },
+                                                {
+                                                    "identifier": "GM_661fed78c8745",
+                                                    "answer": {
+                                                        "identifier": "GMT_661fed78c8746",
+                                                        "content": {
+                                                            "body": "GND"
+                                                        }
+                                                    },
+                                                    "feedbackInline": null
+                                                },
+                                                {
+                                                    "identifier": "GM_661fed78c874b",
+                                                    "answer": {
+                                                        "identifier": "GMT_661fed78c874c",
+                                                        "content": {
+                                                            "body": "actuator"
+                                                        }
+                                                    },
+                                                    "feedbackInline": null
+                                                },
+                                                {
+                                                    "identifier": "GM_661fed78c8742",
+                                                    "answer": {
+                                                        "identifier": "GMT_661fed78c8743",
+                                                        "content": {
+                                                            "body": "pin 1"
+                                                        }
+                                                    },
+                                                    "feedbackInline": null
+                                                },
+                                                {
+                                                    "identifier": "GM_661fed78c8748",
+                                                    "answer": {
+                                                        "identifier": "GMT_661fed78c8749",
+                                                        "content": {
+                                                            "body": "sensor"
+                                                        }
+                                                    },
+                                                    "feedbackInline": null
+                                                }
+                                            ]
+                                        },
+                                        "label": "Aansluiten drukknop en led",
+                                        "responseIdentifier": "4870504_1",
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK_CORRECT",
+                                                "identifier": "FBC_4870504",
+                                                "showHide": null,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "Als de drukknop niet wordt ingedrukt is de spanning op pin 0 dus 0 volt. Dat noemen we ook wel LOW. Als de drukknop wel wordt ingedrukt wordt de spanning op pin 1 dus 3 volt. Dat noemen we ook wel HIGH.<br />\nAls de spanning op pin 1 gelijk is aan 0V gaat er geen stroom door de led en blijft deze uit. Als de spanning op pin 1 gelijk wordt aan 3 volt, dan gaat er stroom lopen van pin 1 naar GND via de led en de weerstand. Dan gaat de led dus aan."
+                                                }
+                                            },
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK_INCORRECT",
+                                                "identifier": "FBI_4870504",
+                                                "showHide": null,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "Als de drukknop niet wordt ingedrukt is de spanning op pin 0 dus 0 volt. Dat noemen we ook wel LOW. Als de drukknop wel wordt ingedrukt wordt de spanning op pin 1 dus 3 volt. Dat noemen we ook wel HIGH.<br />\nAls de spanning op pin 1 gelijk is aan 0V gaat er geen stroom door de led en blijft deze uit. Als de spanning op pin 1 gelijk wordt aan 3 volt, dan gaat er stroom lopen van pin 1 naar GND via de led en de weerstand. Dan gaat de led dus aan."
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "responseDeclarations": [
+                                    {
+                                        "identifier": "4870504_1",
+                                        "cardinality": "record",
+                                        "baseType": "identifier",
+                                        "correctResponse": {
+                                            "interpretation": null,
+                                            "values": [
+                                                {
+                                                    "fieldIdentifier": "GM_661fed78c872b",
+                                                    "value": "GMT_661fed78c872c"
+                                                },
+                                                {
+                                                    "fieldIdentifier": "GM_661fed78c873e",
+                                                    "value": "GMT_661fed78c873f"
+                                                },
+                                                {
+                                                    "fieldIdentifier": "GM_661fed78c8742",
+                                                    "value": "GMT_661fed78c8743"
+                                                },
+                                                {
+                                                    "fieldIdentifier": "GM_661fed78c8745",
+                                                    "value": "GMT_661fed78c8746"
+                                                },
+                                                {
+                                                    "fieldIdentifier": "GM_661fed78c8748",
+                                                    "value": "GMT_661fed78c8749"
+                                                },
+                                                {
+                                                    "fieldIdentifier": "GM_661fed78c874b",
+                                                    "value": "GMT_661fed78c874c"
+                                                },
+                                                {
+                                                    "fieldIdentifier": "GM_661fed78c874e",
+                                                    "value": "GMT_661fed78c874f"
+                                                },
+                                                {
+                                                    "fieldIdentifier": "GM_661fed78c8751",
+                                                    "value": "GMT_661fed78c8752"
+                                                }
+                                            ]
+                                        },
+                                        "mapping": {
+                                            "lowerBound": 0,
+                                            "upperBound": 1,
+                                            "default": 0,
+                                            "mapEntries": [
+                                                {
+                                                    "key": "GM_661fed78c872b",
+                                                    "value": 0.13,
+                                                    "caseSensitive": false
+                                                },
+                                                {
+                                                    "key": "GM_661fed78c873e",
+                                                    "value": 0.13,
+                                                    "caseSensitive": false
+                                                },
+                                                {
+                                                    "key": "GM_661fed78c8742",
+                                                    "value": 0.13,
+                                                    "caseSensitive": false
+                                                },
+                                                {
+                                                    "key": "GM_661fed78c8745",
+                                                    "value": 0.13,
+                                                    "caseSensitive": false
+                                                },
+                                                {
+                                                    "key": "GM_661fed78c8748",
+                                                    "value": 0.13,
+                                                    "caseSensitive": false
+                                                },
+                                                {
+                                                    "key": "GM_661fed78c874b",
+                                                    "value": 0.13,
+                                                    "caseSensitive": false
+                                                },
+                                                {
+                                                    "key": "GM_661fed78c874e",
+                                                    "value": 0.13,
+                                                    "caseSensitive": false
+                                                },
+                                                {
+                                                    "key": "GM_661fed78c8751",
+                                                    "value": 0.13,
+                                                    "caseSensitive": false
+                                                }
+                                            ]
+                                        },
+                                        "areaMapping": null
+                                    }
+                                ],
+                                "outcomeDeclarations": [
+                                    {
+                                        "identifier": "SCORE",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 0,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK_CORRECT",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": false,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK_INCORRECT",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": true,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK_THRESHOLD",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 1,
+                                        "interpretation": null
+                                    }
+                                ],
+                                "feedback": null
+                            }
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4870493"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Stap 3: Bedien de LED met de drukknop",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>De volgende stap is om de twee onderdelen (drukknop en led) te combineren: als het knopje wordt ingedrukt (en weer wordt losgelaten) gaat de led aan. Wordt het knopje nogmaals ingedrukt, dan gaat de led weer uit. In deze module werken we altijd met een toestandsdiagram, dus ook nu. Je kunt bijvoorbeeld het volgende toestandsdiagram gebruiken.</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/0/042710794cdde460bfe20079795d4fcf718be7ae.png\" class=\"height-181-pixels width-374-pixels\"/></p>\n<p>Toestand 1: de lamp is uit</p>\n<p>Toestand 2: de lamp is aan</p>\n<p>Het programma ziet er dan als volgt uit:</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/d/daa1108de8eec6282e93d5d40f91b9405f27e23c.png\" class=\"height-619-pixels width-500-pixels\"/></p>\n<p>Werkt het?</p>\n"
+                        },
+                        {
+                            "type": "question",
+                            "reference": {
+                                "value": "4870509"
+                            },
+                            "assessmentItem": {
+                                "identifier": "4870509",
+                                "itemBody": null,
+                                "questions": [
+                                    {
+                                        "type": "choiceInteraction",
+                                        "label": "Vraag over pinnen",
+                                        "prompt": {
+                                            "body": "<p>Zet een vinkje bij de stelling(en) die waar zijn.</p>"
+                                        },
+                                        "shuffle": false,
+                                        "maxChoices": 3,
+                                        "minChoices": 0,
+                                        "orientation": "vertical",
+                                        "choices": [
+                                            {
+                                                "identifier": "0",
+                                                "content": {
+                                                    "body": "Een pin op de Micro:bit kan zowel input als output zijn."
+                                                },
+                                                "feedback": {
+                                                    "outcomeIdentifier": "FEEDBACK",
+                                                    "identifier": "0",
+                                                    "showHide": true,
+                                                    "title": null,
+                                                    "content": null
+                                                }
+                                            },
+                                            {
+                                                "identifier": "1",
+                                                "content": {
+                                                    "body": "Een pin kan zowel digitale als analoge signalen verwerken."
+                                                },
+                                                "feedback": {
+                                                    "outcomeIdentifier": "FEEDBACK",
+                                                    "identifier": "1",
+                                                    "showHide": true,
+                                                    "title": null,
+                                                    "content": null
+                                                }
+                                            },
+                                            {
+                                                "identifier": "2",
+                                                "content": {
+                                                    "body": "Computers werken met enen (1) en nullen (0). Je kunt voor de Micro:bit zeggen: als er 0 volt op een pin staat is dat gelijk aan een 0. Als er 3 volt op een pin staat is dat gelijk aan een 1."
+                                                },
+                                                "feedback": {
+                                                    "outcomeIdentifier": "FEEDBACK",
+                                                    "identifier": "2",
+                                                    "showHide": true,
+                                                    "title": null,
+                                                    "content": null
+                                                }
+                                            }
+                                        ],
+                                        "responseIdentifier": "4870509_1",
+                                        "feedback": null
+                                    }
+                                ],
+                                "responseDeclarations": [
+                                    {
+                                        "identifier": "4870509_1",
+                                        "cardinality": "ordered",
+                                        "baseType": "identifier",
+                                        "correctResponse": {
+                                            "interpretation": null,
+                                            "values": [
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "0"
+                                                },
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "1"
+                                                },
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "2"
+                                                }
+                                            ]
+                                        },
+                                        "mapping": {
+                                            "lowerBound": "0",
+                                            "upperBound": 0,
+                                            "default": "0",
+                                            "mapEntries": [
+                                                {
+                                                    "key": "0",
+                                                    "value": "0",
+                                                    "caseSensitive": false
+                                                },
+                                                {
+                                                    "key": "1",
+                                                    "value": "0",
+                                                    "caseSensitive": false
+                                                },
+                                                {
+                                                    "key": "2",
+                                                    "value": "0",
+                                                    "caseSensitive": false
+                                                }
+                                            ]
+                                        },
+                                        "areaMapping": null
+                                    }
+                                ],
+                                "outcomeDeclarations": [
+                                    {
+                                        "identifier": "SCORE",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": "0",
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK_CORRECT",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": false,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK_INCORRECT",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": true,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK_THRESHOLD",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 0,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "RESPONSE_CORRECT",
+                                        "cardinality": "single",
+                                        "baseType": "boolean",
+                                        "defaultValue": null,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "RESPONSE_INCORRECT",
+                                        "cardinality": "single",
+                                        "baseType": "boolean",
+                                        "defaultValue": null,
+                                        "interpretation": null
+                                    }
+                                ],
+                                "feedback": null
+                            }
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "4870495"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Voorbeeld: sterkte van een LED aanpassen",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "4889672"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Inleiding",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>In deze paragraaf leer je hoe je de sterkte, oftewel de lichtintensiteit, van een led kunt aanpassen. Het doel is om de lichtintensiteit van een led aan te passen met behulp van de A-knop en de B-knop. Als de A-knop wordt ingedrukt gaat de led feller branden. Als de B-knop wordt ingedrukt gaat de led minder fel branden. Dat werkt op basis van Pulse Width Modulation (PWM), ook dat zullen we toelichten.</p>\n<p>We doorlopen de volgende stappen:</p>\n<ol>\n<li>Aansluiten van de led en het testen daarvan</li>\n<li>Maken van een toestandsdiagram</li>\n<li>Omzetten naar een programma</li>\n</ol>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4870498"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Stap 1 Aansluiten van de led ",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Maak de onderstaande opstelling (die is gelijk aan <a href=\"/135426/4855380/4889671\" data-section=\"4855380\" data-subsection=\"4889671\" data-resource=\"135426\">Voorbeeld: aansluiten LED en drukknop</a>). Je ziet:</p>\n<ul>\n<li>De led is aangesloten op pin 1.</li>\n<li>We gebruiken een weerstand van 47 Ohm om te voorkomen dat de led doorbrandt</li>\n<li>De platte kant van de led sluiten we aan op de min (0V). Je kunt ook kijken naar de pootjes van de led: het korte pootje sluiten we aan op de min (0V).</li>\n</ul>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/9/9f8dd14b048ec3cdf2cbd4ea2aa9ff9dfc94a46d.png\" class=\"height-457-pixels width-600-pixels\"/></p>\n<p>Test of de led werkt, bijvoorbeeld met onderstaande programma. Dit programma laat het lampje steeds met een andere sterkte branden. Daarbij is 1023 de maximale waarde.</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/537152c2ba9b9662e757f9064ffb33d10c2835d2.png\" class=\"height-393-pixels width-400-pixels\"/></p>\n<p><strong>Let op</strong>: we gebruiken hier 'pauzeer' puur voor het testen. In de module leer je hoe je hiervoor een timer kunt gebruiken, <a href=\"https://maken.wikiwijs.nl/135424/Cyclus_2#!page-4897506\">zie cyclus 2 - timers</a>.</p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4870502"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Over PWM: Pulse With Modulation",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>In het voorbeeld bij stap 1 zie je al een toepassing van Pulse With Modulation (PWM). De Micro:bit kan namelijk alleen maar een spanning van 3 volt of 0 volt op de pinnen zetten. Het is niet mogelijk om bijvoorbeeld 1,5 volt op de pin te zetten en daarmee de led minder fel te laten branden. De led is dus aan (3V) of uit (0V).</p>\n<p>Toch is er een oplossing om de led minder fel te laten branden. De Micro:bit wisselt de spanning op de pin heel snel tussen 0V en 3V. Als de spanning voor 50% van de tijd 0 volt is, dan zal de led maar half zo sterk branden. Als de spanning 25% van de tijd 0 volt is, en dus 75% van de tijd 3 volt, dan zal de led op 75% sterkte branden. Je ziet niet dat de led steeds aan en uit gaat omdat het heel snel achter elkaar gaat. Dit noemen we Pulse Width Modulation.</p>\n<p>De figuur hieronder laat drie situaties zien. Het gemiddelde geeft aan hoe sterk de led zal branden.</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/549d03556b148693e1365312f8337559a97d6589.gif\" class=\"height-278-pixels width-326-pixels\"/></p>\n<p>Bron: <a href=\"https://nl.wikipedia.org/wiki/Pulsbreedtemodulatie\" target=\"_blank\">Wikipedia</a>.</p>\n<p>Je hoeft maar weinig te doen om PWM te gebruiken. Je gebruikt 'schrijf analoog pin \u2026 naar \u2026' en de Micro:bit handelt het verder af. Als je de led op 50% gebruik je bijvoorbeeld het onderstaande blokje. De waarde is 512, omdat dat de helft is van 1023, wat het maximum is.</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/10d1e0b2eee96ec132947d01a0faa6c3fb8d349e.png\" class=\"height-73-pixels width-433-pixels\"/></p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4870499"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Stap 2 Maken van een toestandsdiagram",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>We maken een programma met 4 toestanden.</p>\n<ul>\n<li>Toestand 1: de led is uit</li>\n<li>Toestand 2: de led is aan op 33% sterkte</li>\n<li>Toestand 3: de led is aan op 66% sterkte</li>\n<li>Toestand 4: de led is aan op 100% sterkte</li>\n</ul>\n<p>Het toestandsdiagram ziet er dan zo uit:</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/b/bd1849fa8869aeb52f894c856e5734c2f1e2d517.png\" class=\"height-336-pixels width-473-pixels\"/></p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4870500"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Stap 3 Omzetten naar een programma",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Dit was de bedoeling van ons systeem: als de A-knop op de Micro:bit wordt ingedrukt gaat de led feller branden. Als de B-knop wordt ingedrukt gaat de led minder fel branden.</p>\n<p>Als je met de Micro:bit wilt nagaan of een knopje is gedrukt en weer losgelaten kun je het volgende commando gebruiken:</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/c/c4baaf1e8fa1f896e3746ba8f3c083e2539c776d.png\" class=\"height-136-pixels width-400-pixels\"/></p>\n<p>Daarom hebben het programma als volgt opgebouwd.</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/a/a0026c62e804f78ead31347c353b7af8228a7ae7.png\" class=\"height-457-pixels width-600-pixels\"/></p>\n<p> </p>\n<p>Test het programma. Werkt het?</p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "5383224"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Voorbeeld: aansluiten piezobuzzer",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Met een piezo-buzzer kun je een alarm laten klinken of een muziekje laten horen. In dit deel laten we zien hoe je de piezo-buzzer kunt aansluiten. De piezo buzzer zit bij de uitvinderskit. Zie ook: <a href=\"https://www.kitronik.co.uk/blog/inventors-kit-experiment-6-help\" target=\"_blank\">https://www.kitronik.co.uk/blog/inventors-kit-experiment-6-help</a>.</p>\n<p>Mocht je geen piezo-buzzer hebben, dan kun je ook gebruikmaken van oortjes om geluid te laten (zie de afbeelding hieronder). Daarvoor heb je krokodillebekjes nodig. Zie ook het volgende filmpje over het maken van geluid met de Micro:bit.</p>\n<p><iframe allowfullscreen=\"allowfullscreen\" frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/cxfPNc4Wefo\" width=\"560\" class=\"video-item\"/></p>\n<p> </p>\n<p>Voor het aansluiten van een een piezo-buzzer kun je het onderstaande schema gebruiken. Je ziet dat de piezo-buzzer is aangesloten op pin 2 (P2). Je ziet daarbij ook de aansluiting van de ultrasoonsensor. Je kunt echter ook prima eerst alleen de piezo-buzzer aansluiten en testen, zodat je aan deelprobleem 2 kunt werken.</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/7/764dbfc145374bcf46ae96999614da3ae89e0dd4.png\" class=\"height-457-pixels width-600-pixels\"/></p>\n<p> </p>\n<p> </p>\n<p>Met onderstaande programma kun je testen of de piezo-buzzer werkt. Met het blokje 'zet analoge toonhoogte pin P2' laat je weten dat de piezo-buzzer op pin 2 (P2) is aangesloten.</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/58d3217bf38ae371246d990b670e8703a3f24c3f.png\" class=\"height-152-pixels width-300-pixels\"/></p>\n<p>Als het goed is hoor je een hoge toon bij het starten van het programma. De piezo-buzzer blijft nu de hele tijd aan. Om de piezo-buzzer uit te zetten kun je het volgende blokje gebruiken.</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/0/06c30d510b4b1ba19fa11830cdc918948ebd1fbb.png\" class=\"height-35-pixels width-283-pixels\"/></p>\n<p> </p>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "4869833"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Voorbeeld: aansluiten motor",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "4889673"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Inleiding",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>In deze paragraaf leer je hoe je een motor kunt aansluiten op de Mico:bit. Dit is gebaseerd op: <a href=\"https://www.kitronik.co.uk/blog/experiment-4-using-a-transistor-to-drive-a-motor/\" target=\"_blank\">https://www.kitronik.co.uk/blog/experiment-4-using-a-transistor-to-drive-a-motor/</a>.</p>\n<p>Het gaat om een eenvoudige electrische DC-motor. Het is geen servo-motor, maar het is wel goed om het verschil tussen deze twee type motoren te weten. Dat wordt in het onderstaande filmpje uitgelegd.</p>\n<p><iframe allowfullscreen=\"allowfullscreen\" frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/okxooamdAP4\" width=\"560\" class=\"video-item\"/></p>\n<p>Het doel is om met de A-knop en B-knop een motor aan te sturen.</p>\n<ul>\n<li>Als geen van de knoppen wordt ingedrukt staat de motor uit.</li>\n<li>Als de A-knop wordt ingedrukt draait de motor op 25%.</li>\n<li>Als de B-knop wordt ingedrukt draait de motor op 50%</li>\n<li>Als de A- en B-knop beide worden ingedrukt draait de motor op 100%.</li>\n</ul>\n<p>Je leert hierbij dat je een motor niet zomaar op een pin kunt aansluiten, omdat de pinnen van de Micro:bit onvoldoende stroom kunnen leveren voor een motor.</p>\n<p>Zorg dat je stapsgewijs werkt:</p>\n<ul>\n<li>Stap 1: sluit de motor aan en test of deze werkt.</li>\n<li>Stap 2: maak een toestandsdiagram</li>\n<li>Stap 3: maak het programma en test dit</li>\n</ul>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4870521"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Stap 1: Sluit de motor aan",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Sluit de motor aan volgens het schema hieronder. Je hebt daarvoor de volgende onderdelen nodig, die vind je allemaal in de uitvinderskit.</p>\n<ul>\n<li>Een terminal connector. Hiermee kun je de motor makkelijk en veilig aan het breadboard verbinden.</li>\n<li>Een motor, zoals bijvoorbeeld een windmolentje</li>\n<li>Een weerstand van 2.2k\u03a9. Deze heeft de kleuren rood, rood, rood, goud.</li>\n<li>Een transistor</li>\n</ul>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/9/9745c8163cb80980331006418103a03327f240ad.png\" class=\"height-540-pixels width-642-pixels\"/></p>\n<p> </p>\n<p>De transistor heeft drie pootjes. Het middelste pootje werkt als een soort schakelaar. Als de spanning op het middelste pootje hoog is (3 volt), dan is de poort open en kan er stroom via de buitenste pootjes lopen. Als de spanning op het middelste bootje laag is (0 volt), dan is de poort dicht en kan er geen stroom lopen. De transistor zorgt ervoor dat de stroom voor de motor niet via \u00e9\u00e9n van de pinnen van de Micro:bit hoeft te gaan, maar rechtstreeks op de 3V en GND kan worden aangesloten. Daardoor krijgt de motor voldoende stroom om te kunnen draaien. We kunnen de motor nu aan- en uitzetten via pin 0.</p>\n<p>Test of de motor werkt, bijvoorbeeld. met het onderstaande programma. Als het goed is begint de motor op ongeveer 50% te draaien. Je kunt de waarde 512 veranderen in het programma (tussen 0 en 1023) en daarmee bepalen hoe hard de motor moet draaien. Ook hier wordt weer gebruik gemaakt van Pulse Width Modulation, zie <a href=\"https://maken.wikiwijs.nl/?id=15&amp;arrangement=135426#!page-4870502\">Over PWM: Pulse With Modulation</a>.</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/8d7ee6964527b52fc8e6b3047a59f21f4394a4eb.png\" class=\"height-183-pixels width-439-pixels\"/></p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4870523"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Stap 2: Maak een toestandsdiagram",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Je herkent waarschijnlijk wel 4 toestanden in de beschrijving van het systeem. Je kunt bijvoorbeeld het volgende toestandsdiagram gebruiken. Let op: als er staat: 'knop A is ingedrukt' bedoelen we dat je op dat moment de vinger op de knop hebt en indrukt. Het betekent dus niet: de knop is ingedrukt en weer losgelaten.</p>\n<p> </p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/3/3ef2febcbf1c644f7713e77812fdfc2238008560.png\" class=\"height-336-pixels width-501-pixels\"/></p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4870525"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Stap 3: Maak het programma en test dit.",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Hieronder zie je een uitwerking op basis van bovenstaande toestandsdiagram.</p>\n<ul>\n<li>Toestand 1: motor is uit</li>\n<li>Toestand 2: motor op 25%</li>\n<li>Toestand 3: motor op 50%</li>\n<li>Toestand 4: motor op 100%</li>\n</ul>\n<p>Test het programma. Werkt het?</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/d/d15ab06cf382b842b83f7630943fb24c3c917cd7.png\" class=\"height-2315-pixels width-650-pixels\"/></p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "4908745"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Voorbeeldopdracht: alarm",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "4911061"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Samenwerkingsopdracht",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Je kunt deze opdracht als een samenwerkingsopdracht doorlopen, gebaseerd op de expert-methode. Dit staat hieronder beschreven. Je kunt er ook voor kiezen om de opdracht zelfstandig of op een andere manier te maken, sla dan deze paragraaf over. Overleg met je docent.</p>\n<p><strong>Opdracht: alarm maken</strong></p>\n<p>Je werkt voor deze opdracht in groepjes van 3 leerlingen. Samen gaan jullie het alarm maken zoals in de volgende paragraaf staat beschreven (zie: <a href=\"/135426/4908745/4911062\" data-section=\"4908745\" data-subsection=\"4911062\" data-resource=\"135426\">Opdrachtomschrijving</a>). Voordat jullie dat samen gaan doen gaat ieder van jullie zich verdiepen in een apart onderdeel. Daarna komen jullie weer samen om gezamenlijk het systeem te bouwen.</p>\n<p> </p>\n<div style=\"background:#eee; border:1px solid #ccc; padding:5px 10px;\">\n<p><strong>Opdracht leerling 1: sluit een externe drukknop aan</strong></p>\n<p>Zoek \u00c3\u0083\u00c2\u00a9\u00c3\u0083\u00c2\u00a9n of meerdere leerlingen van andere groepjes op en zorg dat je leert hoe je een externe drukknop kunt aansluiten en gebruiken. Meer informatie vind je hier:</p>\n<p><a href=\"/135426/4855380/4870491\" target=\"_blank\" data-section=\"4855380\" data-subsection=\"4870491\" data-resource=\"135426\">Stap 1: Aansluiten van de drukknop</a></p>\n<p><strong>Tip:</strong> kijk goed of je de drukknop aansluit op de 0V of 3V.</p>\n<p>Zorg dat je:</p>\n<ul>\n<li>weet hoe je een externe drukknop kunt aansluiten</li>\n<li>weet hoe je een externe drukknop in een programma kunt gebruiken</li>\n</ul>\n</div>\n<div style=\"background:#eee; border:1px solid #ccc; padding:5px 10px;\">\n<p><strong>Opdracht leerling 2: sluit een piezo-buzzer aan</strong></p>\n<p>Zoek \u00c3\u0083\u00c2\u00a9\u00c3\u0083\u00c2\u00a9n of meerdere leerlingen van andere groepjes op en zoek samen uit hoe je een piezo-buzzer kunt aansluiten en gebruiken (zie ook de <a href=\"/135426/4908745/4911062\" data-section=\"4908745\" data-subsection=\"4911062\" data-resource=\"135426\">Opdrachtomschrijving</a>). Zoek hierover zelf informatie op internet. Bijvoorbeeld via: <a href=\"https://www.kitronik.co.uk/blog/inventors-kit-experiment-6-help\" target=\"_blank\">https://www.kitronik.co.uk/blog/inventors-kit-experiment-6-help</a></p>\n<p>Zorg dat je weet:</p>\n<ul>\n<li>hoe je een piezo-buzzer kunt aansluiten</li>\n<li>hoe je een piezo-buzzer geluid kunt laten genereren.</li>\n</ul>\n</div>\n<div style=\"background:#eee; border:1px solid #ccc; padding:5px 10px;\">\n<p><strong>Opdracht leerling 3: maak een toestandsdiagram</strong></p>\n<p>Zoek \u00c3\u0083\u00c2\u00a9\u00c3\u0083\u00c2\u00a9n of meerdere leerlingen van een andere groepjes op en maak een toestandsdiagram voor het systeem. Zie ook de <a href=\"/135426/4908745/4911062\" data-section=\"4908745\" data-subsection=\"4911062\" data-resource=\"135426\">opdrachtomschrijving</a>.</p>\n</div>\n<p> </p>\n<div style=\"background:#eee; border:1px solid #ccc; padding:5px 10px;\">\n<p><strong>Gezamenlijke opdracht</strong></p>\n<p>Leg elkaar uit wat je hebt geleerd. Bouw en programmeer vervolgens samen het alarm, zie ook de <a href=\"/135426/4908745/4911062\" data-section=\"4908745\" data-subsection=\"4911062\" data-resource=\"135426\">Opdrachtomschrijving</a>.</p>\n</div>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4911062"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Opdrachtomschrijving",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/e/e18a11ffdcd2be99447b8c6003a17ff66c7ac64a.jpg\" class=\"height-478-pixels width-269-pixels float-right\"/><em>Je docent beschikt over een uitgebreide uitwerking van deze opdracht. Samen met je docent kun je er ook voor kiezen om deze opdracht als voorbeeld te bekijken en na te maken.</em></p>\n<p><strong>Let op:</strong> dit is een uitgebreide opdracht waarbij je onder meer een timer moet gebruiken. Dit wordt uitgelegd in cyclus 2.</p>\n<p>Maak een alarm, zoals dat ook op je mobiele telefoon zit, zie het plaatje hiernaast. Het systeem heeft 3 knoppen:</p>\n<ul>\n<li>Plus-knop, waarmee je het aantal seconden ophoogt.</li>\n<li>Min-knop, waarmee je het aantal seconden verlaagt.</li>\n<li>Start/reset knop, waarmee je de timer kunt starten en resetten.</li>\n</ul>\n<p>Daarnaast heeft het systeem een zoemer, dat is de piezo-buzzer, zie het plaatje hieronder.</p>\n<p>In het begin kan de gebruiker de tijd instellen met de plus-knop en de min-knop. De tijd kan natuurlijk niet lager zijn dan nul. Vervolgens wordt het alarm gestart met de start/reset-knop. De seconden tikken dan weg, bijv: 8, 7, 6, 5, enzovoort. Als het aantal seconden nul is gaat het alarm af: de zoemer gaat aan. Als de gebruiker dan weer op de start/reset-knop drukt gaat het alarm uit. De gebruiker kan tijdens het wegtikken van de seconden het alarm resetten met de start/reset-knop.</p>\n<p><strong>Benodigde materialen</strong></p>\n<p>Naast de Micro:bit heb je nodig:</p>\n<ul>\n<li>een extra drukknop</li>\n<li>een piezo-buzzer</li>\n<li>een breadboard</li>\n<li>een breakoutboard</li>\n<li>draadjes om de onderdelen te verbinden</li>\n</ul>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/3/366c87ac3bd89b0826ba17bc648c5a0a2f98ae85.jpg\" class=\"height-269-pixels width-269-pixels\"/></p>\n<p>Mocht je niet over alle materialen beschikken:</p>\n<ul>\n<li>Je kunt ook werken zonder breadboard en breakoutboard, in dat geval heb je draden met krokodillenbekjes nodig.</li>\n<li>In plaats van de piezo-buzzer kun je ook een koptelefoon of oortjes gebruiken (zie afbeelding hieronder).</li>\n<li>In plaats van een extra drukknop kun je de start/reset-knop ook nabootsen door knop A en knop B tegelijk in te drukken.</li>\n</ul>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/9/93396d2a45376b53bebb180c6f531b6fe02b17b3.jpg\" class=\"height-158-pixels width-231-pixels\"/></p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "4855383"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Aansluiten op een batterij",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Soms is het nodig om de Micro:bit los te koppelen van de PC om het te kunnen testen. Je kunt de Micro:bit dan aansluiten op een batterij. Gebruik daarvoor een batterijhouder met 2 AAA-batterijen.</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/6/6081883429a05fa9c027810f65a3f8f3314351de.jpg\" class=\"height-167-pixels width-250-pixels\"/></p>\n<p>Sluit de batterijhouder aan op de aparte aansluiting hiervoor, deze zit naast de USB-aansluiting. Als de Micro:bit is aangesloten op de batterijhouder zie je geen ledjes meer knipperen, waardoor het lijkt alsof de Micro:bit niet aanstaat. Zie ook: <a href=\"https://support.microbit.org/support/solutions/articles/19000013982-how-do-i-power-my-micro-bit-\" target=\"_blank\">https://support.microbit.org/support/solutions/articles/19000013982-how-do-i-power-my-micro-bit-</a>.</p>\n"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>De Micro:bit geeft een spanning van 3V af. Sommige sensoren, zoals de PIR-sensor en de ultrasoonsensor hebben een hogere spanning nodig om goed te functioneren. Daarvoor kun je batterijen gebruiken. Hieronder zie je een batterijhouder voor 3 AAA batterijen, deze geeft een spanning van ongeveer 4,5 V af.</p>\n<p>Het lijkt er op dat deze sensoren (de PIR-sensor en ultrasoonsensor) wel werken als de de Micro:bit is aangesloten via de USB-kabel.</p>\n<p><strong>Let op:</strong> sluit deze batterijhouder met 3 AAA-batterijen nooit rechtstreeks op de Micro:bit aan, de Micro:bit kan door de hogere spanning kapot gaan. Als je de Micro:bit op batterijen wilt aansluiten, gebruiken dan de batterijhouder voor 2 batterijen.</p>\n<p><a href=\"http://www.physicalcomputing.xyz/physicalcomputing/wp-content/uploads/2018/09/batterijhouder.jpg\"><img alt=\"\" src=\"http://www.physicalcomputing.xyz/physicalcomputing/wp-content/uploads/2018/09/batterijhouder.jpg\" class=\"height-200-pixels width-300-pixels\"/></a></p>\n<p> </p>\n<p> </p>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "4905563"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Debuggen met een seri\u00eble verbinding",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Bij het maken van een programma kun je informatie via de ledjes van de Micro:bit laten zien. Je kunt bijvoorbeeld de waarde van een sensor tonen via de ledjes. Een nadeel van deze manier van testen is dat het blokje om de ledjes op de Micro:bit aan te passen relatief veel processortijd kost. Je ziet daardoor minder goed wat er precies gebeurt.</p>\n<p>Een alternatief is gebruik te maken van een seri\u00eble verbinding. Daarvoor zul je wat moeten installeren op je computer en dus wel voldoende rechten moeten hebben.</p>\n<p>Ga naar <a href=\"https://www.microbit.co.uk/td/serial-library\" target=\"_blank\">https://www.microbit.co.uk/td/serial-library</a> en volg de stappen. Je moet twee programma's installeren (dit wordt uitgelegd op de genoemde site)</p>\n<ol>\n<li>een driver</li>\n<li>terminal emulator</li>\n</ol>\n<p>Je kunt dan de volgende regels om informatie te laten zien op het scherm van je computer.</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/2/2e4a8003afd79ec54b28de0fd4d5e76118ec2ad7.png\" class=\"height-211-pixels width-500-pixels\"/></p>\n<p> </p>\n<p>Of, als je wilt dat er bij staat wat het is:</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/4/4fb2fcf1caa8dfe37bd1ec5cd3c38e990f14c9f7.png\" class=\"height-68-pixels width-500-pixels\"/></p>\n<p> </p>\n<p>Om de gegevens te kunnen zien moet je:</p>\n<ul>\n<li>de Micro:bit via de USB-kabel hebben aangesloten op je computer.</li>\n<li>de terminal emulator hebben gestart en daarin:\n<ul>\n<li>de juiste seriele poort (waarschijnlijk \"mbed Serial Port\") hebben geselecteerd (zie meer uitleg hierover op de bovenstaande website)</li>\n<li>de snelheid van de seriele verbinding (baud rate) op 115200 hebben gezet.</li>\n</ul>\n</li>\n</ul>\n<p>Je krijgt dan iets als hieronder te zien</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/858f447479b628f0336c3994fb8eab1a329a062f.png\" class=\"height-511-pixels width-623-pixels\"/></p>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "4855386"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Meer voorbeelden en handleidingen",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Al doende zal je snel leren hoe je de Micro:Bit kunt programmeren. Als je in de programmeeromgeving (zie: <a href=\"https://makecode.microbit.org/#\" target=\"_blank\">https://makecode.microbit.org/</a>) kijkt bij projecten en dan voorbeelden, vind je veel inspiratie. Voor de blokken-taal is een handleiding beschikbaar in de programmeeromgeving: rechts bovenin staat een oranje knopje 'Aan de slag'.</p>\n<p>Andere interessante bronnen om dingen uit te proberen zijn:</p>\n<ul>\n<li>De Micro:bit documentatie: <a href=\"https://makecode.microbit.org/docs\" target=\"_blank\">https://makecode.microbit.org/docs</a></li>\n<li><a href=\"https://www.micro-bit.nl/lesmateriaal\" target=\"_blank\">Het lesmateriaal van de Nederlandse Microbit website</a></li>\n<li><a href=\"https://microbit101.nl/\" target=\"_blank\">Een nederlandse website met 101 projecten</a></li>\n<li>Het boekje dat is meegeleverd bij de uitvinderskit of <a href=\"https://www.kitronik.co.uk/blog/resources/specialist-courses/bbc-microbit-kitronik-university-course/inventors-kit/\" target=\"_blank\">de filmpjes met uitwerkingen van de opdrachten</a>.</li>\n</ul>\n"
+                },
+                {
+                    "type": "link",
+                    "link": "https://makecode.microbit.org/device/reactive",
+                    "title": "Over reactietijden van de Micro:bit",
+                    "description": "",
+                    "comment": ""
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "4913120"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Terug naar voorpagina Micro:bit",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p><a href=\"https://maken.wikiwijs.nl/135434/Physical_Computing_geheel#!page-4870527\">Ga terug naar de voorpagina Micro:Bit</a> met verwijzingen naar alle hoofstukken voor deze module.</p>\n"
+                }
+            ],
+            "sections": []
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": null,
+            "dimension": null,
+            "suppressTitle": null
+        },
+        "color": "#333333"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Inleiding Micro:bit",
+                "reference": {
+                    "value": "4855371"
+                },
+                "sections": [
+                    {
+                        "title": "Inleiding",
+                        "reference": {
+                            "value": "4889670"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Sensoren Micro:bit",
+                        "reference": {
+                            "value": "5379795"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Je eerste programma voor de Micro:bit",
+                        "reference": {
+                            "value": "4855374"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Programmeeromgeving Micro:bit",
+                        "reference": {
+                            "value": "4855375"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "De rest van dit hoofdstuk",
+                        "reference": {
+                            "value": "4869837"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Uitvinderskit voor het aansluiten van sensoren en actuatoren",
+                "reference": {
+                    "value": "4855377"
+                },
+                "sections": [
+                    {
+                        "title": "Uitvinderskit",
+                        "reference": {
+                            "value": "4866806"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Breakoutboard",
+                        "reference": {
+                            "value": "4855378"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Breadboard",
+                        "reference": {
+                            "value": "4855379"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Aansluiten met krokodillebekken",
+                        "reference": {
+                            "value": "4866810"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Voorbeeld: aansluiten LED en drukknop",
+                "reference": {
+                    "value": "4855380"
+                },
+                "sections": [
+                    {
+                        "title": "Inleiding",
+                        "reference": {
+                            "value": "4889671"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Stap 1: Aansluiten van de drukknop",
+                        "reference": {
+                            "value": "4870491"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Stap 2: Aansluiten van de LED",
+                        "reference": {
+                            "value": "4870492"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Stap 3: Bedien de LED met de drukknop",
+                        "reference": {
+                            "value": "4870493"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Voorbeeld: sterkte van een LED aanpassen",
+                "reference": {
+                    "value": "4870495"
+                },
+                "sections": [
+                    {
+                        "title": "Inleiding",
+                        "reference": {
+                            "value": "4889672"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Stap 1 Aansluiten van de led ",
+                        "reference": {
+                            "value": "4870498"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Over PWM: Pulse With Modulation",
+                        "reference": {
+                            "value": "4870502"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Stap 2 Maken van een toestandsdiagram",
+                        "reference": {
+                            "value": "4870499"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Stap 3 Omzetten naar een programma",
+                        "reference": {
+                            "value": "4870500"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Voorbeeld: aansluiten piezobuzzer",
+                "reference": {
+                    "value": "5383224"
+                },
+                "sections": []
+            },
+            {
+                "title": "Voorbeeld: aansluiten motor",
+                "reference": {
+                    "value": "4869833"
+                },
+                "sections": [
+                    {
+                        "title": "Inleiding",
+                        "reference": {
+                            "value": "4889673"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Stap 1: Sluit de motor aan",
+                        "reference": {
+                            "value": "4870521"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Stap 2: Maak een toestandsdiagram",
+                        "reference": {
+                            "value": "4870523"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Stap 3: Maak het programma en test dit.",
+                        "reference": {
+                            "value": "4870525"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Voorbeeldopdracht: alarm",
+                "reference": {
+                    "value": "4908745"
+                },
+                "sections": [
+                    {
+                        "title": "Samenwerkingsopdracht",
+                        "reference": {
+                            "value": "4911061"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Opdrachtomschrijving",
+                        "reference": {
+                            "value": "4911062"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Aansluiten op een batterij",
+                "reference": {
+                    "value": "4855383"
+                },
+                "sections": []
+            },
+            {
+                "title": "Debuggen met een seri\u00eble verbinding",
+                "reference": {
+                    "value": "4905563"
+                },
+                "sections": []
+            },
+            {
+                "title": "Meer voorbeelden en handleidingen",
+                "reference": {
+                    "value": "4855386"
+                },
+                "sections": []
+            },
+            {
+                "title": "Terug naar voorpagina Micro:bit",
+                "reference": {
+                    "value": "4913120"
+                },
+                "sections": []
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": null,
+        "imageSrc": null,
+        "sources": [
+            {
+                "type": "link",
+                "title": "BBC micro:bit pinnen",
+                "origin": "BBC micro:bit pinnen",
+                "customOrigin": null,
+                "link": "https://microbit.org/nl/guide/hardware/pins/",
+                "visible": true
+            },
+            {
+                "type": "link",
+                "title": "Eigenschappen van de Micro:bit",
+                "origin": "Eigenschappen van de Micro:bit",
+                "customOrigin": null,
+                "link": "https://microbit.org/nl/guide/features/",
+                "visible": true
+            },
+            {
+                "type": "video",
+                "title": "De lichtsensor op de Micro:bit (engelstalig)",
+                "origin": "De lichtsensor op de Micro:bit (engelstalig)",
+                "customOrigin": null,
+                "link": "https://www.youtube.com/watch?v=TKhCr-dQMBY",
+                "visible": true
+            },
+            {
+                "type": "video",
+                "title": "Behind the MakeCode Hardware - Buttons",
+                "origin": "Behind the MakeCode Hardware - Buttons",
+                "customOrigin": null,
+                "link": "https://www.youtube.com/watch?v=t_Qujjd_38o&feature=youtu.be",
+                "visible": true
+            },
+            {
+                "type": "video",
+                "title": "Behind the MakeCode Hardware - LEDs",
+                "origin": "Behind the MakeCode Hardware - LEDs",
+                "customOrigin": null,
+                "link": "https://www.youtube.com/watch?v=qqBmvHD5bCw&feature=youtu.be",
+                "visible": true
+            },
+            {
+                "type": "link",
+                "title": "Over reactietijden van de Micro:bit",
+                "origin": "Over reactietijden van de Micro:bit",
+                "customOrigin": null,
+                "link": "https://makecode.microbit.org/device/reactive",
+                "visible": true
+            }
+        ],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            },
+            {
+                "key": "learningTime",
+                "label": "Studiebelasting",
+                "terms": [
+                    "4 uur en 0 minuten"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

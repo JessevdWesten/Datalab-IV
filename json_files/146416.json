@@ -1,0 +1,1332 @@
+{
+    "documentAuthors": [
+        "Akshay Chitoe"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Akshay Chitoe",
+            "referenceName": null,
+            "reference": {
+                "value": "40226"
+            },
+            "firstName": "Akshay",
+            "infix": null,
+            "lastName": "Chitoe",
+            "emailAddress": "akshay.chitoe@gmail.com",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2019-07-02T17:01:18Z",
+    "bulkId": "bulk-17041658-refresh_all",
+    "identifier": 146416,
+    "title": "Cryptografie",
+    "description": "",
+    "lastModifiedDate": "2019-07-02T17:01:18+02:00",
+    "dateCreated": "2019-07-02T14:36:04+02:00",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "Chitoe, Akshay",
+                "reference": {
+                    "value": "40226"
+                },
+                "firstName": "Akshay",
+                "infix": null,
+                "lastName": "Chitoe",
+                "emailAddress": "akshay.chitoe@gmail.com",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-40",
+            "name": "CC Naamsvermelding 4.0 Internationale licentie",
+            "description": "De Internationale Creative Commons 4.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/4.0/.",
+            "link": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/146416/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "5353518"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Introductie",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Als we een bericht sturen naar iemand willen we meestal dat niemand anders dat bericht kan lezen als we het niet zelf naar hem/haar sturen. Dit wordt bereikt met cryptografie. Met cryptografische methoden (versleuteling methoden) kunnen we ervoor zorgen dat een bericht onleesbaar wordt en daarna weer leesbaar. Het onleesbaar maken noemen we versleutelen/vercijferen en het weer leesbaar maken noemen we ontsleutelen/ontcijferen</p>\n"
+                },
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/4/4c8f4dd901fcf7a18944c71f0182a57005bf3856.png",
+                    "altText": "",
+                    "alignment": "center",
+                    "scale": 0.7,
+                    "link": ""
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "5353533"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Symmetrische cryptografie (vroeger) ",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p> </p>\n<p>Bij symmetrische cryptografie wordt bij het versleutelen en het ontsleutelen dezelfde sleutel gebruikt. Dit betekent dus dat de zender en de ontvanger die geheime berichten willen uitwisselen dezelfde sleutel moeten hebben. Als er meerdere zenders en ontvangers zijn, dan zouden deze allemaal dezelfde sleutel kunnen gebruiken, maar het is veiliger als er voor elke combinatie van zender en ontvanger een unieke sleutel is die alleen deze zender en ontvanger hebben: dan kunnen ze namelijk zeker weten dat alleen zij twee\u00ebn de berichten kunnen lezen die ze uitwisselen.</p>\n<p> </p>\n<p>Sommige versleuteling methodes zijn erg veilig en anderen wat minder. Zo'n methode is onveilig wanneer het bericht makkelijk ontcijfert kan worden zonder sleutel. Als je een versleutelt bericht ontcijfert zonder dat je de sleutel weet, noem je dat ook wel kraken. Een van de methodes om te kraken is de brute-force-aanval. Dat is gewoon alle mogelijke sleutels uitproberen en kijken welke een leesbaar bericht oplevert. Als je de brute-force aanval wilt toepassen op de Caesar versleuteling zal je dus alle 26 verschillende alfabetten moeten opschrijven (want het alfabet heeft 26 letters en dus 26 mogelijke verschuivingen). Alle versleutelingen zijn te kraken met de brute-force-aanval, maar de veiligheid wordt bepaald door de tijd die het kost om alle mogelijke sleutels uit te proberen. Hoe langer dit duurt, hoe veiliger de versleuteling.</p>\n<p> </p>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "5353560"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Caesar versleuteling ",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>De Caesar versleuteling werd bedacht door Julius Caesar. Het is een substitutieversleuteling (letters worden vervangen) en een van de eerste versleutelingen om een bericht geheim mee te versturen. Het doel van deze versleuteling was, zodat vijanden berichten niet konden lezen als ze onderschept werden</p>\n"
+                },
+                {
+                    "type": "video",
+                    "url": "https://youtu.be/sMOZf4GN3oc",
+                    "align": "left",
+                    "caption": "Caesar versleuteling",
+                    "poster": "https://img.youtube.com/vi/sMOZf4GN3oc/maxresdefault.jpg"
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "5353581"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Opdrachten",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "question",
+                            "reference": {
+                                "value": "5353584"
+                            },
+                            "assessmentItem": {
+                                "identifier": "5353584",
+                                "itemBody": null,
+                                "questions": [
+                                    {
+                                        "type": "extendedTextInteraction",
+                                        "label": "",
+                                        "prompt": {
+                                            "body": "<p>1a. Ontcijfer deze zin die is versleuteld met de Caesar versleuteling. De sleutel is 7.</p>\n<p>      Nlmlspjpallyk, ql olia kpa ilypjoa vuajpqmlyk!</p>\n<p> </p>"
+                                        },
+                                        "feedback": null
+                                    }
+                                ],
+                                "responseDeclarations": [
+                                    {
+                                        "identifier": "5353584_1",
+                                        "cardinality": "single",
+                                        "baseType": "string",
+                                        "correctResponse": {
+                                            "interpretation": null,
+                                            "values": [
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "<p>Gefeliciteerd, je hebt dit bericht ontcijferd!</p>\r\n\r\n<p>&nbsp;</p>\r\n"
+                                                }
+                                            ]
+                                        },
+                                        "mapping": {
+                                            "lowerBound": 0,
+                                            "upperBound": 1,
+                                            "default": 0,
+                                            "mapEntries": []
+                                        },
+                                        "areaMapping": null
+                                    }
+                                ],
+                                "outcomeDeclarations": [
+                                    {
+                                        "identifier": "SCORE",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 0,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": null,
+                                        "interpretation": null
+                                    }
+                                ],
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK",
+                                        "identifier": "ANSWER_CORRECT",
+                                        "showHide": true,
+                                        "title": null,
+                                        "content": {
+                                            "body": "<p>Gefeliciteerd, je hebt dit bericht ontcijferd!</p>\n<p> </p>"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "type": "question",
+                            "reference": {
+                                "value": "5353587"
+                            },
+                            "assessmentItem": {
+                                "identifier": "5353587",
+                                "itemBody": null,
+                                "questions": [
+                                    {
+                                        "type": "extendedTextInteraction",
+                                        "label": "",
+                                        "prompt": {
+                                            "body": "<p>1b. Ontcijfer deze zin die is versleuteld met de Caesar versleuteling. De sleutel is 4.</p>\n<p>      Oer ni hidi dmr sso srxgmnjivir?</p>\n<p> </p>"
+                                        },
+                                        "feedback": null
+                                    }
+                                ],
+                                "responseDeclarations": [
+                                    {
+                                        "identifier": "5353587_1",
+                                        "cardinality": "single",
+                                        "baseType": "string",
+                                        "correctResponse": {
+                                            "interpretation": null,
+                                            "values": [
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "<p>Kan je deze zin ook ontcijferen?</p>\r\n\r\n<p>&nbsp;</p>\r\n"
+                                                }
+                                            ]
+                                        },
+                                        "mapping": {
+                                            "lowerBound": 0,
+                                            "upperBound": 1,
+                                            "default": 0,
+                                            "mapEntries": []
+                                        },
+                                        "areaMapping": null
+                                    }
+                                ],
+                                "outcomeDeclarations": [
+                                    {
+                                        "identifier": "SCORE",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 0,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": null,
+                                        "interpretation": null
+                                    }
+                                ],
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK",
+                                        "identifier": "ANSWER_CORRECT",
+                                        "showHide": true,
+                                        "title": null,
+                                        "content": {
+                                            "body": "<p>Kan je deze zin ook ontcijferen?</p>\n<p> </p>"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "type": "question",
+                            "reference": {
+                                "value": "5353589"
+                            },
+                            "assessmentItem": {
+                                "identifier": "5353589",
+                                "itemBody": null,
+                                "questions": [
+                                    {
+                                        "type": "extendedTextInteraction",
+                                        "label": "",
+                                        "prompt": {
+                                            "body": "<p>1c. Ontcijfer deze zin die is versleuteld met de Caesar versleuteling. De sleutel is 21.</p>\n<p>      Yvo rvn epdno, ez czwo yzuz jkymvxco vabzmjiy.</p>\n<p> </p>"
+                                        },
+                                        "feedback": null
+                                    }
+                                ],
+                                "responseDeclarations": [
+                                    {
+                                        "identifier": "5353589_1",
+                                        "cardinality": "single",
+                                        "baseType": "string",
+                                        "correctResponse": {
+                                            "interpretation": null,
+                                            "values": [
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "<p>Dat was juist, je hebt deze opdracht afgerond.</p>\r\n\r\n<p>&nbsp;</p>\r\n"
+                                                }
+                                            ]
+                                        },
+                                        "mapping": {
+                                            "lowerBound": 0,
+                                            "upperBound": 1,
+                                            "default": 0,
+                                            "mapEntries": []
+                                        },
+                                        "areaMapping": null
+                                    }
+                                ],
+                                "outcomeDeclarations": [
+                                    {
+                                        "identifier": "SCORE",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 0,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": null,
+                                        "interpretation": null
+                                    }
+                                ],
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK",
+                                        "identifier": "ANSWER_CORRECT",
+                                        "showHide": true,
+                                        "title": null,
+                                        "content": {
+                                            "body": "<p>Dat was juist, je hebt deze opdracht afgerond.</p>\n<p> </p>"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "type": "question",
+                            "reference": {
+                                "value": "5353592"
+                            },
+                            "assessmentItem": {
+                                "identifier": "5353592",
+                                "itemBody": null,
+                                "questions": [
+                                    {
+                                        "type": "extendedTextInteraction",
+                                        "label": "",
+                                        "prompt": {
+                                            "body": "<p>2. Dit woord is versleuteld met de Caesarversleuteling, gebruik de brute-force-aanval om het woord te achterhalen.</p>\n<p>Etarvqitchkg</p>\n<p> </p>"
+                                        },
+                                        "feedback": null
+                                    }
+                                ],
+                                "responseDeclarations": [
+                                    {
+                                        "identifier": "5353592_1",
+                                        "cardinality": "single",
+                                        "baseType": "string",
+                                        "correctResponse": {
+                                            "interpretation": null,
+                                            "values": [
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "<p>Cryptografie</p>\r\n"
+                                                }
+                                            ]
+                                        },
+                                        "mapping": {
+                                            "lowerBound": 0,
+                                            "upperBound": 1,
+                                            "default": 0,
+                                            "mapEntries": []
+                                        },
+                                        "areaMapping": null
+                                    }
+                                ],
+                                "outcomeDeclarations": [
+                                    {
+                                        "identifier": "SCORE",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 0,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": null,
+                                        "interpretation": null
+                                    }
+                                ],
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK",
+                                        "identifier": "ANSWER_CORRECT",
+                                        "showHide": true,
+                                        "title": null,
+                                        "content": {
+                                            "body": "<p>Cryptografie</p>"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "5353596"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Letterfrequentie",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Zoals in het filmpje over de Caesar versleuteling al werd gezegd, kon de Caesar versleuteling ontcijferd worden met behulp van de letterfrequentie. De letterfrequentie is hoe vaak een letter wordt gebruik in een bepaalde taal.</p>\n"
+                },
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/d/d5d9548bfeddbacc09759580ec0997d78d73b489.jpg",
+                    "altText": "",
+                    "alignment": "center",
+                    "scale": 0.7,
+                    "link": ""
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "5353614"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Opdrachten",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Ontcijfer met behulp van letterfrequentie de volgende zinnen. Geef ook de sleutel.</p>\n<p>Op deze site staan de letterfrequenties van de Nederlandse taal:</p>\n<p> </p>\n"
+                        },
+                        {
+                            "type": "link",
+                            "link": "https://onzetaal.nl/taaladvies/letterfrequentie-in-het-nederlands",
+                            "title": "",
+                            "description": "",
+                            "comment": ""
+                        },
+                        {
+                            "type": "question",
+                            "reference": {
+                                "value": "5353619"
+                            },
+                            "assessmentItem": {
+                                "identifier": "5353619",
+                                "itemBody": null,
+                                "questions": [
+                                    {
+                                        "type": "extendedTextInteraction",
+                                        "label": "",
+                                        "prompt": {
+                                            "body": "<p>1a. Qnc rb pnnw ixwwrpn mjp.</p>\n<p> </p>"
+                                        },
+                                        "feedback": null
+                                    }
+                                ],
+                                "responseDeclarations": [
+                                    {
+                                        "identifier": "5353619_1",
+                                        "cardinality": "single",
+                                        "baseType": "string",
+                                        "correctResponse": {
+                                            "interpretation": null,
+                                            "values": [
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "<p>Het is geen zonnige dag. Sleutel 9</p>\r\n\r\n<p>&nbsp;</p>\r\n"
+                                                }
+                                            ]
+                                        },
+                                        "mapping": {
+                                            "lowerBound": 0,
+                                            "upperBound": 1,
+                                            "default": 0,
+                                            "mapEntries": []
+                                        },
+                                        "areaMapping": null
+                                    }
+                                ],
+                                "outcomeDeclarations": [
+                                    {
+                                        "identifier": "SCORE",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 0,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": null,
+                                        "interpretation": null
+                                    }
+                                ],
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK",
+                                        "identifier": "ANSWER_CORRECT",
+                                        "showHide": true,
+                                        "title": null,
+                                        "content": {
+                                            "body": "<p>Het is geen zonnige dag. Sleutel 9</p>\n<p> </p>"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "type": "question",
+                            "reference": {
+                                "value": "5353621"
+                            },
+                            "assessmentItem": {
+                                "identifier": "5353621",
+                                "itemBody": null,
+                                "questions": [
+                                    {
+                                        "type": "extendedTextInteraction",
+                                        "label": "",
+                                        "prompt": {
+                                            "body": "<p>1b. Ef ufmfwjtjf tubbu vju.</p>\n<p> </p>"
+                                        },
+                                        "feedback": null
+                                    }
+                                ],
+                                "responseDeclarations": [
+                                    {
+                                        "identifier": "5353621_1",
+                                        "cardinality": "single",
+                                        "baseType": "string",
+                                        "correctResponse": {
+                                            "interpretation": null,
+                                            "values": [
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "<p>De televisie staat uit. Sleutel 1</p>\r\n\r\n<p>&nbsp;</p>\r\n"
+                                                }
+                                            ]
+                                        },
+                                        "mapping": {
+                                            "lowerBound": 0,
+                                            "upperBound": 1,
+                                            "default": 0,
+                                            "mapEntries": []
+                                        },
+                                        "areaMapping": null
+                                    }
+                                ],
+                                "outcomeDeclarations": [
+                                    {
+                                        "identifier": "SCORE",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 0,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": null,
+                                        "interpretation": null
+                                    }
+                                ],
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK",
+                                        "identifier": "ANSWER_CORRECT",
+                                        "showHide": true,
+                                        "title": null,
+                                        "content": {
+                                            "body": "<p>De televisie staat uit. Sleutel 1</p>\n<p> </p>"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "type": "question",
+                            "reference": {
+                                "value": "5353623"
+                            },
+                            "assessmentItem": {
+                                "identifier": "5353623",
+                                "itemBody": null,
+                                "questions": [
+                                    {
+                                        "type": "extendedTextInteraction",
+                                        "label": "",
+                                        "prompt": {
+                                            "body": "<p>1c. Jw nx ajjq bfyjw tu ffwij.</p>\n<p> </p>"
+                                        },
+                                        "feedback": null
+                                    }
+                                ],
+                                "responseDeclarations": [
+                                    {
+                                        "identifier": "5353623_1",
+                                        "cardinality": "single",
+                                        "baseType": "string",
+                                        "correctResponse": {
+                                            "interpretation": null,
+                                            "values": [
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "<p>Er is veel water op aarde. Sleutel 5</p>\r\n"
+                                                }
+                                            ]
+                                        },
+                                        "mapping": {
+                                            "lowerBound": 0,
+                                            "upperBound": 1,
+                                            "default": 0,
+                                            "mapEntries": []
+                                        },
+                                        "areaMapping": null
+                                    }
+                                ],
+                                "outcomeDeclarations": [
+                                    {
+                                        "identifier": "SCORE",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 0,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": null,
+                                        "interpretation": null
+                                    }
+                                ],
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK",
+                                        "identifier": "ANSWER_CORRECT",
+                                        "showHide": true,
+                                        "title": null,
+                                        "content": {
+                                            "body": "<p>Er is veel water op aarde. Sleutel 5</p>"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "5353631"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Substitutie (en transpositie)",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Een substitutieversleuteling is een encryptie methode (versleuteling methode) waarbij elk(e) letter/symbool van het oorspronkelijke bericht vertaald wordt naar een ander(e) letter/symbool. De Caesar versleuteling is hier een voorbeeld van. Een transpositieversleuteling bestaat ook, dat is een encryptie methode waarbij de letters/symbolen zelf niet veranderen, maar de positie van de letters/symbolen veranderen wel. Het meest simpele voorbeeld hiervan is de letters van het bericht achterstevoren schrijven zoals dit: kjilekkam si tiD.</p>\n<p> </p>\n"
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "5353635"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Polyalfabetische substitutie",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Polyalfabetische substitutie is een vorm van substitutieversleuteling waarbij er gebruik wordt gemaakt van meerdere versleutelingsalfabetten (meestal in de vorm van tabellen). Er bestaat ook mono alfabetische substitutie waarbij er van \u00e9\u00e9n versleutelingsalfabet gebruikt wordt gemaakt. De Caesar versleuteling is hier een voorbeeld van. Na het kijken van de video over polyalfabetische substitutie kan je vraag 1a van de opdrachten al maken.</p>\n<p> </p>\n"
+                        },
+                        {
+                            "type": "video",
+                            "url": "https://youtu.be/BgFJD7oCmDE",
+                            "align": "left",
+                            "caption": "Polyalfabetische substitutie",
+                            "poster": "https://img.youtube.com/vi/BgFJD7oCmDE/maxresdefault.jpg"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "5353810"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "One-time pad",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Regels/voorwaarden voor one-time pad op een rijtje:</p>\n<p> </p>\n<ul>\n<li>De lengte van de sleutel dient minstens even lang te zijn als de te vercijferen gegevens.</li>\n<li>De sleutel mag enkel bestaan uit werkelijk willekeurige tekens.</li>\n<li>Een sleutel mag slechts \u00e9\u00e9n keer gebruikt worden om \u00e9\u00e9n bericht te vercijferen en dient na gebruik vernietigd te worden.</li>\n<li>Van een sleutel mogen slechts twee kopie\u00ebn bestaan, zijnde \u00e9\u00e9n voor de verzender en \u00e9\u00e9n voor de ontvanger van de gegevens</li>\n</ul>\n"
+                        },
+                        {
+                            "type": "video",
+                            "url": "https://youtu.be/FlIG3TvQCBQ",
+                            "align": "left",
+                            "caption": "One-time pad",
+                            "poster": "https://img.youtube.com/vi/FlIG3TvQCBQ/maxresdefault.jpg"
+                        },
+                        {
+                            "type": "question",
+                            "reference": {
+                                "value": "5353814"
+                            },
+                            "assessmentItem": {
+                                "identifier": "5353814",
+                                "itemBody": null,
+                                "questions": [
+                                    {
+                                        "type": "extendedTextInteraction",
+                                        "label": "",
+                                        "prompt": {
+                                            "body": "<p>Waardoor is one-time pad zo veel veiliger dan polyalfabetische substitutie?</p>"
+                                        },
+                                        "feedback": null
+                                    }
+                                ],
+                                "responseDeclarations": [
+                                    {
+                                        "identifier": "5353814_1",
+                                        "cardinality": "single",
+                                        "baseType": "string",
+                                        "correctResponse": {
+                                            "interpretation": null,
+                                            "values": [
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "<p>Bij polyalfabetische substitutie wordt de herkenbaarheid van de letterfrequentie verlicht (doordat er meerdere verschuivingen zijn), maar bij one-time pad verdwijnt de herkenbaarheid van de letterfrequentie (doordat de verschuivingen allemaal willekeurig zijn).</p>\r\n"
+                                                }
+                                            ]
+                                        },
+                                        "mapping": {
+                                            "lowerBound": 0,
+                                            "upperBound": 1,
+                                            "default": 0,
+                                            "mapEntries": []
+                                        },
+                                        "areaMapping": null
+                                    }
+                                ],
+                                "outcomeDeclarations": [
+                                    {
+                                        "identifier": "SCORE",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 0,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": null,
+                                        "interpretation": null
+                                    }
+                                ],
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK",
+                                        "identifier": "ANSWER_CORRECT",
+                                        "showHide": true,
+                                        "title": null,
+                                        "content": {
+                                            "body": "<p>Bij polyalfabetische substitutie wordt de herkenbaarheid van de letterfrequentie verlicht (doordat er meerdere verschuivingen zijn), maar bij one-time pad verdwijnt de herkenbaarheid van de letterfrequentie (doordat de verschuivingen allemaal willekeurig zijn).</p>"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "5353815"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Opdrachten",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "question",
+                            "reference": {
+                                "value": "5353832"
+                            },
+                            "assessmentItem": {
+                                "identifier": "5353832",
+                                "itemBody": null,
+                                "questions": [
+                                    {
+                                        "type": "extendedTextInteraction",
+                                        "label": "",
+                                        "prompt": {
+                                            "body": "<p>1a. Ontcijfer de volgende zin die versleuteld is met polyalfabetische substitutie. Het sleutelwoord is Tafel</p>"
+                                        },
+                                        "feedback": null
+                                    }
+                                ],
+                                "responseDeclarations": [
+                                    {
+                                        "identifier": "5353832_1",
+                                        "cardinality": "single",
+                                        "baseType": "string",
+                                        "correctResponse": {
+                                            "interpretation": null,
+                                            "values": [
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "<p>Dat heb je goed gedaan! (dit is de vertaling)</p>\r\n"
+                                                }
+                                            ]
+                                        },
+                                        "mapping": {
+                                            "lowerBound": 0,
+                                            "upperBound": 1,
+                                            "default": 0,
+                                            "mapEntries": []
+                                        },
+                                        "areaMapping": null
+                                    }
+                                ],
+                                "outcomeDeclarations": [
+                                    {
+                                        "identifier": "SCORE",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 0,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": null,
+                                        "interpretation": null
+                                    }
+                                ],
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK",
+                                        "identifier": "ANSWER_CORRECT",
+                                        "showHide": true,
+                                        "title": null,
+                                        "content": {
+                                            "body": "<p>Dat heb je goed gedaan! (dit is de vertaling)</p>"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "type": "question",
+                            "reference": {
+                                "value": "5353837"
+                            },
+                            "assessmentItem": {
+                                "identifier": "5353837",
+                                "itemBody": null,
+                                "questions": [
+                                    {
+                                        "type": "extendedTextInteraction",
+                                        "label": "",
+                                        "prompt": {
+                                            "body": "<p>1b. Versleutel zelf een zin met one-time pad, gebruik hierbij een 26 zijdige dobbelsteen. Als je die niet hebt, gebruik dan de onderstaande website  (voer 26 in bij 'number of sides') als je hiermee klaar bent, vraag iemand om je bericht te ontcijferen. (Let goed op de voorwaarden</p>"
+                                        },
+                                        "feedback": null
+                                    }
+                                ],
+                                "responseDeclarations": [
+                                    {
+                                        "identifier": "5353837_1",
+                                        "cardinality": "single",
+                                        "baseType": "string",
+                                        "correctResponse": {
+                                            "interpretation": null,
+                                            "values": [
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "<p>Eigen antwoord</p>\r\n"
+                                                }
+                                            ]
+                                        },
+                                        "mapping": {
+                                            "lowerBound": 0,
+                                            "upperBound": 1,
+                                            "default": 0,
+                                            "mapEntries": []
+                                        },
+                                        "areaMapping": null
+                                    }
+                                ],
+                                "outcomeDeclarations": [
+                                    {
+                                        "identifier": "SCORE",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 0,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": null,
+                                        "interpretation": null
+                                    }
+                                ],
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK",
+                                        "identifier": "ANSWER_CORRECT",
+                                        "showHide": true,
+                                        "title": null,
+                                        "content": {
+                                            "body": "<p>Eigen antwoord</p>"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "type": "link",
+                            "link": "http://dice.virtuworld.net",
+                            "title": "",
+                            "description": "",
+                            "comment": ""
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "5353839"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Asymmetrische cryptografie (modern)",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Bij cryptografie vroeger werd gebruik gemaakt van symmetrische cryptografie waarbij twee personen elkaar een versleuteld bericht sturen die ontcijferd kan wordt met een geheime, gezamenlijke sleutel die van te voren is gedeeld. Maar hier waren twee problemen mee: 1. Wat als de personen elkaar niet kunnen ontmoeten om de sleutel uit te wisselen? (Omdat ze ver weg van elkaar wonen bijvoorbeeld) 2. Wat als je een bericht naar meerdere personen wilt sturen? Bij het tweede probleem is er voor de veiligheid een unieke sleutel nodig voor elke zender en ontvanger. Er zijn dus erg veel sleutels nodig als relatief veel mensen met elkaar willen communiceren. Asymmetrische cryptografie biedt voor deze problemen een oplossing.</p>\n<p> </p>\n<p>Bij asymmetrische cryptografie wordt er gebruik gemaakt van een sleutel die je geheimhoud (priv\u00e9sleutel) en een slot dat iedereen mag weten en gebruiken (publiek slot). De zender vercijfert een bericht met het slot van de ontvanger. Je kunt dit zien als het op slot doen van het bericht dat je wilt versturen. De ontvanger ontcijfert een bericht met zijn sleutel. Dit kun je zien als het openen van het hangslot met de sleutel, waardoor het bericht weer leesbaar wordt. Bijvoorbeeld: als Alice een bericht naar Bob wilt sturen gebruikt ze het slot van Bob om het bericht te vercijferen. Alleen Bob heeft namelijk de sleutel die bij dat slot hoort, dus hij is dan de enige die het bericht kan ontcijferen. Merk op dat zelfs Alice het bericht niet meer kan lezen zodra ze het vercijferd heeft met het slot. Omdat bij asymmetrische cryptografie iedereen zijn eigen priv\u00e9sleutel heeft, is het uitwisselen van een sleutel dus niet nodig en zijn er ook niet te veel sleutels nodig.</p>\n<p> </p>\n"
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "5353845"
+                    },
+                    "assessmentItem": {
+                        "identifier": "5353845",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "",
+                                "prompt": {
+                                    "body": "<p>1a. Wat zijn de twee problemen met symmetrische cryptografie?</p>\n<p> </p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "5353845_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<ul>\r\n\t<li>je kunt de sleutel niet altijd uitwisselen</li>\r\n\t<li>je hebt erg veel sleutels nodig als je een bericht naar meerdere personen wilt sturen</li>\r\n</ul>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<ul>\n<li>je kunt de sleutel niet altijd uitwisselen</li>\n<li>je hebt erg veel sleutels nodig als je een bericht naar meerdere personen wilt sturen</li>\n</ul>"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "5353846"
+                    },
+                    "assessmentItem": {
+                        "identifier": "5353846",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "",
+                                "prompt": {
+                                    "body": "<p>1b. Hoe lost asymmetrische cryptografie deze problemen op?</p>\n<p> </p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "5353846_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>Doordat iedereen een eigen priv&eacute;sleutel heeft (is het uitwisselen van een sleutel dus niet nodig en zijn er ook niet te veel sleutels nodig</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>Doordat iedereen een eigen priv\u00e9sleutel heeft (is het uitwisselen van een sleutel dus niet nodig en zijn er ook niet te veel sleutels nodig</p>"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "5353851"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Einde lessenserie",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>U heeft het einde van deze lessenserie bereikt. Ik hoop dat de lessenserie u veel heeft kunnen leren. </p>\n"
+                },
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/3/3145199a791cb621a4410f6c29ca7c44b48a0c15.jpg",
+                    "altText": "",
+                    "alignment": "left",
+                    "scale": 0.7,
+                    "link": ""
+                }
+            ],
+            "sections": []
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": null,
+            "dimension": null,
+            "suppressTitle": null
+        },
+        "color": "#333333"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Introductie",
+                "reference": {
+                    "value": "5353518"
+                },
+                "sections": []
+            },
+            {
+                "title": "Symmetrische cryptografie (vroeger) ",
+                "reference": {
+                    "value": "5353533"
+                },
+                "sections": []
+            },
+            {
+                "title": "Caesar versleuteling ",
+                "reference": {
+                    "value": "5353560"
+                },
+                "sections": [
+                    {
+                        "title": "Opdrachten",
+                        "reference": {
+                            "value": "5353581"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Letterfrequentie",
+                "reference": {
+                    "value": "5353596"
+                },
+                "sections": [
+                    {
+                        "title": "Opdrachten",
+                        "reference": {
+                            "value": "5353614"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Substitutie (en transpositie)",
+                "reference": {
+                    "value": "5353631"
+                },
+                "sections": [
+                    {
+                        "title": "Polyalfabetische substitutie",
+                        "reference": {
+                            "value": "5353635"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "One-time pad",
+                        "reference": {
+                            "value": "5353810"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Opdrachten",
+                        "reference": {
+                            "value": "5353815"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Asymmetrische cryptografie (modern)",
+                "reference": {
+                    "value": "5353839"
+                },
+                "sections": []
+            },
+            {
+                "title": "Einde lessenserie",
+                "reference": {
+                    "value": "5353851"
+                },
+                "sections": []
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": null,
+        "imageSrc": null,
+        "sources": [
+            {
+                "type": "video",
+                "title": "Caesar versleuteling",
+                "origin": "Caesar versleuteling",
+                "customOrigin": null,
+                "link": "https://youtu.be/sMOZf4GN3oc",
+                "visible": true
+            },
+            {
+                "type": "link",
+                "title": "",
+                "origin": "https://onzetaal.nl/taaladvies/letterfrequentie-in-het-nederlands",
+                "customOrigin": null,
+                "link": "https://onzetaal.nl/taaladvies/letterfrequentie-in-het-nederlands",
+                "visible": true
+            },
+            {
+                "type": "video",
+                "title": "Polyalfabetische substitutie",
+                "origin": "Polyalfabetische substitutie",
+                "customOrigin": null,
+                "link": "https://youtu.be/BgFJD7oCmDE",
+                "visible": true
+            },
+            {
+                "type": "video",
+                "title": "One-time pad",
+                "origin": "One-time pad",
+                "customOrigin": null,
+                "link": "https://youtu.be/FlIG3TvQCBQ",
+                "visible": true
+            },
+            {
+                "type": "link",
+                "title": "",
+                "origin": "http://dice.virtuworld.net",
+                "customOrigin": null,
+                "link": "http://dice.virtuworld.net",
+                "visible": true
+            }
+        ],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            },
+            {
+                "key": "learningTime",
+                "label": "Studiebelasting",
+                "terms": [
+                    "4 uur en 0 minuten"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

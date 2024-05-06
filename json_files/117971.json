@@ -1,0 +1,793 @@
+{
+    "documentAuthors": [
+        "Robin van den Heuvel"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Robin van den Heuvel",
+            "referenceName": null,
+            "reference": {
+                "value": "70101"
+            },
+            "firstName": "Robin",
+            "infix": null,
+            "lastName": "van den Heuvel",
+            "emailAddress": "ral.vandenheuvel@student.fontys.nl",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2018-01-29T11:33:47Z",
+    "bulkId": "bulk-17041135-refresh_all",
+    "identifier": 117971,
+    "title": "Lesbrief meten",
+    "description": "Lesbrief over een les meten, te gebruiken voor twee lesuren. ",
+    "lastModifiedDate": "2018-01-29T11:33:47+01:00",
+    "dateCreated": "2018-01-15T12:05:00+01:00",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "van den Heuvel, Robin",
+                "reference": {
+                    "value": "70101"
+                },
+                "firstName": "Robin",
+                "infix": null,
+                "lastName": "van den Heuvel",
+                "emailAddress": "ral.vandenheuvel@student.fontys.nl",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-sa-40",
+            "name": "CC Naamsvermelding-GelijkDelen 4.0 Internationale licentie",
+            "description": "De Internationale Creative Commons 4.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarden: Naamsvermelding en Gelijk Delen, zie http://creativecommons.org/licenses/by-sa/4.0/.",
+            "link": "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/117971/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "4019823"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Voorbereiding les 1",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>In les 1 gaan de leerlingen aan de slag met paragraaf 2.1 Aanzichten. Om de les te beginnen is het handig om een stoel op tafel te zetten en met behulp van die stoel visueel duidelijk te maken wat een vooraanzicht, zijaanzicht en bovenaanzicht is. Op het bord teken je de verschillende aanzichten, zodat het goed zichtbaar is voor de leerlingen hoe je het kunt tekenen. Als de leerlingen dit begrijpen, kunnen ze gaan werken aan de opdrachten 1 t/m 3. Je loopt rond door de klas om eventuele vragen te kunnen beantwoorden en hulp te bieden daar waar nodig is. Als iedereen klaar is, kun je ervoor kiezen om de opdrachten gezamenlijk na te kijken als daar nog genoeg tijd voor is. Merk je dat de tijd bijna om is, dan kun je ervoor kiezen om de nakijkboekjes uit te delen, zodat ze het zelf na kunnen kijken. </p>\n<p>Je hebt een kwartier over gehouden om opdracht 4 gezamenlijk te doen. Deze opdracht gaat over een bouwwerk van kubusjes. Dit is een pittige opdracht, omdat de leerlingen nu zelf een inbeelding moeten maken van de situatie. Je behandeld deze opdracht klassikaal, maar je zorgt er wel voor dat de leerlingen de vragen beantwoorden, dus dat je niet zelf alles voor gaat doen. Als de leerlingen deze les goed meegedaan hebben, dan hebben ze geen huiswerk voor de volgende les. </p>\n"
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "4020154"
+                    },
+                    "assessmentItem": {
+                        "identifier": "4020154",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Vraag 1",
+                                "prompt": {
+                                    "body": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/81e08a61d2b64d342dce6032925d33739a443790.jpg\" class=\"height-335-pixels width-446-pixels\" /></p>\n<p> </p>\n<p>Hoeveel milimeter is de totale hoogte van het gebouw?</p>\n<p> </p>\n<p> </p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "4020154_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>Leerlingen voeren berekening uit, bekijk of die goed is.</p>\r\n\r\n<p>12 + 52 = 64 mm.</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>Leerlingen voeren berekening uit, bekijk of die goed is.</p>\n<p>12 + 52 = 64 mm.</p>"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "4020163"
+                    },
+                    "assessmentItem": {
+                        "identifier": "4020163",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Vraag 2",
+                                "prompt": {
+                                    "body": "<p> </p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/9/93d7af0162cc13a644d6e40c101b9410b15d0e9a.jpg\" class=\"height-241-pixels width-886-pixels\" /></p>\n<p> </p>\n<p>Welk aanzicht is het vooraanzicht van het gebouw bij vraag 1?</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "4020163_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>Aanzicht C</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>Aanzicht C</p>"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "4020237"
+                    },
+                    "assessmentItem": {
+                        "identifier": "4020237",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Vraag 3",
+                                "prompt": {
+                                    "body": "<p>Kijk terug bij vraag 1 naar het plaatje van het gebouw.<br />\nHet grondvlak heeft de vorm van een rechthoek.<br />\nWat is de oppervlakte van het grondvlak?</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "4020237_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>78 x 56 = 4368 mm<sup>2.</sup></p>\r\n\r\n<p>Bepaal zelf of je vind dat de leerlingen dit goed gedaan hebben.&nbsp;</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>78 x 56 = 4368 mm<sup>2.</sup></p>\n<p>Bepaal zelf of je vind dat de leerlingen dit goed gedaan hebben. </p>"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "4020263"
+                    },
+                    "assessmentItem": {
+                        "identifier": "4020263",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Vraag 4",
+                                "prompt": {
+                                    "body": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/0/01a9d878f17b509cb7daaeae7fde85f12d783a0f.png\" class=\"height-191-pixels width-212-pixels\" /></p>\n<p>a) Hoeveel kubusjes zijn gebruikt?<br />\nb) Teken in je schrift het vooraanzicht.<br />\nc) Teken beide zijaanzichten in je schrift. <br />\nd) Hoeveel blokjes kun je weghalen zodat het vooraanzicht niet veranderd?</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "4020263_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>a) 24 blokjes (alle getallen bij elkaar optellen)<br />\r\nb) Zelf meetekenen<br />\r\n&nbsp; &nbsp; Je tekent van links naar rechts de hoogte van de getallen die in het blokje staan (3, 2, 5, 2)<br />\r\nc) Zelf meetekenen<br />\r\n&nbsp; &nbsp; Je tekent van links naar rechts de hoogte van de getallen die in het blokje staan, linkerzijaanzicht (3, 5, 3)<br />\r\n&nbsp; &nbsp; Je tekent van links naar rechts de hoogte van de getallen die in het blokje staan, rechterzijaanzicht (3, 5, 3)<br />\r\nd) 12 blokjes. Je telt de hoogte van de blokjes op die je ziet in het vooraanzicht, dat zijn er 12. In totaal heb je 24 blokjes, dus als je 24 - 12 doet, zijn er&nbsp;<br />\r\n&nbsp; &nbsp; dus 12 blokjes die je niet nodig hebt, dus die weg kunnen.</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>a) 24 blokjes (alle getallen bij elkaar optellen)<br />\nb) Zelf meetekenen<br />\n    Je tekent van links naar rechts de hoogte van de getallen die in het blokje staan (3, 2, 5, 2)<br />\nc) Zelf meetekenen<br />\n    Je tekent van links naar rechts de hoogte van de getallen die in het blokje staan, linkerzijaanzicht (3, 5, 3)<br />\n    Je tekent van links naar rechts de hoogte van de getallen die in het blokje staan, rechterzijaanzicht (3, 5, 3)<br />\nd) 12 blokjes. Je telt de hoogte van de blokjes op die je ziet in het vooraanzicht, dat zijn er 12. In totaal heb je 24 blokjes, dus als je 24 - 12 doet, zijn er <br />\n    dus 12 blokjes die je niet nodig hebt, dus die weg kunnen.</p>"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "4020270"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Voorbereiding les 2",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>In les 2 gaan de leerlingen aan de slag met paragraaf 2.2 Doorsneden. In deze les behandelen we een aantal voorbeeldjes en ter verduidelijking een filmpje. Dit is een kort filmpje, want het gaat om het idee. Daarna ga ik zelf in eigen woorden vertellen wat een doorsnede is.</p>\n<p>Je hebt namelijk een doorsnede als je een figuur middendoor snijdt. dus je hebt dan twee gelijke stukken. Zoals er in het filmpje werd gezegd, je kunt het met een mes doormidden snijden. De doorsnede is dan het vlak wat het mes gemaakt heeft tussen de twee figuren. Ik verwacht dat ik tot hier aan toe ongeveer 10 minuten van de les gebruikt heb.</p>\n<p>Hierna vraag ik de leerlingen om twee dingen/figuren op te schrijven waar je een mooie doorsnede van zou kunnen tekenen, net zoals op het filmpje. Een balk mag dan dus niet meer, want die is in het filmpje gebruikt. Ik ga alle leerlingen af en schrijf op het bord welk ding of welke figuur ze bedacht hebben. Bij elke leerling sta ik wat langer stil, want ik vraag er bij elke leerling bij welke vorm de doorsnede dan zou hebben. Bij de balk heb je bijvoorbeeld een rechthoek als doorsnede. Ik verwacht dat ik hier ongeveer 15 - 20 minuutjes mee bezig ben. Per leerling een minuutje.</p>\n<p>Nadat we de uitleg en de voorbeeldjes gehad hebben gaan de leerlingen aan de slag met een aantal opdrachten. Hier werken ze de rest van de les aan en mogen het uiteindelijk nakijken als ze het optijd af hebben. Als het niet af is, dan is het huiswerk voor de volgende les. Het zijn vijf opdrachten.</p>\n"
+                },
+                {
+                    "type": "video",
+                    "url": "https://www.youtube.com/watch?v=er2iUe7fShs",
+                    "align": "left",
+                    "caption": "Filmpje doorsneden, ongeveer tot 1 minuut",
+                    "poster": "https://img.youtube.com/vi/er2iUe7fShs/maxresdefault.jpg"
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "4066132"
+                    },
+                    "assessmentItem": {
+                        "identifier": "4066132",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Vraag 1",
+                                "prompt": {
+                                    "body": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/1418b0d9a3f7bef15fa34991e9645f48a8663980.jpg\" class=\"height-244-pixels width-179-pixels\" />       <img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/6/60f6fdc7155affa34a4c947e3ceaf3c8c924049e.jpg\" class=\"height-188-pixels width-179-pixels\" /></p>\n<p> </p>\n<p>Je ziet een boomstam en doorsnede A.<br />\nTeken op de boomstam op welke manier de doorsnede getekend is en leg uit waarom je dat denkt.</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "4066132_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>Van boven naar beneden, want van bovenaf zie je cirkels en als je van bovenaf door midden snijdt, dan zie je als doorsnede lijntjes.&nbsp;</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>Van boven naar beneden, want van bovenaf zie je cirkels en als je van bovenaf door midden snijdt, dan zie je als doorsnede lijntjes. </p>"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "4066141"
+                    },
+                    "assessmentItem": {
+                        "identifier": "4066141",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Vraag 2",
+                                "prompt": {
+                                    "body": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/1418b0d9a3f7bef15fa34991e9645f48a8663980.jpg\" class=\"height-244-pixels width-179-pixels\" />     <img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/0/05369a1509ae97a296bbbe27ae240f4dbd7e9bf1.jpg\" class=\"height-205-pixels width-192-pixels\" /></p>\n<p> </p>\n<p>Je ziet hier een boomstam en doorsnede B.<br />\nTeken op de boomstam op welke manier doorsnede B getekend is en leg uit waarom je dat denkt.</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "4066141_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>Van links naar rechts, want op doorsnede B zie je rondjes. als je van bovenaf op de boomstam kijkt die je ook rondjes. Je snijdt dus niet door de rondjes heen.&nbsp;</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>Van links naar rechts, want op doorsnede B zie je rondjes. als je van bovenaf op de boomstam kijkt die je ook rondjes. Je snijdt dus niet door de rondjes heen. </p>"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "4066144"
+                    },
+                    "assessmentItem": {
+                        "identifier": "4066144",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Vraag 3",
+                                "prompt": {
+                                    "body": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/81aa9ecdf766587e931f36e2143a3e87c8215654.jpg\" class=\"height-179-pixels width-652-pixels\" /></p>\n<p> </p>\n<p>Je ziet hierboven vier ruimtefiguren.<br />\nWelke van deze vier ruimtefiguren zou een rechthoek als doorsnede kunnen hebben? Het kunnen er meerdere zijn. </p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "4066144_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>Figuur A en Figuur B</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>Figuur A en Figuur B</p>"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "4066147"
+                    },
+                    "assessmentItem": {
+                        "identifier": "4066147",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Vraag 4",
+                                "prompt": {
+                                    "body": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/81aa9ecdf766587e931f36e2143a3e87c8215654.jpg\" class=\"height-179-pixels width-652-pixels\" /></p>\n<p> </p>\n<p>Hierboven zie je vier ruimtefiguren.<br />\nWelke van deze vier ruimtefiguren heeft een vierkant als doorsnede? Het kunnen er meerdere zijn.</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "4066147_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>Figuur A en Figuur B</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>Figuur A en Figuur B</p>"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "4066148"
+                    },
+                    "assessmentItem": {
+                        "identifier": "4066148",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Vraag 5",
+                                "prompt": {
+                                    "body": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/81aa9ecdf766587e931f36e2143a3e87c8215654.jpg\" class=\"height-179-pixels width-652-pixels\" /></p>\n<p> </p>\n<p>Hierboven zie je vier ruimtefiguren.<br />\nKijk terug naar opgave 3 en 4. Bij deze opgave heb je een van deze vier ruimtefiguren niet gebruikt. <br />\nSchrijf op welke dat is en wat voor figuur de doorsnede heeft van dat ruimtefiguur.</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "4066148_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>Figuur D, hij heeft een cirkel als doorsnede. Maakt niet uit op welke manier je de doorsnede tekent, het is altijd een cirkel.</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>Figuur D, hij heeft een cirkel als doorsnede. Maakt niet uit op welke manier je de doorsnede tekent, het is altijd een cirkel.</p>"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "sections": []
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": null,
+            "dimension": null,
+            "suppressTitle": null
+        },
+        "color": "#495057"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Voorbereiding les 1",
+                "reference": {
+                    "value": "4019823"
+                },
+                "sections": []
+            },
+            {
+                "title": "Voorbereiding les 2",
+                "reference": {
+                    "value": "4020270"
+                },
+                "sections": []
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": null,
+        "imageSrc": null,
+        "sources": [
+            {
+                "type": "video",
+                "title": "Filmpje doorsneden, ongeveer tot 1 minuut",
+                "origin": "Filmpje doorsneden, ongeveer tot 1 minuut",
+                "customOrigin": null,
+                "link": "https://www.youtube.com/watch?v=er2iUe7fShs",
+                "visible": true
+            }
+        ],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

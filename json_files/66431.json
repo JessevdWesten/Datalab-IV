@@ -1,0 +1,385 @@
+{
+    "documentAuthors": [
+        "Mirjam Mampaey"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Mirjam Mampaey",
+            "referenceName": null,
+            "reference": {
+                "value": "33925"
+            },
+            "firstName": "Mirjam",
+            "infix": "",
+            "lastName": "Mampaey",
+            "emailAddress": "mirjammampaey@openschoolgemeenschapbijlmer.nl",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2015-09-22T12:13:00Z",
+    "bulkId": "bulk-17041135-refresh_all",
+    "identifier": 66431,
+    "title": "portret door de eeuwen heen",
+    "description": "",
+    "lastModifiedDate": "2015-09-22T12:13:00+02:00",
+    "dateCreated": "-0001-11-30T00:00:00+00:19",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "Mampaey, Mirjam",
+                "reference": {
+                    "value": "33925"
+                },
+                "firstName": "Mirjam",
+                "infix": "",
+                "lastName": "Mampaey",
+                "emailAddress": "mirjammampaey@openschoolgemeenschapbijlmer.nl",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-30",
+            "name": "CC Naamsvermelding 3.0 Nederland licentie",
+            "description": "De Nederlandse Creative Commons 3.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/3.0/nl/.",
+            "link": "http://creativecommons.org/licenses/by/3.0/nl/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/66431/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "1480935"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "inleiding",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Een zelfportret is een beeld van gezicht.</p>\n"
+                },
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/d/daf2c90c960c7746ba42aee80c3a4b925afaedf1.jpg",
+                    "altText": "zelfportret",
+                    "alignment": "center",
+                    "scale": 0.5,
+                    "link": ""
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "1481070"
+                    },
+                    "assessmentItem": {
+                        "identifier": "1481070",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "choiceInteraction",
+                                "label": "meerkeuze vragen",
+                                "prompt": {
+                                    "body": "<p>Welke kleuren zie je in het portret.</p>"
+                                },
+                                "shuffle": false,
+                                "maxChoices": 2,
+                                "minChoices": 1,
+                                "orientation": "vertical",
+                                "choices": [
+                                    {
+                                        "identifier": "0",
+                                        "content": {
+                                            "body": "Rood, Geel, Blauw."
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "0",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "1",
+                                        "content": {
+                                            "body": "Grijs , Wit, Zwart"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "1",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    }
+                                ],
+                                "responseIdentifier": "1481070_1",
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "1481070_1",
+                                "cardinality": "ordered",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0,
+                                    "default": 0,
+                                    "mapEntries": [
+                                        {
+                                            "key": "0",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "1",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        }
+                                    ]
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/3/34c3233ee7986e80810ce57be5f44e6506266947.jpg",
+                    "altText": "Zelfportret van Gogh",
+                    "alignment": "center",
+                    "scale": 0.3,
+                    "link": ""
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "1481038"
+                    },
+                    "assessmentItem": {
+                        "identifier": "1481038",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Vragen",
+                                "prompt": {
+                                    "body": "<p>1) welke kleuren heeft de kunstenaar gebruikt.</p>\n<p> </p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "1481038_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p> </p>\n<p> </p>"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/a/aeac00532d200ef35be8e22df8143d148277beb5.jpg",
+                    "altText": "Rembrand",
+                    "alignment": "left",
+                    "scale": 0.5,
+                    "link": ""
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "1480993"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "filmpje portret tekenen.",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "video",
+                    "url": "https://www.youtube.com/embed/ShOUqJNquuA",
+                    "align": "left",
+                    "caption": "https://www.youtube.com/embed/ShOUqJNquuA",
+                    "poster": "https://maken.wikiwijs.nl/res/images/playicon_wikiwijs.png"
+                }
+            ],
+            "sections": []
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": null,
+            "dimension": null,
+            "suppressTitle": null
+        },
+        "color": ""
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "inleiding",
+                "reference": {
+                    "value": "1480935"
+                },
+                "sections": []
+            },
+            {
+                "title": "filmpje portret tekenen.",
+                "reference": {
+                    "value": "1480993"
+                },
+                "sections": []
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": "",
+        "imageSrc": null,
+        "sources": [
+            {
+                "type": "video",
+                "title": "",
+                "origin": "https://www.youtube.com/embed/ShOUqJNquuA",
+                "customOrigin": null,
+                "link": "https://www.youtube.com/embed/ShOUqJNquuA",
+                "visible": true
+            }
+        ],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

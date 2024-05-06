@@ -1,0 +1,855 @@
+{
+    "documentAuthors": [
+        "Johanna Contreras"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Johanna Contreras",
+            "referenceName": null,
+            "reference": {
+                "value": "168621"
+            },
+            "firstName": "Johanna",
+            "infix": null,
+            "lastName": "Contreras",
+            "emailAddress": "jc.contrerasmartinez@noorderpoort.nl",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2022-09-20T10:32:04Z",
+    "bulkId": "bulk-17041658-refresh_all",
+    "identifier": 190511,
+    "title": "Luisteropdracht - Entrevista",
+    "description": "Audio #38 Er wordt iemand ge\u00efnterviewd.",
+    "lastModifiedDate": "2022-09-20T10:32:04+02:00",
+    "dateCreated": "2022-09-18T13:55:45+02:00",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "3047"
+        },
+        "name": "Spaans Noorderpoort",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "Herrera, Penelope",
+                "reference": {
+                    "value": "149772"
+                },
+                "firstName": "Penelope",
+                "infix": null,
+                "lastName": "Herrera",
+                "emailAddress": "p.herreraarango@noorderpoort.nl",
+                "type": "author"
+            },
+            {
+                "fullName": null,
+                "referenceName": "Contreras, Johanna",
+                "reference": {
+                    "value": "168621"
+                },
+                "firstName": "Johanna",
+                "infix": null,
+                "lastName": "Contreras",
+                "emailAddress": "jc.contrerasmartinez@noorderpoort.nl",
+                "type": "author"
+            }
+        ],
+        "emailAddress": "",
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-40",
+            "name": "CC Naamsvermelding 4.0 Internationale licentie",
+            "description": "De Internationale Creative Commons 4.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/4.0/.",
+            "link": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/190511/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "7304908"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "La entrevista",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "audio",
+                    "title": "",
+                    "file": "https://maken.wikiwijs.nl/userfiles/a/abb1882ca6e321bcf98e9d8a00500d849e1ed80d.mp3"
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "7304921"
+                    },
+                    "assessmentItem": {
+                        "identifier": "7304921",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "choiceInteraction",
+                                "label": "Pregunta 1 Meerkeuze",
+                                "prompt": {
+                                    "body": "<p>Hoeveel personen gingen naar het concert?</p>"
+                                },
+                                "shuffle": false,
+                                "maxChoices": 2,
+                                "minChoices": 1,
+                                "orientation": "vertical",
+                                "choices": [
+                                    {
+                                        "identifier": "0",
+                                        "content": {
+                                            "body": "M\u00e1s de dos mil personas"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "0",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "1",
+                                        "content": {
+                                            "body": "M\u00e1s de doce mil personas"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "1",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    }
+                                ],
+                                "responseIdentifier": "7304921_1",
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "7304921_1",
+                                "cardinality": "ordered",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0,
+                                    "default": 0,
+                                    "mapEntries": [
+                                        {
+                                            "key": "0",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "1",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        }
+                                    ]
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "7304926"
+                    },
+                    "assessmentItem": {
+                        "identifier": "7304926",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "textEntryInteraction",
+                                "content": {
+                                    "body": "<p>El nombre del artista es <textentry identifier=\"TE_66202d81ee004\"></textentry></p>",
+                                    "items": [
+                                        {
+                                            "identifier": "TE_66202d81ee004",
+                                            "responseIdentifier": "TE_66202d81ee004_0",
+                                            "feedbackInline": null
+                                        }
+                                    ]
+                                },
+                                "label": "Pergunta 2 Tekst invullen",
+                                "responseIdentifier": null,
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_CORRECT",
+                                        "identifier": "FBC_7304926",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "Alberto Romero"
+                                        }
+                                    },
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_INCORRECT",
+                                        "identifier": "FBI_7304926",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "Alberto Romero: namen en achternamen met hoofdletters"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "TE_66202d81ee004_0",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "Alberto Romero"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 1,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "7304932"
+                    },
+                    "assessmentItem": {
+                        "identifier": "7304932",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "choiceInteraction",
+                                "label": "Pregunta 3 Meerkeuze",
+                                "prompt": {
+                                    "body": "<p>Hoe oud is Alberto?</p>"
+                                },
+                                "shuffle": false,
+                                "maxChoices": 2,
+                                "minChoices": 1,
+                                "orientation": "vertical",
+                                "choices": [
+                                    {
+                                        "identifier": "0",
+                                        "content": {
+                                            "body": "Diecisiete a\u00f1os"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "0",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "1",
+                                        "content": {
+                                            "body": "Diecis\u00e9is a\u00f1os"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "1",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    }
+                                ],
+                                "responseIdentifier": "7304932_1",
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "7304932_1",
+                                "cardinality": "ordered",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0,
+                                    "default": 0,
+                                    "mapEntries": [
+                                        {
+                                            "key": "0",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "1",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        }
+                                    ]
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "7304939"
+                    },
+                    "assessmentItem": {
+                        "identifier": "7304939",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "gapMatchInteraction",
+                                "content": {
+                                    "body": "<p>\u00bfNo <gap identifier=\"GM_66202d81eead9\"></gap> Espa\u00f1ol?</p>\n<p>Nac\u00ed en <gap identifier=\"GM_66202d81eeae6\"></gap>, en Roma</p>",
+                                    "items": [
+                                        {
+                                            "identifier": "GM_66202d81eead9",
+                                            "answer": {
+                                                "identifier": "GMT_66202d81eeada",
+                                                "content": {
+                                                    "body": "eres"
+                                                }
+                                            },
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "GM_66202d81eeae6",
+                                            "answer": {
+                                                "identifier": "GMT_66202d81eeae7",
+                                                "content": {
+                                                    "body": "Italia"
+                                                }
+                                            },
+                                            "feedbackInline": null
+                                        }
+                                    ]
+                                },
+                                "label": "Pregunta 4 Sleep tekst",
+                                "responseIdentifier": "7304939_1",
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "7304939_1",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": "GM_66202d81eead9",
+                                            "value": "GMT_66202d81eeada"
+                                        },
+                                        {
+                                            "fieldIdentifier": "GM_66202d81eeae6",
+                                            "value": "GMT_66202d81eeae7"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": [
+                                        {
+                                            "key": "GM_66202d81eead9",
+                                            "value": 0.5,
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "GM_66202d81eeae6",
+                                            "value": 0.5,
+                                            "caseSensitive": false
+                                        }
+                                    ]
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "7304953"
+                    },
+                    "assessmentItem": {
+                        "identifier": "7304953",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "textEntryInteraction",
+                                "content": {
+                                    "body": "<p>\u00bfD\u00f3nde <textentry identifier=\"TE_66202d81ef060\"></textentry> Roberto?</p>\n<p><textentry identifier=\"TE_66202d81ef067\"></textentry> en <textentry identifier=\"TE_66202d81ef06a\"></textentry></p>",
+                                    "items": [
+                                        {
+                                            "identifier": "TE_66202d81ef060",
+                                            "responseIdentifier": "TE_66202d81ef060_0",
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "TE_66202d81ef067",
+                                            "responseIdentifier": "TE_66202d81ef067_1",
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "TE_66202d81ef06a",
+                                            "responseIdentifier": "TE_66202d81ef06a_2",
+                                            "feedbackInline": null
+                                        }
+                                    ]
+                                },
+                                "label": "Pregunta 5 Tekst invullen",
+                                "responseIdentifier": null,
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "TE_66202d81ef060_0",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "vive"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0.33,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            },
+                            {
+                                "identifier": "TE_66202d81ef067_1",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "Vivo"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0.33,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            },
+                            {
+                                "identifier": "TE_66202d81ef06a_2",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "Madrid"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0.33,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "7304968"
+                    },
+                    "assessmentItem": {
+                        "identifier": "7304968",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "choiceInteraction",
+                                "label": "Vraag 6 Meerkeuzevraag",
+                                "prompt": {
+                                    "body": "<p>Hoe is de karakter van Roberto en wat vindt hij leuk om te doen in zijn vrije tijd?</p>"
+                                },
+                                "shuffle": false,
+                                "maxChoices": 3,
+                                "minChoices": 1,
+                                "orientation": "vertical",
+                                "choices": [
+                                    {
+                                        "identifier": "0",
+                                        "content": {
+                                            "body": "Soy muy trabajador y me gusta comer y beber"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "0",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "1",
+                                        "content": {
+                                            "body": "Soy muy trabajador y responsable y me gusta estar con amigos, escuchar m\u00fasica y leer."
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "1",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "2",
+                                        "content": {
+                                            "body": "Soy muy responsable y me gusta dormir y ver Netflix"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "2",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    }
+                                ],
+                                "responseIdentifier": "7304968_1",
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "7304968_1",
+                                "cardinality": "ordered",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0,
+                                    "default": 0,
+                                    "mapEntries": [
+                                        {
+                                            "key": "0",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "1",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "2",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        }
+                                    ]
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                }
+            ],
+            "sections": []
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": null,
+            "dimension": null,
+            "suppressTitle": null
+        },
+        "color": "#333333"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "La entrevista",
+                "reference": {
+                    "value": "7304908"
+                },
+                "sections": []
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": null,
+        "imageSrc": null,
+        "sources": [],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

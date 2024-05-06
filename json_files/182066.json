@@ -1,0 +1,664 @@
+{
+    "documentAuthors": [
+        "Marcel Caerteling"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Marcel Caerteling",
+            "referenceName": null,
+            "reference": {
+                "value": "49767"
+            },
+            "firstName": "Marcel",
+            "infix": null,
+            "lastName": "Caerteling",
+            "emailAddress": "marcelcaerteling@gmail.com",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2023-01-17T14:36:08Z",
+    "bulkId": "bulk-17041658-refresh_all",
+    "identifier": 182066,
+    "title": "Diagnostische toets Hormoonstelsel",
+    "description": "",
+    "lastModifiedDate": "2023-01-17T14:36:08+01:00",
+    "dateCreated": "2021-11-24T17:52:16+01:00",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "Caerteling, Marcel",
+                "reference": {
+                    "value": "49767"
+                },
+                "firstName": "Marcel",
+                "infix": null,
+                "lastName": "Caerteling",
+                "emailAddress": "marcelcaerteling@gmail.com",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-40",
+            "name": "CC Naamsvermelding 4.0 Internationale licentie",
+            "description": "De Internationale Creative Commons 4.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/4.0/.",
+            "link": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/182066/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "empty_section"
+            },
+            "heading": {
+                "type": "empty_heading",
+                "content": "",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "questionnaire",
+                    "reference": {
+                        "value": "6933466"
+                    },
+                    "assessmentTestItem": {
+                        "label": "Test",
+                        "type": "diagnostic",
+                        "header": {
+                            "url": "https://maken.wikiwijs.nl/p/questionnaire/standalone/6933466",
+                            "title": "Diagnostische toets Hormoonstelsel"
+                        },
+                        "introduction": {
+                            "body": ""
+                        },
+                        "countQuestions": 8,
+                        "sections": [
+                            {
+                                "type": "diagnostic",
+                                "identifier": "0",
+                                "name": "Nieuwe Categorie",
+                                "select": null,
+                                "shuffle": null,
+                                "selection": null,
+                                "assessmentItems": [
+                                    {
+                                        "identifier": "6933466_0",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "Vorming van adrenaline",
+                                                "prompt": {
+                                                    "body": "<p>Welk deel van de hersenen heeft grote invloed op de vorming van adrenaline?</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "6933466_0_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p><em>De tussenhersenen en met name de hypothalamus in de tussenhersenen.</em></p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p><em>De tussenhersenen en met name de hypothalamus in de tussenhersenen.</em></p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "identifier": "6933466_1",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "Fright-flight-fight-hormoon",
+                                                "prompt": {
+                                                    "body": "<p>Adrenaline wordt ook wel het 'fright-flight-fight-hormoon' genoemd. Geef daar een verklaring voor.</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "6933466_1_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p><em>Adrenaline komt in het bloed zodra je denkt in actie te moeten komen, bijvoorbeeld als je ineens hard weg moet rennen omdat er gevaar dreigt. Adrenaline bereidt het lichaam daarop voor. Bij angst (fright), agressie (fight) of wegrennen (flight) zal er dus veel adrenaline in het bloed zitten.</em></p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p><em>Adrenaline komt in het bloed zodra je denkt in actie te moeten komen, bijvoorbeeld als je ineens hard weg moet rennen omdat er gevaar dreigt. Adrenaline bereidt het lichaam daarop voor. Bij angst (fright), agressie (fight) of wegrennen (flight) zal er dus veel adrenaline in het bloed zitten.</em></p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "identifier": "6933466_2",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "Hartritme",
+                                                "prompt": {
+                                                    "body": "<p>Door welk hormoon kan het hartritme versnellen?</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "6933466_2_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p><em>Door adrenaline.</em></p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p><em>Door adrenaline.</em></p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "identifier": "6933466_3",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "Boedtoevoer naar de skeletspieren",
+                                                "prompt": {
+                                                    "body": "<p>Adrenaline veroorzaakt een grotere bloedtoevoer naar de skeletspieren. Wat is het doel daarvan?</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "6933466_3_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p><em>Het doel daarvan is dat de skeletspieren voldoende zuurstof krijgen voor het geval je ineens in actie moet komen, bijvoorbeeld moet wegrennen.</em></p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p><em>Het doel daarvan is dat de skeletspieren voldoende zuurstof krijgen voor het geval je ineens in actie moet komen, bijvoorbeeld moet wegrennen.</em></p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "identifier": "6933466_4",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "Glucoseconcentratie",
+                                                "prompt": {
+                                                    "body": "<p>Adrenaline veroorzaakt een verhoging van de glucoseconcentratie in het bloed. Welk ander hormoon doet dat ook?</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "6933466_4_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p><em>Ook glucagon uit de eilandjes van Langerhans (alvleesklier) veroorzaakt een verhoging van de glucoseconcentratie in het bloed. </em></p>\r\n\r\n<p><em>Ook cortisol, geproduceerd in de bijnierschors verhoogd de bloedglucosespiegel.</em></p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p><em>Ook glucagon uit de eilandjes van Langerhans (alvleesklier) veroorzaakt een verhoging van de glucoseconcentratie in het bloed.</em></p>\n<p><em>Ook cortisol, geproduceerd in de bijnierschors verhoogd de bloedglucosespiegel.</em></p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "identifier": "6933466_5",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "Insuline",
+                                                "prompt": {
+                                                    "body": "<p>Welke twee hormonen werken tegengesteld aan insuline?</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "6933466_5_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p>Glucagon en adrenaline.</p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p>Glucagon en adrenaline.</p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "identifier": "6933466_6",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "Zwangerschapstesten",
+                                                "prompt": {
+                                                    "body": "<p>Veel zwangerschapstesten zijn gebaseerd op een hormoon dat je in de urine van een zwangere kunt aantonen. Hoe heet dit hormoon?</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "6933466_6_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p><em>Dat hormoon heet HCG (humane choriongonadotrofine). </em></p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p><em>Dat hormoon heet HCG (humane choriongonadotrofine).</em></p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "identifier": "6933466_7",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "Samentrekking baarmoeder",
+                                                "prompt": {
+                                                    "body": "<p>Welk hormoon stimuleert de samentrekkingen van de baarmoeder tijdens de bevalling?</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "6933466_7_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p><em>Oxytocine stimuleert de samentrekkingen van de baarmoeder tijdens de bevalling.</em></p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p><em>Oxytocine stimuleert de samentrekkingen van de baarmoeder tijdens de bevalling.</em></p>"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "outcomeDeclarations": null,
+                        "showEvaluation": null,
+                        "feedback": null
+                    }
+                }
+            ],
+            "sections": []
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": null,
+            "dimension": null,
+            "suppressTitle": null
+        },
+        "color": "#333333"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": null,
+        "imageSrc": null,
+        "sources": [],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            },
+            {
+                "key": "learningTime",
+                "label": "Studiebelasting",
+                "terms": [
+                    "4 uur en 0 minuten"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

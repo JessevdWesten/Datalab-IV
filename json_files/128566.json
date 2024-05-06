@@ -1,0 +1,2665 @@
+{
+    "documentAuthors": [
+        "Marcel Roesink"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Marcel Roesink",
+            "referenceName": null,
+            "reference": {
+                "value": "83639"
+            },
+            "firstName": "Marcel",
+            "infix": null,
+            "lastName": "Roesink",
+            "emailAddress": "mroesink@rocvantwente.nl",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2018-09-10T19:06:42Z",
+    "bulkId": "bulk-17041658-refresh_all",
+    "identifier": 128566,
+    "title": "micro:bit - Versie ROC van Twente",
+    "description": "Lesmateriaal voor gebruik van de micro:bit microcontroller. Voor dit lesmateriaal heb je zo'n microcontroller nodig.",
+    "lastModifiedDate": "2018-09-10T19:06:42+02:00",
+    "dateCreated": "2018-08-25T14:34:25+02:00",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "Roesink, Marcel",
+                "reference": {
+                    "value": "83639"
+                },
+                "firstName": "Marcel",
+                "infix": null,
+                "lastName": "Roesink",
+                "emailAddress": "mroesink@rocvantwente.nl",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-40",
+            "name": "CC Naamsvermelding 4.0 Internationale licentie",
+            "description": "De Internationale Creative Commons 4.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/4.0/.",
+            "link": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/128566/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "4535833"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Introductie",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/c/c71f5d3b20353e39602e2ad514cbef8e6f5dd738.png",
+                    "altText": "",
+                    "alignment": "left",
+                    "scale": 0.3,
+                    "link": ""
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Deze lessen zijn bedoeld als een introductie in programmeren. Je hebt in een eerdere les al kennis gemaakt met het programmeren van de Micro:Bit door blokken te gebruiken.</p>\n<p>In deze les gaan we 'echt' aan de slag met programmeren. De blokjes laten we even achter ons en we gaan nu programmeren met Python. Python is een zeer populaire programmeertaal en bovendien relatief makkelijk aan te leren.</p>\n<p> </p>\n<p><img alt=\"Python\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/768px-Python.svg.png\" class=\"height-250-pixels width-250-pixels float-left\"/> <img alt=\"Micro:Bit\" src=\"https://cdn.sparkfun.com/assets/learn_tutorials/6/3/9/13988-04.jpg\" class=\"height-250-pixels width-250-pixels float-right\"/></p>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "4535323"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Links",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "link",
+                    "link": "https://www.microbit.co.uk/app",
+                    "title": "www.microbit.co.uk/app",
+                    "description": "Website om code te maken voor de micro:bit",
+                    "comment": ""
+                },
+                {
+                    "type": "link",
+                    "link": "https://gist.github.com/ShawnHymel",
+                    "title": "Github van Shawn Hymel (antwoorden)",
+                    "description": "GitHub is een online client voor het Git-versiebeheersysteem en een hostingprovider voor vrije software, die alle mogelijkheden van Git en eigen toevoegingen aanbiedt. Het beschikt onder ander over toegangscontrole en verschilde samenwerkingsfuncties, zoals een issue tracker, een forum voor het aanvragen van functies, takenlijsten en wiki's voor ieder project.\r\nGitHub biedt zowel gratis en priv\u00e9-repositories voor opensourceprojecten. Om priv\u00e9-projecten te kunnen hosten op Github is een betaald abonnement nodig.",
+                    "comment": ""
+                },
+                {
+                    "type": "link",
+                    "link": "https://microbit-micropython.readthedocs.io/en/latest/",
+                    "title": "documentation",
+                    "description": "Documentatie van de bibliotheek.",
+                    "comment": ""
+                },
+                {
+                    "type": "link",
+                    "link": "https://www.draw.io/",
+                    "title": "www.draw.io",
+                    "description": "Flowcharts maken met draw.io",
+                    "comment": ""
+                },
+                {
+                    "type": "link",
+                    "link": "https://blog.bluetooth.com/bbc-microbit",
+                    "title": "Bluetooth",
+                    "description": "Bluetooth blog. Sluit je micro:bit aan op je telefoon.",
+                    "comment": ""
+                },
+                {
+                    "type": "link",
+                    "link": "https://www.microbit.co.uk/IET",
+                    "title": "The IET Collection",
+                    "description": "Een serie lessen van de IET (Institution of Engineering and Technology).",
+                    "comment": ""
+                },
+                {
+                    "type": "link",
+                    "link": "https://microbit-playground.co.uk/cheat-sheet/",
+                    "title": "Micro:Bit Python Cheat Sheet",
+                    "description": "Voorbeelden van veel gebruikte elementen van Python voor de Micro:Bit",
+                    "comment": ""
+                },
+                {
+                    "type": "link",
+                    "link": "https://developers.google.com/blockly/",
+                    "title": "Code schrijven met behulp van Blockly",
+                    "description": "Als je nog wat moeite hebt met het zelf schrijven van Python code kun je gebruik maken van dit handige hulpmiddel, waarmee je je programma maakt met blokken en vervolgens wordt de benodigde code voor je geschreven.",
+                    "comment": ""
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "4535330"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "1: Beginnen met de Micro:Bit",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "4535331"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Filmpje: Hello World!",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Filmpje: Hello World!</p>\n<p><iframe allowfullscreen=\"allowfullscreen\" frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/ZIW_6rxYNBg\" width=\"560\" class=\"video-item\"/></p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4535333"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Theorie",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "link",
+                            "link": "https://microbit-micropython.readthedocs.io/en/latest/tutorials/hello.html",
+                            "title": "Theorie: Hello, World!",
+                            "description": "Lees de theorie na over het maken van \"Hello World!\" met de micro:bit.",
+                            "comment": ""
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4535335"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Aan de slag",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Elk script begint met de volgende regel:</p>\n<pre>&#13;\nfrom microbit import *</pre>\n<p>Je kunt meteen gebruik maken van een aantal functies, zoals sleep(), running_time(), panic(error_code) en reset().</p>\n<pre>&#13;\n# sleep for the given number of milliseconds.&#13;\nsleep(ms)&#13;\n# returns the number of milliseconds since the micro:bit was last switched on.&#13;\nrunning_time()&#13;\n# makes the micro:bit enter panic mode (this usually happens when the DAL runs&#13;\n# out of memory, and causes a sad face to be drawn on the display). The error&#13;\n# code can be any arbitrary integer value.&#13;\npanic(error_code)&#13;\n# resets the micro:bit.&#13;\nreset()</pre>\n<p>De rest van de functionaliteit zit in de objecten en klassen die gebruikt worden. Als je wil weten wat er mogelijk is met die objecten en klassen, kun je zoeken in de API (Application Programming Interface). Ga naar <a href=\"http://microbit-micropython.readthedocs.io/en/latest/\">http://microbit-micropython.readthedocs.io/en/latest/</a> en vul een zoekterm in.</p>\n<div class=\"text-align-center\">\n<figure class=\"image\"><img alt=\"Zoeken\" src=\"https://maken.wikiwijs.nl/userfiles/2/24748b36b56ed7e8d13387d4594dcb588146c274.png\" class=\"height-150-pixels width-423-pixels\"/>\n<figcaption>Zoeken in de API</figcaption>\n</figure>\n</div>\n<p>Zoek bijvoorbeeld naar de term \"display\" en klik op de bovenste link van de zoekresultaten. Je krijgt dan alle informatie over alle functions die het object <strong>display</strong> heeft.</p>\n<p><a href=\"http://microbit-micropython.readthedocs.io/en/latest/display.html?highlight=display\" target=\"_blank\">http://microbit-micropython.readthedocs.io/en/latest/display.html?highlight=display</a></p>\n<p><strong>show</strong> en <strong>scroll</strong> zul je het vaakst gebruiken. <strong>show</strong> gebruik je om tekst of een afbeelding te tonen en met <strong>scroll</strong> kun je tekst over het scherm van links naar rechts laten scrollen.</p>\n<p><strong>En nu echt beginnen!</strong></p>\n<p>Ga naar <a href=\"http://microbit.co.uk/app\">http://microbit.co.uk/app.</a></p>\n<p>Kies <strong>Create Code</strong> en daarna <strong>MicroPython</strong>.</p>\n<p>Verwijder alle voorbeeldcode.</p>\n<p>Nogmaals: bij alle programma's voor de micro:bit moet je eerst de bibliotheek van micro:bit importeren. De eerste regel van je programma is dan ook altijd:<br/>\n<strong>from microbit import *</strong></p>\n<p>Daarna laat je een regel open begin je met het maken van code.</p>\n<p>Als je klaar bent met de code, kies je bovenaan voor <strong>Download</strong>. De code zal worden gedownload naar de download map op je computer.</p>\n<p>Zorg dat de micro:bit is aangesloten op de computer. Klik op <strong>Downloads weergeven</strong> (of blader naar de downloads map) en lopieer het hex bestand naar de micro:bit. Op de micro:bit wordt meteen de tekst <strong>Hello!</strong> getoond.</p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4535337"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "String",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Een string is een verzameling van alfanumerieke tekens, zoals letters, cijfers, interpunctietekens en spaties. Het is dus een blok tekst zoals je die met je toetsenbord zou kunnen maken. Met strings kun je niet rekenen en ze staan tussen enkele of dubbele aanhalingstekens. Python gebruikt enkele aanhalingstekens als dubbele.</p>\n<p>MAAR LET OP: als je met enkele begint moet je ook met enkele eindigen en als je met dubbele begint moet je ook met dubbele eindigen.</p>\n<p> </p>\n<p>Enkele voorbeelden:</p>\n<p>voornaam = 'Jan'</p>\n<p>achternaam = \"Karelsen\"</p>\n<p>woonplaats = \"Hengelo\"</p>\n<p> </p>\n<p>En een bijzondere:</p>\n<p>achternaam = \"Huis in 't Veld\"</p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4535339"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Integer",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Een integer is een geheel getal, dus zonder dat er een decimale komma wordt gebruikt. Het getal kan wel negatief zijn, als het maar een geheel getal is.</p>\n<p>Het display kan geen integers tonen. Als je toch een integer wil tonen, moet je die eerst omzetten naar een string met het commando <strong>str</strong>.</p>\n<p><em>Bijvoorbeeld:</em></p>\n<p>display.show(str(3))</p>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p><strong>Opdracht Countdown:</strong></p>\n<p>Maak een programma waarbij de micro:bit terugtelt van 9 naar 1 met steeds 1 seconde als tussenpauze. Als het programma bij 0 komt, wordt er een afbeelding naar keuze getoond.</p>\n<p>Lever de code van je uitwerking in als een tekstbestand met als naam <strong>countdown.py</strong> in het OneNote kladblok. Je kunt het tekstbestand maken door in de Micro:Bit editor te klikken op Save:</p>\n<p><img alt=\"Python bestand opslaan als tekstbestand\" src=\"https://maken.wikiwijs.nl/userfiles/9/99bba679b9dfa5843bbfad41e6332fabeae5a72a.png\" class=\"height-188-pixels width-643-pixels\"/></p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4535342"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Float",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Floats zijn kommagetallen, dus bijvoorbeeld 1,2 of 3,4. Wij schrijven die met een komma maar in programmeertaal wordt de scheiding meestal aangebracht met een punt, dus bijvoorbeeld 1.2 in plaats van 1,2. Met</p>\n<div class=\"code\">random.random</div>\nmaak je een willekeurige float (kommagetal).\n<p>Ook een float kan niet zomaar worden weergegeven via display.show. Ook hierbij moet je de methode str gebruiken (zie het vorige blok over integers).</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4535344"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Array",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Een array is een lijst met informatie. Een array heeft een naam en je herkent een array aan de rechte haken.</p>\n<p>Bij sommige programmeertalen, zoals C# en Java, waar je later in de opleiding mee gaat werken, moet de elementen van een array van hetzelfde type zijn, maar bij Python hoeft dat niet.</p>\n<p>Enkele voorbeelden:</p>\n<p>dieren = [\"Aap\" , \"Hond\" , \"Poes\" , \"Tijger\"]</p>\n<p>autos = [\"BMW\" , \"Volvo\" , \"Renault\" , \"Volkswagen\"]</p>\n<p>hond = [\"Bo\" , \"Arnhem\" , 2003 , 28.6]</p>\n<p>student1 = [\"Joop\" , \"de\" , \"Vries\" , 21 , \"Hengelo\"]</p>\n<p>Je kunt een element uit een array opvragen met behulp van de index. Bedenk daarbij dat in de meeste programmeertalen en ook in Python wordt begonnen met de waarde 0 voor het eerste element.</p>\n<p>De volgende code zal doorlopend <em>dog</em> weergeven op de Microbit.</p>\n<p><span>from microbit import *</span></p>\n<p><span>animals = [\"hamster\" , \"dog\" , \"cat\"]<br/>\nwhile True:<br/>\n    display.scroll(myarray[1])<br/>\n    sleep(2000)</span></p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4535346"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Antwoorden",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "link",
+                            "link": "https://gist.github.com/ShawnHymel/c052ac191935a7df17905462c3d5add3",
+                            "title": "Make the micro:bit scroll the phrase \"Hello!\" ",
+                            "description": "Laat de micro:bit \"Hello!\" tonen.",
+                            "comment": ""
+                        },
+                        {
+                            "type": "link",
+                            "link": "https://gist.github.com/ShawnHymel/83b8bf04ccd66b888660fc3557c81c18",
+                            "title": "micro:bit Tutorial Series Part 1: Getting Started - My Name ",
+                            "description": "Laat je eigen naam zien op de micro:bit",
+                            "comment": ""
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4535349"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Oefentoets",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "questionnaire",
+                            "reference": {
+                                "value": "4535350"
+                            },
+                            "assessmentTestItem": {
+                                "label": "Oefening",
+                                "type": "exercise",
+                                "header": {
+                                    "url": "https://maken.wikiwijs.nl/p/questionnaire/standalone/4535350",
+                                    "title": "Oefentoets na 1"
+                                },
+                                "introduction": {
+                                    "body": "<p>Even een paar vragen over hoofdstuk 1.</p>"
+                                },
+                                "countQuestions": 4,
+                                "sections": [
+                                    {
+                                        "type": "assessment",
+                                        "identifier": "SECTION_4535350",
+                                        "name": "MAIN_SECTION",
+                                        "select": null,
+                                        "shuffle": null,
+                                        "selection": null,
+                                        "assessmentItems": [
+                                            {
+                                                "identifier": "4535350_0",
+                                                "itemBody": null,
+                                                "questions": [
+                                                    {
+                                                        "type": "extendedTextInteraction",
+                                                        "label": "Voordelen",
+                                                        "prompt": {
+                                                            "body": "<p>Geef tenminste \u00e9\u00e9n voordeel van een microcontroller.</p>"
+                                                        },
+                                                        "feedback": null
+                                                    }
+                                                ],
+                                                "responseDeclarations": [
+                                                    {
+                                                        "identifier": "4535350_0_1",
+                                                        "cardinality": "single",
+                                                        "baseType": "string",
+                                                        "correctResponse": {
+                                                            "interpretation": null,
+                                                            "values": [
+                                                                {
+                                                                    "fieldIdentifier": null,
+                                                                    "value": "<p>klein, goedkoop, gebruikt weinig energie, kunnen heel goed commuiceren met andere apparaten</p>\r\n"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "mapping": {
+                                                            "lowerBound": 0,
+                                                            "upperBound": 1,
+                                                            "default": 0,
+                                                            "mapEntries": []
+                                                        },
+                                                        "areaMapping": null
+                                                    }
+                                                ],
+                                                "outcomeDeclarations": [
+                                                    {
+                                                        "identifier": "SCORE",
+                                                        "cardinality": "single",
+                                                        "baseType": "float",
+                                                        "defaultValue": 0,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "FEEDBACK",
+                                                        "cardinality": "single",
+                                                        "baseType": "identifier",
+                                                        "defaultValue": null,
+                                                        "interpretation": null
+                                                    }
+                                                ],
+                                                "feedback": [
+                                                    {
+                                                        "outcomeIdentifier": "FEEDBACK",
+                                                        "identifier": "ANSWER_CORRECT",
+                                                        "showHide": true,
+                                                        "title": null,
+                                                        "content": {
+                                                            "body": "<p>klein, goedkoop, gebruikt weinig energie, kunnen heel goed commuiceren met andere apparaten</p>"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "identifier": "4535350_1",
+                                                "itemBody": null,
+                                                "questions": [
+                                                    {
+                                                        "type": "extendedTextInteraction",
+                                                        "label": "Nadelen",
+                                                        "prompt": {
+                                                            "body": "<p>Geef tenminste \u00e9\u00e9n nadeel van een microcontroller.</p>"
+                                                        },
+                                                        "feedback": null
+                                                    }
+                                                ],
+                                                "responseDeclarations": [
+                                                    {
+                                                        "identifier": "4535350_1_1",
+                                                        "cardinality": "single",
+                                                        "baseType": "string",
+                                                        "correctResponse": {
+                                                            "interpretation": null,
+                                                            "values": [
+                                                                {
+                                                                    "fieldIdentifier": null,
+                                                                    "value": "<p>Hij kan maar &eacute;&eacute;n ding tegelijk.</p>\r\n"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "mapping": {
+                                                            "lowerBound": 0,
+                                                            "upperBound": 1,
+                                                            "default": 0,
+                                                            "mapEntries": []
+                                                        },
+                                                        "areaMapping": null
+                                                    }
+                                                ],
+                                                "outcomeDeclarations": [
+                                                    {
+                                                        "identifier": "SCORE",
+                                                        "cardinality": "single",
+                                                        "baseType": "float",
+                                                        "defaultValue": 0,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "FEEDBACK",
+                                                        "cardinality": "single",
+                                                        "baseType": "identifier",
+                                                        "defaultValue": null,
+                                                        "interpretation": null
+                                                    }
+                                                ],
+                                                "feedback": [
+                                                    {
+                                                        "outcomeIdentifier": "FEEDBACK",
+                                                        "identifier": "ANSWER_CORRECT",
+                                                        "showHide": true,
+                                                        "title": null,
+                                                        "content": {
+                                                            "body": "<p>Hij kan maar \u00e9\u00e9n ding tegelijk.</p>"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "identifier": "4535350_2",
+                                                "itemBody": null,
+                                                "questions": [
+                                                    {
+                                                        "type": "choiceInteraction",
+                                                        "label": "Methode",
+                                                        "prompt": {
+                                                            "body": "<p>Welk woord geeft de methodenaam weer in: display.scroll(\"Hello!\")</p>"
+                                                        },
+                                                        "shuffle": true,
+                                                        "maxChoices": 3,
+                                                        "minChoices": 1,
+                                                        "orientation": "vertical",
+                                                        "choices": [
+                                                            {
+                                                                "identifier": "0",
+                                                                "content": {
+                                                                    "body": "display"
+                                                                },
+                                                                "feedback": {
+                                                                    "outcomeIdentifier": "FEEDBACK",
+                                                                    "identifier": "0",
+                                                                    "showHide": true,
+                                                                    "title": null,
+                                                                    "content": null
+                                                                }
+                                                            },
+                                                            {
+                                                                "identifier": "1",
+                                                                "content": {
+                                                                    "body": "scroll"
+                                                                },
+                                                                "feedback": {
+                                                                    "outcomeIdentifier": "FEEDBACK",
+                                                                    "identifier": "1",
+                                                                    "showHide": true,
+                                                                    "title": null,
+                                                                    "content": null
+                                                                }
+                                                            },
+                                                            {
+                                                                "identifier": "2",
+                                                                "content": {
+                                                                    "body": "\"Hello!\""
+                                                                },
+                                                                "feedback": {
+                                                                    "outcomeIdentifier": "FEEDBACK",
+                                                                    "identifier": "2",
+                                                                    "showHide": true,
+                                                                    "title": null,
+                                                                    "content": null
+                                                                }
+                                                            }
+                                                        ],
+                                                        "responseIdentifier": "4535350_2_1",
+                                                        "feedback": null
+                                                    }
+                                                ],
+                                                "responseDeclarations": [
+                                                    {
+                                                        "identifier": "4535350_2_1",
+                                                        "cardinality": "ordered",
+                                                        "baseType": "identifier",
+                                                        "correctResponse": {
+                                                            "interpretation": null,
+                                                            "values": [
+                                                                {
+                                                                    "fieldIdentifier": null,
+                                                                    "value": "1"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "mapping": {
+                                                            "lowerBound": 0,
+                                                            "upperBound": 0,
+                                                            "default": 0,
+                                                            "mapEntries": [
+                                                                {
+                                                                    "key": "0",
+                                                                    "value": "0",
+                                                                    "caseSensitive": false
+                                                                },
+                                                                {
+                                                                    "key": "1",
+                                                                    "value": "0",
+                                                                    "caseSensitive": false
+                                                                },
+                                                                {
+                                                                    "key": "2",
+                                                                    "value": "0",
+                                                                    "caseSensitive": false
+                                                                }
+                                                            ]
+                                                        },
+                                                        "areaMapping": null
+                                                    }
+                                                ],
+                                                "outcomeDeclarations": [
+                                                    {
+                                                        "identifier": "SCORE",
+                                                        "cardinality": "single",
+                                                        "baseType": "float",
+                                                        "defaultValue": 0,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "FEEDBACK_CORRECT",
+                                                        "cardinality": "single",
+                                                        "baseType": "identifier",
+                                                        "defaultValue": false,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "FEEDBACK_INCORRECT",
+                                                        "cardinality": "single",
+                                                        "baseType": "identifier",
+                                                        "defaultValue": true,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "FEEDBACK_THRESHOLD",
+                                                        "cardinality": "single",
+                                                        "baseType": "float",
+                                                        "defaultValue": 0,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "RESPONSE_CORRECT",
+                                                        "cardinality": "single",
+                                                        "baseType": "boolean",
+                                                        "defaultValue": null,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "RESPONSE_INCORRECT",
+                                                        "cardinality": "single",
+                                                        "baseType": "boolean",
+                                                        "defaultValue": null,
+                                                        "interpretation": null
+                                                    }
+                                                ],
+                                                "feedback": null
+                                            },
+                                            {
+                                                "identifier": "4535350_3",
+                                                "itemBody": null,
+                                                "questions": [
+                                                    {
+                                                        "type": "choiceInteraction",
+                                                        "label": "Object",
+                                                        "prompt": {
+                                                            "body": "<p>Welk woord is de naam van het object in:</p>\n<p>display.scroll(\"Hello!\")</p>"
+                                                        },
+                                                        "shuffle": false,
+                                                        "maxChoices": 3,
+                                                        "minChoices": 1,
+                                                        "orientation": "vertical",
+                                                        "choices": [
+                                                            {
+                                                                "identifier": "0",
+                                                                "content": {
+                                                                    "body": "display"
+                                                                },
+                                                                "feedback": {
+                                                                    "outcomeIdentifier": "FEEDBACK",
+                                                                    "identifier": "0",
+                                                                    "showHide": true,
+                                                                    "title": null,
+                                                                    "content": null
+                                                                }
+                                                            },
+                                                            {
+                                                                "identifier": "1",
+                                                                "content": {
+                                                                    "body": "scroll"
+                                                                },
+                                                                "feedback": {
+                                                                    "outcomeIdentifier": "FEEDBACK",
+                                                                    "identifier": "1",
+                                                                    "showHide": true,
+                                                                    "title": null,
+                                                                    "content": null
+                                                                }
+                                                            },
+                                                            {
+                                                                "identifier": "2",
+                                                                "content": {
+                                                                    "body": "\"Hello!\""
+                                                                },
+                                                                "feedback": {
+                                                                    "outcomeIdentifier": "FEEDBACK",
+                                                                    "identifier": "2",
+                                                                    "showHide": true,
+                                                                    "title": null,
+                                                                    "content": null
+                                                                }
+                                                            }
+                                                        ],
+                                                        "responseIdentifier": "4535350_3_1",
+                                                        "feedback": null
+                                                    }
+                                                ],
+                                                "responseDeclarations": [
+                                                    {
+                                                        "identifier": "4535350_3_1",
+                                                        "cardinality": "ordered",
+                                                        "baseType": "identifier",
+                                                        "correctResponse": {
+                                                            "interpretation": null,
+                                                            "values": [
+                                                                {
+                                                                    "fieldIdentifier": null,
+                                                                    "value": "0"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "mapping": {
+                                                            "lowerBound": 0,
+                                                            "upperBound": 0,
+                                                            "default": 0,
+                                                            "mapEntries": [
+                                                                {
+                                                                    "key": "0",
+                                                                    "value": "0",
+                                                                    "caseSensitive": false
+                                                                },
+                                                                {
+                                                                    "key": "1",
+                                                                    "value": "0",
+                                                                    "caseSensitive": false
+                                                                },
+                                                                {
+                                                                    "key": "2",
+                                                                    "value": "0",
+                                                                    "caseSensitive": false
+                                                                }
+                                                            ]
+                                                        },
+                                                        "areaMapping": null
+                                                    }
+                                                ],
+                                                "outcomeDeclarations": [
+                                                    {
+                                                        "identifier": "SCORE",
+                                                        "cardinality": "single",
+                                                        "baseType": "float",
+                                                        "defaultValue": 0,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "FEEDBACK_CORRECT",
+                                                        "cardinality": "single",
+                                                        "baseType": "identifier",
+                                                        "defaultValue": false,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "FEEDBACK_INCORRECT",
+                                                        "cardinality": "single",
+                                                        "baseType": "identifier",
+                                                        "defaultValue": true,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "FEEDBACK_THRESHOLD",
+                                                        "cardinality": "single",
+                                                        "baseType": "float",
+                                                        "defaultValue": 0,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "RESPONSE_CORRECT",
+                                                        "cardinality": "single",
+                                                        "baseType": "boolean",
+                                                        "defaultValue": null,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "RESPONSE_INCORRECT",
+                                                        "cardinality": "single",
+                                                        "baseType": "boolean",
+                                                        "defaultValue": null,
+                                                        "interpretation": null
+                                                    }
+                                                ],
+                                                "feedback": null
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "outcomeDeclarations": null,
+                                "showEvaluation": null,
+                                "feedback": null
+                            }
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "4535351"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "2: Plaatjes, knoppen en voorwaarden ",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "4535352"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Filmpje: Images",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Filmpje: Images</p>\n<p><iframe allowfullscreen=\"allowfullscreen\" frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/XMr6Fg74fZY\" width=\"560\" class=\"video-item\"/></p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4535354"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Theorie: Images",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "link",
+                            "link": "https://microbit-micropython.readthedocs.io/en/latest/tutorials/images.html#",
+                            "title": "Theorie: Images",
+                            "description": "Lees de theorie over Images met de micro:bit. Tot aan DIY Images.",
+                            "comment": ""
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4535356"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Knoppen",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Maak een programma waarmee je kunt uitlezen hoe vaak <strong>button_a</strong> is ingedrukt. De opbouw van het programma is als volgt:</p>\n<ol>\n<li>Maak een variabele \"aantal\" en stel die op 0.</li>\n<li>Daarna maak je een <strong>while True</strong> met de volgende dingen:\n<ol>\n<li>Toon de afbeelding <strong>ARROW_W</strong>.</li>\n<li>Maak een if waarbij telkens de variabele aantal met 1 wordt opgehoogd als er op <strong>button_a</strong> wordt gedrukt. Zoek op in de documentatie met welke functie dat kan.</li>\n<li>Met een <strong>elif</strong> bepaal je dat het aantal keren dat er op <strong>button_a</strong> is gedrukt, kan worden uitgelezen door op <strong>button_b</strong> te drukken.</li>\n<li>Als er zowel op <strong>button_a</strong> als op <strong>button_b</strong> wordt gedrukt, wordt de variabele gereset naar 0 en komt er <strong>RESET</strong> op het display te staan.</li>\n</ol>\n</li>\n</ol>\n<p>Lever de code van je uitwerking in Natschool in als een tekstbestand met als naam <strong>buttons.py</strong>. Je kunt het tekstbestand maken door in de Micro:Bit editor te klikken op Save.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4535358"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Aan de slag",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Toon de HAPPY afbeelding op je microcontroller.</p>\n<p><img alt=\"HAPPY\" src=\"https://maken.wikiwijs.nl/userfiles/b/b8629f007f38a60e4f7979d61e0a0c5e31f07079.png\" class=\"height-345-pixels width-421-pixels\"/></p>\n<p> </p>\n<p>Lever de code van je uitwerking in als een tekstbestand met als naam <strong>happy.py </strong>in het OneNote kladblok. Je kunt het tekstbestand maken door in de Micro:Bit editor te klikken op Save.</p>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Zoek in de <a href=\"https://microbit-micropython.readthedocs.io/en/latest/\">documentatie</a> op welke ingebouwde afbeeldingen er zijn en probeer er een paar.</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/0/0ec75edb8324a0b35235f9da7b529548a460ecae.jpg\" class=\"height-370-pixels width-500-pixels\"/></p>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>De micro:bit heeft twee knoppen (buttons):</p>\n<p>button_a<br/>\nbutton_b</p>\n<p>Met de methode is_pressed() kun je controleren of die knop is ingedrukt of niet.</p>\n<p>button_a.is_pressed() kan True of False zijn.</p>\n<p>Met een <strong>conditional statement</strong> zoals <strong>if</strong> kunnen we controleren of er aan de voorwaarde is voldaan.</p>\n<p>Daarvoor wordt vaak een <strong>flowchart</strong> gebruikt.</p>\n<p> </p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4535362"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Flowcharts",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/a/a3baee3b0301bbacff48b49190f983abb2e429b8.jpg",
+                            "altText": "Flowchart",
+                            "alignment": "center",
+                            "scale": 0.8,
+                            "link": ""
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Een flowchart, is een schematische voorstelling van een proces. Het wordt over het algemeen gebruikt om een proces makkelijker te visualiseren, of om fouten in het proces te kunnen vinden.</p>\n<p><a href=\"https://en.wikipedia.org/wiki/Flowchart\">Flowcharts</a> worden heel vaak gebruikt bij het ontwikkelen van software. Wij gaan ook gebruik maken van flowcharts voor het ontwikkelen van onze programma's van de micro:bit.</p>\n<p>Bovenstaande flowchart is misschien al iets te moelijk om mee te beginnen. Daarom zullen we eerst een eenvoudigere flowchart maken. We maken een flowchart als we de stappen in beeld willen brengen om een probleem op te lossen. Zo'n opeenvolging van stappen noemen we een algoritme.</p>\n<p><strong>Neem het volgende voorbeeld</strong></p>\n<p>Een vriend die ver weg woont wil bij je langs komen. Hij komt met de trein naar het station dat bij jou in de buurt is. Nu zijn er verschillende manieren voor die vriend om vanaf het station bij jouw huis te komen. Ik noem er een paar:</p>\n<ol>\n<li><strong>Het taxi algoritme</strong>\n<ul>\n<li>zoek een taxi</li>\n<li>stap in de taxi</li>\n<li>geef de taxichauffeur het adres waar je naar toe moet</li>\n</ul>\n</li>\n<li><strong>Het bellen algoritme</strong>\n<ul>\n<li>als de trein aankomt bel dan mijn mobiel</li>\n<li>wacht op mij op de parkeerplaats bij het station</li>\n</ul>\n</li>\n<li><strong>Het bus algoritme</strong>\n<ul>\n<li>neem bus 12 naar de wijk Langdonk</li>\n<li>stap uit bij de halte Langdonk</li>\n<li>loop naar nummer 21</li>\n</ul>\n</li>\n</ol>\n<p>Met elk algoritme bereik je hetzelfde doel, maar je ziet dat je altijd op verschillende manieren het probleem op kunt lossen.</p>\n<p>Flowcharts hebben verschillende onderdelen en regels.</p>\n<p><strong>Regels</strong></p>\n<ul>\n<li>Elke flowchart heeft een naam.</li>\n<li>Er zijn geen losse onderdelen die rondzweven (behalve de naam). Alle componenten zijn verbonden door pijlen of lijnen.</li>\n<li>Er is \u00e9\u00e9n startpunt en \u00e9\u00e9n eindpunt.</li>\n<li>Een proces (rechthoek) heeft altijd \u00e9\u00e9n inkomende en \u00e9\u00e9n ujitgaande pijl.</li>\n<li>Een beslissing (diamant) heeft tenminste \u00e9\u00e9n inkomende en tenminste twee uitgaande pijlen. De uitgaande pijlen zijn gelabeld met de mogelijke antwoorden van de beslissing.</li>\n<li>Houd de flowchart zo kort mogelijk,</li>\n</ul>\n<p><strong>Onderdelen</strong></p>\n<ul>\n<li>Ovaal: begin (start) en einde (stop)</li>\n<li>Rechthoek: proces</li>\n<li>Parallellogram: invoer/uitvoer</li>\n<li>Diamant: beslissing</li>\n<li>Pijlen: tonen de richting van het proces</li>\n</ul>\n<p>Eerst teken je de flowchart met potlood en papier. Daarna kun je de flowchart prima tekenen met behulp van <a href=\"https://www.draw.io/\">draw.io</a>.</p>\n<p>Loops en if-statements komen in een diamant te staan. Vanuit de diamant komt er een True en een False pijl.</p>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p><strong>Voorbeeld van een flowchart</strong></p>\n<p>Neem het volgende proces. Je weet niet zeker of je een paraplu moet meenemen als je naar buiten gaat. Daarvoor moet je eerst even het huidige weer controleren. Als het droog blijft, kun je de paraplu thuis laten. Als het niet droog blijft, neem je een paraplu mee.</p>\n<p>Teken de flowchart met een potlood op een blanco vel A4. Zet je naam er bij en maak een foto van de flowchart met je telefoon.</p>\n<p> </p>\n<p><img alt=\"flowchart\" src=\"https://maken.wikiwijs.nl/userfiles/e/e3d8e817247de3e4c561468c9d1832a2e6cf5061.jpg\" class=\"height-440-pixels width-400-pixels\"/></p>\n<p> </p>\n<p>Daarna ga je naar www.draw.io en teken je dezelfde flowchart met draw.io. We gaan een hele les samen werken met het tekenen van flowcharts en de uitwerking ervan in draw.io.</p>\n<div class=\"text-align-center\">\n<figure class=\"image\"><img alt=\"Paraplu\" src=\"https://maken.wikiwijs.nl/userfiles/8/8ec787b04d4b413a4ca2b89dabcd6abae9165896.png\" class=\"height-531-pixels width-591-pixels\"/>\n<figcaption><strong>Moet ik mijn paraplu meenemen?</strong></figcaption>\n</figure>\n</div>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4535366"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Antwoorden",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "link",
+                            "link": "https://gist.github.com/ShawnHymel/689a6c59938dffeac0e9d42d7cd1d40a",
+                            "title": "Have the micro:bit show a happy face when A is pressed, a sad face when B is pressed, and a meh face when no buttons are pressed. ",
+                            "description": "Toon een happy face als knop A wordt ingedrukt, een sad face als knop B wordt ingedrukt en een meh face als er geen knop wordt ingedrukt.",
+                            "comment": ""
+                        },
+                        {
+                            "type": "link",
+                            "link": "https://gist.github.com/ShawnHymel/bf1104f133e4071cde23b6df1edad353",
+                            "title": "Just like the example code, but it shows a confused face when the buttons are pressed simultaneously ",
+                            "description": "Hetzelfde als de vorige, maar het toont een confused face als allebei de knoppen tegelijkertijd worden ingedrukt.",
+                            "comment": ""
+                        },
+                        {
+                            "type": "link",
+                            "link": "https://gist.github.com/ShawnHymel/715a5225674904088a0d12bee3cace5f",
+                            "title": "Shows a happy face by default but scrolls \"A\" when A is pressed and \"B\" when B is pressed ",
+                            "description": "Toont een happy face maar scollt een \"A\" als A wordt ingedrukt en een \"B\" als B wordt ingedrukt.",
+                            "comment": ""
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4535370"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Oefentoets",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "questionnaire",
+                            "reference": {
+                                "value": "4535371"
+                            },
+                            "assessmentTestItem": {
+                                "label": "Oefening",
+                                "type": "exercise",
+                                "header": {
+                                    "url": "https://maken.wikiwijs.nl/p/questionnaire/standalone/4535371",
+                                    "title": "Oefentoets na 2"
+                                },
+                                "introduction": {
+                                    "body": "<p>Enkele vragen om te controleren of je de stof begrijpt.</p>"
+                                },
+                                "countQuestions": 5,
+                                "sections": [
+                                    {
+                                        "type": "assessment",
+                                        "identifier": "SECTION_4535371",
+                                        "name": "MAIN_SECTION",
+                                        "select": null,
+                                        "shuffle": null,
+                                        "selection": null,
+                                        "assessmentItems": [
+                                            {
+                                                "identifier": "4535371_0",
+                                                "itemBody": null,
+                                                "questions": [
+                                                    {
+                                                        "type": "textEntryInteraction",
+                                                        "content": {
+                                                            "body": "<p>A <textentry identifier=\"TE_661fe68b570fa\"></textentry>is the smallest controllable element on a digital display device.</p>",
+                                                            "items": [
+                                                                {
+                                                                    "identifier": "TE_661fe68b570fa",
+                                                                    "responseIdentifier": "TE_661fe68b570fa_0",
+                                                                    "feedbackInline": null
+                                                                }
+                                                            ]
+                                                        },
+                                                        "label": "Vul in",
+                                                        "responseIdentifier": null,
+                                                        "feedback": null
+                                                    }
+                                                ],
+                                                "responseDeclarations": [
+                                                    {
+                                                        "identifier": "TE_661fe68b570fa_0",
+                                                        "cardinality": "record",
+                                                        "baseType": "identifier",
+                                                        "correctResponse": {
+                                                            "interpretation": null,
+                                                            "values": [
+                                                                {
+                                                                    "fieldIdentifier": null,
+                                                                    "value": "pixel"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "mapping": {
+                                                            "lowerBound": 0,
+                                                            "upperBound": 1,
+                                                            "default": 0,
+                                                            "mapEntries": []
+                                                        },
+                                                        "areaMapping": null
+                                                    }
+                                                ],
+                                                "outcomeDeclarations": [
+                                                    {
+                                                        "identifier": "SCORE",
+                                                        "cardinality": "single",
+                                                        "baseType": "float",
+                                                        "defaultValue": 0,
+                                                        "interpretation": null
+                                                    }
+                                                ],
+                                                "feedback": null
+                                            },
+                                            {
+                                                "identifier": "4535371_1",
+                                                "itemBody": null,
+                                                "questions": [
+                                                    {
+                                                        "type": "choiceInteraction",
+                                                        "label": "",
+                                                        "prompt": {
+                                                            "body": "<p>Hoeveel pixels heeft de micro:bit?</p>"
+                                                        },
+                                                        "shuffle": false,
+                                                        "maxChoices": 4,
+                                                        "minChoices": 1,
+                                                        "orientation": "vertical",
+                                                        "choices": [
+                                                            {
+                                                                "identifier": "0",
+                                                                "content": {
+                                                                    "body": "5"
+                                                                },
+                                                                "feedback": {
+                                                                    "outcomeIdentifier": "FEEDBACK",
+                                                                    "identifier": "0",
+                                                                    "showHide": true,
+                                                                    "title": null,
+                                                                    "content": null
+                                                                }
+                                                            },
+                                                            {
+                                                                "identifier": "1",
+                                                                "content": {
+                                                                    "body": "10"
+                                                                },
+                                                                "feedback": {
+                                                                    "outcomeIdentifier": "FEEDBACK",
+                                                                    "identifier": "1",
+                                                                    "showHide": true,
+                                                                    "title": null,
+                                                                    "content": null
+                                                                }
+                                                            },
+                                                            {
+                                                                "identifier": "2",
+                                                                "content": {
+                                                                    "body": "15"
+                                                                },
+                                                                "feedback": {
+                                                                    "outcomeIdentifier": "FEEDBACK",
+                                                                    "identifier": "2",
+                                                                    "showHide": true,
+                                                                    "title": null,
+                                                                    "content": null
+                                                                }
+                                                            },
+                                                            {
+                                                                "identifier": "3",
+                                                                "content": {
+                                                                    "body": "25"
+                                                                },
+                                                                "feedback": {
+                                                                    "outcomeIdentifier": "FEEDBACK",
+                                                                    "identifier": "3",
+                                                                    "showHide": true,
+                                                                    "title": null,
+                                                                    "content": null
+                                                                }
+                                                            }
+                                                        ],
+                                                        "responseIdentifier": "4535371_1_1",
+                                                        "feedback": null
+                                                    }
+                                                ],
+                                                "responseDeclarations": [
+                                                    {
+                                                        "identifier": "4535371_1_1",
+                                                        "cardinality": "ordered",
+                                                        "baseType": "identifier",
+                                                        "correctResponse": {
+                                                            "interpretation": null,
+                                                            "values": [
+                                                                {
+                                                                    "fieldIdentifier": null,
+                                                                    "value": "3"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "mapping": {
+                                                            "lowerBound": 0,
+                                                            "upperBound": 0,
+                                                            "default": 0,
+                                                            "mapEntries": [
+                                                                {
+                                                                    "key": "0",
+                                                                    "value": "0",
+                                                                    "caseSensitive": false
+                                                                },
+                                                                {
+                                                                    "key": "1",
+                                                                    "value": "0",
+                                                                    "caseSensitive": false
+                                                                },
+                                                                {
+                                                                    "key": "2",
+                                                                    "value": "0",
+                                                                    "caseSensitive": false
+                                                                },
+                                                                {
+                                                                    "key": "3",
+                                                                    "value": "0",
+                                                                    "caseSensitive": false
+                                                                }
+                                                            ]
+                                                        },
+                                                        "areaMapping": null
+                                                    }
+                                                ],
+                                                "outcomeDeclarations": [
+                                                    {
+                                                        "identifier": "SCORE",
+                                                        "cardinality": "single",
+                                                        "baseType": "float",
+                                                        "defaultValue": 0,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "FEEDBACK_CORRECT",
+                                                        "cardinality": "single",
+                                                        "baseType": "identifier",
+                                                        "defaultValue": false,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "FEEDBACK_INCORRECT",
+                                                        "cardinality": "single",
+                                                        "baseType": "identifier",
+                                                        "defaultValue": true,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "FEEDBACK_THRESHOLD",
+                                                        "cardinality": "single",
+                                                        "baseType": "float",
+                                                        "defaultValue": 0,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "RESPONSE_CORRECT",
+                                                        "cardinality": "single",
+                                                        "baseType": "boolean",
+                                                        "defaultValue": null,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "RESPONSE_INCORRECT",
+                                                        "cardinality": "single",
+                                                        "baseType": "boolean",
+                                                        "defaultValue": null,
+                                                        "interpretation": null
+                                                    }
+                                                ],
+                                                "feedback": null
+                                            },
+                                            {
+                                                "identifier": "4535371_2",
+                                                "itemBody": null,
+                                                "questions": [
+                                                    {
+                                                        "type": "textEntryInteraction",
+                                                        "content": {
+                                                            "body": "<p>while True:<br />\ndisplay.show(<textentry identifier=\"TE_661fe68b57847\"></textentry>.HAPPY)<br /></p>",
+                                                            "items": [
+                                                                {
+                                                                    "identifier": "TE_661fe68b57847",
+                                                                    "responseIdentifier": "TE_661fe68b57847_0",
+                                                                    "feedbackInline": null
+                                                                }
+                                                            ]
+                                                        },
+                                                        "label": "Maak de code af.",
+                                                        "responseIdentifier": null,
+                                                        "feedback": null
+                                                    }
+                                                ],
+                                                "responseDeclarations": [
+                                                    {
+                                                        "identifier": "TE_661fe68b57847_0",
+                                                        "cardinality": "record",
+                                                        "baseType": "identifier",
+                                                        "correctResponse": {
+                                                            "interpretation": null,
+                                                            "values": [
+                                                                {
+                                                                    "fieldIdentifier": null,
+                                                                    "value": "Image"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "mapping": {
+                                                            "lowerBound": 0,
+                                                            "upperBound": 1,
+                                                            "default": 0,
+                                                            "mapEntries": []
+                                                        },
+                                                        "areaMapping": null
+                                                    }
+                                                ],
+                                                "outcomeDeclarations": [
+                                                    {
+                                                        "identifier": "SCORE",
+                                                        "cardinality": "single",
+                                                        "baseType": "float",
+                                                        "defaultValue": 0,
+                                                        "interpretation": null
+                                                    }
+                                                ],
+                                                "feedback": null
+                                            },
+                                            {
+                                                "identifier": "4535371_3",
+                                                "itemBody": null,
+                                                "questions": [
+                                                    {
+                                                        "type": "textEntryInteraction",
+                                                        "content": {
+                                                            "body": "<p><textentry identifier=\"TE_661fe68b57a8b\"></textentry>.show(Image.HAPPY)</p>",
+                                                            "items": [
+                                                                {
+                                                                    "identifier": "TE_661fe68b57a8b",
+                                                                    "responseIdentifier": "TE_661fe68b57a8b_0",
+                                                                    "feedbackInline": null
+                                                                }
+                                                            ]
+                                                        },
+                                                        "label": "Maak de code af.",
+                                                        "responseIdentifier": null,
+                                                        "feedback": null
+                                                    }
+                                                ],
+                                                "responseDeclarations": [
+                                                    {
+                                                        "identifier": "TE_661fe68b57a8b_0",
+                                                        "cardinality": "record",
+                                                        "baseType": "identifier",
+                                                        "correctResponse": {
+                                                            "interpretation": null,
+                                                            "values": [
+                                                                {
+                                                                    "fieldIdentifier": null,
+                                                                    "value": "display"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "mapping": {
+                                                            "lowerBound": 0,
+                                                            "upperBound": 1,
+                                                            "default": 0,
+                                                            "mapEntries": []
+                                                        },
+                                                        "areaMapping": null
+                                                    }
+                                                ],
+                                                "outcomeDeclarations": [
+                                                    {
+                                                        "identifier": "SCORE",
+                                                        "cardinality": "single",
+                                                        "baseType": "float",
+                                                        "defaultValue": 0,
+                                                        "interpretation": null
+                                                    }
+                                                ],
+                                                "feedback": null
+                                            },
+                                            {
+                                                "identifier": "4535371_4",
+                                                "itemBody": null,
+                                                "questions": [
+                                                    {
+                                                        "type": "textEntryInteraction",
+                                                        "content": {
+                                                            "body": "<p><textentry identifier=\"TE_661fe68b57cab\"></textentry>en<textentry identifier=\"TE_661fe68b57cb1\"></textentry></p>",
+                                                            "items": [
+                                                                {
+                                                                    "identifier": "TE_661fe68b57cab",
+                                                                    "responseIdentifier": "TE_661fe68b57cab_0",
+                                                                    "feedbackInline": null
+                                                                },
+                                                                {
+                                                                    "identifier": "TE_661fe68b57cb1",
+                                                                    "responseIdentifier": "TE_661fe68b57cb1_1",
+                                                                    "feedbackInline": null
+                                                                }
+                                                            ]
+                                                        },
+                                                        "label": "Hoe heten de twee knoppen op de micro:bit in de code?",
+                                                        "responseIdentifier": null,
+                                                        "feedback": null
+                                                    }
+                                                ],
+                                                "responseDeclarations": [
+                                                    {
+                                                        "identifier": "TE_661fe68b57cab_0",
+                                                        "cardinality": "record",
+                                                        "baseType": "identifier",
+                                                        "correctResponse": {
+                                                            "interpretation": null,
+                                                            "values": [
+                                                                {
+                                                                    "fieldIdentifier": null,
+                                                                    "value": "button_a"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "mapping": {
+                                                            "lowerBound": 0,
+                                                            "upperBound": 0.5,
+                                                            "default": 0,
+                                                            "mapEntries": []
+                                                        },
+                                                        "areaMapping": null
+                                                    },
+                                                    {
+                                                        "identifier": "TE_661fe68b57cb1_1",
+                                                        "cardinality": "record",
+                                                        "baseType": "identifier",
+                                                        "correctResponse": {
+                                                            "interpretation": null,
+                                                            "values": [
+                                                                {
+                                                                    "fieldIdentifier": null,
+                                                                    "value": "button_b"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "mapping": {
+                                                            "lowerBound": 0,
+                                                            "upperBound": 0.5,
+                                                            "default": 0,
+                                                            "mapEntries": []
+                                                        },
+                                                        "areaMapping": null
+                                                    }
+                                                ],
+                                                "outcomeDeclarations": [
+                                                    {
+                                                        "identifier": "SCORE",
+                                                        "cardinality": "single",
+                                                        "baseType": "float",
+                                                        "defaultValue": 0,
+                                                        "interpretation": null
+                                                    }
+                                                ],
+                                                "feedback": null
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "outcomeDeclarations": null,
+                                "showEvaluation": null,
+                                "feedback": null
+                            }
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4535372"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "In te leveren opdrachten",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Lever de code van je uitwerking van onderstaande opdracht in als een tekstbestand met als naam <strong>opdracht2_1.py</strong> in het OneNote kladblok. Je kunt het tekstbestand maken door in de Micro:Bit editor te klikken op Save.. Je mag in tweetallen samenwerken maar iedereen levert zijn eigen werk in.</p>\n<p><strong>Opdracht 2.1</strong><br/>\nMaak een programma waarbij:</p>\n<ul>\n<li>een <strong>spook</strong> getoond wordt als je op knop A drukt</li>\n<li>een <strong>schedel</strong> getoond wordt als je op knop B drukt</li>\n<li>een <strong>zwaard</strong> getoond wordt als er op geen enkele knop gedrukt wordt</li>\n</ul>\n<p>Maak eerst een flowchart met potlood en papier. Teken de flowchart op een blanco vel A4. Op het vel staan ook je naam en \"Opdracht 2.1\". Als de flowchart klaar is, maak je er een foto van met je telefoon en je levert de jpg van die foto op je telefoon in. De naam van die foto is <strong>voornaam_21.jpg</strong>.</p>\n<p>Daarna ga je naar <a href=\"http://www.draw.io\" target=\"_blank\">www.draw.io</a> en dan teken je met dat programma de flowchart. Exporteer de flowchart naar een png en noem de export <strong>voornaam_21.png</strong>.</p>\n<p>Lever <strong>voornaam_21.jpg</strong> en <strong>voornaam_21.png</strong> in Natschool in..</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4535374"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Maak je eigen afbeeldingen",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Je kunt je eigen images maken! Het display heeft 5x5=25 LEDs en elke LED kun je een waarde geven van 0 tot en met 9. Met de waarde 0 staat de LED helemaal uit en met de waarde 9 brandt die LED op zijn hardst. Met de waardes van 1 tot en met 8 kun je ze dus laten branden van zacht naar hard.</p>\n<p>Als je dat weet kun je bijvoorbeeld een bootje tekenen op de volgende manier:</p>\n<pre>\nfrom microbit import *\n\nboat = Image(\"05050:\"\n             \"05050:\"\n             \"05050:\"\n             \"99999:\"\n             \"09990\")\n\ndisplay.show(boat)</pre>\n<p>Zo maak je dus je eigen afbeelding. Elke regel bestaat uit vijf cijfers van 0 tot en met 9 met daarachter een dubbele punt. En die regel staat weer tussen dubbele quotes. Elk cijfer geeft de felheid aan waarmee de LED moet branden. Bij 0 staat die LED uit en hoe hoger het cijfer, hoe harder de LED zal branden. Het hoeft niet met vijf regels. Het mag ook zo:</p>\n<pre>\nboat = Image(\"05050:05050:05050:99999:09990\")</pre>"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4535376"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Animaties",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>We kunnen met de micro:bit ook animaties maken door een aantal afbeeldingen achter elkaar af te spelen. Er zitten al enkele lijsten met dezelfde afbeeldingen ingebouwd, nameleijk</p>\n<div class=\"code\">Image.ALL_CLOCKS</div>\nen\n<div class=\"code\">Image.ALL_ARROWS</div>\n.\n<pre>&#13;\nfrom microbit import *&#13;\n&#13;\ndisplay.show(Image.ALL_CLOCKS, loop=True, delay=100)</pre>\n<p>Net zoals bi jeen enkele afbeelding gebruiken we</p>\n<div class=\"code\">display.show</div>\nom de afbeeldingen te tonen op het display. We geven de opdracht dat MicroPython\n<div class=\"code\">Image.ALL_CLOCKS</div>\nmoet gebruiken en de micro:bit begrijpt dat hij die afbeeldingen \u00e9\u00e9n voor \u00e9\u00e9n moet afspelen. We geven ook de opdracht dat het afspelen eindeloos moet doorgaan met \n<div class=\"code\">loop=True</div>\n. Tenslotte willen we een korte pauze tussen de verschillende afbeeldingen. Met\n<div class=\"code\">delay=100</div>\nwordt er 100 ms gewacht.\n<p>Hetzelfde kun je proberen met  </p>\n<div class=\"code\">Image.ALL_ARROWS</div>\n. Met\n<div class=\"code\">loop=False</div>\nzet je de eindeloze herhaling uit en met\n<div class=\"code\">delay</div>\nkun je de snelheid van de animatie aanpassen.\n<p>Je kunt dus je eigen plaatjes maken, die in een array zetten en dat array tonen op het display. Hieronder zie je hoe je een bootje kunt laten zinken.</p>\n<pre>&#13;\nfrom microbit import *&#13;\n&#13;\nboat1 = Image(\"05050:\"&#13;\n              \"05050:\"&#13;\n              \"05050:\"&#13;\n              \"99999:\"&#13;\n              \"09990\")&#13;\n&#13;\nboat2 = Image(\"00000:\"&#13;\n              \"05050:\"&#13;\n              \"05050:\"&#13;\n              \"05050:\"&#13;\n              \"99999\")&#13;\n&#13;\nboat3 = Image(\"00000:\"&#13;\n              \"00000:\"&#13;\n              \"05050:\"&#13;\n              \"05050:\"&#13;\n              \"05050\")&#13;\n&#13;\nboat4 = Image(\"00000:\"&#13;\n              \"00000:\"&#13;\n              \"00000:\"&#13;\n              \"05050:\"&#13;\n              \"05050\")&#13;\n&#13;\nboat5 = Image(\"00000:\"&#13;\n              \"00000:\"&#13;\n              \"00000:\"&#13;\n              \"00000:\"&#13;\n              \"05050\")&#13;\n&#13;\nboat6 = Image(\"00000:\"&#13;\n              \"00000:\"&#13;\n              \"00000:\"&#13;\n              \"00000:\"&#13;\n              \"00000\")&#13;\n&#13;\nall_boats = [boat1, boat2, boat3, boat4, boat5, boat6]&#13;\ndisplay.show(all_boats, delay=200)</pre>"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Maak een eigen animatie en lever de code in Natschool in als een tekstbestand met als naam <strong>animate.py.</strong>.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4535379"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "In te leveren opdrachten",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><strong>1)</strong><br/>\nMaak een animatie van een ondergaande zon. De zon zakt schuin naar beneden en gaat steeds minder fel stralen. Let ook op de snelheid waarmee de animatie wordt afgespeeld. Plaats de code in een txt bestand en lever dat in Natschool als een tekstbestand in met als naam <strong>sundown.py</strong>..</p>\n<p><strong>2)</strong><br/>\nMaak een eigen animatie en lever die als een tekstbestand in Natschool in met als naam <strong>mijn_animatie.py</strong>...</p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "4535381"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "3: Invoer/Uitvoer",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/b/bad4c90999330d1875dda662b0e7f03c6a0194c0.png",
+                    "altText": "input output",
+                    "alignment": "left",
+                    "scale": 0.3,
+                    "link": "https://microbit-micropython.readthedocs.io/en/latest/tutorials/io.html"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Onder aan de micro:bit zie je een gouden strip met vijf gaten en daaronder 0, 1, 2, 3V en GND. Dat zijn pins die je kunt gebruiken om iets in te voeren. De rechtse pin met GND (ground/massa) houd je ingedrukt of sluit je aan. Als je dan ook \u00e9\u00e9n van de andere aansluit of aanraakt, kun je daar code op laten reageren. De eerste drie pins zijn genummerd 0, 1 en 2.</p>\n<p>Met de volgende code kun je bijvoorbeeld een HAPPY plaatje laten zien <strong>als je GND vasthoudt en pin 0 aanraakt</strong> aan de boven- of onderkant. Probeer onderstaande code maar eens. Als je niets doet, wordt er een SAD afbeelding getoond. Probeer eens!</p>\n<pre>\nfrom microbit import *\n\nwhile True:\n    if pin0.is_touched():\n        display.show(Image.HAPPY)\n    else:\n        display.show(Image.SAD)</pre>\n<p> </p>\n"
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "4535384"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Theorie: Input/Output",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Lees de <a href=\"https://microbit-micropython.readthedocs.io/en/latest/tutorials/io.html#\">theorie</a> van de pins. We doen nog even niets met Bleeps and Bloops.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4535386"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Aan de slag",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Maak een programma waarmee je met de drie pins drie verschillende afbeeldingen worden getoond. Als er geen enkele pin wordt aangeraakt, wordt er weer een andere afbeelding getoond.</p>\n<p>Lever de code van je uitwerking in als een tekstbestand met als naam <strong>input_output.py </strong>in het OneNote kladblok. Je kunt het tekstbestand maken door in de Micro:Bit editor te klikken op Save.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "4535388"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "4: Muziek",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/6/6fbb7f7522fc7b0e55d6e75efd4b21346487b5fd.png",
+                    "altText": "Met pin 0 en de GND kun je muziek afspelen.",
+                    "alignment": "center",
+                    "scale": 1,
+                    "link": ""
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Probeer onderstaande code van Vader Jacob.</p>\n<pre>\nimport music\n\ntune = [\"C4:4\", \"D4:4\", \"E4:4\", \"C4:4\", \"C4:4\", \"D4:4\", \"E4:4\", \"C4:4\",\n        \"E4:4\", \"F4:4\", \"G4:8\", \"E4:4\", \"F4:4\", \"G4:8\"]\nmusic.play(tune)</pre>\n<p>Als je nu een luidspreker aan zou sluiten op pin 0 en op GND, dan zou je dit kunnen afspelen. Je kunt het testen met een eigen koptelefoon.</p>\n<p>Lever de code van je uitwerking in als een tekstbestand met als naam <strong>vader_jacob.py</strong> in het OneNote kladblok. Je kunt het tekstbestand maken door in de Micro:Bit editor te klikken op Save.</p>\n"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Lees de <a href=\"https://microbit-micropython.readthedocs.io/en/latest/tutorials/music.html\">theorie</a> over wat je met muziek en de micro:bit kunt doen.</p>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "4535392"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "5: Willekeur",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Lees de <a href=\"https://microbit-micropython.readthedocs.io/en/latest/tutorials/random.html#\">theorie</a> over random tot aan de Seeds of Chaos.</p>\n"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Met de functie random kun je een <a href=\"http://microbit-micropython.readthedocs.io/en/latest/tutorials/random.html#random-numbers\" target=\"_blank\">willekeurig getal</a> maken.</p>\n<pre>\nfrom microbit import *\nimport random\n\ndisplay.show(str(random.randint(1, 6)))</pre>\n<p>Hiervoor moet je wel de klasse random importeren. Dat doe je op de tweede regel. Op de eerste regel importeer je <strong>microbit</strong> zoals je gewend bent. Vervolgens importeer je op de tweede regel de klasse <strong>random</strong>.</p>\n<p>De functie <strong>show</strong> aangeroepen worden om iets te laten zien op het object <strong>display</strong>. Nu is het zo dat dit object enkel maar <strong>strings</strong> (tekst) kan laten zien en geen <strong>integers</strong> (gehele getallen). De uitkomst moet dan ook worden omgezet van een <strong>integer</strong> (geheel getal) naar een <strong>string</strong> (tekst) en dat doe je met <strong>str</strong>.</p>\n<p>De functie die gebruikt wordt voor het willekeurig getal, is <strong>randint()</strong> en je geeft het kleinste getal en het grootste getal op, dus in het voorbeeld van een dobbelsteen is dat <strong>random.randint(1,6)</strong>. Van de klasse <strong>random</strong> gebruik je de functie <strong>randint()</strong> en die functie heeft twee <strong>parameters</strong>, een minimum en een maximum.</p>\n<p>Probeer deze code!</p>\n"
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "4535395"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Willekeurige string",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>MicroPython heeft een module Random waarmee je een willekeurige string kunt laten tonen uit een reeks van strings in een array. Bekijk het volgende voorbeeld.</p>\n<pre>\nfrom microbit import *\nimport random\n\nnames = [\"Mary\", \"Yolanda\", \"Damien\", \"Alia\", \"Kushal\", \"Mei Xiu\", \"Zoltan\" ]\n\ndisplay.scroll(random.choice(names))</pre>\n<p>Je ziet dat op de tweede regel de module random apart wordt ge\u00efmporteerd. Daarna volgt er een rijtje met namen.</p>\n<pre>\nnames = [\"Mary\", \"Yolanda\", \"Damien\", \"Alia\", \"Kushal\", \"Mei Xiu\", \"Zoltan\" ]</pre>\n<p>Zo'n rijtje met gegevens noemen we een <strong>array</strong>. En een array heeft een naam, in dit geval <strong>names</strong>. De namen in het array hebben een index waarmee je ze kunt vinden. Het eerste item in het array heeft als index 0, het tweede 1, het derde 2, enzovoorts. De index begint dus met 0.</p>\n<p>Van het object <strong>display</strong> gebruik je de methode <strong>scroll</strong>. Vervolgens toon je van het array de naam met een willekeurige index.</p>\n<p> </p>\n<p>Lever de code van je uitwerking in als een tekstbestand met als naam <strong>random_naam.py </strong>in het OneNote kladblok. Je kunt het tekstbestand maken door in de Micro:Bit editor te klikken op Save.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4535398"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Nog meer willekeur",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>In een array kun je elementen stoppen die van een verschillend type zijn.</p>\n<pre>\nmixed_up_list = [\"hello!\", 1.234, Image.HAPPY]</pre>\n<p>Het array met als naam <strong>mixed_up_list</strong> heeft drie elementen. Het eerste is een string \"hello\", het tweede is een float (kommagetal) 1.234 en het derde is een afbeelding. Die kun je gewoon willekeurig tonen.</p>\n<pre>\nfrom microbit import *\n\ndisplay.show(Image.ALL_CLOCKS, loop=True, delay=100)</pre>"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4535400"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Commentaar in de code",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Het is gebruikelijk boven in je code de naam van de maker te zetten. Je plaatst een # voor een regel zodat de regel niet als code becshouwqd wordt maar als informatie over de code.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4535402"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Aan de slag",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<h2><strong>De Postcodeloterij</strong></h2>\n<p>Bij de Postcode Loterij wint er altijd een postcode.  Het numerieke gedeelte van de Nederlandse postcode kan een getal van 1000 tot en met 9999 zijn. Maak een programma voor de micro:bit waarbij een postcodegebied geloot wordt.</p>\n<p>Lever de code van je uitwerking in als een tekstbestand met als naam <strong>pstcodeloterij.py</strong> in het OneNote kladblok. Je kunt het tekstbestand maken door in de Micro:Bit editor te klikken op Save.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4535404"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "In te leveren opdrachten",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<h3><strong>Liefdesmeter</strong></h3>\n<p>Maak twee arrays met namen van klasgenoten. In het ene array zitten vijf jongens en in het andere array zitten vijf meisjes. Als je op de linkerknop drukt, wordt er een willekeurige naam van een jongen getoond. Als je op de rechterknop drukt, komt er een willekeurige naam van een meisje door het beeld.</p>\n<p><strong>Opdracht 5.1</strong><br/>\nLever het tekstbestand van deze opgave in met itslearning. Dus niet het hex bestand, maar het bestand dat je op internet hebt gemaakt voor je de download hebt gedaan. Je mag samenwerken, maar iedereen levert zijn eigen bestand in. Je naam staat als commentaar in de code.</p>\n<p>Lever de code van je uitwerking in als een tekstbestand met als naam <strong>opdracht5_1.py</strong> in het OneNote kladblok. Je kunt het tekstbestand maken door in de Micro:Bit editor te klikken op Save.</p>\n<p><strong>Opdracht 5.2</strong><br/>\n<img alt=\"dobbelsteen\" src=\"https://maken.wikiwijs.nl/userfiles/8/818035d4b41c8fac9307d0bd5d9baf5b1c9335bd.png\" class=\"height-110-pixels width-228-pixels float-right\"/>Maak nu een dobbelsteen met je eigen afbeeldingen op de volgende manier:</p>\n<ol>\n<li>Maak een lijst met als naam \"<strong>dobbelsteen</strong>\".</li>\n<li>Maak nu zes eigen afbeeldingen zoals ze ook op een echte dobbelsteen staan. Voor de zes branden bijvoorbeeld de eerste en de laatste pixel van de eerste rij, de eerste en de laatste pixel van de derde rij en de eerste en de laatste pixel van de onderste rij.<br/>\nDit zou dus de zes zijn:<br/>\nImage(\"90009:\"<br/>\n             \"00000:\"<br/>\n             \"90009:\"<br/>\n             \"00000:\"<br/>\n             \"90009\")<br/>\nDe andere maak je zelf.</li>\n<li>Het programma begint met het tonen van de afbeelding <strong>HAPPY</strong>.</li>\n<li>In de <strong>while True</strong> meet je of de gesture '<strong>shake</strong>' is.</li>\n<li>Daarna gebruik je deze twee regels:<br/>\n<strong>display.show(dice, loop=True, wait=False, delay=100)<br/>\nsleep(4000)</strong></li>\n<li>Op de volgende regel wordt dan een willekeurige afbeelding getoond.</li>\n<li>Het programma wordt afgesloten met een <strong>sleep(10)</strong>.</li>\n</ol>\n<p>Lever de code van je uitwerking in als een tekstbestand met als naam <strong>opdracht5_2.py</strong> in het OneNote kladblok. Je kunt het tekstbestand maken door in de Micro:Bit editor te klikken op Save.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "4535406"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "5: Beweging",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>De micro:bit heeft een accelerometer. Dat is een versnellingsmeter waarmee je beweging kunt detecteren. In verschillende gsm's, smartphones en sommige iPods zit een versnellingsmeter die wordt gebruikt om te registreren wanneer de gebruiker ermee schudt, zodat bijvoorbeeld de afspeellijst wordt geshuffeld. Ook in de Wii remote en de PlayStation 3 controller zit een versnellingsmeter om bewegingen van de gebruiker waar te nemen.</p>\n<p>De accelerometer meet langs drie assen:</p>\n<ul>\n<li>X - beweging van links naar rechts</li>\n<li>Y - beweging voorwaarts en achterwaarts</li>\n<li>Z - beweging op en neer</li>\n</ul>\n<p>Voor elke as is er een methode om de accelerometer uit te lezen. De waarde 0 is de basiswaarde.</p>\n<p>Zet onderstaand script op de micro:bit en probeer het uit. Als de micro:bit precies waterpas wordt gehouden, zie je drie puntjes (een streepje) in het midden van het display. Beweeg de accelerometer van links naar rechts en andersom en je ziet dat er een L en een R tevoorschijn komen. Probeer deze code.</p>\n<pre>\nfrom microbit import *\n\nwhile True:\n    reading = accelerometer.get_x()\n    if reading &gt; 20:\n        display.show(\"R\")\n    elif reading &lt; -20:\n        display.show(\"L\")\n    else:\n        display.show(\"-\")</pre>\n<p>De y en z as kun je op dezelfde manier uitlezen.Het apparaat moet constant die waardes uitlezen en daarom wordt er een eindeloze lus gebruikt. De waarde van een as wordt in een variabele gezet. In bovenstaand voorbeeld stop je de waarde van de x as dus in de variabele reading.</p>\n<p>Op deze manier kan je telefoon bijvoorbeeld bepalen hoe een afbeelding getoond moet worden, rechtop met de korte zijdes boven en onder of met de lange zijdes boven en onder.</p>\n"
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "4535408"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Aan de slag",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Lees de x uit van de accelerometer en zorg dat die wordt getoond wordt met display.scroll. Let op: het uitlezen van de x geeft een getal terug en je wilt een string laten zien op het display. De variabele naam die je gebruikt is x_acc.</p>\n<p>Lever de code van je uitwerking in Natschool in als een tekstbestand met als naam <strong>accelerometer.py</strong>. Je kunt het tekstbestand maken door in de Micro:Bit editor te klikken op Save.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "4535410"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "6: Gebaren",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Met de accelerometer kun je detecteren of de micro:bit bewogen wordt en op welke manier. MicroPython kan de volgende gestures detecteren:</p>\n<div class=\"code\">up</div>\n,\n<div class=\"code\">down</div>\n,\n<div class=\"code\">left</div>\n,\n<div class=\"code\">right</div>\n,\n<div class=\"code\">face up</div>\n,\n<div class=\"code\">face down</div>\n,\n<div class=\"code\">freefall</div>\n,\n<div class=\"code\">3g</div>\n,\n<div class=\"code\">6g</div>\n,\n<div class=\"code\">8g</div>\n,\n<div class=\"code\">shake</div>\n. Gestures worden weergegeven als strings.\n<p>Om het huidige gesture uit te lezen, gebruik je de volgende methode:</p>\n<div class=\"code\">accelerometer.current_gesture</div>\n<p>Probeer het volgende voorbeeld te begrijpen. Zet het op je micro:bit.</p>\n<pre>&#13;\nfrom microbit import *&#13;\n&#13;\nwhile True:&#13;\n    gesture = accelerometer.current_gesture()&#13;\n    if gesture == \"face up\":&#13;\n        display.show(Image.HAPPY)&#13;\n    else:&#13;\n        display.show(Image.ANGRY)</pre>\n<p>We gebruiken weer een while loop om constant te meten. In de loop gebruiken we een variabele <strong>gesture</strong> en daar stoppen we het huidige gesture in. Als de gesture gelijk is aan \"face up\" wordt de afbeelding HAPPY getoond en anders de afbeelding ANGRY.</p>\n<p>Let op het dubbele is gelijk teken om te bepalen of de waarde van de variabele gelijk is aan iets!</p>\n"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Neem de <a href=\"https://microbit-micropython.readthedocs.io/en/latest/tutorials/gestures.html\">theorie</a> door.</p>\n"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p><strong>Magic-8</strong></p>\n<p>Probeer de code. Zet het op je micro:bit.</p>\n<pre>\nfrom microbit import *\nimport random\n\nanswers = [\n    \"It is certain\",\n    \"It is decidedly so\",\n    \"Without a doubt\",\n    \"Yes, definitely\",\n    \"You may rely on it\",\n    \"As I see it, yes\",\n    \"Most likely\",\n    \"Outlook good\",\n    \"Yes\",\n    \"Signs point to yes\",\n    \"Reply hazy try again\",\n    \"Ask again later\",\n    \"Better not tell you now\",\n    \"Cannot predict now\",\n    \"Concentrate and ask again\",\n    \"Don't count on it\"\n    \"My reply is no\",\n    \"My sources say no\",\n    \"Outlook not so good\",\n    \"Very doubtful\",\n]\n\nwhile True:\n    display.show(\"8\")\n    if accelerometer.was_gesture(\"shake\"):\n        display.clear()\n        sleep(1000)\n        display.scroll(random.choice(answers))</pre>\n<p>Er wordt een <strong>array</strong> met antwoorden ingelezen. De naam van het array is <strong>answers</strong>. Pas bij de while begint het eigenlijke programma. Standaard wordt er een 8 getoond. Als er geschud wordt met de micro:bit wordt eerst het scherm leeggemaakt, dan 1000ms gewacht en tenslotte wordt er een random antwoord getoond.</p>\n"
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "4535414"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "In te leveren opdrachten",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><strong>Opdracht 1:</strong></p>\n<p>Maak een dobbelsteen. Telkens als je schudt met de micro:bit komt er een willekeurig getal tussen de 1 en de 6 op het display.</p>\n<p>Lever de code van je uitwerking in als een tekstbestand met als naam <strong>opdracht6_1.py</strong> in het OneNote kladblok. Je kunt het tekstbestand maken door in de Micro:Bit editor te klikken op Save.</p>\n<p><strong>Opdracht 2:</strong></p>\n<p>Maak het spel Rock, Paper, Scissors na. Je schudt met de micro:bit en \u00e9\u00e9n van de drie afbeeldingen komt tevoorschijn.</p>\n<p>Lever de code van je uitwerking in als een tekstbestand met als naam <strong>opdracht6_2.py</strong> in het OneNote kladblok. Je kunt het tekstbestand maken door in de Micro:Bit editor te klikken op Save.</p>\n<p>Deze twee opdrachten lever je in op itslearning bij opdracht 6.</p>\n<p>Je levert de tekstcode in. Dus de code in een txt bestand. G\u00e9\u00e9n Word bestand of hex bestand.</p>\n<p><strong>Opdracht 3:</strong><br/>\nMaak een stappenteller. Maak gebruik van een variabele die begint met 0 stappen. Telkens als er een \"shake\" plaatsvindt, wordt de variabele met 1 opgehoogd.<br/>\nWerk in groepjes van twee of drie. Ga als volgt te werk:<br/>\n1) Praat eerst in het algemeen in het groepje hoe je denkt dat je dit kunt maken. Maak daar een tekening of een schets van zonder echte code te gebruiken.<br/>\n2) Maak samen \u00e9\u00e9n flowchart met potlood en papier op een blanco vel. Maak met je telefoon een foto van de flowchart en lever ook de flowchart in als jpg.<br/>\n3) Iedereen maakt de code op zijn eigen micro:bit en levert die in als tekstbestand met als naam <strong>opdracht6_3.py</strong>.</p>\n<p><iframe allowfullscreen=\"allowfullscreen\" frameborder=\"0\" height=\"315\" kwframeid=\"2\" src=\"https://www.youtube.com/embed/4-LGvUhVQB0\" width=\"560\" class=\"video-item\"/></p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "4535416"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Herhalingsopdrachten",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "4535417"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Toon een letter",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Toon de eerste letter van je voornaam op het display.</p>\n<p>Lever de code van je uitwerking in als een tekstbestand met als naam <strong>herhalingsopdracht_1.py</strong> in het OneNote kladblok. Je kunt het tekstbestand maken door in de Micro:Bit editor te klikken op Save.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4535419"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Toon een naam",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Toon je voornaam op het display. De letters komen achtereenvolgens op het display zonder dat ze scrollen.</p>\n<p>Lever de code van je uitwerking in als een tekstbestand met als naam <strong>herhalingsopdracht_2.py</strong> in het OneNote kladblok. Je kunt het tekstbestand maken door in de Micro:Bit editor te klikken op Save.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4535421"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Laat een woord \u00e9\u00e9n keer scrollen",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Laat je voornaam \u00e9\u00e9n keer over het scherm scrollen.</p>\n<p>Lever de code van je uitwerking in als een tekstbestand met als naam <strong>herhalingsopdracht_3.py</strong> in het OneNote kladblok. Je kunt het tekstbestand maken door in de Micro:Bit editor te klikken op Save.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4535423"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Zorg dat een woord oneindig blijft scrollen",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Maak je voornaam in hoofdletters en zorg dat die naam voortdurend blijft scrollen.</p>\n<p>Lever de code van je uitwerking in als een tekstbestand met als naam <strong>herhalingsopdracht_4.py</strong> in het OneNote kladblok. Je kunt het tekstbestand maken door in de Micro:Bit editor te klikken op Save.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4535425"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Toon een afbeelding",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Laat een hartje zien.</p>\n<p>Lever de code van je uitwerking in als een tekstbestand met als naam <strong>herhalingsopdracht_5.py</strong> in het OneNote kladblok. Je kunt het tekstbestand maken door in de Micro:Bit editor te klikken op Save.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4535427"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Toon een cijfer",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Toon het cijfer 3 op het display.</p>\n<p>Lever de code van je uitwerking in als een tekstbestand met als naam <strong>herhalingsopdracht_6.py</strong> in het OneNote kladblok. Je kunt het tekstbestand maken door in de Micro:Bit editor te klikken op Save.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4535429"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Toon de uitkomst van een berekening",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Toon de uitkomst van de berekening zien van 2x3. De uitkomst daarvan is 6. Je mag geen 6 als antwoord in de code typen, maar je laat de micro_bit dit zelf uitrekenen.</p>\n<p>Lever de code van je uitwerking in als een tekstbestand met als naam <strong>herhalingsopdracht_7.py</strong> in het OneNote kladblok. Je kunt het tekstbestand maken door in de Micro:Bit editor te klikken op Save.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4535431"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Werken met button_a",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Als button_a wordt ingedrukt, komt er een hartje op het display.</p>\n<p>Lever de code van je uitwerking in als een tekstbestand met als naam <strong>herhalingsopdracht_8.py</strong> in het OneNote kladblok. Je kunt het tekstbestand maken door in de Micro:Bit editor te klikken op Save.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4535433"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Werken met button_a en button_b",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Als je button_a indrukt, krijg je de afbeelding HAPPY en als je button_b indrukt, krijg je de afbeelding SAD.</p>\n<p>Lever de code van je uitwerking in als een tekstbestand met als naam <strong>herhalingsopdracht_9.py</strong> in het OneNote kladblok. Je kunt het tekstbestand maken door in de Micro:Bit editor te klikken op Save.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4535435"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Werken met button_a, button_b  en een derde afbeelding",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Als je button_a indrukt, krijg je de afbeelding HAPPY. Als je button_b indrukt, krijg je de afbeeldingt SAD. Bij het opstarten van het programma wordt de afbeelding HEART getoond.</p>\n<p>Lever de code van je uitwerking in als een tekstbestand met als naam <strong>herhalingsopdracht_10.py</strong> in het OneNote kladblok. Je kunt het tekstbestand maken door in de Micro:Bit editor te klikken op Save.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4535437"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Werken met een pin",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Als je pin 0 aanraakt, verschijnt de afbeelding HEART.</p>\n<p>Lever de code van je uitwerking in als een tekstbestand met als naam <strong>herhalingsopdracht_11.py</strong> in het OneNote kladblok. Je kunt het tekstbestand maken door in de Micro:Bit editor te klikken op Save.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4535439"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Werken met meerdere pins",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Als je pin 0 aanraakt, verschijnt de afbeelding HEART, als je pin 1 aanraakt, verschijnt de afbeelding HAPPY en als je pin 2 aanraakt, verschijnt de afbeelding SAD.</p>\n<p>Lever de code van je uitwerking in als een tekstbestand met als naam <strong>herhalingsopdracht_12.py</strong> in het OneNote kladblok. Je kunt het tekstbestand maken door in de Micro:Bit editor te klikken op Save.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4535441"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Werken met random",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Laat een random getal zien tussen de 6 en de 9, dus er komt een 6, 7, 8 of 9 in beeld.</p>\n<p>Lever de code van je uitwerking in als een tekstbestand met als naam <strong>herhalingsopdracht_13.py</strong> in het OneNote kladblok. Je kunt het tekstbestand maken door in de Micro:Bit editor te klikken op Save.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4535443"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Werken met random en buttons",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Als je op button_a drukt, komt er een random getal van 1 tot en met 4. En als je op button_b drukt, komt er een getal van 5 tot en met 9.</p>\n<p>Lever de code van je uitwerking in als een tekstbestand met als naam <strong>herhalingsopdracht_14.py</strong> in het OneNote kladblok. Je kunt het tekstbestand maken door in de Micro:Bit editor te klikken op Save.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4535445"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Een random string uit een array",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Van onderstaand array moet een willekeurige naam scrollen.</p>\n<p>namen = [\"Jan\",\"Piet\",\"Kees\"]</p>\n<p>Test verschillende keren met de reset knop.</p>\n<p>Lever de code van je uitwerking in als een tekstbestand met als naam <strong>herhalingsopdracht_15.py</strong> in het OneNote kladblok. Je kunt het tekstbestand maken door in de Micro:Bit editor te klikken op Save.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4535447"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Werken met gestures",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Standaard komt er de afbeelding SAD in beeld. Als je met de micro:bit schudt, komt de afbeelding HAPPY.</p>\n<p>Lever de code van je uitwerking in als een tekstbestand met als naam <strong>herhalingsopdracht_16.py</strong> in het OneNote kladblok. Je kunt het tekstbestand maken door in de Micro:Bit editor te klikken op Save.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "4535451"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Opdracht: Flappy Bird",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>We gaan  Flappy Bird namaken. Volg de stappen zoals op deze <a href=\"http://blog.withcode.uk/2016/05/flappy-bird-microbit-python-tutorial-for-beginners/\">website</a> vermeld staat.</p>\n<p> </p>\n<p><img alt=\"Flappy Bird\" src=\"https://maken.wikiwijs.nl/userfiles/9/98268a9dfa4474596aec2598aae3fce752b4fdb1.png\" class=\"height-243-pixels width-450-pixels float-left\"/></p>\n<p> </p>\n<p> </p>\n<p> </p>\n<p> </p>\n<p> </p>\n<p> </p>\n<p> </p>\n<p> </p>\n<p> </p>\n<p> </p>\n<p> </p>\n<p>Lever de code van je uitwerking in als een tekstbestand met als naam <strong>flappy.py </strong>in het OneNote kladblok. Je kunt het tekstbestand maken door in de Micro:Bit editor te klikken op Save.</p>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "4605653"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Eindopdracht - binair rekenen",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<h1>Binair rekenen</h1>\n<p>Zoals je weet werken computers met eentjes en nulletjes. E\u00e9n zo'n eentje of nulletje noemen we een bit. En 8 bits samen zijn een byte.</p>\n<p>Ieder teken kunnen we weergeven als \u00e9\u00e9n byte. Bekijk maar eens de tabel met ASCII-codes op Wikipedia:</p>\n<p><a href=\"https://nl.wikipedia.org/wiki/ASCII_(tekenset)\">https://nl.wikipedia.org/wiki/ASCII_(tekenset)</a></p>\n<p>In de tabel zie je dat de hoofdletter A wordt vertegenwoordigd door de decimale waarde <strong>65</strong> en de binaire waarde is <strong>10000001</strong>. Om een binaire waarde om te rekenen naar een decimale waarde ga je als volgt te werk. Als voorbeeld nemen we de waarde <strong>10000001</strong>.</p>\n<p>We beginnen bij de laatste bit. Als deze aan staat vermenigvuldigen we 1 met 2<sup>0</sup> en dat levert 1 op (raar maar waar, ieder getal tot de macht 0 is gelijk aan 1). Als de bit niet aan staat vermenigvuldigen we 2<sup>0</sup> met 0 en dat geeft natuurlijk 0 als uitkomst.<br/>\nWe gaan door met de voorlaatste bit. Als deze aan staat vermenigvuldigen we 1 met 2<sup>1</sup> en dat levert 2 op. Als de bit niet aan staat vermenigvuldigen we 2<sup>1</sup> met 0 en dat geeft natuurlijk 0 als uitkomst.<br/>\nZo werken we steeds verder naar links.</p>\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"width-500-pixels\">\n<tbody>\n<tr>\n<td class=\"text-align-center\">0</td>\n<td class=\"text-align-center\">1</td>\n<td class=\"text-align-center\">0</td>\n<td class=\"text-align-center\">0</td>\n<td class=\"text-align-center\">0</td>\n<td class=\"text-align-center\">0</td>\n<td class=\"text-align-center\">0</td>\n<td class=\"text-align-center\">1</td>\n</tr>\n<tr>\n<td class=\"text-align-center\">2<sup>7</sup></td>\n<td class=\"text-align-center\">2<sup>6</sup></td>\n<td class=\"text-align-center\">2<sup>5</sup></td>\n<td class=\"text-align-center\">2<sup>4</sup></td>\n<td class=\"text-align-center\">2<sup>3</sup></td>\n<td class=\"text-align-center\">2<sup>2</sup></td>\n<td class=\"text-align-center\">2<sup>1</sup></td>\n<td class=\"text-align-center\">2<sup>0</sup></td>\n</tr>\n<tr>\n<td class=\"text-align-center\">128</td>\n<td class=\"text-align-center\">64</td>\n<td class=\"text-align-center\">32</td>\n<td class=\"text-align-center\">16</td>\n<td class=\"text-align-center\">8</td>\n<td class=\"text-align-center\">4</td>\n<td class=\"text-align-center\">2</td>\n<td class=\"text-align-center\">1</td>\n</tr>\n<tr>\n<td class=\"text-align-center\">0</td>\n<td class=\"text-align-center\">64</td>\n<td class=\"text-align-center\">0</td>\n<td class=\"text-align-center\">0</td>\n<td class=\"text-align-center\">0</td>\n<td class=\"text-align-center\">0</td>\n<td class=\"text-align-center\">0</td>\n<td class=\"text-align-center\">1</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<p>We tellen vervolgens alle waarden uit de onderste rij bij elkaar op: 64 + 1 = 65.</p>\n<p><strong>Nog een voorbeeld</strong></p>\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"width-500-pixels\">\n<tbody>\n<tr>\n<td class=\"text-align-center\">1</td>\n<td class=\"text-align-center\">1</td>\n<td class=\"text-align-center\">0</td>\n<td class=\"text-align-center\">1</td>\n<td class=\"text-align-center\">0</td>\n<td class=\"text-align-center\">1</td>\n<td class=\"text-align-center\">0</td>\n<td class=\"text-align-center\">0</td>\n</tr>\n<tr>\n<td class=\"text-align-center\">2<sup>7</sup></td>\n<td class=\"text-align-center\">2<sup>6</sup></td>\n<td class=\"text-align-center\">2<sup>5</sup></td>\n<td class=\"text-align-center\">2<sup>4</sup></td>\n<td class=\"text-align-center\">2<sup>3</sup></td>\n<td class=\"text-align-center\">2<sup>2</sup></td>\n<td class=\"text-align-center\">2<sup>1</sup></td>\n<td class=\"text-align-center\">2<sup>0</sup></td>\n</tr>\n<tr>\n<td class=\"text-align-center\">128</td>\n<td class=\"text-align-center\">64</td>\n<td class=\"text-align-center\">32</td>\n<td class=\"text-align-center\">16</td>\n<td class=\"text-align-center\">8</td>\n<td class=\"text-align-center\">4</td>\n<td class=\"text-align-center\">2</td>\n<td class=\"text-align-center\">1</td>\n</tr>\n<tr>\n<td class=\"text-align-center\">128</td>\n<td class=\"text-align-center\">64</td>\n<td class=\"text-align-center\">0</td>\n<td class=\"text-align-center\">16</td>\n<td class=\"text-align-center\">0</td>\n<td class=\"text-align-center\">4</td>\n<td class=\"text-align-center\">0</td>\n<td class=\"text-align-center\">1</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<p>We tellen weer alle waarden uit de onderste rij bij elkaar op: 128 + 64 + 16 + 4 = 212.</p>\n<p>Zonder tabel kun je vrij snel bepalen wat de hoogste waarde is die we met \u00e9\u00e9n byte kunnen maken. Alle bits staan dan aan dus we tellen op 128 + 64 + 32 + 16 + 8 + 4 + 2 + 1 = 255.</p>\n<p> </p>\n<h3>Opdracht</h3>\n<p>Je gaat nu een rekenmachine maken voor de Micro:Bit, waarmee de gebruiker een binair getal kan omrekenen naar een decimale waarde. Door op A te drukken wordt een 0 aan de binaire waarde toegevoegd en door op B te drukken een 1.</p>\n<p>De gebruiker kan maximaal 8 bits opgeven (dus 1 byte). Door tegelijk op A en B te drukken wordt de binaire waarde omgerekend naar de decimale waarde en de decimale waarde wordt weergegeven op de Micro:Bit.</p>\n<p>Als de maximum lengte is bereikt moet een <strong>Sad Face</strong> worden weergegeven als de gebruiker op A of B drukt.</p>\n<p> </p>\n<p>Lever je uitwerking als tekstbestand in Natschool in met als naam <strong>bin_dec.py</strong>.</p>\n<p> </p>\n<p>Voor de echte kanjers is er nog een mooie uitbreiding. Door te schudden wordt de binaire waarde omgerekend naar een hexadecimale weergave. Als je deze weet op te lossen mag je jezelf tot de echte goeroes van de Micro:Bit rekenen.</p>\n<p> </p>\n<p>HEEL VEEL SUCCES.</p>\n"
+                }
+            ],
+            "sections": []
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": null,
+            "dimension": null,
+            "suppressTitle": null
+        },
+        "color": "#495057"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Introductie",
+                "reference": {
+                    "value": "4535833"
+                },
+                "sections": []
+            },
+            {
+                "title": "Links",
+                "reference": {
+                    "value": "4535323"
+                },
+                "sections": []
+            },
+            {
+                "title": "1: Beginnen met de Micro:Bit",
+                "reference": {
+                    "value": "4535330"
+                },
+                "sections": [
+                    {
+                        "title": "Filmpje: Hello World!",
+                        "reference": {
+                            "value": "4535331"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Theorie",
+                        "reference": {
+                            "value": "4535333"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Aan de slag",
+                        "reference": {
+                            "value": "4535335"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "String",
+                        "reference": {
+                            "value": "4535337"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Integer",
+                        "reference": {
+                            "value": "4535339"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Float",
+                        "reference": {
+                            "value": "4535342"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Array",
+                        "reference": {
+                            "value": "4535344"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Antwoorden",
+                        "reference": {
+                            "value": "4535346"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Oefentoets",
+                        "reference": {
+                            "value": "4535349"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "2: Plaatjes, knoppen en voorwaarden ",
+                "reference": {
+                    "value": "4535351"
+                },
+                "sections": [
+                    {
+                        "title": "Filmpje: Images",
+                        "reference": {
+                            "value": "4535352"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Theorie: Images",
+                        "reference": {
+                            "value": "4535354"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Knoppen",
+                        "reference": {
+                            "value": "4535356"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Aan de slag",
+                        "reference": {
+                            "value": "4535358"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Flowcharts",
+                        "reference": {
+                            "value": "4535362"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Antwoorden",
+                        "reference": {
+                            "value": "4535366"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Oefentoets",
+                        "reference": {
+                            "value": "4535370"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "In te leveren opdrachten",
+                        "reference": {
+                            "value": "4535372"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Maak je eigen afbeeldingen",
+                        "reference": {
+                            "value": "4535374"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Animaties",
+                        "reference": {
+                            "value": "4535376"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "In te leveren opdrachten",
+                        "reference": {
+                            "value": "4535379"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "3: Invoer/Uitvoer",
+                "reference": {
+                    "value": "4535381"
+                },
+                "sections": [
+                    {
+                        "title": "Theorie: Input/Output",
+                        "reference": {
+                            "value": "4535384"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Aan de slag",
+                        "reference": {
+                            "value": "4535386"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "4: Muziek",
+                "reference": {
+                    "value": "4535388"
+                },
+                "sections": []
+            },
+            {
+                "title": "5: Willekeur",
+                "reference": {
+                    "value": "4535392"
+                },
+                "sections": [
+                    {
+                        "title": "Willekeurige string",
+                        "reference": {
+                            "value": "4535395"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Nog meer willekeur",
+                        "reference": {
+                            "value": "4535398"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Commentaar in de code",
+                        "reference": {
+                            "value": "4535400"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Aan de slag",
+                        "reference": {
+                            "value": "4535402"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "In te leveren opdrachten",
+                        "reference": {
+                            "value": "4535404"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "5: Beweging",
+                "reference": {
+                    "value": "4535406"
+                },
+                "sections": [
+                    {
+                        "title": "Aan de slag",
+                        "reference": {
+                            "value": "4535408"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "6: Gebaren",
+                "reference": {
+                    "value": "4535410"
+                },
+                "sections": [
+                    {
+                        "title": "In te leveren opdrachten",
+                        "reference": {
+                            "value": "4535414"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Herhalingsopdrachten",
+                "reference": {
+                    "value": "4535416"
+                },
+                "sections": [
+                    {
+                        "title": "Toon een letter",
+                        "reference": {
+                            "value": "4535417"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Toon een naam",
+                        "reference": {
+                            "value": "4535419"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Laat een woord \u00e9\u00e9n keer scrollen",
+                        "reference": {
+                            "value": "4535421"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Zorg dat een woord oneindig blijft scrollen",
+                        "reference": {
+                            "value": "4535423"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Toon een afbeelding",
+                        "reference": {
+                            "value": "4535425"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Toon een cijfer",
+                        "reference": {
+                            "value": "4535427"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Toon de uitkomst van een berekening",
+                        "reference": {
+                            "value": "4535429"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Werken met button_a",
+                        "reference": {
+                            "value": "4535431"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Werken met button_a en button_b",
+                        "reference": {
+                            "value": "4535433"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Werken met button_a, button_b  en een derde afbeelding",
+                        "reference": {
+                            "value": "4535435"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Werken met een pin",
+                        "reference": {
+                            "value": "4535437"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Werken met meerdere pins",
+                        "reference": {
+                            "value": "4535439"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Werken met random",
+                        "reference": {
+                            "value": "4535441"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Werken met random en buttons",
+                        "reference": {
+                            "value": "4535443"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Een random string uit een array",
+                        "reference": {
+                            "value": "4535445"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Werken met gestures",
+                        "reference": {
+                            "value": "4535447"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Opdracht: Flappy Bird",
+                "reference": {
+                    "value": "4535451"
+                },
+                "sections": []
+            },
+            {
+                "title": "Eindopdracht - binair rekenen",
+                "reference": {
+                    "value": "4605653"
+                },
+                "sections": []
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": "<p>Lessenserie bij de micro:bit. Kan op allerlei niveau worden gebruikt. Filmpjes en ondersteunende teksten zijn Engelstalig.</p>\n",
+        "imageSrc": null,
+        "sources": [
+            {
+                "type": "link",
+                "title": "www.microbit.co.uk/app",
+                "origin": "",
+                "customOrigin": null,
+                "link": "https://www.microbit.co.uk/app",
+                "visible": true
+            },
+            {
+                "type": "link",
+                "title": "Github van Shawn Hymel (antwoorden)",
+                "origin": "",
+                "customOrigin": null,
+                "link": "https://gist.github.com/ShawnHymel",
+                "visible": true
+            },
+            {
+                "type": "link",
+                "title": "documentation",
+                "origin": "",
+                "customOrigin": null,
+                "link": "https://microbit-micropython.readthedocs.io/en/latest/",
+                "visible": true
+            },
+            {
+                "type": "link",
+                "title": "www.draw.io",
+                "origin": "",
+                "customOrigin": null,
+                "link": "https://www.draw.io/",
+                "visible": true
+            },
+            {
+                "type": "link",
+                "title": "Bluetooth",
+                "origin": "",
+                "customOrigin": null,
+                "link": "https://blog.bluetooth.com/bbc-microbit",
+                "visible": true
+            },
+            {
+                "type": "link",
+                "title": "The IET Collection",
+                "origin": "",
+                "customOrigin": null,
+                "link": "https://www.microbit.co.uk/IET",
+                "visible": true
+            },
+            {
+                "type": "link",
+                "title": "Micro:Bit Python Cheat Sheet",
+                "origin": "",
+                "customOrigin": null,
+                "link": "https://microbit-playground.co.uk/cheat-sheet/",
+                "visible": true
+            },
+            {
+                "type": "link",
+                "title": "Code schrijven met behulp van Blockly",
+                "origin": "Code schrijven met behulp van Blockly",
+                "customOrigin": null,
+                "link": "https://developers.google.com/blockly/",
+                "visible": true
+            },
+            {
+                "type": "link",
+                "title": "Theorie: Hello, World!",
+                "origin": "",
+                "customOrigin": null,
+                "link": "https://microbit-micropython.readthedocs.io/en/latest/tutorials/hello.html",
+                "visible": true
+            },
+            {
+                "type": "link",
+                "title": "Make the micro:bit scroll the phrase \"Hello!\" ",
+                "origin": "",
+                "customOrigin": null,
+                "link": "https://gist.github.com/ShawnHymel/c052ac191935a7df17905462c3d5add3",
+                "visible": true
+            },
+            {
+                "type": "link",
+                "title": "micro:bit Tutorial Series Part 1: Getting Started - My Name ",
+                "origin": "",
+                "customOrigin": null,
+                "link": "https://gist.github.com/ShawnHymel/83b8bf04ccd66b888660fc3557c81c18",
+                "visible": true
+            },
+            {
+                "type": "link",
+                "title": "Theorie: Images",
+                "origin": "",
+                "customOrigin": null,
+                "link": "https://microbit-micropython.readthedocs.io/en/latest/tutorials/images.html#",
+                "visible": true
+            },
+            {
+                "type": "link",
+                "title": "Have the micro:bit show a happy face when A is pressed, a sad face when B is pressed, and a meh face when no buttons are pressed. ",
+                "origin": "",
+                "customOrigin": null,
+                "link": "https://gist.github.com/ShawnHymel/689a6c59938dffeac0e9d42d7cd1d40a",
+                "visible": true
+            },
+            {
+                "type": "link",
+                "title": "Just like the example code, but it shows a confused face when the buttons are pressed simultaneously ",
+                "origin": "",
+                "customOrigin": null,
+                "link": "https://gist.github.com/ShawnHymel/bf1104f133e4071cde23b6df1edad353",
+                "visible": true
+            },
+            {
+                "type": "link",
+                "title": "Shows a happy face by default but scrolls \"A\" when A is pressed and \"B\" when B is pressed ",
+                "origin": "",
+                "customOrigin": null,
+                "link": "https://gist.github.com/ShawnHymel/715a5225674904088a0d12bee3cace5f",
+                "visible": true
+            }
+        ],
+        "metadata": [
+            {
+                "key": "educationalLevels",
+                "label": "Leerniveaus",
+                "terms": {
+                    "8beca7eb-95a5-4c7d-9704-2d2a2fc4bc65": "MBO, Niveau 4: Middenkaderopleiding"
+                }
+            },
+            {
+                "key": "disciplines",
+                "label": "Leerinhoud en doelen",
+                "terms": {
+                    "2845473d-ce18-450a-9135-6738abbdc129": "Informatica",
+                    "e8e7fa96-dfc6-4d6d-a41b-a44c1b5b4138": "Computervaardigheden/ICT"
+                }
+            },
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            },
+            {
+                "key": "keywords",
+                "label": "Trefwoorden",
+                "terms": [
+                    "micro:bit",
+                    "microbit",
+                    "programmeren",
+                    "python"
+                ]
+            }
+        ],
+        "usedLearningResources": [
+            {
+                "author": {
+                    "fullName": null,
+                    "referenceName": "Peeters, Frans",
+                    "reference": {
+                        "value": "55554"
+                    },
+                    "firstName": "Frans",
+                    "infix": null,
+                    "lastName": "Peeters",
+                    "emailAddress": "franspeeters@kpnmail.nl",
+                    "type": "author"
+                },
+                "title": "micro:bit",
+                "url": "https://maken.wikiwijs.nl/100959/",
+                "datePublished": "2017-05-04T19:59:21+02:00"
+            }
+        ]
+    }
+}

@@ -1,0 +1,725 @@
+{
+    "documentAuthors": [
+        "Lusanne Blokland"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Lusanne Blokland",
+            "referenceName": null,
+            "reference": {
+                "value": "172194"
+            },
+            "firstName": "Lusanne",
+            "infix": null,
+            "lastName": "Blokland",
+            "emailAddress": "lusanneblokland16@gmail.com",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2023-04-11T19:46:19Z",
+    "bulkId": "bulk-17041658-refresh_all",
+    "identifier": 194876,
+    "title": "Spookfacturen en Phishing",
+    "description": "een les over spookfacturen voor het Mbo niveau 4",
+    "lastModifiedDate": "2023-04-11T19:46:19+02:00",
+    "dateCreated": "2023-02-14T10:49:06+01:00",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "Blokland, Lusanne",
+                "reference": {
+                    "value": "172194"
+                },
+                "firstName": "Lusanne",
+                "infix": null,
+                "lastName": "Blokland",
+                "emailAddress": "lusanneblokland16@gmail.com",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-40",
+            "name": "CC Naamsvermelding 4.0 Internationale licentie",
+            "description": "De Internationale Creative Commons 4.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/4.0/.",
+            "link": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/194876/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "7515479"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Vandaag bij bedrijf ",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/0/0435c4a4775e306e883610552a60d632950b69b2.jpg",
+                    "altText": "",
+                    "alignment": "left",
+                    "scale": 0.3,
+                    "link": ""
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p><span class=\"font-size-20px\">Welkom bij de les van vandaag van het bedrijf.</span></p>\n<p><span class=\"font-size-14px\">Het onderwerp van vandaag is spookfacturen en phishing. Dit zijn beiden vormen van fraude. Je kunt zelf bepalen met welk onderwerp je wilt beginnen. Wanneer je beide onderwerpen hebt behandeld, kun je de toets maken.</span></p>\n"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p> </p>\n<p> </p>\n<p> </p>\n<p><span class=\"font-size-24px\" style=\"color:#FF0000;\">spookfactuur en Phishing komt meer voor dan je denkt!</span></p>\n<p>Hier is een artikel over de gemeent dit veel geld heeft verloren door deze vorm van frauden.</p>\n<p>Krimpen aan den IJssel betaalt 176.000 euro na phishing-aanval  =</p>\n<p><iframe allowfullscreen=\"allowfullscreen\" frameborder=\"0\" height=\"315\" src=\"https://www.techzine.nl/nieuws/security/519871/krimpen-aan-den-ijssel-betaalt-176-000-euro-na-phishing-aanval/\" width=\"560\"/></p>\n<p> </p>\n<p><span class=\"font-size-16px\">Hier is het linkje:<a href=\"https://www.techzine.nl/nieuws/security/519871/krimpen-aan-den-ijssel-betaalt-176-000-euro-na-phishing-aanval/\">https://www.techzine.nl/nieuws/security/519871/krimpen-aan-den-ijssel-betaalt-176-000-euro-na-phishing-aanval/</a></span></p>\n<p> </p>\n"
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "7519489"
+                    },
+                    "assessmentItem": {
+                        "identifier": "7519489",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "",
+                                "prompt": {
+                                    "body": "<p>Waar ging het artikel over en wat wist je al over spookfacturen en phishing.</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "7519489_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>.<strong>Het ging over de gemeenten krimpen aan de IJssel deed door spookfacturen en phishing 176000 hebben overgemaakt aan criminelen en om dit in de toekomst te voorkomen waar er een specialist ingehuurd om de werknemers te training en bewust hier van te maken.</strong></p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>.<strong>Het ging over de gemeenten krimpen aan de IJssel deed door spookfacturen en phishing 176000 hebben overgemaakt aan criminelen en om dit in de toekomst te voorkomen waar er een specialist ingehuurd om de werknemers te training en bewust hier van te maken.</strong></p>"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "7515549"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Phishing",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/4/4b2e73a0b3f876c43f805b6db0d718d8afeb671e.png",
+                    "altText": "",
+                    "alignment": "left",
+                    "scale": 0.3,
+                    "link": ""
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p><span class=\"font-size-20px\">Wat zijn de lesdoelen van de les over phishing?</span></p>\n<p><span class=\"font-size-14px\">Aan het einde van de les ben je in staat om:</span></p>\n<ul>\n<li><span class=\"font-size-14px\">uit te leggen wat phishing is.</span></li>\n<li><span class=\"font-size-14px\">de kenmerken van phishingpogingen te benoemen.</span></li>\n<li><span class=\"font-size-14px\">zakelijke phishingpogingen te herkennen.</span></li>\n</ul>\n"
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "7516035"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Wat is phishing?",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "video",
+                            "url": "https://www.youtube.com/watch?v=emg5I7FS3WY",
+                            "align": "left",
+                            "caption": "Wat is phishing ",
+                            "poster": "https://img.youtube.com/vi/emg5I7FS3WY/maxresdefault.jpg"
+                        },
+                        {
+                            "type": "question",
+                            "reference": {
+                                "value": "7516034"
+                            },
+                            "assessmentItem": {
+                                "identifier": "7516034",
+                                "itemBody": null,
+                                "questions": [
+                                    {
+                                        "type": "extendedTextInteraction",
+                                        "label": "",
+                                        "prompt": {
+                                            "body": "<p>Wat heb je geleerd van de video?</p>"
+                                        },
+                                        "feedback": null
+                                    }
+                                ],
+                                "responseDeclarations": [
+                                    {
+                                        "identifier": "7516034_1",
+                                        "cardinality": "single",
+                                        "baseType": "string",
+                                        "correctResponse": {
+                                            "interpretation": null,
+                                            "values": [
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "<p>Je kunt nu verder.</p>\r\n"
+                                                }
+                                            ]
+                                        },
+                                        "mapping": {
+                                            "lowerBound": 0,
+                                            "upperBound": 1,
+                                            "default": 0,
+                                            "mapEntries": []
+                                        },
+                                        "areaMapping": null
+                                    }
+                                ],
+                                "outcomeDeclarations": [
+                                    {
+                                        "identifier": "SCORE",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 0,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": null,
+                                        "interpretation": null
+                                    }
+                                ],
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK",
+                                        "identifier": "ANSWER_CORRECT",
+                                        "showHide": true,
+                                        "title": null,
+                                        "content": {
+                                            "body": "<p>Je kunt nu verder.</p>"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7516037"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Phishing vs Spear phishing vs whaling",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"width-453-pixels\">\n<tbody>\n<tr>\n<td> </td>\n<td><strong>slachtoffers</strong></td>\n<td><strong>voorbeeld</strong></td>\n<td><strong>complexteit</strong></td>\n</tr>\n<tr>\n<td><strong>Phishing</strong></td>\n<td>grote groep mensen</td>\n<td> </td>\n<td>niet complex</td>\n</tr>\n<tr>\n<td><strong>Spear Phishing</strong></td>\n<td>kleine groep mensen</td>\n<td>Afdeling</td>\n<td>complex</td>\n</tr>\n<tr>\n<td><strong>Whaling</strong></td>\n<td>een persoon</td>\n<td>CEO</td>\n<td>heel complex</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<p> </p>\n<p>Phishing, spear phishing en whaling zijn allemaal vormen van cyberaanvallen gericht op het stelen van persoonlijke informatie, maar er zijn verschillen. Er zijn twee grote verschillen: hoe de aanvallers hun slachtoffers kiezen en hoe complex de aanval is. Complexiteit heeft te maken met hoeveel moeite de aanvallers doen om iemand te foppen.</p>\n<p>Phishing is de meest algemene vorm. Cybercriminelen sturen dan een e-mail naar een grote groep mensen, wat een massa-e-mail wordt genoemd. In deze e-mail doen ze alsof ze een betrouwbaar bedrijf zijn, zoals een bank of sociaal mediaplatform. Ze vragen je bijvoorbeeld om op een link te klikken en in te loggen. Als je dat doet, stelen ze je gebruikersnaam en wachtwoord. Omdat ze het naar veel mensen sturen, staan er vaak geen of weinig persoonlijke gegevens in de e-mail. Dit maakt het dus niet erg complex.</p>\n<p>Spear phishing lijkt erg op phishing, maar is gericht op een specifieke groep, bijvoorbeeld een afdeling van een bedrijf. Met deze aanval willen cybercriminelen vaak bedrijfsinformatie en inloggegevens stelen. Voor deze vorm van aanval doen de criminelen wel onderzoek, dus er staan vaak veel persoonlijke gegevens in de e-mail. Dit maakt het een complexere aanval.</p>\n<p>Whaling is de laatste vorm. Deze vorm van phishing is meestal gericht op \u00e9\u00e9n persoon, bijvoorbeeld de CEO van een bedrijf. De criminelen doen veel onderzoek en zorgen ervoor dat de e-mail lijkt te zijn verstuurd door een betrouwbaar persoon. In de e-mail proberen ze de persoon dan te overtuigen om geld over te maken, informatie te geven of ergens in te loggen, zodat ze de inloggegevens kunnen achterhalen. Deze aanval is zeer complex.</p>\n<p>Dit is het verschil tussen phishing, spear phishing en whaling.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7516501"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Oefen met phishing",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Hier vind je de oefen opdrachten.</p>\n<p>Er zijn verschildende moeilijkheden.</p>\n<p>Je mag zelf kiezen welke je gaat doen.</p>\n<p> </p>\n<p><span class=\"font-size-16px\" style=\"color:#FF0000;\">Klik met je rechter muisknop en klik op nieuw tabblad !</span></p>\n<p> </p>\n<p>makkelijk = <a href=\"https://LessonUp.app/invite/h/fvWEuXsk498e34Mpq\">https://LessonUp.app/invite/h/fvWEuXsk498e34Mpq</a></p>\n<p>gemiddeld = <a href=\"https://LessonUp.app/invite/h/NQP7ZLn2RLwMzWWLM\">https://LessonUp.app/invite/h/NQP7ZLn2RLwMzWWLM</a></p>\n<p>moeilijk = <a href=\"https://LessonUp.app/invite/h/z3fCufGuHAboKS3A9\">https://LessonUp.app/invite/h/z3fCufGuHAboKS3A9</a></p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7516502"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Phishing in het news",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><span class=\"font-size-14px\">Hieronder staan een aantal linkjes naar recenten kranten artikelen over Phishing . Als je wil kan je nog even een kijkje nemen.</span></p>\n<p> </p>\n<h1><span class=\"font-size-14px\">Phishingmail UTwente maakt duizenden 'slachtoffers' = <a href=\"https://www.computable.nl/artikel/nieuws/security/7485976/250449/phishing-mail-fopt-duizenden-mensen-bij-utwente.html\">https://www.computable.nl/artikel/nieuws/security/7485976/250449/phishing-mail-fopt-duizenden-mensen-bij-utwente.html</a></span></h1>\n<p> </p>\n<p><span class=\"font-size-14px\">Krimpen aan den IJssel betaalt 176.000 euro na phishing-aanval = <a href=\"https://www.techzine.nl/nieuws/security/519871/krimpen-aan-den-ijssel-betaalt-176-000-euro-na-phishing-aanval/\">https://www.techzine.nl/nieuws/security/519871/krimpen-aan-den-ijssel-betaalt-176-000-euro-na-phishing-aanval/</a></span></p>\n<p> </p>\n<p><span class=\"font-size-14px\">Drie jaar cel voor phishing uit naam van de ANWB = <a href=\"https://nos.nl/artikel/2451620-drie-jaar-cel-voor-phishing-uit-naam-van-de-anwb\">https://nos.nl/artikel/2451620-drie-jaar-cel-voor-phishing-uit-naam-van-de-anwb</a></span></p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "7479120"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Spookfacturen",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/b/ba4be8d7cde0a2a34202c4e91eb76cd86c1da42a.png",
+                    "altText": "",
+                    "alignment": "left",
+                    "scale": 0.3,
+                    "link": ""
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p><span class=\"font-size-20px\">Wat is het doel van de les over spookfacturen?</span></p>\n<p><span class=\"font-size-14px\">Aan het einde van de les ben je in staat om:</span></p>\n<ul>\n<li><span class=\"font-size-14px\">uit te leggen wat een spookfactuur is.</span></li>\n<li><span class=\"font-size-14px\">de kenmerken van een spookfactuur te benoemen.</span></li>\n<li><span class=\"font-size-14px\">echte facturen te onderscheiden van spookfacturen.</span></li>\n</ul>\n"
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "7515543"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Wat is een spookfactuur?",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Een spookfactuur word gestuurd door oplichters. Op de spookfactuur staan producten of diensten dit nooit gedaan of geleverd worden.</p>\n<p>Het doel van de oplichter is dat je dus betaal voor iets dat je nooit gekregen heb.</p>\n<p>Ze doen dit door een factuur te sturen die heel erg lijkt op de factuur van een echt leverancier. Of door een factuur te sturen van nep bedrijven voor bijvoorbeeld kleine bedragen.</p>\n<p>ook kunnen ze een aanbieding sturen die er uit zit als een factuur met de hoop dat je hem per ongelijk betaalt</p>\n<p> </p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7515999"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Ga op onderzoek uit.",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Hieronder vind je een aantal links naar websites over spookfacturen.</p>\n<p>Gebruik deze websites om antwoorden te vinden op de volgende vragen:</p>\n<p> </p>\n<ul>\n<li>Wat is een spookfactuur?</li>\n<li>Hoe herken je een spookfactuur?</li>\n<li>Welke soorten spookfacturen zijn er?</li>\n<li>Wat voor fraude is het verzenden van spookfacturen?</li>\n</ul>\n<p> </p>\n<p>Gebruik de links en zoek ook zelf nog via Google!</p>\n<p> </p>\n<p>link 1 = <a href=\"https://www.kvk.nl/advies-en-informatie/veiligzakendoen/fraude/factuurfraude/?gclid=Cj0KCQjwt_qgBhDFARIsABcDjOcJuyeRsrSC5ZdzaEVi5U1kHimUPHvOZmYkZytzlf-qsLddnYhvzTMaAqocEALw_wcB\">https://www.kvk.nl/advies-en-informatie/veiligzakendoen/fraude/factuurfraude/?gclid=Cj0KCQjwt_qgBhDFARIsABcDjOcJuyeRsrSC5ZdzaEVi5U1kHimUPHvOZmYkZytzlf-qsLddnYhvzTMaAqocEALw_wcB</a></p>\n<p> </p>\n<p>link 2 = <a href=\"https://www.fraudehelpdesk.nl/ondernemers-fraude/spookfacturen/\">https://www.fraudehelpdesk.nl/ondernemers-fraude/spookfacturen/</a></p>\n<p> </p>\n<p>link 3 = https://www.de-strafrechtadvocaat.nl/valsheid-in-geschrifte-advocaat/</p>\n<p>link 4 = <a href=\"https://www.digitaltrustcenter.nl/informatie-advies/spookfacturen\">https://www.digitaltrustcenter.nl/informatie-advies/spookfacturen</a></p>\n"
+                        },
+                        {
+                            "type": "question",
+                            "reference": {
+                                "value": "7516388"
+                            },
+                            "assessmentItem": {
+                                "identifier": "7516388",
+                                "itemBody": null,
+                                "questions": [
+                                    {
+                                        "type": "extendedTextInteraction",
+                                        "label": "schrijven je de antwoorden op de gestelde vragen.",
+                                        "prompt": {
+                                            "body": "<p> </p>\n<ul>\n<li>Wat is een spookfactuur?</li>\n<li>Hoe herken je een spookfactuur?</li>\n<li>Welke soorten spookfacturen zijn er?</li>\n<li>Wat voor fraude is het verzenden van spookfacturen?</li>\n</ul>\n<p> </p>"
+                                        },
+                                        "feedback": null
+                                    }
+                                ],
+                                "responseDeclarations": [
+                                    {
+                                        "identifier": "7516388_1",
+                                        "cardinality": "single",
+                                        "baseType": "string",
+                                        "correctResponse": {
+                                            "interpretation": null,
+                                            "values": [
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "<p>Je kan de antwoorden voor in de klas komen halen&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n"
+                                                }
+                                            ]
+                                        },
+                                        "mapping": {
+                                            "lowerBound": 0,
+                                            "upperBound": 1,
+                                            "default": 0,
+                                            "mapEntries": []
+                                        },
+                                        "areaMapping": null
+                                    }
+                                ],
+                                "outcomeDeclarations": [
+                                    {
+                                        "identifier": "SCORE",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 0,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": null,
+                                        "interpretation": null
+                                    }
+                                ],
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK",
+                                        "identifier": "ANSWER_CORRECT",
+                                        "showHide": true,
+                                        "title": null,
+                                        "content": {
+                                            "body": "<p>Je kan de antwoorden voor in de klas komen halen </p>\n<p> </p>"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7516805"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Wat kan je doen tegen spookfacturen ",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><iframe allowfullscreen=\"allowfullscreen\" frameborder=\"0\" height=\"315\" src=\"https://hrnl-my.sharepoint.com/:v:/g/personal/1032705_hr_nl/EQDtp6hov0JJoZmr_sW3SvYB1RuoE4cI0DZZdCuxzsI-BA?e=Xa6E4L\" width=\"560\"/></p>\n<p> </p>\n<p><span class=\"font-size-26px\">Hier is de uitleg in tekst </span></p>\n<p> </p>\n<p>jullie gaan straks op stage een dan is het belangrijke dat ook je weet hoe je een spookfactuur kan hekenen.</p>\n<p> </p>\n<p>Wat kan je doen als je op de administratie van een bedrijf werkt om te voorkomen dat je een spookfactuur betaalt?</p>\n<p>Als voorbeeld nemen we deze factuur van de Blokker.</p>\n"
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/6/6e474217a78c054f277407d3a3c4b8618471f90a.png",
+                            "altText": "",
+                            "alignment": "center",
+                            "scale": 0.8,
+                            "link": ""
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Eerst wil je in de administratie controleren of het een bekende leverancier is. Dat kan nu niet, dus vindt je alle documenten onder het tabblad bibliotheek.</p>\n<p> </p>\n<p>Daar staat deze crediteurenkaart:</p>\n"
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/8/8af57fbdc0566b17a3045446a5cc93d54d6f9a38.png",
+                            "altText": "",
+                            "alignment": "center",
+                            "scale": 0.8,
+                            "link": ""
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>De Blokker is dus een bestaande leverancier.</p>\n<p>Maar is deze factuur ook echt van de Blokker? Je kan nu de gegevens van de factuur vergelijken met de gegevens op de crediteurenkaart. Het KVK-nummer kan je controleren op <a href=\"https://www.kvk.nl/zoeken/#\">https://www.kvk.nl/zoeken/#</a>.</p>\n<p>Na dat je het gecontroleerd hebt, zie je dat het bankrekeningnummer en telefoonnummer anders is op de factuur dan die op de Crediteurenkaart. </p>\n<p>Dit kan een teken zijn van een spookfactuur, maar dit hoeft niet. De leverancier kan ook zijn bankrekening veranderd hebben. Om hier zeker van te zijn, kan je het beste naar de leverancier bellen. Dit doe je altijd op het telefoonnummer dat je al van de leverancier hebt en niet het nummer wat op de factuur staat. Oplichters kunnen dat nummer veranderd hebben zodat je hen belt in plaats van het echte bedrijf.</p>\n<p> </p>\n<p>Is er geen crediteurenkaart? Check dan de factuur op verdachte kenmerken en check altijd het KVK-nummer.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7515559"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Oefenen met spookfacturen ",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Hier is het linkje naar de oefenopgeven van spookfacturen dit is de <strong>makelijke versie</strong>: <a href=\"https://eu.feedbackfruits.com/courses/activity-course/557fcc72-2e9e-43f3-a237-a70a81717192\">https://eu.feedbackfruits.com/courses/activity-course/557fcc72-2e9e-43f3-a237-a70a81717192</a></p>\n<p> </p>\n<p>Hier is het linkje naar de oefenopgeven van spookfacturen dit is de <strong>gemiddelde versie</strong>: <a href=\"https://eu.feedbackfruits.com/courses/activity-course/2f99c16d-4d1f-41c1-8291-40f0dba1cbb0\">https://eu.feedbackfruits.com/courses/activity-course/2f99c16d-4d1f-41c1-8291-40f0dba1cbb0</a></p>\n<p> </p>\n<p>om in te logen:</p>\n<p>Klik op miscosoft en log in met jouw mborijnland account.</p>\n<p> </p>\n<p>Je kan exstra docomenten met informatie vinden in de bibliotheek!</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7515560"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Bibliotheek",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "file",
+                            "title": "https://maken.wikiwijs.nl/userfiles/c/c85a35711bf7f9d3289ecd49c06c3ea782c9b044.pdf",
+                            "file": "https://maken.wikiwijs.nl/userfiles/c/c85a35711bf7f9d3289ecd49c06c3ea782c9b044.pdf"
+                        },
+                        {
+                            "type": "file",
+                            "title": "https://maken.wikiwijs.nl/userfiles/0/09b1cbbc38fa0d37002e22434fc98d2c00b1e65b.pdf",
+                            "file": "https://maken.wikiwijs.nl/userfiles/0/09b1cbbc38fa0d37002e22434fc98d2c00b1e65b.pdf"
+                        },
+                        {
+                            "type": "file",
+                            "title": "https://maken.wikiwijs.nl/userfiles/f/f9f57009844482961e8a5a03ab90824376a2102f.docx",
+                            "file": "https://maken.wikiwijs.nl/userfiles/f/f9f57009844482961e8a5a03ab90824376a2102f.docx"
+                        },
+                        {
+                            "type": "file",
+                            "title": "https://maken.wikiwijs.nl/userfiles/8/8a97ba016c05a9ea496026f43bc3286d7fbbed7c.pdf",
+                            "file": "https://maken.wikiwijs.nl/userfiles/8/8a97ba016c05a9ea496026f43bc3286d7fbbed7c.pdf"
+                        },
+                        {
+                            "type": "file",
+                            "title": "https://maken.wikiwijs.nl/userfiles/4/493cc60dfe04f99e2c9e7dda8127a3c73e1376ea.pdf",
+                            "file": "https://maken.wikiwijs.nl/userfiles/4/493cc60dfe04f99e2c9e7dda8127a3c73e1376ea.pdf"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "7516038"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Toets ",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p><span class=\"font-size-22px\">zelfcheck</span></p>\n<p>Hier is een herschrijving van de tekst in correct Nederlands:</p>\n<ul>\n<li>\n<p>Het filmpje bekijken over phishing.</p>\n</li>\n<li>\n<p>Lezen over phishing, spear phishing en whaling.</p>\n</li>\n<li>\n<p>Oefenopgaven maken over phishing.</p>\n</li>\n</ul>\n<p> </p>\n<p> </p>\n<ul>\n<li>\n<p>Het filmpje bekijken of lezen over wat een spookfactuur is.</p>\n</li>\n<li>\n<p>Onderzoek doen naar de antwoorden op vragen over spookfacturen.</p>\n</li>\n<li>\n<p>Een filmpje bekijken of lezen over spookfacturen.</p>\n</li>\n<li>\n<p>Oefenopgaven maken over spookfacturen.</p>\n</li>\n</ul>\n<p> </p>\n<p> </p>\n<p><span class=\"font-size-20px\">Wat heb je nodig voor de toets:</span></p>\n<p>Documenten uit de bibliotheek.</p>\n<p>De website van de kamer van koophandel <a href=\"https://www.kvk.nl/zoeken/\">https://www.kvk.nl/zoeken/</a></p>\n<p>een gevult aantekeningenbladje.</p>\n<p> </p>\n<p><span style=\"color:#B22222;\">Dit is het enige dat je mag gebruiken bij de toets.</span></p>\n<p> </p>\n<p><span class=\"font-size-22px\">Succus!</span></p>\n<p> </p>\n<p>Klik hier als je klaar bent voor de toets: <a href=\"https://forms.gle/r3vAVNdVDttYSVcm6\">https://forms.gle/r3vAVNdVDttYSVcm6</a></p>\n"
+                },
+                {
+                    "type": "video",
+                    "url": "https://hrnl-my.sharepoint.com/:v:/r/personal/1032705_hr_nl/Documents/hoe%20zorg%20je%20er%20voor%20dat%20je%20een%20%20spookfactuur%20niet%20betaalt.mp4?csf=1&web=1&e=LsxoML",
+                    "align": "left",
+                    "caption": "https://hrnl-my.sharepoint.com/:v:/r/personal/1032705_hr_nl/Documents/hoe%20zorg%20je%20er%20voor%20dat%20je%20een%20%20spookfactuur%20niet%20betaalt.mp4?csf=1&web=1&e=LsxoML",
+                    "poster": "https://maken.wikiwijs.nl/res/images/playicon_wikiwijs.png"
+                }
+            ],
+            "sections": []
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": null,
+            "dimension": null,
+            "suppressTitle": null
+        },
+        "color": "#333333"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Vandaag bij bedrijf ",
+                "reference": {
+                    "value": "7515479"
+                },
+                "sections": []
+            },
+            {
+                "title": "Phishing",
+                "reference": {
+                    "value": "7515549"
+                },
+                "sections": [
+                    {
+                        "title": "Wat is phishing?",
+                        "reference": {
+                            "value": "7516035"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Phishing vs Spear phishing vs whaling",
+                        "reference": {
+                            "value": "7516037"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Oefen met phishing",
+                        "reference": {
+                            "value": "7516501"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Phishing in het news",
+                        "reference": {
+                            "value": "7516502"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Spookfacturen",
+                "reference": {
+                    "value": "7479120"
+                },
+                "sections": [
+                    {
+                        "title": "Wat is een spookfactuur?",
+                        "reference": {
+                            "value": "7515543"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Ga op onderzoek uit.",
+                        "reference": {
+                            "value": "7515999"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Wat kan je doen tegen spookfacturen ",
+                        "reference": {
+                            "value": "7516805"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Oefenen met spookfacturen ",
+                        "reference": {
+                            "value": "7515559"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Bibliotheek",
+                        "reference": {
+                            "value": "7515560"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Toets ",
+                "reference": {
+                    "value": "7516038"
+                },
+                "sections": []
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": "<p>afbeelding 1 &#39;Fraude&#39; = Nick Youngson - link to - http://www.nyphotographic.com/</p>\n\n<p>afbeelding 2 &#39;spookfactuur&#39;= by <a href=\"https://openclipart.org/artist/Alastair\">Alastair</a>&nbsp; via openclipart</p>\n\n<p>afbeelding 3 &#39;phishing&#39; =&nbsp; Afbeelding van <a href=\"https://pixabay.com/nl/users/mohamed_hassan-5229782/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6573326\">mohamed_hassan</a> via <a href=\"https://pixabay.com/nl//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6573326\">Pixabay</a></p>\n\n<p>video 1 =&nbsp; Voorkom phishing - Eerst checken dan klikken van&nbsp;Veilig internetten</p>\n\n<p>&nbsp;</p>\n",
+        "imageSrc": null,
+        "sources": [
+            {
+                "type": "video",
+                "title": "Wat is phishing ",
+                "origin": "",
+                "customOrigin": null,
+                "link": "https://www.youtube.com/watch?v=emg5I7FS3WY",
+                "visible": true
+            },
+            {
+                "type": "video",
+                "title": "",
+                "origin": "",
+                "customOrigin": null,
+                "link": "https://hrnl-my.sharepoint.com/:v:/r/personal/1032705_hr_nl/Documents/hoe%20zorg%20je%20er%20voor%20dat%20je%20een%20%20spookfactuur%20niet%20betaalt.mp4?csf=1&web=1&e=LsxoML",
+                "visible": true
+            }
+        ],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

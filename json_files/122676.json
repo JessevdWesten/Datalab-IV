@@ -1,0 +1,830 @@
+{
+    "documentAuthors": [
+        "Auteur Kunskapsskolan"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Auteur Kunskapsskolan",
+            "referenceName": null,
+            "reference": {
+                "value": "31844"
+            },
+            "firstName": "Auteur",
+            "infix": null,
+            "lastName": "Kunskapsskolan",
+            "emailAddress": "helpdesk@kunskapsskolan.nl",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2018-04-14T21:01:49Z",
+    "bulkId": "bulk-17041135-refresh_all",
+    "identifier": 122676,
+    "title": "Ruimtelijke figuren herkennen",
+    "description": "Aan het einde van deze les kun je de oppervlakte berekenen van ruimtelijke figuren. ",
+    "lastModifiedDate": "2018-04-14T21:01:49+02:00",
+    "dateCreated": "2018-04-14T20:38:09+02:00",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "Kunskapsskolan, Auteur",
+                "reference": {
+                    "value": "31844"
+                },
+                "firstName": "Auteur",
+                "infix": null,
+                "lastName": "Kunskapsskolan",
+                "emailAddress": "helpdesk@kunskapsskolan.nl",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-40",
+            "name": "CC Naamsvermelding 4.0 Internationale licentie",
+            "description": "De Internationale Creative Commons 4.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/4.0/.",
+            "link": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/122676/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "4247461"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Ruimtelijke figuren",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "questionnaire",
+                    "reference": {
+                        "value": "4247463"
+                    },
+                    "assessmentTestItem": {
+                        "label": "Oefening",
+                        "type": "exercise",
+                        "header": {
+                            "url": "https://maken.wikiwijs.nl/p/questionnaire/standalone/4247463",
+                            "title": "Ruimtelijke figuren herkennen"
+                        },
+                        "introduction": {
+                            "body": "<p>Hierna komen een aantal plaatjes tevoorschijn. Aan jou om eronder te schrijven hoe de figuur heet die je ziet.</p>"
+                        },
+                        "countQuestions": 5,
+                        "sections": [
+                            {
+                                "type": "assessment",
+                                "identifier": "SECTION_4247463",
+                                "name": "MAIN_SECTION",
+                                "select": null,
+                                "shuffle": null,
+                                "selection": null,
+                                "assessmentItems": [
+                                    {
+                                        "identifier": "4247463_0",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "textEntryInteraction",
+                                                "content": {
+                                                    "body": "<p>De afbeelding hieronder is een <textentry identifier=\"TE_661fe08adfb02\"></textentry></p>\n<p><img alt=\"\" src=\"https://upload.wikimedia.org/wikipedia/commons/1/18/Blender-meta-ball.png\" class=\"c1\" /></p>",
+                                                    "items": [
+                                                        {
+                                                            "identifier": "TE_661fe08adfb02",
+                                                            "responseIdentifier": "TE_661fe08adfb02_0",
+                                                            "feedbackInline": null
+                                                        }
+                                                    ]
+                                                },
+                                                "label": "Ruimtelijke figuur ",
+                                                "responseIdentifier": null,
+                                                "feedback": [
+                                                    {
+                                                        "outcomeIdentifier": "FEEDBACK_CORRECT",
+                                                        "identifier": "FBC_4247463_0",
+                                                        "showHide": null,
+                                                        "title": null,
+                                                        "content": {
+                                                            "body": "Goed zo."
+                                                        }
+                                                    },
+                                                    {
+                                                        "outcomeIdentifier": "FEEDBACK_INCORRECT",
+                                                        "identifier": "FBI_4247463_0",
+                                                        "showHide": null,
+                                                        "title": null,
+                                                        "content": {
+                                                            "body": "Jammer, het moest zijn bol."
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "TE_661fe08adfb02_0",
+                                                "cardinality": "record",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "bol"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": false,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": true,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_THRESHOLD",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 1,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    },
+                                    {
+                                        "identifier": "4247463_1",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "choiceInteraction",
+                                                "label": "Ruimtelijke figuur ",
+                                                "prompt": {
+                                                    "body": "<p>De afbeelding is een</p>\n<p><img alt=\"\" src=\"http://www.spage.nl/data/image/147-1.jpg\" class=\"height-320-pixels width-320-pixels\" /></p>"
+                                                },
+                                                "shuffle": false,
+                                                "maxChoices": 2,
+                                                "minChoices": 1,
+                                                "orientation": "vertical",
+                                                "choices": [
+                                                    {
+                                                        "identifier": "0",
+                                                        "content": {
+                                                            "body": "Prisma"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "0",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "1",
+                                                        "content": {
+                                                            "body": "Piramide"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "1",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    }
+                                                ],
+                                                "responseIdentifier": "4247463_1_1",
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "4247463_1_1",
+                                                "cardinality": "ordered",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "0"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0,
+                                                    "default": 0,
+                                                    "mapEntries": [
+                                                        {
+                                                            "key": "0",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "1",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        }
+                                                    ]
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": false,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": true,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_THRESHOLD",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    },
+                                    {
+                                        "identifier": "4247463_2",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "choiceInteraction",
+                                                "label": "Ruimtelijke figuur ",
+                                                "prompt": {
+                                                    "body": "<p>De afbeelding is een </p>\n<p><img alt=\"\" src=\"http://www.merford.com/media/80430/Flamex_akoestische_Cilinder_Baffle_Excl._Ophangoog_Grijs.jpg?width=718&amp;height=280&amp;mode=crop&amp;scale=both\" class=\"height-280-pixels width-718-pixels\" /></p>"
+                                                },
+                                                "shuffle": false,
+                                                "maxChoices": 3,
+                                                "minChoices": 1,
+                                                "orientation": "vertical",
+                                                "choices": [
+                                                    {
+                                                        "identifier": "0",
+                                                        "content": {
+                                                            "body": "Piramide"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "0",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "1",
+                                                        "content": {
+                                                            "body": "Cilinder"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "1",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "2",
+                                                        "content": {
+                                                            "body": "Kegel"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "2",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    }
+                                                ],
+                                                "responseIdentifier": "4247463_2_1",
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "4247463_2_1",
+                                                "cardinality": "ordered",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "1"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0,
+                                                    "default": 0,
+                                                    "mapEntries": [
+                                                        {
+                                                            "key": "0",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "1",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "2",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        }
+                                                    ]
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": false,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": true,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_THRESHOLD",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    },
+                                    {
+                                        "identifier": "4247463_3",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "choiceInteraction",
+                                                "label": "Ruimtelijke figuur ",
+                                                "prompt": {
+                                                    "body": "<p>De figuur hieronder is een </p>\n<p><img alt=\"\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Kegel.png/220px-Kegel.png\" class=\"height-270-pixels width-220-pixels\" /></p>"
+                                                },
+                                                "shuffle": false,
+                                                "maxChoices": 3,
+                                                "minChoices": 1,
+                                                "orientation": "vertical",
+                                                "choices": [
+                                                    {
+                                                        "identifier": "0",
+                                                        "content": {
+                                                            "body": "Piramide"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "0",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "1",
+                                                        "content": {
+                                                            "body": "Cilinder"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "1",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "2",
+                                                        "content": {
+                                                            "body": "Kegel"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "2",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    }
+                                                ],
+                                                "responseIdentifier": "4247463_3_1",
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "4247463_3_1",
+                                                "cardinality": "ordered",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "2"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0,
+                                                    "default": 0,
+                                                    "mapEntries": [
+                                                        {
+                                                            "key": "0",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "1",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "2",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        }
+                                                    ]
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": false,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": true,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_THRESHOLD",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    },
+                                    {
+                                        "identifier": "4247463_4",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "choiceInteraction",
+                                                "label": "Ruimtelijke figuur ",
+                                                "prompt": {
+                                                    "body": "<p>De afbeelding hieronder is een</p>\n<p><img alt=\"\" src=\"data:image/png;base64,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\" /></p>"
+                                                },
+                                                "shuffle": false,
+                                                "maxChoices": 3,
+                                                "minChoices": 1,
+                                                "orientation": "vertical",
+                                                "choices": [
+                                                    {
+                                                        "identifier": "0",
+                                                        "content": {
+                                                            "body": "Piramide"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "0",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "1",
+                                                        "content": {
+                                                            "body": "Cilinder"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "1",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "2",
+                                                        "content": {
+                                                            "body": "Kegel"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "2",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    }
+                                                ],
+                                                "responseIdentifier": "4247463_4_1",
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "4247463_4_1",
+                                                "cardinality": "ordered",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "0"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0,
+                                                    "default": 0,
+                                                    "mapEntries": [
+                                                        {
+                                                            "key": "0",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "1",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "2",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        }
+                                                    ]
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": false,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": true,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_THRESHOLD",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    }
+                                ]
+                            }
+                        ],
+                        "outcomeDeclarations": null,
+                        "showEvaluation": null,
+                        "feedback": null
+                    }
+                }
+            ],
+            "sections": []
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": null,
+            "dimension": null,
+            "suppressTitle": null
+        },
+        "color": "#495057"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Ruimtelijke figuren",
+                "reference": {
+                    "value": "4247461"
+                },
+                "sections": []
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": null,
+        "imageSrc": null,
+        "sources": [],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            },
+            {
+                "key": "keywords",
+                "label": "Trefwoorden",
+                "terms": [
+                    "ruimtelijke figuren"
+                ]
+            }
+        ],
+        "usedLearningResources": [
+            {
+                "author": {
+                    "fullName": null,
+                    "referenceName": "van Meurs, Esther",
+                    "reference": {
+                        "value": "53833"
+                    },
+                    "firstName": "Esther",
+                    "infix": null,
+                    "lastName": "van Meurs",
+                    "emailAddress": "esthervanmeurs@live.nl",
+                    "type": "author"
+                },
+                "title": "Oppervlakte ruimtelijke figuren",
+                "url": "https://maken.wikiwijs.nl/98805/",
+                "datePublished": "2017-03-22T19:45:08+01:00"
+            }
+        ]
+    }
+}

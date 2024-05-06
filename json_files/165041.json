@@ -1,0 +1,2108 @@
+{
+    "documentAuthors": [
+        "Marloes Amesz"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Marloes Amesz",
+            "referenceName": null,
+            "reference": {
+                "value": "137144"
+            },
+            "firstName": "Marloes",
+            "infix": null,
+            "lastName": "Amesz",
+            "emailAddress": "marloes.amesz@student.hu.nl",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2020-07-19T23:04:15Z",
+    "bulkId": "bulk-17041658-refresh_all",
+    "identifier": 165041,
+    "title": "Een verhaal programmeren",
+    "description": "De kinderen leren de basis van het programma Scratch en kunnen vervolgens zelf een nieuwe achtergrond in vakantiethema toevoegen. ",
+    "lastModifiedDate": "2020-07-19T23:04:15+02:00",
+    "dateCreated": "2020-07-18T19:44:01+02:00",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "Amesz, Marloes",
+                "reference": {
+                    "value": "137144"
+                },
+                "firstName": "Marloes",
+                "infix": null,
+                "lastName": "Amesz",
+                "emailAddress": "marloes.amesz@student.hu.nl",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-40",
+            "name": "CC Naamsvermelding 4.0 Internationale licentie",
+            "description": "De Internationale Creative Commons 4.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/4.0/.",
+            "link": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/165041/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "6194011"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Introductie",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "video",
+                    "url": "https://youtu.be/EwbEb34a70Y",
+                    "align": "left",
+                    "caption": "Introductie",
+                    "poster": "https://img.youtube.com/vi/EwbEb34a70Y/maxresdefault.jpg"
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6194278"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6194278",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Vraag",
+                                "prompt": {
+                                    "body": "<p>Waar denk jij aan bij vakantie?</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6194278_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>kamperen, tent, caravan, camping, hotel, zwembad, strand, vliegtuig, koffers, auto, zon, sneeuw...</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>kamperen, tent, caravan, camping, hotel, zwembad, strand, vliegtuig, koffers, auto, zon, sneeuw...</p>"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "6194013"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Opdracht zonder computer",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "video",
+                    "url": "https://youtu.be/ye-Fn2A3nTg",
+                    "align": "left",
+                    "caption": "Opdracht zonder computer",
+                    "poster": "https://img.youtube.com/vi/ye-Fn2A3nTg/maxresdefault.jpg"
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6194320"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6194320",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Ik ga op vakantie maar eerst... en dan... en tot slot...",
+                                "prompt": {
+                                    "body": "<p>Wanneer je op vakantie gaat doe je een aantal stappen op volgorde. </p>\n<p>Wat doe jij allemaal als je op vakantie gaat? (noem 3 dingen, vul de zinnen aan)</p>\n<p>Eerst.......</p>\n<p>Daarna......</p>\n<p>Tot slot......</p>\n<p> </p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6194320_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>Eerst ga ik mijn koffers pakken.</p>\r\n\r\n<p>Daarna ga ik met de auto op zoek naar een leuke vakantie plek</p>\r\n\r\n<p>Tot slot ga ik op het strand liggen met een boekje</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>Eerst ga ik mijn koffers pakken.</p>\n<p>Daarna ga ik met de auto op zoek naar een leuke vakantie plek</p>\n<p>Tot slot ga ik op het strand liggen met een boekje</p>"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "video",
+                    "url": "https://youtu.be/jv73da5PwkY",
+                    "align": "left",
+                    "caption": "Sequentie",
+                    "poster": "https://img.youtube.com/vi/jv73da5PwkY/maxresdefault.jpg"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "6194014"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Bestaand verhaal",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "video",
+                    "url": "https://youtu.be/V3O7fOaEVqE",
+                    "align": "left",
+                    "caption": "Bestaand verhaal bekijken",
+                    "poster": "https://img.youtube.com/vi/V3O7fOaEVqE/maxresdefault.jpg"
+                },
+                {
+                    "type": "video",
+                    "url": "https://youtu.be/tWtMaGNzB8o",
+                    "align": "left",
+                    "caption": "Verhaal in scratch",
+                    "poster": "https://img.youtube.com/vi/tWtMaGNzB8o/maxresdefault.jpg"
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6194457"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6194457",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "selectPointInteraction",
+                                "label": "Sprites",
+                                "prompt": {
+                                    "body": "<p>Hieronder zie je een afbeelding uit het verhaal in Scratch. Kan jij aanwijzen waar je de sprites kan vinden?</p>"
+                                },
+                                "minNumberOfPins": 1,
+                                "maxNumberOfPins": "1",
+                                "image": {
+                                    "src": "https://maken.wikiwijs.nl/userfiles/9/9cb37cacb8a85b7ae2bb9bbb60c102bcecd55f46.jpg",
+                                    "width": "1920",
+                                    "height": "845"
+                                },
+                                "responseIdentifier": "6194457_1",
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_CORRECT",
+                                        "identifier": "FBC_6194457",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "Heel goed! Daar kan je de sprites vinden."
+                                        }
+                                    },
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_INCORRECT",
+                                        "identifier": "FBI_6194457",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "Probeer het nog een keer."
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6194457_1",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": null,
+                                "mapping": null,
+                                "areaMapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "areaMapEntries": [
+                                        {
+                                            "shape": "rectangle",
+                                            "coordinates": [
+                                                {
+                                                    "x": 0,
+                                                    "y": 0,
+                                                    "z": null
+                                                },
+                                                {
+                                                    "x": 0,
+                                                    "y": 0,
+                                                    "z": null
+                                                },
+                                                {
+                                                    "x": 0,
+                                                    "y": 0,
+                                                    "z": null
+                                                },
+                                                {
+                                                    "x": 0,
+                                                    "y": 0,
+                                                    "z": null
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 1,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6194477"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6194477",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "selectPointInteraction",
+                                "label": "Achtergronden",
+                                "prompt": {
+                                    "body": "<p>Weet jij waar je moet klikken om een nieuwe achtergrond toe te voegen?</p>"
+                                },
+                                "minNumberOfPins": 1,
+                                "maxNumberOfPins": "1",
+                                "image": {
+                                    "src": "https://maken.wikiwijs.nl/userfiles/9/9cb37cacb8a85b7ae2bb9bbb60c102bcecd55f46.jpg",
+                                    "width": "1920",
+                                    "height": "845"
+                                },
+                                "responseIdentifier": "6194477_1",
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_CORRECT",
+                                        "identifier": "FBC_6194477",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "Goed! Hier moet je op klikken om een andere achtergrond te kiezen."
+                                        }
+                                    },
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_INCORRECT",
+                                        "identifier": "FBI_6194477",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "Probeer het nog een keer."
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6194477_1",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": null,
+                                "mapping": null,
+                                "areaMapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "areaMapEntries": [
+                                        {
+                                            "shape": "rectangle",
+                                            "coordinates": [
+                                                {
+                                                    "x": 0,
+                                                    "y": 0,
+                                                    "z": null
+                                                },
+                                                {
+                                                    "x": 0,
+                                                    "y": 0,
+                                                    "z": null
+                                                },
+                                                {
+                                                    "x": 0,
+                                                    "y": 0,
+                                                    "z": null
+                                                },
+                                                {
+                                                    "x": 0,
+                                                    "y": 0,
+                                                    "z": null
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 1,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6194483"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6194483",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Code van Dee",
+                                "prompt": {
+                                    "body": "<p>Hier zie je een code van Dee.<br />\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/80f6f27731905eda54d9ab8a6b23262cb1736677.JPG\" class=\"height-172-pixels width-348-pixels\" /></p>\n<p>Kan jij uitleggen wat er precies zal gebeuren bij deze code?</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6194483_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>Wanneer de achtergrond veranderd naar strand, verplaatst Dee naar x -152 en y 10 en daarna zal zijn uiterlijk naar Dee-b veranderen.</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>Wanneer de achtergrond veranderd naar strand, verplaatst Dee naar x -152 en y 10 en daarna zal zijn uiterlijk naar Dee-b veranderen.</p>"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6194485"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6194485",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "choiceInteraction",
+                                "label": "Pijl",
+                                "prompt": {
+                                    "body": "<p>Wat gebeurt er als je op de roze pijl klikt?</p>"
+                                },
+                                "shuffle": false,
+                                "maxChoices": 2,
+                                "minChoices": 1,
+                                "orientation": "vertical",
+                                "choices": [
+                                    {
+                                        "identifier": "0",
+                                        "content": {
+                                            "body": "De achtergrond verandert naar de volgende achtergrond."
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "0",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "1",
+                                        "content": {
+                                            "body": "De achtergrond blijft het zelfde."
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "1",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    }
+                                ],
+                                "responseIdentifier": "6194485_1",
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6194485_1",
+                                "cardinality": "ordered",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0,
+                                    "default": 0,
+                                    "mapEntries": [
+                                        {
+                                            "key": "0",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "1",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        }
+                                    ]
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6194488"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6194488",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "gapMatchInteraction",
+                                "content": {
+                                    "body": "<p>Hier zie je nog een code. Kijk naar de zinnen onder de code en sleep de juiste tekst op de lijn.</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/9/96c8eb2cfa3a65d6980b96e6a1bbbb6712234cc2.JPG\" class=\"height-196-pixels width-475-pixels\" /></p>\n<p>Eerst <gap identifier=\"GM_66200f462119d\"></gap></p>\n<p>Daarna <gap identifier=\"GM_66200f46211ab\"></gap></p>\n<p>Tot slot <gap identifier=\"GM_66200f46211af\"></gap></p>\n<p>Dit heet <gap identifier=\"GM_66200f46211b2\"></gap></p>",
+                                    "items": [
+                                        {
+                                            "identifier": "GM_66200f46211af",
+                                            "answer": {
+                                                "identifier": "GMT_66200f46211b0",
+                                                "content": {
+                                                    "body": "zegt zij: \"Er moeten wel echte golven komen om te surfen!\""
+                                                }
+                                            },
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "GM_66200f46211ab",
+                                            "answer": {
+                                                "identifier": "GMT_66200f46211ac",
+                                                "content": {
+                                                    "body": "wacht de sprite 5 seconden"
+                                                }
+                                            },
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "GM_66200f462119d",
+                                            "answer": {
+                                                "identifier": "GMT_66200f462119e",
+                                                "content": {
+                                                    "body": "verandert de achtergrond naar strand"
+                                                }
+                                            },
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "GM_66200f46211b2",
+                                            "answer": {
+                                                "identifier": "GMT_66200f46211b3",
+                                                "content": {
+                                                    "body": "sequentie"
+                                                }
+                                            },
+                                            "feedbackInline": null
+                                        }
+                                    ]
+                                },
+                                "label": "Nog een code",
+                                "responseIdentifier": "6194488_1",
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_CORRECT",
+                                        "identifier": "FBC_6194488",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "Juist! Goed gedaan"
+                                        }
+                                    },
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_INCORRECT",
+                                        "identifier": "FBI_6194488",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "Probeer het nog eens"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6194488_1",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": "GM_66200f462119d",
+                                            "value": "GMT_66200f462119e"
+                                        },
+                                        {
+                                            "fieldIdentifier": "GM_66200f46211ab",
+                                            "value": "GMT_66200f46211ac"
+                                        },
+                                        {
+                                            "fieldIdentifier": "GM_66200f46211af",
+                                            "value": "GMT_66200f46211b0"
+                                        },
+                                        {
+                                            "fieldIdentifier": "GM_66200f46211b2",
+                                            "value": "GMT_66200f46211b3"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": [
+                                        {
+                                            "key": "GM_66200f462119d",
+                                            "value": 0.25,
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "GM_66200f46211ab",
+                                            "value": 0.25,
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "GM_66200f46211af",
+                                            "value": 0.25,
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "GM_66200f46211b2",
+                                            "value": 0.25,
+                                            "caseSensitive": false
+                                        }
+                                    ]
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 1,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "6194015"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Verhaal namaken",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "video",
+                    "url": "https://youtu.be/2r4Wvf2zgxc",
+                    "align": "left",
+                    "caption": "Verhaal namaken",
+                    "poster": "https://img.youtube.com/vi/2r4Wvf2zgxc/maxresdefault.jpg"
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6194491"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6194491",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Verhaal namaken",
+                                "prompt": {
+                                    "body": "<p>Nu ga je het verhaal zelf namaken in Scratch. Ga naar <a href=\"https://scratch.mit.edu/\" target=\"_blank\">https://scratch.mit.edu/</a></p>\n<p>Kijk gerust vaker naar het filmpje zodat je het precies na kan maken.</p>\n<p>Vul hier jouw nieuwe link in van jouw nagemaakte verhaal.</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6194491_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>Link van jouw nagemaakte verhaal in Scratch.</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>Link van jouw nagemaakte verhaal in Scratch.</p>"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "6194016"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Verhaal aanpassen",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "video",
+                    "url": "https://youtu.be/_0co1BaKPdk",
+                    "align": "left",
+                    "caption": "Verhaal aanpassen",
+                    "poster": "https://img.youtube.com/vi/_0co1BaKPdk/maxresdefault.jpg"
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6194599"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6194599",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Verhaal aanpassen",
+                                "prompt": {
+                                    "body": "<p>Nu ga je zelf het verhaal aanpassen. Ga naar <a href=\"https://scratch.mit.edu/projects/411632019/\" target=\"_blank\">https://scratch.mit.edu/projects/411632019/</a></p>\n<p>1. Kies een nieuwe achtergrond met het thema zwembad.</p>\n<p>2. Zorg dat de sprites van Abby, Dee en de pijl ook op deze achtergrond te zien zijn? Als het niet automatisch gaat, moet je deze toevoegen.</p>\n<p>3. Zorg dat een van de twee sprites iets zegt.</p>\n<p>Extra. Lukt het jou om Abby en Dean iets tegen elkaar te laten zeggen?</p>\n<p>Tip: gebruik de wachttijd om ervoor te zorgen dat ze niet tegelijk tegen elkaar praten!</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6194599_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>Sla jouw aangepaste project op en zet de link ik het antwoord.</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>Sla jouw aangepaste project op en zet de link ik het antwoord.</p>"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "6194017"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Een nieuw verhaal maken",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "video",
+                    "url": "https://youtu.be/s_8oryDFcJQ",
+                    "align": "left",
+                    "caption": "Zelf een verhaal maken",
+                    "poster": "https://img.youtube.com/vi/s_8oryDFcJQ/maxresdefault.jpg"
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6194611"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6194611",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Zelf een verhaal maken",
+                                "prompt": {
+                                    "body": "<p>Nu ga je zelf een verhaal maken. Ga naar <a href=\"https://scratch.mit.edu/\" target=\"_blank\">https://scratch.mit.edu/</a> en klik op maak. </p>\n<p>Maak nu zelf een verhaal over een vakantie. Het verhaal moet een inleiding, probleem en een oplossing hebben. </p>\n<p>- Gebruik 3 verschillende achtergronden</p>\n<p>- Gebruik en programmeer de pijl (arrow) om naar de volgende achtergrond te gaan</p>\n<p>- Gebruik minimaal 1 sprite voor jouw verhaal</p>\n<p>- Laat jouw sprite bij elke achtergrond iets zeggen</p>\n<p>Extra. <br />\nAls je twee sprites gebruikt, laat ze dan iets tegen elkaar vertellen bij elke achtergrond. </p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6194611_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>Plaats de&nbsp;link van jouw gemaakte verhaal in het antwoordblok.&nbsp;</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>Plaats de link van jouw gemaakte verhaal in het antwoordblok. </p>"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "6194019"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Evaluatie",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6194613"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6194613",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "choiceInteraction",
+                                "label": "Opdracht zonder computer",
+                                "prompt": {
+                                    "body": "<p>Door eerst een opdracht zonder de computer te doen wist ik goed hoe een computer programmeeropdrachten uitvoert</p>"
+                                },
+                                "shuffle": false,
+                                "maxChoices": 3,
+                                "minChoices": 1,
+                                "orientation": "vertical",
+                                "choices": [
+                                    {
+                                        "identifier": "0",
+                                        "content": {
+                                            "body": "Ja"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "0",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "1",
+                                        "content": {
+                                            "body": "een beetje"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "1",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "2",
+                                        "content": {
+                                            "body": "Nee"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "2",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    }
+                                ],
+                                "responseIdentifier": "6194613_1",
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6194613_1",
+                                "cardinality": "ordered",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": []
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0,
+                                    "default": 0,
+                                    "mapEntries": [
+                                        {
+                                            "key": "0",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "1",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "2",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        }
+                                    ]
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6194614"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6194614",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "choiceInteraction",
+                                "label": "Verhaal namaken",
+                                "prompt": {
+                                    "body": "<p>Door het verhaal na te maken leerde ik het programma Scratch goed kennen.</p>\n<p> </p>"
+                                },
+                                "shuffle": false,
+                                "maxChoices": 3,
+                                "minChoices": 1,
+                                "orientation": "vertical",
+                                "choices": [
+                                    {
+                                        "identifier": "0",
+                                        "content": {
+                                            "body": "Ja"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "0",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "1",
+                                        "content": {
+                                            "body": "een beetje"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "1",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "2",
+                                        "content": {
+                                            "body": "Nee"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "2",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    }
+                                ],
+                                "responseIdentifier": "6194614_1",
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6194614_1",
+                                "cardinality": "ordered",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": []
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0,
+                                    "default": 0,
+                                    "mapEntries": [
+                                        {
+                                            "key": "0",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "1",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "2",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        }
+                                    ]
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6194615"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6194615",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "choiceInteraction",
+                                "label": "Code",
+                                "prompt": {
+                                    "body": "<p>Wist jij voor deze les al wat een code was?</p>"
+                                },
+                                "shuffle": false,
+                                "maxChoices": 2,
+                                "minChoices": 1,
+                                "orientation": "vertical",
+                                "choices": [
+                                    {
+                                        "identifier": "0",
+                                        "content": {
+                                            "body": "Ja"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "0",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "1",
+                                        "content": {
+                                            "body": "Nee"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "1",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    }
+                                ],
+                                "responseIdentifier": "6194615_1",
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6194615_1",
+                                "cardinality": "ordered",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": []
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0,
+                                    "default": 0,
+                                    "mapEntries": [
+                                        {
+                                            "key": "0",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "1",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        }
+                                    ]
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6194616"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6194616",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "choiceInteraction",
+                                "label": "Code",
+                                "prompt": {
+                                    "body": "<p>Weet je nu wel wat een code is en kan je deze uitleggen?</p>"
+                                },
+                                "shuffle": false,
+                                "maxChoices": 3,
+                                "minChoices": 1,
+                                "orientation": "vertical",
+                                "choices": [
+                                    {
+                                        "identifier": "0",
+                                        "content": {
+                                            "body": "Ja"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "0",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "1",
+                                        "content": {
+                                            "body": "Nee"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "1",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "2",
+                                        "content": {
+                                            "body": "Wist ik al"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "2",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    }
+                                ],
+                                "responseIdentifier": "6194616_1",
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6194616_1",
+                                "cardinality": "ordered",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": []
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0,
+                                    "default": 0,
+                                    "mapEntries": [
+                                        {
+                                            "key": "0",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "1",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "2",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        }
+                                    ]
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6194617"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6194617",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "choiceInteraction",
+                                "label": "Sequentie",
+                                "prompt": {
+                                    "body": "<p>Ik weet nu wat het programmeerconcept sequentie is.</p>"
+                                },
+                                "shuffle": false,
+                                "maxChoices": 3,
+                                "minChoices": 1,
+                                "orientation": "vertical",
+                                "choices": [
+                                    {
+                                        "identifier": "0",
+                                        "content": {
+                                            "body": "Ja"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "0",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "1",
+                                        "content": {
+                                            "body": "een beetje"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "1",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "2",
+                                        "content": {
+                                            "body": "Nee"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "2",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    }
+                                ],
+                                "responseIdentifier": "6194617_1",
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6194617_1",
+                                "cardinality": "ordered",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0,
+                                    "default": 0,
+                                    "mapEntries": [
+                                        {
+                                            "key": "0",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "1",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "2",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        }
+                                    ]
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6194618"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6194618",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Mening",
+                                "prompt": {
+                                    "body": "<p>Vond je dit een leuke les?</p>\n<p>Zo ja, wat vond je leuk? Zo nee, wat vond je niet zo leuk?</p>\n<p>Zijn er dingen die nog wil leren na deze les?</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6194618_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>Ja, met uitleg</p>\r\n\r\n<p>Nee, met uitleg</p>\r\n\r\n<p>Ik zou graag nog willen leren om...</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>Ja, met uitleg</p>\n<p>Nee, met uitleg</p>\n<p>Ik zou graag nog willen leren om...</p>"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "sections": []
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": null,
+            "dimension": null,
+            "suppressTitle": null
+        },
+        "color": "#333333"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Introductie",
+                "reference": {
+                    "value": "6194011"
+                },
+                "sections": []
+            },
+            {
+                "title": "Opdracht zonder computer",
+                "reference": {
+                    "value": "6194013"
+                },
+                "sections": []
+            },
+            {
+                "title": "Bestaand verhaal",
+                "reference": {
+                    "value": "6194014"
+                },
+                "sections": []
+            },
+            {
+                "title": "Verhaal namaken",
+                "reference": {
+                    "value": "6194015"
+                },
+                "sections": []
+            },
+            {
+                "title": "Verhaal aanpassen",
+                "reference": {
+                    "value": "6194016"
+                },
+                "sections": []
+            },
+            {
+                "title": "Een nieuw verhaal maken",
+                "reference": {
+                    "value": "6194017"
+                },
+                "sections": []
+            },
+            {
+                "title": "Evaluatie",
+                "reference": {
+                    "value": "6194019"
+                },
+                "sections": []
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": null,
+        "imageSrc": null,
+        "sources": [
+            {
+                "type": "video",
+                "title": "Introductie",
+                "origin": "Introductie",
+                "customOrigin": null,
+                "link": "https://youtu.be/EwbEb34a70Y",
+                "visible": true
+            },
+            {
+                "type": "video",
+                "title": "Opdracht zonder computer",
+                "origin": "Opdracht zonder computer",
+                "customOrigin": null,
+                "link": "https://youtu.be/ye-Fn2A3nTg",
+                "visible": true
+            },
+            {
+                "type": "video",
+                "title": "Sequentie",
+                "origin": "Sequentie",
+                "customOrigin": null,
+                "link": "https://youtu.be/jv73da5PwkY",
+                "visible": true
+            },
+            {
+                "type": "video",
+                "title": "Bestaand verhaal bekijken",
+                "origin": "Bestaand verhaal bekijken",
+                "customOrigin": null,
+                "link": "https://youtu.be/V3O7fOaEVqE",
+                "visible": true
+            },
+            {
+                "type": "video",
+                "title": "Verhaal in scratch",
+                "origin": "Verhaal in scratch",
+                "customOrigin": null,
+                "link": "https://youtu.be/tWtMaGNzB8o",
+                "visible": true
+            },
+            {
+                "type": "video",
+                "title": "Verhaal namaken",
+                "origin": "Verhaal namaken",
+                "customOrigin": null,
+                "link": "https://youtu.be/2r4Wvf2zgxc",
+                "visible": true
+            },
+            {
+                "type": "video",
+                "title": "Verhaal aanpassen",
+                "origin": "Verhaal aanpassen",
+                "customOrigin": null,
+                "link": "https://youtu.be/_0co1BaKPdk",
+                "visible": true
+            },
+            {
+                "type": "video",
+                "title": "Zelf een verhaal maken",
+                "origin": "Zelf een verhaal maken",
+                "customOrigin": null,
+                "link": "https://youtu.be/s_8oryDFcJQ",
+                "visible": true
+            }
+        ],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            },
+            {
+                "key": "learningTime",
+                "label": "Studiebelasting",
+                "terms": [
+                    "4 uur en 0 minuten"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

@@ -1,0 +1,274 @@
+{
+    "documentAuthors": [
+        "O Hagenauw"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "O Hagenauw",
+            "referenceName": null,
+            "reference": {
+                "value": "54537"
+            },
+            "firstName": "O",
+            "infix": null,
+            "lastName": "Hagenauw",
+            "emailAddress": "hagenauw@gmail.com",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2022-12-08T15:24:36Z",
+    "bulkId": "bulk-17041658-refresh_all",
+    "identifier": 151376,
+    "title": "1.4.3.6 Opdracht 6 Arduino : Schakelaar",
+    "description": "Arduino opdracht",
+    "lastModifiedDate": "2022-12-08T15:24:36+01:00",
+    "dateCreated": "2019-10-09T10:23:06+02:00",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "Hagenauw, O",
+                "reference": {
+                    "value": "54537"
+                },
+                "firstName": "O",
+                "infix": null,
+                "lastName": "Hagenauw",
+                "emailAddress": "hagenauw@gmail.com",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-40",
+            "name": "CC Naamsvermelding 4.0 Internationale licentie",
+            "description": "De Internationale Creative Commons 4.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/4.0/.",
+            "link": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/151376/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "5562936"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Opdracht 6 Schakelaar",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "5562937"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Inleiding",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>In deze opdracht ga je een eenvoudige schakelaar bouwen. Wanneer je op de toets drukt, dan gaat de LED branden. Dit kan in feite ook zonder <a href=\"https://www.conrad.nl/nl/arduino-boards-o2420142.html\" target=\"_self\"><span class=\"underline\">Arduino</span></a> door de LED en de toets in serie te schakelen, maar dit voorbeeld geeft erg goed de werking van de I/O's op je Arduino-board aan.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "5562939"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Benodige onderdelen",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>De benodigede onderdelen zoals hieronder zijn beschreven zullen worden verstrek door de docent</p>\n<ul>\n<li>1 <a href=\"https://www.conrad.nl/nl/l-53-hd-led-bedraad-rood-rond-5-mm-11-mcd-60-20-ma-225-v-184543.html\" target=\"_self\"><span class=\"underline\">Rode LED</span></a></li>\n<li>1 <a href=\"https://www.conrad.nl/nl/royalohm-cfr0w4j0151a50-koolfilmweerstand-150-axiaal-bedraad-0207-025-w-1-stuks-1089137.html\" target=\"_self\"><span class=\"underline\">Weerstand 150 Ohm</span></a></li>\n<li>1 <a href=\"https://www.conrad.nl/nl/apem-phap3301-druktoets-12-vdc-005-a-1x-uitaan-schakelend-1-stuks-700324.html\" target=\"_self\"><span class=\"underline\">Druktoets</span></a></li>\n<li>1 <a href=\"https://www.conrad.nl/nl/royalohm-cfr0w4j0103a50-koolfilmweerstand-10-k-axiaal-bedraad-0207-025-w-1-stuks-1089159.html\" target=\"_self\"><span class=\"underline\">Weerstand 10 kOhm</span></a></li>\n<li>5 <a href=\"https://www.conrad.nl/nl/insteekbruggenset-l-x-b-x-h-168-x-555-x-145-mm-eic-j-s-70-stuks-524530.html\" target=\"_self\"><span class=\"underline\">Draadbruggen (1 set)</span></a></li>\n<li>1 <a href=\"https://www.conrad.nl/nl/breadboard-totaal-aantal-polen-400-l-x-b-x-h-84-x-54-x-85-mm-eic-801-1-stuks-526819.html\" target=\"_self\"><span class=\"underline\">Breadboard</span></a></li>\n</ul>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "5562941"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Schakeling",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/4/4cdbd96a2b2df168567a95fb6585d26337966484.jpg",
+                            "altText": "",
+                            "alignment": "center",
+                            "scale": 0.6,
+                            "link": ""
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/0/09ad3ad6d3b6ad34b9e67db54da2bbed7ccd8efb.jpg",
+                            "altText": "",
+                            "alignment": "center",
+                            "scale": 0.6,
+                            "link": ""
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<ol>\n<li><span class=\"font-size-14px\">Plaats een draadbrug tussen de 5V-aansluiting van je Arduino en de rood gemarkeerde strook op het breadboard. Het maakt niet uit welke draadbrug je hier voor kiest.</span></li>\n<li><span class=\"font-size-14px\">Plaats een draadbrug tussen de GND-aansluiting van je Arduino en de blauw gemarkeerde strook op het breadboard.<br/>\n<br/>\n<em>// De eerste stap bij het bouwen van vrijwel iedere schakeling is het aansluiten van de voeding op het breadboard. De 5V- en GND-aansluiting van je Arduino dienen in dit project als voeding, deze worden doorverbonden naar het breadboard waardoor ook hier spanning op staat.</em></span></li>\n<li><span class=\"font-size-14px\">Plaats de rode LED op het breadboard, let daarbij goed op de polariteit (+/-) van de LED en verbind de pootjes tussen twee stroken op het breadboard.</span></li>\n<li><span class=\"font-size-14px\">Plaats een draadbrug tussen de anode (+) van de LED en digitale I/O 3 op de Arduino.<br/>\n<br/>\n<em>// Je sluit de anode van de LED via een draadbrug aan op de Arduino en niet op 5V omdat je de LED wilt aansturen met de Arduino op basis van input (de druktoets).</em></span></li>\n<li><span class=\"font-size-14px\">Plaats een weerstand van 150 Ohm (bruin/groen/bruin) tussen de kathode (-) van de LED en de blauwe GND-strook van het breadboard.<br/>\n<br/>\n<em>// Deze LED heeft een voorschakelweerstand van 150 Ohm nodig om niet teveel spanning over de LED te laten lopen (deze is geschikt voor maximaal 2,25V).</em></span></li>\n<li><span class=\"font-size-14px\">Plaats de druktoets tussen de twee zijden van je breadboard.<br/>\n<br/>\n<em>// De druktoets maakt pas contact wanneer je deze indrukt. Dit contact wordt gevormd tussen de twee aansluitingen aan dezelfde zijde. De overliggende aansluitingen maken standaard al contact met elkaar.</em></span></li>\n<li><span class=\"font-size-14px\">Sluit het linker pootje van de toets (zie schema) aan op de op 5V strook van het breadboard.</span></li>\n<li><span class=\"font-size-14px\">Plaats een weerstand van 10kOhm (bruin/zwart/oranje) tussen het pootje aan de rechterzijde van de toets en de op GND aangesloten strook van het breadboard.</span></li>\n<li><span class=\"font-size-14px\">Verbind het rechter pootje van de toets via een draadbrug met digitale aansluiting 2 van je Arduino. Plaats deze draadbrug tussen de 10 kOhm weerstand uit stap 8 en de toets.<br/>\n<br/>\n<em>// Wanneer je een digitale I/O als ingang gebruikt, dan kan er storing ontstaan wanneer er weinig tot geen spanning op deze ingang staat. Voor momenten dat de toets niet wordt ingedrukt wil je een veiligheid inbouwen die alle spanning tegenhoudt (de spanning is daardoor altijd 0). Deze veiligheid noem je een 'pull-down-weerstand' en plaats je in de vorm van een 10 kOhm weerstand tussen GND en digitale aansluiting 2.</em></span></li>\n</ol>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "5562945"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Sketch",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><span class=\"font-size-14px\">Je gaat nu de sketch schrijven om alle verschillende onderdelen van de hardware aan te sturen.</span></p>\n<p><span class=\"font-size-14px\">Open hiervoor de Arduino software op je computer. Er opent vanzelf een lege sketch.<br/>\nWe gaan nu stap-voor-stap de verschillende onderdelen van de sketch bespreken.</span></p>\n<p><span class=\"font-size-14px\">Je hebt twee aansluitingen gebruikt in je opstelling. Om de sketch begrijpelijk te houden is het makkelijk om deze aansluitingen aan het begin van de Sketch vast een naam te geven. Deze aansluiting verandert niet (het is een constante) en heeft een gehele numerieke waarde (integer). De LED is bijvoorbeeld aangesloten op aansluiting 3.</span></p>\n<p><span class=\"font-size-14px\"><span class=\"underline\"><strong>Let op</strong></span>: alles in de Arduino-sketch is hoofdlettergevoelig! Het is daarbij gebruikelijk om eigen waarden te beginnen met een kleine letter om vervolgens over te gaan naar een hoofdletter voor elk nieuw woord (kleinGroot). Dit hoeft niet, maar je zult zien dat veel mensen het wel zo toepassen.</span></p>\n<p><img alt=\"\" src=\"data:image/png;base64,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\"/></p>\n<div> </div>\n<div>\n<p><span class=\"font-size-14px\">Wat nu volgt is de setup(), hier geef je eenmalig aan wat de juiste instellingen voor deze sketch zijn.</span></p>\n<p><span class=\"font-size-14px\">Geef als eerste aan dat de aansluiting die je in de vorige stap hebt aangeduid als LED dient als uitgang (output) in deze sketch. De toets wordt gebruikt als ingang (input).</span></p>\n</div>\n<div><img alt=\"\" src=\"data:image/png;base64,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\"/></div>\n<div>\n<p><span class=\"font-size-14px\">De sketch komt nu aan bij het loop() gedeelte waar daadwerkelijke acties zich keer op keer herhalen.</span></p>\n<p><span class=\"font-size-14px\">Als eerste maak je hier een waarde (int) aan genaamd 'toetsWaarde'. Dit is de digitale waarde (aan of uit) die wordt uitgelezen bij de druktoets. Hiermee bepaal je dadelijk of de LED aan of uit moet.</span></p>\n</div>\n<div><img alt=\"\" src=\"data:image/png;base64,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\"/></div>\n<div>\n<p><span class=\"font-size-14px\">Je begint met het cre\u00ebren van een voorwaarde. Namelijk; als (if) de toetsWaarde aan is 'HIGH'. Als aan deze voorwaarde wordt voldaan (== betekent gelijk aan), dan wordt er spanning gezet op de LED-aansluiting. Dit doe je door deze digitale uitgang op 'HIGH' te zetten.<br/>\nAls de toetswaarde niet 'HIGH' is (de waarde is dan dus anders, oftewel 'else'), dan moet de LED uit blijven. Dit doe je door de LED-uitgang op 'LOW' te zetten.</span></p>\n<p><span class=\"font-size-14px\">Het haakje } op het einde dient als afsluiting van de loop(). Je hebt deze namelijk ook geopend met een haakje {.</span></p>\n</div>\n<div><img alt=\"\" src=\"data:image/png;base64,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\"/></div>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "5562947"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Uitvoeren van Sketch",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Sluit nu de Arduino via de USB-kabel aan op de computer. Je zult zien dat het ON-lampje gaat branden. Nu kun je de sketch uploaden naar de Arduino via de upload-knop in de software. De RX/TX-lampjes gaan even knipperen, vervolgens zie je in de software staan dat de upload is geslaagd. De schakelaar is klaar voor gebruik!</p>\n<p><span class=\"font-size-14px underline\"><strong>CONTROLE OP WERKING</strong></span></p>\n<p>Druk nu eens op de toets. Je zult zien dat de LED aan gaat. Zodra je de toets los laat schakelt de LED ook weer uit.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": null,
+            "dimension": null,
+            "suppressTitle": null
+        },
+        "color": "#495057"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Opdracht 6 Schakelaar",
+                "reference": {
+                    "value": "5562936"
+                },
+                "sections": [
+                    {
+                        "title": "Inleiding",
+                        "reference": {
+                            "value": "5562937"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Benodige onderdelen",
+                        "reference": {
+                            "value": "5562939"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Schakeling",
+                        "reference": {
+                            "value": "5562941"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Sketch",
+                        "reference": {
+                            "value": "5562945"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Uitvoeren van Sketch",
+                        "reference": {
+                            "value": "5562947"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": null,
+        "imageSrc": null,
+        "sources": [],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            }
+        ],
+        "usedLearningResources": [
+            {
+                "author": {
+                    "fullName": null,
+                    "referenceName": "Hagenauw, O",
+                    "reference": {
+                        "value": "54537"
+                    },
+                    "firstName": "O",
+                    "infix": null,
+                    "lastName": "Hagenauw",
+                    "emailAddress": "hagenauw@gmail.com",
+                    "type": "author"
+                },
+                "title": "1.4.3.3 Opdracht 3 Arduino : Parallelschakeling",
+                "url": "https://maken.wikiwijs.nl/151368/",
+                "datePublished": "2022-12-08T15:19:14+01:00"
+            }
+        ]
+    }
+}

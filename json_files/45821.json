@@ -1,0 +1,436 @@
+{
+    "documentAuthors": [
+        "Marjo Stalmeier"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Marjo Stalmeier",
+            "referenceName": null,
+            "reference": {
+                "value": "6330"
+            },
+            "firstName": "Marjo",
+            "infix": "",
+            "lastName": "Stalmeier",
+            "emailAddress": "marjo.stalmeier@ou.nl",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2013-08-09T10:38:18Z",
+    "bulkId": "bulk-17041135-refresh_all",
+    "identifier": 45821,
+    "title": "Test 2",
+    "description": "",
+    "lastModifiedDate": "2013-08-09T10:38:18+02:00",
+    "dateCreated": "-0001-11-30T00:00:00+00:19",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "Stalmeier, Marjo",
+                "reference": {
+                    "value": "6330"
+                },
+                "firstName": "Marjo",
+                "infix": "",
+                "lastName": "Stalmeier",
+                "emailAddress": "marjo.stalmeier@ou.nl",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-30",
+            "name": "CC Naamsvermelding 3.0 Nederland licentie",
+            "description": "De Nederlandse Creative Commons 3.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/3.0/nl/.",
+            "link": "http://creativecommons.org/licenses/by/3.0/nl/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/45821/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "642619"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Opdrachten",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Dit is een tekst om verandering van kleur te testen.</p>\n"
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "642622"
+                    },
+                    "assessmentItem": {
+                        "identifier": "642622",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "matchInteraction",
+                                "label": "Plaatjes",
+                                "prompt": {
+                                    "body": "Welke tekst hoort bij welk plaatje?"
+                                },
+                                "shuffle": true,
+                                "minAssociations": 3,
+                                "maxAssociations": 3,
+                                "sourceSimpleMatchSet": [
+                                    {
+                                        "identifier": "SOURCE_3",
+                                        "content": {
+                                            "body": "tulpen"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "SOURCE_1",
+                                        "content": {
+                                            "body": "woestijn"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "SOURCE_2",
+                                        "content": {
+                                            "body": "koala"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    }
+                                ],
+                                "targetSimpleMatchSet": [
+                                    {
+                                        "identifier": "TARGET_1",
+                                        "content": {
+                                            "body": "<img src=\"https://maken.wikiwijs.nl/userfiles/8/838475b87f99f451b77ee0da722c5622.jpg\" />"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "TARGET_2",
+                                        "content": {
+                                            "body": "<img src=\"https://maken.wikiwijs.nl/userfiles/b/be9c713326b9dbb50da7ee8e9b43104f.jpg\" />"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "TARGET_3",
+                                        "content": {
+                                            "body": "<img src=\"https://maken.wikiwijs.nl/userfiles/c/ce45a0a86149d80728296a4f88cfd489.jpg\" />"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    }
+                                ],
+                                "responseIdentifier": "642622_1",
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "642622_1",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": "SOURCE_1",
+                                            "value": "TARGET_1"
+                                        },
+                                        {
+                                            "fieldIdentifier": "SOURCE_2",
+                                            "value": "TARGET_2"
+                                        },
+                                        {
+                                            "fieldIdentifier": "SOURCE_3",
+                                            "value": "TARGET_3"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": null
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "642626"
+                    },
+                    "assessmentItem": {
+                        "identifier": "642626",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "choiceInteraction",
+                                "label": "Hoofdsteden in Europa",
+                                "prompt": {
+                                    "body": "Wat is de hoofdstad van Portugal?"
+                                },
+                                "shuffle": false,
+                                "maxChoices": 3,
+                                "minChoices": 1,
+                                "orientation": "vertical",
+                                "choices": [
+                                    {
+                                        "identifier": "0",
+                                        "content": {
+                                            "body": "Rome"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "0",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "1",
+                                        "content": {
+                                            "body": "Berlijn"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "1",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "2",
+                                        "content": {
+                                            "body": "Lissabon"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "2",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    }
+                                ],
+                                "responseIdentifier": "642626_1",
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "642626_1",
+                                "cardinality": "ordered",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "2"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": [
+                                        {
+                                            "key": "0",
+                                            "value": 0,
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "1",
+                                            "value": 0,
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "2",
+                                            "value": 1,
+                                            "caseSensitive": false
+                                        }
+                                    ]
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 1,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "645938"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Subkop",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Dit is een tekst om verandering van kleur te testen.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": null,
+            "dimension": null,
+            "suppressTitle": null
+        },
+        "color": "#00BD4B"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Opdrachten",
+                "reference": {
+                    "value": "642619"
+                },
+                "sections": [
+                    {
+                        "title": "Subkop",
+                        "reference": {
+                            "value": "645938"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": "",
+        "imageSrc": null,
+        "sources": [],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            },
+            {
+                "key": "learningTime",
+                "label": "Studiebelasting",
+                "terms": [
+                    "0 uur en 50 minuten"
+                ]
+            },
+            {
+                "key": "keywords",
+                "label": "Trefwoorden",
+                "terms": [
+                    "test"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

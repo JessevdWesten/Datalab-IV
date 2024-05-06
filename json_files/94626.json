@@ -1,0 +1,216 @@
+{
+    "documentAuthors": [
+        "Leon Wikiwijs"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Leon Wikiwijs",
+            "referenceName": null,
+            "reference": {
+                "value": "51674"
+            },
+            "firstName": "Leon",
+            "infix": null,
+            "lastName": "Wikiwijs",
+            "emailAddress": "112212@guido.nl",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2017-01-15T22:23:32Z",
+    "bulkId": "bulk-17041135-refresh_all",
+    "identifier": 94626,
+    "title": "Teaching Hexadecimal",
+    "description": "",
+    "lastModifiedDate": "2017-01-15T22:23:32+01:00",
+    "dateCreated": "2017-01-15T22:01:08+01:00",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "Wikiwijs, Leon",
+                "reference": {
+                    "value": "51674"
+                },
+                "firstName": "Leon",
+                "infix": null,
+                "lastName": "Wikiwijs",
+                "emailAddress": "112212@guido.nl",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-30",
+            "name": "CC Naamsvermelding 3.0 Nederland licentie",
+            "description": "De Nederlandse Creative Commons 3.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/3.0/nl/.",
+            "link": "http://creativecommons.org/licenses/by/3.0/nl/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/94626/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "2926450"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Basics I guess",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "2926468"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Introduction",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Hello student, you are a dummy and today I will try to make you a little less a dummy.</p>\n<p> </p>\n<p>In these sections I will answer all your questions about hexadecimal</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "2926477"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Why does hexadecimal exist?",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>1101010 is kinda hard to read. It's very long and you have to do a lot of calculating to find out the actual number:</p>\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"width-500-pixels\">\n<tbody>\n<tr>\n<td>1</td>\n<td>1</td>\n<td>0</td>\n<td>1</td>\n<td>0</td>\n<td>1</td>\n<td>0</td>\n</tr>\n<tr>\n<td>2^6=64</td>\n<td>2^5=32</td>\n<td>2^4=16</td>\n<td>2^3=8</td>\n<td>2^2=4</td>\n<td>2^1=2</td>\n<td>2^0=1</td>\n</tr>\n<tr>\n<td>64</td>\n<td>32</td>\n<td>0</td>\n<td>8</td>\n<td>0</td>\n<td>2</td>\n<td>0</td>\n</tr>\n</tbody>\n</table>\n<p><br/>\nIf we add this up we get 64 + 32 + 8 + 2 = 106.  So 1101010 is 106 in decimal. Wow this took a long time (you might not even get it yet).</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "2926504"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "How does it work then?",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Let's take 106 again. 6A is the hexadecimal for 106. Hexadecimal uses 16 \"numbers\" instead of decimal 10 and binairy 2. So 1 2 3 4 5 6 7 8 9 A B C D E F.</p>\n<p>Instead of using 2 to the power of the position we use 16 to the power of the position. So to convert 6A we do A times 16 to the power of 0 which is 1, since it's the first number (programmers like to start counting from 0). So 10 (A is 10 in hex) * 1 = 10. Then we do 6 times 16 to the power of 1 which is 16. 6 * 16 = 96. 10 + 96 = 106.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "2926506"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "This makes no sense you are a bad teacher",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>That's not a question but here's a short summary:</p>\n<p> </p>\n<p>6A(16) is 106(10) because 6*(16^1)+A*(16^0) = 6 * 16 + 10 * 1 = 96 + 10 = 106</p>\n<p> </p>\n<p>Fancy ABC-formula because I liked to include math and I dont now TeX so I cant put my own formulas in there: </p>\n<p> </p>\n<p><span class=\"math-tex\"><img alt=\"Formule\" src=\"https://mathjax-service.wikiwijs.nl/convert.svg?formula=eCA9IHstYiBccG0gXHNxcnR7Yl4yLTRhY30gXG92ZXIgMmF9\"/></span></p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": null,
+            "dimension": null,
+            "suppressTitle": null
+        },
+        "color": "#495057"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Basics I guess",
+                "reference": {
+                    "value": "2926450"
+                },
+                "sections": [
+                    {
+                        "title": "Introduction",
+                        "reference": {
+                            "value": "2926468"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Why does hexadecimal exist?",
+                        "reference": {
+                            "value": "2926477"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "How does it work then?",
+                        "reference": {
+                            "value": "2926504"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "This makes no sense you are a bad teacher",
+                        "reference": {
+                            "value": "2926506"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": null,
+        "imageSrc": null,
+        "sources": [],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

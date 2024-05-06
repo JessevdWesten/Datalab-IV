@@ -1,0 +1,260 @@
+{
+    "documentAuthors": [
+        "Renzo Nijkamp"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Renzo Nijkamp",
+            "referenceName": null,
+            "reference": {
+                "value": "86128"
+            },
+            "firstName": "Renzo",
+            "infix": null,
+            "lastName": "Nijkamp",
+            "emailAddress": "renzonijkamp511@gmail.com",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2020-11-01T17:11:13Z",
+    "bulkId": "bulk-17041658-refresh_all",
+    "identifier": 168936,
+    "title": "me",
+    "description": "me if i was",
+    "lastModifiedDate": "2020-11-01T17:11:13+01:00",
+    "dateCreated": "2020-11-01T17:09:22+01:00",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "Nijkamp, Renzo",
+                "reference": {
+                    "value": "86128"
+                },
+                "firstName": "Renzo",
+                "infix": null,
+                "lastName": "Nijkamp",
+                "emailAddress": "renzonijkamp511@gmail.com",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-40",
+            "name": "CC Naamsvermelding 4.0 Internationale licentie",
+            "description": "De Internationale Creative Commons 4.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/4.0/.",
+            "link": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/168936/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "empty_section"
+            },
+            "heading": {
+                "type": "empty_heading",
+                "content": "",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6379517"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6379517",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "matchInteraction",
+                                "label": "het antwoord is 3e",
+                                "prompt": {
+                                    "body": "<p>33</p>"
+                                },
+                                "shuffle": true,
+                                "minAssociations": 2,
+                                "maxAssociations": 2,
+                                "sourceSimpleMatchSet": [
+                                    {
+                                        "identifier": "SOURCE_2",
+                                        "content": {
+                                            "body": "kanker paard ishen"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "SOURCE_1",
+                                        "content": {
+                                            "body": "nee"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    }
+                                ],
+                                "targetSimpleMatchSet": [
+                                    {
+                                        "identifier": "TARGET_1",
+                                        "content": {
+                                            "body": "<img src=\"https://maken.wikiwijs.nl/userfiles/d/d45e39ab7f069ea1a9142a1c2c2b96b846952fea.jpg\" />"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "TARGET_2",
+                                        "content": {
+                                            "body": "<img src=\"https://maken.wikiwijs.nl/userfiles/5/5ccb3be824cf883a70e1cea6db6a500b04f58756.png\" />"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    }
+                                ],
+                                "responseIdentifier": "6379517_1",
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_CORRECT",
+                                        "identifier": "FBC_6379517",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "66"
+                                        }
+                                    },
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_INCORRECT",
+                                        "identifier": "FBI_6379517",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "kanker hoer"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6379517_1",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": "SOURCE_1",
+                                            "value": "TARGET_1"
+                                        },
+                                        {
+                                            "fieldIdentifier": "SOURCE_2",
+                                            "value": "TARGET_2"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": "0",
+                                    "upperBound": "1",
+                                    "default": "0",
+                                    "mapEntries": null
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": "0",
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": "1",
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                }
+            ],
+            "sections": []
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": null,
+            "dimension": null,
+            "suppressTitle": null
+        },
+        "color": "#f5ebec"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": null,
+        "imageSrc": null,
+        "sources": [],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            },
+            {
+                "key": "learningTime",
+                "label": "Studiebelasting",
+                "terms": [
+                    "4 uur en 0 minuten"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

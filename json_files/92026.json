@@ -1,0 +1,2021 @@
+{
+    "documentAuthors": [
+        "Menno Veldsema"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Menno Veldsema",
+            "referenceName": null,
+            "reference": {
+                "value": "30880"
+            },
+            "firstName": "Menno",
+            "infix": null,
+            "lastName": "Veldsema",
+            "emailAddress": "m.j.veldsema@greijdanus.nl",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2016-11-30T09:31:37Z",
+    "bulkId": "bulk-17041135-refresh_all",
+    "identifier": 92026,
+    "title": "Les 5 Ka\u00efn en Abel - Jaloezie",
+    "description": "",
+    "lastModifiedDate": "2016-11-30T09:31:37+01:00",
+    "dateCreated": "2016-11-26T14:53:53+01:00",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "Veldsema, Menno",
+                "reference": {
+                    "value": "30880"
+                },
+                "firstName": "Menno",
+                "infix": null,
+                "lastName": "Veldsema",
+                "emailAddress": "m.j.veldsema@greijdanus.nl",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-30",
+            "name": "CC Naamsvermelding 3.0 Nederland licentie",
+            "description": "De Nederlandse Creative Commons 3.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/3.0/nl/.",
+            "link": "http://creativecommons.org/licenses/by/3.0/nl/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/92026/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "2710105"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Lesdoelen",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Deze les heeft een aantal doelen: </p>\n<ul>\n<li>Je kunt vertellen waarom Ka\u00efn Abel vermoordde.</li>\n<li>Je kunt vertellen welke straf hij hiervoor krijgt.</li>\n<li>Je kunt omschrijven wat de gevolgen kunnen zijn van jaloezie.</li>\n<li>Je kunt de inhoud van het verhaal herkennen in de samenleving van vandaag (krant/tv e.d.).</li>\n<li>Je kunt vertellen dat kennis van goed en kwaad zichtbaar wordt in de geschiedenis van Kain en Abel</li>\n<li>Je kunt uitleggen dat de zonen van Ka\u00efn vertegenwoordigers zijn van de verschillende beroepen.</li>\n</ul>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "2710116"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Goed en kwaad 3,4",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p><strong>Goed en kwaad</strong></p>\n<p>Adam en Eva mogen niet meer in de tuin wonen. De weg om via de boom van het leven toch eeuwig leven te krijgen is afgesloten. Adam en Eva krijgen dan van God twee zonen: De oudste heet Ka\u00efn (met de hulp van de Heer heb ik een man gekregen) en de  jongste heet Abel (lucht en leegte). Misschien had Eva de hoop dat Ka\u00efn de mensheid zou  kunnen redden. Maar bij Abel was ze die gedachte ondertussen wel kwijt.</p>\n"
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "2710118"
+                    },
+                    "assessmentItem": {
+                        "identifier": "2710118",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Betekenis namen",
+                                "prompt": {
+                                    "body": "<p>Noem eens namen, bijvoorbeeld uit je klas, met hun betekenis die positief of juist negatief zijn. Wanneer je het niet weet kun je dit opzoeken op:</p>\n<p><a href=\"http://www.betekenisnamen.nl/\" target=\"_blank\">http://www.betekenisnamen.nl/</a></p>\n<p>Wat vind jij ervan dat ouders hun kinderen namen geven met een betekenis?</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "2710118_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>mening</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>mening</p>"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Dan volgt het verhaal van het offeren door deze beide jongens. Het offer van Abel wordt aangenomen en het offer van Ka\u00efn niet.</p>\n<figure class=\"image float-left\"><img alt=\"http://www.heiligen.net/afb/tegels/5.jpg\" src=\"http://www.heiligen.net/afb/tegels/5.jpg\" class=\"height-203-pixels width-200-pixels\"/>\n<figcaption>Dit tegeltje geeft aan het verschil tussen het offer van Ka\u00efn en Abel.</figcaption>\n</figure>\n<p> </p>\n"
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "2710120"
+                    },
+                    "assessmentItem": {
+                        "identifier": "2710120",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Vraag 1 over het plaatje",
+                                "prompt": {
+                                    "body": "<p>Leg uit wie volgens jou Ka\u00efn en wie Abel is?</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "2710120_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>mening</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>mening</p>"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "2710121"
+                    },
+                    "assessmentItem": {
+                        "identifier": "2710121",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Vraag 2 over het plaatje",
+                                "prompt": {
+                                    "body": "<p>Hou zou Ka\u00efn er achter zijn gekomen dat zijn offer niet werd aangenomen?</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "2710121_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>mening</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>mening</p>"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>'Dat maakte Ka\u00efn woedend, zijn blik werd donker. De HEER vroeg hem: 'Waarom ben je zo kwaad, waarom kijk je zo donker? Handel je goed, dan kun je toch iedereen recht in de ogen kijken? Handel je slecht, dan ligt de zonde op de loer, begerig om jou in haar greep te krijgen; maar jij moet sterker zijn dan zij ' (Gen. 4,5-7).</p>\n<p><br/>\nHier zie je de gevolgen van de zondeval zoals je kunt lezen in Genesis 3. God waarschuwt Ka\u00efn ervoor dat hij het kwaad niet moet toelaten. Dat hij goed moet handelen. Want als je het kwaad toelaat in je hart, dan gaat het van kwaad tot erger. Zover dus dat je zelfs je broer kunt vermoorden.</p>\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/RHzTl_WijPY\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\" class=\"video-item\"/>"
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "2710123"
+                    },
+                    "assessmentItem": {
+                        "identifier": "2710123",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Moedwillige zonde",
+                                "prompt": {
+                                    "body": "<p>Geef een voorbeeld van het feit dat als je moedwillig zonde doet, dat het van kwaad tot erger gaat.</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "2710123_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>mening</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>mening</p>"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "2710124"
+                    },
+                    "assessmentItem": {
+                        "identifier": "2710124",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Rol van God",
+                                "prompt": {
+                                    "body": "<p>Beschrijf de rol van God, zelfs nu Ka\u00efn zo'n grote zonde heeft begaan.</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "2710124_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>mening</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>mening</p>"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "2710125"
+                    },
+                    "assessmentItem": {
+                        "identifier": "2710125",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Rol van God 2",
+                                "prompt": {
+                                    "body": "<p>Wat zegt dat over God?  Leg uit.</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "2710125_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>mening</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>mening</p>"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "2710126"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Jaloezie 1,2,3",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "2710127"
+                    },
+                    "assessmentItem": {
+                        "identifier": "2710127",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "textEntryInteraction",
+                                "content": {
+                                    "body": "<p>Gaten tekst: Vul de ontbrekende woorden uit het verhaal in</p>\n<p>'Oeweh! Oew\u00e8h!' Wat is dat voor geschreeuw? O, kijk, er is een kindje geboren, een jongetje. Zijn zachte roze mondje is wijd opengesperd. Zijn vuistjes maaien driftig langs zijn wangetjes... Trots houdt moeder Eva haar eerstgeborene in de armen en vader Adam kijkt ernaar met tranen in de ogen. 'Dit wordt zeker de man van wie God sprak.' zegt Eva tegen Adam. 'Laten we hem <textentry identifier=\"TE_661fc31b4d9ac\"></textentry> noemen. Hopelijk zal hij de duivel verslaan.' Maar bij het opgroeien merken ze al gauw, dat Ka\u00efn beslist niet de Verlosser is, evenmin als <textentry identifier=\"TE_661fc31b4d9bb\"></textentry>, hun tweede zoon en alle volgende kinderen. Ka\u00efn en Abel trekken veel met elkaar op. Toch zijn ze verschillend van karakter. Abel vindt het fijn om de <textentry identifier=\"TE_661fc31b4d9bf\"></textentry> te hoeden, terwijl Ka\u00efn meer van de <textentry identifier=\"TE_661fc31b4d9c2\"></textentry> houdt. Hij verzamelt zaadjes en strooit ze in de opengewerkte grond. Zo kun je van een klein beetje koren een heleboel maken. 's Avonds onder het eten praat hij er vaak over met zijn vader. 'Pa, we moeten dingen verbouwen, die we kunnen bewaren voor tijden dat er niks groeit.' stelt hij voor. 'Laten we <textentry identifier=\"TE_661fc31b4d9c5\"></textentry> bouwen en veel verzamelen. Hoe meer je hebt, hoe fijner je leven is.' Vader knikt. Hij vindt dat hij echt een knappe zoon heeft. Ook alle broertjes en zusjes zijn vol bewondering voor Ka\u00efn. Abel daarentegen vindt het niet nodig steeds zo <textentry identifier=\"TE_661fc31b4d9c8\"></textentry> te zijn voor de toekomst. 'Waarom zoveel verzamelen?' zegt hij. 'Zal <textentry identifier=\"TE_661fc31b4d9ca\"></textentry> niet voor ons zorgen net zoals ik voor de schapen doe?' Ja, daar is ook wat voor te zeggen. Zo kun je van die stille Abel ook veel leren. Bovendien kun je bij hem altijd terecht voor hulp. Hij bekommert zich echt om zijn broers en zussen. Op dagen dat het giet van de regen en je niet op het land kunt werken of met de schapen op pad kunt gaan, luistert het hele gezin naar de verhalen van vroeger. Vader en moeder vertellen ook van de <textentry identifier=\"TE_661fc31b4d9cd\"></textentry>, die God beloofd heeft. De kinderen gissen hoe Die zal zijn en wat Hij zal gaan doen. 'Hij zal vast en zeker goed zijn best doen en hard werken,' meent Ka\u00efn, de landbouwer. 'Hij zal steeds bij ons zijn en ons redden als er gevaar dreigt.' denkt Abel, de schaapherder. Op een dag gaan de beide broers een <textentry identifier=\"TE_661fc31b4d9cf\"></textentry> brengen aan God. Van stenen bouwen ze een soort altaar en bovenop wat dorre takjes en stukken hout komt hun offer. Ka\u00efn offert zijn mooiste <textentry identifier=\"TE_661fc31b4d9d2\"></textentry>, een reuzenpompoen en mooi opgepoetste appels... Het is een prachtig gezicht als de blauwe druiven als trossen van het altaar afhangen. Veel mooier om te zien dan het offer van Abel. Op zijn altaar liggen stukken vlees van een geslacht <textentry identifier=\"TE_661fc31b4d9d5\"></textentry>. De vacht van het dier ligt op de grond. 'Vader God,' bidt Ka\u00efn als zijn offer in rook opgaat, 'Deze vruchten geef ik u. 'k Heb er hard voor <textentry identifier=\"TE_661fc31b4d9d7\"></textentry>... Vindt u niet dat ik een goeie landbouwer ben?' Maar Abel bidt heel anders. 'Vader God, dit pasgeboren lam geef ik u. Het vet en de lekkerste stukken geef ik u, want onze overvloed komt van U. Van het <textentry identifier=\"TE_661fc31b4d9da\"></textentry> maak ik een jas en de rest van het vlees eet ik op. Daarbij zal ik er echt aan denken, dat het lam zijn leven gaf voor mij en al het leven van U komt. Dank u dat u altijd van mij blijft houden, ook al doe ik vaak verkeerd.' Er komt een hemelgevoel in Abels hart, alsof vader God tegen hem zegt: 'Goedzo, Abel, z\u00f3 wil Ik het graag.' Fluitend gaat hij dan ook weer aan het werk. Ka\u00efn daarentegen wordt niet blij. 't Lijkt wel of God zijn offer niet wil. In plaats van Hem te vragen wat er niet goed aan is, wordt hij <textentry identifier=\"TE_661fc31b4d9dc\"></textentry> op zijn broer. Ja, de <textentry identifier=\"TE_661fc31b4d9df\"></textentry> krijgt hem zelfs te pakken. God ziet wel dat zijn gezicht zo donker is als een onweerswolk en waarschuwt hem. 'Ka\u00efn, de zonde staat voor je deur. Laat de woede je niet overheersen...' Maar tevergeefs. Ka\u00efn luistert niet. Hij lokt Abel mee het veld in en dan...</p>\n<p>Door het donkere bos, ver van huis, rent een man. Het is Ka\u00efn. Vlug, vlugger. Zijn adem stampt in zijn borst als een stoommachine. Struikelend over stronken en kuilen rent hij voort. Als iemand hem nu maar niet achterna komt. Stel je voor dat ze hem te pakken krijgen en dat ze hem ook...</p>\n<p>O, Ka\u00efn is een <textentry identifier=\"TE_661fc31b4d9e1\"></textentry> geworden, de eerste van de wereld. Hij heeft zijn broer Abel met een flinke klap op zijn hoofd gedood, Nu is hij op de vlucht. Voor de mensen? Voor zijn herinneringen? Of voor God. Voor God kun je toch niet vluchten? Hoor, daar roept Hij al: 'Ka\u00efn, waar is je broer?' Met bonzend hart staat Ka\u00efn eindelijk stil. 'Dat weet ik niet, brult hij buiten adem. 'Ben ik soms zijn <textentry identifier=\"TE_661fc31b4d9e4\"></textentry>?' Ja, inderdaad, Ka\u00efn had een herder moeten zijn voor zijn broer, maar hij was een <textentry identifier=\"TE_661fc31b4d9e6\"></textentry>. 'Ik weet wel wat je hebt gedaan,' zegt de Here God streng. 'Ik heb het bloed van Abel gezien. Ka\u00efn, vervloekt ben je! Voortaan zal de aarde je niet meer zijn volle opbrengst geven. Je zult een zwerver zijn, altijd op de vlucht!' Het is een hele tijd stil. Ka\u00efn staat daar maar met zijn handen voor de ogen. Vervloekt, vervloekt is hij. Wat erg! 'O, God,' klaagt hij dan, 'Mijn zonde is te groot. Nooit zal ik de straf ervoor kunnen dragen. U stuurt me als zwerver weg, maar als de anderen me vinden, zullen ze mij doden.' Nog denkt hij aan zichzelf en niet aan het verdriet van vader, moeder en de anderen. God ziet hem staan, een eenzaam ontredderd mens, doodsbang voor de toekomst. 'Kind,' zegt Hij, 'Niemand zal je doden. Daar zorg Ik voor. Ik geef je een teken, zodat iedereen weet dat hij van jou af moet blijven...' Zo toont God nog zijn liefde aan die boze Ka\u00efn!</p>\n<p><br />\nEen jaartje later wordt er weer een kindje geboren bij Adam en Eva. Ze noemen hem <textentry identifier=\"TE_661fc31b4d9e9\"></textentry>, <textentry identifier=\"TE_661fc31b4d9eb\"></textentry>. Het troost hen over het verlies van Abel. En God doet, wat Hij beloofd heeft. Uit het nageslacht van Set wordt de Verlosser geboren.</p>",
+                                    "items": [
+                                        {
+                                            "identifier": "TE_661fc31b4d9ac",
+                                            "responseIdentifier": "TE_661fc31b4d9ac_0",
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "TE_661fc31b4d9bb",
+                                            "responseIdentifier": "TE_661fc31b4d9bb_1",
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "TE_661fc31b4d9bf",
+                                            "responseIdentifier": "TE_661fc31b4d9bf_2",
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "TE_661fc31b4d9c2",
+                                            "responseIdentifier": "TE_661fc31b4d9c2_3",
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "TE_661fc31b4d9c5",
+                                            "responseIdentifier": "TE_661fc31b4d9c5_4",
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "TE_661fc31b4d9c8",
+                                            "responseIdentifier": "TE_661fc31b4d9c8_5",
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "TE_661fc31b4d9ca",
+                                            "responseIdentifier": "TE_661fc31b4d9ca_6",
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "TE_661fc31b4d9cd",
+                                            "responseIdentifier": "TE_661fc31b4d9cd_7",
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "TE_661fc31b4d9cf",
+                                            "responseIdentifier": "TE_661fc31b4d9cf_8",
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "TE_661fc31b4d9d2",
+                                            "responseIdentifier": "TE_661fc31b4d9d2_9",
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "TE_661fc31b4d9d5",
+                                            "responseIdentifier": "TE_661fc31b4d9d5_10",
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "TE_661fc31b4d9d7",
+                                            "responseIdentifier": "TE_661fc31b4d9d7_11",
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "TE_661fc31b4d9da",
+                                            "responseIdentifier": "TE_661fc31b4d9da_12",
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "TE_661fc31b4d9dc",
+                                            "responseIdentifier": "TE_661fc31b4d9dc_13",
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "TE_661fc31b4d9df",
+                                            "responseIdentifier": "TE_661fc31b4d9df_14",
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "TE_661fc31b4d9e1",
+                                            "responseIdentifier": "TE_661fc31b4d9e1_15",
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "TE_661fc31b4d9e4",
+                                            "responseIdentifier": "TE_661fc31b4d9e4_16",
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "TE_661fc31b4d9e6",
+                                            "responseIdentifier": "TE_661fc31b4d9e6_17",
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "TE_661fc31b4d9e9",
+                                            "responseIdentifier": "TE_661fc31b4d9e9_18",
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "TE_661fc31b4d9eb",
+                                            "responseIdentifier": "TE_661fc31b4d9eb_19",
+                                            "feedbackInline": null
+                                        }
+                                    ]
+                                },
+                                "label": "Opdracht Jaloezie",
+                                "responseIdentifier": null,
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "TE_661fc31b4d9ac_0",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "Ka\u00efn"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0.05,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            },
+                            {
+                                "identifier": "TE_661fc31b4d9bb_1",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "Abel"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0.05,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            },
+                            {
+                                "identifier": "TE_661fc31b4d9bf_2",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "schapen"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0.05,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            },
+                            {
+                                "identifier": "TE_661fc31b4d9c2_3",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "landbouw"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0.05,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            },
+                            {
+                                "identifier": "TE_661fc31b4d9c5_4",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "schuren"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0.05,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            },
+                            {
+                                "identifier": "TE_661fc31b4d9c8_5",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "bezorgd"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0.05,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            },
+                            {
+                                "identifier": "TE_661fc31b4d9ca_6",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "God"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0.05,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            },
+                            {
+                                "identifier": "TE_661fc31b4d9cd_7",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "Verlosser"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0.05,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            },
+                            {
+                                "identifier": "TE_661fc31b4d9cf_8",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "dankoffer"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0.05,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            },
+                            {
+                                "identifier": "TE_661fc31b4d9d2_9",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "vruchten"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0.05,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            },
+                            {
+                                "identifier": "TE_661fc31b4d9d5_10",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "lam"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0.05,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            },
+                            {
+                                "identifier": "TE_661fc31b4d9d7_11",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "gewerkt"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0.05,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            },
+                            {
+                                "identifier": "TE_661fc31b4d9da_12",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "vachtje"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0.05,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            },
+                            {
+                                "identifier": "TE_661fc31b4d9dc_13",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "kwaad"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0.05,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            },
+                            {
+                                "identifier": "TE_661fc31b4d9df_14",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "haat"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0.05,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            },
+                            {
+                                "identifier": "TE_661fc31b4d9e1_15",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "moordenaar"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0.05,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            },
+                            {
+                                "identifier": "TE_661fc31b4d9e4_16",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "herder"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0.05,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            },
+                            {
+                                "identifier": "TE_661fc31b4d9e6_17",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "wolf"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0.05,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            },
+                            {
+                                "identifier": "TE_661fc31b4d9e9_18",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "Set"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0.05,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            },
+                            {
+                                "identifier": "TE_661fc31b4d9eb_19",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "plaatsvervanger"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0.05,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "2710128"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Straf",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>In de vorige opdracht heb je het verhaal gelezen over Ka\u00efn en Abel. In het laatste gedeelte van dit verhaal staat de straf van Ka\u00efn beschreven.</p>\n<p>Lees dit gedeelte nog een keer rustig door en beantwoord de volgende vragen.</p>\n"
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "2710130"
+                    },
+                    "assessmentItem": {
+                        "identifier": "2710130",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Vraag 1",
+                                "prompt": {
+                                    "body": "<p>Wat is de straf die Ka\u00efn krijgt?</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "2710130_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>Zie Bijbeltekst</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>Zie Bijbeltekst</p>"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "2710131"
+                    },
+                    "assessmentItem": {
+                        "identifier": "2710131",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Vraag 2",
+                                "prompt": {
+                                    "body": "<p>Hoe reageert Ka\u00efn op zijn straf?</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "2710131_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>Zie Bijbeltekst</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>Zie Bijbeltekst</p>"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "2710132"
+                    },
+                    "assessmentItem": {
+                        "identifier": "2710132",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Vraag 3",
+                                "prompt": {
+                                    "body": "<p>Hoe blijft God toch voor Ka\u00efn zorgen?</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "2710132_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>Zie Bijbeltekst</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>Zie Bijbeltekst</p>"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "2710133"
+                    },
+                    "assessmentItem": {
+                        "identifier": "2710133",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Vraag 4",
+                                "prompt": {
+                                    "body": "<p>Wat vind je ervan dat God nog steeds voor Ka\u00efn zorgt?</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "2710133_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>Zie Bijbeltekst</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>Zie Bijbeltekst</p>"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "2710134"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Klassegesprek",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Bespreek met de klas:</p>\n<p>1. Welke straf zouden jullie Ka\u00efn hebben geven?</p>\n<p>2. Wat zegt dit over God dat hij deze straf geeft en nog steeds voor Ka\u00efn blijft zorgen?</p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "2710136"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Gevolgen Jaloezie",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Jaloers: We zijn het allemaal wel eens. Maar als we niet oppassen kunnen er gevaarlijke dingen gebeuren uit onze jaloezie. Kijk de onderstaande linkjes maar eens en beantwoord daarna de vragen.<br/>\n<a class=\"content-link-button\" href=\"http://www.hln.be/regio/nieuws-uit-brugge/vrouw-vergiftigt-stiefzoontjes-uit-jaloezie-a2619247/\" role=\"button\" target=\"_blank\">Brugge</a></p>\n<p><a class=\"content-link-button\" href=\"http://tmgonlinemedia.nl/consent/consent/?return=http%3A%2F%2Fwww.metronieuws.nl%2Fxl%2Fraar%2F2016%2F02%2Fvrouw-steekt-vriend-dood-want-hij-facebookt-te-veel&amp;clienttime=1472122425996&amp;version=0&amp;detect=true\" role=\"button\" target=\"_blank\">Metro</a></p>\n<p><a class=\"content-link-button\" href=\"http://www.rtl.nl/extreem-jaloers/#!/\" role=\"button\" target=\"_blank\">RTL</a></p>\n"
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "2710138"
+                    },
+                    "assessmentItem": {
+                        "identifier": "2710138",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Vraag 1",
+                                "prompt": {
+                                    "body": "<p>Wat hebben deze berichten en het filmpje met elkaar te maken?</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "2710138_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>Mening</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>Mening</p>"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "2710139"
+                    },
+                    "assessmentItem": {
+                        "identifier": "2710139",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Vraag 2",
+                                "prompt": {
+                                    "body": "<p>In de verhalen gaan veel mis. Wat zijn volgens jou de oorzaken?</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "2710139_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>Mening</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>Mening</p>"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "2710140"
+                    },
+                    "assessmentItem": {
+                        "identifier": "2710140",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Vraag 3",
+                                "prompt": {
+                                    "body": "<p>Wat hadden de mensen anders kunnen of moeten doen volgens jou? Geef per bericht/link een antwoord.</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "2710140_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>Mening</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>Mening</p>"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "2710141"
+                    },
+                    "assessmentItem": {
+                        "identifier": "2710141",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Vraag 4",
+                                "prompt": {
+                                    "body": "<p>Wat zijn overeenkomsten (hetzelfde) tussen de bovenstaande berichten en het filmpje en het verhaal van Ka\u00efn en Abel?</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "2710141_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>Mening</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>Mening</p>"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "2710142"
+                    },
+                    "assessmentItem": {
+                        "identifier": "2710142",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Vraag 5",
+                                "prompt": {
+                                    "body": "<p>Wanneer was jij het laatst jaloers op iemand? Waar ging dit over?</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "2710142_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>Mening</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>Mening</p>"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "2710143"
+                    },
+                    "assessmentItem": {
+                        "identifier": "2710143",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Vraag 6",
+                                "prompt": {
+                                    "body": "<p>Hoe ging jij in die situatie om met jou jaloezie?</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "2710143_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>Mening</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>Mening</p>"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "2710146"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Stamboom 2,3,4",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "2710147"
+                    },
+                    "assessmentItem": {
+                        "identifier": "2710147",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Opdracht Stamboom",
+                                "prompt": {
+                                    "body": "<p>Opdracht:<br />\nLees Genesis 4:17-22 Maak een stamboom van de familie van Ka\u00efn. Schrijf niet alleen de namen op maar (als deze er bij gegeven worden) ook het beroep van de personen.</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "2710147_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>Zie Bijbeltekst</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>Zie Bijbeltekst</p>"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "sections": []
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": "https://maken.wikiwijs.nl/generated/l1200x76_4187ac0f6168bb30bbe5a718f1944bb953e7f884.jpg",
+            "dimension": null,
+            "suppressTitle": false
+        },
+        "color": "#495057"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Lesdoelen",
+                "reference": {
+                    "value": "2710105"
+                },
+                "sections": []
+            },
+            {
+                "title": "Goed en kwaad 3,4",
+                "reference": {
+                    "value": "2710116"
+                },
+                "sections": []
+            },
+            {
+                "title": "Jaloezie 1,2,3",
+                "reference": {
+                    "value": "2710126"
+                },
+                "sections": []
+            },
+            {
+                "title": "Straf",
+                "reference": {
+                    "value": "2710128"
+                },
+                "sections": [
+                    {
+                        "title": "Klassegesprek",
+                        "reference": {
+                            "value": "2710134"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Gevolgen Jaloezie",
+                "reference": {
+                    "value": "2710136"
+                },
+                "sections": []
+            },
+            {
+                "title": "Stamboom 2,3,4",
+                "reference": {
+                    "value": "2710146"
+                },
+                "sections": []
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": null,
+        "imageSrc": null,
+        "sources": [],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            }
+        ],
+        "usedLearningResources": [
+            {
+                "author": null,
+                "title": "Les 5 Ka\u00efn en Abel - Jaloezie",
+                "url": "https://maken.wikiwijs.nl/81002/",
+                "datePublished": "2017-05-11T13:38:31+02:00"
+            }
+        ]
+    }
+}

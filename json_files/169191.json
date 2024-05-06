@@ -1,0 +1,1176 @@
+{
+    "documentAuthors": [
+        "Erik"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Erik ",
+            "referenceName": null,
+            "reference": {
+                "value": "144447"
+            },
+            "firstName": "Erik",
+            "infix": null,
+            "lastName": "",
+            "emailAddress": "s1117904@student.windesheim.nl",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2020-11-20T15:05:52Z",
+    "bulkId": "bulk-17041658-refresh_all",
+    "identifier": 169191,
+    "title": "ArtEZ e-learning - Deel 2: Social Engineering",
+    "description": "",
+    "lastModifiedDate": "2020-11-20T15:05:52+01:00",
+    "dateCreated": "2020-11-06T12:25:47+01:00",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": ", Erik",
+                "reference": {
+                    "value": "144447"
+                },
+                "firstName": "Erik",
+                "infix": null,
+                "lastName": "",
+                "emailAddress": "s1117904@student.windesheim.nl",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-40",
+            "name": "CC Naamsvermelding 4.0 Internationale licentie",
+            "description": "De Internationale Creative Commons 4.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/4.0/.",
+            "link": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/169191/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "6391798"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Inleiding",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Welkom bij de E-learning module van het security awareness programma op ArtEZ!</p>\n<p>Het doel van deze module is het bieden van de benodigde informatie om de security awareness van de medewerkers te verhogen. Dit wordt gedaan door theorie over verschillende onderwerpen beschikbaar te stellen. Deze theorie is bedoeld als informatiebron en kennisoverdracht.</p>\n<p> </p>\n<p>Het onderdeel e-learning is opgedeeld in 5 delen. Elk deel behandeld een ander onderwerp, namelijk: persoonsgegevens, social engineering, veilig &amp; betrouwbaar werken, datalekken en communicatie. In deze delen krijg je kennis dat je kan helpen om scenarios te herkennen en de impact te verkleinen.</p>\n<p>Aan het eind van elk onderdeel worden een aantal vragen gesteld om te kijken of de tekst goed begrepen is. Deze vragen zijn bedoeld als zelf evaluatie en worden niet opgeslagen.</p>\n<p>De verschillende hoofdstukken bevatten ook links voor aanvullende informatie. Het is niet noodzakelijk om dit door te nemen, het is bedoeld als extra informatie indien hier behoefte naar is.</p>\n<p> </p>\n<p>Deel 2 duurt, inclusief video's en evaluatievragen, ongeveer 25 minuten.</p>\n<p>Succes!</p>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "6391797"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Overzicht",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Deze module gaat over social engineering. Een verzamelterm voor alle manieren waarop kwaadwillenden zowel online als offline proberen om jou informatie afhandig te maken die je normaal niet uit handen zou geven. Zoals wachtwoorden, toegangscodes, bestanden, je verbinding en financi\u00ebn. Kwaadwillenden 'engineeren' zich 'social', wat simpelweg betekent dat zij zich voordoen als iets of iemand anders.</p>\n<p>Het simpelste voorbeeld is de online prijsvraag die iedereen wel eens gewonnen heeft. Je was de miljoenste bezoeker op een site, had net die heeeeel makkelijke quiz online gewonnen, etc. Direct verschijnt er een link naar jouw speciale prijs in beeld, die je perse binnen \u00e9\u00e9n minuut moet aanklikken. En voordat je het weet ben je jouw e-mailadres, bankgegevens, etc. aan het invullen op een frauduleuze website...</p>\n<p> </p>\n<p>De zwakste schakel bij social engineering is de mens zelf. Zolang wij toch onder bepaalde omstandigheden anderen (bewust of onbewust) toegang geven tot onze gegevens is er geen beveiliging die daar tegenop kan.  </p>\n<p>Social engineering gebeurt op allerlei manieren. Van een 'medewerker' van Microsoft die via de telefoon probeert om toegang tot je computer te krijgen, een kwaadwillende die gevoelige gegevens uit de vuilnisbak op kantoor vist tot CEO-fraude waarbij online grote sommen geld bijgemaakt worden.</p>\n<p> </p>\n<p>Binnen social engineering kennen we dus offline en online vormen. De online vormen noemen we 'phishing', waar weer drie varianten in te onderscheiden zijn:</p>\n<p>1. 'Normale' phishing, waarbij veel mensen  via e-mail, WhatsApp of sms tegelijkertijd een nep-bericht krijgen.</p>\n<p>2. Spear phishing, waarbij een nep-bericht op heel persoonlijke wijze naar een specifiek persoon of bedrijf gestuurd wordt.</p>\n<p>3. Whaling, waarbij hooggeplaatste personen binnen een organisatie specifiek het doelwit zijn.</p>\n<p> </p>\n<p>Om dergelijke berichten te herkennen begint het altijd bij de vraag of je het bericht sowieso wel vertrouwt. Is de afzender vreemd, had je een dergelijk bericht \u00fcberhaupt niet verwacht, zitten er veel fouten in de taal of is het een bericht waar onverwacht ineens grote druk achter zit, dan moeten er direct alarmbellen gaan rinkelen. In deze module bieden we je concrete handvatten om bij een bericht relatief eenvoudig te kunnen checken of het een legitiem of frauduleus bericht is.  </p>\n<p><strong>Maar let op:</strong> social engineering vindt dus ook offline plaats. Vooral in open onderwijsinstellingen kan iedereen zomaar het gebouw binnen lopen. Zit je deur niet op slot, staat je kast open, is het whiteboard niet uitgeveegd of laat je zomaar die leuke elektricien zonder duidelijk ID binnen op je kamer? Dan kunnen de gevolgen net zo vervelend zijn voor jou en voor de organisatie als bij digitale phishing.</p>\n<p> </p>\n<p>Wantrouw nu niet meteen alles en iedereen, maar wees altijd alert over de herkomst van een boodschap. Onderneem liever vaker actie om een boodschap of boodschapper dubbel te checken, dan dat je toch maar even op dat ene linkje klikt.</p>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "6391808"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Social Engineering",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Je leert in dit hoofdstuk enkele belangrijke begrippen kennen rondom manieren waarop kwaadwillenden jouw gegevens of gegevens van jouw organisatie proberen te stelen.</p>\n<p> </p>\n<p><strong>Samenvatting:</strong></p>\n<p>Social engineering is de verzamelterm voor alle vormen waarbij online en offline kwaadwillenden zichzelf voordoen als iemand anders, met als doel om bijvoorbeeld toegang tot gegevens te krijgen, een account te hacken en geld of data te stelen. Zij richten zich hierbij op de zwakste schakel in de keten van beveiliging: de mens zelf. De online vormen van social engineering noemt men 'phishing', waarbij drie vormen zijn te onderscheiden: via grootschalige aanvallen (phishing), specifiek op een persoon gerichte aanvallen (spear phishing) of aanvallen gericht op hooggeplaatste personen in de organisatie (whaling). Een kritische blik bij iedere communicatie of verzoek naar de afzender, de gebruikte taal, linkjes en persoon achter de afzender kan veel van dit type aanvallen voorkomen.</p>\n<p>Gaat het toch mis, dan dien je de ICT helpdesk hiervan direct op de hoogte te stellen. Dit kan op de volgende manieren:</p>\n<ul>\n<li>Een mail sturen naar \"ict@artez.nl\"</li>\n<li>Bellen naar \"026-353 567 9\"</li>\n<li>Een melding maken op het digitale service point op intranet.</li>\n</ul>\n"
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "6391811"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Een kat en muis spel",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>De wereld van hacking, phishing en whaling is er vaak een van een kat en muis spel. Beveiligingsbedrijven proberen zoveel als mogelijk om frauduleuze berichten er uit te filteren en medewerkers zijn alert om pogingen tot data-diefstal snel te herkennen. En aan de andere kant proberen de kwaadwillenden weer nieuwe manieren te vinden om bedrijfsinformatie te achterhalen. Bekijk hier eens een mooi voorbeeld hoe ze elkaar op de hielen kunnen zitten.</p>\n"
+                        },
+                        {
+                            "type": "video",
+                            "url": "https://www.youtube.com/watch?v=IMsUYqZqdJM",
+                            "align": "left",
+                            "caption": "https://www.youtube.com/watch?v=IMsUYqZqdJM",
+                            "poster": "https://img.youtube.com/vi/IMsUYqZqdJM/maxresdefault.jpg"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Via 'social engineering', het zich voordoen als iemand anders, proberen kwaadwillenden op allerlei manieren binnen te komen in bedrijfssystemen. Want we kunnen nog zulke sterke wachtwoorden verzinnen en alles om ons heen encrypten; wij als mens zijn de kwetsbaarste schakel in deze hele keten.</p>\n<p>Het is een techniek waarbij hackers jou proberen te verleiden om gegevens prijs te geven die je normaal niet prijs zou geven. Het kan ook zijn dat deze persoon niet direct jou wil hacken, maar dat hij via jou verder de organisatie in wil komen. Denk dus niet: wat is er nou bij mij te halen in deze organisatie? Jij kunt prima het opstapje zijn om bijvoorbeeld toegang tot de hele e-mailserver van de organisatie te krijgen, doordat kwaadwillenden via een nep-bericht een keylogger (een programma dat toetsaanslagen en muisbewegingen registreert) op jouw computer hebben kunnen installeren.</p>\n<p> </p>\n<p>Geven wij toch via een dubieuze website ons wachtwoord weg of openen we toch per ongeluk dat bestandje met malware, dan kan daar geen digitale beveiliging tegenop. Tegenwoordig gebeurt social engineering vaak via digitale wegen, zoals de sms'jes en e-mails met dubieuze linkjes en verzoeken van 'banken' en 'overheden'. Maar dat kan ook prima met meer ouderwetse methodes:</p>\n<p>Een zogenaamde medewerker van een bouwbedrijf loopt in bouwkledij een openbare onderwijsinstelling in en zoekt via de borden de directiekamer op. Daar loopt hij brutaal naar binnen en legt keurig uit dat hij alleen even kort de aansluitingen van de stroomvoorziening moet controleren. De verbouwereerde directeur laat de man gaan, maar heeft niet in de gaten dat deze stiekem een kleine USB-stick in de computer van de directeur stopt, waarmee hij later toegang tot alle datastromen van de directie krijgt.  </p>\n<p>Zo kan een organisatie in een paar minuten compleet bloot komen te liggen voor kwaadwillenden. In deze module gaan we aan de slag met het principe 'Weet altijd met wie je te maken hebt', zowel in de online als in de offline wereld. Want door enkele eenvoudige checks op iedere inkomende communicatie uit te voeren kun je veel schade voor jezelf en voor de organisatie makkelijk voorkomen.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6391825"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Wat is phishing?",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Stel, je krijgt een offici\u00eble e-mail van je bank, waarin ze je keurig vragen even op een link te klikken en ter controle je rekeningnummer en je wachtwoord in te vullen.</p>\n<p>Tuurlijk doe je dat, waarom niet? Maar even later blijkt dat kwaadwillenden je volledige pas en rekening hebben overgenomen. Ai... Het overkwam een ondernemer uit Doetichem, zoals je hieronder kunt zien.</p>\n"
+                        },
+                        {
+                            "type": "video",
+                            "url": "https://www.youtube.com/watch?v=a02Mrp6tBLs",
+                            "align": "left",
+                            "caption": "https://www.youtube.com/watch?v=a02Mrp6tBLs",
+                            "poster": "https://img.youtube.com/vi/a02Mrp6tBLs/maxresdefault.jpg"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>'Phishing' komt van 'fishing', hengelen. Kwaadwillenden vragen je via nep e-mails of nep sms-berichten om gegevens af te geven over je bank, paspoort of rijbewijs. Die gegevens gebruiken zij om bijvoorbeeld geld te stelen of je identiteit over te nemen. Bij phishing wordt vaak gebruik gemaakt van URL-spoofing. Dit is het nabootsen van de URL van bijvoorbeeld een bank waardoor de gebruiker denkt dat hij met de echte site te maken heeft, terwijl de URL naar de site van de kwaadwillende verwijst.</p>\n<p> </p>\n<p><strong>Hoe kun je het herkennen?</strong></p>\n<p>Gebruik je gezonde verstand. Een bank vraagt je NOOIT om via sms jouw wachtwoord en/of BSN-nummer ergens in te vullen! Onderstaand enkele indicatoren die erop kunnen wijzen dat je mogelijk met een phishing-bericht te maken hebt:  </p>\n<ul>\n<li>\n<p>Het bericht is niet aan jou persoonlijk gericht, maar begint bijvoorbeeld met \"geachte klant\";</p>\n</li>\n<li>\n<p>Het bericht bevat taal- en stijlfouten;</p>\n</li>\n<li>\n<p>Vaak wordt gevraagd om het 'verifi\u00ebren van een account': een bank of onderwijsinstelling zal dat nooit doen;</p>\n</li>\n</ul>\n<ul>\n<li>\n<p>Er wordt gedreigd met gevolgen als niet onmiddellijk gehoor gegeven wordt aan het bericht;</p>\n</li>\n<li>\n<p>De link in het bericht bevat subtiele verschillen met de juiste link, zoals een andere extensie.</p>\n</li>\n</ul>\n<p>Gebruik de beslisboom onderaan <a href=\"https://hetccv.nl/fileadmin/user_upload/41785_CCV_Bureauklapper_Phishing.pdf\" target=\"_blank\">dit document</a> om via enkele eenvoudige vragen snel te kunnen beoordelen of een bericht echt of nep is. Deze bureauklapper biedt ook verdere tips en voorbeelden in verband met phishing.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6391845"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Wat is spear phishing?",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Spear phishing is een vorm van 'phishing', waarbij kwaadwillenden een specifiek individu binnen een organisatie benaderen. Spear phishing is daarmee veelal nog lastiger te herkennen dan 'reguliere' phishing berichten, aangezien de boodschap vaak zeer persoonlijk is.</p>\n<p>Bij een vermoeden van spear phishing is het altijd van belang om je af te vragen of je een bepaald bericht zou verwachten. Heb je bijvoorbeeld geen bestelling bij DHL gedaan, dan is een e-mail met een zogenaamde track&amp;trace code vanuit DHL niet heel logisch. Ook vreemde verzoeken van bijvoorbeeld leidinggevenden die specifiek aan jou gericht zijn moeten de alarmbellen doen rinkelen.</p>\n<p>Controleer bij een vermoeden van spear phishing de afzender nooit via e-mail, want de kans is groot dat jouw e-mail gewoon weer terecht komt bij de kwaadwillenden. Bel altijd even als je twijfels over een bepaald verzoek hebt, dan weet je snel zeker of je met een echt of met een frauduleus bericht te maken hebt.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6391846"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Wat is whaling?",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Whaling is een specifieke vorm van phishing waarbij kwaadwillenden zich richten op hooggeplaatste medewerkers binnen een organisatie, zoals de bestuurder, de financieel directeur of een HR-directeur met toegang tot persoonsgegevens. Een bekend voorbeeld hiervan is CEO-fraude, waarbij kwaadwillenden veelal gebruik maken van e-mail spoofing om een CEO te verleiden om bijvoorbeeld grote malafide transacties goed te keuren (spoofing is het namaken van e-mailberichten met een vervalst afzenderadres, waardoor het lijkt alsof de e-mail komt vanuit een adres dat je kent, zoals het adres van een collega). </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6391837"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Wat is dumpster diving?",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>De vorige onderdelen gingen over de online vormen van social engineering. Maar social engineering gebeurt ook offline. Een bekend voorbeeld is 'dumpster diving', waarbij kwaadwillenden de vuilnis van organisaties napluizen op zoek naar gevoelige of persoonlijke gegevens. Met die gegevens kunnen ze zich mogelijk voordoen als een medewerker van de organisatie of zelfs online toegang tot de netwerken van de organisatie krijgen. Let dus altijd heel erg goed op wat je in je prullenbak gooit\u2026</p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "6391859"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Risico's en voorkomen",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>In dit onderdeel leer je alle handelingen kennen om zoveel als mogelijk altijd te weten met wie je zowel online als offline te maken hebt, zodat je zeker weet dat je met de juiste persoon data deelt, een contract afsluit of welke andere vorm van zakelijke interactie dan ook hebt.</p>\n<p> </p>\n<p><strong>Samenvatting:</strong></p>\n<p>Social engineering komt in verschillende vormen en maten voor. De bekendste vormen zijn phishing, spear phishing en whaling. De gebruikte technieken hierbij zijn inmiddels zodanig lastig van echt te onderscheiden, dat via deze methoden vele organisaties voor onder andere grote geldbedragen zijn opgelicht. Naast de reguliere checks als 'zal mijn bank mij echt via sms vragen om een betaalpas te vernieuwen' is de beste check veelal om de persoon van wie een bericht afkomstig is gewoon even te bellen om het bericht te verifi\u00ebren. </p>\n<p> </p>\n<p>Gaat het toch een keer mis, dan dien je de ICT helpdesk hiervan direct op de hoogte te stellen. Dit kan op de volgende manieren:</p>\n<ul>\n<li>Een mail sturen naar \"ict@artez.nl\"</li>\n<li>Bellen naar \"026-353 567 9\"</li>\n<li>Een melding maken op het digitale service point op intranet.</li>\n</ul>\n<p> </p>\n<p> </p>\n"
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "6391882"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Het kan overal gebeuren",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Denk je eens in hoeveel er eigenlijk van jou te stelen is en op welke plekken jou dit kan overkomen? Niet alleen je werkplek is een potenti\u00eble locatie waar kwaadwillenden gegevens van jou, of via jou weer gegevens van anderen buit kunnen maken als je niet oplet. Ook die leuke meneer op Marktplaats kan wel eens heel iemand anders blijken.</p>\n"
+                        },
+                        {
+                            "type": "video",
+                            "url": "https://www.youtube.com/watch?v=nFWOuWGOJfo",
+                            "align": "left",
+                            "caption": "https://www.youtube.com/watch?v=nFWOuWGOJfo",
+                            "poster": "https://img.youtube.com/vi/nFWOuWGOJfo/maxresdefault.jpg"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Kun je dan helemaal niemand meer vertrouwen? Natuurlijk wel! Vrijwel alle communicatie die je met interne en externe personen en organisaties hebt is betrouwbaar. Maar net die ene keer dat je toch even niet goed oplet kan heel vervelende gevolgen hebben. Daarom bespreken we in de onderstaand koppen de belangrijkste manieren om jezelf, jouw collega's en de onderwijsinstelling zo goed mogelijk tegen dit type fraude te beschermen.  </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6391914"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Phishing voorkomen",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Bij phishing denken we vaak aan die gekke mailtjes of sms'jes die iedereen wel eens krijgt. Net niet helemaal lekker geschreven, een link die naar een vreemde url verwijst en wazige logo's. Nee, die hoef je duidelijk niet te vertrouwen. Maar veel phishing berichten zijn inmiddels vrij geavanceerd en lastig meer van echt te onderscheiden. Het vraagt van jou als mens een zeer kritische houding ten aanzien van alle communicatie die er op je af komt.  </p>\n<p>Aangezien er een oneindig aantal vormen van phishing zijn is het lastig om ze hier allemaal uitgebreid te behandelen. We zoeken daarom naar algemene principes waarmee je phishing kunt herkennen en eenvoudige manieren om te checken of berichten echt zijn. En natuurlijk vertellen we je wat je moet doen als het toch mis gaat.  </p>\n<p>Eerst eens testen hoe goed je phishing-berichten al kunt herkennen? Doe dan deze <a href=\"https://phishingquiz.withgoogle.com/\" target=\"_blank\">phishing test van Google</a></p>\n<p> </p>\n<p>Wat denk jij dat de vier belangrijkste manieren zijn waarop je phishing berichten kunt herkennen?</p>\n<p> </p>\n<p>De vier belangijkste manieren waarop je phishing berichten kunt herkennen zijn:</p>\n<p><strong>1. Vertrouw je het?</strong></p>\n<p>Het klinkt wat flauw, maar toch is dit meestal de beste graadmeter om te weten of een bericht echt van de afzender afkomstig is die de afzender zegt te zijn. Denk logisch na: gaat een bank jou via sms benaderen? Stuurt een overheidsinstelling jou een e-mail zonder persoonlijke aanhef? Loopt er vaker zomaar een technicus zonder identificatie bij jullie op de kamer rond? Luister naar je gezonde verstand en bedenk steeds kritisch of je de communicatie kunt vertrouwen.</p>\n<p> </p>\n<p><strong>2. Check waar je op klikt</strong></p>\n<p>We klikken per dag honderden keren op allerlei linkjes, knopjes, bijlagen en afbeeldingen. Vrijwel nooit sta je er echt goed bij stil of de link die achter de klik zit jou ook daadwerkelijk naar de juiste online locatie brengt. En dat is maar goed ook, anders zou surfen op het internet ondoenlijk zijn. Maar vertrouw je een bericht niet helemaal, ga dan alleen even met je muis op de link 'hangen' om te kijken welk adres er achter de link zit. Gaat de link naar bijvoorbeeld abnamro.info, facebook.io, rijksoverheid.gz of een andere net niet kloppende website, dan weet je dat je jezelf een klik kunt besparen.</p>\n<p>Pas ook op met bijlagen in bijvoorbeeld e-mails. Veel e-mailbijlagen bevatten malware, zoals ransomware. Bepaalde bestandstypes zijn extra verdacht als ze in een mailbijlage staan, zoals .exe, .zip, .js en .doc.. Op zich zijn Word-documenten niet schadelijk, tenzij ze je na openen vragen of je de macro's wilt inschakelen. Doe dat dan zeker niet. Helaas verbergt Windows standaard de extensies zoals .exe. Je kunt deze bestandextensies inschakelen, zodat je ziet om wat voor bestand het gaat. Typ hiervoor Windows-toets + R, typ in het venster 'control folders' en druk op Enter. In het tabblad Weergave verwijder je het vinkje voor 'Extensies voor bekende bestandstypes verbergen'.</p>\n<p> </p>\n<p><strong>3. Controleer altijd waar het bericht vandaan komt</strong></p>\n<p>Kijk altijd goed naar de afzender van een bericht, zoals het telefoonnummer, het e-mailadres of de website. Komt dit niet overeen met de offici\u00eble afzender, klik dan zeker niet op het bericht. Een e-mail die bijvoorbeeld verzonden is vanaf info@rabobank.net hoef je niet te vertrouwen, omdat je weet dat het offici\u00eble adres van de Rabobank niet rabobank.net maar rabobank.nl is.</p>\n<p> </p>\n<p><strong>4. Social engineering bestaat ook offline</strong></p>\n<p>Social engineering gebeurt dus niet alleen via e-mails, WhatsApp en sms-berichten, maar ook via bijvoorbeeld een brief of de telefoon. Zo kan het gebeuren dat je een telefoontje krijgt van een 'medewerker' van de 'Internet helpdesk', die jou graag helpt met een 'probleem' aan je computer. Let dus op dat social engineering vanuit allerlei richtingen op je af kan komen...</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6392009"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Spear phishing voorkomen",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Spear phishing is eigenlijk nog enger dan 'gewone' phishing. Zoals je weet gaat het hierbij niet meer om 'een schot hagel', wat reguliere phishing vaak is, maar om berichten die proberen om een specifieke medewerker of student te verleiden op bijvoorbeeld een link te klikken. En niet altijd omdat die medewerker zelf nou over heel gevoelige informatie beschikt, maar ook om bijvoorbeeld via die persoon malware op het bedrijfsnetwerk te installeren, gegevens van hooggeplaatste personen binnen de organisatie te ontfutselen of zich toegang tot bepaalde bestanden te verschaffen.</p>\n<p>Spear phishing kan net als gewone phishing op allerlei manieren voorkomen. Bijvoorbeeld een vader die een Hotmail-adres aanmaakt met de naam van zijn dochter er in, om daarmee de cijferlijst van zijn dochter bij de docent op te vragen. Of een e-mail die vanaf een zogenaamd priv\u00e9-adres van een directielid bij jou binnenkomt en jou persoonlijk aanspreekt, ook dat is spear phishing!  </p>\n<p> </p>\n<p>Wat denk jij dat de twee belangrijkste manieren zijn om goed met spear phishing om te kunnen gaan?</p>\n<p> </p>\n<p>De twee belangrijkste manieren om spear phishing tegen te gaan zijn:</p>\n<p><strong>1. Gebruik geen reply op e-mail om de echtheid te controleren</strong></p>\n<p>Stel, je krijgt een e-mailtje met een wat vreemde vraag, bijvoorbeeld of je snel even een bepaald bedrag over wilt maken, of je bepaalde gevoelige informatie wilt doorsturen of dat men 'even toegang tot jouw account' nodig heeft. Zou je nu een e-mail terugsturen om te vragen of dit bericht wel klopt, dan komt jouw e-mail terecht bij de fraudeur. En die zal je natuurlijk met alle liefde geruststellen zodat je aan zijn of haar verzoek zult voldoen.</p>\n<p> </p>\n<p><strong>2. Bel!</strong></p>\n<p>Vertrouw je een persoonlijk bericht aan jou niet helemaal? Bel dan gewoon even. Niemand vind het erg als je een dubbelcheck op een bericht doet; liever vaker gecheckt dan de fout in te gaan. Door te bellen weet je zeker dat je de juiste persoon aan de lijn hebt, die jou snel genoeg kan aangeven of een bericht wel of niet legitiem is.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6392012"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Whailing voorkomen",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Iedere vorm van phishing kan een grote impact hebben, maar whaling draagt misschien wel de grootste risico's met zich mee. De vaak lange opbouw van de aanvaller in de relatie met een hooggeplaatste medewerker zorgt ervoor dat, indien de aanval lukt, de aanvaller veelal grote schade aan een organisatie kan berokkenen.  </p>\n<p>Whaling aanvallen kunnen zowel een effect op de hooggeplaatste medewerker als op personen op lagere functies in de organisatie hebben. Beide partijen zijn vaak nodig om bijvoorbeeld een financi\u00eble transactie te doen, bestanden naar een externe partij toe te sturen of bepaalde bedrijfsinformatie bij elkaar te verzamelen. De een geeft toestemming, de ander voert uit. Verstandig dus dat alle medewerkers in een organisatie op de hoogte zijn van de kenmerken van een whaling aanval.  </p>\n<p> </p>\n<p>Wat denk jij dat de vier belangrijkste aandachtspunten zijn bij een whaling aanval?</p>\n<p> </p>\n<p>De vier belangrijkste aandachtspunten bij een whailing aanval zijn:</p>\n<p><strong>1. Er is altijd sprake van een hi\u00ebrarchische relatie</strong></p>\n<p>Niet iedere medewerker durft een verzoek van een hoger geplaatst persoon binnen de organisatie makkelijk ter discussie te stellen. En dat is precies een van de valkuilen van een whaling aanval. Door de hi\u00ebrarchische relatie is er een kans dat het verzoek makkelijker ingewilligd wordt. Dus ook hier: vertrouw je het verzoek niet, zeker als het om een financieel verzoek gaat, bel dan altijd (of via je eigen leidinggevende) de persoon waar het verzoek vandaan komt.</p>\n<p> </p>\n<p><strong>2. Bellen in plaats van mailen</strong></p>\n<p>Net als bij spear phishing geldt ook hier: stuur nooit een e-mail naar het adres waar het bericht vandaan kwam om het verzoek te checken. Als het adres nep is komt de e-mail direct weer bij de aanvaller terecht. Gebruik altijd de telefoon om een verzoek te checken.</p>\n<p> </p>\n<p><strong>3. Reageer niet op priv\u00e9 mailadressen</strong></p>\n<p>Krijg je een verzoek van een leidinggevende of hooggeplaatst persoon binnen de organisatie dat van een priv\u00e9 e-mailadres afkomstig is, reageer dan niet. Iedereen kan elk willekeurig e-mailadres aanmaken en jou zo doen denken dat dit vanaf een echt persoon afkomstig is. Reageer alleen op verzoeken die van een e-mailadres binnen de organisatie afkomstig zijn en check hier altijd voor e-mail spoofing.</p>\n<p> </p>\n<p><strong>4. Check op e-mail spoofing</strong></p>\n<p>Controleer bij belangrijke of dubieuze verzoeken altijd of het e-mailadres waar het verzoek vandaan komt wel echt is. Via e-mail spoofing kunnen kwaadwillenden eenvoudig jou doen denken dat een e-mail daadwerkelijk van een leidinggevende afkomstig is, terwijl dat in de praktijk helemaal niet zo is. Ga bijvoorbeeld met je muis over het e-mailadres heen om te kijken welk mailadres er daadwerkelijk achter zit of check dit bij de ICT-afdeling.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "6392064"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Zelfevaluatie vragen",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Hieronder staan 4 vragen die bedoeld zijn om jouw kennis van de voorgaande hoofdstukken te testen. Deze vragen zijn helemaal voor jezelf en worden nergens opgeslagen. Je kan direct controleren of de gegeven antwoorden kloppen.</p>\n"
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6392090"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6392090",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "choiceInteraction",
+                                "label": "Zwakste schakel",
+                                "prompt": {
+                                    "body": "<p>Wie of wat is de zwakste schakel in de gehele keten van privacy en security? </p>"
+                                },
+                                "shuffle": true,
+                                "maxChoices": 4,
+                                "minChoices": 1,
+                                "orientation": "vertical",
+                                "choices": [
+                                    {
+                                        "identifier": "0",
+                                        "content": {
+                                            "body": "Wij, de mens"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "0",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "1",
+                                        "content": {
+                                            "body": "Onze wachtwoorden"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "1",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "2",
+                                        "content": {
+                                            "body": "De encryptie van onze apparatuur"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "2",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "3",
+                                        "content": {
+                                            "body": "Het internet"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "3",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    }
+                                ],
+                                "responseIdentifier": "6392090_1",
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6392090_1",
+                                "cardinality": "ordered",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0,
+                                    "default": 0,
+                                    "mapEntries": [
+                                        {
+                                            "key": "0",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "1",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "2",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "3",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        }
+                                    ]
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6392095"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6392095",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "choiceInteraction",
+                                "label": "Spear phishing",
+                                "prompt": {
+                                    "body": "<p>Vul aan: \"Bij 'spear-phishing' probeert iemand...\"</p>"
+                                },
+                                "shuffle": true,
+                                "maxChoices": 4,
+                                "minChoices": 1,
+                                "orientation": "vertical",
+                                "choices": [
+                                    {
+                                        "identifier": "0",
+                                        "content": {
+                                            "body": "specifiek jou als persoon bepaalde informatie te ontfutselen."
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "0",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "1",
+                                        "content": {
+                                            "body": "door middel van speer-vissen informatie van visliefhebbers te achterhalen."
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "1",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "2",
+                                        "content": {
+                                            "body": "van zoveel mogelijk mensen tegelijk informatie te achterhalen."
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "2",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "3",
+                                        "content": {
+                                            "body": "de top van een bedrijf informatie te ontfutselen."
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "3",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    }
+                                ],
+                                "responseIdentifier": "6392095_1",
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6392095_1",
+                                "cardinality": "ordered",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0,
+                                    "default": 0,
+                                    "mapEntries": [
+                                        {
+                                            "key": "0",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "1",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "2",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "3",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        }
+                                    ]
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6392120"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6392120",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "choiceInteraction",
+                                "label": "Fraude",
+                                "prompt": {
+                                    "body": "<p>Stel, je wilt als ouder de cijfers van jouw zoon of dochter weten. Je maakt hiervoor een @hotmail e-mailadres aan met de naam van je kind en stuurt via dat adres je verzoek naar de student-administratie. Welk type van fraude pleeg je dan?</p>"
+                                },
+                                "shuffle": true,
+                                "maxChoices": 4,
+                                "minChoices": 1,
+                                "orientation": "vertical",
+                                "choices": [
+                                    {
+                                        "identifier": "0",
+                                        "content": {
+                                            "body": "Phishing"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "0",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "1",
+                                        "content": {
+                                            "body": "Spear phishing"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "1",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "2",
+                                        "content": {
+                                            "body": "Whaling"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "2",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "3",
+                                        "content": {
+                                            "body": "Ransomware"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "3",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    }
+                                ],
+                                "responseIdentifier": "6392120_1",
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6392120_1",
+                                "cardinality": "ordered",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0,
+                                    "default": 0,
+                                    "mapEntries": [
+                                        {
+                                            "key": "0",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "1",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "2",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "3",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        }
+                                    ]
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6392102"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6392102",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "choiceInteraction",
+                                "label": "Controleren",
+                                "prompt": {
+                                    "body": "<p>Wat is de beste actie die je kunt ondernemen als je een e-mail van een collega niet helemaal vertrouwt? </p>"
+                                },
+                                "shuffle": true,
+                                "maxChoices": 4,
+                                "minChoices": 1,
+                                "orientation": "vertical",
+                                "choices": [
+                                    {
+                                        "identifier": "0",
+                                        "content": {
+                                            "body": "Bel de collega even op en vraag of het verzoek klopt"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "0",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "1",
+                                        "content": {
+                                            "body": "Stuur een e-mail als reply om te vragen of het verzoek klopt"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "1",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "2",
+                                        "content": {
+                                            "body": "Laat de e-mail even liggen; als het echt dringend is vraagt de collega het wel nog een keer"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "2",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "3",
+                                        "content": {
+                                            "body": "Vraag een andere collega om even mee te kijken naar de e-mail."
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "3",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    }
+                                ],
+                                "responseIdentifier": "6392102_1",
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6392102_1",
+                                "cardinality": "ordered",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0,
+                                    "default": 0,
+                                    "mapEntries": [
+                                        {
+                                            "key": "0",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "1",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "2",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "3",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        }
+                                    ]
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                }
+            ],
+            "sections": []
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": "https://maken.wikiwijs.nl/generated/l1200x76_7b0ae47ceda4b11cf9abd872cd45e37b4422622a.png",
+            "dimension": null,
+            "suppressTitle": false
+        },
+        "color": "#333333"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Inleiding",
+                "reference": {
+                    "value": "6391798"
+                },
+                "sections": []
+            },
+            {
+                "title": "Overzicht",
+                "reference": {
+                    "value": "6391797"
+                },
+                "sections": []
+            },
+            {
+                "title": "Social Engineering",
+                "reference": {
+                    "value": "6391808"
+                },
+                "sections": [
+                    {
+                        "title": "Een kat en muis spel",
+                        "reference": {
+                            "value": "6391811"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Wat is phishing?",
+                        "reference": {
+                            "value": "6391825"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Wat is spear phishing?",
+                        "reference": {
+                            "value": "6391845"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Wat is whaling?",
+                        "reference": {
+                            "value": "6391846"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Wat is dumpster diving?",
+                        "reference": {
+                            "value": "6391837"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Risico's en voorkomen",
+                "reference": {
+                    "value": "6391859"
+                },
+                "sections": [
+                    {
+                        "title": "Het kan overal gebeuren",
+                        "reference": {
+                            "value": "6391882"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Phishing voorkomen",
+                        "reference": {
+                            "value": "6391914"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Spear phishing voorkomen",
+                        "reference": {
+                            "value": "6392009"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Whailing voorkomen",
+                        "reference": {
+                            "value": "6392012"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Zelfevaluatie vragen",
+                "reference": {
+                    "value": "6392064"
+                },
+                "sections": []
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": null,
+        "imageSrc": null,
+        "sources": [
+            {
+                "type": "video",
+                "title": "",
+                "origin": "https://www.youtube.com/watch?v=IMsUYqZqdJM ",
+                "customOrigin": null,
+                "link": "https://www.youtube.com/watch?v=IMsUYqZqdJM ",
+                "visible": true
+            },
+            {
+                "type": "video",
+                "title": "",
+                "origin": "https://www.youtube.com/watch?v=a02Mrp6tBLs ",
+                "customOrigin": null,
+                "link": "https://www.youtube.com/watch?v=a02Mrp6tBLs ",
+                "visible": true
+            },
+            {
+                "type": "video",
+                "title": "",
+                "origin": "https://www.youtube.com/watch?v=nFWOuWGOJfo ",
+                "customOrigin": null,
+                "link": "https://www.youtube.com/watch?v=nFWOuWGOJfo ",
+                "visible": true
+            }
+        ],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            },
+            {
+                "key": "learningTime",
+                "label": "Studiebelasting",
+                "terms": [
+                    "0 uur en 25 minuten"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

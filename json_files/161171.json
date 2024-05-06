@@ -1,0 +1,1993 @@
+{
+    "documentAuthors": [
+        "Ilse Tukker"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Ilse Tukker",
+            "referenceName": null,
+            "reference": {
+                "value": "132762"
+            },
+            "firstName": "Ilse",
+            "infix": null,
+            "lastName": "Tukker",
+            "emailAddress": "Ilse.tukker@student.hu.nl",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2020-06-09T19:58:38Z",
+    "bulkId": "bulk-17041658-refresh_all",
+    "identifier": 161171,
+    "title": "Programmeer les",
+    "description": "Les programeren",
+    "lastModifiedDate": "2020-06-09T19:58:38+02:00",
+    "dateCreated": "2020-04-22T14:28:16+02:00",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "Tukker, Ilse",
+                "reference": {
+                    "value": "132762"
+                },
+                "firstName": "Ilse",
+                "infix": null,
+                "lastName": "Tukker",
+                "emailAddress": "Ilse.tukker@student.hu.nl",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-40",
+            "name": "CC Naamsvermelding 4.0 Internationale licentie",
+            "description": "De Internationale Creative Commons 4.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/4.0/.",
+            "link": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/161171/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "5996353"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Introductie",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Bekijk de video en beantwoord de vragen</p>\n"
+                },
+                {
+                    "type": "video",
+                    "url": "https://youtu.be/6m_8xv_p_VU",
+                    "align": "left",
+                    "caption": "https://youtu.be/6m_8xv_p_VU",
+                    "poster": "https://img.youtube.com/vi/6m_8xv_p_VU/maxresdefault.jpg"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Doelen:</p>\n<ol>\n<li>\n<p>Aan het einde van de les heb je een informatieve tekst gemaakt over een museum naar keuze.</p>\n</li>\n<li>\n<p>Aan het einde van de les kun je de code aanpassen.</p>\n</li>\n<li>\n<p>Aan het einde van de les heb je een digitale rondleiding gemaakt van een museum naar keuze.</p>\n</li>\n<li>\n<p>Aan het eind van de les weet je wat het programmeer concept sequentie is en weet je hoe je dit moet gebruiken.</p>\n</li>\n</ol>\n"
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6048293"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6048293",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "choiceInteraction",
+                                "label": "Vragen",
+                                "prompt": {
+                                    "body": "<p> 1. Ben je wel eens in een museum geweest?</p>"
+                                },
+                                "shuffle": false,
+                                "maxChoices": 2,
+                                "minChoices": 0,
+                                "orientation": "vertical",
+                                "choices": [
+                                    {
+                                        "identifier": "0",
+                                        "content": {
+                                            "body": "Ja"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "0",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "1",
+                                        "content": {
+                                            "body": "Nee"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "1",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    }
+                                ],
+                                "responseIdentifier": "6048293_1",
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6048293_1",
+                                "cardinality": "ordered",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "0"
+                                        },
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": "0",
+                                    "upperBound": 0,
+                                    "default": "0",
+                                    "mapEntries": [
+                                        {
+                                            "key": "0",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "1",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        }
+                                    ]
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": "0",
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6048303"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6048303",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "choiceInteraction",
+                                "label": "",
+                                "prompt": {
+                                    "body": "<p>2. Zit er een museum bij jouw in de buurt?</p>"
+                                },
+                                "shuffle": false,
+                                "maxChoices": 2,
+                                "minChoices": 0,
+                                "orientation": "vertical",
+                                "choices": [
+                                    {
+                                        "identifier": "0",
+                                        "content": {
+                                            "body": "Ja"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "0",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "1",
+                                        "content": {
+                                            "body": "Nee"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "1",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    }
+                                ],
+                                "responseIdentifier": "6048303_1",
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6048303_1",
+                                "cardinality": "ordered",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "0"
+                                        },
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": "0",
+                                    "upperBound": 0,
+                                    "default": "0",
+                                    "mapEntries": [
+                                        {
+                                            "key": "0",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "1",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        }
+                                    ]
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": "0",
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6048306"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6048306",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "choiceInteraction",
+                                "label": "",
+                                "prompt": {
+                                    "body": "<p>3. Hebben jullie thuis een een schilderij of beeld?</p>"
+                                },
+                                "shuffle": false,
+                                "maxChoices": 2,
+                                "minChoices": 0,
+                                "orientation": "vertical",
+                                "choices": [
+                                    {
+                                        "identifier": "0",
+                                        "content": {
+                                            "body": "Ja"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "0",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "1",
+                                        "content": {
+                                            "body": "Nee"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "1",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    }
+                                ],
+                                "responseIdentifier": "6048306_1",
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6048306_1",
+                                "cardinality": "ordered",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "0"
+                                        },
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": "0",
+                                    "upperBound": 0,
+                                    "default": "0",
+                                    "mapEntries": [
+                                        {
+                                            "key": "0",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "1",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        }
+                                    ]
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": "0",
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "5996359"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Opdracht zonder computer",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "video",
+                    "url": "https://youtu.be/pO1t35CO8AY",
+                    "align": "left",
+                    "caption": "https://youtu.be/pO1t35CO8AY",
+                    "poster": "https://img.youtube.com/vi/pO1t35CO8AY/maxresdefault.jpg"
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6048332"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6048332",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "",
+                                "prompt": {
+                                    "body": "<p>Eerst:</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6048332_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>Heb je beschreven wat je als eerste doet als je een museum inloopt?</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>Heb je beschreven wat je als eerste doet als je een museum inloopt?</p>"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6048335"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6048335",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "",
+                                "prompt": {
+                                    "body": "<p>Daarna:</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6048335_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>Heb je beschreven wat je daarna doet als je een museum inloopt?</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>Heb je beschreven wat je daarna doet als je een museum inloopt?</p>"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6048342"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6048342",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "",
+                                "prompt": {
+                                    "body": "<p>Tot slot:</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6048342_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>Heb je beschreven wat je als laatste doet in het museum?</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>Heb je beschreven wat je als laatste doet in het museum?</p>"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Filmpje over de uitleg van een sequentie.</p>\n<p> </p>\n<p> </p>\n"
+                },
+                {
+                    "type": "video",
+                    "url": "https://youtu.be/0IeVDaLToTc",
+                    "align": "left",
+                    "caption": "https://youtu.be/0IeVDaLToTc",
+                    "poster": "https://img.youtube.com/vi/0IeVDaLToTc/maxresdefault.jpg"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "5996366"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Bestaande presentatie",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Bekijk de onderstaande video en open de bestaande presentatie</p>\n"
+                },
+                {
+                    "type": "video",
+                    "url": "https://youtu.be/dT36z89tikM",
+                    "align": "left",
+                    "caption": "https://youtu.be/dT36z89tikM",
+                    "poster": "https://img.youtube.com/vi/dT36z89tikM/maxresdefault.jpg"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p><a href=\"https://scratch.mit.edu/projects/399134677\">https://scratch.mit.edu/projects/399134677</a></p>\n"
+                },
+                {
+                    "type": "video",
+                    "url": "https://youtu.be/Vjp5CigypEM",
+                    "align": "left",
+                    "caption": "https://youtu.be/Vjp5CigypEM",
+                    "poster": "https://img.youtube.com/vi/Vjp5CigypEM/maxresdefault.jpg"
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6069863"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6069863",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "selectPointInteraction",
+                                "label": "",
+                                "prompt": {
+                                    "body": "<p>Waar vind je de achtergronden in scratch? Klik op de juiste plek en controleer je antwoord.</p>"
+                                },
+                                "minNumberOfPins": 1,
+                                "maxNumberOfPins": "1",
+                                "image": {
+                                    "src": "https://maken.wikiwijs.nl/userfiles/d/dc193b081aac005b30b3bba6083b8347a600b3a2.png",
+                                    "width": "1342",
+                                    "height": "574"
+                                },
+                                "responseIdentifier": "6069863_1",
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_CORRECT",
+                                        "identifier": "FBC_6069863",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "Op deze plek vind je inderdaad de achtergronden!"
+                                        }
+                                    },
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_INCORRECT",
+                                        "identifier": "FBI_6069863",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "De achtergronden kun je rechtsonder vinden."
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6069863_1",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": null,
+                                "mapping": null,
+                                "areaMapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "areaMapEntries": [
+                                        {
+                                            "shape": "rectangle",
+                                            "coordinates": [
+                                                {
+                                                    "x": 0,
+                                                    "y": 0,
+                                                    "z": null
+                                                },
+                                                {
+                                                    "x": 0,
+                                                    "y": 0,
+                                                    "z": null
+                                                },
+                                                {
+                                                    "x": 0,
+                                                    "y": 0,
+                                                    "z": null
+                                                },
+                                                {
+                                                    "x": 0,
+                                                    "y": 0,
+                                                    "z": null
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 1,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6069867"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6069867",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "textEntryInteraction",
+                                "content": {
+                                    "body": "<p>Met het pijltje naar rechts ga je naar <textentry identifier=\"TE_66200ad75c790\"></textentry> Met het pijltje naar links ga je naar <textentry identifier=\"TE_66200ad75c79c\"></textentry></p>",
+                                    "items": [
+                                        {
+                                            "identifier": "TE_66200ad75c790",
+                                            "responseIdentifier": "TE_66200ad75c790_0",
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "TE_66200ad75c79c",
+                                            "responseIdentifier": "TE_66200ad75c79c_1",
+                                            "feedbackInline": null
+                                        }
+                                    ]
+                                },
+                                "label": "",
+                                "responseIdentifier": null,
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_CORRECT",
+                                        "identifier": "FBC_6069867",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "Inderdaad naar de volgende of vorige achtergrond."
+                                        }
+                                    },
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_INCORRECT",
+                                        "identifier": "FBI_6069867",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "Met de pijltjes naar links en rechts ga je naar de volgende en vorige achtergrond."
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "TE_66200ad75c790_0",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "Volgende achtergrond"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0.5,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            },
+                            {
+                                "identifier": "TE_66200ad75c79c_1",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "Vorige achtergrond"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0.5,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 1,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6069869"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6069869",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "",
+                                "prompt": {
+                                    "body": "<p>Leg de code van de pijltjes uit.</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6069869_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>De code van de pijltjes bestaat uit 2 blokken. De wanneer je op de spirte klikt en verander achtergrond naar vorige of volgende. Wanneer je dus op de sprite (het pijltje) klikt gaat hij afhankelijk van of je op de rechter of linker klikt naar de vorige of volgende achtergrond.</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>De code van de pijltjes bestaat uit 2 blokken. De wanneer je op de spirte klikt en verander achtergrond naar vorige of volgende. Wanneer je dus op de sprite (het pijltje) klikt gaat hij afhankelijk van of je op de rechter of linker klikt naar de vorige of volgende achtergrond.</p>"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6069871"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6069871",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "",
+                                "prompt": {
+                                    "body": "<p>Wat gebeurt er allemaal als je op het pijltje naar rechts drukt?</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6069871_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>Als je op het pijltje naar rechts drukt springt hij naar de volgende afbeelding. Dit zorgt er weer voor dat er een tekst over de afbeelding in beeld komt en de ingesproken tekst afspeelt.&nbsp;</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>Als je op het pijltje naar rechts drukt springt hij naar de volgende afbeelding. Dit zorgt er weer voor dat er een tekst over de afbeelding in beeld komt en de ingesproken tekst afspeelt. </p>"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6069876"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6069876",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "choiceInteraction",
+                                "label": "",
+                                "prompt": {
+                                    "body": "<p>Kies de goede uitleg bij dit stukje code                  <img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/12771bb962ca32a278ca31685cfc25233f0d39ef.png\" class=\"height-147-pixels width-380-pixels\" /></p>"
+                                },
+                                "shuffle": false,
+                                "maxChoices": 3,
+                                "minChoices": 1,
+                                "orientation": "vertical",
+                                "choices": [
+                                    {
+                                        "identifier": "0",
+                                        "content": {
+                                            "body": "Als de achtergrond verandert naar het rijksmuseum, daarna begint de sprite te praten, ten slotte start het geluidsfragment."
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "0",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "1",
+                                        "content": {
+                                            "body": "Wanneer op het pijltje naar links word gedrukt gaat naar de volgende afbeelding, waarbij er alleen tekst in beeld komt."
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "1",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "2",
+                                        "content": {
+                                            "body": "Eerst veranderd de achtergrond naar het rijksmuseum, daarna start het geluidsfragment en ten slotte komt de tekst 3 seconde in beeld."
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "2",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    }
+                                ],
+                                "responseIdentifier": "6069876_1",
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6069876_1",
+                                "cardinality": "ordered",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "2"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0,
+                                    "default": 0,
+                                    "mapEntries": [
+                                        {
+                                            "key": "0",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "1",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "2",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        }
+                                    ]
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "5996370"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Presentatie namaken",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Bekijk de video</p>\n"
+                },
+                {
+                    "type": "video",
+                    "url": "https://youtu.be/F1lCTI8lATQ",
+                    "align": "left",
+                    "caption": "https://youtu.be/F1lCTI8lATQ",
+                    "poster": "https://img.youtube.com/vi/F1lCTI8lATQ/maxresdefault.jpg"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Ga naar https://scratch.mit.edu/ </p>\n"
+                },
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/3/3ea0b4580e845efecd62e9600a7a730b67364309.jpg",
+                    "altText": "",
+                    "alignment": "left",
+                    "scale": 0.3,
+                    "link": ""
+                },
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/4/421475f123a56a78ce98bf3c967778ceb909759e.jpg",
+                    "altText": "",
+                    "alignment": "left",
+                    "scale": 0.3,
+                    "link": ""
+                },
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/1/1935dff9ef006de4240ee47b206449b2f0fd354c.jpg",
+                    "altText": "",
+                    "alignment": "left",
+                    "scale": 0.3,
+                    "link": ""
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "5996374"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Presentatie aanpassen",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "video",
+                    "url": "https://youtu.be/TLlcNJqtuqw",
+                    "align": "left",
+                    "caption": "https://youtu.be/TLlcNJqtuqw",
+                    "poster": "https://img.youtube.com/vi/TLlcNJqtuqw/maxresdefault.jpg"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Opdrachten:</p>\n<ul>\n<li>\n<p>Laat de verteller iets meer vertellen over een schilderij/kunstwerk, neem dit ook op</p>\n</li>\n<li>\n<p>Breid presentatie uit met een vierde schilderij/kunstwerk en zorg voor meer leestijd</p>\n</li>\n</ul>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "5996384"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Nieuwe presentatie maken",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "video",
+                    "url": "https://youtu.be/ltVdFFp4wIA",
+                    "align": "left",
+                    "caption": "https://youtu.be/ltVdFFp4wIA",
+                    "poster": "https://img.youtube.com/vi/ltVdFFp4wIA/maxresdefault.jpg"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Eisen:</p>\n<ul>\n<li>\n<p>Minimaal drie achtergronden</p>\n</li>\n<li>\n<p>Bij elk kunstwerk heb je minimaal 2 zinnen uitleg over het kunstwerk</p>\n</li>\n<li>\n<p>Alle tekst is ingesproken</p>\n</li>\n<li>\n<p>Bekijk de rondleiding van een klasgenoot en geef elkaar feedback.</p>\n</li>\n</ul>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "5996386"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Evaluatie",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6051166"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6051166",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "choiceInteraction",
+                                "label": "Vragen ",
+                                "prompt": {
+                                    "body": "<p>1. Na de uitleg van een sequentie snapte ik wat dit betekende en kon ik het uitleggen in mijn eigen woorden?</p>"
+                                },
+                                "shuffle": false,
+                                "maxChoices": 2,
+                                "minChoices": 0,
+                                "orientation": "vertical",
+                                "choices": [
+                                    {
+                                        "identifier": "0",
+                                        "content": {
+                                            "body": "Ja"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "0",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "1",
+                                        "content": {
+                                            "body": "Nee"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "1",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    }
+                                ],
+                                "responseIdentifier": "6051166_1",
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6051166_1",
+                                "cardinality": "ordered",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "0"
+                                        },
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": "0",
+                                    "upperBound": 0,
+                                    "default": "0",
+                                    "mapEntries": [
+                                        {
+                                            "key": "0",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "1",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        }
+                                    ]
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": "0",
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6051170"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6051170",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "choiceInteraction",
+                                "label": "",
+                                "prompt": {
+                                    "body": "<p>2. Door het zelf uitbreiden van de presentatie leerde ik scratch beter kennen.</p>"
+                                },
+                                "shuffle": false,
+                                "maxChoices": 2,
+                                "minChoices": 0,
+                                "orientation": "vertical",
+                                "choices": [
+                                    {
+                                        "identifier": "0",
+                                        "content": {
+                                            "body": "Ja"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "0",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "1",
+                                        "content": {
+                                            "body": "Nee"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "1",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    }
+                                ],
+                                "responseIdentifier": "6051170_1",
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6051170_1",
+                                "cardinality": "ordered",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "0"
+                                        },
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": "0",
+                                    "upperBound": 0,
+                                    "default": "0",
+                                    "mapEntries": [
+                                        {
+                                            "key": "0",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "1",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        }
+                                    ]
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": "0",
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6051174"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6051174",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "",
+                                "prompt": {
+                                    "body": "<p>3. Wat vond je moeilijk tijdens het programmeren en wat vond je makkelijk?</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6051174_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>Heb je uitgelegd wat je makkelijk en moeilijk vond?</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>Heb je uitgelegd wat je makkelijk en moeilijk vond?</p>"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6051177"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6051177",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "",
+                                "prompt": {
+                                    "body": "<p>4. Vond je het leuk om een eigen presentatie te maken over een door jouw gekozen museum?</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6051177_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>Heb je uitgelegd wat je moeilijk of makkelijk vond?</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>Heb je uitgelegd wat je moeilijk of makkelijk vond?</p>"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "sections": []
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": null,
+            "dimension": null,
+            "suppressTitle": null
+        },
+        "color": "#333333"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Introductie",
+                "reference": {
+                    "value": "5996353"
+                },
+                "sections": []
+            },
+            {
+                "title": "Opdracht zonder computer",
+                "reference": {
+                    "value": "5996359"
+                },
+                "sections": []
+            },
+            {
+                "title": "Bestaande presentatie",
+                "reference": {
+                    "value": "5996366"
+                },
+                "sections": []
+            },
+            {
+                "title": "Presentatie namaken",
+                "reference": {
+                    "value": "5996370"
+                },
+                "sections": []
+            },
+            {
+                "title": "Presentatie aanpassen",
+                "reference": {
+                    "value": "5996374"
+                },
+                "sections": []
+            },
+            {
+                "title": "Nieuwe presentatie maken",
+                "reference": {
+                    "value": "5996384"
+                },
+                "sections": []
+            },
+            {
+                "title": "Evaluatie",
+                "reference": {
+                    "value": "5996386"
+                },
+                "sections": []
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": null,
+        "imageSrc": null,
+        "sources": [
+            {
+                "type": "video",
+                "title": "",
+                "origin": "https://youtu.be/6m_8xv_p_VU",
+                "customOrigin": null,
+                "link": "https://youtu.be/6m_8xv_p_VU",
+                "visible": true
+            },
+            {
+                "type": "video",
+                "title": "",
+                "origin": "https://youtu.be/pO1t35CO8AY",
+                "customOrigin": null,
+                "link": "https://youtu.be/pO1t35CO8AY",
+                "visible": true
+            },
+            {
+                "type": "video",
+                "title": "",
+                "origin": "https://youtu.be/0IeVDaLToTc",
+                "customOrigin": null,
+                "link": "https://youtu.be/0IeVDaLToTc",
+                "visible": true
+            },
+            {
+                "type": "video",
+                "title": "",
+                "origin": "https://youtu.be/dT36z89tikM",
+                "customOrigin": null,
+                "link": "https://youtu.be/dT36z89tikM",
+                "visible": true
+            },
+            {
+                "type": "video",
+                "title": "",
+                "origin": "https://youtu.be/Vjp5CigypEM",
+                "customOrigin": null,
+                "link": "https://youtu.be/Vjp5CigypEM",
+                "visible": true
+            },
+            {
+                "type": "video",
+                "title": "",
+                "origin": "https://youtu.be/F1lCTI8lATQ",
+                "customOrigin": null,
+                "link": "https://youtu.be/F1lCTI8lATQ",
+                "visible": true
+            },
+            {
+                "type": "video",
+                "title": "",
+                "origin": "https://youtu.be/TLlcNJqtuqw",
+                "customOrigin": null,
+                "link": "https://youtu.be/TLlcNJqtuqw",
+                "visible": true
+            },
+            {
+                "type": "video",
+                "title": "",
+                "origin": "https://youtu.be/ltVdFFp4wIA",
+                "customOrigin": null,
+                "link": "https://youtu.be/ltVdFFp4wIA",
+                "visible": true
+            }
+        ],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            },
+            {
+                "key": "learningTime",
+                "label": "Studiebelasting",
+                "terms": [
+                    "4 uur en 0 minuten"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

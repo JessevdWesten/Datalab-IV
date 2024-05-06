@@ -1,0 +1,906 @@
+{
+    "documentAuthors": [
+        "Linda GrandMondriaan",
+        "content VO-"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Linda GrandMondriaan",
+            "referenceName": null,
+            "reference": {
+                "value": "16142"
+            },
+            "firstName": "Linda",
+            "infix": null,
+            "lastName": "GrandMondriaan",
+            "emailAddress": "l.legrand@kennisnet.nl",
+            "type": "author"
+        },
+        {
+            "fullName": "content VO-",
+            "referenceName": null,
+            "reference": {
+                "value": "22887"
+            },
+            "firstName": "content",
+            "infix": null,
+            "lastName": "VO-",
+            "emailAddress": "scala7201@gmail.com",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2019-07-09T08:06:23Z",
+    "bulkId": "bulk-17041658-refresh_all",
+    "identifier": 127836,
+    "title": "Databases - Havo 4",
+    "description": "",
+    "lastModifiedDate": "2019-07-09T08:06:23+02:00",
+    "dateCreated": "2018-08-18T23:01:20+02:00",
+    "published": true,
+    "publisher": {
+        "reference": {
+            "value": "1509"
+        },
+        "name": "Het Hooghuis Mondriaan informatica",
+        "emailAddresses": [
+            "w.vanschijndel@hethooghuis.nl"
+        ],
+        "webAddress": null
+    },
+    "team": {
+        "reference": {
+            "value": "1509"
+        },
+        "name": "Informatica",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "GrandMondriaan, Linda",
+                "reference": {
+                    "value": "16142"
+                },
+                "firstName": "Linda",
+                "infix": null,
+                "lastName": "GrandMondriaan",
+                "emailAddress": "l.legrand@kennisnet.nl",
+                "type": "author"
+            },
+            {
+                "fullName": null,
+                "referenceName": "Croes, Elif",
+                "reference": {
+                    "value": "90018"
+                },
+                "firstName": "Elif",
+                "infix": null,
+                "lastName": "Croes",
+                "emailAddress": "e.croes@hethooghuis.nl",
+                "type": "author"
+            },
+            {
+                "fullName": null,
+                "referenceName": "van Schijndel, Wim",
+                "reference": {
+                    "value": "136442"
+                },
+                "firstName": "Wim",
+                "infix": null,
+                "lastName": "van Schijndel",
+                "emailAddress": "w.vanschijndel@hethooghuis.nl",
+                "type": "author"
+            }
+        ],
+        "emailAddress": "w.vanschijndel@hethooghuis.nl",
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-sa-40",
+            "name": "CC Naamsvermelding-GelijkDelen 4.0 Internationale licentie",
+            "description": "De Internationale Creative Commons 4.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarden: Naamsvermelding en Gelijk Delen, zie http://creativecommons.org/licenses/by-sa/4.0/.",
+            "link": "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/127836/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "4505872"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "A Inleiding",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "4505873"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Vooraf",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/16ad11246a6d86cdf7d40f52b75a2f57.jpg\" class=\"float-right\"/></p>\n<p>In de module Informatieverwerkende systemen hebben we uitgelegd wat we verstaan onder gegevens. Gegevens zijn (combinaties van) tekens of symbolen die niet voor iedereen betekenis hebben. Gegevens worden ook wel data genoemd.<br/>\n<br/>\nVoor informatica zijn data en de opslag van data belangrijke onderwerpen. Data kunnen gestructureerd of ongestructureerd zijn.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4505875"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Leerdoelen",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/a/a204ff5ac614576dca6474739f51934ad34e82bf.png\" class=\"height-200-pixels width-200-pixels float-right\"/></p>\n<p>Na verwerking van deze module:</p>\n<ul>\n<li>kun je aangeven wat het verschil is tussen gestructureerde en ongestructureerde data;</li>\n<li>kun je uitleggen wat een databasemanagement system en een database system is;</li>\n<li>kun je aangeven wat het verschil is tussen een relationele database en een NoSQL database;</li>\n<li>weet je wat een relationele database is;</li>\n<li>ken je de begrippen redundantie en inconsistentie;</li>\n<li>weet je wat een NoSQL database is;</li>\n<li>ken je de begrippen sharding en replication;</li>\n<li>weet je waarvoor een strokendiagram gebruikt wordt;</li>\n<li>kun je eenvoudige selecties uit enkele tabellen in een database maken met SQL;</li>\n<li>kun je eenvoudige selecties maken uit een database door tabellen te combineren;</li>\n<li>kun je functies gebruiken in SQL;</li>\n<li>kun je rijen op basis van overeenkomsten groeperen in SQL;</li>\n<li>kun je omgaan met subqueries;</li>\n<li>kun je in een bestaande database gegevens toevoegen en / of verwijderen.</li>\n</ul>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4505877"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Bijlagen",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/9/98d07a609ddaab44a102856c256c91376cf66102.png\" class=\"height-200-pixels width-200-pixels float-right\"/>Bij deze module horen de volgende bijlagen:</p>\n<ul>\n<li><a href=\"https://maken.wikiwijs.nl/userfiles/1/16ad11246a6d86cdf7d40f52b75a2f57.jpg\"><span class=\"underline\"><strong>Strokendiagram database transacties</strong></span></a></li>\n<li><a href=\"https://maken.wikiwijs.nl/userfiles/1/16ad11246a6d86cdf7d40f52b75a2f57.jpg\"><span class=\"underline\"><strong>Strokendiagram cd-dvd database</strong></span></a></li>\n</ul>\n<p><br/>\nVoor het uitvoeren van queries met Microsoft Access:</p>\n<ul>\n<li><a href=\"https://maken.wikiwijs.nl/userfiles/1/16ad11246a6d86cdf7d40f52b75a2f57.jpg\"><span class=\"underline\"><strong>Access-bestand: transacties</strong></span></a></li>\n<li><a href=\"https://maken.wikiwijs.nl/userfiles/1/16ad11246a6d86cdf7d40f52b75a2f57.jpg\"><span class=\"underline\"><strong>Access-bestand: cd-dvd</strong></span></a></li>\n<li><a href=\"https://maken.wikiwijs.nl/userfiles/1/16ad11246a6d86cdf7d40f52b75a2f57.jpg\"><span class=\"underline\"><strong>Queries uitvoeren in MS Access</strong></span></a></li>\n</ul>\n<p><br/>\n<strong>SQL-tool databases:</strong></p>\n<table border=\"0\" cellpadding=\"5\">\n<tbody>\n<tr>\n<td><a href=\"https://vo-content.azurewebsites.net/ExtFrame?id=3\" onclick=\"window.open(this.href, '', 'resizable=no,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=no,dependent=no,width=750,height=600'); return false;\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/4/4b36e7776c4243d1ea6fd208c931e5b786216da7.png\" class=\"height-26-pixels width-85-pixels\"/></a></td>\n<td>CD-DVD database</td>\n</tr>\n</tbody>\n</table>\n<table border=\"0\" cellpadding=\"5\">\n<tbody>\n<tr>\n<td><a href=\"https://vo-content.azurewebsites.net/ExtFrame?id=2\" onclick=\"window.open(this.href, '', 'resizable=no,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=no,dependent=no,width=750,height=600'); return false;\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/4/4b36e7776c4243d1ea6fd208c931e5b786216da7.png\" class=\"height-26-pixels width-85-pixels\"/></a></td>\n<td>Transacties</td>\n</tr>\n</tbody>\n</table>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4505879"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Zo werkt het",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/c/cc89907a55ab4ee09a9e8dfe611aaad007d511ed.png\" class=\"height-200-pixels width-200-pixels float-right\"/></p>\n<p>Je bent begonnen in de module Databases.<br/>\nDeze module bestaat uit meerdere onderdelen. In ieder onderdeel vind je, verdeeld over verschillende pagina's, informatie in de vorm van teksten, afbeeldingen en video's. Daarnaast ga je zelf aan de slag. Onder het kopje \"Aan de slag\" vind je steeds toepassingsopdrachten. Deze opdrachten maak je alleen of met een klasgenoot.<br/>\n<br/>\nEr zijn ook oefeningen. Deze herken je aan de blauwe knop met daarop \"Oefening\". Een oefening bestaat uit meerdere vragen. Dat kunnen gesloten vragen zijn, die door de computer worden nagekeken, of open vragen, die je zelf moet nakijken. Bij een enkele vraag moet je een bestand uploaden.<br/>\n<br/>\nVan de oefeningen wordt, als je ingelogd bent, de voortgang bijgehouden. Het resultaat vind je onder de knop \"Voortgang\". Deze voortgang is ook door je docent te bekijken.<br/>\n<br/>\nSucces met de module Databases.</p>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<div id=\"html-view\">\n<div id=\"tab-content\">\n<div id=\"tab_4505034\">\n<h2>Voor wie is deze module bedoeld?</h2>\n<p><strong>Gemiddeld gesproken</strong>  zul je in havo 4 zitten als je aan dit materiaal toe bent.</p>\n</div>\n</div>\n</div>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "4505881"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "B Data",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "4505882"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "1. Gestructureerde data",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/d/d6b47a373cb026952dde97edd214c87a5b5de4fa.png\" class=\"height-342-pixels width-200-pixels float-right\"/>Van gestructureerde data is sprake als data op een standaard manier worden beschreven en de relaties die er bestaan tussen de data helder zijn. Hoe doen we dat? Lees daarvoor de volgende teksten.<br/>\n<br/>\n<strong>Rijen en kolommen</strong><br/>\nDoor in documenten of bestanden gebruik te maken van rijen en kolommen waarin telkens dezelfde typen gegevens worden ondergebracht. Dat kan een tabel zijn met de NAW-gegevens van werknemers van een bedrijf of een spreadsheet waarin per maand een gemiddelde temperatuur wordt vermeld. NAW staat voor Naam, Adres en Woonplaats.</p>\n<div><br/>\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/16ad11246a6d86cdf7d40f52b75a2f57.jpg\"/>\n<p><br/>\n<br/>\n<strong>Metadata</strong><br/>\nStructuur kan ook worden aangebracht door gebruik te maken van metadata. Metadata zijn gegevens die eigenschappen van bepaalde andere gegevens beschrijven. Het zijn dus eigenlijk 'data over data'. Het aanbrengen van structuur in data door data te voorzien van metadata noemen we ook wel het verrijken van data.<br/>\n<br/>\nEen document kan metadata bevatten zoals de naam van de auteur, de uitgever, het aantal pagina's en de taal waarin het document is geschreven. Een zoekmachine die gebruik maakt van metadata kan dan direct zoeken naar documenten van de hand van een specifieke auteur. Zou de zoekmachine geen gebruik maken van metadata dan zou het resultaat ook documenten bevatten waarin de naam van de auteur voorkomt, maar die niet van de hand zijn van de gezochte auteur. De zoekmachine snapt door het gebruik van de metadata dus de inhoud van de doorzochte documenten.<br/>\n<br/>\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/16ad11246a6d86cdf7d40f52b75a2f57.jpg\"/></p>\n<p><br/>\nComputers kunnen niet zelf denken. Dus ook niet zelfstandig beslissen welke data wel of niet belangrijk zijn. Of bepalen hoe data gebruikt moeten worden. Door structuur aan te brengen in data zorgen mensen ervoor dat computers data zelfstandig kunnen analyseren en doorzoeken.</p>\n</div>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4505884"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "2. Ongestructureerde data",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/16ad11246a6d86cdf7d40f52b75a2f57.jpg\" class=\"float-right\"/></p>\n<p>Data kunnen ook ongestructureerd zijn. Een twitterbericht of een foto waar verder geen informatie over wordt gegeven, zijn voorbeelden van ongestructureerde data.<br/>\n<br/>\nTegenwoordig bestaat het grootste deel van alle gegevens uit ongestructureerde data. Zelfs meer dan 90%. Ga maar eens na wat je zelf opslaat aan bestanden, foto's en films. Alleen al de opslag van deze grote hoeveelheden ongestructureerde data is een grote uitdaging voor de toekomst. En dan hebben we het nog niet gehad over het analyseren van dit soort gegevens.<br/>\n<br/>\nVaak willen we ook met ongestructureerde data meer doen dan alleen maar lezen of bekijken. Zijn er patronen of trends te herkennen in deze data? Of zijn we in staat regelmatigheden in deze grote hoeveelheden ongestructureerde data, daarvoor wordt vaak de term big data gebruikt, te ontdekken? Het analyseren daarvan biedt mogelijkheden. Alleen al voor commerci\u00eble doeleinden zou dat vaak erg interessant kunnen zijn.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "4505886"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "C Dataplatformen",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "4505887"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "1. RDBMS",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/16ad11246a6d86cdf7d40f52b75a2f57.jpg\" class=\"float-right\"/></p>\n<p>Voor het beheer van grote verzamelingen gestructureerde gegevens worden aparte systemen gebruikt. Denk bijvoorbeeld aan de gegevens van financi\u00eble instellingen, van scholen, van de NS of van bibliotheken. Zo'n verzameling gestructureerde gegevens noemen we een <strong>database</strong>. Op een database kunnen bewerkingen worden uitgevoerd zoals het toevoegen, veranderen of verwijderen van gegevens, maar vooral het raadplegen van gegevens. Het programma dat deze bewerkingen uitvoert, wordt een <strong>database management system (DBMS)</strong> genoemd. Als we spreken over een <strong>database system</strong> dan bedoelen we het programma (een database management system) en de gegevens (een database).<br/>\n<br/>\nIn 1970 kwam de wiskundige E.F.Codd met een destijds radicaal nieuw idee voor de opslag van data: het <strong>relationele model</strong>. In dit model bestaat een database uit \u00e9\u00e9n of meerdere tabellen, die vervolgens weer opgebouwd zijn uit rijen en kolommen. De term relationeel komt voort uit het feit dat er een relatie kan worden gelegd tussen de gegevens in de verschillende kolommen in de gebruikte tabellen.Een database management system (DBMS) dat is gebaseerd op het model van E.F.Codd noemen we een relationeel database management system (RDBMS). We lichten het relationele model toe aan de hand van een concreet voorbeeld.</p>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<h3>Opdracht 1</h3>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Als je de onderstaande afbeelding bekijkt zie je een tabel waarin de gegevens van leerlingen worden bijgehouden. In de eerste rij van de tabel, de 'heading', staan de namen van de kolommen: de veldnamen. Alle velden van \u00e9\u00e9n kolom behoren tot hetzelfde type. Uitgezonderd de eerste bevat elke tabelrij een bij elkaar horende groep gegevens, die verdeeld zijn over de kolommen van een tabel. In dit voorbeeld de gegevens van \u00e9\u00e9n leerling. Een rij uit de tabel wordt een record genoemd.<br/>\n<br/>\nBekijk deze tabel en lees de toelichting bij de verschillende onderdelen.</p>\n<div><br/>\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/16ad11246a6d86cdf7d40f52b75a2f57.jpg\"/>\n<hr/></div>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<h3>Opdracht 2</h3>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Bekijk de tabel en beantwoord de volgende vragen:</p>\n<div><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/16ad11246a6d86cdf7d40f52b75a2f57.jpg\"/></div>\n<p> </p>\n<ol type=\"a\">\n<li>Hoeveel veldnamen kom je tegen in deze tabel?</li>\n<li>\"Vertaal\" de derde rij in de tabel naar een gewone Nederlandse zin.</li>\n<li>Op welke veldnaam is de tabel gesorteerd?</li>\n<li>Uit hoeveel records bestaat de tabel?<br/>\nHoeveel velden heeft ieder record?</li>\n<li>Er is \u00e9\u00e9n kolom waar ieder gegeven maximaal \u00e9\u00e9n keer kan voorkomen.<br/>\nWelke kolom is dat?</li>\n<li>Waarom krijgt iedere leerling een administratienummer?</li>\n</ol>\n<p> </p>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<h3>Opdracht 3</h3>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Beantwoord de volgende vragen:</p>\n<ol type=\"a\">\n<li>Van welk type zijn de gegevens in de eerste kolom?</li>\n<li>En in de kolom adres?</li>\n<li>Deze tabel is nog niet compleet.<br/>\nWelke kolommen zouden er volgens jou nog moeten worden toegevoegd?</li>\n</ol>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/16ad11246a6d86cdf7d40f52b75a2f57.jpg\"/></p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4505895"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "2. Administratiesysteem",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>In de schooladministratie wordt gebruik gemaakt van een administratienummer om een leerling uniek te kunnen identificeren. Een kolom of een combinatie van kolommen op basis waarvan een rij uit een tabel uniek te identificeren is, noemen we een sleutel. In een schooladministratiesysteem kunnen veel gegevens bijgehouden worden. Stel dat de schoolleiding wil bijhouden wanneer een leerling absent is. Hiervoor zou de tabel uitgebreid kunnen worden met een extra kolom 'absentie'.</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/f/fcb09c4750c38079e7e0c32d7c95d940dc8a8d68.png\" class=\"height-227-pixels width-605-pixels\"/></p>\n<p>Als je de tabel bekijkt, dan zie je al dat dit niet de ideale oplossing is. Om alle absenties te kunnen vastleggen zijn in deze tabel dezelfde gegevens meerdere keren opgenomen. Wanneer dezelfde informatie vaker in een tabel is opgenomen dan is er sprake van <strong>redundantie</strong>. In sommige gevallen kan redundantie nuttig of noodzakelijk zijn, maar over het algemeen kleven er een aantal nadelen en gevaren aan.<br/>\n<br/>\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/0/0ca8e3d6f03f79eab5ef628ad8671ae7071abd02.png\" class=\"height-233-pixels width-223-pixels float-right\"/>Stel dat Robert-Jan Velthausz verhuist naar de Kennedylaan 245. Op de administratie moet het adres aangepast worden. In de tabel komt het adres van Robert-Jan meerdere malen voor. Het adres moet in zijn geval op drie plaatsen gewijzigd worden. Dat is niet alleen onhandig, maar er schuilt ook het gevaar in dat het op \u00e9\u00e9n plaats vergeten wordt.<br/>\n<br/>\nWanneer dat gebeurt, staat er tegenstrijdige informatie in de database. We spreken in dat geval van <strong>inconsistentie</strong>. Een gevaar van redundantie is dat deze kan leiden tot inconsistentie<br/>\n<br/>\nEen ander probleem is dat er een nieuwe sleutel gezocht moet worden. Het 'admnr' kan geen sleutel meer zijn, omdat er meerdere rijen in de tabel met hetzelfde administratienummer voorkomen. Een goede sleutel is in dit geval de combinatie 'admnr' en 'absentie'.<br/>\n<br/>\nHet is mogelijk het ontwerp aan te passen zodat redundantie verdwijnt en deze vorm van inconsistentie onmogelijk wordt. De oplossing ligt in het maken van twee tabellen.</p>\n<p>Bij het ontwerpen van een relationele database is het belangrijk om goed na te denken over de samenstelling van de tabellen. Wanneer dit eenmaal goed gebeurd is, kun je met een paar handelingen de informatie die erin zit tevoorschijn halen.</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/7/73d02be8e2278181b20eef4b7e89f572d54c4e0a.png\" class=\"height-216-pixels width-534-pixels\"/></p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/4/4e8a4e478487318245dc4c34a5a4fe772ab52981.png\" class=\"height-159-pixels width-208-pixels\"/></p>\n<p>Niet alleen kun je met behulp van deze twee tabellen een lijst samenstellen met de namen van de leerlingen die absent zijn geweest, maar je kunt ook vragen beantwoorden als: In welke klas is nog nooit iemand absent geweest? of Uit welke plaatsen komen de absenten?<br/>\n<br/>\nOm met een relationele database te kunnen werken, heb je een database management system nodig. De populaire DBMS-programma's bevatten als kern allemaal dezelfde vraagtaal: SQL. In deze module maken we kennis met deze taal.</p>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<h3>Opdracht 4</h3>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/16ad11246a6d86cdf7d40f52b75a2f57.jpg\" class=\"height-256-pixels width-150-pixels float-right\"/></p>\n<p>In de tabel leerlingen is admnr de sleutel waarmee iedere leerling uniek ge\u00efdentificeerd wordt.</p>\n<ol type=\"a\">\n<li>Waar dient een sleutel voor?</li>\n<li>Men had er ook voor kunnen kiezen om de combinatie voornaam - achternaam - adres - woonplaats als sleutel te gebruiken.<br/>\nWaarom wordt dat niet gedaan?</li>\n</ol>\n<p> </p>\n<ol type=\"a\"/>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<h3>Opdracht 5</h3>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/16ad11246a6d86cdf7d40f52b75a2f57.jpg\" class=\"height-256-pixels width-150-pixels float-right\"/>In het dagelijks leven is er vaak sprake van een unieke identificatie door middel van<br/>\neen sleutel. Denk daarbij bijvoorbeeld aan overheidsdiensten.</p>\n<ol type=\"a\">\n<li>Noem drie voorbeelden.</li>\n<li>Auto's kunnen op twee manieren uniek ge\u00efdentificeerd worden, dus met twee verschillende sleutels. Welke sleutels zijn dat en door wie of welke instantie worden ze gebruikt?</li>\n<li>Met welke sleutel worden bromfietsen uniek ge\u00efdentificeerd?</li>\n</ol>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<h3>Opdracht 6</h3>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/16ad11246a6d86cdf7d40f52b75a2f57.jpg\" class=\"float-right\"/></p>\n<p>Om alle absenties te kunnen vastleggen, zijn in deze tabel dezelfde gegevens meerdere keren opgenomen.</p>\n<ol type=\"a\">\n<li>Leg uit wat hier wordt bedoeld.</li>\n<li>Waar is sprake van wanneer dezelfde informatie meer dan \u00e9\u00e9n keer in de tabel staat?</li>\n<li>Wat is daarvan een gevaar?</li>\n<li>Noem een mogelijke oplossing.</li>\n</ol>\n<p> </p>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<h3>Opdracht 7</h3>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Bekijk de tabellen leerlingen en absenties.</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/bestanden/687113/Databases_CDataplatformen_RDBMS4_Popup2.png\"/>\n<figcaption>Tabel 1</figcaption>\n</figure>\n<p> </p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/bestanden/687114/Databases_CDataplatformen_RDBMS4_Popup3.png\"/>\n<figcaption>Tabel 2</figcaption>\n</figure>\n<p> </p>\n<ol type=\"a\">\n<li>Wat zijn de voor-en achternaam van de leerling die op 13 november 2016 afwezig was?</li>\n<li>Welke leerling was drie dagen afwezig?</li>\n<li>Wat is de sleutel van de tabel absentie?</li>\n</ol>\n<p> </p>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<h3>Opdracht 8</h3>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Wanneer dezelfde informatie meer dan \u00e9\u00e9n keer in een tabel staat, is er sprake van redundantie.</p>\n<div><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/16ad11246a6d86cdf7d40f52b75a2f57.jpg\"/><br/>\n </div>\n<ol type=\"a\">\n<li>Zoek op internet de betekenis van het begrip redundantie op.</li>\n<li>In de tabel absenties kun je niet zien wie op een bepaalde dag afwezig was.<br/>\nBeschrijf wat je hebt gedaan om hierachter te komen.</li>\n<li>In welke klas zijn geen absenten geweest?</li>\n</ol>\n<p> </p>\n<ol type=\"a\"/>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<h3>Opdracht 9</h3>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/16ad11246a6d86cdf7d40f52b75a2f57.jpg\" class=\"float-right\"/>Een sleutel moet uniek identificeren.</p>\n<ol type=\"a\">\n<li>Is de pincode van jouw bank- of giropas een sleutel?</li>\n<li>Waarom wel of waarom niet?</li>\n<li>Verklaar de term sleutel aan de hand van de behandelde tabellen.</li>\n</ol>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4505909"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "3. NoSQL",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/16ad11246a6d86cdf7d40f52b75a2f57.jpg\" class=\"float-right\"/></p>\n<p>In een relationele database ligt de structuur van de data vast. Er wordt een schema gebruikt voor het beschrijven van die structuur. Tabellen en kolommen hebben vaste namen en in eenzelfde kolom mogen geen verschillende soorten data voorkomen. Bij het ontwerpen van een database wordt voor de kolommen in de tabellen aangegeven wat voor soort data daarin opgeslagen gaan worden. Dat kan de ene keer om numerieke en een andere keer om bijvoorbeeld alfanumerieke gegevens gaan. In een kolom kunnen echter nooit verschillende typen data door elkaar worden gebruikt.<br/>\n<br/>\nVoor het identificeren van een rij wordt een sleutel gebruikt. In een relationele database moet redundantie vermeden en consistentie nagestreefd worden.</p>\n<p>Kenmerkend voor een relationele database is dat er met harde gestructureerde data wordt gewerkt. De data die zijn opgeslagen in de database kunnen worden bevraagd en worden bewerkt door SQL-opdrachten.<br/>\n<br/>\nEr kunnen zich echter situaties voordoen waarbij het niet voor de hand ligt data op te slaan in een relationele database maar waarbij de voorkeur uitgaat naar het gebruik van een zogenaamde <strong>NoSQL database</strong>. Bijvoorbeeld als er met hele grote hoeveelheden gegevens gewerkt wordt. Dan is het niet handig om die gegevens op te slaan in een RDBMS. No in NoSQL staat overigens voor Not only.<br/>\n<br/>\nData in een relationele database staan altijd op dezelfde server. In de NoSQL database worden gegevens over meerdere servers verspreid. Het verspreiden van data over meerdere servers noemen we <strong>sharding</strong>. Een groot voordeel daarvan is dat gebruikers deze data snel kunnen benaderen.<br/>\n<br/>\nZo maakt Twitter voor het opslaan van tweets gebruik van een NoSQL oplossing. De tweets verouderen namelijk snel en alle tweets moeten ook nog eens bewaard blijven. Dankzij NoSQL kunnen de data over meerdere servers verspreid worden die dan aan elkaar worden gekoppeld.<br/>\n<br/>\nBij een NoSQL database werken niet alle gebruikers met dezelfde database. Dat wordt mogelijk gemaakt door op verschillende servers telkens een kopie van de oorspronkelijke database op te slaan. Dit principe wordt <strong>replication</strong> genoemd. Een nadeel van deze manier van werken, is dat de gebruikte gegevens niet altijd up to date zijn.<br/>\n<br/>\nWe hebben gezien dat in een relationele database het gebruikelijk is om alle gegevens in tabellen op te slaan. De structuur van een relationele database staat vast. Een NoSQL database hoeft niet altijd dezelfde vorm te hebben:</p>\n<ul>\n<li>Een NoSQL database kan zo georganiseerd zijn dat er alleen op een sleutel (key-value) gezocht kan worden, maar niet op de inhoud van de gegevens zelf.</li>\n<li>Een NoSQL database kan een document database zijn. Dit is een database die bestaat uit collections. Onder een collection verstaan we een verzameling van (min of meer) gelijksoortige documenten. In een document geori\u00ebnteerde database staat, in tegenstelling tot een relationele database, niet alles vast. De database is flexibel. Veldnamen zijn dynamisch en er kunnen verschillende soorten gegevens worden opgeslagen zonder dat de structuur van de tabellen moet worden gewijzigd.<br/>\n<br/>\nEen document bestaat uit een verzameling velden (eigenschappen). Een veld heeft een naam en een waarde. In een collection wordt een document ge\u00efdentificeerd op basis van een sleutel. Deze sleutel wordt de document-id genoemd en staat altijd in het '_id'-veld.</li>\n<li><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/16ad11246a6d86cdf7d40f52b75a2f57.jpg\" class=\"float-right\"/>Een kenmerk van een NoSQL database is dat er variatie is in de structuur van de data. Kijk maar eens naar hoe gegevens van sensoren kunnen worden opgeslagen:<br/>\n<span>{sensor: \"temperature\", time: \"12:35\", value: 12.7, location: \"garden\",}<br/>\n{sensor: \"pressure\", time: \"12:17\", value: 1024.3}<br/>\n{sensor: \"light\", time: \"12:19\", value: [200,150,150,30]}</span><br/>\n<br/>\nDe documenten verschillen van elkaar. Niet elk document heeft dezelfde velden. Dat is ook logisch want we hebben te maken met verschillende soorten sensoren die ook weer verschillende soorten waarden opleveren. Een temperatuursensor, een druksensor en een lichtsensor. In een relationele database zou deze manier van gegevens opslaan ondenkbaar zijn.</li>\n<li>Een NoSQL database kan ook een Graaf database zijn. Dat is een database die gebruik maakt van een graaf om data te tonen en te verwerken. Een graaf bestaat uit een verzameling punten (knopen), waarvan sommigen verbonden zijn door lijnen (zijden).<br/>\n<br/>\n<strong>Graaf:</strong><br/>\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/16ad11246a6d86cdf7d40f52b75a2f57.jpg\"/></li>\n</ul>\n<p><br/>\nIn een NoSQL database zijn data minder hard gestructureerd dan in een relationale database. Afhankelijk van het soort gegevens waarmee gewerkt wordt, kan gekozen worden voor opslag in een relationele- of een NoSQL database.</p>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<h3>Opdracht 10</h3>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/16ad11246a6d86cdf7d40f52b75a2f57.jpg\" class=\"float-right\"/></p>\n<p>Een NoSQL database maakt gebruik van replication.</p>\n<ol type=\"a\">\n<li>Wat wordt hiermee bedoeld?</li>\n<li>Noem een voor- en een nadeel van replication.</li>\n</ol>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "4505913"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "D Database transacties",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "4505914"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "1. Inleiding",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/16ad11246a6d86cdf7d40f52b75a2f57.jpg\" class=\"float-right\"/></p>\n<p>In de module databases gaat onze aandacht hoofdzakelijk uit naar relationele databases. In dit lesmateriaal gebruiken we twee verschillende relationele databases:</p>\n<ol start=\"1\">\n<li>De database transacties</li>\n<li>De cd-dvd database</li>\n</ol>\n<p>De database <strong>transacties</strong> bevat gegevens over de financi\u00eble transacties van klanten van de ING. De <strong>cd-dvd</strong> database bevat gegevens over cd's en dvd's die kunnen worden geleend.<br/>\n<br/>\nBijna alle door ons gebruikte gegevens zijn fictief. In de tabel bank staan BIC-codes van banken die in het echt ook gebruikt worden. Alle rekeningnummers en<br/>\nNAW-gegevens van klanten daarentegen zijn verzonnen.<br/>\nDat geldt ook voor de NAW-gegevens die gebruikt worden in de cd-dvd database.<br/>\n<br/>\nBij de verschillende aan de slag opdrachten wordt altijd aangegeven welke database je moet gebruiken voor het maken van de opdracht.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4505916"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "2. Tabellen",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/4/4555e12475370f5eed46b965876da59b2f2a891b.png\" class=\"height-220-pixels width-220-pixels float-right\"/>De database transacties bestaat uit 5 tabellen:</p>\n<ul>\n<li>De tabel bank</li>\n<li>De tabel rekening</li>\n<li>De tabel rekeninghouder</li>\n<li>De tabel transactie</li>\n<li>De tabel betaalpas</li>\n</ul>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4505918"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "3. Tabel bank",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/16ad11246a6d86cdf7d40f52b75a2f57.jpg\" class=\"float-right\"/>In de tabel <strong>bank</strong> staan de namen van de Nederlandse banken. Elk bank wordt uniek ge\u00efdentificeerd door middel van de BIC-code van de bank. De BIC-code is de unieke code die een bank gebruikt voor internationale betalingen.<br/>\nVoor de Rabobank is dat bijvoorbeeld RABONL2U.<br/>\n<br/>\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/16ad11246a6d86cdf7d40f52b75a2f57.jpg\"/></p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4505920"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "4. Tabel rekening",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/89ef19eb5fdadcfb9a4157d662ba6d6c9c01c25e.png\" class=\"height-381-pixels width-223-pixels float-right\"/>In de tabel <strong>rekening</strong> staan gegevens zoals de rekeninghdr_id, de bank_id, het saldo en de status van de rekening. Elke rekening wordt uniek ge\u00efdentificeerd door middel van een rekening_id. Een rekening kan op naam staan van \u00e9\u00e9n persoon of meerdere personen. In dat laatste geval hebben we te maken met zogenaamde en/of rekeningen.<br/>\n<br/>\nVoor een en/of rekening kunnen meerdere betaalpassen zijn uitgegeven. Elke rekening heeft een status.</p>\n<div><br/>\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/16ad11246a6d86cdf7d40f52b75a2f57.jpg\"/></div>\n<p><br/>\nDe status van een rekening kan zijn:</p>\n<ul>\n<li>actief</li>\n<li>geblokkeerd</li>\n<li>opgeheven</li>\n</ul>\n<p>Van een geblokkeerde rekening kan sprake zijn bij een faillissement. Op de rekening kunnen dan nog wel bedragen worden bijgeschreven, maar er kan niets meer worden afgeschreven.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4505922"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "5. Tabel rekeninghouder",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>In de tabel <strong>rekeninghouder</strong> staan de NAW-gegevens van rekeninghouders.<br/>\n<br/>\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/16ad11246a6d86cdf7d40f52b75a2f57.jpg\"/></p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4505924"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "6. Tabel transactie",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>In de tabel <strong>transactie</strong> staat de datum waarop een transactie plaatsvindt, rekening_bij en rekening_af, een omschrijving, het type transactie, voor overschrijvingen de betaalstatus van de overschrijving en tot slot het bedrag.<br/>\nElke transactie wordt uniek ge\u00efdentificeerd door middel van een transactie_id.<br/>\n<br/>\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/16ad11246a6d86cdf7d40f52b75a2f57.jpg\"/></p>\n<p>Een transactie is van een bepaald type:</p>\n<ul>\n<li>AC: acceptgiro</li>\n<li>BA: betaalautomaat</li>\n<li>GM: geldautomaat</li>\n<li>OV: overschrijving</li>\n<li>ST: storting</li>\n<li>PO: periodieke overschrijving</li>\n</ul>\n<p>De betaalstatus van een overschrijving kan zijn:</p>\n<ul>\n<li>goedgekeurd (de betaalopdracht is uitgevoerd) - code GK</li>\n<li>afgekeurd (de betaalopdracht is definitief afgewezen, bijvoorbeeld vanwege een te laag saldo) code - AK</li>\n<li>gereserveerd (komt voor bij spoedbetalingen. Deze worden op werkdagen tot 16:30 uur verwerkt. Als de betaling na dit tijdstip wordt gedaan, krijgt de betaling tot 08:00 uur de volgende dag de status 'gereserveerd'). - code GR</li>\n</ul>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4505926"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "7. Tabel betaalpas",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/16ad11246a6d86cdf7d40f52b75a2f57.jpg\" class=\"float-right\"/></p>\n<p>Op de <strong>betaalpas</strong> staan het pasnummer en het rekening_id. De combinatie pasnummer en rekening_id is uniek. In het geval van een en/of rekening kunnen er meerdere passen gekoppeld zijn aan dezelfde rekening. Deze betaalpassen hebben niet hetzelfde nummer.<br/>\n<br/>\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/16ad11246a6d86cdf7d40f52b75a2f57.jpg\"/></p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4506218"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "8. Uitleg relaties (TO DO)",
+                        "level": 2
+                    },
+                    "items": [],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4505928"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "9. Relaties: strokendiagram",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>De tabellen in de database transacties zijn onderling met elkaar verbonden. Er bestaan relaties tussen de diverse tabellen. Niet voor niets spreken we van een relationele database. Om de tabellenstructuur van een database inzichtelijk te maken, wordt vaak een <strong>strokendiagram</strong> gebruikt. De tabellen verschijnen als stroken met daarboven de namen van de kolommen. De sleutel van een tabel wordt aangegeven met een dubbele pijl onder de kolom of kolommen die deel uit maken van de sleutel. Indien een sleutel betrekking heeft op meerdere kolommen, noemen we dat een samengestelde sleutel.</p>\n<div><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/16ad11246a6d86cdf7d40f52b75a2f57.jpg\"/></div>\n<p>Het strokendiagram van de database transacties kun je als pdf downloaden onder het menu-item bijlagen. Je hebt dit strokendiagram nodig bij het maken van opdrachten die uitgevoerd worden op deze database.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4506219"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "10. Verwijzende sleutels (TO DO)",
+                        "level": 2
+                    },
+                    "items": [],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "4505930"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "E SQL",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "4505931"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "1. Inleiding",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/16ad11246a6d86cdf7d40f52b75a2f57.jpg\" class=\"float-right\"/></p>\n<p>SQL, de afkorting staat voor Structured Query Language, is een formele taal die speciaal ontworpen is voor de communicatie met databases. SQL is de standaardtaal die tegenwoordig door de meeste databasesystemen wordt gebruikt. In de vraagtaal SQL kunnen opdrachten worden gegeven waarmee gegevens uit een database kunnen worden opgevraagd, worden toegevoegd of gewijzigd of worden verwijderd. Een SQL-opdracht wordt ook wel een query genoemd. Het Engelse woordje 'query' betekent (zoek)vraag.<br/>\n<br/>\nSQL-queries kunnen worden uitgevoerd door gebruik te maken van een RDBMS (een Relationeel Database Management Systeem). Een voorbeeld van een RDBMS is Microsoft Access. Scriptingtalen zoals PHP of PERL kunnen ook gebruik maken van SQL-queries. Bijvoorbeeld voor het opvragen van gegevens uit de database van een webwinkel.<br/>\n<br/>\nIn Enigma gebruiken we een eigen ontworpen tool om SQL-queries te kunnen uitvoeren. In deze tool kunnen queries worden uitgevoerd op de database transacties en de cd-dvd-database.</p>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<h3>Opdracht 11</h3>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Om de tabellenstructuur van een database weer te geven, wordt vaak een strokendiagram gebruikt. Bekijk het strokendiagram van een webwinkel.</p>\n<div><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/16ad11246a6d86cdf7d40f52b75a2f57.jpg\"/></div>\n<p><br/>\nBeantwoord de volgende vragen:</p>\n<ol type=\"a\">\n<li>Hoe wordt de sleutel van een tabel aangeduid in een strokendiagram?</li>\n<li>Noteer de drie namen van de tabellen van de database webwinkel en geef aan wat de bijbehorende sleutels zijn.</li>\n<li>Komen in dit strokendiagram samengestelde sleutels voor?</li>\n</ol>\n<p> </p>\n<ol type=\"a\"/>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<h3>Opdracht 12</h3>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/d/d43a251b97a372e9c8880c5fd0113df968da156a.png\" class=\"height-270-pixels width-226-pixels float-right\"/>Tussen de verschillende tabellen in een relationele database bestaan verbanden.</p>\n<ol type=\"a\">\n<li>Hoe worden de verbanden tussen de tabellen in een strokendiagram aangegeven?</li>\n<li>Schrijf alle verbanden op die er zijn in de database van de webwinkel.</li>\n</ol>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<h3>Opdracht 13</h3>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Je weet wat een vraagtaal is.</p>\n<ol type=\"a\">\n<li>Leg in eigen woorden uit waarvoor je een vraagtaal gebruikt.</li>\n<li>Noem een voorbeeld van een (veelgebruikte ) vraagtaal.</li>\n</ol>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4505939"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "2. SQL",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/16ad11246a6d86cdf7d40f52b75a2f57.jpg\" class=\"float-right\"/>We beginnen met een eenvoudige zoekopdracht. Stel dat de eigenaar van de webwinkel een lijst van de namen van al zijn klanten wil hebben. Deze vraag kan in SQL als volgt geformuleerd worden:<br/>\n<br/>\n<span>SELECT achternaam, voornaam<br/>\nFROM klant;</span><br/>\n<br/>\nAchter SELECT staan de kolommen die getoond moeten worden. De kolomnamen worden gescheiden door komma's. Achter FROM staat de naam van de tabel (of tabellen) waaruit deze kolommen komen. Een SQL-vraag wordt altijd afgesloten met een puntkomma (<span>;</span>).<br/>\n<br/>\nWanneer de eigenaar van de webwinkel alle gegevens uit de tabel klant wil hebben<br/>\ndan zou de vraag er zo uit kunnen zien:<br/>\n<br/>\n<span>SELECT klant_id, achternaam, voornaam, adres, woonplaats<br/>\nFROM klant;</span></p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/16ad11246a6d86cdf7d40f52b75a2f57.jpg\"/><br/>\n<br/>\n\u200bDit kan echter korter. Wanneer je alle kolommen wilt zien dan ziet de SQL-vraag er zo uit:<br/>\n<br/>\n<span>SELECT *<br/>\nFROM klant;</span><br/>\n<br/>\nDe asterisk zorgt ervoor dat alle kolommen getoond worden op het scherm.</p>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<h3>Opdracht 14</h3>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/16ad11246a6d86cdf7d40f52b75a2f57.jpg\" class=\"float-right\"/></p>\n<p>Bekijk de onderstaande query (database webwinkel):<br/>\n<br/>\n<span>SELECT datum, tijd<br/>\nFROM bestelling;</span></p>\n<ol type=\"a\">\n<li>Beschrijf in eigen woorden wat hier wordt bedoeld.</li>\n<li>Je ziet dat de SQL-commando's met hoofdletters worden getypt. Dat is niet verplicht, maar waarom zou het in het algemeen worden gedaan?</li>\n</ol>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<h3>Opdracht 15</h3>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/2/210db95be85a7c8b75ec1d7f09681a9a30f22bf5.png\" class=\"height-381-pixels width-223-pixels float-right\"/>Je kunt een selectie van kolommen maken uit een bepaalde tabel.<br/>\nJe kunt echter ook alle kolommen selecteren.<br/>\nBekijk de onderstaande tabel:</p>\n<div><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/16ad11246a6d86cdf7d40f52b75a2f57.jpg\"/></div>\n<p> </p>\n<ol type=\"a\">\n<li>Welke query levert als resultaat de naam en omschrijving van een product op?</li>\n<li>Met welke query krijg je alle kolommen uit de tabel product te zien?</li>\n</ol>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "4507752"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Voortgang",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Bepaal samen met je docent of je direct doorgaat met Databases vervolg.</p>\n<p><a class=\"content-link-button\" href=\"https://maken.wikiwijs.nl/127837\" role=\"button\" target=\"_blank\">Databases vervolg</a></p>\n"
+                }
+            ],
+            "sections": []
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [
+                {
+                    "content": ""
+                },
+                {
+                    "content": "<span style=\"color:#FFFFFF;\">Databases - Havo 4</span>"
+                }
+            ],
+            "backgroundImageUrl": "https://maken.wikiwijs.nl/generated/l1200x76_90588129da6970a9f5b59dc9674bada7cfdd66d4.jpg",
+            "dimension": null,
+            "suppressTitle": true
+        },
+        "color": "#495057"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "A Inleiding",
+                "reference": {
+                    "value": "4505872"
+                },
+                "sections": [
+                    {
+                        "title": "Vooraf",
+                        "reference": {
+                            "value": "4505873"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Leerdoelen",
+                        "reference": {
+                            "value": "4505875"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Bijlagen",
+                        "reference": {
+                            "value": "4505877"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Zo werkt het",
+                        "reference": {
+                            "value": "4505879"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "B Data",
+                "reference": {
+                    "value": "4505881"
+                },
+                "sections": [
+                    {
+                        "title": "1. Gestructureerde data",
+                        "reference": {
+                            "value": "4505882"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "2. Ongestructureerde data",
+                        "reference": {
+                            "value": "4505884"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "C Dataplatformen",
+                "reference": {
+                    "value": "4505886"
+                },
+                "sections": [
+                    {
+                        "title": "1. RDBMS",
+                        "reference": {
+                            "value": "4505887"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "2. Administratiesysteem",
+                        "reference": {
+                            "value": "4505895"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "3. NoSQL",
+                        "reference": {
+                            "value": "4505909"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "D Database transacties",
+                "reference": {
+                    "value": "4505913"
+                },
+                "sections": [
+                    {
+                        "title": "1. Inleiding",
+                        "reference": {
+                            "value": "4505914"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "2. Tabellen",
+                        "reference": {
+                            "value": "4505916"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "3. Tabel bank",
+                        "reference": {
+                            "value": "4505918"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "4. Tabel rekening",
+                        "reference": {
+                            "value": "4505920"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "5. Tabel rekeninghouder",
+                        "reference": {
+                            "value": "4505922"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "6. Tabel transactie",
+                        "reference": {
+                            "value": "4505924"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "7. Tabel betaalpas",
+                        "reference": {
+                            "value": "4505926"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "8. Uitleg relaties (TO DO)",
+                        "reference": {
+                            "value": "4506218"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "9. Relaties: strokendiagram",
+                        "reference": {
+                            "value": "4505928"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "10. Verwijzende sleutels (TO DO)",
+                        "reference": {
+                            "value": "4506219"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "E SQL",
+                "reference": {
+                    "value": "4505930"
+                },
+                "sections": [
+                    {
+                        "title": "1. Inleiding",
+                        "reference": {
+                            "value": "4505931"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "2. SQL",
+                        "reference": {
+                            "value": "4505939"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Voortgang",
+                "reference": {
+                    "value": "4507752"
+                },
+                "sections": []
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": null,
+        "imageSrc": null,
+        "sources": [],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            },
+            {
+                "key": "learningTime",
+                "label": "Studiebelasting",
+                "terms": [
+                    "4 uur en 0 minuten"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

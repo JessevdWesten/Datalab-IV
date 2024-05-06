@@ -1,0 +1,2679 @@
+{
+    "documentAuthors": [
+        "Nick Nebbeling"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Nick Nebbeling",
+            "referenceName": null,
+            "reference": {
+                "value": "120043"
+            },
+            "firstName": "Nick",
+            "infix": null,
+            "lastName": "Nebbeling",
+            "emailAddress": "0977184@hr.nl",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2021-03-09T20:38:22Z",
+    "bulkId": "bulk-17041658-refresh_all",
+    "identifier": 172361,
+    "title": "Hoofdstuk 4 Ontwikkeling: Arm en rijk",
+    "description": "Een webpagina voor MAVO 1 H4 buiteNLand",
+    "lastModifiedDate": "2021-03-09T20:38:22+01:00",
+    "dateCreated": "2021-01-19T14:26:48+01:00",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "Nebbeling, Nick",
+                "reference": {
+                    "value": "120043"
+                },
+                "firstName": "Nick",
+                "infix": null,
+                "lastName": "Nebbeling",
+                "emailAddress": "0977184@hr.nl",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-40",
+            "name": "CC Naamsvermelding 4.0 Internationale licentie",
+            "description": "De Internationale Creative Commons 4.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/4.0/.",
+            "link": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/172361/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "6522143"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Waarom wikiwijs?",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>WikiWijs is een online tool die jullie helpt met het leren van de stof. Door bezig te zijn met de lesstof onthouden jullie het beter.</p>\n<p>Elke week voeg ik een nieuw onderdeel toe aan de wikiwijs zodat jullie niet te veel stof in \u00e9\u00e9n keer krijgen. Zo blijft het voor iedereen leuk ;)</p>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "6522146"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Wat wordt er van jullie verwacht?",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Ik verwacht van jullie dat er serieus wordt gewerkt op deze wikiwijs. Ik zal jullie elke les een korte uitleg over de stof geven en dan wil ik dat er daarna gewerkt wordt op deze website en in jullie werkboek.</p>\n<p>Ook verwacht ik dat jullie veel leren van de lessen en dat jullie daar op een leuke manier mee aan de slag kunnen!</p>\n<p>Succes!</p>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "6522141"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Introductie",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>We behandelen hoofdstuk 4 van het boek in deze wikiwijs. Jullie gaan leren over de verschillen in rijkdom tussen verschillende landen. Sommige landen zijn heel rijk, andere landen zijn juist heel arm.</p>\n<p>Hoe komt dat? Kunnen we daar verandering in brengen? Is het wel eerlijk op deze manier? Die vragen gaan jullie beantwoorden tijdens dit hoofdstuk</p>\n"
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6537288"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6537288",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Sport",
+                                "prompt": {
+                                    "body": "<p>Wat is jouw favoriete sport? Leg ook uit waarom dit zo is</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6537288_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>De leerling vult hier kort in welke sport hun favoriet is en waarom</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>De leerling vult hier kort in welke sport hun favoriet is en waarom</p>"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Waarschijnlijk hebben de meeste van jullie voetbal, hockey of paardrijden ingevuld. In de meeste westerse landen zijn dit de meest populaire sporten. Toch zijn er een hele hoop landen waar voetbal niet de meest populaire sport is.</p>\n<p>Zo spelen ze in India en Pakistan graag cricket, in Amerika graag American Football en in Senegal houden ze juist heel erg van worstelen.</p>\n<p><strong>Maak nu in je werkboek opdracht 2 op bladzijde 89</strong></p>\n"
+                },
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/9/9e680ddfa815c073abb02d82d881fbd8e752c55e.jpg",
+                    "altText": "Cricket is een balsport waarbij twee teams de meeste punten moeten scoren door elkaars \"wickets\" om te gooien. Een \"wicket\" is zo'n houten opstelling achter de man met de knuppel",
+                    "alignment": "left",
+                    "scale": 0.3,
+                    "link": ""
+                },
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/9/9f18472ed7f0258a31f6e76bbcbf393b0cc789ca.jpg",
+                    "altText": "Dit is Ballo Gaye, de beste worstelaar van Senegal. Durf jij een potje met hem te vechten?",
+                    "alignment": "center",
+                    "scale": 0.25,
+                    "link": ""
+                },
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/e/ebb44b9cebcb7c173733cc574f1526ad4c2887ed.png",
+                    "altText": "Senegal is een land in Afrika, het ligt net onder de Sahara en is \u00e9\u00e9n van de armere landen van de wereld",
+                    "alignment": "right",
+                    "scale": 0.25,
+                    "link": ""
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Veel Senegalese jongens dromen ervan om professioneel worstelaar te worden, misschien droomde jij dat vroeger ook wel over voetbal. Worstelen is voor hun een manier om heel even uit de armoede waarin ze leven te ontsnappen.</p>\n<p>De beste worstelaars zijn de grote idolen van deze jongens, ze willen niets liever dan worden zoals de hun grote held.</p>\n<p>Het is ook nog eens BIG business, dat betekent dat er heel erg veel geld mee te verdienen is. Soms worden worstelaars wel 150.000 euro betaald per wedstrijd! En dat terwijl de meeste mensen in Senegal leven van een paar euro per week.</p>\n<p><strong>Maak nu opdracht 3 in je werkboek op bladzijde 89</strong></p>\n"
+                },
+                {
+                    "type": "questionnaire",
+                    "reference": {
+                        "value": "6537344"
+                    },
+                    "assessmentTestItem": {
+                        "label": "Oefening",
+                        "type": "exercise",
+                        "header": {
+                            "url": "https://maken.wikiwijs.nl/p/questionnaire/standalone/6537344",
+                            "title": "Wat weten jullie al over Senegal?"
+                        },
+                        "introduction": {
+                            "body": "<p>We maken een kort toetsje over Senegal. Deze heb ik gemaakt om jullie wat te laten wennen aan wikiwijs dus maak je maar geen zorgen over een cijfer!</p>"
+                        },
+                        "countQuestions": 4,
+                        "sections": [
+                            {
+                                "type": "assessment",
+                                "identifier": "SECTION_6537344",
+                                "name": "MAIN_SECTION",
+                                "select": null,
+                                "shuffle": null,
+                                "selection": null,
+                                "assessmentItems": [
+                                    {
+                                        "identifier": "6537344_0",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "choiceInteraction",
+                                                "label": "Waar ligt Senegal",
+                                                "prompt": {
+                                                    "body": "<p>Waar ligt Senegal?</p>"
+                                                },
+                                                "shuffle": true,
+                                                "maxChoices": 4,
+                                                "minChoices": 1,
+                                                "orientation": "vertical",
+                                                "choices": [
+                                                    {
+                                                        "identifier": "0",
+                                                        "content": {
+                                                            "body": "In Europa"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "0",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "1",
+                                                        "content": {
+                                                            "body": "In Afrika"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "1",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "2",
+                                                        "content": {
+                                                            "body": "In Azi\u00eb"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "2",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "3",
+                                                        "content": {
+                                                            "body": "In Zuid-Amerika"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "3",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    }
+                                                ],
+                                                "responseIdentifier": "6537344_0_1",
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "6537344_0_1",
+                                                "cardinality": "ordered",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "1"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0,
+                                                    "default": 0,
+                                                    "mapEntries": [
+                                                        {
+                                                            "key": "0",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "1",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "2",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "3",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        }
+                                                    ]
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": false,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": true,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_THRESHOLD",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    },
+                                    {
+                                        "identifier": "6537344_1",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "gapMatchInteraction",
+                                                "content": {
+                                                    "body": "<p>Senegal is een land wat veel historie heeft. Heel lang geleden leefden er een hele hoop <gap identifier=\"GM_662018ce16a5e\"></gap> die over het land regeerden. Soms was de \u00e9\u00e9n het sterkst, som de ander. Senegal is ooit gekoloniseerd door <gap identifier=\"GM_662018ce16a6c\"></gap> daarom spreken ze er nu voornamelijk frans. Na een heftige oorlog voor vrijheid is Senegal sinds 1960 <gap identifier=\"GM_662018ce16a6f\"></gap> en dit vierden ze uitbundig. De hoofdstad Dakar is ook nog erg bekend, het is namelijk het eindpunt van de rally-race Parijs-Dakar waar verschillende teams zo snel mogelijk door het zand racen!</p>",
+                                                    "items": [
+                                                        {
+                                                            "identifier": "GM_662018ce16a6f",
+                                                            "answer": {
+                                                                "identifier": "GMT_662018ce16a70",
+                                                                "content": {
+                                                                    "body": "Onafhankelijk"
+                                                                }
+                                                            },
+                                                            "feedbackInline": null
+                                                        },
+                                                        {
+                                                            "identifier": "GM_662018ce16a6c",
+                                                            "answer": {
+                                                                "identifier": "GMT_662018ce16a6d",
+                                                                "content": {
+                                                                    "body": "Frankrijk"
+                                                                }
+                                                            },
+                                                            "feedbackInline": null
+                                                        },
+                                                        {
+                                                            "identifier": "GM_662018ce16a5e",
+                                                            "answer": {
+                                                                "identifier": "GMT_662018ce16a5f",
+                                                                "content": {
+                                                                    "body": "Stammen"
+                                                                }
+                                                            },
+                                                            "feedbackInline": null
+                                                        }
+                                                    ]
+                                                },
+                                                "label": "Geschiedenis van Senegal",
+                                                "responseIdentifier": "6537344_1_1",
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "6537344_1_1",
+                                                "cardinality": "record",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": "GM_662018ce16a5e",
+                                                            "value": "GMT_662018ce16a5f"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": "GM_662018ce16a6c",
+                                                            "value": "GMT_662018ce16a6d"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": "GM_662018ce16a6f",
+                                                            "value": "GMT_662018ce16a70"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": [
+                                                        {
+                                                            "key": "GM_662018ce16a5e",
+                                                            "value": 0.33,
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "GM_662018ce16a6c",
+                                                            "value": 0.33,
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "GM_662018ce16a6f",
+                                                            "value": 0.33,
+                                                            "caseSensitive": false
+                                                        }
+                                                    ]
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    },
+                                    {
+                                        "identifier": "6537344_2",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "choiceInteraction",
+                                                "label": "Vlag van Senegal",
+                                                "prompt": {
+                                                    "body": "<p>Zou meneer Nick de betekenis van de vlag van Senegal weten? Kies alle juiste antwoorden</p>"
+                                                },
+                                                "shuffle": false,
+                                                "maxChoices": 3,
+                                                "minChoices": 0,
+                                                "orientation": "vertical",
+                                                "choices": [
+                                                    {
+                                                        "identifier": "0",
+                                                        "content": {
+                                                            "body": "Ja dat weet hij"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "0",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "1",
+                                                        "content": {
+                                                            "body": "Natuurlijk weet meneer Nick dat"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "1",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "2",
+                                                        "content": {
+                                                            "body": "Meneer Nick, stop met opscheppen"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "2",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    }
+                                                ],
+                                                "responseIdentifier": "6537344_2_1",
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "6537344_2_1",
+                                                "cardinality": "ordered",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "0"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "1"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "2"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": "0",
+                                                    "upperBound": 0,
+                                                    "default": "0",
+                                                    "mapEntries": [
+                                                        {
+                                                            "key": "0",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "1",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "2",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        }
+                                                    ]
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": "0",
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": false,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": true,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_THRESHOLD",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    },
+                                    {
+                                        "identifier": "6537344_3",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "Verre reizen",
+                                                "prompt": {
+                                                    "body": "<p>Senegal ligt erg ver weg, wat is het verste waar jij ooit bent geweest? En waar zou je nog heel graag naar toe willen?</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "6537344_3_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p>Hier mag je zelf invullen waar je bent geweest en waar je nog naartoe wil!</p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p>Hier mag je zelf invullen waar je bent geweest en waar je nog naartoe wil!</p>"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "outcomeDeclarations": null,
+                        "showEvaluation": null,
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Na dit korte quizje weten jullie misschien al wat meer over Senegal.</p>\n<p> </p>\n<p><strong>Bewijs het maar en maak opdracht 1 en 5 in je werkboek op bladzijde 89</strong></p>\n"
+                },
+                {
+                    "type": "link",
+                    "link": "https://forms.gle/gGyP5iV4DRsn7Gxt8",
+                    "title": "Huiswerk voor volgende week!",
+                    "description": "Deze link brengt jullie naar een vragenlijst, vul deze in als huiswerk.\r\n\r\nMaak natuurlijk ook de wikiwijs verder af als dat nog niet was gelukt.",
+                    "comment": ""
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "6522149"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Paragraaf 4.1",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p><span class=\"font-size-18px\"><strong>Werk</strong></span></p>\n"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Helaas is het leven niet altijd even eerlijk. Sommige mensen hebben heel erg veel geld, terwijl andere mensen elke dag wakker worden en niet weten of ze eten hebben die dag. In deze paragraaf gaan we de verschillende onderdelen behandelen waarop landen verschillen.</p>\n"
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6547389"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6547389",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Geld verdienen",
+                                "prompt": {
+                                    "body": "<p>Heb jij een bijbaantje? Of doe je klusjes in huis voor extra zakgeld? Schrijf op wat je doet!</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6547389_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>Vul in wat voor werk je doet om geld te verdienen</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>Vul in wat voor werk je doet om geld te verdienen</p>"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Veel Nederlanders hebben een baan. De meeste mensen werken voor een baas en sommige hebben zelfs een eigen bedrijf. Al deze banen hebben \u00e9\u00e9n ding gemeen: De overheid weet precies wie waar werkt en wat ze verdienen.</p>\n<p>In arme landen als Peru werken de meeste mensen niet voor een baas, sterker nog, de meeste mensen hebben helemaal geen werk. Ze worden dus gedwongen om iets te verzinnen om geld te verdienen. Mensen gaan schoenen poetsen, autoramen wassen of zelfs pakken zakdoeken verkopen. Alles om maar een klein beetje geld te verdienen. Mensen die op deze manier geld verdienen werken in de <strong><span class=\"underline\">scharreleconomie.</span></strong></p>\n<p> </p>\n<p> </p>\n"
+                },
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/8/808f7fc0757e14e010f6b169bedaa47142021d4d.jpg",
+                    "altText": "Een schoenenpoetser",
+                    "alignment": "left",
+                    "scale": 0.3,
+                    "link": ""
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6547438"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6547438",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "gapMatchInteraction",
+                                "content": {
+                                    "body": "<p>In arme landen werken veel mensen in de <gap identifier=\"GM_662018ce197e3\"></gap> en verdienen daar dus weinig geld mee. Gelukkig is het leven in arme landen veel <gap identifier=\"GM_662018ce197e9\"></gap> dan in rijke landen. Een broodje kost bij ons al gauw 3 euro, terwijl ze in <gap identifier=\"GM_662018ce197ec\"></gap> landen voor zo'n 20 cent een goede lunch kunnen krijgen. In <gap identifier=\"GM_662018ce197ef\"></gap> landen krijg je een uitkering als je geen werk hebt, terwijl je in arme landen het zelf moet uitzoeken. Hierdoor zijn mensen dus gedwongen om zelf banen te bedenken.</p>",
+                                    "items": [
+                                        {
+                                            "identifier": "GM_662018ce197ec",
+                                            "answer": {
+                                                "identifier": "GMT_662018ce197ed",
+                                                "content": {
+                                                    "body": "arme"
+                                                }
+                                            },
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "GM_662018ce197e3",
+                                            "answer": {
+                                                "identifier": "GMT_662018ce197e4",
+                                                "content": {
+                                                    "body": "scharreleconomie"
+                                                }
+                                            },
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "GM_662018ce197ef",
+                                            "answer": {
+                                                "identifier": "GMT_662018ce197f0",
+                                                "content": {
+                                                    "body": "rijke"
+                                                }
+                                            },
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "GM_662018ce197e9",
+                                            "answer": {
+                                                "identifier": "GMT_662018ce197ea",
+                                                "content": {
+                                                    "body": "goedkoper"
+                                                }
+                                            },
+                                            "feedbackInline": null
+                                        }
+                                    ]
+                                },
+                                "label": "Leven in arme en rijke landen",
+                                "responseIdentifier": "6547438_1",
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_INCORRECT",
+                                        "identifier": "FBI_6547438",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "Kijk nog eens goed naar de opties!"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6547438_1",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": "GM_662018ce197e3",
+                                            "value": "GMT_662018ce197e4"
+                                        },
+                                        {
+                                            "fieldIdentifier": "GM_662018ce197e9",
+                                            "value": "GMT_662018ce197ea"
+                                        },
+                                        {
+                                            "fieldIdentifier": "GM_662018ce197ec",
+                                            "value": "GMT_662018ce197ed"
+                                        },
+                                        {
+                                            "fieldIdentifier": "GM_662018ce197ef",
+                                            "value": "GMT_662018ce197f0"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": [
+                                        {
+                                            "key": "GM_662018ce197e3",
+                                            "value": 0.25,
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "GM_662018ce197e9",
+                                            "value": 0.25,
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "GM_662018ce197ec",
+                                            "value": 0.25,
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "GM_662018ce197ef",
+                                            "value": 0.25,
+                                            "caseSensitive": false
+                                        }
+                                    ]
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 1,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Lees nu \"werk\" in paragraaf 4.1 en <strong>maak opdracht 1</strong> in je werkboek op bladzijde 92</p>\n"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p><span class=\"font-size-18px\"><strong>Gezondheid</strong></span></p>\n"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Jullie hebben vast wel eens wat lekkers gekocht in de kantine, misschien gaan jullie uit school nog wel eens naar de McDonalds. Ons eten is heel erg divers en zit vol met voedingsstoffen. We hebben alle keuze.</p>\n<p>In arme landen is dit helaas niet zo. Het eten is vaak weinig en bevat niet de juiste voedingsstoffen. Hierdoor worden mensen sneller ziek. Je lichaam heeft simpelweg te weinig brandstof om je gezond te houden.</p>\n"
+                },
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/a/a141438df746bd8cd71b23bba3aed575bc011ca5.png",
+                    "altText": "Voeding is ontzettend belangrijk voor je gezondheid!",
+                    "alignment": "left",
+                    "scale": 0.5,
+                    "link": ""
+                },
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/f/fadcef0c73ac80f729d72ddbf4fd9b22671b6aeb.jpg",
+                    "altText": "Overgewicht is een voorbeeld van een welvaartsziekte. De hamburger is daar de oorzaak van!",
+                    "alignment": "right",
+                    "scale": 0.3,
+                    "link": ""
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6547458"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6547458",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "gapMatchInteraction",
+                                "content": {
+                                    "body": "<p>In arme landen hebben ze minder goede omstandigheden dan in rijke landen. Kraanwater is vaak niet <gap identifier=\"GM_662018ce1a682\"></gap> en hierdoor kan je last van je buik krijgen. Er is soms niet eens goede riolering, dit is niet echt hygi\u00ebnisch. Door de slechte hygi\u00ebne worden mensen eerder <gap identifier=\"GM_662018ce1a687\"></gap>. Een <gap identifier=\"GM_662018ce1a68a\"></gap> is te duur dus mensen hebben nauwelijks toegang tot <gap identifier=\"GM_662018ce1a68d\"></gap>.</p>\n<p>In <gap identifier=\"GM_662018ce1a68f\"></gap> landen is het eten veel te vet en zoet. Hierdoor worden mensen sneller <gap identifier=\"GM_662018ce1a691\"></gap>. Dit noemen we welvaartsziekten. Dat betekent dat mensen met veel welvaart (Geld) last hebben van deze ziektes.</p>",
+                                    "items": [
+                                        {
+                                            "identifier": "GM_662018ce1a68f",
+                                            "answer": {
+                                                "identifier": "GMT_662018ce1a690",
+                                                "content": {
+                                                    "body": "rijke"
+                                                }
+                                            },
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "GM_662018ce1a691",
+                                            "answer": {
+                                                "identifier": "GMT_662018ce1a692",
+                                                "content": {
+                                                    "body": "dik"
+                                                }
+                                            },
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "GM_662018ce1a68d",
+                                            "answer": {
+                                                "identifier": "GMT_662018ce1a68e",
+                                                "content": {
+                                                    "body": "gezondheidszorg"
+                                                }
+                                            },
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "GM_662018ce1a68a",
+                                            "answer": {
+                                                "identifier": "GMT_662018ce1a68b",
+                                                "content": {
+                                                    "body": "verzekering"
+                                                }
+                                            },
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "GM_662018ce1a687",
+                                            "answer": {
+                                                "identifier": "GMT_662018ce1a688",
+                                                "content": {
+                                                    "body": "ziek"
+                                                }
+                                            },
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "GM_662018ce1a682",
+                                            "answer": {
+                                                "identifier": "GMT_662018ce1a683",
+                                                "content": {
+                                                    "body": "schoon"
+                                                }
+                                            },
+                                            "feedbackInline": null
+                                        }
+                                    ]
+                                },
+                                "label": "Gezondheid",
+                                "responseIdentifier": "6547458_1",
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_INCORRECT",
+                                        "identifier": "FBI_6547458",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "Kijk nog eens goed naar de opties!"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6547458_1",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": "GM_662018ce1a682",
+                                            "value": "GMT_662018ce1a683"
+                                        },
+                                        {
+                                            "fieldIdentifier": "GM_662018ce1a687",
+                                            "value": "GMT_662018ce1a688"
+                                        },
+                                        {
+                                            "fieldIdentifier": "GM_662018ce1a68a",
+                                            "value": "GMT_662018ce1a68b"
+                                        },
+                                        {
+                                            "fieldIdentifier": "GM_662018ce1a68d",
+                                            "value": "GMT_662018ce1a68e"
+                                        },
+                                        {
+                                            "fieldIdentifier": "GM_662018ce1a68f",
+                                            "value": "GMT_662018ce1a690"
+                                        },
+                                        {
+                                            "fieldIdentifier": "GM_662018ce1a691",
+                                            "value": "GMT_662018ce1a692"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": [
+                                        {
+                                            "key": "GM_662018ce1a682",
+                                            "value": 0.17,
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "GM_662018ce1a687",
+                                            "value": 0.17,
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "GM_662018ce1a68a",
+                                            "value": 0.17,
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "GM_662018ce1a68d",
+                                            "value": 0.17,
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "GM_662018ce1a68f",
+                                            "value": 0.17,
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "GM_662018ce1a691",
+                                            "value": 0.17,
+                                            "caseSensitive": false
+                                        }
+                                    ]
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 1,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Lees \"Gezondheid\" in paragraaf 4.1 en <strong>Maak opdracht 2</strong> in je werkboek op bladzijde 92</p>\n"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p><strong><span class=\"font-size-18px\">Onderwijs</span></strong></p>\n"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>In Nederland is school verplicht. Jullie vinden dat natuurlijk verschrikkelijk! Maar wisten jullie dat sommige kinderen in arme landen helemaal niet naar school kunnen? En als ze dan wel kunnen, dan moeten ze soms kilometers lopen naar school. De scholen zijn vaak niet goed, docenten hebben weinig kennis en er zijn bijna nooit genoeg boeken voor iedereen.</p>\n<p>Voor meisjes is het vaak nog erger, die mogen na hun 12e niet meer naar school omdat ze in huis moeten helpen. In Nederland is er gelukkig leerplicht tot je 18e en kan iedereen een opleiding gaan doen!</p>\n"
+                },
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/c/cd7b61e29bb58f1be348667b6c496cfb2a69f210.jpg",
+                    "altText": "De klassen zitten vaak bomvol!",
+                    "alignment": "center",
+                    "scale": 0.7,
+                    "link": ""
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Lees \"Onderwijs\" in paragraaf 4.1 en <strong>maak opdracht 3 en 6 </strong>in je werkboek op bladzijde 92 en 93</p>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "6522152"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Paragraaf 4.2",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p><span class=\"font-size-18px\"><strong>Welvaart meten</strong></span></p>\n"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>In de vorige paragraaf hebben we ontdekt dat de wereld niet echt eerlijk verdeeld is. Zeker als het gaat om geld. Sommige mensen verdienen net 15 euro per uur terwijl andere mensen 10.000 euro per uur verdienen. En dan zijn er zelfs nog mensen die nog veel meer geld dan dat verdienen, helaas zijn er ook veel mensen die na een dag hard werken helemaal niets over houden.</p>\n<p>Hoe rijk een land is, noemen we <strong>Welvaart.</strong> Welvaart is te meten. Hier is een simpel sommetje voor bedacht: Het bedrag wat een land verdient, delen door het aantal inwoners. De uitkomst heet: <strong>bnp/hoofd</strong> ofwel Bruto Nationaal Product per hoofd van de bevolking. Dit meten we per jaar.</p>\n<p>Een voorbeeld: Land X heeft 1 miljoen inwoners en verdient 100 miljoen euro. De som is dus 100 miljoen, delen door 1 miljoen = een bnp/hoofd van 100 euro. Dit is dus erg weinig. </p>\n"
+                },
+                {
+                    "type": "questionnaire",
+                    "reference": {
+                        "value": "6555123"
+                    },
+                    "assessmentTestItem": {
+                        "label": "Oefening",
+                        "type": "exercise",
+                        "header": {
+                            "url": "https://maken.wikiwijs.nl/p/questionnaire/standalone/6555123",
+                            "title": "bnp/hoofd berekenen"
+                        },
+                        "introduction": {
+                            "body": "<p>Bereken het bnp/hoofd van de volgende landen</p>"
+                        },
+                        "countQuestions": 3,
+                        "sections": [
+                            {
+                                "type": "assessment",
+                                "identifier": "SECTION_6555123",
+                                "name": "MAIN_SECTION",
+                                "select": null,
+                                "shuffle": null,
+                                "selection": null,
+                                "assessmentItems": [
+                                    {
+                                        "identifier": "6555123_0",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "Nederland",
+                                                "prompt": {
+                                                    "body": "<p>Nederland heeft 17 miljoen inwoners en verdient per jaar 900 miljard. Wat is het bnp/hoofd?</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "6555123_0_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p>52.941 euro bnp/hoofd</p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p>52.941 euro bnp/hoofd</p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "identifier": "6555123_1",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "Zimbabwe",
+                                                "prompt": {
+                                                    "body": "<p>Zimbabwe heeft 14 miljoen inwoners en verdient 31 miljard. Wat is het bnp/hoofd?</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "6555123_1_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p>2214 euro bnp/hoofd</p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p>2214 euro bnp/hoofd</p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "identifier": "6555123_2",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "Griekenland",
+                                                "prompt": {
+                                                    "body": "<p>Griekenland heeft 10 miljoen inwoners en verdient 218 miljard. Wat is het bnp/hoofd?</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "6555123_2_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p>21800 euro bnp/hoofd</p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p>21800 euro bnp/hoofd</p>"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "outcomeDeclarations": null,
+                        "showEvaluation": null,
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Lees \"Welvaart meten\" en <strong>Maak opdracht 1</strong> op bladzijde 94 van je werkboek</p>\n"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p><strong>Inkomen</strong></p>\n"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Het bnp/hoofd zegt vooral over een land veel. Het is tenslotte een gemiddelde. Dit betekent wel dat er dus mensen zijn die minder verdienen dan het gemiddelde. Kijk maar naar Nederland, sommige mensen hebben 3 auto's en anderen hebben niet genoeg geld om boodschappen te doen.</p>\n<p>Als iemand minder dan 1,25 dollar per dag te besteden heeft, dan leeft die persoon onder de <strong>armoedegrens</strong>.</p>\n<p>Lees \"Inkomen\" en <strong>maak opdracht 2</strong> op bladzijde 94 van je werkboek</p>\n"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p><strong>Welzijn meten</strong></p>\n"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Als we het hebben over welvaart dan hebben we het over rijkdom van een land. Maar zoals jullie weten maakt geld niet gelukkig. Om te weten hoe gelukkig een land is, meten we het <strong>welzijn.</strong></p>\n<p>Het welzijn kijkt naar de leefomstandigheden van de inwoners van een land. Dit meten we met 3 onderdelen.</p>\n<p>1. De gezondheid van de inwoners. Dit meten we door te kijken naar de levensverwachting en hoeveel artsen er zijn per duizend inwoners</p>\n<p>2. Het onderwijs. We kijken dan vooral door te kijken naar de <strong>alfabetiseringsgraad</strong> (Hoeveel procent van de inwoners kan lezen en schrijven) De mensen die dit niet kunnen, noemen we <strong>analfabeet</strong>.</p>\n<p>3. Als laatste kijken we naar de koopkracht. Dat is de waarde van een dollar in een land. Hoeveel je ermee kan kopen geeft aan hoe rijk een land is.</p>\n<p>Lees nu \"Welzijn meten\" en <strong>maak opdracht 3 en 4 </strong> in je werkboek</p>\n"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p><strong>Driedeling</strong></p>\n"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Om het overzichtelijker te maken hebben we landen opgedeeld in 3 groepen.</p>\n<p>1. De rijkste landen. Deze noemen we <strong>Koplopers of centrumlanden</strong>. Voorbeelden hiervan zijn Nederland, Amerika, Japan en Duitsland</p>\n<p>2. De rijker wordende landen. Deze noemen we <strong>Volgers of semiperiferie.</strong> Voorbeelden hiervan zijn Brazili\u00eb, Rusland en India. In deze landen stijgt de welvaart</p>\n<p>3. De armste landen. Deze noemen we <strong>Achterblijvers of periferie</strong>. Veel landen in Afrika horen hier nog bij</p>\n"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Lees \"Driedeling\" <strong>Maak opdracht 5 en 6</strong> in je werkboek</p>\n"
+                },
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/4/4866ad1fbfed8386afc4bed3713d8e867772818e.png",
+                    "altText": "Als de wereld de Eredivisie was, dan was Ajax een Centrumland",
+                    "alignment": "left",
+                    "scale": 0.3,
+                    "link": ""
+                },
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/a/af8eb506ec4253d81588edbadbb46318d2ea0f87.png",
+                    "altText": "In deze landen Eredivisie zou FC Utrecht een land in de semiperiferie zijn",
+                    "alignment": "center",
+                    "scale": 0.3,
+                    "link": ""
+                },
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/9/9f178b0436391f4c1901cf322fb84d568135ccaf.png",
+                    "altText": "En Barendrecht zou in deze Eredivisie zeker een achterblijver zijn",
+                    "alignment": "right",
+                    "scale": 0.3,
+                    "link": ""
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "6522153"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Paragraaf 4.3",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p><strong>Sociale ongelijkheid</strong></p>\n"
+                },
+                {
+                    "type": "questionnaire",
+                    "reference": {
+                        "value": "6572865"
+                    },
+                    "assessmentTestItem": {
+                        "label": "Toets",
+                        "type": "exam",
+                        "header": {
+                            "url": "https://maken.wikiwijs.nl/p/questionnaire/standalone/6572865",
+                            "title": "Invultekst eerste alinea"
+                        },
+                        "introduction": {
+                            "body": "<p>Vul de juiste woorden in op de lege plekken</p>"
+                        },
+                        "countQuestions": 1,
+                        "sections": [
+                            {
+                                "type": "assessment",
+                                "identifier": "SECTION_6572865",
+                                "name": "MAIN_SECTION",
+                                "select": null,
+                                "shuffle": null,
+                                "selection": null,
+                                "assessmentItems": [
+                                    {
+                                        "identifier": "6572865_0",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "textEntryInteraction",
+                                                "content": {
+                                                    "body": "<p>Veel landen die we <textentry identifier=\"TE_662018ce1ee07\"></textentry> noemen hebben toch ook veel armoede. Voorbeelden hiervan zijn Argentini\u00eb, China en Brazili\u00eb. Arme mensen hebben geen werk en moeten niet-officieel werk doen. Dit noemen we de <textentry identifier=\"TE_662018ce1ee13\"></textentry>sector. Daarvan wordt niets officieel opgeschreven en verdienen zo veel als dat ze kunnen werken op een dag, een slechte dag betekent helaas een avond geen <textentry identifier=\"TE_662018ce1ee16\"></textentry>. Als deze mensen <textentry identifier=\"TE_662018ce1ee19\"></textentry>worden kunnen ze niet naar het ziekenhuis.</p>\n<p>De <textentry identifier=\"TE_662018ce1ee1c\"></textentry>mensen hebben juist wel goed werk. Alles wordt bijgehouden en ze hebben bijvoorbeeld een zorgverzekering zodat ze naar het ziekenhuis kunnen als ze ziek worden. Dit werk noemen we de <textentry identifier=\"TE_662018ce1ee1f\"></textentry>sector.</p>\n<p>Dit is natuurlijk niet eerlijk, maar helaas is het nu eenmaal zo. Dit verschil tussen <textentry identifier=\"TE_662018ce1ee21\"></textentry>en <textentry identifier=\"TE_662018ce1ee24\"></textentry>noemen we <strong>sociale ongelijkheid</strong></p>",
+                                                    "items": [
+                                                        {
+                                                            "identifier": "TE_662018ce1ee07",
+                                                            "responseIdentifier": "TE_662018ce1ee07_0",
+                                                            "feedbackInline": null
+                                                        },
+                                                        {
+                                                            "identifier": "TE_662018ce1ee13",
+                                                            "responseIdentifier": "TE_662018ce1ee13_1",
+                                                            "feedbackInline": null
+                                                        },
+                                                        {
+                                                            "identifier": "TE_662018ce1ee16",
+                                                            "responseIdentifier": "TE_662018ce1ee16_2",
+                                                            "feedbackInline": null
+                                                        },
+                                                        {
+                                                            "identifier": "TE_662018ce1ee19",
+                                                            "responseIdentifier": "TE_662018ce1ee19_3",
+                                                            "feedbackInline": null
+                                                        },
+                                                        {
+                                                            "identifier": "TE_662018ce1ee1c",
+                                                            "responseIdentifier": "TE_662018ce1ee1c_4",
+                                                            "feedbackInline": null
+                                                        },
+                                                        {
+                                                            "identifier": "TE_662018ce1ee1f",
+                                                            "responseIdentifier": "TE_662018ce1ee1f_5",
+                                                            "feedbackInline": null
+                                                        },
+                                                        {
+                                                            "identifier": "TE_662018ce1ee21",
+                                                            "responseIdentifier": "TE_662018ce1ee21_6",
+                                                            "feedbackInline": null
+                                                        },
+                                                        {
+                                                            "identifier": "TE_662018ce1ee24",
+                                                            "responseIdentifier": "TE_662018ce1ee24_7",
+                                                            "feedbackInline": null
+                                                        }
+                                                    ]
+                                                },
+                                                "label": "Sociale ongelijkheid",
+                                                "responseIdentifier": null,
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "TE_662018ce1ee07_0",
+                                                "cardinality": "record",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "rijk"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            },
+                                            {
+                                                "identifier": "TE_662018ce1ee13_1",
+                                                "cardinality": "record",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "informele"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            },
+                                            {
+                                                "identifier": "TE_662018ce1ee16_2",
+                                                "cardinality": "record",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "eten"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            },
+                                            {
+                                                "identifier": "TE_662018ce1ee19_3",
+                                                "cardinality": "record",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "ziek "
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            },
+                                            {
+                                                "identifier": "TE_662018ce1ee1c_4",
+                                                "cardinality": "record",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "rijke"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            },
+                                            {
+                                                "identifier": "TE_662018ce1ee1f_5",
+                                                "cardinality": "record",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "formele"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            },
+                                            {
+                                                "identifier": "TE_662018ce1ee21_6",
+                                                "cardinality": "record",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "arm"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            },
+                                            {
+                                                "identifier": "TE_662018ce1ee24_7",
+                                                "cardinality": "record",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "rijk"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            },
+                                            {
+                                                "identifier": "TE_662018ce1ee24_6572865_0",
+                                                "cardinality": "record",
+                                                "baseType": "identifier",
+                                                "correctResponse": null,
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    }
+                                ]
+                            }
+                        ],
+                        "outcomeDeclarations": null,
+                        "showEvaluation": null,
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/a/acb94143be06a205126bb92915d5cf36f3b1d9bb.jpg",
+                    "altText": "Deze mensen verkopen van alles en nog wat. Ze zijn vaak afhankelijk van toerisme",
+                    "alignment": "center",
+                    "scale": 0.8,
+                    "link": ""
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Lees nu \"Sociale ongelijkheid\" en <strong>Maak opdracht 1 in je werkboek</strong></p>\n"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p><strong>Regionale ongelijkheid</strong></p>\n"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Hiervoor hadden we het over het verschil tussen arme en rijke mensen. Er zijn ook nog verschillen tussen rijke en arme regio's in een land. Zo hebben we in Nederland de Randstad en bijvoorbeeld de Achterhoek (Zie de foto's hier onder) In de Randstad zitten de meeste bedrijven en is het meeste werk. Het is dus een rijker gebied dan de achterhoek waar minder mensen wonen en dus minder bedrijven zitten. Het verschil tussen deze twee regio's heet <strong>Regionale ongelijkheid</strong></p>\n"
+                },
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/5/58d7cca6ed9cd28073e3ff0c043807bee780e0e2.png",
+                    "altText": "Dit gebied heet de achterhoek, er wonen weinig mensen",
+                    "alignment": "left",
+                    "scale": 0.9,
+                    "link": ""
+                },
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/f/f0492594e1bd1cf74a626adb7919b820d1df2e3b.gif",
+                    "altText": "Dit is de Randstad, de grootste steden van Nederland liggen hier en er wonen veel mensen",
+                    "alignment": "left",
+                    "scale": 0.9,
+                    "link": ""
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Lees nu \"Regionale ongelijkheid\" en <strong>Maak opdracht 3 in je werkboek</strong></p>\n"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p><strong>Beroepsbevolking</strong></p>\n<p> </p>\n"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Alle inwoners van een land die werken en alle mensen die zouden kunnen werken maar geen baan hebben noemen we de <strong>Beroepsbevolking.</strong></p>\n<p>Al het werk kunnen we opdelen in drie delen:</p>\n<p>1. Landbouw: Denk hierbij aan boeren of bedrijven die eten produceren. Als veel mensen in de landbouw werken dan is een land arm.</p>\n<p>2. Industrie: Denk hierbij aan het werk in fabrieken. Een land met veel industrie is rijker dan een land waar veel mensen in de landbouw werken</p>\n<p>3. Diensten: Denk hierbij aan mensen die in een restaurant werken of leraren. Een land waar veel mensen in de dienstensector werken is erg rijk.</p>\n<p>Hoe welvarender een land is, hoe meer mensen in de dienstensector werken.</p>\n"
+                },
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/9/93359d8592c67bb8b7d5d4dc629b388780699b87.jpg",
+                    "altText": "Landbouw is het produceren van voedsel",
+                    "alignment": "left",
+                    "scale": 0.3,
+                    "link": ""
+                },
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/f/f5d9b37c374795007a8f550d23e02c8da763a764.jpg",
+                    "altText": "Industrie is het ontwikkelen van goederen voor jezelf of andere landen",
+                    "alignment": "center",
+                    "scale": 0.3,
+                    "link": ""
+                },
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/c/c7e0d3ea70935db84b809b8b30d86cee5b987f79.jpg",
+                    "altText": "De dienstensector is elk bedrijf wat je kunt zien als een luxe. Denk aan restaurants, een bowlingbaan of een hotel",
+                    "alignment": "right",
+                    "scale": 0.3,
+                    "link": ""
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Lees nu \"Beroepsbevolking\" en <strong>Maak opdracht 4 en 7 in je werkboek</strong></p>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "6522154"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Paragraaf 4.4",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p><strong>Nederland in de wereld</strong></p>\n"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Van alle landen in de wereld staat Nederland op de 134e plaats als je kijkt naar oppervlakte. We staan op de 67e plek als we kijken naar aantal inwoners. Niet heel indrukwekkend... (Deze cijfers zijn van begin dit jaar en kunnen dus in de toekomst veranderen)</p>\n<p>Toch is Nederland \u00e9\u00e9n van de rijkste landen ter wereld. We staan op de 18e plaats als je kijkt naar het bnp. Dit komt door onze enorme haven in Rotterdam en onze export van landbouwproducten.</p>\n<p>Er zijn ook veel grote bedrijven die in Nederland zijn gestart en nu wereldwijd van enorm belang zijn. Denk aan ING, Shell en Philips. Bedrijven die in een hele hoop landen noemen we <strong>Multinationals</strong>. Multi betekent meerdere en nationals betekent landen.</p>\n"
+                },
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/c/cb3a298b35f532dcac394a3ca8d9836cecb26035.jpg",
+                    "altText": "Shell",
+                    "alignment": "left",
+                    "scale": 0.3,
+                    "link": ""
+                },
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/a/a5caad040ab6ae2553ffb3b8c45bbde0bd1a7126.png",
+                    "altText": "Philips",
+                    "alignment": "right",
+                    "scale": 0.3,
+                    "link": ""
+                },
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/b/b0a63b28cb5354541f18f91e9b78637829771da7.png",
+                    "altText": "ING",
+                    "alignment": "left",
+                    "scale": 0.3,
+                    "link": ""
+                },
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/3/3c67a6ec31a4156e61091ffd96f741eadc55c6e3.jpg",
+                    "altText": "En nog veel meer multinationals. Hoeveel ken jij er?",
+                    "alignment": "center",
+                    "scale": 0.5,
+                    "link": ""
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Lees \"Nederland in de wereld\" en <strong>m</strong><strong>aak opdracht 1</strong> in je werkboek</p>\n"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p><strong>Nederland handelsland</strong></p>\n"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Elk land heeft werknemers in 3 sectoren. Mensen werken in de landbouw, de industrie of in de dienstensector. Hoe meer mensen in de dienstensector werken, hoe rijker een land is.</p>\n<p>In Nederland werken meer dan 80% van alle werknemers in de dienstensector. </p>\n<p>Om te zien hoe een land geld verdient, kijk je naar de <strong>handelsbalans</strong> van een land. Deze handelsbalans kan positief of negatief zijn.</p>\n<p>Importeert (Koopt) een land <strong>meer</strong> dan dat het exporteert (Verkoopt), dan heeft dat land een negatieve handelsbalans.</p>\n<p>Importeert (Koopt) een land <strong>minder</strong> dan dat het exporteert (Verkoopt), dan heeft dat land een positieve handelsbalans.</p>\n<p>De meeste rijke landen hebben een positieve handelsbalans terwijl de meeste arme landen een negatieve handelsbalans hebben.</p>\n<p> </p>\n"
+                },
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/f/fd4295d2ff3a91014341333552b78088a01bd501.png",
+                    "altText": "De handelsbalans van Nederland",
+                    "alignment": "center",
+                    "scale": 0.6,
+                    "link": ""
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Toch heeft Nederland als rijk land nadelen voor bedrijven. Wij hebben regels over salarissen waardoor een hoop mensen veel meer verdienen dan in andere landen. Bedrijven die <strong>arbeidsintensief (Veel werk en hard werken) </strong>zijn, vertrekken dus uit Nederland. De andere landen hebben geen regels over salarissen en daarom hoeven die bedrijven daar minder te betalen aan hun personeel. De landen waar deze bedrijven heen gaan noemen we <strong>Lagelonen landen.</strong></p>\n<p>Lees nu Nederland Handelsland en <strong>Maak opdracht 2 en 3 in je werkboek</strong></p>\n"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p><strong>Mainports</strong></p>\n"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>De haven van Rotterdam is enorm belangrijk voor de Nederlandse economie. Niet omdat er zoveel spullen worden gemaakt maar juist omdat er zoveel spullen binnenkomen.</p>\n<p>De haven van Rotterdam is de ingang tot Europa. Hiermee bedoelen we dat alles wat wordt ge\u00efmporteert naar Europa, via Rotterdam binnenkomt. De schepen vanuit China meren bij ons aan en leveren hun spullen. Nederland zorgt ervoor dat alles op hun plek komt en zo verdienen we veel geld.</p>\n<p>De Rotterdamse haven is een echte <strong>Mainport</strong>. Een mainport is een haven of vliegveld die enorm belangrijk is voor internationaal vervoer. Nederland heeft nog 1 andere mainport. Misschien ben je er wel eens geweest: Schiphol</p>\n<p> </p>\n<p>Lees nu mainports en <strong>Maak opdracht 5 en 7</strong> in je werkboek</p>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "6522155"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Paragraaf 4.5",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Toegangspoort tot Europa</p>\n"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Zoals al eens eerder gezegd is Nederland de zogenaamde toegangspoort tot Europa. Er monden ontzettend veel rivieren uit in Nederland. Veel van deze rivieren komen uit in Rotterdam, waar Nederlands grootste haven ligt. Alle schepen die Europa in willen, komen door Rotterdam. Vandaar dat we de toegangspoort worden genoemd.</p>\n<p>Alle goederen die in Rotterdam binnenkomen worden verdeeld over het <strong>achterland. </strong>Het achterland is de naam voor het gebied wat hun goederen krijgt vanuit \u00e9\u00e9n haven. In dit geval dus Rotterdam</p>\n<p>Hetzelfde geldt voor de andere mainport in Nederland: Schiphol. Schiphol is een grote leverancier voor veel delen van Europa. Het is dus duidelijk dat handel belangrijk is voor Nederland en onze welvaart.</p>\n<p> </p>\n<p><strong>Lees toegangspoort tot Europa en maak opdracht 1 en 2</strong></p>\n"
+                },
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/3/300aae453fbf03370bfc3d2ba3125e000b57434b.jpg",
+                    "altText": "Het achterland van Rotterdam is erg groot",
+                    "alignment": "left",
+                    "scale": 0.3,
+                    "link": ""
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Buitenlandse bedrijven</p>\n"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Er zijn in Nederland veel redenen om je bedrijf hier te plaatsen. Veel buitenlandse bedrijven vinden dit ook. Deze redenen hebben een naam --&gt; <strong>Vestigingsplaatsfactoren</strong></p>\n<p>De 5 belangrijkste die Nederland te bieden heeft zijn:</p>\n<p>1. Nederland ligt gunstig en is makkelijk te bereiken</p>\n<p>2. Nederland is betrouwbaar en stabiel, dat wil zeggen dat er geen oorlog is bijvoorbeeld</p>\n<p>3. Nederland is gericht op het buitenland, dat wil zeggen dat Nederland graag handel drijft met andere landen</p>\n<p>4. Veel Nederlanders spreken goed Engels</p>\n<p>5. Er is een lage belasting voor grote bedrijven</p>\n<p> </p>\n<p><strong>Lees Buitenlandse bedrijven en maak opdracht 3</strong></p>\n"
+                },
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/9/9cb5d212d7ea4653b29e7ec7c8c724829babb109.jpg",
+                    "altText": "Grote bedrijven als Unilever vestigen graag in Nederland",
+                    "alignment": "left",
+                    "scale": 0.3,
+                    "link": ""
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Distributieland of Kennisland?</p>\n"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Bijna alle goederen die Europa binnenkomen doen dat via Rotterdam. Nederland heeft veel transportbedrijven en daarom kan je Nederland een distributieland noemen.</p>\n<p>Aan de andere kant is een heel groot deel van Nederland hoog opgeleid en die kennis kunnen we verkopen aan andere landen. Mensen noemen Nederland dus ook een kennisland.</p>\n<p> </p>\n<p><strong>Lees Distributieland of kennisland en maak opdracht 4 en 5</strong></p>\n"
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6607836"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6607836",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Wat vinden jullie?",
+                                "prompt": {
+                                    "body": "<p>Is Nederland een kennis- of een distributieland?</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6607836_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>Kennis of distributie</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>Kennis of distributie</p>"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "6522156"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Marokko en Frankrijk",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Marokko: Van arm naar rijk</p>\n<p>Afrika staat bekend als een arm continent. Veel mensen leven in armoede en lijden honger. Toch is niet het hele continent in zo'n toestand. Marokko is \u00e9\u00e9n van de rijkere landen van Afrika. Marokko ligt dichtbij spanje, sterker nog, je kan Spanje zien liggen over het water. Dat stuk water heet de Straat van Gibraltar. </p>\n<p>Door deze ligging heeft Marokko nogal veel te maken gehad met Europa. Van oorlog tot handel, noem het maar op en Marokko heeft het meegemaakt. </p>\n<p>Vroeger was Marokko best wel arm, de natuurlijke bronnen werden door de koloniserende landen ingepikt en veel mensen leefden in armoede vanwege hun lage opleidingsniveau. Nu jaren later is Marokko een rijk land voor Afrikaanse begrippen. Dat wil zeggen, vergeleken met andere Afrikaanse landen is Marokko rijk.</p>\n<p> </p>\n"
+                },
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/c/c9b68bffcdc0876d0dcf3d8cdbc1a662f95a471b.jpg",
+                    "altText": "Dit is het gebied wat we kennen als Marokko",
+                    "alignment": "left",
+                    "scale": 0.3,
+                    "link": ""
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Er is binnen Marokko nog wel veel regionale ongelijkheid. Kijk maar eens naar bron 11 op bladzijde 80 in je boek. Hier zie je dat er rijke en arme gebieden zijn. Waarom denk jij dat dat is?</p>\n<p>Marokko heeft een groot deel van de bevolking dat in de landbouwsector zit, maar ook een groot deel in de dienstensector. Dit geeft dus aan dat Marokko een land in de semiperiferie is, dit noemen we ook wel een volger. Veel geld wordt dus verdient aan toerisme.</p>\n"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Frankrijk: Verschillen in welvaart</p>\n<p>We noemden net bij Marokko al dat er veel verschil is tussen gebieden in een land. Dit geldt ook voor Frankrijk. Kijk eens naar bron 13 op bladzijde 81. Vul onder dit tekstblok in wat je opvalt.</p>\n"
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6621318"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6621318",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Wat valt op?",
+                                "prompt": {
+                                    "body": "<p>Schrijf hieronder op wat je opvalt aan bron 13 op bladzijde 81 in je lesboek</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6621318_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>.</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>.</p>"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Frankrijk is wat we noemen een rijk land, ofwel een koploper. Meer dan 75% van de mensen werkt in de dienstensector. Ook hier is toerisme dus belangrijk. Toch is Frankrijk belangrijk voor de techniek. Er staan veel bedrijven die technologische ontwikkelingen bedenken. Dit is een kenmerk van een zogeheten kenniseconomie.</p>\n<p><strong>Pak je werkboek erbij! Maak opdracht 1 t/m 5 op bladzijde 102 en 103!</strong></p>\n"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Marokko heeft een aantal grote steden, misschien wel de bekendste is Marrakech. In Marrakech is veel armoede te vinden, net als in grote steden in andere landen waar armoede een rol speelt.</p>\n"
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6621326"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6621326",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "gapMatchInteraction",
+                                "content": {
+                                    "body": "<p>Veel mensen in Marrakech leven in <gap identifier=\"GM_662018ce25fed\"></gap>. Ze hebben een lage of geen <gap identifier=\"GM_662018ce25ff3\"></gap> en kunnen dus geen <gap identifier=\"GM_662018ce25ff6\"></gap> vinden. Ze verzinnen zelf manieren om geld te verdienen en werken dus in de <gap identifier=\"GM_662018ce25ff9\"></gap>. Veel van deze mensen zijn afhankelijk van <gap identifier=\"GM_662018ce25ffc\"></gap>, toeristen geven namelijk graag <gap identifier=\"GM_662018ce25fff\"></gap> uit. Veel <gap identifier=\"GM_662018ce26002\"></gap> belanden op vroege leeftijd ook in de scharreleconomie, zo wassen ze ramen, maken ze streetfood of poetsen ze schoenen.</p>",
+                                    "items": [
+                                        {
+                                            "identifier": "GM_662018ce25ff6",
+                                            "answer": {
+                                                "identifier": "GMT_662018ce25ff7",
+                                                "content": {
+                                                    "body": "werk"
+                                                }
+                                            },
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "GM_662018ce25ff3",
+                                            "answer": {
+                                                "identifier": "GMT_662018ce25ff4",
+                                                "content": {
+                                                    "body": "opleiding"
+                                                }
+                                            },
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "GM_662018ce25ff9",
+                                            "answer": {
+                                                "identifier": "GMT_662018ce25ffa",
+                                                "content": {
+                                                    "body": "scharreleconomie"
+                                                }
+                                            },
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "GM_662018ce26002",
+                                            "answer": {
+                                                "identifier": "GMT_662018ce26003",
+                                                "content": {
+                                                    "body": "jongeren"
+                                                }
+                                            },
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "GM_662018ce25ffc",
+                                            "answer": {
+                                                "identifier": "GMT_662018ce25ffd",
+                                                "content": {
+                                                    "body": "toerisme"
+                                                }
+                                            },
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "GM_662018ce25fff",
+                                            "answer": {
+                                                "identifier": "GMT_662018ce26000",
+                                                "content": {
+                                                    "body": "geld"
+                                                }
+                                            },
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "GM_662018ce25fed",
+                                            "answer": {
+                                                "identifier": "GMT_662018ce25fee",
+                                                "content": {
+                                                    "body": "armoede"
+                                                }
+                                            },
+                                            "feedbackInline": null
+                                        }
+                                    ]
+                                },
+                                "label": "Scharreleconomie",
+                                "responseIdentifier": "6621326_1",
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6621326_1",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": "GM_662018ce25fed",
+                                            "value": "GMT_662018ce25fee"
+                                        },
+                                        {
+                                            "fieldIdentifier": "GM_662018ce25ff3",
+                                            "value": "GMT_662018ce25ff4"
+                                        },
+                                        {
+                                            "fieldIdentifier": "GM_662018ce25ff6",
+                                            "value": "GMT_662018ce25ff7"
+                                        },
+                                        {
+                                            "fieldIdentifier": "GM_662018ce25ff9",
+                                            "value": "GMT_662018ce25ffa"
+                                        },
+                                        {
+                                            "fieldIdentifier": "GM_662018ce25ffc",
+                                            "value": "GMT_662018ce25ffd"
+                                        },
+                                        {
+                                            "fieldIdentifier": "GM_662018ce25fff",
+                                            "value": "GMT_662018ce26000"
+                                        },
+                                        {
+                                            "fieldIdentifier": "GM_662018ce26002",
+                                            "value": "GMT_662018ce26003"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": [
+                                        {
+                                            "key": "GM_662018ce25fed",
+                                            "value": 0.14,
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "GM_662018ce25ff3",
+                                            "value": 0.14,
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "GM_662018ce25ff6",
+                                            "value": 0.14,
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "GM_662018ce25ff9",
+                                            "value": 0.14,
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "GM_662018ce25ffc",
+                                            "value": 0.14,
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "GM_662018ce25fff",
+                                            "value": 0.14,
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "GM_662018ce26002",
+                                            "value": 0.14,
+                                            "caseSensitive": false
+                                        }
+                                    ]
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Frankrijk: Een vaste baan</p>\n<p>Kijk naar bron 19 op bladzijde 83. Je ziet hier het gemiddelde inkomen van wijken. Dat verschilt nogal flink van elkaar. Hoe denk jij dat dat komt?</p>\n<p>Er zijn dus veel verschillen tussen arme en rijke wijken.</p>\n"
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6621364"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6621364",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "",
+                                "prompt": {
+                                    "body": "<p>Zijn er in Nederland ook arme en rijke wijken? Leg uit waarom je dat wel of niet vindt</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6621364_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>/</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>/</p>"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p><strong>Pak je werkboek erbij en maak opdracht 1 t/m 7 op bladzijde 104 en 105</strong></p>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "6522159"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Mijn omgeving/Mijn wereld",
+                "level": 1
+            },
+            "items": [],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "6522160"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Alle begrippen",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Deze lijst is een checklist voor jullie. Als jullie al deze begrippen kennen bij de toets dan komen jullie al een heel eind.</p>\n<p>Achterblijvers (Periferie) --&gt; Arme landen waar veel mensen in de landbouw werken. In de wereldhandel spelen ze geen belangrijke rol</p>\n<p>Achterland --&gt; Het gebied wat voor de aanvoer en afvoer van goederen een haven nodig heeft</p>\n<p>Alfabetiseringsgraad --&gt; Geeft aan hoeveel procent van de bevolking van 15 jaar en ouders kan lezen en schrijven</p>\n<p>Arbeidsintensief --&gt; Veel mensen werken aan \u00e9\u00e9n product, er worden weinig machines gebruikt</p>\n<p>Armoedegrens --&gt; Als mensen minder dan 1,25 dollar per dag te besteden hebben, leven ze onder de armoedegrens</p>\n<p>Beroepsbevolking --&gt; Alle mensen die voor betaling werken plus de werklozen (Iedereen de zou kunnen werken in een land dus)</p>\n<p>Bruto Nationaal Product per hoofd (BNP/hoofd) --&gt; Alles wat in een jaar verdiend wordt, gedeeld door het aantal inwoners</p>\n<p>Distributieland --&gt; Land dat goederen verdeelt over het achterland</p>\n<p>Formele sector --&gt; Deel van de economie waarvan zaken officieel worden opgeschreven. Banken, grote fabrieken en kantoren van de overheid horen bij de formele sector</p>\n<p>Gezondheidszorg --&gt; Alle instellingen die zich bezighouden met de zorg voor gezondheid, bijvoorbeeld ziekenhuizen</p>\n<p>Handelsbalans --&gt; Overzicht dat laat zien voor hoeveel geld een land goederen invoert en uitvoert</p>\n<p>Informele sector --&gt; Deel van de economie waarvan zaken niet officieel worden bijgehouden, bijvoorbeeld straathandel en kleine ambachtsbedrijfjes</p>\n<p>Infrastructuur --&gt; Verbindingen tussen plaatsen, dus: wegen, spoorwegen, waterwegen, pijpleidingen en telefoonkabels</p>\n<p>Koopkracht --&gt; De hoeveelheid goederen of diensten die je in een land voor \u00e9\u00e9n dollar of euro kunt kopen</p>\n<p>Koplopers (Centrumlanden) --&gt; Ontwikkelde landen. Rijke landen waar de meeste mensen in de dienstensector werken</p>\n<p>Lagelonenlanden --&gt; Landen in de (Semi)perfiferie waar de lonen veel lager zijn dan in de centrumlanden. Zij vormen een aantrekkelijk vestigingsgebied voor arbeidsintensieve bedrijven</p>\n<p>Mainport --&gt; Haven of vliegveld dat een grote rol speelt in het internationale vervoer</p>\n<p>Multinational --&gt; Groot bedrijf dat in veel landen een fabriek of kantoor heeft</p>\n<p>Ontwikkelingslanden --&gt; Landen die niet behoren tot de rijke ge\u00efndustrialiseerde landen</p>\n<p>Regionale ongelijkheid --&gt; Verschillen tussen rijke en arme gebieden binnen een land, bijvoorbeeld op het gebied van gezondheid, scholing en koopkracht</p>\n<p>Scharreleconomie --&gt; Deel van de economie waarin mensen geen vaste baan hebben en hun geld verdienen door los-vaste baantjes in de informele sector</p>\n<p>Sociale ongelijkheid --&gt; Verschillen in welvaart tussen mensen</p>\n<p>Vestigingsfactor --&gt; Reden voor een bedrijf om zich op een bepaalde plaats te vestigen</p>\n<p>Volgers (Semiperiferie) --&gt; Minder rijke landen die wel op de goede weg zijn in hun ontwikkeling. Mensen werken minder in de landbouw, er is een goed ontwikkelde industrie en steeds meer mensen gaan in de dienstensector werken</p>\n<p>Welvaart --&gt; De rijkdom van een land, gemeten op basis van geld in BNP/Hoofd</p>\n<p>Welvaartsziekte --&gt; Ziekte die ontstaat omdat iemand welvarend is en daardoor bijvoorbeeld te dik is geworden</p>\n<p>Welzijn --&gt; De rijkdom van een land gemeten op basis van levensomstandigheden</p>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "6522162"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Oefentoets",
+                "level": 1
+            },
+            "items": [],
+            "sections": []
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": null,
+            "dimension": null,
+            "suppressTitle": null
+        },
+        "color": "#333333"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Waarom wikiwijs?",
+                "reference": {
+                    "value": "6522143"
+                },
+                "sections": []
+            },
+            {
+                "title": "Wat wordt er van jullie verwacht?",
+                "reference": {
+                    "value": "6522146"
+                },
+                "sections": []
+            },
+            {
+                "title": "Introductie",
+                "reference": {
+                    "value": "6522141"
+                },
+                "sections": []
+            },
+            {
+                "title": "Paragraaf 4.1",
+                "reference": {
+                    "value": "6522149"
+                },
+                "sections": []
+            },
+            {
+                "title": "Paragraaf 4.2",
+                "reference": {
+                    "value": "6522152"
+                },
+                "sections": []
+            },
+            {
+                "title": "Paragraaf 4.3",
+                "reference": {
+                    "value": "6522153"
+                },
+                "sections": []
+            },
+            {
+                "title": "Paragraaf 4.4",
+                "reference": {
+                    "value": "6522154"
+                },
+                "sections": []
+            },
+            {
+                "title": "Paragraaf 4.5",
+                "reference": {
+                    "value": "6522155"
+                },
+                "sections": []
+            },
+            {
+                "title": "Marokko en Frankrijk",
+                "reference": {
+                    "value": "6522156"
+                },
+                "sections": []
+            },
+            {
+                "title": "Mijn omgeving/Mijn wereld",
+                "reference": {
+                    "value": "6522159"
+                },
+                "sections": []
+            },
+            {
+                "title": "Alle begrippen",
+                "reference": {
+                    "value": "6522160"
+                },
+                "sections": []
+            },
+            {
+                "title": "Oefentoets",
+                "reference": {
+                    "value": "6522162"
+                },
+                "sections": []
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": null,
+        "imageSrc": null,
+        "sources": [
+            {
+                "type": "link",
+                "title": "Huiswerk voor volgende week!",
+                "origin": "Huiswerk voor volgende week!",
+                "customOrigin": null,
+                "link": "https://forms.gle/gGyP5iV4DRsn7Gxt8",
+                "visible": true
+            }
+        ],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            },
+            {
+                "key": "learningTime",
+                "label": "Studiebelasting",
+                "terms": [
+                    "4 uur en 0 minuten"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

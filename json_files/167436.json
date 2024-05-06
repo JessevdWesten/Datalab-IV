@@ -1,0 +1,857 @@
+{
+    "documentAuthors": [
+        "Wim van Schijndel"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Wim van Schijndel",
+            "referenceName": null,
+            "reference": {
+                "value": "136442"
+            },
+            "firstName": "Wim",
+            "infix": null,
+            "lastName": "van Schijndel",
+            "emailAddress": "w.vanschijndel@hethooghuis.nl",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2021-12-25T14:38:53Z",
+    "bulkId": "bulk-17041658-refresh_all",
+    "identifier": 167436,
+    "title": "Module: JavaScript",
+    "description": "",
+    "lastModifiedDate": "2021-12-25T14:38:53+01:00",
+    "dateCreated": "2020-09-23T11:12:40+02:00",
+    "published": true,
+    "publisher": {
+        "reference": {
+            "value": "1509"
+        },
+        "name": "Het Hooghuis Mondriaan informatica",
+        "emailAddresses": [
+            "w.vanschijndel@hethooghuis.nl"
+        ],
+        "webAddress": null
+    },
+    "team": {
+        "reference": {
+            "value": "1509"
+        },
+        "name": "Informatica",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "GrandMondriaan, Linda",
+                "reference": {
+                    "value": "16142"
+                },
+                "firstName": "Linda",
+                "infix": null,
+                "lastName": "GrandMondriaan",
+                "emailAddress": "l.legrand@kennisnet.nl",
+                "type": "author"
+            },
+            {
+                "fullName": null,
+                "referenceName": "Croes, Elif",
+                "reference": {
+                    "value": "90018"
+                },
+                "firstName": "Elif",
+                "infix": null,
+                "lastName": "Croes",
+                "emailAddress": "e.croes@hethooghuis.nl",
+                "type": "author"
+            },
+            {
+                "fullName": null,
+                "referenceName": "van Schijndel, Wim",
+                "reference": {
+                    "value": "136442"
+                },
+                "firstName": "Wim",
+                "infix": null,
+                "lastName": "van Schijndel",
+                "emailAddress": "w.vanschijndel@hethooghuis.nl",
+                "type": "author"
+            }
+        ],
+        "emailAddress": "w.vanschijndel@hethooghuis.nl",
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-40",
+            "name": "CC Naamsvermelding 4.0 Internationale licentie",
+            "description": "De Internationale Creative Commons 4.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/4.0/.",
+            "link": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/167436/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "6301375"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Introductie",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Javascript is een van de meest gebruikte programmeertalen. De populariteit is vooral te danken aan het feit dat de taal is ingebouwd in ongeveer alle webbrowsers. Javascript wordt dan ook voornamelijk gebruikt om webpagina's interactief te maken. Het kan HTML inhoud en attributen aanpassen, CSS stijlen aanpassen en HTML elementen verbergen en weer zichtbaar maken.</p>\n<p>In HTML wordt JavaScript-code ingevoegd tussen &lt;script&gt; en &lt;/script&gt; -tags.<br/>\nJe kunt een willekeurig aantal scripts in een HTML-document plaatsen. Scripts kunnen in de &lt;body&gt;, of in de &lt;head&gt; -sectie van een HTML-pagina worden geplaatst, of in beide.</p>\n<p>JavaScript kent ook procedures. In JavaScript noemen we dit een functie (function). Een functie kan bijvoorbeeld worden aangeroepen wanneer zich een gebeurtenis voordoet, bijvoorbeeld wanneer de gebruiker op een knop klikt.</p>\n<p><br/>\nMaak een nieuwe map in XAMPP. Maak in deze map een bestand met de naam index.html en vul dit bestand met de volgende code:</p>\n<div class=\"code\">&lt;!DOCTYPE html&gt;</div>\n<p>Open <a href=\"http://localhost\" target=\"_blank\">http://localhost</a> en bekijk het resultaat. Je gaat dit bestand in de rest van de module gebuiken om dingen uit te proberen. Javascipt kan dus de inhoud van een tag aanpassen.</p>\n<p>We gaan een paar dingen testen. Vervang nu iedere keer het stukje javascript code in de functie demo met de volgende stukjes code:<br/>\nIn javascript maakt het niet uit of je enkele of dubbele aanhalingstekens gebruikt:<br/></p>\n<div class=\"code\">document.getElementById(\"demo\").innerHTML = 'Hello JavaScript';</div>\n<br/>\nJe kunt de grootte van het lettertype aanpassen:<br/>\n<div class=\"code\">document.getElementById(\"demo\").style.fontSize = \"35px\";</div>\n<br/>\nJe kunt tags verbergen:<br/>\n<div class=\"code\">  document.getElementById(\"demo\").style.display = \"none\";</div>\n<br/>\nMaak nu zelf een extra procedure en knop om de tag weer zichtbaar te maken, gebruik hiervoor de volgende code:<br/>\n<div class=\"code\">document.getElementById(\"demo\").style.display = \"block\";</div>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "6965909"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Javascript code uitvoeren",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Als je javascript gebruikt wordt de code uitgevoerd op de plek waar je de code schrijft. Laten we de volgende voorbeelden bekijken:</p>\n<div class=\"code\">&lt;!DOCTYPE html&gt;</div>\n<p>Het div element met de id tekst zal na het laden van de pagina tekst bevatten. De code wordt namelijk uitgevoerd na het maken van het div element.</p>\n<p><strong>De volgend code werkt niet</strong>. De code wordt uitgevoerd voordat het div element bestaat:</p>\n<div class=\"code\">&lt;!DOCTYPE html&gt;</div>\n<p>Waar je de code neerzet is dus van belang.</p>\n<p>Als je gebruik maakt van knoppen die de gebruiker moet aanklikken, dan maakt het niet zoveel uit waar de code staat. De code wordt namenlijk toch pas uitgevoerd nadat de gebruiker op de knop klikt en de knop is pas beschikbaar als de pagina geladen is.</p>\n<p>Meestal willen we de code in de header zetten. Dan staat alles netjes bij elkaar. Ook dan is het mogelijk om code uit te voeren nadat de pagina is geladen. Hiervoor gebruiken we de volgende code:</p>\n<div class=\"code\">document.addEventListener(\"DOMContentLoaded\", function(event) {</div>\n<p>Alle code die je tussen de { } zet wordt pas uitgevoerd nadat de pagina is geladen. Het maakt niet meer uit waar de code staat in het HTML bestand.</p>\n<p> </p>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "6304046"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Functies",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Een JavaScript-functie is een codeblok dat is ontworpen om een \u200b\u200bbepaalde taak uit te voeren. Een JavaScript-functie wordt uitgevoerd wanneer \"iets\" het aanroept (aanroept).</p>\n<p>Voorbeeld:<br/></p>\n<div class=\"code\">function myFunction(p1, p2) {</div>\n<h2>Syntaxis van JavaScript-functies</h2>\n<p>Een JavaScript-functie wordt gedefinieerd met het function trefwoord, gevolgd door een naam, gevolgd door haakjes (). Functienamen kunnen letters, cijfers, onderstrepingstekens en dollartekens bevatten (dezelfde regels als variabelen). De haakjes kunnen parameternamen bevatten, gescheiden door komma's: ( parameter1, parameter2, ... ). De code die door de functie moet worden uitgevoerd, wordt tussen accolades geplaatst: {}.</p>\n<p>Voorbeeld:<br/></p>\n<div class=\"code\">function name(parameter1, parameter2, parameter3) {</div>\n<br/>\nFunctie parameters staan tussen haakjes () in de functiedefinitie.<br/>\nDe waarde waarmee je de parameters vult als je de functie aanroept noemen we argumenten.<br/>\nBinnen de functie gedragen de argumenten (de parameters) zich als lokale variabelen.<br/>\nEen functie is vrijwel hetzelfde als een procedure van een subroutine in andere programmeertalen.\n<h2>Functie-aanroep</h2>\n<p>De code in de functie wordt uitgevoerd wanneer \"iets\" de functie aanroept (aanroept):</p>\n<ul>\n<li>Wanneer er zich een event voordoet (bijv. wanneer een gebruiker op een knop klikt)</li>\n<li>Wanneer het wordt aangeroepen vanuit JavaScript-code (bijv.\n<div class=\"code\">mijnFunctie();</div>\n)</li>\n<li>Automatisch (zelf aangeroepen)</li>\n</ul>\n<h2>Functie Return</h2>\n<p>Wanneer JavaScript een return instructie bereikt, stopt de functie met uitvoeren. Als de functie werd aangeroepen vanuit een instructie, zal JavaScript \"terugkeren\" naar de plek waar deze is aangeroepen en zal het de code vanaf daar weer verder uitvoeren. Functies berekenen vaak een waarde die teruggegeven moet worden. Deze waarde wordt teruggegeven aan de plek waar de functie werd aangeroepen.</p>\n<p>Voorbeeld:<br/>\nBereken het product van twee getallen en retourneer het resultaat:<br/></p>\n<div class=\"code\">function myFunction(a, b) {</div>\n<br/>\nHet resultaat in x is:<br/>\n<div class=\"code\">12</div>\n<h2>Waarom functies?</h2>\n<p>Je kunt code hergebruiken: definieer de code \u00e9\u00e9n keer en gebruik deze meerdere keren.<br/>\nJe kunt dezelfde code vaak met verschillende argumenten gebruiken om verschillende resultaten te verkrijgen.</p>\n<p>Voorbeeld:<br/>\nFahrenheit in Celsius omrekenen:<br/></p>\n<div class=\"code\">function toCelsius(fahrenheit) {</div>\n<h2>De () operator roept de functie op</h2>\n<p>Met behulp van het bovenstaande voorbeeld</p>\n<div class=\"code\">toCelsius</div>\nverwijst naar het functieobject en\n<div class=\"code\">toCelsius()</div>\nverwijst naar het functieresultaat. Toegang tot een functie zonder () zal het functieobject retourneren in plaats van het functieresultaat.\n<p>Voorbeeld:<br/></p>\n<div class=\"code\">function toCelsius(fahrenheit) {</div>\n<h2>Functies die worden gebruikt als variabele waarden</h2>\n<p>Functies kunnen op dezelfde manier worden gebruikt als variabelen, in alle soorten formules, toewijzingen en berekeningen.</p>\n<p>Voorbeeld:<br/>\nIn plaats van een variabele te gebruiken om de geretourneerde waarde van een functie op te slaan:<br/></p>\n<div class=\"code\">var x = toCelsius(77);</div>\n<h2>Lokale variabelen</h2>\n<p>Variabelen die binnen een JavaScript-functie zijn gedeclareerd, zijn LOKAAL voor de functie. Lokale variabelen zijn alleen toegankelijk vanuit de functie.</p>\n<p>Voorbeeld:<br/></p>\n<div class=\"code\">// code here can NOT use carName</div>\n<p><br/>\nOmdat lokale variabelen binnen hun functies worden herkend en niet daarbuiten, kunnen variabelen met dezelfde naam ook in andere functies gebruikt worden. Lokale variabelen worden gemaakt wanneer een functie start en worden verwijderd wanneer de functie is voltooid.</p>\n"
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "6953192"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Opdracht 1",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Opdracht 1:</p>\n<p>Maak een HTML pagina met minimaal 1 div element.<br/>\nGeef dit element het id \"demo\".<br/>\nVoeg nu twee button elementen toe en zorg er voor met javascript dat je de tekst in het div element kunt aanpassen door op de knoppen te klikken:</p>\n<p>Knop 1 vult het div element met \"Hallo\"<br/>\nKnop 2 vult het div element met \"Wereld!\"</p>\n<p class=\"text-align-center\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/580b6b76e5534e8290558ad21d3acb765a0fa94d.png\" class=\"height-261-pixels width-500-pixels\"/></p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "6301498"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Output",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>JavaScript kan gegevens op verschillende manieren 'weergeven':<br/>\nSchrijven in een HTML-element met innerHTML.<br/>\nSchrijven in de HTML-uitvoer met</p>\n<div class=\"code\">document.write()</div>\n.<br/>\nSchrijven in een waarschuwingsvenster met\n<div class=\"code\">window.alert()</div>\n.<br/>\nSchrijven naar de browserconsole met\n<div class=\"code\">console.log()</div>\n.\n<p>Om toegang te krijgen tot een HTML-element, kan JavaScript de</p>\n<div class=\"code\">document.getElementById(id)</div>\nmethode gebruiken.<br/>\nHet id-attribuut definieert het HTML-element. De innerHTML-eigenschap definieert de HTML-inhoud:<br/>\nIn het vorige voorbeeld hebben we hier al gebruik van gemaakt. Hieronder nog een voorbeeld om te testen:\n<div class=\"code\">&lt;!DOCTYPE html&gt;</div>\n<div class=\"code\">    &lt;p id=\"test\"&gt;&lt;/p&gt;</div>\n<div class=\"code\">    &lt;script&gt;</div>\n<p>Om te kijken wat document.write() voeg je de volgende code toe aan de script tag:<br/></p>\n<div class=\"code\">document.write(5 + 6);</div>\n<br/>\nJe ziet nu twee keer de uitkomst staan. E\u00e9n keer in de paragraaf met id=\"test\" en \u00e9\u00e9n keer los toegevoegd door\n<div class=\"code\">document.write()</div>\n.\n<p>LET OP!: Als je</p>\n<div class=\"code\">document.write()</div>\ngebruikt nadat een HTML-document is geladen, wordt alle bestaande HTML verwijderd:<br/>\n<div class=\"code\">&lt;!DOCTYPE html&gt;</div>\n<div class=\"code\">    &lt;h1&gt;Demo&lt;/h1&gt;</div>\n<div class=\"code\">    &lt;button type=\"button\" onclick=\"document.write(5 + 6)\"&gt;Klik hier!&lt;/button&gt;</div>\n<div class=\"code\">  &lt;/body&gt;</div>\n<p>Je kunt ook een waarschuwingsvenster gebruiken om gegevens weer te geven:<br/></p>\n<div class=\"code\">&lt;!DOCTYPE html&gt;</div>\n<div class=\"code\">    &lt;p id=\"test\"&gt;&lt;/p&gt;</div>\n<div class=\"code\">    &lt;script&gt;</div>\n<br/>\nOm fouten op te sporen kun je de methode\n<div class=\"code\">console.log()</div>\nin de browser aanroepen om gegevens weer te geven. Deze output kun je in chome en firefox vinden als je op F12 drukt en kiest voor console.<br/>\n<div class=\"code\">&lt;!DOCTYPE html&gt;</div>\n<div class=\"code\">    &lt;p id=\"test\"&gt;&lt;/p&gt;</div>\n<div class=\"code\">    &lt;script&gt;</div>\n<p>JavaScript heeft geen afdrukobject of afdrukmethoden.<br/>\nOm veiligheidsredenen heeft JavaScript geen toegang tot uitvoerapparaten.<br/>\nDe enige uitzondering is dat je de methode</p>\n<div class=\"code\">window.print()</div>\nin de browser kunt aanroepen om de inhoud van het huidige venster af te drukken."
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "6953199"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Opdracht 2",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Opdracht 2a:</p>\n<p>Maak een HTML pagina.<br/>\nVoeg nu een knop toe die met behulp van javascript een alert geeft met de volgende tekst: \"Je hebt op de knop geklikt\".</p>\n<p class=\"text-align-center\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/8465c0de610fbe78e9ed71db5a9c7987353380d0.png\" class=\"height-261-pixels width-500-pixels\"/></p>\n<p>Opdracht 2b:</p>\n<p>Zorg er voor dat hetzelfde bericht <strong>ook</strong> in de console (F12 -&gt; console) te zien is.</p>\n<p class=\"text-align-center\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/8e56873d75dc9b6e820972633218691f9581d14f.png\" class=\"height-387-pixels width-500-pixels\"/></p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "6386680"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Input",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Javascript kan op verschillende manieren input ontvangen:</p>\n<ul>\n<li>via klikken op HTML knoppen</li>\n<li>via HTML input velden</li>\n<li>via een popup venster</li>\n</ul>\n<p>Javascript gebuikt events om te reageren op HTML knoppen. Meer hierover kun je lezen in het hoofdstuk \"Javascript-Events\".</p>\n<h2>HTML input velden</h2>\n<p>Naast knoppen kun je ook de inhoud van HTML input velden uitlezen en verwerken. Om toegang te krijgen tot een HTML-element, gebruiken we weer de</p>\n<div class=\"code\">document.getElementById(id)</div>\nmethode.\n<p>Het id-attribuut definieert het HTML-element. De value-eigenschap definieert de HTML-inhoud:<br/>\nHieronder een voorbeeld om te testen:</p>\n<div class=\"code\">&lt;!DOCTYPE html&gt;</div>\n<p>Meer HTML input elementen kun je vinden op de volgende pagina: <a href=\"https://www.w3schools.com/html/html_form_input_types.asp\">https://www.w3schools.com/html/html_form_input_types.asp</a></p>\n<p>Het vullen van HTML input elementen met een waarde gaat als volgt:</p>\n<p>voorbeeld:</p>\n<div class=\"code\">document.getElementById(\"demo1\").value = \"hello\";</div>\n<h2>Popup venster</h2>\n<p>Naast input velden is het ook mogelijk om input te vragen via een popup. Deze methode wordt niet vaak gebruikt aangezien dit vaak niet als gebruikersvriendelijk wordt ervaren.</p>\n<p>voorbeeld:</p>\n<div class=\"code\">var name = window.prompt(\"Enter your name: \");</div>\n"
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "6953206"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Opdracht 3",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Opdracht 3a:</p>\n<p>Maak een HTML pagina met twee tekst input elementen. De eerste heet \"naam\" de tweede heet \"leeftijd\".<br/>\nMaak een button element die het naam veld vult met jouw naam en het leeftijd veld vult met jouw leeftijd.</p>\n<p>Opdracht 3b:</p>\n<p>Maak een tweede knop die de velden weer leeg maakt.</p>\n<p class=\"text-align-center\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/51bbcc5ba59f7eb69ba86d9e9a667101f63babba.png\" class=\"height-388-pixels width-500-pixels\"/></p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "6302279"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Een programma",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Een computerprogramma is een lijst met \"instructies\" die door een computer moeten worden \"uitgevoerd\". In een programmeertaal worden deze programmeerinstructies statements genoemd. Een JavaScript-programma is een lijst met programmeerinstructies.</p>\n<h2>Statements</h2>\n<p>JavaScript-instructies zijn samengesteld uit: Values, Operators, Expressions, Keywords en Comments.<br/>\nHet volgende statement vertelt de browser om  \"Hello World\" te schrijven. in een HTML-element met id = \"demo\":<br/></p>\n<div class=\"code\">// Dit is een opmerking</div>\n<br/>\nDe meeste JavaScript-programma's bevatten veel JavaScript-instructies.<br/>\nDe statements worden \u00e9\u00e9n voor \u00e9\u00e9n uitgevoerd in dezelfde volgorde als waarin ze zijn geschreven.\n<div class=\"code\">&lt;!DOCTYPE html&gt;</div>\n<h2>Puntkomma's</h2>\n<p>Puntkomma's scheiden JavaScript-instructies. Voeg een puntkomma toe aan het einde van elke uitvoerbare instructie:<br/></p>\n<div class=\"code\">var a, b, c; // Declareer 3 variabelen</div>\n<p>Je mag meerdere statements op \u00e9\u00e9n regel zetten als je ze met een puntkomma scheidt.<br/></p>\n<div class=\"code\">a = 5; b = 6; c = a + b;</div>\n<p>Op internet ziet je vaak voorbeelden zonder puntkomma's. Het be\u00ebindigen van instructies met een puntkomma is niet vereist, maar wordt ten zeerste aanbevolen.</p>\n<h2>Spaties</h2>\n<p>JavaScript negeert meerdere spaties. U kunt extra spaties aan uw script toevoegen om het leesbaarder te maken.</p>\n<p>De volgende regels zijn voor JavaScript hetzelfde:</p>\n<div class=\"code\">var person=\"Hege\";</div>\n<p>Een goede gewoonte is om spaties rond operatoren te plaatsen (= + - * /):</p>\n<div class=\"code\">var x = y + z;</div>\n<p>Regellengte en regelonderbrekingen<br/>\nVoor de beste leesbaarheid vermijden programmeurs vaak coderegels die langer zijn dan 80 tekens.<br/>\nAls een JavaScript-instructie niet op \u00e9\u00e9n regel past, kun je deze het beste afbreken na een operator:</p>\n<div class=\"code\">document.getElementById (\"demo\"). innerHTML =</div>\n<p>Code Blokken<br/>\nJavaScript-instructies kunnen worden gegroepeerd in codeblokken, tussen accolades {...}.<br/>\nHet doel van codeblokken is om instructies te defini\u00ebren die samen moeten worden uitgevoerd.<br/>\nCode blokken vind je bijvoorbeeld bij JavaScript-functies:</p>\n<div class=\"code\">functie myFunction () {</div>\n<h2>Keywords</h2>\n<p>JavaScript-instructies beginnen vaak met een keyword om aan te geven welke JavaScript-actie uitgevoerd moet worden.</p>\n<p>Op <a href=\"https://www.w3schools.com/js/js_reserved.asp\">https://www.w3schools.com/js/js_reserved.asp</a> vind je een overzicht van alle gereserveerde JavaScript-keywords.</p>\n<p>Hieronder staat een lijst met enkele van de keywords die je in deze module tegenkomt:</p>\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"width-500-pixels\">\n<tbody>\n<tr>\n<td><strong>Keyword</strong></td>\n<td><strong>beschrijving</strong></td>\n</tr>\n<tr>\n<td>break</td>\n<td>Be\u00ebindigt een schakelaar of een lus</td>\n</tr>\n<tr>\n<td>continue</td>\n<td>Springt uit een lus en begint bovenaan</td>\n</tr>\n<tr>\n<td>debugger</td>\n<td>Stopt de uitvoering van JavaScript en roept (indien beschikbaar) de foutopsporingsfunctie aan</td>\n</tr>\n<tr>\n<td>do...while</td>\n<td>Voert een blok met instructies uit en herhaalt het blok, terwijl een voorwaarde waar is</td>\n</tr>\n<tr>\n<td>for</td>\n<td>Markeert een blok met uit te voeren instructies, zolang een voorwaarde waar is</td>\n</tr>\n<tr>\n<td>function</td>\n<td>Declareert een functie</td>\n</tr>\n<tr>\n<td>if...else</td>\n<td>Markeert een blok met uit te voeren instructies, afhankelijk van een voorwaarde</td>\n</tr>\n<tr>\n<td>return</td>\n<td>Sluit een functie af</td>\n</tr>\n<tr>\n<td>switch</td>\n<td>Markeert een blok met uit te voeren instructies, afhankelijk van verschillende gevallen</td>\n</tr>\n<tr>\n<td>try...catch</td>\n<td>Implementeert foutafhandeling in een blok met instructies</td>\n</tr>\n<tr>\n<td>var</td>\n<td>Declareert een variabele</td>\n</tr>\n</tbody>\n</table>\n<p><br/>\nJavaScript-keywords zijn gereserveerde woorden. Gereserveerde woorden kunnen niet worden gebruikt als namen voor variabelen.</p>\n"
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "6953220"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Opdracht 4",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Opdracht 4:</p>\n<p>Maak een HTML pagina met drie input elementen en \u00e9\u00e9n button element.</p>\n<p>Zorg er met javascript voor dat als je op de knop klikt de waarde uit input element 1 opgelteld wordt bij input element 2 en wordt weergegeven in input element 3. Oftewel maak een optel knop.</p>\n<div style=\"background:#eee; border:1px solid #ccc; padding:5px 10px;\">TIP: de waarde van tekst input elementen is een tekst geen getal. 2+3 wordt dan ook 23. Om dit op te lossen moeten we de tekst omzetten in een getal. Dit kan door de functie parseInt() te gebruiken. parseInt(2)+parseInt(3) wordt dan 5.</div>\n<p> </p>\n<p class=\"text-align-center\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/2/2882ead030c909f29a488235aa112556cda34685.png\" class=\"height-388-pixels width-500-pixels\"/></p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "6302472"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Syntax",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>JavaScript-syntaxis is de set regels, hoe JavaScript-programma's zijn opgebouwd:</p>\n<div class=\"code\">var x, y, z;       // Declare Variables</div>\n<h2>JavaScript-waarden</h2>\n<p>De JavaScript-syntaxis definieert twee soorten waarden:</p>\n<ul>\n<li>Vaste waarden</li>\n<li>Variabele waarden</li>\n</ul>\n<p>Vaste waarden worden literals genoemd .<br/>\nVariabele waarden worden variabelen genoemd .</p>\n<h2>Literals</h2>\n<p>De twee belangrijkste syntaxisregels voor vaste waarden zijn:</p>\n<p>1. Getallen; worden met of zonder decimalen geschreven:<br/></p>\n<div class=\"code\">10.50</div>\n<br/>\n2. Strings; zijn tekst, geschreven tussen dubbele of enkele aanhalingstekens:<br/>\n<div class=\"code\">\"John Doe\"</div>\n<h2>Variabelen</h2>\n<p>In een programmeertaal worden variabelen gebruikt om datawaarden op te slaan.<br/>\nJavaScript gebruikt het var trefwoord om variabelen te declareren.<br/>\nEen is-teken wordt gebruikt om waarden aan variabelen toe te wijzen.<br/>\nIn dit voorbeeld wordt x gedefinieerd als een variabele. Vervolgens krijgt x de waarde 6 toegewezen (gegeven):</p>\n<div class=\"code\">var x;</div>\n<h2>Operators</h2>\n<p>JavaScript gebruikt rekenkundige operatoren ( + - * / ) om waarden te berekenen :<br/></p>\n<div class=\"code\">(5 + 6) * 10</div>\n<br/>\nJavaScript gebruikt een toewijzingsoperator ( = om waarden aan variabelen toe te wijzen) :<br/>\n<div class=\"code\">var x, y;</div>\n<p><strong>Rekenkundige operatoren</strong></p>\n<p>Rekenkundige operatoren worden gebruikt om rekenkundige bewerkingen uit te voeren op getallen:</p>\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"width-500-pixels\">\n<tbody>\n<tr>\n<td><strong>Operator    </strong></td>\n<td><strong>Omschrijving</strong></td>\n</tr>\n<tr>\n<td>+</td>\n<td>Optellen</td>\n</tr>\n<tr>\n<td>-</td>\n<td>Aftrekken</td>\n</tr>\n<tr>\n<td>*</td>\n<td>Vermenigvuldigen</td>\n</tr>\n<tr>\n<td>**</td>\n<td>Machtsverheffen</td>\n</tr>\n<tr>\n<td>/</td>\n<td>Delen</td>\n</tr>\n<tr>\n<td>%</td>\n<td>Modulus (Division Remainder)</td>\n</tr>\n<tr>\n<td>++</td>\n<td>Plus 1</td>\n</tr>\n<tr>\n<td>--</td>\n<td>Min 1</td>\n</tr>\n</tbody>\n</table>\n<p>   <br/>\n<strong>JavaScript-toewijzingsoperatoren</strong><br/>\nToewijzingsoperatoren wijzen waarden toe aan JavaScript-variabelen.</p>\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"width-500-pixels\">\n<tbody>\n<tr>\n<td><strong>Operator</strong>    </td>\n<td><strong>Voorbeeld</strong></td>\n<td><strong>Hetzelfde als</strong></td>\n</tr>\n<tr>\n<td>=</td>\n<td>x = y</td>\n<td>x = y</td>\n</tr>\n<tr>\n<td>+=</td>\n<td>x += y</td>\n<td>x = x + y</td>\n</tr>\n<tr>\n<td>-=</td>\n<td>x -= y</td>\n<td>x = x - y</td>\n</tr>\n<tr>\n<td>*=</td>\n<td>x *= y</td>\n<td>x = x * y</td>\n</tr>\n<tr>\n<td>/=</td>\n<td>x /= y</td>\n<td>x = x / y</td>\n</tr>\n<tr>\n<td>%=</td>\n<td>x %= y</td>\n<td>x = x % y</td>\n</tr>\n<tr>\n<td>**=</td>\n<td>x **= y</td>\n<td>x = x ** y</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<p>De toevoeging opdracht operator ( += ) voegt een waarde toe aan een variabele:<br/></p>\n<div class=\"code\">var x = 10;</div>\n<p> </p>\n<p><strong>JavaScript vergelijkings Operatoren</strong></p>\n<p>Deze operatoren worden vaak gebruikt in</p>\n<div class=\"code\">if</div>\nconstructies.\n<table border=\"1\" class=\"width-500-pixels\">\n<tbody>\n<tr>\n<th>Operator</th>\n<th>Omschrijving</th>\n</tr>\n<tr>\n<td>==</td>\n<td>equal to</td>\n</tr>\n<tr>\n<td>===</td>\n<td>equal value and equal type</td>\n</tr>\n<tr>\n<td>!=</td>\n<td>not equal</td>\n</tr>\n<tr>\n<td>!==</td>\n<td>not equal value or not equal type</td>\n</tr>\n<tr>\n<td>&gt;</td>\n<td>greater than</td>\n</tr>\n<tr>\n<td>&lt;</td>\n<td>less than</td>\n</tr>\n<tr>\n<td>&gt;=</td>\n<td>greater than or equal to</td>\n</tr>\n<tr>\n<td>&lt;=</td>\n<td>less than or equal to</td>\n</tr>\n<tr>\n<td>?</td>\n<td>ternary operator</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<div class=\"code\">if ( x==10 ) {</div>\n<p> </p>\n<p><strong>JavaScript logische operatoren</strong></p>\n<p>Om vergelijkings operatoren te verbinden gebruiken we logische operatoren.</p>\n<table border=\"1\" class=\"width-500-pixels\">\n<tbody>\n<tr>\n<th>Operator</th>\n<th>Omschrijving</th>\n</tr>\n<tr>\n<td>&amp;&amp;</td>\n<td>logical and</td>\n</tr>\n<tr>\n<td>||</td>\n<td>logical or</td>\n</tr>\n<tr>\n<td>!</td>\n<td>logical not</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<div class=\"code\">if ( x==10 &amp;&amp; y==5 ) {</div>\n<h2>Expressions</h2>\n<p>Een expression is een combinatie van waarden, variabelen en operatoren, die tot een waarde wordt berekend.<br/>\nDe berekening wordt een evaluatie genoemd.<br/></p>\n<div class=\"code\">5 * 10</div>\nwordt\n<div class=\"code\">50</div>\n<br/>\nExpressies kunnen ook variabele waarden bevatten:<br/>\n<div class=\"code\">x * 10</div>\n<br/>\nDe waarden kunnen van verschillende typen zijn, zoals getallen en tekenreeksen.<br/>\nBijvoorbeeld,\n<div class=\"code\">\"Jan\" + \"\" + \"Doe\"</div>\n, wordt\n<div class=\"code\">\"Jan Doe\"</div>\n.\n<h2>Keywords</h2>\n<p>JavaScript-keywords worden gebruikt om acties te identificeren die moeten worden uitgevoerd.<br/>\nHet var keyword vertelt bijvoorbeeld de browser om variabelen te maken:<br/></p>\n<div class=\"code\">var x, y;</div>\n<h2>Comments</h2>\n<p>Niet alle JavaScript-instructies worden \"uitgevoerd\".<br/>\nCode na dubbele schuine strepen</p>\n<div class=\"code\">//</div>\nof tussen\n<div class=\"code\">/*</div>\nen\n<div class=\"code\">*/</div>\nwordt als commentaar behandeld .<br/>\nComments worden genegeerd en zullen niet worden uitgevoerd:<br/>\n<div class=\"code\">var x = 5;   // I will be executed</div>\n<h2>Identifiers (ID's)</h2>\n<p>ID's zijn namen. In JavaScript worden id's gebruikt om variabelen (en keywords, functies en labels) een naam te geven. De regels voor legale namen zijn vrijwel hetzelfde in de meeste programmeertalen. In JavaScript moet het eerste teken een letter zijn, of een onderstrepingsteken (_), of een dollarteken ($). De volgende tekens kunnen letters, cijfers, onderstrepingstekens of dollartekens zijn. Cijfers zijn niet toegestaan \u200b\u200bals eerste teken. Op deze manier kan JavaScript gemakkelijk identifiers van getallen onderscheiden.</p>\n<h2>JavaScript is hoofdlettergevoelig</h2>\n<p>Alle JavaScript-ID's zijn hoofdlettergevoelig. De variabelen</p>\n<div class=\"code\">lastName</div>\nen\n<div class=\"code\">lastname</div>\nzijn twee verschillende variabelen:\n<div class=\"code\">var lastname, lastName;</div>\n<br/>\nJavaScript interpreteert VAR of Var niet als het trefwoord\n<div class=\"code\">var</div>\n.\n<h2>JavaScript en Camel Case</h2>\n<p>Historisch gezien hebben programmeurs verschillende manieren gebruikt om meerdere woorden samen te voegen tot \u00e9\u00e9n variabelenaam:</p>\n<p><span class=\"strike-through\"><strong>Koppeltekens</strong></span>:<br/>\nfirst-name, last-name, master-card, inter-city.<br/>\nKoppeltekens zijn <strong>niet</strong> toegestaan \u200b\u200bin JavaScript. Ze zijn gereserveerd voor wiskundige bewerkingen.<br/>\n<strong>Laag streepje:</strong><br/>\nfirst_name, last_name, master_card, inter_city.<br/>\n<strong>Upper Camel Case (Pascal Case):</strong><br/>\nFirstName, LastName, MasterCard, InterCity.<br/>\n<strong>Lower Camel Case:</strong><br/>\nJavaScript-programmeurs hebben de neiging om camel case te gebruiken die met een kleine letter beginnen:<br/>\nfirstName, lastName, masterCard, interCity.</p>\n<h2>JavaScript-tekenset</h2>\n<p>JavaScript gebruikt de Unicode- tekenset.<br/>\nUnicode bevat (bijna) alle tekens, leestekens en symbolen die in de wereld gebruikt worden.</p>\n"
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "6955413"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Opdracht 5",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Opdracht 5a:</p>\n<p>Maak een HTML pagina met drie tekst input elementen en een button element.<br/>\nZorg er voor dat je een functie maakt die de waarde van twee elementen opslaat in de variabelen x en y. En vervolgens deze waarden van elkaar af haalt en opslaat in de variable z. Laat de waarde van z zien in het derde tekst element.</p>\n<p>Opdracht 5b:</p>\n<p>Pas jou functie aan zodat de kleur van de tekst in het antwoord input element rood wordt als de waarde negatief is en zwart als de waarde positief. Hiervoor gebruik je de javascript code om de tekstkleur aan te passen:</p>\n<div class=\"code\">document.getElementById(\"antwoord\").style.color=\"red\";</div>\n<p class=\"text-align-center\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/0/0e6bccead9e893b1f7bfb81b25a19a80aa4efd07.png\" class=\"height-388-pixels width-500-pixels\"/></p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "6303905"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Data-typen",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>JavaScript-variabelen kunnen veel gegevenstypen bevatten : getallen, tekenreeksen, objecten en meer:</p>\n<div class=\"code\">var length = 16;                               // Number</div>\n<h2>Het concept van gegevenstypen</h2>\n<p>Bij het programmeren zijn datatypes een belangrijk concept. Om met variabelen te kunnen werken, is het belangrijk iets over het type te weten. Zonder datatypes kan een computer dit niet oplossen oplossen:</p>\n<div class=\"code\">var x = 16 + \"Volvo\";</div>\n<p>Heeft het zin om \"Volvo\" toe te voegen aan zestien? Zal het een fout opleveren van het resultaat? JavaScript behandelt het bovenstaande voorbeeld als:</p>\n<div class=\"code\">var x = \"16\" + \"Volvo\";</div>\n<p>Bij het toevoegen van een getal en een string, behandelt JavaScript het getal als een string.</p>\n<p>JavaScript evalueert uitdrukkingen van links naar rechts. Verschillende sequenties kunnen verschillende resultaten opleveren:</p>\n<p>JavaScript:<br/></p>\n<div class=\"code\">var x = 16 + 4 + \"Volvo\";</div>\n<br/>\nResultaat:<br/>\n<div class=\"code\">20Volvo</div>\n<p>JavaScript:<br/></p>\n<div class=\"code\">var x = \"Volvo\" + 16 + 4;</div>\n<br/>\nResultaat:<br/>\n<div class=\"code\">Volvo164</div>\n<br/>\n<br/>\nJavaScript:<br/>\n<div class=\"code\">var x = \"Volvo\" + (16 + 4);</div>\n<br/>\nResultaat:<br/>\n<div class=\"code\">Volvo20</div>\n<p>In het eerste voorbeeld behandelt JavaScript 16 en 4 als getallen, totdat het \"Volvo\" bereikt is.<br/>\nIn het tweede voorbeeld, de eerste operand is een string, worden alle operanden behandeld als strings. In het laatste voorbeeld worden eerst de haakjes opgelost en het restultaat als string toegevoegd.</p>\n<h2>JavaScript-typen zijn dynamisch</h2>\n<p>JavaScript heeft dynamische typen. Dit betekent dat dezelfde variabele kan worden gebruikt om verschillende gegevenstypen vast te houden.</p>\n<p>Voorbeeld:<br/></p>\n<div class=\"code\">var x;           // Now x is undefined</div>\n<h2>JavaScript-strings</h2>\n<p>Een string (of een tekenreeks) is een reeks karakters zoals \"John Doe\".</p>\n<p>Tekenreeksen worden tussen aanhalingstekens geschreven. U kunt enkele of dubbele aanhalingstekens gebruiken.<br/>\nVoorbeeld:<br/></p>\n<div class=\"code\">var carName1 = \"Volvo XC60\";   // Using double quotes</div>\n<br/>\nU kunt aanhalingstekens binnen een tekenreeks gebruiken, zolang ze niet overeenkomen met de aanhalingstekens rond de tekenreeks.\n<p>Voorbeeld:<br/></p>\n<div class=\"code\">var answer1 = \"It's alright\";             // Single quote inside double quotes</div>\n<h2>JavaScript-nummers</h2>\n<p>JavaScript heeft slechts \u00e9\u00e9n type getallen. Getallen kunnen met of zonder decimalen worden geschreven.</p>\n<p>Voorbeeld:<br/></p>\n<div class=\"code\">var x1 = 34.00;     // Written with decimals</div>\n<p>Extra grote of extra kleine getallen kunnen met wetenschappelijke (exponenti\u00eble) notatie worden geschreven.</p>\n<p>Voorbeeld:<br/></p>\n<div class=\"code\">var y = 123e5;      // 12300000</div>\n<h2>JavaScript Booleans</h2>\n<p>Booleans kunnen slechts twee waarden hebben: true of false.</p>\n<p>Voorbeeld:<br/></p>\n<div class=\"code\">var x = 5;</div>\n<p>Booleans worden vaak gebruikt bij voorwaardelijk testen.</p>\n<h2>JavaScript-arrays</h2>\n<p>Een array is een verzameling waarden. JavaScript-arrays worden tussen vierkante haken geschreven. Array-items worden gescheiden door komma's. De volgende code declareert (maakt) een array genaamd cars, met drie items (autonamen).</p>\n<p>Voorbeeld:<br/></p>\n<div class=\"code\">var cars = [\"Saab\", \"Volvo\", \"BMW\"];</div>\n<p>Array-indexen zijn op nul gebaseerd, wat betekent dat het het eerste item [0] is, het tweede [1], enzovoort.</p>\n<h2>JavaScript-objecten</h2>\n<p>JavaScript-objecten worden met accolades geschreven {}. Objecteigenschappen worden geschreven als naam: waardeparen, gescheiden door komma's.</p>\n<p>Voorbeeld:<br/></p>\n<div class=\"code\">var person = {firstName:\"John\", lastName:\"Doe\", age:50, eyeColor:\"blue\"};</div>\n<br/>\nHet object (persoon) in het bovenstaande voorbeeld heeft 4 eigenschappen: firstName, lastName, age en eyeColor.\n<h2>Het type operator</h2>\n<p>U kunt de JavaScript- typeofoperator gebruiken om het type JavaScript-variabele te vinden.<br/>\nDe typeofoperator retourneert het type van een variabele of een uitdrukking.</p>\n<p>Voorbeeld:<br/></p>\n<div class=\"code\">typeof \"\"             // Returns \"string\"</div>\n<br/>\nVoorbeeld:<br/>\n<div class=\"code\">typeof 0              // Returns \"number\"</div>\n<h2>Ongedefinieerd</h2>\n<p>In JavaScript heeft een variabele zonder waarde de waarde undefined. Het type is ook undefined.</p>\n<p>Voorbeeld:<br/></p>\n<div class=\"code\">var car;    // Value is undefined, type is undefined</div>\n<p>Elke variabele kan worden geleegd door de waarde in te stellen op undefined. Het type zal ook zijn undefined.</p>\n<p>Voorbeeld:<br/></p>\n<div class=\"code\">car = undefined;    // Value is undefined, type is undefined</div>\n<h2><br/>\nLege waarden</h2>\n<p>Een lege waarde heeft niets te maken met undefined. Een lege string heeft zowel een legale waarde als een type.</p>\n<p>Voorbeeld:<br/></p>\n<div class=\"code\">var car = \"\";    // The value is \"\", the typeof is \"string\"</div>\n<h2>Null</h2>\n<p>In JavaScript null is \"niets\". Het wordt verondersteld iets te zijn dat niet bestaat. Helaas is in JavaScript het gegevenstype null een object. Je kunt het beschouwen als een bug in JavaScript die typeof null een object is. Het zou moeten zijn null. U kunt een object leegmaken door het in te stellen op null.</p>\n<p>Voorbeeld:<br/></p>\n<div class=\"code\">var person = {firstName:\"John\", lastName:\"Doe\", age:50, eyeColor:\"blue\"};</div>\n<p>U kunt een object ook leegmaken door het in te stellen op undefined.</p>\n<p>Voorbeeld:<br/></p>\n<div class=\"code\">var person = {firstName:\"John\", lastName:\"Doe\", age:50, eyeColor:\"blue\"};</div>\n<h2>Verschil tussen ongedefinieerd en null</h2>\n<p>undefined en null zijn gelijk in waarde maar verschillend van type:<br/></p>\n<div class=\"code\">typeof undefined           // undefined</div>\n<h2>Primitieve gegevens</h2>\n<p>Een primitieve gegevenswaarde is een enkele eenvoudige gegevenswaarde zonder aanvullende eigenschappen en methoden. De</p>\n<div class=\"code\">typeof</div>\noperator kan \u00e9\u00e9n van deze primitieve typen retourneren:\n<ul>\n<li>string</li>\n<li>number</li>\n<li>boolean</li>\n<li>undefined</li>\n</ul>\n<p>Voorbeeld:<br/></p>\n<div class=\"code\">typeof \"John\"              // Returns \"string\"</div>\n<h2>Complexe gegevens</h2>\n<p>De</p>\n<div class=\"code\">typeof</div>\noperator kan een van twee complexe typen retourneren:\n<ul>\n<li>function</li>\n<li>object</li>\n</ul>\n<p>De</p>\n<div class=\"code\">typeof</div>\noperator retourneert \"object\" voor objecten, arrays en null. De\n<div class=\"code\">typeof</div>\noperator retourneert geen \"object\" voor functies.\n<p>Voorbeeld:<br/></p>\n<div class=\"code\">typeof {name:'John', age:34} // Returns \"object\"</div>\n<br/>\nDe typeofoperator retourneert \"object\" voor arrays, omdat in JavaScript arrays objecten zijn."
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "6956251"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Opdracht 6",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Opdracht 6:</p>\n<p>Maak een HTML pagina. Voeg hieraan drie tekst input velden aan toe, genaamd: Voornaam, Tussenvoegsel en Achternaam.<br/>\nVoeg een div element en een button element toe.<br/>\n<br/>\nAls je op de knop klikt worden de Voornaam, Tussenvoegsel en de Achtenaam samengevoegd en weergegeven in het div element. Als het tussenvoegel leeg is mag er maar 1 spatie tussen de Voor- en achtenaam staan.</p>\n<p class=\"text-align-center\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/827baaa31a20fedb11b567bc81c12545a88c7914.png\" class=\"height-388-pixels width-500-pixels\"/></p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "6364992"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "JavaScript-Events",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>HTML-events zijn \"dingen\" die gebeuren met HTML-elementen. Als JavaScript wordt gebruikt in HTML-pagina's, kan JavaScript op deze gebeurtenissen \"reageren\" .</p>\n<h2>HTML-events</h2>\n<p>Een HTML-gebeurtenis kan iets zijn dat de browser doet of iets dat een gebruiker doet. Hier zijn enkele voorbeelden van HTML-gebeurtenissen:</p>\n<ul>\n<li>Een HTML-webpagina is geladen</li>\n<li>Een HTML-invoerveld is gewijzigd</li>\n<li>Er is een HTML-knop geklikt</li>\n<li>Als er iets gebeurt, wil je vaak iets doen.</li>\n</ul>\n<p>Met JavaScript kunt u code uitvoeren wanneer gebeurtenissen worden gedetecteerd.<br/>\nIn HTML kunnen event handler-attributen gevuld worden met JavaScript-code.</p>\n<p>Met enkele aanhalingstekens:<br/></p>\n<div class=\"code\">&lt;element event='some JavaScript'&gt;</div>\n<br/>\nMet dubbele aanhalingstekens:<br/>\n<div class=\"code\">&lt;element event=\"some JavaScript\"&gt;</div>\n<p>In het volgende onclick voorbeeld wordt een attribuut (met code) toegevoegd aan een &lt;button&gt; element:</p>\n<p>Voorbeeld<br/></p>\n<div class=\"code\">&lt;button onclick=\"document.getElementById('demo').innerHTML = Date()\"&gt;The time is?&lt;/button&gt;</div>\n<br/>\nIn het bovenstaande voorbeeld verandert de JavaScript-code de inhoud van het element met\n<div class=\"code\">id = \"demo\"</div>\n.\n<p>In het volgende voorbeeld verandert de code de inhoud van zijn eigen element (met</p>\n<div class=\"code\">this.innerHTML</div>\n):\n<p>Voorbeeld<br/></p>\n<div class=\"code\">&lt;button onclick=\"this.innerHTML = Date()\"&gt;The time is?&lt;/button&gt;</div>\n<br/>\nJavaScript-code is vaak meerdere regels lang, daarom is het gebruikelijk om een functie aan te roepen bij een event:\n<p>Voorbeeld<br/></p>\n<div class=\"code\">&lt;button onclick=\"displayDate()\"&gt;The time is?&lt;/button&gt;</div>\n<h2>Veel voorkomende HTML-events</h2>\n<p>Hier is een lijst met enkele veelvoorkomende HTML-gebeurtenissen:</p>\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"width-500-pixels\">\n<tbody>\n<tr>\n<td>Evenement    </td>\n<td>Omschrijving</td>\n</tr>\n<tr>\n<td>onchange    </td>\n<td>Een HTML-element is gewijzigd</td>\n</tr>\n<tr>\n<td>onclick    </td>\n<td>De gebruiker klikt op een HTML-element</td>\n</tr>\n<tr>\n<td>onmouseover    </td>\n<td>De gebruiker beweegt de muis over een HTML-element</td>\n</tr>\n<tr>\n<td>onmouseout</td>\n<td>De gebruiker beweegt de muis weg van een HTML-element</td>\n</tr>\n<tr>\n<td>onkeydown    </td>\n<td>De gebruiker drukt op een toets</td>\n</tr>\n<tr>\n<td>onload    </td>\n<td>De browser is klaar met het laden van de pagina</td>\n</tr>\n</tbody>\n</table>\n<p>De lijst is veel langer: <a href=\"https://www.w3schools.com/jsref/dom_obj_event.asp\" target=\"_blank\">W3Schools JavaScript Reference HTML DOM Events</a>.</p>\n<h2>Wat kan JavaScript doen?</h2>\n<p>Event handlers kunnen worden gebruikt om gebruikersinvoer, gebruikersacties en browseracties af te handelen en te verifi\u00ebren:</p>\n<ul>\n<li>Dingen die moeten worden gedaan elke keer dat een pagina wordt geladen</li>\n<li>Dingen die moeten worden gedaan als de pagina is gesloten</li>\n<li>Actie die moet worden uitgevoerd wanneer een gebruiker op een knop klikt</li>\n<li>Inhoud die moet worden geverifieerd wanneer een gebruiker gegevens invoert</li>\n<li>En meer ...</li>\n</ul>\n<p>Er kunnen verschillende methoden worden gebruikt om JavaScript met gebeurtenissen te laten werken:</p>\n<ul>\n<li>HTML-event attributen kunnen JavaScript-code rechtstreeks uitvoeren</li>\n<li>HTML-event attributen kunnen JavaScript-functies aanroepen</li>\n<li>U kunt uw eigen event handler functies toewijzen aan HTML-elementen</li>\n<li>U kunt voorkomen dat gebeurtenissen worden verzonden of afgehandeld</li>\n<li>En meer ...</li>\n</ul>\n"
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "6956262"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Opdracht 7",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Opdracht 7:</p>\n<p>We hebben al een paar keer het event \"onclick\" gebruikt nu gaan we een ander event gebruiken: \"onmouseover\".</p>\n<p>Maak een HTML pagina met vier div elementen met de volgende id's: A, B, C, en TEKST.<br/>\nVoeg bij de A, B en C div elemeneten een \"onmouseover\" event toe met een funtie met \u00e9\u00e9n parameter. Voor div element A moet parameter \"A\" worden toegevoegd Voor B, parameter \"B\" en voor C parameter \"C\".</p>\n<p>Schrijf nu een javascript functie die de tekst in div TEKST iedere keer aanvult met de letter waar de muis overheen gaat.</p>\n<p class=\"text-align-center\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/0/030917b77238d33eae4680d212d7c77a0fc5d021.png\" class=\"height-363-pixels width-500-pixels\"/></p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "6379971"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "If en Switch",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>In JavaScript hebben we de volgende voorwaardelijke uitspraken:</p>\n<ul>\n<li>\n<p>Gebruik</p>\n<div class=\"code\">if</div>\ndit om een \u200b\u200bcodeblok op te geven dat moet worden uitgevoerd, als een gespecificeerde voorwaarde <strong>waar</strong> is.</li>\n<li>Gebruik\n<div class=\"code\">else</div>\ndit om een \u200b\u200bcodeblok op te geven dat moet worden uitgevoerd, als dezelfde voorwaarde <strong>onwaar</strong> is.</li>\n<li>Gebruik\n<div class=\"code\">else if</div>\nom een <strong>\u200b\u200bnieuwe voorwaarde</strong> op te geven om te testen, als de eerste voorwaarde onwaar is.</li>\n<li>Gebruik\n<div class=\"code\">switch</div>\ndit om veel alternatieve codeblokken op te geven die moeten worden uitgevoerd.</li>\n</ul>\n<h2>If</h2>\n<p>Gebruik de</p>\n<div class=\"code\">if</div>\ninstructie om een \u200b\u200bblok JavaScript-code op te geven dat moet worden uitgevoerd als een voorwaarde waar is.\n<p>Voorbeeld:</p>\n<div class=\"code\">if (hour &lt; 18) {</div>\n<p>Voorbeeld:</p>\n<p>Als het uur minder is dan 18, maakt u een begroeting met 'Goedendag', anders 'Goedenavond':</p>\n<div class=\"code\">if (hour &lt; 18) {</div>\n<p>Voorbeeld:</p>\n<p>Als de tijd minder is dan 10.00 uur, maakt u een \"Goedemorgen\" -groet, zo niet, maar de tijd is minder dan 20.00 uur, maakt u een \"Goedendag\" -groet, anders een \"Goedenavond\":</p>\n<div class=\"code\">if (time &lt; 10) {</div>\n<h2>Switch</h2>\n<p>Gebruik de</p>\n<div class=\"code\">switch</div>\ninstructie om een \u200b\u200bvan de vele codeblokken te selecteren die moeten worden uitgevoerd.\n<p>Dit is hoe het werkt:</p>\n<ul>\n<li>De switch-uitdrukkingen wordt \u00e9\u00e9n keer ge\u00ebvalueerd.</li>\n<li>De waarde van de uitdrukkingen wordt vergeleken met de waarden van elk geval.</li>\n<li>Als er een overeenkomst is, wordt het bijbehorende codeblok uitgevoerd.</li>\n<li>Als er geen overeenkomst is, wordt het standaard codeblok uitgevoerd.</li>\n</ul>\n<p>Voorbeeld:</p>\n<p>De</p>\n<div class=\"code\">getDay()</div>\nmethode retourneert de weekdag als een getal tussen 0 en 6 (Zondag = 0, maandag = 1, dinsdag = 2 ..). In dit voorbeeld wordt het weekdagnummer gebruikt om de naam van de weekdag te berekenen:\n<div class=\"code\">switch (new Date().getDay()) {</div>\n<h2>Het break-keyword</h2>\n<p>Wanneer JavaScript een</p>\n<div class=\"code\">break</div>\ntrefwoord bereikt , breekt het uit het schakelblok. Dit zal de uitvoering in het blok stoppen. Het is niet nodig om bij de laatste het schakelblok te breken. Het blok breekt (meestal) daar toch.\n<h2>Het standaard-keyword</h2>\n<p>Het</p>\n<div class=\"code\">default</div>\nsleutelwoord specificeert de code die moet worden uitgevoerd als geen van de condities waar is:\n<p>Voorbeeld:</p>\n<p>De</p>\n<div class=\"code\">getDay()</div>\nmethode retourneert de weekdag als een getal tussen 0 en 6. Als het vandaag noch zaterdag (6) noch zondag (0) is, schrijf dan een standaardbericht:\n<div class=\"code\">switch (new Date().getDay()) {</div>\n<p>Het</p>\n<div class=\"code\">default</div>\nblok hoeft niet de laatste te zijn maar mag ook op een andere plek staan."
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "6957776"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Opdracht 8",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Opdracht 8a:</p>\n<p>Maak een HTML document met een button element en een div element.<br/>\n<br/>\nSchrijf een javascript functie die, als je op de knop klikt, het div element vult met: Ochtend, Middag, Avond of Nacht. Dit moet afhankelijk zijn van de tijd die het nu is.<br/>\nDe huidige uren kun je vinden met de volgende javascript functie:</p>\n<div class=\"code\">uren = new Date().getHours()</div>\n<p>In de volgende tabel kun je vinden welke uren er bij welk woord horen:</p>\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"width-500-pixels\">\n<tbody>\n<tr>\n<td>&gt;=0</td>\n<td>&lt;6</td>\n<td>Nacht</td>\n</tr>\n<tr>\n<td>&gt;=6</td>\n<td>&lt;12</td>\n<td>Ochtend</td>\n</tr>\n<tr>\n<td>&gt;=12</td>\n<td>&lt;18</td>\n<td>Middag</td>\n</tr>\n<tr>\n<td>&gt;=18</td>\n<td>&lt;=23</td>\n<td>Avond</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<p class=\"text-align-center\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/0/0119420614105f45200f7cfeff6f6054b7ce5487.png\" class=\"height-297-pixels width-500-pixels\"/></p>\n<p>Opdracht 8b:</p>\n<p>Vul jouw script aan zodat er ook de dag van de week bij staat.</p>\n<p class=\"text-align-center\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/f/f22aad16b88c99b74d36256615dc6c9d066f9eac.png\" class=\"height-310-pixels width-500-pixels\"/></p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "6379973"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Herhalen: For en While",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Herhalingen of anders gezegd; lussen, zijn handig als je dezelfde code steeds opnieuw wilt uitvoeren, elke keer met een andere waarde.</p>\n<p>Dit is vaak het geval bij het werken met arrays:</p>\n<p>In plaats van:</p>\n<div class=\"code\">text += cars[0] + \"&lt;br&gt;\";</div>\n<p>Kun je ook schrijven:</p>\n<div class=\"code\">var i;</div>\n<h2>Verschillende soorten lussen</h2>\n<p>JavaScript ondersteunt verschillende soorten loops:</p>\n<ul>\n<li>\n<div class=\"code\">for</div>\n- loopt een aantal keren door een codeblok</li>\n<li>\n<div class=\"code\">for/in</div>\n- doorloopt de eigenschappen van een object</li>\n<li>\n<div class=\"code\">for/of</div>\n- doorloopt de waarden van een itereerbaar object</li>\n<li>\n<div class=\"code\">while</div>\n- doorloopt een codeblok tot een gespecificeerde gespecificeerde conditie waar is</li>\n<li>\n<div class=\"code\">do/while</div>\n- loopt ook door een codeblok tot een gespecificeerde gespecificeerde conditie waar is</li>\n</ul>\n<h2>De For-lus</h2>\n<p>De</p>\n<div class=\"code\">for</div>\nlus heeft de volgende syntaxis:\n<div class=\"code\">for (</div>\n<p><strong>Statement 1</strong> wordt (\u00e9\u00e9n keer) uitgevoerd voordat het codeblok wordt uitgevoerd.</p>\n<p><strong>Statement 2</strong> definieert de voorwaarde voor het uitvoeren van het codeblok.</p>\n<p><strong>Statement 3</strong> wordt (elke keer) uitgevoerd nadat het codeblok is uitgevoerd.</p>\n<p>Voorbeeld:</p>\n<div class=\"code\">for (i = 0; i &lt; 5; i++) {</div>\n<p>Het bovenstaande voorbeeld kunt je als volgt lezen:</p>\n<ul>\n<li>Statement 1 stelt een variabele in voordat de lus start (var i = 0).</li>\n<li>Statement 2 definieert de voorwaarde voor het uitvoeren van de lus (i moet kleiner zijn dan 5).</li>\n<li>Statement 3 verhoogt een waarde (i ++) elke keer dat het codeblok in de lus wordt uitgevoerd.</li>\n</ul>\n<p><strong>Opmerkingen:</strong></p>\n<p>Statement 1 hoeft niet te beginnen met 0, maar kan ook starten met 5. Vaak wordt i gebruikt als variabele maar andere namen mogen ook.</p>\n<p>Bij statement 3 wordt iedere keer met 1 verhoogd, maar i=i+2 mag ook.</p>\n<h2>De For / In-lus</h2>\n<p>De JavaScript-</p>\n<div class=\"code\">for/in</div>\n instructie doorloopt de eigenschappen van een object:\n<p>Voorbeeld:</p>\n<div class=\"code\">var person = {fname:\"John\", lname:\"Doe\", age:25};</div>\n<br/>\nReslutaat:\n<div class=\"code\">John Doe 25</div>\n<br/>\n \n<h2>De For / Of-lus</h2>\n<p>De JavaScript-</p>\n<div class=\"code\">for/of</div>\ninstructie doorloopt de waarden van een itereerbaar object. \n<div class=\"code\">for/of</div>\nlaat je datastructuren doorlopen, zoals Arrays, Strings, Maps, NodeLists en meer.\n<p>Voorbeeld:</p>\n<div class=\"code\">var cars = [\"BMW\", \"Volvo\", \"Mini\"];</div>\n<p>Je kunt hiermee ook door iedere letter van een sting lopen:</p>\n<p>Voorbeeld</p>\n<div class=\"code\">var txt = \"JavaScript\";</div>\n<h2>De While-lus</h2>\n<p>De</p>\n<div class=\"code\">while</div>\nlus loopt door een codeblok een gespecificeerde standaard waar is.\n<p>In het volgende voorbeeld wordt de code in de lus keer op keer uitgevoerd, zolang een variabele (i) kleiner is dan 10:</p>\n<p>Voorbeeld:<br/></p>\n<div class=\"code\">var i=0;</div>\n<h2>De Do / While-lus</h2>\n<p>De</p>\n<div class=\"code\">do/while</div>\nlus is een variant van de while-lus. Deze lus zal het codeblok \u00e9\u00e9n keer uitvoeren, voordat wordt gecontroleerd of de voorwaarde waar is, daarna zal de lus worden zolang de voorwaarde waar is.\n<p>Voorbeeld:</p>\n<p>In het onderstaande voorbeeld wordt een</p>\n<div class=\"code\">do/while</div>\nlus gebruikt. De lus wordt altijd \u00e9\u00e9n keer uitgevoerd, zelfs als de voorwaarde onwaar is, omdat het codeblok wordt voordat de voorwaarde wordt getest:\n<div class=\"code\">do {</div>\n<p>Vergeet niet de variabele die in de conditie wordt gebruikt te verhogen, anders de lus nooit!</p>\n<h2>Het break-statement</h2>\n<p>De</p>\n<div class=\"code\">break</div>\ninstructie kan ook worden gebruikt om uit een lus te springen.  De\n<div class=\"code\">break</div>\ninstructie breekt de lus en gaat door met het uitvoeren van de code na de lus (indien aanwezig):\n<p>Voorbeeld:</p>\n<div class=\"code\">for (i = 0; i &lt; 10; i++) {</div>\n<div class=\"code\">Break</div>\nwerkt in alle lussen.\n<h2>Het continue-statment</h2>\n<p>De</p>\n<div class=\"code\">continue</div>\ninstructie verbreekt \u00e9\u00e9n iteratie van de lus, en gaat verder met de volgende iteratie in de lus.\n<p>Voorbeeld:</p>\n<p>In dit voorbeeld wordt de waarde 3 overgeslagen:</p>\n<div class=\"code\">for (i = 0; i &lt; 10; i++) {</div>\n<p> </p>\n"
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "6957867"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Opdracht 9",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Opdracht 9:</p>\n<p>Maak een HTML pagina met een button element en een div element.<br/>\nSchrijf een functie die, als je op de knop klikt, de div vult met de kwadraten van 0 t/m 10.<br/>\nGebruik hiervoor een \"for\" lus.</p>\n<p class=\"text-align-center\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/5a2059d15812437c2914c1a1e097646fbc46bf42.png\" class=\"height-388-pixels width-500-pixels\"/></p>\n<p><br/>\n </p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "6957879"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Timers",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Het is mogeijk om functies aan te roepen na een bepaalde tijd. Zo kun je bijvoorbeeld een bericht geven als iemand al 15 minuten op de pagina is. Ook is het mogelijk om een functie iedere zoveel seconde te laten uitvoeren. Heb je bijvoorbeeld een klok op jouw site, dan kun je de tijd iedere seconde bijwerken. De functies die je hiervoor gebruikt zijn: setTimeout() en setInterval().</p>\n<h1>setTimeout()</h1>\n<p>Wacht 5 seconden op de begroeting:</p>\n<div class=\"code\">const myTimeout = setTimeout(myGreeting, 5000);</div>\n<p>Gebruik clearTimeout(myTimeout) om te voorkomen dat myGreeting wordt uitgevoerd:</p>\n<div class=\"code\">const myTimeout = setTimeout(myGreeting, 5000);</div>\n<h2>Definitie en gebruik</h2>\n<p>De setTimeout()methode roept een functie aan na een aantal milliseconden.<br/>\n1 seconde = 1000 milliseconden.</p>\n<p>setTimeout() wordt slechts \u00e9\u00e9n keer uitgevoerd.</p>\n<p>Als je iets met een interval wilt uitvoeren, bijvoorbeeld iedere 2 seconden dan gebruik je setInterval().</p>\n<p>Gebruik de clearTimeout() methode om de timeout methode te stoppen als je deze hebt aangeroepen.</p>\n<p>Om een \u200b\u200btime-out te stoppen gebruikt je het id wat is geretourneerd door setTimeout():</p>\n<div class=\"code\">myTimeout = setTimeout(function, milliseconds);</div>\n<p>Vervolgens kunt u de uitvoering stoppen door clearTimeout() aan te roepen:</p>\n<div class=\"code\">clearTimeout(myTimeout);</div>\n<p>Nog een voorbeeld</p>\n<div class=\"code\">let x = document.getElementById(\"txt\");</div>\n<p> </p>\n<h1>setInterval()</h1>\n<p>Geef elke seconde \"Hallo\" weer (1000 milliseconden):</p>\n<div class=\"code\">setInterval(function () {element.innerHTML += \"Hello\"}, 1000);</div>\n<p>Roep displayHello elke seconde aan:</p>\n<div class=\"code\">setInterval(displayHello, 1000);</div>\n<h1>Definitie en gebruik</h1>\n<p>De setInterval() methode roept een functie aan op gespecificeerde intervallen (in milliseconden).</p>\n<p>De setInterval() methode blijft de functie aanroepen totdat deze clearInterval() wordt aangeroepen of het venster wordt gesloten.</p>\n<p>Gebruik setTimeout() in plaats van de methode setInterval() om de functie slechts \u00e9\u00e9n keer uit te voeren.</p>\n<p>Gebruik de id die is geretourneerd door setInterval() om een \u200b\u200binterval te wissen:</p>\n<div class=\"code\">myInterval = setInterval(function, milliseconds);</div>\n<br/>\nVervolgens kunt je de uitvoering stoppen door clearInterval() aan te roepen:<br/>\n<div class=\"code\">clearInterval(myInterval);</div>\n<p> </p>\n"
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "6966006"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Opdracht 10",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Opdracht 10a:</p>\n<p>Maak een HTML pagina met een button element en een div element.<br/>\nSchrijf twee functies de ene zet een timer aan voor 5 seconde als je op de knop klikt. De andere functie vult het div element met de tekst \"Hallo wereld!\" en wordt na 5 seconde uitgevoerd door de timer.</p>\n<p class=\"text-align-center\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/6/6172eb29aa1d8c10b721ff6eab5e2095277f45b4.png\" class=\"height-283-pixels width-500-pixels\"/></p>\n<p>Opdracht 10b:</p>\n<p>Maak een derde functie die iedere seconde het div element aanvult met een extra uitroepteken.</p>\n<p class=\"text-align-center\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/d/dfda3c4dfffedbf5666f915cae7a7c0e98395d57.png\" class=\"height-283-pixels width-500-pixels\"/></p>\n<p>Opdracht 10c:</p>\n<p>Maak nu ook nog een klok op de pagina. Om de tijd op te vragen gebruik je de volgende code:</p>\n<div class=\"code\">var d = new Date();</div>\n<p>Zorg ervoor dat de tijd iedere seconde wordt bijgewerkt.</p>\n<p class=\"text-align-center\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/e/e98c3e921f73f80ce1ffa8fb9c617f6dadacb18a.png\" class=\"height-283-pixels width-500-pixels\"/></p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "6391174"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "JSON en AJAX",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>JSON is een formaat voor het opslaan en transporteren van gegevens.</p>\n<p>JSON wordt vaak gebruikt wanneer gegevens van een server naar een webpagina worden verzonden.</p>\n<h2>Wat is JSON?</h2>\n<ul>\n<li>JSON staat for <strong>J</strong> ava <strong>S</strong> cript <strong>O</strong> bject <strong>N</strong> otation</li>\n<li>JSON is een lichtgewicht formaat voor gegevensuitwisseling</li>\n<li>JSON is taalonafhankelijk*</li>\n</ul>\n<p>* De JSON-syntaxis is afgeleid van de JavaScript-objectnotatiesyntaxis, maar de JSON-indeling is alleen tekst. Code voor het lezen en genereren van JSON-gegevens kan in elke programmeertaal worden geschreven.</p>\n<p>Voorbeeld:</p>\n<p><span style=\"font-family: monospace\">{<br/>\n\"employees\":[<br/>\n{\"firstName\":\"John\", \"lastName\":\"Doe\"},<br/>\n{\"firstName\":\"Anna\", \"lastName\":\"Smith\"},<br/>\n  {\"firstName\":\"Peter\", \"lastName\":\"Jones\"}<br/>\n]<br/>\n}</span></p>\n<h2>JSON-syntaxisregels</h2>\n<ul>\n<li>Gegevens staan \u200b\u200bin naam / waarde-paren</li>\n<li>Gegevens worden gescheiden door komma's</li>\n<li>Accolades bevatten objecten</li>\n<li>Vierkante haken bevatten arrays</li>\n</ul>\n<h2>JSON-gegevens - een naam en een waarde</h2>\n<p>JSON-gegevens worden geschreven als naam / waarde-paren, net als JavaScript-objecteigenschappen.</p>\n<p>Een naam / waarde-paar bestaat uit een veldnaam (tussen dubbele aanhalingstekens), gevolgd door een dubbele punt, gevolgd door een waarde:</p>\n<p><span style=\"font-family: monospace\">\"firstName\":\"John\"</span></p>\n<h2>JSON-objecten</h2>\n<p>JSON-objecten worden tussen accolades geschreven. Net als in JavaScript kunnen objecten meerdere naam / waarde-paren bevatten:</p>\n<p><span style=\"font-family: monospace\">{\"firstName\":\"John\", \"lastName\":\"Doe\"}</span></p>\n<p> </p>\n<h2>JSON-arrays</h2>\n<p>JSON-arrays worden tussen vierkante haken geschreven. Net als in JavaScript kan een array objecten bevatten:</p>\n<p><span style=\"font-family: monospace\">\"employees\":[<br/>\n{\"firstName\":\"John\", \"lastName\":\"Doe\"},<br/>\n{\"firstName\":\"Anna\", \"lastName\":\"Smith\"},<br/>\n{\"firstName\":\"Peter\", \"lastName\":\"Jones\"}<br/>\n]</span></p>\n<p>In het bovenstaande voorbeeld is het object \"werknemers\" een array. Het bevat drie objecten. Elk object is een record van een persoon (met een voornaam en een achternaam).</p>\n<h2>Een JSON-tekst converteren naar een JavaScript-object</h2>\n<p>Een veelgebruikte mannier om JSON te gebruiken is om gegevens van een webserver te lezen en de gegevens op een webpagina weer te geven. Als voobeeld gebruiken we hier een string als invoer. Later laten we zien hoe we m.b.v. AJAX deze gegevevens van een webserver kunnen halen.</p>\n<p>Maak eerst een JavaScript-string met de JSON-syntaxis:</p>\n<div class=\"code\">var text = '{ \"employees\" : [' +</div>\n<p>Gebruik vervolgens de ingebouwde JavaScript-functie</p>\n<div class=\"code\">JSON.parse()</div>\nom de tekenreeks naar een JavaScript-object te converteren:\n<div class=\"code\">var obj = JSON.parse(text);</div>\n<p>Gebruik ten slotte het nieuwe JavaScript-object op uw pagina:</p>\n<div class=\"code\">&lt;p id=\"demo\"&gt;&lt;/p&gt;</div>\n<h2>AJAX</h2>\n<p>De voordelen van AJAX zijn:</p>\n<ul>\n<li>Lees gegevens van een webserver - nadat de pagina is geladen</li>\n<li>Werk een webpagina bij zonder de pagina opnieuw te laden</li>\n<li>Verzend gegevens naar een webserver - op de achtergrond</li>\n</ul>\n<h2>Wat is AJAX?</h2>\n<p>Ajax = <strong>A</strong> synchrone <strong>J</strong> avascript <strong>A</strong> nd <strong>X</strong> ML.<br/>\nAJAX is geen programmeertaal. AJAX gebruikt alleen een combinatie van:</p>\n<ul>\n<li>Een in de browser ingebouwd\n<div class=\"code\">XMLHttpRequest</div>\nobject (om gegevens van een webserver op te vragen)</li>\n<li>JavaScript en HTML (om de gegevens weer te geven of te gebruiken)</li>\n</ul>\n<p>AJAX is een misleidende naam. AJAX-applicaties kunnen XML gebruiken om gegevens te transporteren, maar is kan ook gerbruikt worden om platte tekst en JSON-tekst te transporteren.</p>\n<p>Met AJAX kunnen webpagina's asynchroon worden bijgewerkt door achter de schermen gegevens uit te wisselen met een webserver. Dit betekent dat het mogelijk is om delen van een webpagina bij te werken, zonder de hele pagina opnieuw te laden.</p>\n<h2>Het XMLHttpRequest-object</h2>\n<p>Alle moderne browsers ondersteunen het</p>\n<div class=\"code\">XMLHttpRequest</div>\nobject.\n<p>Voorbeeld:</p>\n<div class=\"code\">var xhttp = new XMLHttpRequest();</div>\n<br/>\n<br/>\n<strong>LET OP:</strong> Om veiligheidsredenen staan \u200b\u200bmoderne browsers geen toegang tussen domeinen toe. Dit betekent dat zowel de webpagina als het te laden bestand, zich op dezelfde server moet bevinden.\n<h2>Stuur een verzoek naar een server</h2>\n<p>Om een \u200b\u200bverzoek naar een server te sturen, gebruik we de</p>\n<div class=\"code\">open()</div>\nen\n<div class=\"code\">send()</div>\nmethoden van het\n<div class=\"code\">XMLHttpRequest</div>\nobject:\n<div class=\"code\">xhttp.open(\"GET\", \"ajax_info.txt\", true);</div>\n<table border=\"1\">\n<tbody>\n<tr>\n<th>Methode</th>\n<th>Omschrijving</th>\n</tr>\n<tr>\n<td>open(<em>method, url, async</em>)</td>\n<td>\n<p>Het verzoek type:<br/>\n<em>method</em>: het soort verzoek GET or POST<br/>\n<em>url</em>: de URL van het bestand<br/>\n<em>async</em>: true (asynchroon) of false (synchroon)</p>\n</td>\n</tr>\n<tr>\n<td>send()</td>\n<td>Verzend het verzoek (voor GET)</td>\n</tr>\n<tr>\n<td>send(<em>string</em>)</td>\n<td>Verzend het verzoek (voor POST)</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<h2>GET or POST</h2>\n<div class=\"code\">GET</div>\nis eenvoudiger en sneller dan\n<div class=\"code\">POST</div>\n, en kan in de meeste gevallen worden gebruikt.\n<p>Gebruik altijd echter POST-verzoeken als:</p>\n<ul>\n<li>Je niet wil dat gegevens gecached worden. ( Bijvoorbeeld als gegevens uit een database komen).</li>\n<li>Je een grote hoeveelheid gegevens naar de server verzend (POST kent geen groottebeperkingen, maar GET wel).</li>\n<li>je gegevens verstuurd met speciale tekens. POST is hierbij robuuster en veiliger dan GET.</li>\n</ul>\n<h2>GET verzoeken</h2>\n<p>Als u informatie met de</p>\n<div class=\"code\">GET</div>\nmethode wilt verzenden , voeg u de informatie toe aan de URL:\n<p>Voorbeeld:</p>\n<div class=\"code\">xhttp.open(\"GET\", \"demo_get2.asp?fname=Henry&amp;lname=Ford\", true);</div>\n<h2>POST-verzoeken</h2>\n<p>Om gegevens als een HTML-formulier te POSTEN, voeg u een HTTP-header toe met</p>\n<div class=\"code\">setRequestHeader()</div>\n. Specificeer de gegevens die u wilt verzenden in de\n<div class=\"code\">send()</div>\nmethode:\n<p>Voorbeeld:</p>\n<div class=\"code\">xhttp.open(\"POST\", \"ajax_test.asp\", true);</div>\n<h2>De url - een bestand op een server</h2>\n<p>De url-parameter van de</p>\n<div class=\"code\">open()</div>\nmethode is een adres naar een bestand op een server:\n<div class=\"code\">xhttp.open(\"GET\", \"ajax_test.php\", true);</div>\n<p>Het bestand kan elk soort bestand zijn, zoals .txt en .xml, of serverscriptbestanden zoals .php (die acties op de server kunnen worden uitgevoerd voordat het antwoord wordt teruggestuurd).</p>\n<h2>Asynchroon - true or false?</h2>\n<p>Gebruik voor serververzoeken asynchroon verzenden. De async-parameter van de</p>\n<div class=\"code\">open()</div>\n- methode moet dan ingesteld worden op true:\n<div class=\"code\">xhttp.open(\"GET\", \"ajax_test.php\", true);</div>\n<p>Door asynchroon te verzenden, hoeft JavaScript niet te wachten op de reactie van de server, maar kan in plaats daarvan:</p>\n<ul>\n<li>voer andere scripts uit terwijl u wacht op de reactie van de server</li>\n<li>behandel het antwoord nadat het antwoord klaar is</li>\n</ul>\n<p>Synchrone XMLHttpRequest (async = false) wordt afgeraden, omdat JavaScript stopt met uitvoeren totdat de serverreactie gereed is. Als de server bezet of traag is, zal de applicatie hangen of stoppen.</p>\n<h2>Onreadystatechange</h2>\n<p>Met het</p>\n<div class=\"code\">XMLHttpRequest</div>\nobject kunt u een functie defini\u00ebren die moet worden uitgevoerd wanneer het verzoek een antwoord ontvangt. Als je dus een verzoek verstuurd gaat javascript door met de rest van de code. Op het moment dat het antwoord binnenkomt, wordt de functie aangeroepen die\n<div class=\"code\">onreadystatechange</div>\nbevat.\n<p>De functie is gedefinieerd in de</p>\n<div class=\"code\">onreadystatechange</div>\neigenschap van het\n<div class=\"code\">XMLHttpRequest</div>\nobject:\n<p>Voorbeeld:</p>\n<div class=\"code\">xhttp.onreadystatechange = function() {</div>\n<p>De</p>\n<div class=\"code\">readyState</div>\neigenschap bevat de status van de XMLHttpRequest.\n<p>De</p>\n<div class=\"code\">onreadystatechange</div>\neigenschap definieert een functie die moet worden uitgevoerd wanneer de readyState verandert.\n<p>De</p>\n<div class=\"code\">status</div>\neigenschap en de\n<div class=\"code\">statusText</div>\neigenschap hebben de status van het XMLHttpRequest-object.\n<table border=\"1\">\n<tbody>\n<tr>\n<th>Eigenschap</th>\n<th>Omschrijving</th>\n</tr>\n<tr>\n<td>onreadystatechange</td>\n<td>De functie die wordt aangeroepen als er data binnekomt.</td>\n</tr>\n<tr>\n<td>readyState</td>\n<td>De status van XMLHttpRequest:<br/>\n0: verzoek niet ge\u00efnitialiseerd<br/>\n1: verbinding met de server gemaakt<br/>\n2: verzoek ontvangen<br/>\n3: verzoek verwerken<br/>\n4: verzoek  klaar en antwoord beschikbaar</td>\n</tr>\n<tr>\n<td>status</td>\n<td>Status code:<br/>\n200: \"OK\"<br/>\n403: \"Forbidden\"<br/>\n404: \"Page not found\"<br/>\nEen complete lijst met HTTP codes: <a href=\"https://translate.googleusercontent.com/translate_c?depth=1&amp;pto=aue&amp;rurl=translate.google.com&amp;sl=en&amp;sp=nmt4&amp;tl=nl&amp;u=https://www.w3schools.com/tags/ref_httpmessages.asp&amp;usg=ALkJrhjOjV4BHPCZidFxQWphJ4mWycWibw\">Http Messages Reference</a></td>\n</tr>\n<tr>\n<td>statusText</td>\n<td>Bevat de tekst die bij de status hoort: (e.g. \"OK\" or \"Not Found\")</td>\n</tr>\n</tbody>\n</table>\n<p>De</p>\n<div class=\"code\">onreadystatechange</div>\nfunctie wordt elke keer aangeroepen als readyState verandert.\n<p>Wanneer</p>\n<div class=\"code\">readyState</div>\n4 is en de status code 200, dan is het antwoord klaar:\n<p>Voorbeeld:</p>\n<div class=\"code\">function loadDoc() {</div>\n<p> </p>\n"
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "6966142"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Opdracht 11",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Opdracht 11a:</p>\n<p>Maak een HTML pagina met drie div elementen.<br/>\nSchrijf een javascript programma wat een json bestand ophaalt van <a href=\"https://api.nnet.nl/weer.php\" target=\"_blank\">https://api.nnet.nl/weer.php</a> . Dit bestand bevat het huidige weer in Oss in JSON formaat. Vul de de div elementen met de volgende informatie:</p>\n<ul>\n<li>Temperatuur</li>\n<li>Luchtdruk</li>\n<li>Weersverwachting</li>\n</ul>\n<div style=\"background:#eee; border:1px solid #ccc; padding:5px 10px;\">TIP:<br/>\nHet JSON bestand kun je omzetten naar javascript met de volgende code:<br/>\n<div class=\"code\">var data = JSON.parse(this.responseText);</div>\n<br/>\nDaarna kun je de verschillende waarden vinden door de namen te gebruiken als volgt:<br/>\n<div class=\"code\">data[\"liveweer\"][0][\"temp\"];</div>\n</div>\n<p> </p>\n<p class=\"text-align-center\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/a/af6980ada08263abc87369c3ef398437f3fe4def.png\" class=\"height-282-pixels width-500-pixels\"/></p>\n<p>Opdracht 11b:</p>\n<p>Voeg een img element toe aan de pagina. Vul het img element met een icoon van het huidige weer. De naam van het icoon zit in de JSON data:</p>\n<div class=\"code\">data[\"liveweer\"][0][\"image\"];</div>\n<br/>\n<br/>\nDe icoonen kun je vinden op <a href=\"https://api.nnet.nl/img/\">https://api.nnet.nl/img/</a>\n<p>Via javascript kun je een afbeelding veranderen met de volgende code:</p>\n<div class=\"code\">document.getElementById(\"image\").src = \"afbeelding.png\";</div>\n<br/>\n \n<p class=\"text-align-center\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/a/a12b7d91603d7912a4306e908c00051c4157dbe8.png\" class=\"height-288-pixels width-509-pixels\"/></p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "6391173"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Canvas",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Het HTML-</p>\n<div class=\"code\">&lt;canvas&gt;</div>\nelement wordt gebruikt om afbeeldingen op een webpagina te tekenen.\n<p>De afbeelding aan de linkerzijde is gemaakt met</p>\n<div class=\"code\">&lt;canvas&gt;</div>\n. Het toont vier elementen: een rode rechthoek, een verlooprechthoek, een veelkleurige rechthoek en een veelkleurige tekst.\n<h2>Wat is HTML Canvas?</h2>\n<p>Het HTML-</p>\n<div class=\"code\">&lt;canvas&gt;</div>\nelement wordt gebruikt om directe afbeeldingen te tekenen via JavaScript.\n<p>Het</p>\n<div class=\"code\">&lt;canvas&gt;</div>\nelement is slechts een container voor afbeeldingen. U moet JavaScript gebruiken om de afbeeldingen werkelijk te tekenen.\n<p>Canvas heeft verschillende methoden om paden, kaders, cirkels, tekst te tekenen en afbeeldingen toe te voegen.</p>\n<h2>Canvas voorbeelden</h2>\n<p>Een canvas is een rechthoekig gebied op een HTML-pagina. Standaard heeft een canvas geen rand en geen inhoud.</p>\n<p>De opmaak ziet er als volgt uit:</p>\n<div class=\"code\">&lt;canvas id=\"myCanvas\" width=\"200\" height=\"100\" style=\"border:1px solid #000000;\"&gt;&lt;/canvas&gt;</div>\n<p><strong>OPMERKING:</strong> Definieer altijd een</p>\n<div class=\"code\">id</div>\nattribuut (zodat je het in javascript kunt gebruiken), en een\n<div class=\"code\">width</div>\nen\n<div class=\"code\">height</div>\nattribuut om de grootte van het canvas te defini\u00ebren. Gebruik evt. het\n<div class=\"code\">style</div>\nattribuut om een \u200b\u200brand toe te voegen.\n<h2>Tekenen</h2>\n<p>Nadat je het canvas hebt gemaakt, kun je JavaScript gebruiken om een tekening te maken.</p>\n<p>Voorbeeld:<br/>\nHet volgende voorbeeld voegt een <strong>lijn</strong> toe:</p>\n<div class=\"code\">&lt;script&gt;</div>\n<p>Voorbeeld:<br/>\nHet volgende voorbeeld voegt een <strong>cirkel</strong> toe:</p>\n<div class=\"code\">&lt;script&gt;</div>\n<p>Voorbeeld:<br/>\nHet volgende voorbeeld voegt <strong>tekst</strong> toe:</p>\n<div class=\"code\">&lt;script&gt;</div>\n<p>Meer informatie over de beschikbare functies kun je hier vinden: <a href=\"https://www.w3schools.com/graphics/canvas_reference.asp\">https://www.w3schools.com/graphics/canvas_reference.asp</a></p>\n<p>Met canvas is het bijvoorbeeld mogelijk om een analoge klok te maken, hier vind je een korte cursus hoe je dat doet: <a href=\"https://www.w3schools.com/graphics/canvas_clock.asp\">https://www.w3schools.com/graphics/canvas_clock.asp</a></p>\n<p> </p>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "6367801"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Nummers",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>JavaScript heeft slechts \u00e9\u00e9n type nummer. Getallen kunnen met of zonder decimalen worden geschreven.</p>\n<p>Voorbeeld<br/></p>\n<div class=\"code\">var x = 3.14;    // A number with decimals</div>\n<p>Extra grote of extra kleine getallen kunnen met wetenschappelijke (exponent) notatie worden geschreven:</p>\n<p>Voorbeeld<br/></p>\n<div class=\"code\">var x = 123e5;    // 12300000</div>\n<p>JavaScript-nummers zijn altijd 64-bits drijvende komma<br/>\nIn tegenstelling tot veel andere programmeertalen, definieert JavaScript geen verschillende soorten getallen, zoals gehele getallen, korte, lange, drijvende komma enz.</p>\n<p>JavaScript-nummers worden altijd opgeslagen als drijvende-kommagetallen met dubbele precisie.<br/>\nDit formaat slaat getallen op in 64 bits. Gehele getallen (getallen zonder punt of exponentnotatie) zijn nauwkeurig tot 15 cijfers.</p>\n<p>Voorbeeld<br/></p>\n<div class=\"code\">var x = 999999999999999;   // x will be 999999999999999</div>\n<br/>\nHet aantal maximale decimalen is 17, maar drijvende-kommaberekeningen zijn niet altijd 100% nauwkeurig:<br/>\nVoorbeeld<br/>\n<div class=\"code\">var x = 0.2 + 0.1;         // x will be 0.30000000000000004</div>\n<br/>\nOm het bovenstaande probleem op te lossen, helpt het om te vermenigvuldigen en te delen:<br/>\nVoorbeeld<br/>\n<div class=\"code\">var x = (0.2 * 10 + 0.1 * 10) / 10;       // x will be 0.3</div>\n<h2>Cijfers en tekenreeksen toevoegen</h2>\n<p><em>WAARSCHUWING !!<br/>\nJavaScript gebruikt de operator + voor zowel optellen als samenvoegen.<br/>\nNummers worden toegevoegd. Strings worden aan elkaar geplakt.</em></p>\n<p>Als je twee getallen optelt, is het resultaat een getal:<br/>\nVoorbeeld<br/></p>\n<div class=\"code\">var x = 10;</div>\n<p>Als je twee strings toevoegt, is het resultaat een aaneenschakeling van tekenreeksen:<br/>\nVoorbeeld<br/></p>\n<div class=\"code\">var x = \"10\";</div>\n<p>Als je een getal en een string toevoegt, is het resultaat een aaneenschakeling van een string:<br/>\nVoorbeeld<br/></p>\n<div class=\"code\">var x = 10;</div>\n<p>Als je een string en een getal toevoegt, is het resultaat een aaneenschakeling van een string:<br/>\nVoorbeeld<br/></p>\n<div class=\"code\">var x = \"10\";</div>\n<p>Een veelgemaakte fout is dat dit resultaat 30 is:<br/>\nVoorbeeld<br/></p>\n<div class=\"code\">var x = 10;</div>\n<p>Om dit op te lossen kun je haakjes gebruiken:<br/>\nVoorbeeld<br/></p>\n<div class=\"code\">var x = 10;</div>\n<p>Een veelgemaakte fout is dat dit resultaat 102030 is:<br/>\nVoorbeeld<br/></p>\n<div class=\"code\">var x = 10;</div>\n<br/>\nDe JavaScript-interpreter werkt van links naar rechts.<br/>\nDe eerste 10 + 20 wordt opgeteld omdat x en y beide getallen zijn.<br/>\nDan wordt 30 + \"30\" aaneengeschakeld omdat z een string is.\n<p>Numerieke tekenreeksen<br/>\nJavaScript-strings kunnen numerieke inhoud hebben:<br/></p>\n<div class=\"code\">var x = 100;         // x is a number</div>\n<p>JavaScript zal proberen om strings naar getallen om te zetten in alle numerieke bewerkingen behalve optellen:</p>\n<p>Dit zal werken:<br/></p>\n<div class=\"code\">var x = \"100\";</div>\n<p>Dit werkt ook:<br/></p>\n<div class=\"code\">var x = \"100\";</div>\n<p>En dit zal werken:<br/></p>\n<div class=\"code\">var x = \"100\";</div>\n<p>Maar dit zal niet werken:<br/></p>\n<div class=\"code\">var x = \"100\";</div>\n<br/>\nIn het laatste voorbeeld gebruikt JavaScript de + operator om de strings samen te voegen.\n<h2>NaN - Geen nummer</h2>\n<p>NaN is een door JavaScript gereserveerd woord dat aangeeft dat een nummer geen geldig nummer is.<br/>\nAls je probeert te rekenen met een niet-numerieke reeks, krijgt je NaN(Geen getal):<br/>\nVoorbeeld<br/></p>\n<div class=\"code\">var x = 100 / \"Apple\";  // x will be NaN (Not a Number)</div>\n<p>Als de tekenreeks echter een numerieke waarde bevat, is het resultaat een getal:<br/>\nVoorbeeld<br/></p>\n<div class=\"code\">var x = 100 / \"10\";     // x will be 10</div>\n<p>U kunt de algemene JavaScript-functie gebruiken isNaN() om erachter te komen of een waarde een getal is:<br/>\nVoorbeeld<br/></p>\n<div class=\"code\">var x = 100 / \"Apple\";</div>\n<br/>\nPas op voor NaN. Als je NaN in een wiskundige bewerking gebruikt, is het resultaat ook NaN:<br/>\nVoorbeeld<br/>\n<div class=\"code\">var x = NaN;</div>\n<p>Of het resultaat kan een aaneenschakeling zijn:<br/>\nVoorbeeld<br/></p>\n<div class=\"code\">var x = NaN;</div>\n<p>NaN is een getal: typeof NaN geeft als resultaat number:<br/>\nVoorbeeld<br/></p>\n<div class=\"code\">typeof NaN;            // returns \"number\"</div>\n<h2>Oneindigheid</h2>\n<p>Infinity(of -Infinity) is de waarde die JavaScript zal retourneren als je een getal berekent dat buiten het grootst mogelijke getal ligt.<br/>\nVoorbeeld<br/></p>\n<div class=\"code\">var myNumber = 2;</div>\n<p>Deling door 0 (nul) genereert ook Infinity:<br/>\nVoorbeeld<br/></p>\n<div class=\"code\">var x =  2 / 0;       // x will be Infinity</div>\n<p>Infinity is een getal: typeof Infinity retourneert number.</p>\n<p>Voorbeeld<br/></p>\n<div class=\"code\">typeof Infinity;     // returns \"number\"</div>\n<h2>Hexadecimaal</h2>\n<p>JavaScript interpreteert numerieke constanten als hexadecimaal als ze worden voorafgegaan door</p>\n<div class=\"code\">0x</div>\n.<br/>\nVoorbeeld<br/>\n<div class=\"code\">var x = 0xFF;        // x will be 255</div>\n<p>Schrijf nooit een getal met een voorloop nul (zoals 07). Sommige JavaScript-versies interpreteren getallen als octaal als ze met een voorloopnul worden geschreven.</p>\n<p><br/>\nStandaard geeft JavaScript getallen weer als decimalen met grondtal 10.<br/>\nMaar je kunt de toString() methode gebruiken om getallen uit te voeren van basis 2 tot basis 36 .</p>\n<ul>\n<li>Hexadecimaal is basis 16.</li>\n<li>Decimaal is basis 10.</li>\n<li>Octaal is basis 8.</li>\n<li>Binair is basis 2.</li>\n</ul>\n<p>Voorbeeld<br/></p>\n<div class=\"code\">var myNumber = 32;</div>\n<h2>Getallen kunnen objecten zijn</h2>\n<p>Normaal gesproken zijn JavaScript-nummers primitieve waarden die zijn gemaakt op basis van letterlijke waarden:<br/></p>\n<div class=\"code\">var x = 123;</div>\n<br/>\nMaar getallen kunnen ook worden gedefinieerd als objecten met het trefwoord new:<br/>\n<div class=\"code\">var y = new Number(123);</div>\n<br/>\nVoorbeeld<br/>\n<div class=\"code\">var x = 123;</div>\n<p><strong>Maak geen Number-objecten.</strong> Het vertraagt \u200b\u200bde uitvoeringssnelheid.<br/>\nHet new sleutelwoord maakt de code ingewikkelder. Dit kan enkele onverwachte resultaten opleveren:</p>\n<p>Bij gebruik van de</p>\n<div class=\"code\">==</div>\noperator zijn gelijke getallen gelijk:<br/>\nVoorbeeld<br/>\n<div class=\"code\">var x = 500;</div>\n<p>Bij gebruik van de</p>\n<div class=\"code\">===</div>\noperator zijn gelijke getallen niet gelijk, omdat de\n<div class=\"code\">===</div>\noperator gelijkheid verwacht in zowel type als waarde.<br/>\nVoorbeeld<br/>\n<div class=\"code\">var x = 500;</div>\n<p>Of nog erger. Objecten kunnen niet worden vergeleken:<br/>\nVoorbeeld<br/></p>\n<div class=\"code\">var x = new Number(500);</div>\n<p>Let op het verschil tussen (</p>\n<div class=\"code\">x==y</div>\n)en (\n<div class=\"code\">x===y</div>\n).<br/>\nHet vergelijken van twee JavaScript-objecten zal altijd terugkeren false.\n<h2>Nummer methoden en eigenschappen</h2>\n<p>Primitieve waarden (zoals 3.14 van 2014) kunnen geen eigenschappen en methoden hebben (omdat het geen objecten zijn).</p>\n<p>Maar in JavaScript zijn methoden en eigenschappen ook beschikbaar voor primitieve waarden, omdat JavaScript primitieve waarden als objecten behandelt bij het uitvoeren van methoden en eigenschappen.</p>\n<p>De</p>\n<div class=\"code\">toString()</div>\nmethode retourneert een getal als een tekenreeks.<br/>\nAlle nummermethoden kunnen worden gebruikt voor elk type nummer (literals, variabelen of uitdrukkingen):<br/>\nVoorbeeld<br/>\n<div class=\"code\">var x = 123;</div>\n<div class=\"code\">toExponential()</div>\ngeeft een tekenreeks terug, met een getal afgerond en geschreven in exponenti\u00eble notatie.<br/>\nEen parameter definieert het aantal tekens achter de komma:<br/>\nVoorbeeld<br/>\n<div class=\"code\">var x = 9.656;</div>\n<br/>\nDe parameter is optioneel. Als je dit niet opgeeft, rondt JavaScript het getal niet af.\n<div class=\"code\">toFixed()</div>\ngeeft een tekenreeks terug, met het getal geschreven met een opgegeven aantal decimalen:<br/>\nVoorbeeld<br/>\n<div class=\"code\">var x = 9.656;</div>\n<br/>\n<div class=\"code\">toFixed(2)</div>\nis perfect als je met geld werkt.\n<div class=\"code\">toPrecision()</div>\ngeeft een tekenreeks terug, met een getal geschreven met een opgegeven lengte:<br/>\nVoorbeeld<br/>\n<div class=\"code\">var x = 9.656;</div>\n<div class=\"code\">valueOf()</div>\ngeeft een getal terug als een getal.<br/>\nVoorbeeld<br/>\n<div class=\"code\">var x = 123;</div>\n<br/>\nIn JavaScript kan een getal een primitieve waarde zijn (typeof = getal) of een object (typeof = object). De\n<div class=\"code\">valueOf()</div>\nmethode wordt intern in JavaScript gebruikt om Number-objecten naar primitieve waarden te converteren. Er is geen reden om het in uw code te gebruiken.<br/>\nAlle JavaScript-gegevenstypen hebben een\n<div class=\"code\">valueOf()</div>\nen een\n<div class=\"code\">toString()</div>\nmethode.\n<h2>Variabelen omzetten in getallen</h2>\n<p>Er zijn 3 JavaScript-methoden die kunnen worden gebruikt om variabelen in getallen om te zetten:</p>\n<ul>\n<li>De Number() methode</li>\n<li>De parseInt() methode</li>\n<li>De parseFloat() methode</li>\n</ul>\n<p>Deze methoden zijn niet nummer speciefieke methoden, maar globale JavaScript-methoden.</p>\n<div class=\"code\">Number()</div>\nkan worden gebruikt om JavaScript-variabelen om te zetten in getallen:<br/>\nVoorbeeld<br/>\n<div class=\"code\">Number(true);          // returns 1</div>\n<br/>\nAls het nummer niet kan worden geconverteerd, wordt NaN (Not a Number) geretourneerd.\n<p>Number() kan ook een datum naar een getal converteren:<br/>\nVoorbeeld<br/></p>\n<div class=\"code\">Number(new Date(\"2017-09-30\"));    // returns 1506729600000</div>\n<br/>\nDe\n<div class=\"code\">Number()</div>\nmethode retourneert het aantal milliseconden sinds 01-01-1970.\n<div class=\"code\">parseInt()</div>\nparsed een string en retourneert een geheel getal. Spaties zijn toegestaan. Alleen het eerste nummer wordt geretourneerd:<br/>\nVoorbeeld<br/>\n<div class=\"code\">parseInt(\"10\");         // returns 10</div>\n<br/>\nAls het nummer niet kan worden geconverteerd, wordt NaN (Not a Number) geretourneerd.\n<div class=\"code\">parseFloat()</div>\nparsed een string en retourneert een getal. Spaties zijn toegestaan. Alleen het eerste nummer wordt geretourneerd:<br/>\nVoorbeeld<br/>\n<div class=\"code\">parseFloat(\"10\");        // returns 10</div>\n<br/>\nAls het nummer niet kan worden geconverteerd, wordt NaN (Not a Number) geretourneerd."
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "6365164"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Strings",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>JavaScript-strings worden gebruikt voor het opslaan en manipuleren van tekst.<br/>\nEen JavaScript-tekenreeks bestaat uit nul of meer tekens tussen aanhalingstekens.</p>\n<p>Voorbeeld<br/></p>\n<div class=\"code\">var x = \"John Doe\";</div>\n<br/>\nU kunt enkele of dubbele aanhalingstekens gebruiken:\n<p>Voorbeeld<br/></p>\n<div class=\"code\">var carName1 = \"Volvo XC60\";  // Double quotes</div>\n<br/>\nU kunt aanhalingstekens binnen een string gebruiken, zolang ze niet overeenkomen met de aanhalingstekens rondom de string:\n<p>Voorbeeld<br/></p>\n<div class=\"code\">var answer1 = \"It's alright\";</div>\n<h2>Escape karakter</h2>\n<p>Omdat strings tussen aanhalingstekens moeten worden geschreven, zal JavaScript deze tekenreeks verkeerd begrijpen:<br/></p>\n<div class=\"code\">var x = \"We are the so-called \"Vikings\" from the north.\";</div>\n<br/>\nDe string wordt omgezet naar \"We are the so-called \".<br/>\nDe oplossing om dit probleem te verhelpen, is door het backslash-escape-teken te gebruiken .<br/>\nHet (\\) backslash-escape-teken verandert speciale tekens in tekenreeks-tekens:\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"width-500-pixels\">\n<tbody>\n<tr>\n<td>Code    </td>\n<td>Resultaat    </td>\n<td>Omschrijving</td>\n</tr>\n<tr>\n<td>\n<div class=\"code\">\\'</div>\n</td>\n<td>'</td>\n<td>Single quote</td>\n</tr>\n<tr>\n<td>\n<div class=\"code\">\\\"</div>\n</td>\n<td>\"</td>\n<td>Double quote</td>\n</tr>\n<tr>\n<td>\n<div class=\"code\">\\\\</div>\n</td>\n<td>\\</td>\n<td>Backslash</td>\n</tr>\n</tbody>\n</table>\n<p><br/>\nDe reeks</p>\n<div class=\"code\">\\\"</div>\n voegt een dubbel aanhalingsteken in een string in:<br/>\nVoorbeeld<br/>\n<div class=\"code\">var x = \"We are the so-called \\\"Vikings\\\" from the north.\";</div>\n<p>Zes andere escape-reeksen zijn geldig in JavaScript:</p>\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"width-500-pixels\">\n<tbody>\n<tr>\n<td>Code    </td>\n<td>Resultaat</td>\n</tr>\n<tr>\n<td>\\b</td>\n<td>Backspace</td>\n</tr>\n<tr>\n<td>\\f</td>\n<td>Form Feed</td>\n</tr>\n<tr>\n<td>\\n</td>\n<td>New Line</td>\n</tr>\n<tr>\n<td>\\r</td>\n<td>Carriage Return</td>\n</tr>\n<tr>\n<td>\\t</td>\n<td>Horizontal Tabulator</td>\n</tr>\n<tr>\n<td>\\v</td>\n<td>Vertical Tabulator</td>\n</tr>\n</tbody>\n</table>\n<p><br/>\nDe 6 bovenstaande escape-tekens zijn oorspronkelijk ontworpen om typemachines, teletypes en faxmachines te bedienen. Ze slaan nergens meer op in HTML.</p>\n<h2>Lange coderegels doorbreken</h2>\n<p>Voor de beste leesbaarheid vermijden programmeurs vaak coderegels die langer zijn dan 80 tekens. Als een JavaScript-instructie niet op \u00e9\u00e9n regel past, kunt u deze het beste afbreken na een operator:<br/>\nVoorbeeld<br/></p>\n<div class=\"code\">document.getElementById(\"demo\").innerHTML =</div>\n<br/>\nU kunt ook een coderegel binnen een tekst reeks opsplitsen met een enkele backslash:<br/>\nVoorbeeld<br/>\n<div class=\"code\">document.getElementById(\"demo\").innerHTML = \"Hello \\</div>\n<br/>\nDe \\ methode heeft <strong>niet</strong> de voorkeur. Het werkt misschien niet in alle browsers.<br/>\nSommige browsers staan \u200b\u200bgeen spaties achter het \\ teken toe.\n<p>Een veiligere manier om een \u200b\u200bstring te breken, is door string-optelling te gebruiken:</p>\n<p>Voorbeeld<br/></p>\n<div class=\"code\">document.getElementById(\"demo\").innerHTML = \"Hello \" +</div>\n<p>Je kunt geen code opbreken met een backslash, het volgende <strong>werkt niet</strong>:<br/>\nVoorbeeld<br/></p>\n<div class=\"code\">document.getElementById(\"demo\").innerHTML = \\</div>\n<h2>String-methoden en eigenschappen</h2>\n<p>De length eigenschap retourneert de lengte van een tekenreeks:</p>\n<div class=\"code\">var txt = \"ABCDEFGHIJKLMNOPQRSTUVWXYZ\";</div>\n<p>De</p>\n<div class=\"code\">indexOf()</div>\nmethode retourneert de index van het eerst voorkomen van een opgegeven tekst in een string:\n<div class=\"code\">var str = \"Please locate where 'locate' occurs!\";</div>\n<p>De</p>\n<div class=\"code\">lastIndexOf()</div>\nmethode retourneert de index van de laatste keer dat een opgegeven tekst in een string kiest:\n<div class=\"code\">var str = \"Please locate where 'locate' occurs!\";</div>\n<p>JavaScript telt posities vanaf nul. 0 is de eerste positie in een string, 1 is de tweede, 2 is de derde ...<br/>\nBeide</p>\n<div class=\"code\">indexOf()</div>\n, en\n<div class=\"code\">lastIndexOf()</div>\nretourneren -1 als de tekst niet wordt gevonden.\n<p>Beide methoden accepteren een tweede parameter als de startpositie voor de zoekopdracht:<br/>\nDe</p>\n<div class=\"code\">lastIndexOf()</div>\nmethode zoekt achteruit (van het einde naar het begin), wat betekent: als de tweede parameter  15 is, begint het zoeken op positie 15 en zoekt javascript naar het begin van de string.\n<div class=\"code\">var str = \"Please locate where 'locate' occurs!\";</div>\n<p>The</p>\n<div class=\"code\">search()</div>\nmethod searches a string for a specified value and returns the position of the match:\n<div class=\"code\">var str = \"Please locate where 'locate' occurs!\";</div>\n<p>Zijn</p>\n<div class=\"code\">indexOf()</div>\nen\n<div class=\"code\">search()</div>\nhetzelfde?<br/>\nZe accepteren dezelfde argumenten (parameters) en retourneren dezelfde waarde?<br/>\nDe twee methoden zijn <strong>NIET</strong> hetzelfde. Dit zijn de verschillen:\n<ul>\n<li>De\n<div class=\"code\">search()</div>\nmethode kan geen tweede startpositie-argument hebben.</li>\n<li>De\n<div class=\"code\">indexOf()</div>\nmethode kan geen krachtige zoekwaarden aannemen (reguliere Expressies).</li>\n</ul>\n<p> </p>\n<div class=\"code\">slice()</div>\nextraheert een deel van een string en retourneert het uitgepakte deel in een nieuwe string.<br/>\nDe methode heeft 2 parameters: de startpositie en de eindpositie (einde niet inbegrepen).<br/>\nDit voorbeeld snijdt een deel van een string uit van positie 7 naar positie 12 (13 min 1):\n<p>Voorbeeld<br/></p>\n<div class=\"code\">var str = \"Apple, Banana, Kiwi\";</div>\n<br/>\nHet resultaat van het onderzoek zal zijn:<br/>\n<div class=\"code\">Banana</div>\n<p>Als een parameter negatief is, wordt de positie geteld vanaf het einde van de string.<br/>\nIn dit voorbeeld wordt een deel van een string uitgesneden van positie -12 naar positie -6:</p>\n<p>Voorbeeld<br/></p>\n<div class=\"code\">var str = \"Apple, Banana, Kiwi\";</div>\n<br/>\nHet resultaat van het onderzoek zal zijn:<br/>\n<div class=\"code\">Banana</div>\n<p>Als u de tweede parameter weglaat, snijdt de methode de rest van de string uit:</p>\n<p>Voorbeeld<br/></p>\n<div class=\"code\">var str = \"Apple, Banana, Kiwi\";</div>\n<p>De</p>\n<div class=\"code\">replace()</div>\nmethode vervangt een opgegeven waarde door een andere waarde in een string:<br/>\n<div class=\"code\">str = \"Please visit Microsoft!\";</div>\n<p>Een string wordt naar hoofdletters omgezet met</p>\n<div class=\"code\">toUpperCase()</div>\n:<br/>\n<div class=\"code\">var text1 = \"Hello World!\";       // String</div>\n<p>Een string wordt omgezet in kleine letters met</p>\n<div class=\"code\">toLowerCase()</div>\n:<br/>\n<div class=\"code\">var text1 = \"Hello World!\";       // String</div>\n<div class=\"code\">concat()</div>\nvoeg twee of meer strings samen:<br/>\n<div class=\"code\">var text1 = \"Hello\";</div>\n<p>De</p>\n<div class=\"code\">concat()</div>\nmethode kan worden gebruikt in plaats van de plus-operator. Deze twee regels doen hetzelfde:<br/>\n<div class=\"code\">var text = \"Hello\" + \" \" + \"World!\";</div>\n<p>De</p>\n<div class=\"code\">trim()</div>\nmethode verwijdert witruimte aan beide zijden van een string:<br/>\n<div class=\"code\">var str = \"       Hello World!        \";</div>\n<p>De</p>\n<div class=\"code\">charAt()</div>\nmethode retourneert het teken op een opgegeven index (positie) in een tekenreeks:<br/>\n<div class=\"code\">var str = \"HELLO WORLD\";</div>\n<p>Een string kan worden geconverteerd naar een array met de</p>\n<div class=\"code\">split()</div>\nmethode:<br/>\n<div class=\"code\">var txt = \"a,b,c,d,e\";   // String</div>\n<p>Als het scheidingsteken \"\" (leeg) is, zal de geretourneerde array een array van alle losse tekens zijn:<br/></p>\n<div class=\"code\">var txt = \"Hello\";       // String</div>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "6364968"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Real-life objecten, eigenschappen en methoden",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>In het echte leven is een auto een object. Een auto heeft eigenschappen zoals gewicht en kleur, en methoden zoals starten en stoppen:</p>\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"width-600-pixels\">\n<tbody>\n<tr>\n<td>Voorwerp    </td>\n<td>Eigenschappen</td>\n<td>Methoden</td>\n</tr>\n<tr>\n<td>\n<p class=\"text-align-center\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/9/949af7fb53362a8ab5c98a3ac2888131cbe1960d.gif\" class=\"height-183-pixels width-297-pixels\"/></p>\n</td>\n<td>\n<p>car.name = Fiat</p>\n<p>auto.model = 500</p>\n<p>auto.gewicht = 850kg</p>\n<p>auto.kleur = wit</p>\n</td>\n<td>\n<p>car.start ()</p>\n<p>car.drive ()</p>\n<p>car.brake ()</p>\n<p>car.stop ()</p>\n</td>\n</tr>\n</tbody>\n</table>\n<p>   </p>\n<p>Alle auto's hebben dezelfde eigenschappen, maar de inhoud van die eigenschappen kan afwijken tussen auto's. Ze hebben allemaal de eigenschap kleur maar welke kleur verschilt per auto. Alle auto's hebben dezelfde methoden, maar de methoden worden op verschillende momenten uitgevoerd.</p>\n<h2>JavaScript-objecten</h2>\n<p>Je hebt al geleerd dat JavaScript-variabelen containers zijn voor waarden.</p>\n<p>Deze code kent een eenvoudige waarde (Fiat) toe aan een variabele met de naam auto:</p>\n<div class=\"code\">var car = \"Fiat\";</div>\n<p>Objecten zijn ook variabelen. Maar objecten kunnen veel waarden bevatten.<br/>\nDeze code kent veel waarden (Fiat, 500, wit) toe aan een variabele met de naam auto:</p>\n<div class=\"code\">var car = {type:\"Fiat\", model:\"500\", color:\"white\"};</div>\n<p>De waarden worden geschreven als <strong>naam:waarde</strong> paren (naam en waarde worden van elkaar gescheiden door een dubbele punt).</p>\n<p>JavaScript-objecten zijn containers voor waarden met een naam. Deze worden eigenschappen of methoden genoemd.</p>\n<h2>Objectdefinitie</h2>\n<p>U definieert (en maakt) een JavaScript-object met</p>\n<div class=\"code\">{}</div>\n:\n<p>Voorbeeld<br/></p>\n<div class=\"code\">var person = {firstName:\"John\", lastName:\"Doe\", age:50, eyeColor:\"blue\"};</div>\n<br/>\nSpaties en regeleinden zijn niet belangrijk. Een objectdefinitie kan meerdere regels omvatten:\n<p>Voorbeeld:<br/></p>\n<div class=\"code\">var person = {</div>\n<h2><br/>\nObjecteigenschappen</h2>\n<p>De <strong>naam:waarde</strong>- paren in JavaScript-objecten worden eigenschappen genoemd :</p>\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"width-500-pixels\">\n<tbody>\n<tr>\n<td>Eigenschap    </td>\n<td>Waarde</td>\n</tr>\n<tr>\n<td>firstName    </td>\n<td>John</td>\n</tr>\n<tr>\n<td>lastName</td>\n<td>Doe</td>\n</tr>\n<tr>\n<td>age    </td>\n<td>50</td>\n</tr>\n<tr>\n<td>eyeColor    </td>\n<td>blue</td>\n</tr>\n</tbody>\n</table>\n<h2><br/>\nToegang tot objecteigenschappen</h2>\n<p>U kunt objecteigenschappen op twee manieren openen:<br/></p>\n<div class=\"code\">objectName.propertyName</div>\n<br/>\nof<br/>\n<div class=\"code\">objectName[\"propertyName\"]</div>\n<p>Voorbeeld 1<br/></p>\n<div class=\"code\">person.lastName;</div>\n<p>Voorbeeld 2<br/></p>\n<div class=\"code\">person[\"lastName\"];</div>\n<h2>Object methoden</h2>\n<p>Objecten kunnen ook methoden hebben. Methoden zijn acties die op objecten kunnen worden uitgevoerd. Methoden worden in eigenschappen opgeslagen als functiedefinities.</p>\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"width-500-pixels\">\n<tbody>\n<tr>\n<td>Eigenschap    </td>\n<td>Waarde</td>\n</tr>\n<tr>\n<td>firstName    </td>\n<td>John</td>\n</tr>\n<tr>\n<td>lastName    </td>\n<td>Doe</td>\n</tr>\n<tr>\n<td>age    </td>\n<td>50</td>\n</tr>\n<tr>\n<td>eyeColor</td>\n<td>blue</td>\n</tr>\n<tr>\n<td>fullName    </td>\n<td>\n<div class=\"code\">function () {return this.firstName + \" \" + this.lastName;}</div>\n</td>\n</tr>\n</tbody>\n</table>\n<p><br/>\nEen methode is een functie die is opgeslagen als een eigenschap.</p>\n<p>Voorbeeld<br/></p>\n<div class=\"code\">var person = {</div>\n<h2>Het trefwoord <strong>this</strong></h2>\n<div class=\"code\">this</div>\n verwijst in een functiedefinitie naar de \"eigenaar\" van de functie. In het bovenstaande voorbeeld\n<div class=\"code\">this</div>\nis het persoonsobject \"eigenaar\" van de\n<div class=\"code\">fullName</div>\nfunctie. Met andere woorden\n<div class=\"code\">this.firstName</div>\n is de eigenschap \n<div class=\"code\">firstName</div>\n van dit object .\n<h2>Toegang tot objectmethoden</h2>\n<p>U opent een objectmethode met de volgende syntaxis: </p>\n<div class=\"code\">objectName.methodName()</div>\n<br/>\nVoorbeeld<br/>\n<div class=\"code\">name = person.fullName();</div>\n<br/>\nAls u een methode opent zonder de () haakjes, retourneert deze de functiedefinitie:\n<p>Voorbeeld<br/></p>\n<div class=\"code\">name = person.fullName;</div>\n<h2>Declareer strings, getallen en booleans niet als objecten!</h2>\n<p>Wanneer een JavaScript-variabele wordt gedeclareerd met het trefwoord \"<strong>new</strong>\", wordt de variabele gemaakt als een object:</p>\n<div class=\"code\">var x = new String();        // Declares x as a String object</div>\n<br/>\nVermijd Strings, Numbers en Booleans als objecten. Ze compliceren uw code en vertragen de uitvoeringssnelheid."
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "6386998"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Extra Opdracht",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<h2>Javascript rekenmachine</h2>\n<p>In deze opdracht gaan we stap voor stap een rekenmachine bouwen.</p>\n<p>Maak een nieuw HTML document en vul dit met de volgende code:</p>\n<div class=\"code\">&lt;!DOCTYPE html&gt;</div>\n<br/>\n<br/>\nNu gaan we wat opmaak toevoegen m.b.v. CSS:\n<div class=\"code\">    &lt;style media=\"screen\"&gt;</div>\n<p>Zet de CSS op de juiste plek in het HTML document.</p>\n<p>Om acties toe te voegen aan de knoppen gebruiken we het</p>\n<div class=\"code\">onClick</div>\nevent. Pas de HTML zo aan dat iedere knop een\n<div class=\"code\">onCick</div>\nevent heeft.\n<div class=\"code\">&lt;div id=\"numbers\"&gt;</div>\n<p>Als je nu op een knop klikt gebeurd er nog niets, we hebben ten slotte nog geen functies gedefinieerd in Javascript. Voeg een Javascript tag toe aan het HTML bestand:</p>\n<div class=\"code\">&lt;script type=\"text/javascript\"&gt;</div>\n<p>Een rekenmachine heeft een aantal stappen die het doorloopt.</p>\n<ul>\n<li>invoeren eerste getal</li>\n<li>invoeren bewerking (plus, min, keer, delen)</li>\n<li>invoeren tweede getal</li>\n<li>uitkomst vragen (=)</li>\n</ul>\n<p>Iedere stap slaan we op in een variable. Deze definieren we in het script:</p>\n<div class=\"code\">var firstNumber = \"\";</div>\n<p>Om bij te houden welk nummer we aan het invoeren zijn (het eerste getal of het tweede getal) gebruiken we nog een variable. Deze noemen we</p>\n<div class=\"code\">fase</div>\n.\n<div class=\"code\">var fase = 1;</div>\n<br/>\n<br/>\nOm nu het eerste getal op te slaan moeten we ieder klik op een knop samenvoegen met de vorige klik. Dit doen we door een string (\n<div class=\"code\">firstNumber</div>\n) iedere keer aan te vullen met het volgende teken:\n<div class=\"code\">function clickNumber(number){</div>\n<p>We forceren de input naar een string om te voorkomen dat de getallen worden opgeteld in plaats van samengevoegd. Dit doen we met de functie</p>\n<div class=\"code\">String()</div>\n.\n<p>Na het invoeren van het eerste getal moeten we een bewerking (plus, min... ) vastleggen. Dit doen we in de volgende functie. Na het opslaan van de bewerking zetten we fase op 2 zodat we het tweede getal kunnen invoeren:</p>\n<div class=\"code\">function clickOperator(operator){</div>\n<p>Om ook het tweede getal te kunnen invoeren passen we de functie</p>\n<div class=\"code\">clickNumber</div>\naan:<br/>\n<div class=\"code\">function clickNumber(number){</div>\n<p>Nu het eerste- en tweede getal zijn ingevuld met de bijbehorende bewerking kunnen we gaan rekenen door op de = te klikken. Hiervoor vullen we de functie</p>\n<div class=\"code\">clickEquals</div>\n. Afhankelijk van de bewerking berekenen we het resultaat. We gebruiken hier de functie\n<div class=\"code\">parseFloat</div>\nom van de string een kommagetal te maken. Met stings kun je tenslotte geen berekeningen uitvoeren. Het resultaat stoppen we weer in\n<div class=\"code\">firstNumber</div>\nzodat we hier meteen weer verder mee kunnen rekenen. Daarna maken we het tweede nummer en de bewerking leeg en gaan we weer naar fase 1.<br/>\n<div class=\"code\">function clickEquals(){</div>\n<p>Tot slot voegen we een laatste functie toe om de rekenmachine te reseten (AC):</p>\n<div class=\"code\">function clickClear(){</div>\n"
+                }
+            ],
+            "sections": []
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": null,
+            "dimension": null,
+            "suppressTitle": null
+        },
+        "color": "#333333"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Introductie",
+                "reference": {
+                    "value": "6301375"
+                },
+                "sections": []
+            },
+            {
+                "title": "Javascript code uitvoeren",
+                "reference": {
+                    "value": "6965909"
+                },
+                "sections": []
+            },
+            {
+                "title": "Functies",
+                "reference": {
+                    "value": "6304046"
+                },
+                "sections": [
+                    {
+                        "title": "Opdracht 1",
+                        "reference": {
+                            "value": "6953192"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Output",
+                "reference": {
+                    "value": "6301498"
+                },
+                "sections": [
+                    {
+                        "title": "Opdracht 2",
+                        "reference": {
+                            "value": "6953199"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Input",
+                "reference": {
+                    "value": "6386680"
+                },
+                "sections": [
+                    {
+                        "title": "Opdracht 3",
+                        "reference": {
+                            "value": "6953206"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Een programma",
+                "reference": {
+                    "value": "6302279"
+                },
+                "sections": [
+                    {
+                        "title": "Opdracht 4",
+                        "reference": {
+                            "value": "6953220"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Syntax",
+                "reference": {
+                    "value": "6302472"
+                },
+                "sections": [
+                    {
+                        "title": "Opdracht 5",
+                        "reference": {
+                            "value": "6955413"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Data-typen",
+                "reference": {
+                    "value": "6303905"
+                },
+                "sections": [
+                    {
+                        "title": "Opdracht 6",
+                        "reference": {
+                            "value": "6956251"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "JavaScript-Events",
+                "reference": {
+                    "value": "6364992"
+                },
+                "sections": [
+                    {
+                        "title": "Opdracht 7",
+                        "reference": {
+                            "value": "6956262"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "If en Switch",
+                "reference": {
+                    "value": "6379971"
+                },
+                "sections": [
+                    {
+                        "title": "Opdracht 8",
+                        "reference": {
+                            "value": "6957776"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Herhalen: For en While",
+                "reference": {
+                    "value": "6379973"
+                },
+                "sections": [
+                    {
+                        "title": "Opdracht 9",
+                        "reference": {
+                            "value": "6957867"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Timers",
+                "reference": {
+                    "value": "6957879"
+                },
+                "sections": [
+                    {
+                        "title": "Opdracht 10",
+                        "reference": {
+                            "value": "6966006"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "JSON en AJAX",
+                "reference": {
+                    "value": "6391174"
+                },
+                "sections": [
+                    {
+                        "title": "Opdracht 11",
+                        "reference": {
+                            "value": "6966142"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Canvas",
+                "reference": {
+                    "value": "6391173"
+                },
+                "sections": []
+            },
+            {
+                "title": "Nummers",
+                "reference": {
+                    "value": "6367801"
+                },
+                "sections": []
+            },
+            {
+                "title": "Strings",
+                "reference": {
+                    "value": "6365164"
+                },
+                "sections": []
+            },
+            {
+                "title": "Real-life objecten, eigenschappen en methoden",
+                "reference": {
+                    "value": "6364968"
+                },
+                "sections": []
+            },
+            {
+                "title": "Extra Opdracht",
+                "reference": {
+                    "value": "6386998"
+                },
+                "sections": []
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": null,
+        "imageSrc": null,
+        "sources": [],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            },
+            {
+                "key": "learningTime",
+                "label": "Studiebelasting",
+                "terms": [
+                    "4 uur en 0 minuten"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

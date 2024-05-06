@@ -1,0 +1,265 @@
+{
+    "documentAuthors": [
+        "Erik Hollander"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Erik Hollander",
+            "referenceName": null,
+            "reference": {
+                "value": "19017"
+            },
+            "firstName": "Erik",
+            "infix": null,
+            "lastName": "Hollander",
+            "emailAddress": "e.hollander@noorderpoort.nl",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2016-12-04T10:54:14Z",
+    "bulkId": "bulk-17041135-refresh_all",
+    "identifier": 92406,
+    "title": "Toets",
+    "description": "",
+    "lastModifiedDate": "2016-12-04T10:54:14+01:00",
+    "dateCreated": "2016-12-02T10:09:02+01:00",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "Hollander, Erik",
+                "reference": {
+                    "value": "19017"
+                },
+                "firstName": "Erik",
+                "infix": null,
+                "lastName": "Hollander",
+                "emailAddress": "e.hollander@noorderpoort.nl",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-30",
+            "name": "CC Naamsvermelding 3.0 Nederland licentie",
+            "description": "De Nederlandse Creative Commons 3.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/3.0/nl/.",
+            "link": "http://creativecommons.org/licenses/by/3.0/nl/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/92406/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "2725486"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Toets",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "questionnaire",
+                    "reference": {
+                        "value": "2725487"
+                    },
+                    "assessmentTestItem": {
+                        "label": "Oefening",
+                        "type": "exercise",
+                        "header": {
+                            "url": "https://maken.wikiwijs.nl/p/questionnaire/standalone/2725487",
+                            "title": "Oefening"
+                        },
+                        "introduction": {
+                            "body": "<p>Intro</p>"
+                        },
+                        "countQuestions": 1,
+                        "sections": [
+                            {
+                                "type": "assessment",
+                                "identifier": "SECTION_2725487",
+                                "name": "MAIN_SECTION",
+                                "select": null,
+                                "shuffle": null,
+                                "selection": null,
+                                "assessmentItems": [
+                                    {
+                                        "identifier": "2725487_0",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "hottextInteraction",
+                                                "content": {
+                                                    "body": "<p><hottext identifier=\"H_661fc34f819a1\">Selecteer</hottext> het woord <hottext identifier=\"H_661fc34f819ad\">student</hottext> in deze tekst.</p>",
+                                                    "items": [
+                                                        {
+                                                            "value": "Selecteer",
+                                                            "identifier": "H_661fc34f819a1",
+                                                            "feedbackInline": null
+                                                        },
+                                                        {
+                                                            "value": "student",
+                                                            "identifier": "H_661fc34f819ad",
+                                                            "feedbackInline": null
+                                                        }
+                                                    ]
+                                                },
+                                                "label": "Selecteer tekst",
+                                                "maxChoices": 2,
+                                                "minChoices": 0,
+                                                "responseIdentifier": "2725487_0_1",
+                                                "feedback": [
+                                                    {
+                                                        "outcomeIdentifier": "FEEDBACK_CORRECT",
+                                                        "identifier": "FBC_2725487_0",
+                                                        "showHide": null,
+                                                        "title": null,
+                                                        "content": {
+                                                            "body": "Juist"
+                                                        }
+                                                    },
+                                                    {
+                                                        "outcomeIdentifier": "FEEDBACK_INCORRECT",
+                                                        "identifier": "FBI_2725487_0",
+                                                        "showHide": null,
+                                                        "title": null,
+                                                        "content": {
+                                                            "body": "Jammer"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "2725487_0_1",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "H_661fc34f819ad"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": [
+                                                        {
+                                                            "key": "H_661fc34f819a1",
+                                                            "value": 0,
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "H_661fc34f819ad",
+                                                            "value": 1,
+                                                            "caseSensitive": false
+                                                        }
+                                                    ]
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": false,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": true,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_THRESHOLD",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 1,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    }
+                                ]
+                            }
+                        ],
+                        "outcomeDeclarations": null,
+                        "showEvaluation": null,
+                        "feedback": null
+                    }
+                }
+            ],
+            "sections": []
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": null,
+            "dimension": null,
+            "suppressTitle": null
+        },
+        "color": "#495057"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Toets",
+                "reference": {
+                    "value": "2725486"
+                },
+                "sections": []
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": null,
+        "imageSrc": null,
+        "sources": [],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

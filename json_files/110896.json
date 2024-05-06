@@ -1,0 +1,1761 @@
+{
+    "documentAuthors": [
+        "content VO-",
+        "wikiwijs fab"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "content VO-",
+            "referenceName": null,
+            "reference": {
+                "value": "22887"
+            },
+            "firstName": "content",
+            "infix": null,
+            "lastName": "VO-",
+            "emailAddress": "scala7201@gmail.com",
+            "type": "author"
+        },
+        {
+            "fullName": "wikiwijs fab",
+            "referenceName": null,
+            "reference": {
+                "value": "22988"
+            },
+            "firstName": "wikiwijs",
+            "infix": null,
+            "lastName": "fab",
+            "emailAddress": "ww_fab@entreetest.kenict.nl",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2019-07-04T15:09:46Z",
+    "bulkId": "bulk-17041135-refresh_all",
+    "identifier": 110896,
+    "title": "Scrum en Software Engineering",
+    "description": "",
+    "lastModifiedDate": "2019-07-04T15:09:46+02:00",
+    "dateCreated": "2017-09-27T11:04:19+02:00",
+    "published": true,
+    "publisher": {
+        "reference": {
+            "value": 5487
+        },
+        "name": "StudioVO Leermateriaal",
+        "emailAddresses": [
+            "info@vo-content.nl"
+        ],
+        "webAddress": "http://www.vo-content.nl/"
+    },
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "VO-, content",
+                "reference": {
+                    "value": "22887"
+                },
+                "firstName": "content",
+                "infix": null,
+                "lastName": "VO-",
+                "emailAddress": "scala7201@gmail.com",
+                "type": "author"
+            },
+            {
+                "fullName": null,
+                "referenceName": "fab, wikiwijs",
+                "reference": {
+                    "value": "22988"
+                },
+                "firstName": "wikiwijs",
+                "infix": null,
+                "lastName": "fab",
+                "emailAddress": "ww_fab@entreetest.kenict.nl",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-sa-40",
+            "name": "CC Naamsvermelding-GelijkDelen 4.0 Internationale licentie",
+            "description": "De Internationale Creative Commons 4.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarden: Naamsvermelding en Gelijk Delen, zie http://creativecommons.org/licenses/by-sa/4.0/.",
+            "link": "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/110896/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "3702563"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "A Inleiding",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "3702564"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Vooraf",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/5eeb18115a79996dcd71b2b5cf16b009b6784e7e.jpg\" class=\"height-168-pixels width-300-pixels float-right\"/>Het schrijven van correcte programma's, die onder alle omstandigheden doen wat ze moeten doen, is minder eenvoudig dan het lijkt. Dit is een ervaring van vrijwel elke programmeur. Je hebt je programma klaar, je hebt er heel goed over nagedacht, je hebt het uitvoerig getest en dan blijken er later toch nog fouten in te zitten! Dat gebeurt vooral zodra anderen je programma gaan gebruiken. Bovendien zijn de gevolgen nog veel groter als het aantal gebruikers groot is. De vraag hoe je betrouwbare software moet maken, heeft geleid tot een heel eigen vakgebied, namelijk Software Engineering.<br/>\n<br/>\nVoor het ontwikkelen van goede software kunnen verschillende methoden worden gehanteerd. Tegenwoordig is Scrum erg populair. Scrum wordt behalve voor het maken van software ook voor andere doeleinden gebruikt. In deze module laten we zien wat Scrum is en hoe Scrum toegepast kan worden. Scrum biedt oplossingen voor een aantal problemen, maar niet voor alles. Scrum schrijft bijvoorbeeld niet voor in welke taal er geprogrammeerd moet worden. Scrum lost ook het probleem van correctheid van software niet op. Scrum zorgt wel voor oplossingen voor communicatieproblemen. En voor problemen die ontstaan als meerdere mensen met elkaar moeten samenwerken. Daar is bij de ontwikkeling van grote programma's vaak sprake van.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4386715"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Leerdoelen",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/a/a204ff5ac614576dca6474739f51934ad34e82bf.png\" class=\"height-200-pixels width-200-pixels float-right\"/></p>\n<p>Na verwerking van deze module:</p>\n<ul>\n<li>kun je uitleggen wat er bedoeld wordt met Software Engineering;</li>\n<li>kun je een aantal kenmerken noemen die van toepassing zijn op het vakgebied Software Engineering;</li>\n<li>kun je uitleggen waar de term Scrum vandaan komt;</li>\n<li>weet je wat een iteratie is;</li>\n<li>weet je wat wordt bedoeld met het Scrum team;</li>\n<li>weet je wat een Product Owner is en wat zijn/haar taken zijn;</li>\n<li>weet je wat een Scrum Master is en wat zijn/haar taken zijn;</li>\n<li>kun je uitleggen wat een ontwikkelteam is;</li>\n<li>weet je wat de taken zijn van het ontwikkelteam;</li>\n<li>weet je wat een Product Backlog is;</li>\n<li>weet je wat wordt bedoeld met de Definition of Done;</li>\n<li>weet je wat een Sprint Backlog is;</li>\n<li>kun je uitleggen wat Product Backlog Items zijn;</li>\n<li>weet je wat wordt bedoeld met de velocity van het ontwikkelteam;</li>\n<li>kun je uitleggen wat wordt bedoeld met de Backlog Refinement;</li>\n<li>kun je uitleggen waarvoor Burndown Charts gebruikt worden;</li>\n<li>weet je het verschil tussen de Release Burndown Chart en de Sprint Burndown Chart;</li>\n<li>kun je uitleggen waarvoor een Scrum bord wordt gebruikt;</li>\n<li>kun je uitleggen wat de functie is van de Sprint Planning Meeting;</li>\n<li>weet je wat een Daily Scrum is;</li>\n<li>weet je wat het verschil is tussen een Sprint Review en een Sprint Retrospective;</li>\n<li>kun je toelichten welke principes van Scrum bij het ontwikkelen van software worden toegepast.</li>\n</ul>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "3702568"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Bijlagen",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/9/98d07a609ddaab44a102856c256c91376cf66102.png\" class=\"height-200-pixels width-200-pixels float-right\"/></p>\n<p>Bij deze module horen de volgende bijlagen:</p>\n<ul>\n<li><a href=\"https://maken.wikiwijs.nl/userfiles/e/e3741e223551d77d22536116266efbbf5127aa6e.xlsx\"><span class=\"underline\"><strong>Logboek</strong></span></a></li>\n</ul>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "3702570"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Zo werkt het",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/c/cc89907a55ab4ee09a9e8dfe611aaad007d511ed.png\" class=\"height-200-pixels width-200-pixels float-right\"/></p>\n<p>Je bent begonnen in de module Scrum en Software Engineering.<br/>\nDeze module bestaat uit meerdere onderdelen.<br/>\nIn ieder onderdeel vind je, verdeeld over verschillende pagina's, informatie in de vorm van teksten, afbeeldingen en video's.<br/>\n<br/>\nDaarnaast ga je zelf aan de slag. Onder het kopje \"Aan de slag\" vind je steeds toepassingsopdrachten.<br/>\nDeze opdrachten maak je alleen of met een klasgenoot.</p>\n<p>Succes met de module Scrum en Software Engineering.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "3702572"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "B Software Engineering",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "3702573"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Inleiding",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/f/f32cb5386c79e0919256b2f77036402765f854e5.png\" class=\"height-264-pixels width-300-pixels float-right\"/>Al in de vorige eeuw hielden informatici zich bezig met de vraag hoe je betrouwbare software moet maken. In 1968 werd er zelfs een grote conferentie aan gewijd. De conferentie kreeg de titel \"Software Engineering\". Een tot die tijd weinig gebruikte term. Deelnemers van de conferentie maakten zich vooral zorgen over wat destijds ook wel de software crisis werd genoemd. De kwaliteit van de ontwikkelde software was veelal onder de maat en projecten kostten vaak meer geld en tijd dan van tevoren was gepland. Na de conferentie werd er een rapport gepubliceerd met richtlijnen voor het ontwikkelen van software.</p>\n<table border=\"1\" cellpadding=\"5\">\n<tbody>\n<tr>\n<td>\"The major cause [of the software crisis] is that the machines have become several orders of magnitude more powerful! To put it quite bluntly: as long as there were no machines, programming was no problem at all; when we had a few weak computers, programming became a mild problem, and now we have gigantic computers, programming has become an equally gigantic problem. In this sense the electronic industry has not solved a single problem, it has only created them, it has created the problem of using its products.\" - Edsger Dijkstra</td>\n</tr>\n</tbody>\n</table>\n<p><br/>\nEr is inmiddels veel veranderd. Software Engineering heeft zich tot een heel eigen vakgebied ontwikkeld. Het is een deelgebied van informatica dat zich bezighoudt met alle aspecten van het bouwen van complexe maar betrouwbare software tot informatiesystemen.<br/>\n<br/>\nOp Software Engineering zijn een aantal kenmerken van toepassing:</p>\n<ol start=\"1\">\n<li>Het gaat altijd over grote programma's. Dit zijn programma's die zo groot of complex zijn dat je deze met meerdere personen moet ontwikkelen.</li>\n<li>Centraal staat het beheersen van de complexiteit van de software of het informatiesysteem.</li>\n<li>Voor de ontwikkeling van software is het noodzakelijk om samen te werken.</li>\n<li>Er moet rekening mee gehouden worden dat software verandert.</li>\n<li>Software moet effici\u00ebnt ontwikkeld worden. Tijd is immers geld.</li>\n<li>Software wordt ontwikkeld voor anderen en dus niet voor jezelf. Je hebt te maken met een opdrachtgever, maar ook met een potentieel grote groep gebruikers.</li>\n</ol>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4386729"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 1",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/50b3165fcf8a6b8a4d2ad290c73e3c6f.jpg\" class=\"float-right\"/></p>\n<p>Bekijk het filmpje van de David Lettermanshow.<br/>\nLeg het verband uit tussen dit filmpje en het vakgebied Software Engineering.<br/>\n<br/>\n<iframe frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/Kwma71yl8mU\" width=\"560\" class=\"video-item\"/></p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4386730"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 2",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/50b3165fcf8a6b8a4d2ad290c73e3c6f.jpg\" class=\"float-right\"/></p>\n<ol>\n<li>Een centraal thema voor Software Engineering is het beheersen van de complexiteit.<br/>\nSoftware en/of systemen kunnen zo complex zijn dat het onmogelijk is om in je eentje in te zien hoe alles in elkaar zit.<br/>\nHoe zou dit probleem kunnen worden aangepakt?</li>\n<li>Software is aan verandering onderhevig.<br/>\nDat komt omdat software vaak een stukje van de werkelijkheid modelleert.<br/>\nBijvoorbeeld de dienstregeling van de NS.<br/>\nDie werkelijkheid verandert.<br/>\nSoftware zal dus ook mee moeten veranderen.<br/>\nWat gebeurt er als software niet mee verandert?</li>\n<li>Wat zou bedoeld worden met \"Software wordt ontwikkeld voor anderen en dus niet voor jezelf\"?</li>\n</ol>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4386734"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 3",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/50b3165fcf8a6b8a4d2ad290c73e3c6f.jpg\" class=\"float-right\"/></p>\n<p>Bekijk het filmpje over de Ariane 5.<br/>\nWaarom zou het iets uitmaken dat de Ariane 5 groter was?<br/>\n<br/>\n<iframe frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/kYUrqdUyEpI\" width=\"560\" class=\"video-item\"/></p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4386735"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 4",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/50b3165fcf8a6b8a4d2ad290c73e3c6f.jpg\" class=\"float-right\"/></p>\n<ol>\n<li>In een programma wordt op een zeker moment de vermenigvuldiging 65541 x 65585 uitgevoerd.<br/>\nHet antwoord blijkt 3539188 te zijn.<br/>\nMaar dit klopt niet.<br/>\nLeg uit wat de oorzaak zou kunnen zijn.<br/>\n </li>\n<li>Wat is een goed woord voor software?</li>\n</ol>\n<p>Kies uit:</p>\n<ol type=\"a\">\n<li>besturingssysteem</li>\n<li>programmatuur</li>\n<li>applicatie</li>\n<li>toepassing</li>\n</ol>\n<p> </p>\n<ol start=\"3\">\n<li>Leg uit waarom het noodzakelijk is om systematisch te werk te gaan bij het ontwikkelen van betrouwbare software.</li>\n</ol>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4386742"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 5",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<ol>\n<li>Bekijk de cartoon.<br/>\nJe ziet het traject van Software Engineering.<br/>\nLeg uit wat de cartoonist ons duidelijk wil maken.</li>\n<li>Welke twee kenmerken van Software Engineering komen in de cartoon vooral aan bod?</li>\n</ol>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/b/be9d54a9694d23f31f1ae1cc066b52d5a1261a03.png\" class=\"height-488-pixels width-674-pixels\"/></p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "3702582"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "C Scrum",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "3702583"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Inleiding",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/7/76312a95ea91a1c6b081b7933c02f68574a265b2.jpg\" class=\"height-166-pixels width-250-pixels float-right\"/>Scrum is in de jaren negentig van de vorige eeuw ontwikkeld door Ken Schwaber en Jeff Sutherland. Het is een raamwerk voor het ontwikkelen en onderhouden van complexe producten. Dat gebeurt in teamverband. Het team bestaat uit mensen die afkomstig zijn uit verschillende vakgebieden. Het team is multidisciplinair. Binnen het team worden de taken verdeeld, wordt iedereen betrokken bij de planning en worden problemen benoemd. Het team stuurt zichzelf aan. Scrum veronderstelt daarbij wel dat binnen het team alle benodigde kennis aanwezig is.</p>\n<p><strong>De term scrum</strong><br/>\nVoor het ontwikkelen van software kan Scrum worden gebruikt. De term is afkomstig uit de rugbysport. Tijdens een rugbywedstrijd kan nadat het spel heeft stilgelegen de wedstrijd hervat worden met een Scrum. De spelers van de beide teams staan dan voorovergebogen tegenover elkaar. In de Scrum, zo wordt deze opstelling genoemd, moeten de spelers proberen de bal te bemachtigen. Daarvoor moet je samenwerken met je teamleden.</p>\n<p>In de ontwikkelmethodiek Scrum is samenwerking ook heel belangrijk.<br/>\nEen goede samenwerking verbetert de effectiviteit. En dat staat bij Scrum hoog in het vaandel.<br/>\n<br/>\nScrum wordt niet alleen voor het ontwikkelen van software gebruikt. Het eindproduct kan ook iets anders zijn. We zullen daar in deze module voorbeelden van laten zien.</p>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Bekijk de film waarin de werking van Scrum beknopt wordt uitgelegd:<br/>\n<br/>\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/DscM_hE4fF8\" frameborder=\"0\" class=\"video-item\"/></p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4386844"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 6",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/9/9c5a9cf0c0348d3cd11378cb5ce27754b0143c2a.PNG\" class=\"height-168-pixels width-226-pixels float-right\"/>Leg uit waarom een goede samenwerking de effectiviteit verbetert.<br/>\nNeem als voorbeeld de samenwerking tussen een producent en een klant bij de ontwikkeling van een nieuw product.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "3702587"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Iteraties",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/3/383b525ad096722d1c23650d377d14e89112a8c9.PNG\" class=\"height-273-pixels width-184-pixels float-right\"/>Scrum werkt met iteraties. Een iteratie in Scrum wordt ook wel een sprint genoemd. Het is een korte periode die leidt tot een resultaat dat ook echt af is. We illustreren dit aan de hand van het ontwerp en de productie van een nieuw model wielrenfiets. Een fabrikant van sport- en wielrenfietsen krijgt van een klant de opdracht om een nieuw model wielrenfiets te ontwerpen en te vervaardigen. De fabrikant zou het eindproduct aan de opdrachtgever kunnen laten zien als de fiets helemaal ontwikkeld, gefabriceerd en geassembleerd is. De fabrikant kan echter ook besluiten om tussentijds telkens een onderdeel dat klaar is aan de opdrachtgever te presenteren. Bijvoorbeeld het frame, het zadel, het stuur etc.</p>\n<p>In dat geval krijgt de opdrachtgever al snel een zichtbaar resultaat te zien. Dat levert vaak een tevreden klant op. Het ontwerp en de productie van de diverse onderdelen van de fiets zouden verschillende iteraties kunnen zijn. De assemblage, het in elkaar zetten van de fiets, zou ook een aparte sprint kunnen zijn. Bouw je met Scrum een fiets dan levert elke sprint dus een fiets of fietsonderdelen op.</p>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Het eindresultaat van een sprint levert een product op dat echt af is. Het product moet \"shippable\" zijn. Dat betekent zoiets als het product is klaar (bruikbaar) voor het verschepen naar de eindgebruiker. En dat is dus de klant. In dit opzicht is het voorbeeld van de fiets misschien enigszins ongelukkig gekozen. De losse onderdelen die echt af zijn, zijn vooral interessant voor de fabrikant van fietsen. En niet zo zeer voor de wielrenner. In het geval van software betekent shippable dat je begint met een eenvoudig werkend product. Daaraan ga je in volgende sprints telkens een stukje functionaliteit (feature) toevoegen.</p>\n<p>In de praktijk duurt een sprint vaak enkele weken. Een sprint zou ook korter kunnen duren. Eigenlijk is hoe korter hoe beter. Er kan snel worden bijgestuurd als er iets mis dreigt te gaan. En de klant kan al in een vroeg stadium feedback geven op een deel van het opgeleverde product.<br/>\n<br/>\nScrum is bedacht voor het ontwikkelen van software, maar zoals je uit het voorbeeld van het ontwerpen van een nieuwe fiets kunt afleiden, is de ontwikkelmethode Scrum ook voor andere doeleinden zeer geschikt. In deze interactieve module kijken we, ondanks dat we vaker terugkomen op het voorbeeld van de fiets, vooral naar het gebruik van Scrum voor de ontwikkeling van software. Daar is deze methode in eerste instantie ook oorspronkelijk voor bedacht.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "3702590"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "D Het Scrum team",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "3702591"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Het Scrum team",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/5b16c60139081f3f304598cf89c4a7a39a12e0a1.PNG\" class=\"height-329-pixels width-197-pixels float-right\"/>In Scrum wordt gewerkt met een vast team van mensen. We noemen zo'n team het Scrum team. Elk Scrum team bestaat uit de Product Owner, de Scrum Master en de leden van het ontwikkelteam. Het ontwikkelteam, vaak afgekort als \"team\", is een onderdeel van het Scrum team. Het ontwikkelteam wordt ook wel het Development Team genoemd.<br/>\n<br/>\nWe kijken nogmaals naar het voorbeeld van de wielrenfiets. Voor de ontwikkeling, fabricage en assemblage van een nieuw model fiets zou, als we daar Scrum voor zouden gebruiken, de verantwoordelijkheid bij een Scrum team kunnen worden neergelegd. Samen streven de leden van het Scrum team naar het zo snel mogelijk opleveren van een waardevol tastbaar resultaat. Dat moet iets zijn waar de klant wat aan heeft. In de praktijk betekent dat de oplevering van een product, of een deelproduct, dat waardevol is voor de klant of opdrachtgever.</p>\n<p>Zo'n deelproduct is bijvoorbeeld de zadelpen van de fiets. De zadelpen is de stang waardoor het zadel met het frame wordt verbonden. De klant heeft z'n voorkeur uitgesproken voor een verende zadelpen. Met een verende zadelpen kunnen de klappen op onregelmatige ondergronden beter worden opvangen. Als het Scrum team in een paar weken tijd een goed functionerende zadelpen voor de fiets kan ontwerpen en produceren, zal de klant tevreden zijn. Het is aannemelijk dat de klant dan ook met vertrouwen naar de rest van het project zal kijken.</p>\n<p>Een ander onderdeel van de fiets is het zadel. Wielrenners hebben veel last van zadelpijn. Dat wordt vaak veroorzaakt door een verkeerd zadel. Een zadel moet goed aansluiten op de anatomie van de fietser. Is dat niet het geval dan kan door wrijving op het bovenbeen en druk op de schaambeenderen zadelpijn veroorzaakt worden. Zadelpijn kan voorkomen worden door een zadel op maat te laten maken. Dat is echter een dure oplossing. De klant heeft daarom aan de fabrikant gevraagd een zadel te ontwerpen dat betaalbaar is, maar toch aan de behoeften van een specifieke groep tegemoetkomt.</p>\n<p>Er wordt vooral gedacht aan wielrenners die fietsen voor hun hobby. De klant wil graag dat leren zadels worden gebruikt. Een leren fietszadel heeft immers als groot voordeel dat het helemaal naar je lichaam en je houding gaat staan en daardoor optimaal ondersteunt.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4386855"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 7",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<figure class=\"image float-right\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/50b3165fcf8a6b8a4d2ad290c73e3c6f.jpg\"/>\n<figcaption>Zadelpen</figcaption>\n</figure>\n<p>Er is voor gekozen om als eerste een zadelpen te ontwerpen en te produceren en pas in een later stadium naar het ontwerp en oplevering van het zadel te kijken.<br/>\nWat kan daarvan de reden zijn?</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "3702594"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "De Product Owner",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/7/7ebf7145d25b2ae2b8e8ca84594c6d2e78d76279.jpeg\" class=\"height-197-pixels width-295-pixels float-right\"/>Binnen het Scrum team speelt de Product Owner een belangrijke rol. De Product Owner vertegenwoordigt de belangen van alle betrokken partijen. Dus ook de belangen van de klant. Een van de taken van de Product Owner is het prioriteren van de Product Backlog. Dat is een overzicht van alle taken die moeten worden verricht om het product te maken. Daarnaast houdt de Product Owner de financi\u00ebn in de gaten en let hij of zij erop dat het product binnen de afgesproken tijd opgeleverd wordt. Samen met het Development Team bepaalt de Product Owner wanneer iets ook echt klaar is. Daarvoor worden criteria opgesteld die vastgelegd worden in de zogenaamde Definition of Done. Voor de succesvolle oplevering van een product zal de Product Owner ook regelmatig overleg moeten hebben met de klant en de leden van het ontwikkelteam. De Product Owner is overigens altijd \u00e9\u00e9n persoon.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4386911"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 8",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Waarom ligt het voor de hand dat de Product Owner altijd \u00e9\u00e9n persoon is?</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "3702596"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "De Scrum Master",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/f/fbe2d527d4de84f2989cbbad4beab51f7c8a1287.PNG\" class=\"height-301-pixels width-300-pixels float-right\"/>Om goed werk te kunnen verrichten, heeft het ontwikkelteam ondersteuning nodig. Dat is een van de activiteiten waar de Scrum Master zich mee bezighoudt. Als de leden van het ontwikkelteam willen overleggen, regelt de Scrum Master bijvoorbeeld een vergaderruimte. Daar hoeft het ontwikkelteam zich niet om te bekommeren. Hun taak is het om zich volledig te richten op het maken van het product. Datzelfde geldt ook voor een programmeur die tijdelijk meer rechten op het netwerk nodig heeft. Bijvoorbeeld voor het uitvoeren van een specifieke test of het installeren van software die daarvoor nodig is. Het is aan de Scrum Master om dit soort belemmeringen voor leden van het ontwikkelteam tijdig te signaleren en te verhelpen. Daarnaast helpt de Scrum Master het team om de Scrum-spelregels goed toe te passen.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "3702598"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Het ontwikkelteam",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/8f1628da0da91e4b3191ec20c3a3087c94ca0b9e.jpg\" class=\"height-233-pixels width-350-pixels float-right\"/>Het ontwikkelteam is een onderdeel van het Scrum team. Het is een gevarieerd gezelschap. Voor het ontwikkelen van software en informatiesystemen heb je met specialisten te maken. Programmeurs, testers, analisten etc. De Scrum Master is ook lid van het ontwikkelteam. In het ontwikkelteam zitten mensen met verschillende achtergronden. Binnen het team is sprake van enige specialisatie, maar er bestaan geen gespecialiseerde teams. In principe doen de meeste leden van het team alles. Dus ontwikkelen, testen, maar ook het documenteren van de ontwikkelde software.<br/>\n<br/>\nDe leden van het ontwikkelteam moeten goed met elkaar samenwerken. Aan het begin van elke werkdag vindt er daarom een overleg van het team plaats. Dit overleg wordt de Daily Scrum genoemd. Tijdens dit overleg wordt er besproken hoe het werk van die dag goed georganiseerd en op elkaar afgestemd kan worden.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "3702600"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "E Lijsten en grafieken",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "3702601"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "De Product Backlog",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/a/a3957e16d6a0372e4f0eee307f4ff3626b161aa0.png\" class=\"height-337-pixels width-300-pixels float-right\"/>In Scrum wordt gewerkt met verschillende soorten lijsten: de Product Backlog en de Sprint Backlog.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4387087"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 9",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/c/c1441b7e0d8820e4329a8898bb2b341b1b21225f.jpg\" class=\"height-191-pixels width-250-pixels float-right\"/>Zoek op internet naar de betekenis van het woord backlog.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4387088"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "De Product Backlog - 2",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/50b3165fcf8a6b8a4d2ad290c73e3c6f.jpg\" class=\"float-right\"/></p>\n<p>Het beheer van de Product Backlog is in handen van de Product Owner. De Product Owner stelt vast wat en waar iets op de Product Backlog komt te staan. Maar waarvoor dient die Product Backlog nu eigenlijk? De Product Backlog is een geordende lijst waarop alle onderdelen (eigenschappen) worden vermeld die nodig zijn voor het realiseren van een compleet product. Voor elk onderdeel (eigenschap) wordt de gewenste functionaliteit die nodig is voor het product beschreven. Het is belangrijk dat iedereen weet wat er moet gebeuren om een opdracht succesvol af te ronden. Daarbij speelt de Product Backlog een belangrijke rol. Zoals gezegd is het de taak van de Product Owner om te bepalen wat er op de lijst komt te staan. Hij bepaalt ook waar iets komt te staan. Met andere woorden welke prioriteit aan een bepaald onderdeel wordt toegekend.</p>\n<p>Op de Product Backlog wordt de gewenste functionaliteit van de verschillende onderdelen verwoord in User Stories. Als iedereen zich netjes houdt aan wat er op de Product Backlog staat, levert dat uiteindelijk het gewenste eindresultaat op. Voor het ontwerp en productie van de wielrenfiets heeft de Product Owner als eerste op de Produkt Backlog de zadelpen geplaatst. Er staat dan zoiets als:</p>\n<table border=\"1\" cellpadding=\"3\" cellspacing=\"0\" class=\"width-70-percent\">\n<tbody>\n<tr>\n<td><strong>Prioriteit</strong></td>\n<td>User Story</td>\n<td>Uren</td>\n</tr>\n<tr>\n<td>1</td>\n<td>Als fietser wil ik dat de fiets een verende zadelpen krijgt, zodat de vering op onregelmatige ondergronden beter klappen kan opvangen.</td>\n<td>2</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Als fietser wil ik dat de fiets voorzien is van een model zadel waardoor ik zo min mogelijk last heb van zadelpijn.</td>\n<td>5</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Als fietser wil ik dat de fiets van een leren zadel wordt voorzien, zodat ik optimale ondersteuning krijg.</td>\n<td>2</td>\n</tr>\n<tr>\n<td>4</td>\n<td> </td>\n<td> </td>\n</tr>\n</tbody>\n</table>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4387095"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 10",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<ol>\n<li><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/2/20e3b2a4bb871b5d8cba1d5f1d83739e1cf31977.jpg\" class=\"height-200-pixels width-300-pixels float-right\"/>Om te bepalen wat en waar iets op de Product Backlog komt te staan, zal de<br/>\nProduct Owner van tevoren met verschillende mensen in gesprek moeten gaan.<br/>\nWie zijn dat en waarom moet de Product Owner met hen vooraf overleggen?</li>\n<li>Welke functie heeft het vermelden van de prioriteit op de Product Backlog?</li>\n</ol>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4387099"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "De Product Backlog - 3",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/9/9738b16f6401423aa38eb23f276d946120579397.PNG\" class=\"height-410-pixels width-250-pixels float-right\"/>De items die op de Product Backlog worden vermeld, worden <strong>Product Backlog Items</strong> genoemd. In de dagelijkse praktijk worden deze items vaak stories genoemd. Achter elke User Story wordt een aantal punten vermeld. Deze punten staan voor de tijd die het team nodig denkt te hebben voor het realiseren van de vastgelegde wens.<br/>\n<br/>\nOp de Product Backlog staan items die vaak samen afgehandeld kunnen worden. Bijvoorbeeld omdat ze bij elkaar horen. Voor de wielrenfiets zou de Product Owner alle items die gaan over het ontwerp van het zadel kunnen groeperen. Hoeveel items bij elkaar geplaatst kunnen worden, hangt af van de <strong>velocity</strong> van het team.</p>\n<p>Daaronder verstaan we de hoeveelheid werk dat een team kan verrichten gedurende \u00e9\u00e9n sprint. De velocity kan dan worden uitgedrukt in het aantal punten dat nodig is voor \u00e9\u00e9n sprint.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4387101"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 11",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/50b3165fcf8a6b8a4d2ad290c73e3c6f.jpg\" class=\"float-right\"/></p>\n<ol>\n<li>Waar zou je Product Backlog Items mee kunnen vergelijken?</li>\n<li>Een User Story bestaat uit een rol van een eindgebruiker, een wens en een voordeel:<br/>\nals (rol)<br/>\nwil ik (wens)<br/>\nzodat (voordeel)<br/>\nWielrenners gebruiken vaak pedalen met een kliksysteem. De schoen wordt tijdens het fietsen vastgekoppeld aan het pedaal. Dat heeft een aantal voordelen. Zoek op internet naar een voordeel van kliksystemen en formuleer een User Story voor klikpedalen waarin een rol een wens en een voordeel wordt verwoord. De eindgebruiker is in dit voorbeeld een wielrenner. Je begint de User Story dan ook met de rol \"Als een wielrenner\": </li>\n<li>Stel dat de eerste drie User Stories in de Product Backlog in \u00e9\u00e9n sprint gerealiseerd kunnen worden. Wat is dan de velocity van het team?</li>\n</ol>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4387296"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "De Product Backlog - 4",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/3/30b386c766d8eef37cd4277c2a98ddfa644d0f0a.PNG\" class=\"height-235-pixels width-200-pixels float-right\"/>De tijd die nodig is voor het realiseren van een wens die wordt uitgesproken in een User Story wordt vastgesteld door de leden van het ontwikkelteam. Zij voeren immers het werk uit en kunnen de benodigde tijd het beste inschatten.</p>\n<p>De Product Owner zal voor het opstellen van de Product Backlog hierover bij de teamleden informatie moeten inwinnen. Dat blijft niet alleen bij deze ene keer. De Product Owner zal tijdens het uitvoeren van de opdracht de Product Backlog op gezette tijden onder de loep moeten nemen en indien nodig moeten bijstellen. Dit wordt de <strong>Backlog Refinement</strong> genoemd.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4387107"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 12",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<ol>\n<li>Wat zou er tijdens de Backlog Refinement zoal kunnen worden aangepast?</li>\n<li>Op de Product Backlog staan bovenaan in de lijst vaak User Stories met daarachter een laag aantal punten. Leg uit waarom.</li>\n</ol>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "3702607"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "De Sprint Backlog",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/0/01f6d0159d9ea53772371810841a31a4673c5970.PNG\" class=\"height-173-pixels width-136-pixels float-right\"/>Scrum werkt met iteraties. Een iteratie of sprint is een korte periode die leidt tot afgerond resultaat. De Sprint Backlog is een overzicht van de taken die moeten worden uitgevoerd gedurende een sprint. Deze taken worden geformuleerd door het Scrum team. Voorafgaand aan de sprint vindt er een overleg plaats. Dit overleg wordt de Sprint Planning genoemd. Tijdens dit overleg selecteert het team een aantal Product Backlog Items, meestal in de vorm van User Stories, en formuleert taken die nodig zijn voor het realiseren van de gekozen User Stories.</p>\n<p>Meestal wordt er ook een inschatting gemaakt van de tijd die nodig is om de omschreven taak uit te voeren.<br/>\n<br/>\nVoor een Sprint Backlog kan een spreadsheet gebruikt. Maar een Sprint Backlog kan ook worden uitgevoerd in de vorm van een kolom met kaartjes op het Scrum-board. Tijdens de sprint wordt de informatie op de Sprint Backlog telkens bijgewerkt als er nieuwe informatie beschikbaar is. In de kolommen met de dagen kan worden ingevuld hoeveel tijd het team denkt nodig te hebben voor het afronden van de taken. In het voorbeeld hebben we voor \u00e9\u00e9n User Story een aantal taken uitgewerkt. Deze lijst is dus nog niet compleet.</p>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/50b3165fcf8a6b8a4d2ad290c73e3c6f.jpg\" class=\"float-right\"/></p>\n<table border=\"1\" cellpadding=\"5\" class=\"width-100-percent\">\n<tbody>\n<tr>\n<td class=\"width-50-percent\"><strong>User Story</strong></td>\n<td><strong>Taken</strong></td>\n<td class=\"text-align-center\"><strong>Dag 1</strong></td>\n<td class=\"text-align-center\"><strong>Dag 2</strong></td>\n<td class=\"text-align-center\"><strong>Dag 3</strong></td>\n<td class=\"text-align-center\"><strong>Dag 4</strong></td>\n<td class=\"text-align-center\"><strong>Dag 5</strong></td>\n<td class=\"text-align-center\">...</td>\n</tr>\n<tr>\n<td>Als fietser wil ik dat de fiets een verende zadelpen krijgt, zodat de vering op onregelmatige ondergronden beter klappen kan opvangen.</td>\n<td>Ontwerpen zadelpen</td>\n<td>...</td>\n<td>...</td>\n<td>...</td>\n<td>...</td>\n<td>...</td>\n<td>...</td>\n</tr>\n<tr>\n<td>\"</td>\n<td>Productie zadelpen</td>\n<td> </td>\n<td> </td>\n<td> </td>\n<td> </td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>\"</td>\n<td>Testen zadelpen</td>\n<td>...</td>\n<td>...</td>\n<td>...</td>\n<td>...</td>\n<td>...</td>\n<td>...</td>\n</tr>\n<tr>\n<td>\"</td>\n<td>Evalueren van de testen</td>\n<td>...</td>\n<td>...</td>\n<td>...</td>\n<td>...</td>\n<td>...</td>\n<td>...</td>\n</tr>\n<tr>\n<td>\"</td>\n<td>Teamoverleg</td>\n<td>...</td>\n<td>...</td>\n<td>...</td>\n<td>...</td>\n<td>...</td>\n<td>...</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Er is al eerder aangegeven dat de ontwikkelmethode Scrum oorspronkelijk is bedacht voor het ontwikkelen van software.<br/>\nIn een Sprint Backlog tref je onder taken dan vooral activiteiten aan zoals ontwerpen GUI, overleg met \u2026, programmeren van \u2026, testen van \u2026 etc.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "3702611"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Definition of Done",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/50b3165fcf8a6b8a4d2ad290c73e3c6f.jpg\" class=\"float-right\"/></p>\n<p>Wanneer is iets echt af? Dat wordt vastgelegd in de Definition of Done.<br/>\nSamen met het ontwikkelteam bepaalt de Product Owner aan welke acceptatiecriteria een product moet voldoen voordat het ook echt af is.<br/>\nDat wil zeggen: de gebruikers moeten er zo mee aan de slag kunnen gaan.<br/>\nVoor ontwikkelde software houdt dat bijvoorbeeld in dat de software uitvoerig is getest en van documentatie is voorzien.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "3702613"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Burndown Charts",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Chart is de Engelse term voor koersgrafiek. Een koersgrafiek geeft het prijs- of koersverloop aan van bijvoorbeeld een aandeel. Bij Scrum worden ook verschillende typen grafieken gebruikt die lijken op koersgrafieken, de zogenaamde Burndown Charts. Deze Burndown Charts worden in Scrum gebruikt om de voortgang bij te houden. Er zijn twee Burndown Charts:</p>\n<ol start=\"1\">\n<li>De Release Burndown</li>\n<li>De Sprint Burndown</li>\n</ol>\n<p>In de Release Burndown Chart kan de voortgang van een Scrum project worden bekeken. Deze grafiek laat de relatie zien tussen het aantal punten die in de Product Backlog worden vermeld en het aantal sprints dat moet worden doorlopen.<br/>\n<br/>\nVeronderstel dat voor het project van de wielrenfiets in de Product Backlog in het totaal 72 punten staan. Zoals al eerder is uitgelegd, staan de vermelde punten voor een hoeveelheid tijd (werk) die nodig is om een taak uit te voeren. Het totaal aantal punten, in dit geval 72, staat dan voor de hoeveelheid tijd die nodig is om het hele project af te ronden. Aan het begin van het project is er ingeschat dat er 8 sprints nodig zijn om het complete project af te ronden. Dat betekent dus gemiddeld 9 punten per sprint.</p>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Als alles volgens planning zou verlopen, zou de Release Burndown Chart er als volgt uitzien:<br/>\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/50b3165fcf8a6b8a4d2ad290c73e3c6f.jpg\"/></p>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>De praktijk blijkt echter weerbarstig. De eerste drie sprints verlopen helemaal volgens de planning. In de vierde maar ook in de zesde sprint wijkt de benodigde tijd af van de geplande tijd.<br/>\n<img src=\"https://maken.wikiwijs.nl/userfiles/5/50b3165fcf8a6b8a4d2ad290c73e3c6f.jpg\"/></p>\n<p>Uit beide grafieken kan worden afgeleid, dat al het werk uiteindelijk toch in 8 sprints afgerond kan worden. Soms klopt de planning echter niet. Dankzij de Burndown Chart zie je dat al in een vroeg stadium. In die gevallen zou de Product Backlog nog eens bekeken moeten worden.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4387371"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 13",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<ol>\n<li>Noem een mogelijke oorzaak waarom tijdens de vierde en de zesde sprint meer tijd nodig is geweest dan aanvankelijk is gepland.</li>\n<li>Waarom zouden dit soort grafieken in Scrum Burndown Charts genoemd worden?</li>\n<li>De Release Burndown Chart is geen statische grafiek.<br/>\nEigenlijk moet deze grafiek na elke sprint worden geactualiseerd.<br/>\nWiens taak is dit?</li>\n</ol>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4387376"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Burndown Charts - 2",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>De Sprint Burndown Chart geeft het team inzicht in de dagelijkse voortgang van een sprint ten opzichte van de vooraf gemaakte planning. Deze grafiek laat per sprint zien hoeveel werk er inmiddels is afgerond en wat er nog moet worden gedaan.<br/>\n<br/>\nBij \u00e9\u00e9n van de aan de slag opdrachten zijn we uitgegaan van de veronderstelling dat de eerste drie User Stories die op de Product Backlog staan in \u00e9\u00e9n sprint gerealiseerd zouden kunnen worden.</p>\n<table border=\"1\" cellpadding=\"3\" cellspacing=\"0\" class=\"width-70-percent\">\n<tbody>\n<tr>\n<td>Prioriteit</td>\n<td>User Story</td>\n<td>Punten</td>\n</tr>\n<tr>\n<td>1</td>\n<td>Als fietser wil ik dat de fiets een verende zadelpen krijgt, zodat de vering op onregelmatige ondergronden beter klappen kan opvangen.</td>\n<td>2</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Als fietser wil ik dat de fiets voorzien is van een model zadel waardoor ik zo min mogelijk last heb van zadelpijn.</td>\n<td>5</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Als fietser wil ik dat de fiets van een leren zadel wordt voorzien, zodat ik optimale ondersteuning krijg</td>\n<td>2</td>\n</tr>\n<tr>\n<td>4</td>\n<td> </td>\n<td> </td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<p>Het ontwikkelteam heeft een inschatting gemaakt dat 1 punt overeenkomt met twee werkdagen. In dit voorbeeld staat voor een sprint dan 9 punten en dat zijn dan 18 werkdagen. In de weekenden wordt niet gewerkt. Een sprint gaat dan ruim 3 weken in beslag nemen.<br/>\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/50b3165fcf8a6b8a4d2ad290c73e3c6f.jpg\"/></p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4387377"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 14",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<ol>\n<li>Bekijk de Sprint Burndown Chart.<br/>\nWat valt op?</li>\n<li>De Sprint Burndown Chart moet, net als de Release Burndown Chart, telkens worden ge\u00fcpdatet.<br/>\nWiens taak is dat?</li>\n</ol>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "3702621"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Het Scrum bord",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/b/b9f7985d7645130c16c0abf0b5e435a33f0a147b.png\" class=\"height-300-pixels width-223-pixels float-right\"/>Het Scrum bord is een instrument dat door een ontwikkelteam gebruikt kan worden om de onderdelen van de Sprint Backlog te visualiseren. Op het bord zijn alle taken die voor een sprint moeten worden afgerond, te zien.<br/>\n<br/>\nHet bord wordt meestal ingedeeld in drie categorie\u00ebn:</p>\n<ol start=\"1\">\n<li>To Do</li>\n<li>Work in Progress</li>\n<li>Done</li>\n</ol>\n<p>In de To Do kolom staan de User Stories uitgesplitst in taken. Deze taken, die worden genoteerd op een Post-it, krijgen op het bord een plek op basis van hun prioriteit. De belangrijkste taak staat bovenaan. Voor de Post-it's waar de User Stories op vermeld worden, wordt vaak een andere kleur gebruikt dan de Post-it's waar de taken op zijn uitgewerkt. Door met diverse kleuren te werken, wordt de indeling op het bord overzichtelijker.<br/>\n<br/>\nTijdens de sprint bepalen de leden van het ontwikkelteam welke taken uitgevoerd moeten worden. Deze taken, die vermeld worden op de Post-it's, worden verplaatst naar de kolom Work in Progress.<br/>\n<br/>\nTaken die afgerond zijn, komen te staan in de kolom Done.</p>\n<p>Een Scrum bord heeft niet altijd dezelfde vorm. Soms staat er voor Done nog een aparte kolom Verify of Testing. Dat kan handig zijn als een ontwikkelteam onderscheid wil maken tussen de fase van het testen en de oplevering van een product. Er zijn ook teams die op het Scrum Bord de Sprint Burndown Chart afbeelden. Het voordeel daarvan is dat het hele team tijdens de sprint op de hoogte is van de voortgang</p>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Bekijk de time-lapse van een Scrum bord van tijdens een sprint van 9 dagen.<br/>\n<br/>\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/0ZjdrYLKOdM\" frameborder=\"0\" class=\"video-item\"/><br/>\n<br/></p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4387909"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 15",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Is een Scrum bord statisch?<br/>\nLeg je antwoord uit.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "3702626"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "F De Sprint",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/50b3165fcf8a6b8a4d2ad290c73e3c6f.jpg\" class=\"float-right\"/></p>\n<p>Een iteratie of sprint is een korte periode die leidt tot een afgerond resultaat. Voor een product is dat bijvoorbeeld het eindresultaat, bij de ontwikkeling van software kan dat een release zijn. Voordat er een release van de software kan plaatsvinden, moet de software worden getest. Voor ontwikkelaars is het van belang om software te ontwikkelen die doet wat de klant ervan verwacht. Dat geldt voor een compleet pakket, maar ook voor een kleiner onderdeel van het volledige pakket. In Scrum wordt immers met sprints gewerkt waarin ook een onderdeel van de software ontwikkeld en gerealiseerd kan worden.<br/>\n<br/>\nEen sprint duurt hooguit een maand. Vaak zijn sprints korter en nemen ze enkele weken in beslag. Sprints hebben tijdens het ontwikkeltraject altijd dezelfde lengte en ze volgen elkaar altijd direct op. Voorafgaand aan de start van een sprint vindt er een bijeenkomst plaats die de Sprint Planning Meeting wordt genoemd. Tijdens de Sprint Planning Meeting wordt gekeken naar de Product Backlog. Welke items op de Product Backlog horen bij elkaar en kunnen in de sprint worden uitgewerkt. Tijdens de sprint wordt er aan het begin van de werkdag een kort overleg gevoerd. Dit overleg, van hooguit 15 minuten, wordt de Daily Scrum genoemd. Tijdens dit overleg staat iedereen. De Daily Scrum wordt daarom ook wel de Daily Standup genoemd.</p>\n<p>Een sprint wordt afgesloten met een Sprint Review en een Sprint Retrospective. Er bestaat een duidelijk onderscheid tussen de Sprint Review en de Sprint Retrospective. Een Sprint Review wordt gehouden met de klant, de Sprint Retrospective met het team. Tijdens de Sprint Review wordt gekeken of het nodig is om de Product Backlog aan te passen. De Sprint Retrospective is een aparte vergadering waarin bekeken wordt hoe de sprint is verlopen. Zijn de doelstellingen bereikt? Hoe is samenwerking verlopen? Zijn er nog bijzondere dingen gebeurd? Het belangrijkste doel van deze vergaderingen is om te leren van wat er wellicht niet goed is gegaan en wat (en hoe) het volgende keer beter kan.</p>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "3702629"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "G Het Enigmacollege",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "3702630"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "De opdracht",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/3/3be0a0a28c44603e0675b8661b867203d1ad8a79.PNG\" class=\"height-294-pixels width-250-pixels float-right\"/>Je hebt kennis gemaakt met het vakgebied Software Engineering en de ontwikkelmethode Scrum. Nu wordt het tijd om de opgedane kennis in praktijk te brengen. Jullie verplaatsen je daarbij in de huid van werknemers van softwarebedrijf \"Het bitje\". Eigenaar van \"Het bitje\" is de heer Mauchly. Hij heeft recentelijk per mail een verzoek ontvangen van de rector van het Enigmacollege.</p>\n<table border=\"1\" cellpadding=\"5\">\n<tbody>\n<tr>\n<td><em>Geachte heer Mauchly,<br/>\n<br/>\nHet Enigmacollege is een school voor voortgezet onderwijs waar veel aandacht is voor ICT. Ieder jaar is er op het Enigmacollege een open dag voor leerlingen uit groep 8 van basisscholen uit de omgeving. De commissie, die de open dag organiseert, heeft het idee gelanceerd dat het aardig zou zijn als iedere bezoeker tijdens de open dag een game kan downloaden over het Enigmacollege. Het spel moet leuk zijn voor leerlingen uit groep 8, maar moet ook een goed beeld geven van de school. Indien uw bedrijf interesse heeft in deze opdracht wil ik u vragen contact op te nemen met de voorzitter van de commissie open dag, de heer Eckert<br/>\n<br/>\nMet vriendelijke groet,<br/>\n<br/>\nJ. von Neumann, Rector Enigmacollege</em></td>\n</tr>\n</tbody>\n</table>\n<p><br/>\nDe heer Mauchley, eigenaar van \"Het bitje\", heeft na een gesprek met de voorzitter van de commissie open dag te kennen gegeven de game te willen ontwikkelen. Hij heeft zijn werknemers gevraagd om met de verstrekte opdracht aan de slag te gaan. Voor het ontwikkelen van de game gaat het team gebruik maken van Scrum.<br/>\n<br/>\nIn dit project is de heer Dijkstra het alter ego van je docent informatica. Voor het Enigmacollege kun je de eigen school in gedachten nemen.</p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "3702633"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Soorten games",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/b/b04a814124c42554b0128082bfa83c9d2e0fc37c.PNG\" class=\"height-180-pixels width-250-pixels float-right\"/>Er bestaan verschillende soorten games. Voordat jullie team start met het uitvoeren van de opdracht is het verstandig om eerst eens te kijken welke typen games er bestaan.<br/>\n<br/>\nIn de praktijk is het soms moeilijk om een game in een bepaalde categorie te plaatsen, omdat een game elementen van verschillende typen bevat. Het is belangrijk dat je als ontwerper rekening houdt met de verwachtingen die een speler heeft. Een RPG dat vliegensvlugge reacties vereist, maakt dat je de speler teleurstelt. Je voldoet niet aan zijn verwachting.</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/50b3165fcf8a6b8a4d2ad290c73e3c6f.jpg\" class=\"float-right\"/></p>\n<p>Bekijk het filmpje waarin voorbeelden van verschillende typen games worden besproken:<br/>\n<br/>\n<iframe frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/ZGKg_IXgsJk\" width=\"560\" class=\"video-item\"/></p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "3702636"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "GameMaker",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/2/2fbf7c63d4668accb37ddffb9be8844b4a6b115b.png\" class=\"height-320-pixels width-269-pixels float-right\"/></p>\n<p>Voor het bouwen van de game wordt GameMaker gebruikt.<br/>\n<br/>\nBekijk de animatie over GameMaker:&#13; <video height=\"267\" src=\"https://maken.wikiwijs.nl/userfiles/5/50b3165fcf8a6b8a4d2ad290c73e3c6f.jpg\" title=\"GameMaker\" width=\"474\"> </video></p>\n<p>Een van de kenmerken van GameMaker is dat je zonder dat je daarvoor een programmeertaal hoeft te leren, een game kunt maken. Door middel van drag and drop kun je objecten aan de game toevoegen. Het gedrag van de objecten kun je ook aanpassen door acties naar events te verslepen<br/>\n<br/>\nDaarnaast bezit GameMaker een programmeertaal, GML (GameMaker Language).<br/>\n<br/>\nOp het internet vind je veel informatie en cursussen over het werken met GameMaker. Een paar belangrijke sites zijn:<br/>\n<br/>\n<a href=\"https://www.yoyogames.com/\" target=\"_blank\"><span class=\"underline\"><strong>De uitgever van Gamemaker</strong></span></a><br/>\n<br/>\n<a href=\"http://www.game-maker.nl\" target=\"_blank\"><span class=\"underline\"><strong>Nederlandse Gamemaker Community</strong></span></a></p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "3702639"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Het ontwikkelproces",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/0/0c59727ce45049045bedd9cc32b220faff373aa2.PNG\" class=\"height-202-pixels width-300-pixels float-right\"/>Voordat er gestart kan worden met het uitwerken van de opdracht bepaalt jullie docent de groepsgrootte. Voor het bouwen van de Game maken jullie gebruik van GameMaker. Tijdens het project wordt er bijgehouden hoelang en waaraan gewerkt is. Dat wordt vastgelegd in een gezamenlijk logboek. Onder het menu-item Bijlagen staat een Excelbestand dat daarvoor gebruikt kan worden. Het bijhouden van de gewerkte tijd kan en mag ook op andere manieren worden geregistreerd. Het hele ontwikkelproces wordt vastgelegd in een eindverslag.</p>\n<p>Voor het schrijven van het eindverslag is het noodzakelijk om veranderingen op het Scrum bord en in de charts vast te leggen. Bijvoorbeeld in de vorm van foto's.<br/>\n<br/>\nVoor het Scrum bord kan een fysiek bord gebruikt worden, maar het is ook mogelijk om het bord in een digitale vorm uit te werken. Overleg dat met je docent.<br/>\n<br/>\nBij de aan de slag opdrachten voor de projectopdracht geven we telkens aan voor wie de aan de slag opdracht bedoeld is.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4388161"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 16",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Voor wie: iedereen.<br/>\nBespreek binnen jullie groep wie de rol van Product Owner en die van Scrum Master gaat vervullen. In het ontwikkelteam zijn verschillende disciplines vertegenwoordigd, bijvoorbeeld een programmeur, een grafisch ontwerper, een tester. Overleg daarom vooraf wie welke taken op zich gaat nemen.<br/>\n<br/>\nDe taakverdeling binnen het Scrum team is besproken en de rollen zijn verdeeld. De eerstvolgende stap is dat de Product Owner contact opneemt met de voorzitter van de commissie open dag van het Enigmacollege. De Product Owner heeft bedacht dat het handig is om met de opdrachtgever te bespreken wat er van het te ontwikkelen spel verwacht wordt.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4388163"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 17",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Voor wie: Product Owner.<br/>\nBereid een gesprek voor dat gevoerd moet worden met de voorzitter van de commissie open dag van het Enigmacollege. Doel van het gesprek is om een helder beeld te krijgen van de eisen die door de opdrachtgever aan het te ontwikkelen spel worden gesteld. Doel van het gesprek is ook om duidelijk te krijgen voor wie en waarom de game ontwikkeld moet worden.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4388164"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 18",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Voor wie: Product Owner, voorzitter open dag Enigmacollege.<br/>\nDe Product Owner maakt met de voorzitter van de commissie open dag een afspraak om te praten over de opdracht die is verstrekt aan softwarebedrijf \"Het bitje\". Op het afgesproken tijdstip vindt de ontmoeting plaats.<br/>\n<br/>\nEr heeft een uitgebreid overleg plaatsgevonden tussen de Product Owner en de voorzitter van de open dag van het Enigmacollege. De Product Owner weet inmiddels voor welke doelgroep de game ontwikkeld moet worden en wat het doel is van de game. Ook is helder wat de eisen zijn die aan de game worden gesteld. Nu breekt het moment aan waarop de Product Owner een eerste versie van de Product Backlog kan opstellen.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4388166"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 19",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Voor wie: Product Owner.<br/>\nMaak een eerste versie van de Product Backlog. Hierop komen de belangrijkste items te staan. Breng ook al een prioritering aan. Bepaal wat en waar iets staat. De tijd die nodig is voor het realiseren van de User Stories wordt op deze ruwe versie nog niet vermeld.</p>\n<table border=\"1\" cellpadding=\"3\" cellspacing=\"0\" class=\"width-70-percent\">\n<tbody>\n<tr>\n<td>Prioriteit</td>\n<td>User Story</td>\n</tr>\n<tr>\n<td>1</td>\n<td>Als opdrachtgever wil ik een spel met minimaal 3 levels.</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Als opdrachtgever wil ik dat een speler in de vorm van een personage zich door een level kan verplaatsen.</td>\n</tr>\n<tr>\n<td>3</td>\n<td> </td>\n</tr>\n<tr>\n<td>4</td>\n<td> </td>\n</tr>\n</tbody>\n</table>\n<p>De Product Owner heeft een ruwe versie van de Product Backlog gemaakt. Hoeveel tijd er nodig is voor het uitwerken van de items moet worden besproken met de leden van het ontwikkelteam. Zij voeren het werk uit en kunnen dus het beste inschatten hoeveel tijd er voor het realiseren van de items nodig is.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4388168"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 20",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Voor wie: Product Owner, leden ontwikkelteam.</p>\n<ol>\n<li>Voer (Product Owner) met de leden van het ontwikkelteam overleg over de tijd die nodig is om de wensen en eisen die zijn vastgelegd op de Product Backlog te kunnen realiseren. Verwerk deze informatie in de Product Backlog. Bespreek (Product Owner) met de leden van het ontwikkelteam de User Stories die op de Product Backlog vermeld worden. Breng indien nodig aanpassingen aan. Wat kun je aan de hand van wat je ziet, concluderen?</li>\n<li>Er heeft een eerste Backlog Refinement plaatsgevonden. Tijdens het uitvoeren van de opdracht zal de Product Backlog vaker moeten worden aangepast. Het opleveren van deelproducten door het ontwikkelteam en het bespreken ervan met de opdrachtgever kan immers nieuwe inzichten en/of wensen opleveren.<br/>\nStel een Definition of Done op. Hieronder zie je een stukje van een voorbeeld:</li>\n</ol>\n<table border=\"1\" cellpadding=\"3\" cellspacing=\"0\" class=\"width-70-percent\">\n<tbody>\n<tr>\n<td><em>Definition of Done</em>\n<ul>\n<li>Het product ziet er aantrekkelijk uit voor de doelgroep waarvoor het ontwikkeld wordt.</li>\n<li>Er moet een duidelijke gebruikershandleiding zijn.</li>\n</ul>\n</td>\n</tr>\n</tbody>\n</table>\n<p>Nu de Product Backlog klaar is, kan de eerste sprint beginnen. Voordat de sprint daadwerkelijk kan starten, moeten er nog enkele dingen geregeld worden. De velocity van het team is nog niet vastgesteld. Ook moet er een Sprint Planning Meeting georganiseerd worden.</p>\n<ol start=\"3\">\n<li>Probeer in deze fase van het ontwikkelproces een inschatting te maken van de velocity van het team.<br/>\nTijdens de Sprint Planning Meeting wordt gekeken naar de Product Backlog. Welke items op de Product Backlog horen bij elkaar en kunnen in de sprint worden uitgewerkt. Bij dit overleg zijn de Product Owner, de klant en de leden van het ontwikkelteam aanwezig. De Product Owner komt met een voorstel welke items bij elkaar zouden kunnen horen.<br/>\nDe Scrum Master heeft al lang van tevoren vastgesteld wanneer en waar de Sprint Planning Meetings plaatsvinden. Het aantal vergaderingen hangt af van hoeveel sprints er georganiseerd gaan worden.</li>\n</ol>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4388171"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 21",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Voor wie: Scrum Master.<br/>\nStel de data en tijdstippen van de Sprint Planning Meetings vast. Organiseer de eerste Sprint Planning Meeting.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4388172"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 22",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/50b3165fcf8a6b8a4d2ad290c73e3c6f.jpg\" class=\"float-right\"/></p>\n<p>Voor wie: Product Owner, klant, leden ontwikkelteam.<br/>\n<br/>\nKom op het afgesproken tijdstip en plaats bij elkaar voor de eerste Sprint Planning Meeting<br/>\n<br/>\nIn de fase die nu aanbreekt, vertalen de leden van het ontwikkelteam de Product Backlog Items naar taken die moeten worden uitgevoerd. Tijdens dit proces is de Product Owner aanwezig. Indien nodig kan de Product Owner nog vragen van het team beantwoorden of eventueel beslissingen nemen.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4388173"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 23",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Voor wie: leden ontwikkelteam.<br/>\nMaak van de items op de Product Backlog taken. Maak een Sprint Backlog.<br/>\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/50b3165fcf8a6b8a4d2ad290c73e3c6f.jpg\" class=\"float-right\"/> Voor de overzichtelijkheid gaan we tijdens dit project werken met een Scrum bord. Het Scrum bord is een instrument dat door een ontwikkelteam gebruikt kan worden om de onderdelen van de Sprint Backlog te visualiseren.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4388174"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 24",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Voor wie: Scrum Master.<br/>\nZorg voor een Scrum bord en Post-it's waarmee op het Scrum bord gewerkt kan worden.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4388175"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 25",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Voor wie: leden ontwikkelteam.<br/>\nRicht het Scrum bord in.<br/>\n<br/>\nIn Scrum worden Burndown Charts gebruikt om de voortgang bij te houden.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4388176"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 26",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/50b3165fcf8a6b8a4d2ad290c73e3c6f.jpg\" class=\"float-right\"/></p>\n<p>Voor wie: Product Owner.<br/>\nOntwerp voor het project een Release Burndown Chart.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4388178"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 27",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Voor wie: leden ontwikkelteam.<br/>\nOntwerp voor het project een Sprint Burndown Chart.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4388225"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Het ontwikkelproces - 2",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/5920074c848ea99ff23d1575f19e227b4780bea4.PNG\" class=\"height-308-pixels width-250-pixels float-right\"/>Alle voorbereidingen zijn nu getroffen. De eerste sprint kan daadwerkelijk beginnen. Bij de ontwikkelmethode Scrum komt het ontwikkelteam aan het begin van de dag bij elkaar om af te spreken wat er die dag gedaan moet worden. De geplande werkzaamheden worden doorgenomen en er worden afspraken gemaakt. In Scrum wordt dit de Daily Scrum genoemd. Dit is een korte bijeenkomst van maximaal een kwartier.<br/>\n<br/>\nBij de opdracht is het gezien de tijd die we eraan besteden niet mogelijk om een Daily Scrum uit te voeren. Wat is het mogelijk om op bepaalde momenten met het team de voortgang, de nog uit te voeren taken en mogelijke problemen te bespreken.</p>\n<p>Nu is het moment aangebroken waarop jullie met GameMaker aan de slag gaan. Er wordt gestart met de eerste sprint. Het resultaat daarvan is een spel in GameMaker met slechts een beperkte functionaliteit. In de sprints die volgen, wordt het spel steeds verder uitgebreid met nieuwe onderdelen.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4388179"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 28",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Voor wie: leden ontwikkelteam.</p>\n<ol>\n<li>Vergader tijdens de sprint een aantal keren met elkaar om de voortgang, nog uit te voeren werkzaamheden en mogelijke problemen te bespreken.</li>\n<li>Houd tijdens de sprint wijzigingen op het Scrum bord bij.<br/>\nActualiseer de Sprint Burndown Chart</li>\n</ol>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4388232"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Het ontwikkelproces - 3",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/6/697ed9ddeb121a816feaef7d13ae468cd9a3a584.png\" class=\"height-294-pixels width-300-pixels float-right\"/>Een sprint wordt afgesloten met de Sprint Retrospective. Dit is een aparte vergadering waarin bekeken wordt hoe de sprint is verlopen. Zijn de doelstellingen bereikt? Hoe is samenwerking verlopen? Zijn er nog bijzondere dingen gebeurd? Het belangrijkste doel van deze vergaderingen is om te leren van wat er wellicht niet goed is gegaan. Tijdens de Sprint Review wordt gekeken of het nodig is om de Product Backlog aan te passen.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4388181"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 29",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Voor wie: Product Owner, leden ontwikkelteam en klant<br/>\nSluit de sprint af met een Sprint Review.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4388182"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 30",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Voor wie: Product Owner, Scrum Master, leden ontwikkelteam.<br/>\nSluit de sprint af met een Sprint Retrospective</p>\n<p>Na elke sprint moet de Release Burndown Chart eigenlijk geactualiseerd worden.<br/>\nDit is de taak van de Scrum Master.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4388184"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 31",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/c/c41265c34757e21691865b573fcc01ce8f796d34.png\" class=\"height-263-pixels width-250-pixels float-right\"/>Voor wie: Scrum Master.<br/>\nActualiseer na de eerste sprint de Release Burndown Chart.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4388185"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 32",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/50b3165fcf8a6b8a4d2ad290c73e3c6f.jpg\" class=\"float-right\"/> Voor wie: Product Owner, Scrum Master, leden ontwikkelteam.<br/>\nWe hebben nu \u00e9\u00e9n sprint afgerond. Ga voor alle andere sprints op dezelfde manier aan het werk en rond het project af.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "4388187"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 33",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Voor wie: iedereen.<br/>\n<br/>\nSchrijf een eindverslag waarin heel het ontwikkelproces wordt beschreven.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [
+                {
+                    "content": ""
+                },
+                {
+                    "content": "<span style=\"color:#FFFFFF;\">Scrum en Software Engineering</span>"
+                }
+            ],
+            "backgroundImageUrl": "https://maken.wikiwijs.nl/generated/l1200x76_fc666eb78d9a6253a702d2dcb8261377fca54093.jpg",
+            "dimension": null,
+            "suppressTitle": true
+        },
+        "color": "#495057"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "A Inleiding",
+                "reference": {
+                    "value": "3702563"
+                },
+                "sections": [
+                    {
+                        "title": "Vooraf",
+                        "reference": {
+                            "value": "3702564"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Leerdoelen",
+                        "reference": {
+                            "value": "4386715"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Bijlagen",
+                        "reference": {
+                            "value": "3702568"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Zo werkt het",
+                        "reference": {
+                            "value": "3702570"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "B Software Engineering",
+                "reference": {
+                    "value": "3702572"
+                },
+                "sections": [
+                    {
+                        "title": "Inleiding",
+                        "reference": {
+                            "value": "3702573"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 1",
+                        "reference": {
+                            "value": "4386729"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 2",
+                        "reference": {
+                            "value": "4386730"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 3",
+                        "reference": {
+                            "value": "4386734"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 4",
+                        "reference": {
+                            "value": "4386735"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 5",
+                        "reference": {
+                            "value": "4386742"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "C Scrum",
+                "reference": {
+                    "value": "3702582"
+                },
+                "sections": [
+                    {
+                        "title": "Inleiding",
+                        "reference": {
+                            "value": "3702583"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 6",
+                        "reference": {
+                            "value": "4386844"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Iteraties",
+                        "reference": {
+                            "value": "3702587"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "D Het Scrum team",
+                "reference": {
+                    "value": "3702590"
+                },
+                "sections": [
+                    {
+                        "title": "Het Scrum team",
+                        "reference": {
+                            "value": "3702591"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 7",
+                        "reference": {
+                            "value": "4386855"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "De Product Owner",
+                        "reference": {
+                            "value": "3702594"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 8",
+                        "reference": {
+                            "value": "4386911"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "De Scrum Master",
+                        "reference": {
+                            "value": "3702596"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Het ontwikkelteam",
+                        "reference": {
+                            "value": "3702598"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "E Lijsten en grafieken",
+                "reference": {
+                    "value": "3702600"
+                },
+                "sections": [
+                    {
+                        "title": "De Product Backlog",
+                        "reference": {
+                            "value": "3702601"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 9",
+                        "reference": {
+                            "value": "4387087"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "De Product Backlog - 2",
+                        "reference": {
+                            "value": "4387088"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 10",
+                        "reference": {
+                            "value": "4387095"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "De Product Backlog - 3",
+                        "reference": {
+                            "value": "4387099"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 11",
+                        "reference": {
+                            "value": "4387101"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "De Product Backlog - 4",
+                        "reference": {
+                            "value": "4387296"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 12",
+                        "reference": {
+                            "value": "4387107"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "De Sprint Backlog",
+                        "reference": {
+                            "value": "3702607"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Definition of Done",
+                        "reference": {
+                            "value": "3702611"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Burndown Charts",
+                        "reference": {
+                            "value": "3702613"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 13",
+                        "reference": {
+                            "value": "4387371"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Burndown Charts - 2",
+                        "reference": {
+                            "value": "4387376"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 14",
+                        "reference": {
+                            "value": "4387377"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Het Scrum bord",
+                        "reference": {
+                            "value": "3702621"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 15",
+                        "reference": {
+                            "value": "4387909"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "F De Sprint",
+                "reference": {
+                    "value": "3702626"
+                },
+                "sections": []
+            },
+            {
+                "title": "G Het Enigmacollege",
+                "reference": {
+                    "value": "3702629"
+                },
+                "sections": [
+                    {
+                        "title": "De opdracht",
+                        "reference": {
+                            "value": "3702630"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Soorten games",
+                        "reference": {
+                            "value": "3702633"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "GameMaker",
+                        "reference": {
+                            "value": "3702636"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Het ontwikkelproces",
+                        "reference": {
+                            "value": "3702639"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 16",
+                        "reference": {
+                            "value": "4388161"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 17",
+                        "reference": {
+                            "value": "4388163"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 18",
+                        "reference": {
+                            "value": "4388164"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 19",
+                        "reference": {
+                            "value": "4388166"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 20",
+                        "reference": {
+                            "value": "4388168"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 21",
+                        "reference": {
+                            "value": "4388171"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 22",
+                        "reference": {
+                            "value": "4388172"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 23",
+                        "reference": {
+                            "value": "4388173"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 24",
+                        "reference": {
+                            "value": "4388174"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 25",
+                        "reference": {
+                            "value": "4388175"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 26",
+                        "reference": {
+                            "value": "4388176"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 27",
+                        "reference": {
+                            "value": "4388178"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Het ontwikkelproces - 2",
+                        "reference": {
+                            "value": "4388225"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 28",
+                        "reference": {
+                            "value": "4388179"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Het ontwikkelproces - 3",
+                        "reference": {
+                            "value": "4388232"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 29",
+                        "reference": {
+                            "value": "4388181"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 30",
+                        "reference": {
+                            "value": "4388182"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 31",
+                        "reference": {
+                            "value": "4388184"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 32",
+                        "reference": {
+                            "value": "4388185"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 33",
+                        "reference": {
+                            "value": "4388187"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": "\n<p lang=\"nl_nl\" xml:lang=\"nl_nl\">De module '<strong>Software Engineering</strong>' is ontwikkeld door auteurs en medewerkers van Enigma-online.<br />\n<br />\n<strong>Fair Use</strong><br />\nIn de modules van Enigma-online wordt gebruik gemaakt van beeld- en filmmateriaal dat beschikbaar is op internet. Bij het gebruik zijn we uitgegaan van fair use. Meer informatie: <a href=\"http://www.studiovo.nl/DownloadsStercollecties/Fair%20use.pdf\" target=\"_blank\"><u><strong>Fair use</strong></u></a><br />\n<br />\nMocht u vragen/opmerkingen hebben, neem dan contact op<br />\nvia de <a href=\"http://www.vo-content.nl/helpdesk\" target=\"_blank\"><u><strong>helpdesk VO-content</strong></u></a> .</p>",
+        "imageSrc": null,
+        "sources": [],
+        "metadata": [
+            {
+                "key": "educationalLevels",
+                "label": "Leerniveaus",
+                "terms": {
+                    "70af3752-c6ad-43d9-aa0c-9ff099931f8a": "HAVO 4",
+                    "85d15c83-e2b4-4359-8475-a355591aaa1a": "VWO 6",
+                    "cb61531d-61eb-4412-a52f-ca065ca37e39": "HAVO 5",
+                    "e2026706-0829-4a4c-b726-9409b6f407e1": "VWO 4",
+                    "f2513775-3d54-423b-803b-15e06a8c89a8": "VWO 5"
+                }
+            },
+            {
+                "key": "disciplines",
+                "label": "Leerinhoud en doelen",
+                "terms": {
+                    "2845473d-ce18-450a-9135-6738abbdc129": "Informatica"
+                }
+            },
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            },
+            {
+                "key": "keywords",
+                "label": "Trefwoorden",
+                "terms": [
+                    "arrangeerbaar",
+                    "leerlijn",
+                    "rearrangeerbare"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

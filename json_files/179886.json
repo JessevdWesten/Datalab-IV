@@ -1,0 +1,363 @@
+{
+    "documentAuthors": [
+        "Robert Mol"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Robert Mol",
+            "referenceName": null,
+            "reference": {
+                "value": "81246"
+            },
+            "firstName": "Robert",
+            "infix": null,
+            "lastName": "Mol",
+            "emailAddress": "mail@robertmol.com",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2022-06-17T09:20:30Z",
+    "bulkId": "bulk-17041658-refresh_all",
+    "identifier": 179886,
+    "title": "Test",
+    "description": "Test",
+    "lastModifiedDate": "2022-06-17T09:20:30+02:00",
+    "dateCreated": "2021-09-15T10:59:45+02:00",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "Mol, Robert",
+                "reference": {
+                    "value": "81246"
+                },
+                "firstName": "Robert",
+                "infix": null,
+                "lastName": "Mol",
+                "emailAddress": "mail@robertmol.com",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-40",
+            "name": "CC Naamsvermelding 4.0 Internationale licentie",
+            "description": "De Internationale Creative Commons 4.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/4.0/.",
+            "link": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/179886/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "6836901"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Welkom!",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "6836905"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Gegroet",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Hallo. Welkom bij dit arrangement.</p>\n<p><a class=\"content-link-button\" href=\"http://www.meestergijs.nl\" role=\"button\" target=\"_blank\">Ga naar Meester Gijs.nl</a></p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "6836902"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Uitleg",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Pass\u00e9 compos\u00e9</p>\n<p>________________</p>\n<p>Uitleg.... Blablabla... Enz.</p>\n<p> </p>\n"
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6943991"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6943991",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "choiceInteraction",
+                                "label": "Pass\u00e9 Compos\u00e9",
+                                "prompt": {
+                                    "body": "<p>Kies de juiste vorm van de pass\u00e9 compos\u00e9</p>"
+                                },
+                                "shuffle": false,
+                                "maxChoices": 2,
+                                "minChoices": 1,
+                                "orientation": "vertical",
+                                "choices": [
+                                    {
+                                        "identifier": "0",
+                                        "content": {
+                                            "body": "Dit is het juiste antwoord."
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "0",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "1",
+                                        "content": {
+                                            "body": "Dit is niet het juiste antwoord."
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "1",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    }
+                                ],
+                                "responseIdentifier": "6943991_1",
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6943991_1",
+                                "cardinality": "ordered",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0,
+                                    "default": 0,
+                                    "mapEntries": [
+                                        {
+                                            "key": "0",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "1",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        }
+                                    ]
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "6943852"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "LessonUp uitleg",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p><iframe allowfullscreen=\"allowfullscreen\" frameborder=\"1\" height=\"800px\" src=\"https://LessonUp.app/invite/h/DH2eF7aR9nGddPCGD\" width=\"1200px\"/></p>\n"
+                },
+                {
+                    "type": "questionnaire",
+                    "reference": {
+                        "value": "6950093"
+                    },
+                    "assessmentTestItem": {
+                        "label": "",
+                        "type": "exam",
+                        "header": {
+                            "url": "https://maken.wikiwijs.nl/p/questionnaire/standalone/6950093",
+                            "title": ""
+                        },
+                        "introduction": {
+                            "body": ""
+                        },
+                        "countQuestions": 0,
+                        "sections": [
+                            {
+                                "type": "assessment",
+                                "identifier": "SECTION_6950093",
+                                "name": "MAIN_SECTION",
+                                "select": null,
+                                "shuffle": null,
+                                "selection": null,
+                                "assessmentItems": []
+                            }
+                        ],
+                        "outcomeDeclarations": null,
+                        "showEvaluation": null,
+                        "feedback": null
+                    }
+                }
+            ],
+            "sections": []
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": null,
+            "dimension": null,
+            "suppressTitle": null
+        },
+        "color": "#333333"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Welkom!",
+                "reference": {
+                    "value": "6836901"
+                },
+                "sections": [
+                    {
+                        "title": "Gegroet",
+                        "reference": {
+                            "value": "6836905"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Uitleg",
+                "reference": {
+                    "value": "6836902"
+                },
+                "sections": []
+            },
+            {
+                "title": "LessonUp uitleg",
+                "reference": {
+                    "value": "6943852"
+                },
+                "sections": []
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": null,
+        "imageSrc": null,
+        "sources": [],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            },
+            {
+                "key": "learningTime",
+                "label": "Studiebelasting",
+                "terms": [
+                    "4 uur en 0 minuten"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

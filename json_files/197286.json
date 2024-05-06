@@ -1,0 +1,1294 @@
+{
+    "documentAuthors": [
+        "Anita Lok"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Anita Lok",
+            "referenceName": null,
+            "reference": {
+                "value": "167064"
+            },
+            "firstName": "Anita",
+            "infix": null,
+            "lastName": "Lok",
+            "emailAddress": "alok@aletta.nl",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2024-01-07T14:41:00Z",
+    "bulkId": "bulk-17041658-refresh_all",
+    "identifier": 197286,
+    "title": "Verdieping in chronische ziekten",
+    "description": "In de zorg krijg je te maken met ouderen die chronisch ziek zijn. \nEen chronische ziekte is een ziekte die lange tijd voortduurt, voorbeelden van chronische ziekten zijn, kanker, dementie, hart en vaatziekten, astma en herseninfarct. \nZorgvragers die chronisch ziek zijn moeten vaak medicijnen innemen. Als de zorgvrager niet in staat is zelf medicatie in te nemen, dan neem jij deze taak over.",
+    "lastModifiedDate": "2024-01-07T14:41:00+01:00",
+    "dateCreated": "2023-05-25T17:24:01+02:00",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "Lok, Anita",
+                "reference": {
+                    "value": "167064"
+                },
+                "firstName": "Anita",
+                "infix": null,
+                "lastName": "Lok",
+                "emailAddress": "alok@aletta.nl",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-40",
+            "name": "CC Naamsvermelding 4.0 Internationale licentie",
+            "description": "De Internationale Creative Commons 4.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/4.0/.",
+            "link": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/197286/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "7721063"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Test je voorkennis",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "questionnaire",
+                    "reference": {
+                        "value": "7721069"
+                    },
+                    "assessmentTestItem": {
+                        "label": "Oefening",
+                        "type": "exercise",
+                        "header": {
+                            "url": "https://maken.wikiwijs.nl/p/questionnaire/standalone/7721069",
+                            "title": "Test je voorkennis"
+                        },
+                        "introduction": {
+                            "body": "<p>Algemene informatie</p>\n<p>Titel test je voorkennis</p>\n<p>Aantal vragen:</p>\n<p>        3</p>\n<p>Maximaal te behalen punten</p>\n<p>      3</p>\n<p> </p>"
+                        },
+                        "countQuestions": 3,
+                        "sections": [
+                            {
+                                "type": "assessment",
+                                "identifier": "SECTION_7721069",
+                                "name": "MAIN_SECTION",
+                                "select": null,
+                                "shuffle": null,
+                                "selection": null,
+                                "assessmentItems": [
+                                    {
+                                        "identifier": "7721069_0",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "",
+                                                "prompt": {
+                                                    "body": "<p>Wat is een chronische ziekte?</p>\n<p> </p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "7721069_0_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p>Een chronische ziekte is een aandoening die nooit meer helemaal overgaat.</p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p>Een chronische ziekte is een aandoening die nooit meer helemaal overgaat.</p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "identifier": "7721069_1",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "",
+                                                "prompt": {
+                                                    "body": "<p>Weke Chronische ziekten kun je opnoemen? (5 ziektes)</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "7721069_1_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p>Reuma</p>\r\n\r\n<p>Astma</p>\r\n\r\n<p>COPD</p>\r\n\r\n<p>Diabetes</p>\r\n\r\n<p>Hart en Vaatziekten</p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p>Reuma</p>\n<p>Astma</p>\n<p>COPD</p>\n<p>Diabetes</p>\n<p>Hart en Vaatziekten</p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "identifier": "7721069_2",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "",
+                                                "prompt": {
+                                                    "body": "<p>Ken jij iemand met een chronische ziekte.</p>\n<p>Benoem deze ziekte en leg uit wat dit betekent voor de omgeving.</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "7721069_2_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p>Ik ben bekend met iemand die COPD heeft, en dit heeft zeker invloed op de omgeving. Als gevolg van de aandoening is het noodzakelijk dat er niet wordt gerookt in de nabije omgeving, aangezien roken de symptomen van COPD kan verergeren. Het cre&euml;ren van een rookvrije omgeving is een belangrijke stap om de gezondheid en het welzijn van de persoon met COPD te ondersteunen.</p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p>Ik ben bekend met iemand die COPD heeft, en dit heeft zeker invloed op de omgeving. Als gevolg van de aandoening is het noodzakelijk dat er niet wordt gerookt in de nabije omgeving, aangezien roken de symptomen van COPD kan verergeren. Het cre\u00ebren van een rookvrije omgeving is een belangrijke stap om de gezondheid en het welzijn van de persoon met COPD te ondersteunen.</p>"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "outcomeDeclarations": null,
+                        "showEvaluation": null,
+                        "feedback": null
+                    }
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "7582129"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Theorie COPD",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>COPD staat voor Chronic Obstrutive Pulmonary Disease en is de verzamelnaam voor chronische bronchitus en longenfyseem.</p>\n<p><br/>\n<iframe allowfullscreen=\"allowfullscreen\" frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/0sXn_Qmx68E\" width=\"560\" class=\"video-item\"/></p>\n<p> </p>\n<p> Cronische bronchitus is een aandoening waarbij je longen niet meer goed werken, doordat ze voortdurend onstoken zijn.</p>\n<p> </p>\n<p>Longenfyseem is een aandoenig waarbij je longen niet meer goed werken, doordat er longblaasjes verloren gaan.</p>\n<p>In beide gevallen krijg je minder zuurstof binnen. je hebt ademtekort, ook als je je niet inspant en je hebt een benauwd gevoel. </p>\n<p><strong>Ontstaan COPD:</strong></p>\n<p>COPD ontstaat meestal pas op oudere leeftijd. In de meeste gevallen wordt COPD veroorzaakt door roken. Roken prikkelt voortdurend de longen, daardoor raken de longen ontstoken. De ontstekking maakt de longen gevoelig en raken sneller geprikkeld door andere stoffen. Zo kan iemand die COPD heeft kortademig worden door parfum geur.</p>\n<p>Ook al sj e niet rookt kun je COPD krijgen. zelfs als je jaren geleden gestopt bent met roken, dan nog heb j ekan sop COPD. Soms zijn giftige stofdeeltjes de oorzaak vab COPD. Door langdurig verblijf in een omgeving met chemische stoffen kun je longemfyseem krijgen.</p>\n<p> </p>\n<p><strong>Symptomen van COPD:</strong></p>\n<p>de meest voorkomende symptomen van COPD zijn:</p>\n<ul>\n<li>Benauwdheid: Je hebt het gevoel dat je adem te kort komt.</li>\n<li>Hoesten: Door de COPD zit er veel slijm in je longen, waardoor je moet hoesten. Het \"hoesten wordt ook wel rokershoest\"genoemd.</li>\n<li>Kortademig: Hoe erger de COPD. Hoe sneller je buitenadem raakt, zelf bij weinig inspanning.</li>\n<li>Weinig energie: Door te weinig adem voel je je futloos. Al je energie gaat zitten in het adem halen en hoesten.</li>\n</ul>\n<p> </p>\n<p><strong>Behandeling van COPD:</strong></p>\n<p>COPD kan niet worden genezen. Als de zorgvrager rookt, dan wordt stoppen met roken direct vereist. Behandeling van de ziekte is erop gericht om de klachten zoveel mogelijk te verminderen. Bij ernstige klachten kan het toedienen van extra zuurstof nodig.</p>\n"
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "7721281"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "ademen door een rietje",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Bekijk het fimpje \"wat als ademen moeite kost\"<iframe allowfullscreen=\"allowfullscreen\" frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/HyP7HqefYGA\" width=\"560\" class=\"video-item\"/></p>\n<p> </p>\n<p>Doe hierna zelf de test:</p>\n<p>Pak een rietje</p>\n<p>Probeer te ademen door het rietje door gewoon te blijven zitten. Wat gebeurt er? Schrijf je ervaring op.</p>\n<p>Heb je je dit gedaan dan houd je het rietje in je mond en ga je een paar keer door je knieeen. Nu blijf je ademen door het rietje. Wat gebeurt er nu? schrijf je ervaring op.</p>\n<p>Kost dit je veel moeite?</p>\n<p>Vul je ervaringen in op het padlet via de volgende link: </p>\n<p> ervaring-rietjes-test-91s1uhyzpsirmoez</p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "7582196"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Astma",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Astma is een chronische ontsteking van de luchtwegen. Dit betekent dat er voortdurend kleine ontstekingen zijn in de longen. de longen zijn snel geiriteerd en gevoelig voor rook, uitlaatgassen of huisdieren. Iemand met astma kan benauwd raken met \u00e9\u00e9n van deze prikkels. Astma komt voor in combinatie met een allergie., Een allergie kan geleidelijk ontstaan zo kun je pas na een aantal jaren allergisch gaan reageren op \u00e9\u00e9n of meerdere prikkels. Astma is een aandoening die op alle leeftijden kan voorkomen. De diagnose wordt vaak al op jonge leeftijd vastgesteld.</p>\n<p><strong>Oorzaak van Astma</strong></p>\n<p>Astma kan verschillende oorzaken hebben:</p>\n<p>Oorzaak is ee ontsteking. Door verschillende ontstekingen van de luchtwegen trekken spiertjes samen. De wand van de luchtewegen wordt dikker en gaat slijm produceren. De luchtwegen worden nauwer, waardoor je minder lucht krijgt, je raakt benauwd.</p>\n<p>Oorzaak erfelijkheid: Astma zit vaak in de failie. Als je vader of moeder allergisch is of als er \u00e9\u00e9n van hen astma heeft dan heb jij 50% tot 70% kans op astma of \u00e9\u00e9n of meerdere allergie\u00ebn.</p>\n<p>Symptomen van astma:</p>\n<p>Bij een astma aanval is de bekenste symptomen benauwdheid. Door de benauwdheid kun je angstig worden en gaan transpireren. Doordat de sijmvliezen geiriteerd zijn en meer slijm aanmaken kun je gaan hoesten. De vernauwing van de luchtpijp kan een piepende ademhaling veroorzaken.</p>\n<p>Behandeling van astma:</p>\n<p>Astma is een ongeneeselijke ziekte. De behandeling is erop gericht om zo weinig mogelijk in contact te komen et prikkels die een astma-aanval opwekken. Bij astma schrijft de huisarts vaak onstekkingsremmers en luchtwegverwijder voor. Dit zijn medicijnen di eje via de mond inademt met behulp van een inhalator. De medicijnen komen zo direct in je longen terecht.</p>\n<p><iframe allowfullscreen=\"allowfullscreen\" frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/65lamk6SCEM\" width=\"560\" class=\"video-item\"/></p>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "7582497"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Kanker",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p><iframe allowfullscreen=\"allowfullscreen\" frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/r9DyHnkYYXw\" width=\"560\" class=\"video-item\"/></p>\n<p>Kanker is een verzamelnaam van meerdere honderd ziektes Kanker komt voor in allelei leeftijdsgroepen. Van jong tot oud.</p>\n<p>Oorzaken en behandeling van kanker.</p>\n<p>In veel gevallen is ongezonde voeding en leefstijl een belangrijke oorzaak van kanker. Denk bijvoorbeeld aan roken of overgewicht. Beiden kunnen leiden tot kanker.</p>\n<p><strong>Symptomen van kanker.</strong></p>\n<p>Om kans op genezing van kanker te vergroten is een vroege diagnose van belang. Op tijd naar de huisarts gaan bij klachten is dan ook een vereiste. Het KWF (Koningin Wilhemina Fonds, kankerfonds) heeft een lijst opgesteld met de meest voorkomende symptomen waar je op moet letten. Symptomen waar je op moet letten. Ga met klachten die langer vier weken aanhouden naar de huisarts.</p>\n<ol>\n<li>Blijvende heesheid of hoest, eventueel met bleod in opgehoest slijm</li>\n<li>Slikklachten: Als slikken pijn doet. Het eten slecht zakt of blijft steken.</li>\n<li>Nieuwe of veranderde moedervlekken (vorm omvang, uiterlijk, jeuk of bloeden)</li>\n<li>Een schilferend plekje of bobbeltje ergens in je lichaam</li>\n<li>Vrouw: ongewoon vaginaal bloedverlies of abnormale afscheiding buiten de menstruatie om.</li>\n<li> Man: Zaadbal klachten.</li>\n<li>Blijvende verandering in de stoelgang zonder duidelijke aanleiding of ongewoon bloedverlies en of slijm bij de ontlasting.  </li>\n<li>Verandering bij het plassen, vaker moeten plassen, pijn bij het plassen zoals moeilijker kunnen plassen, vaker moeten plassen of bloed in je plas.</li>\n<li>Gewichtsverlies zonder aanleiding.</li>\n<li>Een verdikking of bobbel(tjes) ergens in je lichaam.     <img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/a/a5d8c189eaff95d98acd346f9c1a9d173f80bfb4.jpeg\" class=\"height-183-pixels width-275-pixels\"/></li>\n</ol>\n<p> </p>\n<p> </p>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "7582498"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Dementie",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Dementie is een verzamelnaam voor meer dan vijftig ziektes, waarbij het gedrag verandert en het denkvermogen achter uit gaat. De meest voorkomende vorm van dementie is de ziekte van alzheimer. Alzheimer is een ongeneeselijke hersenziekte. Een ziekte waarbij de cellen in delen van de hersenen ophouden te functioneren en of afstreven. Hierdoor ontstaan allerlei problemen.</p>\n<p>Mensen met alzheimer kunnen familie of vrieden net meer herkennen zijn vergeetachtig en kunnnen dingen niet meer goed onthouden, stellen dezelfde vragen opnieuw. Hebben probelen met spreken en begrijpen.</p>\n<ul>\n<li><strong>Oorzaak van dementie: Ziekte van alzheimer:</strong></li>\n</ul>\n<p>De oorzaak van alzheimer isonbekend. Leeftijd is het grootste risico voor het ontwikkelne van de ziekte van alzheimer. Hoe hoger de leeftijd, hoe groter de kans op deze aandoening. De ziekte begint meestal tussen 70 en 80 jaar, maar kan ook eerder beginnen. Tegenwoordig denkt men dat de ziekte van alzheimer wordt veroorzaakt door een op e\u00e9n hoping van eiwitten in de hersenenen. Die zorgen ervoor dat de hersencellen afsterven.</p>\n<ul>\n<li><strong>Symptomen van dementie: Ziekte van alzheimer.</strong></li>\n</ul>\n<p>De ziekte van alzheimer begint vaak heel geleidelijk. Aan het begin van de ziekte merk je niet zo heel veel. Het begint met het vergeten van alledaagse dingen of verdwalen in een bekende omgeving. Het besef van tijd is weg, niet meer weten welke dag het is. Deze symptomen kunnnen ook wijzen op ouderdom. Om die reden wordt meestal niet meteen gedacht aan dementie. Pas als de ziekte vordert en er steeds vaker en meer verschijslen optreden, wordt diagnose gesteld.</p>\n<p><strong>Behandeling van dementie.</strong></p>\n<p>Of iemand daadwerkelijk dementie heeft word vastgesteld door de huisarts. De Huisarts doet dit aan de hand van de klachten of verwijst door naar een specialist. Ook zal de arts of de sprecialist willen praten met iemand die de pati\u00ebnt goed kent. De persoon die demnerteert heeft meestal geen goed zicht meer op zijn eigen functioneren. De arts of specialist voert een aantal tests uit om zeker te weten dat het om (een vorm van) dementie gaat. Dementie is niet te genezen maar er bestaan behandelingen en de symptomen van de ziekte te vertragen.</p>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "7582499"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Hart en Vaatziekten",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Hart- en Vaatziekten is een verzamelnaam van alle aandoeningen aan het hart en/of de bloedvaten. E\u00e9n op de vier sterfgevallen in Nederland komt door een Hart- en/of vaatziekte. Deze ziekte behoord dan tot de belangrijkste doodsoorzaak.</p>\n<p>Er bestaan verschillende soorten hart- of  vaatziekten. Deze worden in groepen ingedeeld.</p>\n<ul>\n<li>Aangeboren hartafwijking bijboorbeeld: Een baby wordt geboren met een hartaandoening. De ernst van de aandoening varieert van een klein \"bouwfout\" tot een ernstige afwijking.</li>\n<li>Hartaandoening doordat de bloedvaten vernauwd of geblokkeerd zij bijvoorbeeld: Er kan dan geen bloed meer stromen naar het lichaamsdeel achter de bloedvaten. Dat lichaamsdeel krijgt geen zuurstof en sterft af.</li>\n<li>Een infectie of ontsteking van het hart.</li>\n<li>Overige aandoeningen zoals een hartklep afwijking of hartritmestoornissen.</li>\n</ul>\n<p> </p>\n<p>Oorzaak van het Hart- en vaatziekten</p>\n<p>Bij hart-en vaatziekten speelt een aantal risico factoren een rol. Er zijn riscicofactoren die de kand op hart- of vaatziekten verhogen. Een aantal factoren hebben te maken met je leefstijl.</p>\n<p> </p>\n<p>Symptomen van Hart - en Vaatziekten</p>\n<p>De symptomen van een hart - en/ of vaatziekten zijn afhankelijk van de soort ziekte. De klachten bij hartfalen zijn anders dan de klachten bij een aangeboren hart afwijking. toch zijn er overeenkomsten. De meest voorkomende klachten die bij Hart -en vaatziekten zijn:</p>\n<ul>\n<li>Pijn op de borst</li>\n<li>Benauwdheid</li>\n<li>Kortademigheid</li>\n<li>Hartkloppingen</li>\n<li>Onregelmatige hartslag</li>\n<li>Blijvende vermoeidheid</li>\n<li>Kracht verlies in armen of benen</li>\n<li>Pijn in je benen bij het lopen in rust</li>\n<li>Transpireren</li>\n<li>Misselijkheid</li>\n<li>Onwel worden</li>\n</ul>\n<p>Behandeling van Hart -en vaatziekten</p>\n<p>Er zijn verschillende behandelingen om Hart- en Vaatziekten te verhelpen. De soort behandeling is afhankelijk van de soort ziekte. Soms zijn medicijnen voldoende in andere gevallen is een operatie nodig.</p>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "7582500"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Beroerte ",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Een beroerte is een verzamelnaam voor verschillende problemen met de bloedvoorziening van de hersenen. Dit kan zich uiten in een Tia, een herdeninfarct of een hersenbloeding.</p>\n<p>Een beroerte word ook wel CVA genoemd. </p>\n<p>CVA staat voor  Cerebro Vasculair Accident. Dit betekent: Een ongeluk in de bloedvaten van de hersenenen.</p>\n<p>Bij een beroerte gaat er iets mis in de hersenen. Een deel van de hersenen krijgt van kortere of langere tijd geen zuurstof meer. Dit veroorzaakt klachten en-of plotselinge uitval verschijnselen zoals bijvoorbeeld:</p>\n<ul>\n<li>Blindheid aan een oog</li>\n<li>Aan de rechter kant- af aan de linkerkant niets meer kunnen zien.</li>\n<li>Dubbelzien.</li>\n<li>Een scheve mond hebben.</li>\n<li>Praten met dubbele tong</li>\n<li>Niet meer op de juiste woorden kunnen komen.       </li>\n<li>Verslikken in eten of drinken.</li>\n<li>Geen kracht of gevoel meer in arm en/of been.</li>\n<li>Het bestuur over armen en benen kwijt zijn.</li>\n<li>Het evenwicht kwijt tijdens het lopen.</li>\n</ul>\n<p class=\"text-align-center\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/c/cbc5cf71b3b79540cdd6b11a7b47fa9ee4a9f16e.jpeg\" class=\"height-130-pixels width-412-pixels\"/></p>\n<p> </p>\n<p><img alt=\"\" src=\"https://www.prebes.be/nieuws/2019/03/herken-jij-snel-symptomen-beroerte\"/>Als de klachten langer duren dan 24 uur is er sprake va een beroerte (CVA) Dit kan een herseninfarct of een hersenbloeding zijn.</p>\n<ul>\n<li>Een herseninfract komt het meest voor. Bij een herseninfact is een ader dichtgeslibd of is de ader verstopt geraakt door een bloedstolsel. Hierdoor krijgt een deel van de hersenen te weinig bloed. Het hersenweefsel sterft dan af.</li>\n<li>Een hersenbloeding is het gevolg van een lek in een hersenbloedvat. Door een zwakke plek in de wand van een bloedvat in de hersenen stroomt het bloed de hersenen in.</li>\n</ul>\n<p>Het verschil tussen een herseninfarct en een hersenbloeding is niet van buiten te zien. Daarvoor zijn onderzoeken in het ziekenhis nodig.</p>\n<p><iframe allowfullscreen=\"allowfullscreen\" frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/Ox53pd9kTv8\" width=\"560\" class=\"video-item\"/></p>\n"
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "7721342"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Verrijkingsopdracht ",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Ga naar de site van <a href=\"http://www.hartstichting.nl/\">www.hartstichting.nl</a></p>\n<p>Rechts in het scherm zie je een afbeelding met de tekst 'Doe de beroertequiz'</p>\n<p>Mocht de quiz er niet staan ga dan naar Google en voer het volgende in 'Doe de beroertequiz'. Kies dan de quiz van de hartstichting. Maak de quiz. </p>\n<p>Vul het resultaat in op het padlet via onderstaande link:</p>\n<p>uitlag-quiz-beroerte-akhh0zygn68e2d4n</p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "7583269"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Oefen opdrachten theorie ziektes",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "7583198"
+                    },
+                    "assessmentItem": {
+                        "identifier": "7583198",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "choiceInteraction",
+                                "label": "ziektes",
+                                "prompt": {
+                                    "body": "<p>Wat is een chronische ziekte?</p>"
+                                },
+                                "shuffle": false,
+                                "maxChoices": 4,
+                                "minChoices": 1,
+                                "orientation": "vertical",
+                                "choices": [
+                                    {
+                                        "identifier": "0",
+                                        "content": {
+                                            "body": "Een ziekte die plotseling ontstaat"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "0",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "1",
+                                        "content": {
+                                            "body": "Een ziekte die in de familie voorkomt"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "1",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "2",
+                                        "content": {
+                                            "body": "Een ziekte die steeds erger word"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "2",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "3",
+                                        "content": {
+                                            "body": "Een ziekte die langdurig aanhoudt"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "3",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    }
+                                ],
+                                "responseIdentifier": "7583198_1",
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "7583198_1",
+                                "cardinality": "ordered",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "2"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0,
+                                    "default": 0,
+                                    "mapEntries": [
+                                        {
+                                            "key": "0",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "1",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "2",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "3",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        }
+                                    ]
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "7583203"
+                    },
+                    "assessmentItem": {
+                        "identifier": "7583203",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "choiceInteraction",
+                                "label": "ziektes",
+                                "prompt": {
+                                    "body": "<p>Je oma rookt met regelmaat een sigaret. Dat doet ze al jaren. Ze heeft een paar maal geprobeerd te stoppen met roken, maar dat is haar niet gelukt.</p>\n<p>De laatste tijd heeft ze steeds meer last van benauwdheid. Ook moet ze veel hoesten en is ze bij inspanning kortademig. Welke ziekte kan jouw oma hebben?</p>"
+                                },
+                                "shuffle": false,
+                                "maxChoices": 4,
+                                "minChoices": 1,
+                                "orientation": "vertical",
+                                "choices": [
+                                    {
+                                        "identifier": "0",
+                                        "content": {
+                                            "body": "Astma"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "0",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "1",
+                                        "content": {
+                                            "body": "COPD"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "1",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "2",
+                                        "content": {
+                                            "body": "Hart - en vaatziekten"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "2",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "3",
+                                        "content": {
+                                            "body": "Kanker"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "3",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    }
+                                ],
+                                "responseIdentifier": "7583203_1",
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "7583203_1",
+                                "cardinality": "ordered",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0,
+                                    "default": 0,
+                                    "mapEntries": [
+                                        {
+                                            "key": "0",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "1",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "2",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "3",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        }
+                                    ]
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "7583328"
+                    },
+                    "assessmentItem": {
+                        "identifier": "7583328",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "matchInteraction",
+                                "label": "verschillende soorten ziektes",
+                                "prompt": {
+                                    "body": "<p>Koppel de ziektes aan het juiste symptoom.</p>"
+                                },
+                                "shuffle": true,
+                                "minAssociations": 5,
+                                "maxAssociations": 5,
+                                "sourceSimpleMatchSet": [
+                                    {
+                                        "identifier": "SOURCE_3",
+                                        "content": {
+                                            "body": "<p>Problemen met spreken en begrijpen, vergeetachtig zijn.</p>"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "SOURCE_4",
+                                        "content": {
+                                            "body": "<p>Blijvende vermoeidheid pijn op de borst</p>"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "SOURCE_5",
+                                        "content": {
+                                            "body": "<p>Verdikking of bobbel in hte lichaam</p>"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "SOURCE_2",
+                                        "content": {
+                                            "body": "<p>Snel buiten adem, roken, kortademig zijn en hoetsen.</p>"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "SOURCE_1",
+                                        "content": {
+                                            "body": "<p>Benauwdheid, Ge\u00efriteerde slijumviezen</p>"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    }
+                                ],
+                                "targetSimpleMatchSet": [
+                                    {
+                                        "identifier": "TARGET_1",
+                                        "content": {
+                                            "body": "<p>Astma</p>"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "TARGET_2",
+                                        "content": {
+                                            "body": "<p>COPD</p>"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "TARGET_3",
+                                        "content": {
+                                            "body": "<p>Dementie</p>"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "TARGET_4",
+                                        "content": {
+                                            "body": "<p>Hart en Vaatziekten</p>"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "TARGET_5",
+                                        "content": {
+                                            "body": "<p>Kanker</p>"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    }
+                                ],
+                                "responseIdentifier": "7583328_1",
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "7583328_1",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": "SOURCE_1",
+                                            "value": "TARGET_1"
+                                        },
+                                        {
+                                            "fieldIdentifier": "SOURCE_2",
+                                            "value": "TARGET_2"
+                                        },
+                                        {
+                                            "fieldIdentifier": "SOURCE_3",
+                                            "value": "TARGET_3"
+                                        },
+                                        {
+                                            "fieldIdentifier": "SOURCE_4",
+                                            "value": "TARGET_4"
+                                        },
+                                        {
+                                            "fieldIdentifier": "SOURCE_5",
+                                            "value": "TARGET_5"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": "0",
+                                    "upperBound": "1",
+                                    "default": "0",
+                                    "mapEntries": null
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": "0",
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "7583331"
+                    },
+                    "assessmentItem": {
+                        "identifier": "7583331",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "textEntryInteraction",
+                                "content": {
+                                    "body": "<p>Is een ontsteking van de longen en het is een chronische ziekte.<textentry identifier=\"TE_6620352bb7ffc\"></textentry></p>\n<p>De meest voorkomende vorm van dementie is de ziekte van <textentry identifier=\"TE_6620352bb8009\"></textentry></p>\n<p>De Oorzaak van een <textentry identifier=\"TE_6620352bb800d\"></textentry> is vaak een <textentry identifier=\"TE_6620352bb8010\"></textentry>dat een bloedvat tijdelijk afsluit</p>\n<p>Wanneer de klachten langer duren dan 24 uur, dan spreken we van een <textentry identifier=\"TE_6620352bb8012\"></textentry>ook wel <textentry identifier=\"TE_6620352bb8015\"></textentry> genoemd.</p>",
+                                    "items": [
+                                        {
+                                            "identifier": "TE_6620352bb7ffc",
+                                            "responseIdentifier": "TE_6620352bb7ffc_0",
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "TE_6620352bb8009",
+                                            "responseIdentifier": "TE_6620352bb8009_1",
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "TE_6620352bb800d",
+                                            "responseIdentifier": "TE_6620352bb800d_2",
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "TE_6620352bb8010",
+                                            "responseIdentifier": "TE_6620352bb8010_3",
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "TE_6620352bb8012",
+                                            "responseIdentifier": "TE_6620352bb8012_4",
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "TE_6620352bb8015",
+                                            "responseIdentifier": "TE_6620352bb8015_5",
+                                            "feedbackInline": null
+                                        }
+                                    ]
+                                },
+                                "label": "Ziektes",
+                                "responseIdentifier": null,
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "TE_6620352bb7ffc_0",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "Astma"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0.17,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            },
+                            {
+                                "identifier": "TE_6620352bb8009_1",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "Alzheimer"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0.17,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            },
+                            {
+                                "identifier": "TE_6620352bb800d_2",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "TIA"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0.17,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            },
+                            {
+                                "identifier": "TE_6620352bb8010_3",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "Bloedstolsel"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0.17,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            },
+                            {
+                                "identifier": "TE_6620352bb8012_4",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "Beroerte"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0.17,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            },
+                            {
+                                "identifier": "TE_6620352bb8015_5",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "CVA"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0.17,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "7721341"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "PowerPoint maken",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "file",
+                    "title": "Opdracht PowerPoint Chronische ziekten",
+                    "file": "https://maken.wikiwijs.nl/userfiles/9/9e53ef870f689693f64351699050780340ac0677.docx"
+                }
+            ],
+            "sections": []
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": null,
+            "dimension": null,
+            "suppressTitle": null
+        },
+        "color": "#333333"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Test je voorkennis",
+                "reference": {
+                    "value": "7721063"
+                },
+                "sections": []
+            },
+            {
+                "title": "Theorie COPD",
+                "reference": {
+                    "value": "7582129"
+                },
+                "sections": [
+                    {
+                        "title": "ademen door een rietje",
+                        "reference": {
+                            "value": "7721281"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Astma",
+                "reference": {
+                    "value": "7582196"
+                },
+                "sections": []
+            },
+            {
+                "title": "Kanker",
+                "reference": {
+                    "value": "7582497"
+                },
+                "sections": []
+            },
+            {
+                "title": "Dementie",
+                "reference": {
+                    "value": "7582498"
+                },
+                "sections": []
+            },
+            {
+                "title": "Hart en Vaatziekten",
+                "reference": {
+                    "value": "7582499"
+                },
+                "sections": []
+            },
+            {
+                "title": "Beroerte ",
+                "reference": {
+                    "value": "7582500"
+                },
+                "sections": [
+                    {
+                        "title": "Verrijkingsopdracht ",
+                        "reference": {
+                            "value": "7721342"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Oefen opdrachten theorie ziektes",
+                "reference": {
+                    "value": "7583269"
+                },
+                "sections": []
+            },
+            {
+                "title": "PowerPoint maken",
+                "reference": {
+                    "value": "7721341"
+                },
+                "sections": []
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": "",
+        "imageSrc": null,
+        "sources": [],
+        "metadata": [
+            {
+                "key": "educationalLevels",
+                "label": "Leerniveaus",
+                "terms": {
+                    "12e85a55-b3ae-4e7f-a2a0-d645f4c573bf": "VMBO kaderberoepsgerichte leerweg, 1",
+                    "50746437-08f3-4559-8af3-3fa6e05d1a44": "VMBO basisberoepsgerichte leerweg, 1"
+                }
+            },
+            {
+                "key": "disciplines",
+                "label": "Leerinhoud en doelen",
+                "terms": {
+                    "3e1f23da-ab74-440d-a2e2-6856cd5c51a8": "Verzorging"
+                }
+            },
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

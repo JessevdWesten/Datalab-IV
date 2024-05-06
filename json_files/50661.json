@@ -1,0 +1,218 @@
+{
+    "documentAuthors": [
+        "Bert Bredewold"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Bert Bredewold",
+            "referenceName": null,
+            "reference": {
+                "value": "14635"
+            },
+            "firstName": "Bert",
+            "infix": "",
+            "lastName": "Bredewold",
+            "emailAddress": "bbredewold@gmail.com",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2014-04-23T11:02:24Z",
+    "bulkId": "bulk-17041135-refresh_all",
+    "identifier": 50661,
+    "title": "Project PiggyBank 2014",
+    "description": "In het kader van PHP + Databases",
+    "lastModifiedDate": "2014-04-23T11:02:24+02:00",
+    "dateCreated": "-0001-11-30T00:00:00+00:19",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "Bredewold, Bert",
+                "reference": {
+                    "value": "14635"
+                },
+                "firstName": "Bert",
+                "infix": "",
+                "lastName": "Bredewold",
+                "emailAddress": "bbredewold@gmail.com",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-30",
+            "name": "CC Naamsvermelding 3.0 Nederland licentie",
+            "description": "De Nederlandse Creative Commons 3.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/3.0/nl/.",
+            "link": "http://creativecommons.org/licenses/by/3.0/nl/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/50661/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "812946"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Start",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<h4>Project Piggybank</h4>\n<p>In deze les gaan we nog een laatste maal hands-on met databases.</p>\n<p>Als je het goed doet, komen alle aspecten nog een keer terug; het normaliseren, sql als select en insert into, maar ook joins en relaties komen aan bod.</p>\n<h4>Wat gaan we doen?</h4>\n<p>We gaan een banksysteem bouwen. In je woonplaats staat een nieuwe bank genaamd PiggyBank. Bij deze bank kun je veilig je geld wegzetten.</p>\n<p>Je maakt een mini-website, waarin je een overzicht van alle rekeningen ziet, per rekening een overzicht kan opvragen van bij- en afschrijvingen, en zelf ook nieuwe transacties (overboekingen) kan doen.</p>\n<p>Overboekingen kunnen alleen intern. Iedereen in jouw stad moet dus lid worden van deze bank ;)</p>\n<p> </p>\n<p>Klik op Volgende om te doen hoe we het gaan aanpakken...</p>\n"
+                },
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/0/0c1c5434af89b687f6840c0ca3f33541.png",
+                    "altText": "Piggy-Bank",
+                    "alignment": "center",
+                    "scale": 0.2,
+                    "link": ""
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "812948"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Uitleg Project PiggyBank",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<h3>Stap 1: De Database</h3>\n<p>Zoals gelezen op de vorige pagina, maak je een kleine website met een aantal functies.</p>\n<p>Voordat het zover is, moeten we eerst helder krijgen welke gegevens we in de databases willen.</p>\n<h4>Dataset</h4>\n<p>Vooraf is al bekend geworden dat er met deze dataset gewerkt moet worden. Als je functionaliteit mist, voeg je deze toe. </p>\n<div style=\"background:#eee; border:1px solid #ccc; padding:5px 10px;\">telefoonnr, adres, klantnaam, klantnr, woonplaats, rekeningnr, rekeningnaam, roodstaan, transactieid, rekeningnr, tegenrekening, bedrag, datum, balansnatransactie</div>\n<p> </p>\n<p>Orden en normaliseer deze gegevens, zorg dat er 3 tabellen ontstaan: <em>klanten, rekeningen, transacties</em></p>\n<p>Maak deze tabellen aan in een nieuwe database, die je <em>piggybank</em> noemt.</p>\n<h4>Relaties</h4>\n<p>Je brengt ook relaties aan tussen je tabellen.</p>\n<p>Gebruik als voorbeeld dit stuk SQL:</p>\n<div style=\"background:#eee; border:1px solid #ccc; padding:5px 10px;\">\n<div class=\"code\">ALTER TABLE tabelnaam</div>\n<span class=\"font-size-12px\" style=\"background-color:rgb(247, 247, 249); color:rgb(221, 17, 68);\">kolomnaam</span>\n<div class=\"code\">)</div>\n<span class=\"font-size-12px\" style=\"background-color:rgb(247, 247, 249); color:rgb(221, 17, 68);\">kolomnaam</span>\n<div class=\"code\">)</div>\n</div>\n<p> </p>\n<p>Leg deze relaties:</p>\n<p>1. Er kan alleen een rekeningnummer aangemaakt worden voor een bestaande klant. (De tabel <em>klanten</em> moet dus gekoppeld worden met de tabel <em>rekeningen</em>)</p>\n<p>2. Bij een nieuwe transactie, kan er alleen voor bestaande rekeningnummers gekozen worden. (De tabel <em>transacties</em>, moet dus gekoppeld worden aan de tabel <em>rekeningen</em>.)</p>\n<p> </p>\n<h3><span class=\"marker\">Vul je tabellen klanten, en rekeningen vast met wat data!</span></h3>\n<p> </p>\n<p> </p>\n<h4><span class=\"marker\">Je website</span></h4>\n<p><span class=\"marker\">Zie de afbeeldingen hierover voor voorbeeld hoe je websiteje eruit kan zien.</span></p>\n<p><span class=\"marker\">Zorg in ieder geval dat je dit kunt:</span></p>\n<ul>\n<li>Overzicht kan krijgen van alle rekeningnummers + bijhorende klantnamen.</li>\n<li>Overzicht kan krijgen voor een specifiek rekeningnummer. Geef alle transacties. (Zoals Internetbankieren ook werkt)</li>\n<li>Nieuwe transacties kan invoeren. Dus een overschrijving tussen 2 bestaande rekeningen.</li>\n</ul>\n<p>Alleen als je bovenstaande voor elkaar hebt:</p>\n<ul>\n<li>Zorg dat je via de website ook nieuwe klanten kan toevoegen.</li>\n<li>Zorg dat je voor een klant ook rekeningen kan toevoegen.</li>\n<li>Als je nog tijd over hebt, zie de pagina 'Klaar'.</li>\n</ul>\n<p> </p>\n<p>Heel veel plezier gewenst!</p>\n"
+                },
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/b/bbfacf966f9abc07d5dd08905028dc6b.png",
+                    "altText": "",
+                    "alignment": "left",
+                    "scale": 0.3,
+                    "link": ""
+                },
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/9/987b34dc29b4e8cd0427d74bde000689.png",
+                    "altText": "",
+                    "alignment": "left",
+                    "scale": 0.3,
+                    "link": ""
+                },
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/9/9d395d6eef818bb1be1fc32f76023a8f.png",
+                    "altText": "",
+                    "alignment": "left",
+                    "scale": 0.3,
+                    "link": ""
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "812949"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Klaar!?",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<h4>Jij bent snel!</h4>\n<p>Om je Piggybank nog wat uitdagender te maken, gaan kunnen we nog wat functionaliteit toevoegen:</p>\n<h5>Rood Staan</h5>\n<p>Zoals je weet, staat er in de database een veld waarin wordt geregistreerd of iemand rood mag staan.<br/>\nZorg ervoor dat als in dit veld op FALSE staat, iemand niet een overboeking kan doen, waarmee hij/zij in het rood komt te staan.</p>\n<h5>IBAN Check</h5>\n<p>Zoek je nog meer uitdaging?</p>\n<p>Maak dan een script, waarin je een IBAN rekeningnummer kan valideren, en bouw dit in je PiggyBank in, als je een een nieuw rekeningnummer toevoegd aan een klant.</p>\n<p>De eisen waaraan een geldig IBAN voldoet, kun je op Wikipedia vinden. Lees dit even zorgvuldig.</p>\n<p>Uiteraard programmeer je deze check-module zelf, en gebruik je niet iets wat al bestaat.</p>\n<p> </p>\n<p>Als je klaar bent, zou je je eigen rekeningnummers kunnen toevoegen, maar een zelf bedacht nummer niet.</p>\n"
+                }
+            ],
+            "sections": []
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": null,
+            "dimension": null,
+            "suppressTitle": null
+        },
+        "color": "#495057"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Start",
+                "reference": {
+                    "value": "812946"
+                },
+                "sections": []
+            },
+            {
+                "title": "Uitleg Project PiggyBank",
+                "reference": {
+                    "value": "812948"
+                },
+                "sections": []
+            },
+            {
+                "title": "Klaar!?",
+                "reference": {
+                    "value": "812949"
+                },
+                "sections": []
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": "",
+        "imageSrc": null,
+        "sources": [],
+        "metadata": [
+            {
+                "key": "educationalLevels",
+                "label": "Leerniveaus",
+                "terms": {
+                    "654931e1-6f8b-4f72-aa4b-92c99c72c347": "MBO, Niveau 3: Vakopleiding",
+                    "8beca7eb-95a5-4c7d-9704-2d2a2fc4bc65": "MBO, Niveau 4: Middenkaderopleiding"
+                }
+            },
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            },
+            {
+                "key": "learningTime",
+                "label": "Studiebelasting",
+                "terms": [
+                    "0 uur en 50 minuten"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

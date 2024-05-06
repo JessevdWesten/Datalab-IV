@@ -1,0 +1,381 @@
+{
+    "documentAuthors": [
+        "Natasja Kok"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Natasja Kok",
+            "referenceName": null,
+            "reference": {
+                "value": "71117"
+            },
+            "firstName": "Natasja",
+            "infix": null,
+            "lastName": "Kok",
+            "emailAddress": "n.kok@fontys.nl",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2018-01-06T19:36:29Z",
+    "bulkId": "bulk-17041135-refresh_all",
+    "identifier": 117456,
+    "title": "quiz",
+    "description": "succes",
+    "lastModifiedDate": "2018-01-06T19:36:29+01:00",
+    "dateCreated": "2018-01-06T19:31:05+01:00",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "Kok, Natasja",
+                "reference": {
+                    "value": "71117"
+                },
+                "firstName": "Natasja",
+                "infix": null,
+                "lastName": "Kok",
+                "emailAddress": "n.kok@fontys.nl",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-30",
+            "name": "CC Naamsvermelding 3.0 Nederland licentie",
+            "description": "De Nederlandse Creative Commons 3.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/3.0/nl/.",
+            "link": "http://creativecommons.org/licenses/by/3.0/nl/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/117456/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "empty_section"
+            },
+            "heading": {
+                "type": "empty_heading",
+                "content": "",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "questionnaire",
+                    "reference": {
+                        "value": "3992928"
+                    },
+                    "assessmentTestItem": {
+                        "label": "Test",
+                        "type": "diagnostic",
+                        "header": {
+                            "url": "https://maken.wikiwijs.nl/p/questionnaire/standalone/3992928",
+                            "title": "Quiz ak"
+                        },
+                        "introduction": {
+                            "body": ""
+                        },
+                        "countQuestions": 2,
+                        "sections": [
+                            {
+                                "type": "diagnostic",
+                                "identifier": "0",
+                                "name": "Nieuwe Categorie",
+                                "select": null,
+                                "shuffle": null,
+                                "selection": null,
+                                "assessmentItems": [
+                                    {
+                                        "identifier": "3992928_0",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "choiceInteraction",
+                                                "label": "",
+                                                "prompt": {
+                                                    "body": "<p>Wat is het juiste antwoord?</p>"
+                                                },
+                                                "shuffle": false,
+                                                "maxChoices": 2,
+                                                "minChoices": 1,
+                                                "orientation": "vertical",
+                                                "choices": [
+                                                    {
+                                                        "identifier": "0",
+                                                        "content": {
+                                                            "body": "A is niet juist"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "0",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": {
+                                                                "body": "dit is niet goed want..."
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "1",
+                                                        "content": {
+                                                            "body": "dit is juist"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "1",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    }
+                                                ],
+                                                "responseIdentifier": "3992928_0_1",
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "3992928_0_1",
+                                                "cardinality": "ordered",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "0"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0,
+                                                    "default": 0,
+                                                    "mapEntries": [
+                                                        {
+                                                            "key": "0",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "1",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        }
+                                                    ]
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": false,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": true,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_THRESHOLD",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    },
+                                    {
+                                        "identifier": "3992928_1",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "selectPointInteraction",
+                                                "label": "",
+                                                "prompt": {
+                                                    "body": "<p>Waar ligt Nederland?</p>"
+                                                },
+                                                "minNumberOfPins": 1,
+                                                "maxNumberOfPins": "1",
+                                                "image": {
+                                                    "src": "https://maken.wikiwijs.nl/userfiles/8/8893467b6c6b1f6481c1fca1abeae67f4119ce68.png",
+                                                    "width": "875",
+                                                    "height": "620"
+                                                },
+                                                "responseIdentifier": "3992928_1_1",
+                                                "feedback": [
+                                                    {
+                                                        "outcomeIdentifier": "FEEDBACK_CORRECT",
+                                                        "identifier": "FBC_3992928_1",
+                                                        "showHide": null,
+                                                        "title": null,
+                                                        "content": {
+                                                            "body": "goed zo!"
+                                                        }
+                                                    },
+                                                    {
+                                                        "outcomeIdentifier": "FEEDBACK_INCORRECT",
+                                                        "identifier": "FBI_3992928_1",
+                                                        "showHide": null,
+                                                        "title": null,
+                                                        "content": {
+                                                            "body": "jammer..."
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "3992928_1_1",
+                                                "cardinality": "record",
+                                                "baseType": "identifier",
+                                                "correctResponse": null,
+                                                "mapping": null,
+                                                "areaMapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "areaMapEntries": [
+                                                        {
+                                                            "shape": "circle",
+                                                            "coordinates": [
+                                                                {
+                                                                    "x": 0,
+                                                                    "y": 0,
+                                                                    "z": null
+                                                                },
+                                                                {
+                                                                    "x": 0,
+                                                                    "y": 0,
+                                                                    "z": null
+                                                                },
+                                                                {
+                                                                    "x": 0,
+                                                                    "y": 0,
+                                                                    "z": null
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": false,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": true,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_THRESHOLD",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 1,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    }
+                                ]
+                            }
+                        ],
+                        "outcomeDeclarations": null,
+                        "showEvaluation": null,
+                        "feedback": null
+                    }
+                }
+            ],
+            "sections": []
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": null,
+            "dimension": null,
+            "suppressTitle": null
+        },
+        "color": "#495057"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": null,
+        "imageSrc": null,
+        "sources": [],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

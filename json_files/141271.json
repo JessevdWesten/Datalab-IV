@@ -1,0 +1,220 @@
+{
+    "documentAuthors": [
+        "Geert van der Wijk"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Geert van der Wijk",
+            "referenceName": null,
+            "reference": {
+                "value": "67392"
+            },
+            "firstName": "Geert",
+            "infix": null,
+            "lastName": "van der Wijk",
+            "emailAddress": "grs.vander.wijk@windesheim.nl",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2019-03-20T15:09:47Z",
+    "bulkId": "bulk-17041658-refresh_all",
+    "identifier": 141271,
+    "title": "Voorbeeldvraag sensoren",
+    "description": "",
+    "lastModifiedDate": "2019-03-20T15:09:47+01:00",
+    "dateCreated": "2019-03-20T10:33:37+01:00",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "van der Wijk, Geert",
+                "reference": {
+                    "value": "67392"
+                },
+                "firstName": "Geert",
+                "infix": null,
+                "lastName": "van der Wijk",
+                "emailAddress": "grs.vander.wijk@windesheim.nl",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-40",
+            "name": "CC Naamsvermelding 4.0 Internationale licentie",
+            "description": "De Internationale Creative Commons 4.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/4.0/.",
+            "link": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/141271/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "empty_section"
+            },
+            "heading": {
+                "type": "empty_heading",
+                "content": "",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "5109466"
+                    },
+                    "assessmentItem": {
+                        "identifier": "5109466",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "textEntryInteraction",
+                                "content": {
+                                    "body": "<p>Bij een 8 bit omzetting wordt de binnenkomende waarde verdeeld in 28 = 256 mogelijkheden. Dit betekent dat als je 0 Volt aanbiedt de waarde bijvoorbeeld 0 is, en bij 10 Volt is de waarde 255.</p>\n<p>Welke waarde meet de besturing bij een ingangsspanning van 2 Volt?</p>\n<p><textentry identifier=\"TE_661ff3c40f214\"></textentry></p>",
+                                    "items": [
+                                        {
+                                            "identifier": "TE_661ff3c40f214",
+                                            "responseIdentifier": "TE_661ff3c40f214_0",
+                                            "feedbackInline": null
+                                        }
+                                    ]
+                                },
+                                "label": "Vraag",
+                                "responseIdentifier": null,
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_CORRECT",
+                                        "identifier": "FBC_5109466",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "<p>Goed bekijk hier de formule: <span class=\"math-tex\"><img alt=\"Formule\" src=\"https://mathjax-service.wikiwijs.nl/convert.svg?formula=V2FhcmRlID0gKFZpbiAvIFZtYXgpICogKDJeOCAtIDEpID0gNTE%3D\"/></span></p>"
+                                        }
+                                    },
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_INCORRECT",
+                                        "identifier": "FBI_5109466",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "<p>Helaas bekijk hier de formuler: <span class=\"math-tex\"><img alt=\"Formule\" src=\"https://mathjax-service.wikiwijs.nl/convert.svg?formula=V2FhcmRlID0gKFZpbiAvIFZtYXgpICogKDJeOCAtIDEpID0gNTE%3D\"/></span></p>"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "TE_661ff3c40f214_0",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "51"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 1,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                }
+            ],
+            "sections": []
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": null,
+            "dimension": null,
+            "suppressTitle": null
+        },
+        "color": "#333333"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": null,
+        "imageSrc": null,
+        "sources": [],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            },
+            {
+                "key": "learningTime",
+                "label": "Studiebelasting",
+                "terms": [
+                    "4 uur en 0 minuten"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

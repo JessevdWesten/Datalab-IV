@@ -1,0 +1,1773 @@
+{
+    "documentAuthors": [
+        "Inge Runhaar"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Inge Runhaar",
+            "referenceName": null,
+            "reference": {
+                "value": "152186"
+            },
+            "firstName": "Inge",
+            "infix": null,
+            "lastName": "Runhaar",
+            "emailAddress": "irunhaar@daltondenhaag.nl",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2021-01-18T16:43:02Z",
+    "bulkId": "bulk-17041658-refresh_all",
+    "identifier": 172191,
+    "title": "wisselkoers",
+    "description": "aan de slag met wisselkoerssystemen en examenopgaven.",
+    "lastModifiedDate": "2021-01-18T16:43:02+01:00",
+    "dateCreated": "2021-01-15T12:09:50+01:00",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "Runhaar, Inge",
+                "reference": {
+                    "value": "152186"
+                },
+                "firstName": "Inge",
+                "infix": null,
+                "lastName": "Runhaar",
+                "emailAddress": "irunhaar@daltondenhaag.nl",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-40",
+            "name": "CC Naamsvermelding 4.0 Internationale licentie",
+            "description": "De Internationale Creative Commons 4.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/4.0/.",
+            "link": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/172191/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "6517031"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Wisselkoerssystemen ",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>De laatste markt die je voor het vak economie zal leren is de valutamarkt. De komende twee uur ga je door de verschillende wisselkoerssystemen heen. Je maakt de opdrachten en bekijk ook alle filmpjes. </p>\n<p>Heel veel succes.</p>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "6517038"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Wat is een wisselkoers?",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>De wisselkoers is de prijs (of waarde) van een munt, uitgedrukt in een andere munt. Wisselkoersen kunnen veranderen. De wisselkoers wordt bepaald door vraag en aanbod op een markt. De markt waarop valuta's (muntsoorten) worden verhandeld, noemen we de valutamarkt.</p>\n<p>Bekijk het filmpje over de wisselkoers.</p>\n"
+                },
+                {
+                    "type": "link",
+                    "link": "http://www.economiematerialen.nl/index.php/rekenen/2-uncategorised/81-rekenen-met-vreemde-valuta-1",
+                    "title": "hoe moet je nu rekenen met de wisselkoers?",
+                    "description": "Extra oefeningen.",
+                    "comment": ""
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6517046"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6517046",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "rekenen met een wisselkoers.",
+                                "prompt": {
+                                    "body": "<p>Een Duitser ging op 5 januari 2005 naar New York en sliep in een hotel voor $ 200 per nacht.</p>\n<p>De euro noteerde op 5 januari 2005 de volgende koers: \u20ac 1 = $ 1,25. Op 17 augustus 2010 ging hij weer naar New York en boekte een hotelkamer voor dezelfde prijs van $ 200 per nacht. De euro noteerde op die dag de volgende koers: \u20ac 1 = $ 1,40.</p>\n<p>Bereken hoeveel euro hij meer of minder moest betalen voor de hotelkamer op 17 augustus 2010 in vergelijking met 5 januari 2005.</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6517046_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>Op 5 januari 2005 betaalde hij in euro&rsquo;s 200/1,25 = &euro; 160.</p>\r\n\r\n<p>Op 17 augustus 2010 betaalde hij in euro&rsquo;s 200/1,40 = &euro; 142,86.</p>\r\n\r\n<p>Hij betaalde op 17 augustus 2010 160 &ndash; 142,86 = &euro; 17,14 minder.</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>Op 5 januari 2005 betaalde hij in euro's 200/1,25 = \u20ac 160.</p>\n<p>Op 17 augustus 2010 betaalde hij in euro's 200/1,40 = \u20ac 142,86.</p>\n<p>Hij betaalde op 17 augustus 2010 160 - 142,86 = \u20ac 17,14 minder.</p>"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "6517083"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "De betalingsbalans",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Vraag en aanbod op de valutamarkt worden bepaald door goederen-, diensten- en kapitaalstromen. Door internationale handel is er dus vraag naar -en aanbod van verschillende munten. Als vanuit de Verenigde Staten de vraag naar producten (goederen en diensten) uit de eurozone toeneemt en de export uit de eurozone dus groeit, zal de vraag naar euro's toenemen en daardoor de wisselkoers van de euro op de valutamarkt stijgen ten opzichte van de dollar. De wisselkoers kan grafisch worden weergegeven met behulp van vraag- en aanbodlijnen.</p>\n<p>De registratie van internationale geldstromen vindt plaats op <strong>de betalingsbalans.</strong> De betalingsbalans van een land is een systematisch overzicht van de ontvangsten van het buitenland en de uitgaven aan het buitenland in een bepaalde periode. Op de betalingsbalans staan stroomgrootheden. <strong>De betalingsbalans bestaat uit de lopende rekening en de kapitaalrekening.</strong></p>\n"
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "6517087"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Hoe ziet de betalingsbalans eruit?",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/d/d39e8fe7334779d82900a69ad25b177d96acfebf.png",
+                            "altText": "betalingsbalans",
+                            "alignment": "left",
+                            "scale": 0.3,
+                            "link": "https://www.economielokaal.nl/betalingsbalans-2/"
+                        },
+                        {
+                            "type": "link",
+                            "link": "https://www.youtube.com/watch?v=JUg9pdyI0w8&ab_channel=OsAcademie",
+                            "title": "uitleg betalingsbalans.",
+                            "description": "",
+                            "comment": ""
+                        },
+                        {
+                            "type": "question",
+                            "reference": {
+                                "value": "6517101"
+                            },
+                            "assessmentItem": {
+                                "identifier": "6517101",
+                                "itemBody": null,
+                                "questions": [
+                                    {
+                                        "type": "extendedTextInteraction",
+                                        "label": "",
+                                        "prompt": {
+                                            "body": "<p>Hieronder staan enkele transacties.</p>\n<p>a.    Geef bij elke transactie aan of deze op de lopende rekening (LR) of op de kapitaalrekening (KR) van de eurozone wordt geboekt.</p>\n<p>b.    Geef bij elke transactie met een kruisje aan of er sprake is van een ontvangst of een uitgave.</p>\n<p>c.    Geef bij elke transactie met een kruisje aan of er euro's gevraagd of aangeboden worden op de valutamarkt.</p>\n<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td class=\"width-271-pixels\">\n<p> </p>\n</td>\n<td class=\"width-38-pixels\">\n<p><strong>LR of KR</strong></p>\n</td>\n<td class=\"width-88-pixels\">\n<p><strong>ontvangst uit buitenland</strong></p>\n</td>\n<td class=\"width-88-pixels\">\n<p><strong>uitgave aan buitenland</strong></p>\n</td>\n<td class=\"width-57-pixels\">\n<p><strong>Vraag naar euro's</strong></p>\n</td>\n<td class=\"width-69-pixels\">\n<p><strong>Aanbod van euro's</strong></p>\n</td>\n</tr>\n<tr>\n<td class=\"width-271-pixels\">\n<p>Een Japans bedrijf koopt tulpen in Nederland.</p>\n</td>\n<td class=\"width-38-pixels\">\n<p> </p>\n</td>\n<td class=\"width-88-pixels\">\n<p> </p>\n</td>\n<td class=\"width-88-pixels\">\n<p> </p>\n</td>\n<td class=\"width-57-pixels\">\n<p> </p>\n</td>\n<td class=\"width-69-pixels\">\n<p> </p>\n</td>\n</tr>\n<tr>\n<td class=\"width-271-pixels\">\n<p>Spanje verstrekt een lening aan India.</p>\n</td>\n<td class=\"width-38-pixels\">\n<p> </p>\n</td>\n<td class=\"width-88-pixels\">\n<p> </p>\n</td>\n<td class=\"width-88-pixels\">\n<p> </p>\n</td>\n<td class=\"width-57-pixels\">\n<p> </p>\n</td>\n<td class=\"width-69-pixels\">\n<p> </p>\n</td>\n</tr>\n<tr>\n<td class=\"width-271-pixels\">\n<p>Een Koreaans bedrijf vestigt zich in de Randstad.</p>\n</td>\n<td class=\"width-38-pixels\">\n<p> </p>\n</td>\n<td class=\"width-88-pixels\">\n<p> </p>\n</td>\n<td class=\"width-88-pixels\">\n<p> </p>\n</td>\n<td class=\"width-57-pixels\">\n<p> </p>\n</td>\n<td class=\"width-69-pixels\">\n<p> </p>\n</td>\n</tr>\n<tr>\n<td class=\"width-271-pixels\">\n<p>Japanse toeristen bezoeken Parijs.</p>\n</td>\n<td class=\"width-38-pixels\">\n<p> </p>\n</td>\n<td class=\"width-88-pixels\">\n<p> </p>\n</td>\n<td class=\"width-88-pixels\">\n<p> </p>\n</td>\n<td class=\"width-57-pixels\">\n<p> </p>\n</td>\n<td class=\"width-69-pixels\">\n<p> </p>\n</td>\n</tr>\n<tr>\n<td class=\"width-271-pixels\">\n<p>De Nederlandse ambassadeur in Tokio ontvangt zijn salaris van de Nederlandse overheid.</p>\n</td>\n<td class=\"width-38-pixels\">\n<p> </p>\n</td>\n<td class=\"width-88-pixels\">\n<p> </p>\n</td>\n<td class=\"width-88-pixels\">\n<p> </p>\n</td>\n<td class=\"width-57-pixels\">\n<p> </p>\n</td>\n<td class=\"width-69-pixels\">\n<p> </p>\n</td>\n</tr>\n</tbody>\n</table>\n<p> </p>"
+                                        },
+                                        "feedback": null
+                                    }
+                                ],
+                                "responseDeclarations": [
+                                    {
+                                        "identifier": "6517101_1",
+                                        "cardinality": "single",
+                                        "baseType": "string",
+                                        "correctResponse": {
+                                            "interpretation": null,
+                                            "values": [
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "<p><strong>Uitwerking opdracht</strong></p>\r\n\r\n<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td style=\"width:271px\">\r\n\t\t\t<p>&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:38px\">\r\n\t\t\t<p><strong>LR of KR</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:88px\">\r\n\t\t\t<p><strong>ontvangst uit buitenland</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:88px\">\r\n\t\t\t<p><strong>uitgave aan buitenland</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:57px\">\r\n\t\t\t<p><strong>Vraag naar euro&rsquo;s</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:69px\">\r\n\t\t\t<p><strong>Aanbod van euro&rsquo;s</strong></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"width:271px\">\r\n\t\t\t<p>Een Japans bedrijf koopt tulpen in Nederland.</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:38px\">\r\n\t\t\t<p><strong>LR</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:88px\">\r\n\t\t\t<p><strong>&times;</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:88px\">\r\n\t\t\t<p>&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:57px\">\r\n\t\t\t<p><strong>&times;</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:69px\">\r\n\t\t\t<p>&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"width:271px\">\r\n\t\t\t<p>Spanje verstrekt een lening aan India.</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:38px\">\r\n\t\t\t<p><strong>KR</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:88px\">\r\n\t\t\t<p>&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:88px\">\r\n\t\t\t<p><strong>&times;</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:57px\">\r\n\t\t\t<p>&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:69px\">\r\n\t\t\t<p><strong>&times;</strong></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"width:271px\">\r\n\t\t\t<p>Een Koreaans bedrijf vestigt zich in de Randstad.</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:38px\">\r\n\t\t\t<p><strong>KR</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:88px\">\r\n\t\t\t<p><strong>&times;</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:88px\">\r\n\t\t\t<p>&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:57px\">\r\n\t\t\t<p><strong>&times;</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:69px\">\r\n\t\t\t<p>&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"width:271px\">\r\n\t\t\t<p>Japanse toeristen bezoeken Parijs.</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:38px\">\r\n\t\t\t<p><strong>LR</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:88px\">\r\n\t\t\t<p><strong>&times;</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:88px\">\r\n\t\t\t<p>&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:57px\">\r\n\t\t\t<p><strong>&times;</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:69px\">\r\n\t\t\t<p>&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"width:271px\">\r\n\t\t\t<p>De Nederlandse ambassadeur in Tokio ontvangt zijn salaris van de Nederlandse overheid.</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:38px\">\r\n\t\t\t<p><strong>LR</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:88px\">\r\n\t\t\t<p>&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:88px\">\r\n\t\t\t<p><strong>&times;</strong></p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:57px\">\r\n\t\t\t<p>&nbsp;</p>\r\n\t\t\t</td>\r\n\t\t\t<td style=\"width:69px\">\r\n\t\t\t<p><strong>&times;</strong></p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>&nbsp;</p>\r\n"
+                                                }
+                                            ]
+                                        },
+                                        "mapping": {
+                                            "lowerBound": 0,
+                                            "upperBound": 1,
+                                            "default": 0,
+                                            "mapEntries": []
+                                        },
+                                        "areaMapping": null
+                                    }
+                                ],
+                                "outcomeDeclarations": [
+                                    {
+                                        "identifier": "SCORE",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 0,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": null,
+                                        "interpretation": null
+                                    }
+                                ],
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK",
+                                        "identifier": "ANSWER_CORRECT",
+                                        "showHide": true,
+                                        "title": null,
+                                        "content": {
+                                            "body": "<p><strong>Uitwerking opdracht</strong></p>\n<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td class=\"width-271-pixels\">\n<p> </p>\n</td>\n<td class=\"width-38-pixels\">\n<p><strong>LR of KR</strong></p>\n</td>\n<td class=\"width-88-pixels\">\n<p><strong>ontvangst uit buitenland</strong></p>\n</td>\n<td class=\"width-88-pixels\">\n<p><strong>uitgave aan buitenland</strong></p>\n</td>\n<td class=\"width-57-pixels\">\n<p><strong>Vraag naar euro's</strong></p>\n</td>\n<td class=\"width-69-pixels\">\n<p><strong>Aanbod van euro's</strong></p>\n</td>\n</tr>\n<tr>\n<td class=\"width-271-pixels\">\n<p>Een Japans bedrijf koopt tulpen in Nederland.</p>\n</td>\n<td class=\"width-38-pixels\">\n<p><strong>LR</strong></p>\n</td>\n<td class=\"width-88-pixels\">\n<p><strong>\u00d7</strong></p>\n</td>\n<td class=\"width-88-pixels\">\n<p> </p>\n</td>\n<td class=\"width-57-pixels\">\n<p><strong>\u00d7</strong></p>\n</td>\n<td class=\"width-69-pixels\">\n<p> </p>\n</td>\n</tr>\n<tr>\n<td class=\"width-271-pixels\">\n<p>Spanje verstrekt een lening aan India.</p>\n</td>\n<td class=\"width-38-pixels\">\n<p><strong>KR</strong></p>\n</td>\n<td class=\"width-88-pixels\">\n<p> </p>\n</td>\n<td class=\"width-88-pixels\">\n<p><strong>\u00d7</strong></p>\n</td>\n<td class=\"width-57-pixels\">\n<p> </p>\n</td>\n<td class=\"width-69-pixels\">\n<p><strong>\u00d7</strong></p>\n</td>\n</tr>\n<tr>\n<td class=\"width-271-pixels\">\n<p>Een Koreaans bedrijf vestigt zich in de Randstad.</p>\n</td>\n<td class=\"width-38-pixels\">\n<p><strong>KR</strong></p>\n</td>\n<td class=\"width-88-pixels\">\n<p><strong>\u00d7</strong></p>\n</td>\n<td class=\"width-88-pixels\">\n<p> </p>\n</td>\n<td class=\"width-57-pixels\">\n<p><strong>\u00d7</strong></p>\n</td>\n<td class=\"width-69-pixels\">\n<p> </p>\n</td>\n</tr>\n<tr>\n<td class=\"width-271-pixels\">\n<p>Japanse toeristen bezoeken Parijs.</p>\n</td>\n<td class=\"width-38-pixels\">\n<p><strong>LR</strong></p>\n</td>\n<td class=\"width-88-pixels\">\n<p><strong>\u00d7</strong></p>\n</td>\n<td class=\"width-88-pixels\">\n<p> </p>\n</td>\n<td class=\"width-57-pixels\">\n<p><strong>\u00d7</strong></p>\n</td>\n<td class=\"width-69-pixels\">\n<p> </p>\n</td>\n</tr>\n<tr>\n<td class=\"width-271-pixels\">\n<p>De Nederlandse ambassadeur in Tokio ontvangt zijn salaris van de Nederlandse overheid.</p>\n</td>\n<td class=\"width-38-pixels\">\n<p><strong>LR</strong></p>\n</td>\n<td class=\"width-88-pixels\">\n<p> </p>\n</td>\n<td class=\"width-88-pixels\">\n<p><strong>\u00d7</strong></p>\n</td>\n<td class=\"width-57-pixels\">\n<p> </p>\n</td>\n<td class=\"width-69-pixels\">\n<p><strong>\u00d7</strong></p>\n</td>\n</tr>\n</tbody>\n</table>\n<p> </p>"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "6517103"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Verband betalingsbalans en wisselkoers",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Op de lopende rekening staat de export en import van goederen en de ontvangen en betaalde inkomens aan het buitenland. Het zijn geldstromen, dus export van goederen en diensten staat aan de inkomstenkant (je ontvangt geld uit het buitenland) en import aan de uitgavenkant (je betaalt geld aan het buitenland). Als de inkomsten groter zijn dan de uitgaven is het saldo van de lopende rekening positief. We spreken dan van een <strong>overschot op de lopende rekening.</strong></p>\n<p>Op de kapitaalrekening worden de geldstromen van internationale investeringen, leningen en beleggingen geboekt. Als er meer kapitaal het land binnenkomt (bijvoorbeeld door een beter beleggings- en investeringsklimaat) dan het land verlaat, is de kapitaalimport groter dan de kapitaalexport. Er is dan een overschot op de kapitaalrekening. Het saldo is dan positief. De inkomsten op de betalingsbalans leiden op de valutamarkt tot vraag naar de munt van het betreffende land (of muntzone). Uitgaven leiden tot aanbod.</p>\n<p> </p>\n"
+                },
+                {
+                    "type": "video",
+                    "url": "https://www.youtube.com/watch?v=KXgGhxxDTMk&ab_channel=OsAcademie",
+                    "align": "left",
+                    "caption": "verband wisselkoers en betalingsbalans",
+                    "poster": "https://img.youtube.com/vi/KXgGhxxDTMk/maxresdefault.jpg"
+                },
+                {
+                    "type": "link",
+                    "link": "https://www.economielokaal.nl/wisselkoers",
+                    "title": "Hoe komt de flexibele wisselkoers tot stand?",
+                    "description": "Vragers op de valutamarkt zijn alle buitenlandse partijen die de valuta nodig hebben om in het betreffende land iets te kunnen kopen / te kunnen beleggen / te kunnen investeren.\r\n\r\nHoeveel er gevraagd wordt (en met welk doel), is terug te vinden aan de ontvangstenkant van de betalingsbalans.\r\nBijvoorbeeld de ontvangsten van bedrijven die goederen exporteren, of personen die in het buitenland werken en daarvoor loon ontvangen.\r\n\r\nAanbieders op de valutamarkt zijn alle binnenlandse partijen die iets in het buitenland willen kopen / investeren / beleggen / enz. Daarvoor moeten zij hun eigen munt omruilen (aanbieden) voor de benodigde vreemde valuta\u2019s.\r\n\r\nHoeveel er aangeboden wordt (en met welk doel), is terug te vinden aan de betalingenkant van de betalingsbalans.",
+                    "comment": ""
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<h2>Flexibele wisselkoersen of vrije wisselkoersen<iframe allowfullscreen=\"allowfullscreen\" frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/-9ruAlecalQ\" width=\"560\" class=\"video-item\"/></h2>\n<p>Wanneer er sprake is van flexibele wisselkoersen, wordt de koersvorming volledig overgelaten aan vraag en aanbod. Monetaire autoriteiten grijpen niet in als de koers sterk verandert.</p>\n<p>VOORDEEL: er ontstaat automatisch materieel betalingsbalansevenwicht.<br/>\nAls een land een tekort op de betalingsbalans heeft (betalingen &gt; ontvangsten , dus aanbod van de valuta &gt; vraag) zal de wisselkoers van de betreffende valuta gaan dalen. Door deze daling van de wisselkoers worden producten uit dat land voor buitenlanders goedkoper. Het buitenland zal meer gaan kopen, waardoor het tekort op de betalingbalans weer verdwijnt (export-ontvangsten nemen toe).</p>\n<p>NADEEL: er is sprake van grote (wisselkoers)risico's als landen handelscontracten afsluiten met het buitenland. Omdat mensen en bedrijven graag risico vermijden, zal er minder gehandeld worden. Minder handel betekent een verlies aan welvaart, omdat producten niet langer gemaakt worden op de goedkoopste/beste plaats (land).</p>\n<p><strong>Wanneer een wisselkoers daalt door de werking van vraag en aanbod, spreken we van een <em>depreciatie</em><em>.</em></strong></p>\n<p><strong>Wanneer een wisselkoers stijgt door de werking van vraag en aanbod, spreken we van een <em>appreciatie</em><em>.</em></strong></p>\n<p> </p>\n"
+                },
+                {
+                    "type": "questionnaire",
+                    "reference": {
+                        "value": "6517217"
+                    },
+                    "assessmentTestItem": {
+                        "label": "Oefening",
+                        "type": "exercise",
+                        "header": {
+                            "url": "https://maken.wikiwijs.nl/p/questionnaire/standalone/6517217",
+                            "title": "oefening verband betalingsbalans en wisselkoers"
+                        },
+                        "introduction": {
+                            "body": "<p>Heb je de stof goed doorgenomen? Dan gaan we nu wat oefenen</p>"
+                        },
+                        "countQuestions": 4,
+                        "sections": [
+                            {
+                                "type": "assessment",
+                                "identifier": "SECTION_6517217",
+                                "name": "MAIN_SECTION",
+                                "select": null,
+                                "shuffle": null,
+                                "selection": null,
+                                "assessmentItems": [
+                                    {
+                                        "identifier": "6517217_0",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "vraag 1",
+                                                "prompt": {
+                                                    "body": "<p><em>uit een krant (oktober 2006):</em></p>\n<p><strong>Chili profiteert slim van hoge koperprijs</strong></p>\n<p>De afgelopen maanden heeft de koperprijs een recordhoogte bereikt. Op de kopermarkt werd 8.000 dollar per duizend kilogram koper betaald. De hoge prijs is vooral te verklaren uit de toenemende vraag naar koper in snel groeiende economie\u00ebn zoals die van China en India.</p>\n<p> </p>\n<p>Chili is de grootste koperproducent ter wereld en het bedrijfsleven verdient goed aan de export van koper. Het gaat dan ook goed met de Chileense economie. Het is echter niet alleen maar feest. De scherpe prijsstijging van koper heeft ertoe geleid dat de koers van de nationale munt, de peso, steeg. Eind 2006 was 100 pesos daardoor $ 0,20 waard geworden terwijl dat eind 2001 nog $ 0,13 was. Exportbedrijven in Chili zoals Dole, de grootste fruitteler in het land en Concha y Toro, wijnexporteur, hebben nadeel van de gestegen koers van de peso.</p>\n<p>1.       Bereken met hoeveel procent de koers van peso in dollars tussen eind 2001 en eind 2006 is gestegen.</p>\n<p> </p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "6517217_0_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p>1. &nbsp; &nbsp; &nbsp; Een voorbeeld van een juiste berekening is:</p>\r\n\r\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td style=\"width:83px\">\r\n\t\t\t<p><u>0,20 -&nbsp; 0,13</u></p>\r\n\t\t\t</td>\r\n\t\t\t<td rowspan=\"2\" style=\"width:508px\">\r\n\t\t\t<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &times; 100% &nbsp;= 53,8%</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td style=\"width:83px\">\r\n\t\t\t<p>0,13</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><em>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</em></p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p>1.       Een voorbeeld van een juiste berekening is:</p>\n<p>               </p>\n<p> </p>\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td class=\"width-83-pixels\">\n<p><span class=\"underline\">0,20 -  0,13</span></p>\n</td>\n<td rowspan=\"2\" class=\"width-508-pixels\">\n<p>            \u00d7 100%  = 53,8%</p>\n</td>\n</tr>\n<tr>\n<td class=\"width-83-pixels\">\n<p>0,13</p>\n</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<p><em>               </em></p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "identifier": "6517217_1",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "textEntryInteraction",
+                                                "content": {
+                                                    "body": "<p>De koersstijging van de peso wordt<textentry identifier=\"TE_662018a549410\"></textentry> genoemd en wordt in de geschetste situatie veroorzaakt door een <textentry identifier=\"TE_662018a54941c\"></textentry> op de lopende rekening van de Chileense betalingsbalans waardoor er op de <textentry identifier=\"TE_662018a549420\"></textentry> meer <textentry identifier=\"TE_662018a549422\"></textentry> pesos is dan <textentry identifier=\"TE_662018a549425\"></textentry> pesos.</p>\n<p>Wat moet in plaats van de cijfers worden ingevuld om een economisch correcte tekst te krijgen?</p>\n<p>bij (1) appreciatie / depreciatie<br />\nbij (2) overschot / tekort<br />\nbij (3) kopersmarkt / valutamarkt<br />\nbij (4) aanbod van / vraag naar<br />\nbij (5) aanbod van / vraag naar</p>",
+                                                    "items": [
+                                                        {
+                                                            "identifier": "TE_662018a549410",
+                                                            "responseIdentifier": "TE_662018a549410_0",
+                                                            "feedbackInline": null
+                                                        },
+                                                        {
+                                                            "identifier": "TE_662018a54941c",
+                                                            "responseIdentifier": "TE_662018a54941c_1",
+                                                            "feedbackInline": null
+                                                        },
+                                                        {
+                                                            "identifier": "TE_662018a549420",
+                                                            "responseIdentifier": "TE_662018a549420_2",
+                                                            "feedbackInline": null
+                                                        },
+                                                        {
+                                                            "identifier": "TE_662018a549422",
+                                                            "responseIdentifier": "TE_662018a549422_3",
+                                                            "feedbackInline": null
+                                                        },
+                                                        {
+                                                            "identifier": "TE_662018a549425",
+                                                            "responseIdentifier": "TE_662018a549425_4",
+                                                            "feedbackInline": null
+                                                        }
+                                                    ]
+                                                },
+                                                "label": "vraag 2",
+                                                "responseIdentifier": null,
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "TE_662018a549410_0",
+                                                "cardinality": "record",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "appreciatie "
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0.2,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            },
+                                            {
+                                                "identifier": "TE_662018a54941c_1",
+                                                "cardinality": "record",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "overschot"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0.2,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            },
+                                            {
+                                                "identifier": "TE_662018a549420_2",
+                                                "cardinality": "record",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "valutamarkt"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0.2,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            },
+                                            {
+                                                "identifier": "TE_662018a549422_3",
+                                                "cardinality": "record",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "vraag naar"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0.2,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            },
+                                            {
+                                                "identifier": "TE_662018a549425_4",
+                                                "cardinality": "record",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "aanbod van"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0.2,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    },
+                                    {
+                                        "identifier": "6517217_2",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "vraag 3",
+                                                "prompt": {
+                                                    "body": "<p>3.       Leg uit dat Dole en Concha y Toro nadeel hebben van de gestegen koers van de peso.</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "6517217_2_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p>3. &nbsp; &nbsp; &nbsp; Een voorbeeld van een juist antwoord is: Een antwoord waaruit blijkt dat door de gestegen koers van de peso de producten voor buitenlandse afnemers duurder worden zodat de vraag / afzet kan afnemen.</p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p>3.       Een voorbeeld van een juist antwoord is: Een antwoord waaruit blijkt dat door de gestegen koers van de peso de producten voor buitenlandse afnemers duurder worden zodat de vraag / afzet kan afnemen.</p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "identifier": "6517217_3",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "textEntryInteraction",
+                                                "content": {
+                                                    "body": "<p>Dankzij de goede economische situatie stroomt er veel belastinggeld in de Chileense staatskas. De Chileense overheid geeft dit geld echter niet allemaal uit, maar stopt een flink deel in een spaarfonds. Dit fonds wordt in vreemde valuta's aangehouden en is bedoeld om in slechtere tijden de economie te kunnen stimuleren.</p>\n<p>Om het spaarfonds te vullen, koopt de Chileense overheid <textentry identifier=\"TE_662018a549b81\"></textentry> in ruil voor <textentry identifier=\"TE_662018a549b87\"></textentry>. Hierdoor wordt er een <textentry identifier=\"TE_662018a549b8a\"></textentry> druk op de koers van de peso uitgeoefend waardoor de Chileense internationale concurrentiepositie<textentry identifier=\"TE_662018a549b8d\"></textentry> wordt.</p>\n<p>Wat moet in plaats van de cijfers worden ingevuld om een economisch correcte tekst te krijgen.</p>\n<p>bij (1) peso's / vreemde valuta's<br />\nbij (2) peso's / vreemde valuta's<br />\nbij (3) neerwaartse / opwaartse</p>\n<p>bij (4) versterkt / verzwakt<br /></p>",
+                                                    "items": [
+                                                        {
+                                                            "identifier": "TE_662018a549b81",
+                                                            "responseIdentifier": "TE_662018a549b81_0",
+                                                            "feedbackInline": null
+                                                        },
+                                                        {
+                                                            "identifier": "TE_662018a549b87",
+                                                            "responseIdentifier": "TE_662018a549b87_1",
+                                                            "feedbackInline": null
+                                                        },
+                                                        {
+                                                            "identifier": "TE_662018a549b8a",
+                                                            "responseIdentifier": "TE_662018a549b8a_2",
+                                                            "feedbackInline": null
+                                                        },
+                                                        {
+                                                            "identifier": "TE_662018a549b8d",
+                                                            "responseIdentifier": "TE_662018a549b8d_3",
+                                                            "feedbackInline": null
+                                                        }
+                                                    ]
+                                                },
+                                                "label": "vraag 4",
+                                                "responseIdentifier": null,
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "TE_662018a549b81_0",
+                                                "cardinality": "record",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "vreemde valuta's"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0.25,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            },
+                                            {
+                                                "identifier": "TE_662018a549b87_1",
+                                                "cardinality": "record",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "peso's"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0.25,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            },
+                                            {
+                                                "identifier": "TE_662018a549b8a_2",
+                                                "cardinality": "record",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "neerwaartse"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0.25,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            },
+                                            {
+                                                "identifier": "TE_662018a549b8d_3",
+                                                "cardinality": "record",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "versterkt"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0.25,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    }
+                                ]
+                            }
+                        ],
+                        "outcomeDeclarations": null,
+                        "showEvaluation": null,
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "questionnaire",
+                    "reference": {
+                        "value": "6517264"
+                    },
+                    "assessmentTestItem": {
+                        "label": "Oefening",
+                        "type": "exercise",
+                        "header": {
+                            "url": "https://maken.wikiwijs.nl/p/questionnaire/standalone/6517264",
+                            "title": "oefening 2"
+                        },
+                        "introduction": {
+                            "body": "<p><strong>\u20ac, $ en \u00a5</strong></p>\n<p>Veel Europese ondernemingen doen dagelijks zaken met bedrijven buiten Europa. Ze krijgen dan te maken met verschillende munten, vooral met de Europese euro (.), de Amerikaanse dollar ($) en de Japanse yen (\u00a5). De koers van de euro ten opzichte van de dollar en de yen kan schommelen door veranderingen van vraag en aanbod op de valutamarkt.</p>\n<p> </p>"
+                        },
+                        "countQuestions": 4,
+                        "sections": [
+                            {
+                                "type": "assessment",
+                                "identifier": "SECTION_6517264",
+                                "name": "MAIN_SECTION",
+                                "select": null,
+                                "shuffle": null,
+                                "selection": null,
+                                "assessmentItems": [
+                                    {
+                                        "identifier": "6517264_0",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "vraag 1",
+                                                "prompt": {
+                                                    "body": "<p>Stel dat de koers van de euro ten opzichte van de dollar.</p>\n<p>Is hier sprake van een appreciatie of van een depreciatie van de euro?</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "6517264_0_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p>appreciatie</p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p>appreciatie</p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "identifier": "6517264_1",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "textEntryInteraction",
+                                                "content": {
+                                                    "body": "<p>De koersstijging van de euro wordt veroorzaakt door de situatie op de betalingsbalans van de eurolanden.</p>\n<p>Dit wijst op een betalingsbalans <textentry identifier=\"TE_662018a54ab3b\"></textentry> van de eurolanden. In dat geval is de vraag naar euro's <textentry identifier=\"TE_662018a54ab41\"></textentry> dan het aanbod van euro's. De ontvangsten uit het buitenland zijn dan <textentry identifier=\"TE_662018a54ab44\"></textentry> dan de betalingen aan het buitenland.<br />\nWat moet in plaats van de cijfers worden ingevuld om een economisch correcte tekst te krijgen?<br />\nBij (1) overschot / tekort<br />\nBij (2) groter / kleiner<br />\nBij (3) groter / kleiner</p>",
+                                                    "items": [
+                                                        {
+                                                            "identifier": "TE_662018a54ab3b",
+                                                            "responseIdentifier": "TE_662018a54ab3b_0",
+                                                            "feedbackInline": null
+                                                        },
+                                                        {
+                                                            "identifier": "TE_662018a54ab41",
+                                                            "responseIdentifier": "TE_662018a54ab41_1",
+                                                            "feedbackInline": null
+                                                        },
+                                                        {
+                                                            "identifier": "TE_662018a54ab44",
+                                                            "responseIdentifier": "TE_662018a54ab44_2",
+                                                            "feedbackInline": null
+                                                        }
+                                                    ]
+                                                },
+                                                "label": "vraag 2",
+                                                "responseIdentifier": null,
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "TE_662018a54ab3b_0",
+                                                "cardinality": "record",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "overschot"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0.33,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            },
+                                            {
+                                                "identifier": "TE_662018a54ab41_1",
+                                                "cardinality": "record",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "groter"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0.33,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            },
+                                            {
+                                                "identifier": "TE_662018a54ab44_2",
+                                                "cardinality": "record",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "groter"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0.33,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    },
+                                    {
+                                        "identifier": "6517264_2",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "textEntryInteraction",
+                                                "content": {
+                                                    "body": "<p>Nederlandse bedrijven die naar de Verenigde Staten exporteren ondervinden gevolgen van de koersstijging van de euro.</p>\n<p>2p Die bedrijven zullen <textentry identifier=\"TE_662018a54af04\"></textentry> exporteren doordat <textentry identifier=\"TE_662018a54af0c\"></textentry> producten in de</p>\n<p>Verenigde Staten <textentry identifier=\"TE_662018a54af10\"></textentry>worden.<br />\nWat moet in plaats van de cijfers worden ingevuld om een economisch correcte tekst te krijgen?<br />\nBij (1) meer / minder<br />\nBij (2) Amerikaanse / Nederlandse<br />\nBij (3) duurder / goedkoper</p>",
+                                                    "items": [
+                                                        {
+                                                            "identifier": "TE_662018a54af04",
+                                                            "responseIdentifier": "TE_662018a54af04_0",
+                                                            "feedbackInline": null
+                                                        },
+                                                        {
+                                                            "identifier": "TE_662018a54af0c",
+                                                            "responseIdentifier": "TE_662018a54af0c_1",
+                                                            "feedbackInline": null
+                                                        },
+                                                        {
+                                                            "identifier": "TE_662018a54af10",
+                                                            "responseIdentifier": "TE_662018a54af10_2",
+                                                            "feedbackInline": null
+                                                        }
+                                                    ]
+                                                },
+                                                "label": "vraag 3",
+                                                "responseIdentifier": null,
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "TE_662018a54af04_0",
+                                                "cardinality": "record",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "minder"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0.33,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            },
+                                            {
+                                                "identifier": "TE_662018a54af0c_1",
+                                                "cardinality": "record",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "Nederlandse"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0.33,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            },
+                                            {
+                                                "identifier": "TE_662018a54af10_2",
+                                                "cardinality": "record",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "duurder"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0.33,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    },
+                                    {
+                                        "identifier": "6517264_3",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "textEntryInteraction",
+                                                "content": {
+                                                    "body": "<p>Als de Europese Centrale Bank (ECB) vindt dat de koers van de euro te veel stijgt, kan de ECB besluiten de geldmarktrente in Europa aan te passen.</p>\n<p>De ECB zal de geldmarktrente <textentry identifier=\"TE_662018a54b2f0\"></textentry> omdat daardoor <textentry identifier=\"TE_662018a54b2f7\"></textentry> buitenlandse beleggingen worden aangetrokken zodat de vraag naar euro's <textentry identifier=\"TE_662018a54b2fb\"></textentry><br />\nWat moet in plaats van de cijfers worden ingevuld om een economisch correcte tekst te krijgen?<br />\nBij (1) verhogen / verlagen<br />\nBij (2) meer / minder<br />\nBij (3) afneemt / toeneemt</p>",
+                                                    "items": [
+                                                        {
+                                                            "identifier": "TE_662018a54b2f0",
+                                                            "responseIdentifier": "TE_662018a54b2f0_0",
+                                                            "feedbackInline": null
+                                                        },
+                                                        {
+                                                            "identifier": "TE_662018a54b2f7",
+                                                            "responseIdentifier": "TE_662018a54b2f7_1",
+                                                            "feedbackInline": null
+                                                        },
+                                                        {
+                                                            "identifier": "TE_662018a54b2fb",
+                                                            "responseIdentifier": "TE_662018a54b2fb_2",
+                                                            "feedbackInline": null
+                                                        }
+                                                    ]
+                                                },
+                                                "label": "vraag 4",
+                                                "responseIdentifier": null,
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "TE_662018a54b2f0_0",
+                                                "cardinality": "record",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "verlagen"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0.33,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            },
+                                            {
+                                                "identifier": "TE_662018a54b2f7_1",
+                                                "cardinality": "record",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "minder"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0.33,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            },
+                                            {
+                                                "identifier": "TE_662018a54b2fb_2",
+                                                "cardinality": "record",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "afneemt"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 0.33,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    }
+                                ]
+                            }
+                        ],
+                        "outcomeDeclarations": null,
+                        "showEvaluation": null,
+                        "feedback": null
+                    }
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "6517283"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Rente en de wisselkoers",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Stel je voor dat de rente in Nederland 2% is en de rente in Groot-Brittanni\u00eb is 4%. Dit renteverschil zal ook van invloed zijn op de wisselkoers. De buitenlandse beleggers zullen graag in Groot-Brittannie willen beleggen en zullen hierdoor ook meer vraag uitoefenen naar de pond. Wat zal er gebeuren met de wisselkoers van de Pond? En die van de euro?<img alt=\"\" src=\"data:image/png;base64,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\"/></p>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "6517297"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Vaste wisselkoersen",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Een flexibele wisselkoers veroorzaakt wisselkoersrisico's bij internationale handel. Deze onzekerheid kan leiden tot minder internationale handel en daarmee welvaartsverlies.<br/>\nOm die reden maken landen soms afspraken om hun \"munten aan elkaar te koppelen\". In zo'n geval wordt afgesproken dat wanneer een bepaalde valuta teveel in waarde stijgt/daalt, de monetaire autoriteiten in zullen grijpen om de koers te corrigeren. Dat ingrijpen noemen we <strong>interveni\u00ebren.</strong></p>\n<p>Er zijn over de hele wereld diverse gebieden die een systeem van vaste wisselkoersen hanteren. Die systemen zijn niet overal hetzelfde, maar lijken wel erg op elkaar. Soms zijn die afspraken tweezijdig en grijpen de Centrale Banken gezamenlijk in. Soms zijn de afspraken eenzijdig.</p>\n<p>Een voorbeeld van zo'n eenzijdige afspraak is Denemarken.<br/>\nDenemarken is geen lid van de EMU, maar handelt wel veel met de eurolanden. Wisselkoersonzekerheid tussen de Deense Kroon en de Euro is nadelig voor de internationale handel van Denemarken. Daarom koppelt de Deense Centrale Bank de waarde van haar munt aan de Euro.</p>\n<p><strong>Een devaluatie</strong> is een neerwaartse aanpassing van de offici\u00eble spilkoers van een munt bij een systeem van vaste wisselkoersen.</p>\n<p><strong>Een revaluatie</strong> is een aanpassing naar boven van de offici\u00eble spilkoers van een munt bij een systeem van vaste wisselkoersen.</p>\n"
+                },
+                {
+                    "type": "link",
+                    "link": "https://www.economielokaal.nl/wisselkoers-interventie",
+                    "title": "spilkoers en interventie",
+                    "description": "",
+                    "comment": ""
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "6517304"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "samenhang",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>De valutamarkt vormt de schakel tussen (bedrijven van) landen die handel met elkaar drijven. Als de eurozone goederen exporteert naar de VS, dan bieden Amerikanen dollars aan op de valutamarkt in ruil voor euro's. Die euro's gebruiken ze om de producten mee te betalen. Wisselkoersen en binnenlands prijspeil be\u00efnvloeden elkaar.</p>\n<p><strong>Inflatie be\u00efnvloedt wisselkoers:</strong><br/>\nInflatie eurozone \u2191 \u2192 internationale concurrentiepositie \u2193 \u2192 vraag naar exportproducten \u2193 \u2192 vraag naar euro's \u2193 \u2192 koers euro \u2193.</p>\n<p><strong>Wisselkoers be\u00efnvloedt inflatie:</strong><br/>\nKoers euro \u2191 \u2192 prijs importproducten \u2193 \u2192 inflatie \u2193.</p>\n<p>Een daling van de wisselkoers leidt tot een betere internationale concurrentiepositie. De export zal toenemen waardoor de productie toeneemt. Dat leidt tot een stijging van de werkgelegenheid bij de exportbedrijven. De import zal afnemen omdat importproducten door een wisselkoersdaling duurder worden. Dit leidt tot meer productie, omdat voorheen ge\u00efmporteerde goederen nu in eigen land geproduceerd worden. Bij een wisselkoersstijging zal de internationale concurrentiepositie verslechteren. Hierdoor kan de werkgelegenheid afnemen.</p>\n<p>De Europese Centrale Bank (ECB) is de centrale bank van de Europese Monetaire Unie (EMU). De belangrijkste taak is het handhaven van prijsstabiliteit in het eurogebied, dus het handhaven van de koopkracht van de euro. De ECB houdt de inflatie laag met het rentebeleid. Een renteverhoging leidt tot minder binnenlandse bestedingen omdat sparen hiermee wordt gestimuleerd en lenen wordt ontmoedigd. Een renteverlaging stimuleert dus de bestedingen. Dit laatste zal de ECB vooral doen tijdens laagconjunctuur.</p>\n<p>Een lage rente is niet zo interessant voor buitenlandse beleggers. Een hoge rente zal buitenlandse beleggers juist aantrekken en hiermee zal de vraag naar de munt van het land met de hoge rente toenemen. Dit zal weer leiden tot een stijging van de wisselkoers.</p>\n"
+                },
+                {
+                    "type": "questionnaire",
+                    "reference": {
+                        "value": "6517312"
+                    },
+                    "assessmentTestItem": {
+                        "label": "Oefening",
+                        "type": "exercise",
+                        "header": {
+                            "url": "https://maken.wikiwijs.nl/p/questionnaire/standalone/6517312",
+                            "title": "oefening 3"
+                        },
+                        "introduction": {
+                            "body": ""
+                        },
+                        "countQuestions": 5,
+                        "sections": [
+                            {
+                                "type": "assessment",
+                                "identifier": "SECTION_6517312",
+                                "name": "MAIN_SECTION",
+                                "select": null,
+                                "shuffle": null,
+                                "selection": null,
+                                "assessmentItems": [
+                                    {
+                                        "identifier": "6517312_0",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "vraag 1",
+                                                "prompt": {
+                                                    "body": "<p>In augustus 1998 werd rekening gehouden met een flinke koersdaling van de roebel.</p>\n<p>Russische importeurs besloten hun voorraden niet op de markt te brengen. Hierdoor verminderde het aanbod van ge\u00efmporteerde producten op de Russische markt waardoor de uiteindelijke prijsstijging vele malen hoger uitviel dan verwacht.</p>\n<p>Leg uit waarom Russische importeurs hun voorraden niet op de markt brachten.</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "6517312_0_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p>Een antwoord waaruit blijkt dat importeurs verwachtten deze voorraden later tegen een hogere prijs te kunnen verkopen (en extra kosten als gevolg van langere opslag ruimschoots goed te maken).</p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p>Een antwoord waaruit blijkt dat importeurs verwachtten deze voorraden later tegen een hogere prijs te kunnen verkopen (en extra kosten als gevolg van langere opslag ruimschoots goed te maken).</p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "identifier": "6517312_1",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "vraag 2",
+                                                "prompt": {
+                                                    "body": "<p>Aanleiding voor de koersdaling van de Russische roebel was een verruiming van de bandbreedte van de koers van de roebel ten opzichte van de Amerikaanse dollar van 30% naar 106%. De offici\u00eble koers die maximaal voor een dollar mocht worden betaald, steeg van 7,13 roebel naar 9,5 roebel. Direct na deze maatregel steeg de koers van de dollar naar 9,5 roebel. De president van de Russische centrale bank weigerde de waardevermindering van de roebel een devaluatie te noemen.</p>\n<p>Welk argument kan de president van de Russische centrale bank voor deze weigering hebben aangevoerd?</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "6517312_1_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p>2. &nbsp; &nbsp; &nbsp; voorbeeld van een juist antwoord:<br />\r\nEen antwoord waaruit blijkt dat de waardevermindering zonder spilkoersaanpassing plaatsvond.</p>\r\n\r\n<p>&nbsp;</p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p>2.       voorbeeld van een juist antwoord:<br />\nEen antwoord waaruit blijkt dat de waardevermindering zonder spilkoersaanpassing plaatsvond.</p>\n<p> </p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "identifier": "6517312_2",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "vraag 3",
+                                                "prompt": {
+                                                    "body": "<p>Om de koers van de roebel binnen de bandbreedte te houden, waren valuta-interventies van de Russische centrale bank noodzakelijk.</p>\n<p>Moest de Russische centrale bank dollars kopen of verkopen? Verklaar het antwoord.</p>\n<p> </p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "6517312_2_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p>dollars verkopen<br />\r\nvoorbeeld van een juiste verklaring:<br />\r\nEen verklaring waaruit blijkt dat hierdoor het aanbod van dollars / de vraag naar roebels toeneemt waardoor de koers van de dollar daalt / de koers van de roebel stijgt.</p>\r\n\r\n<p>&nbsp;</p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p>dollars verkopen<br />\nvoorbeeld van een juiste verklaring:<br />\nEen verklaring waaruit blijkt dat hierdoor het aanbod van dollars / de vraag naar roebels toeneemt waardoor de koers van de dollar daalt / de koers van de roebel stijgt.</p>\n<p> </p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "identifier": "6517312_3",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "vraag 4",
+                                                "prompt": {
+                                                    "body": "<p>Het vrijlaten van de koers van de roebel had als voordeel dat de Russische centrale bank de rente kon verlagen.Volgens sommigen is een lagere rente noodzakelijk om het verouderde Russische productieapparaat te vernieuwen.</p>\n<p>Leg uit dat een lagere rentestand kan bijdragen aan het moderniseren van het Russische productieapparaat.</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "6517312_3_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p>voorbeeld van een juist antwoord:<br />\r\nEen antwoord waaruit blijkt dat het opnemen van kredieten goedkoper wordt waardoor investeringen die voor modernisering nodig zijn, kunnen worden gestimuleerd.</p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p>voorbeeld van een juist antwoord:<br />\nEen antwoord waaruit blijkt dat het opnemen van kredieten goedkoper wordt waardoor investeringen die voor modernisering nodig zijn, kunnen worden gestimuleerd.</p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "identifier": "6517312_4",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "vraag 5",
+                                                "prompt": {
+                                                    "body": "<p>Tussen augustus en december 1998 steeg de koers van de dollar van 7,13 roebel naar 20,90 roebel. Deze koersstijging van de dollar leidde tot een prijsstijging van met dollars ge\u00efmporteerde goederen in Rusland.</p>\n<p>Bereken, uitsluitend op grond van de stijging van de dollarkoers, met welk percentage de prijs in roebels van de bedoelde ge\u00efmporteerde goederen tussen augustus en december 1998 is gestegen.</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "6517312_4_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p>&nbsp;</p>\r\n\r\n<p>voorbeeld van een juiste berekening:</p>\r\n\r\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>20,90- 7,13</p>\r\n\t\t\t</td>\r\n\t\t\t<td rowspan=\"2\">\r\n\t\t\t<p>&times; 100% = 193,13%</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>\r\n\t\t\t<p>7,13</p>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p><em>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Opmerking </em></p>\r\n\r\n<p><em>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Een andere manier van afronden ook goed rekenen.</em></p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p> </p>\n<p>voorbeeld van een juiste berekening:</p>\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td>\n<p>20,90- 7,13</p>\n</td>\n<td rowspan=\"2\">\n<p>\u00d7 100% = 193,13%</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>7,13</p>\n</td>\n</tr>\n</tbody>\n</table>\n<p><em>                Opmerking</em></p>\n<p><em>                Een andere manier van afronden ook goed rekenen.</em></p>"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "outcomeDeclarations": null,
+                        "showEvaluation": null,
+                        "feedback": null
+                    }
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "6517326"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "bronnen",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>economielokaal</p>\n<p>LWEO site</p>\n<p>examenopgaven</p>\n"
+                }
+            ],
+            "sections": []
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": null,
+            "dimension": null,
+            "suppressTitle": null
+        },
+        "color": "#333333"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Wisselkoerssystemen ",
+                "reference": {
+                    "value": "6517031"
+                },
+                "sections": []
+            },
+            {
+                "title": "Wat is een wisselkoers?",
+                "reference": {
+                    "value": "6517038"
+                },
+                "sections": []
+            },
+            {
+                "title": "De betalingsbalans",
+                "reference": {
+                    "value": "6517083"
+                },
+                "sections": [
+                    {
+                        "title": "Hoe ziet de betalingsbalans eruit?",
+                        "reference": {
+                            "value": "6517087"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Verband betalingsbalans en wisselkoers",
+                "reference": {
+                    "value": "6517103"
+                },
+                "sections": []
+            },
+            {
+                "title": "Rente en de wisselkoers",
+                "reference": {
+                    "value": "6517283"
+                },
+                "sections": []
+            },
+            {
+                "title": "Vaste wisselkoersen",
+                "reference": {
+                    "value": "6517297"
+                },
+                "sections": []
+            },
+            {
+                "title": "samenhang",
+                "reference": {
+                    "value": "6517304"
+                },
+                "sections": []
+            },
+            {
+                "title": "bronnen",
+                "reference": {
+                    "value": "6517326"
+                },
+                "sections": []
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": null,
+        "imageSrc": null,
+        "sources": [
+            {
+                "type": "link",
+                "title": "hoe moet je nu rekenen met de wisselkoers?",
+                "origin": "hoe moet je nu rekenen met de wisselkoers?",
+                "customOrigin": null,
+                "link": "http://www.economiematerialen.nl/index.php/rekenen/2-uncategorised/81-rekenen-met-vreemde-valuta-1",
+                "visible": true
+            },
+            {
+                "type": "link",
+                "title": "uitleg betalingsbalans.",
+                "origin": "uitleg betalingsbalans.",
+                "customOrigin": null,
+                "link": "https://www.youtube.com/watch?v=JUg9pdyI0w8&ab_channel=OsAcademie",
+                "visible": true
+            },
+            {
+                "type": "video",
+                "title": "verband wisselkoers en betalingsbalans",
+                "origin": "verband wisselkoers en betalingsbalans",
+                "customOrigin": null,
+                "link": "https://www.youtube.com/watch?v=KXgGhxxDTMk&ab_channel=OsAcademie",
+                "visible": true
+            },
+            {
+                "type": "link",
+                "title": "Hoe komt de flexibele wisselkoers tot stand?",
+                "origin": "Hoe komt de flexibele wisselkoers tot stand?",
+                "customOrigin": null,
+                "link": "https://www.economielokaal.nl/wisselkoers",
+                "visible": true
+            },
+            {
+                "type": "link",
+                "title": "spilkoers en interventie",
+                "origin": "spilkoers en interventie",
+                "customOrigin": null,
+                "link": "https://www.economielokaal.nl/wisselkoers-interventie",
+                "visible": true
+            }
+        ],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            },
+            {
+                "key": "keywords",
+                "label": "Trefwoorden",
+                "terms": [
+                    "appreciatie",
+                    "wisselkoers"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

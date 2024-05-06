@@ -1,0 +1,783 @@
+{
+    "documentAuthors": [
+        "Linette"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Linette ",
+            "referenceName": null,
+            "reference": {
+                "value": "149454"
+            },
+            "firstName": "Linette",
+            "infix": null,
+            "lastName": "",
+            "emailAddress": "l.j.r.knol@student.utwente.nl",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2020-12-27T11:45:38Z",
+    "bulkId": "bulk-17041658-refresh_all",
+    "identifier": 170811,
+    "title": "Deel 5 Formules",
+    "description": "",
+    "lastModifiedDate": "2020-12-27T11:45:38+01:00",
+    "dateCreated": "2020-12-07T08:47:28+01:00",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": ", Linette",
+                "reference": {
+                    "value": "149454"
+                },
+                "firstName": "Linette",
+                "infix": null,
+                "lastName": "",
+                "emailAddress": "l.j.r.knol@student.utwente.nl",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-40",
+            "name": "CC Naamsvermelding 4.0 Internationale licentie",
+            "description": "De Internationale Creative Commons 4.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/4.0/.",
+            "link": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/170811/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "empty_section"
+            },
+            "heading": {
+                "type": "empty_heading",
+                "content": "",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "questionnaire",
+                    "reference": {
+                        "value": "6456886"
+                    },
+                    "assessmentTestItem": {
+                        "label": "Test",
+                        "type": "diagnostic",
+                        "header": {
+                            "url": "https://maken.wikiwijs.nl/p/questionnaire/standalone/6456886",
+                            "title": "Deel 5 Formules"
+                        },
+                        "introduction": {
+                            "body": ""
+                        },
+                        "countQuestions": 8,
+                        "sections": [
+                            {
+                                "type": "diagnostic",
+                                "identifier": "0",
+                                "name": "Formules",
+                                "select": null,
+                                "shuffle": null,
+                                "selection": null,
+                                "assessmentItems": [
+                                    {
+                                        "identifier": "6456886_0",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "",
+                                                "prompt": {
+                                                    "body": "<p>Bereken de lengte van een rol koperdraad met een diameter van 1,5 mm en een massa van 10 kg. \u03c1<em><sub>koper</sub></em> = 8,96 g/mL.</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "6456886_0_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p>L=631,5 m</p>\r\n\r\n<p>Reken eerst het volume uit. Volume is oppervlakte x lengte. Dus lengte = Volume / oppervlakte ( cirkel)</p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p>L=631,5 m</p>\n<p>Reken eerst het volume uit. Volume is oppervlakte x lengte. Dus lengte = Volume / oppervlakte ( cirkel)</p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "identifier": "6456886_1",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "textEntryInteraction",
+                                                "content": {
+                                                    "body": "<p>Vul het juiste getal in!</p>\n<ul>\n<li>Je hebt 25 cm3 messing, de dichtheid van messing is 8,5 g/cm3. De massa van het messing is <textentry identifier=\"TE_662017224af4a\"></textentry> g</li>\n<li>De dichtheid van marmer is 2,7 g/cm3. Je hebt een plaat marmer van 20x100x1 cm. De massa van de plaat marmer is <textentry identifier=\"TE_662017224af5f\"></textentry> kg</li>\n<li>De dichtheid van glas is 2,6 g/cm3. Een plaat glas is 100cm lang en 50 cm breed. De massa van de plaat is 6,5 kg. Het glas is dus <textentry identifier=\"TE_662017224af63\"></textentry> cm dik</li>\n</ul>",
+                                                    "items": [
+                                                        {
+                                                            "identifier": "TE_662017224af4a",
+                                                            "responseIdentifier": "TE_662017224af4a_0",
+                                                            "feedbackInline": null
+                                                        },
+                                                        {
+                                                            "identifier": "TE_662017224af5f",
+                                                            "responseIdentifier": "TE_662017224af5f_1",
+                                                            "feedbackInline": null
+                                                        },
+                                                        {
+                                                            "identifier": "TE_662017224af63",
+                                                            "responseIdentifier": "TE_662017224af63_2",
+                                                            "feedbackInline": null
+                                                        }
+                                                    ]
+                                                },
+                                                "label": "Volume of massa berekenen als je de dichtheid weet",
+                                                "responseIdentifier": null,
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "TE_662017224af4a_0",
+                                                "cardinality": "record",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "212,5"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            },
+                                            {
+                                                "identifier": "TE_662017224af5f_1",
+                                                "cardinality": "record",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "5,4"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            },
+                                            {
+                                                "identifier": "TE_662017224af63_2",
+                                                "cardinality": "record",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "0,5"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    },
+                                    {
+                                        "identifier": "6456886_2",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "textEntryInteraction",
+                                                "content": {
+                                                    "body": "<p>m= 2kg. V=20 cm\u00b3. Bereken de dichtheid in g/cm\u00b3.</p>\n<p><textentry identifier=\"TE_662017224b30f\"></textentry></p>",
+                                                    "items": [
+                                                        {
+                                                            "identifier": "TE_662017224b30f",
+                                                            "responseIdentifier": "TE_662017224b30f_0",
+                                                            "feedbackInline": null
+                                                        }
+                                                    ]
+                                                },
+                                                "label": "",
+                                                "responseIdentifier": null,
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "TE_662017224b30f_0",
+                                                "cardinality": "record",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "100 g/cm3"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    },
+                                    {
+                                        "identifier": "6456886_3",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "textEntryInteraction",
+                                                "content": {
+                                                    "body": "<p>Een grote ijzeren moer heeft een volume van 12 mL. \u03c1<em><sub>ijzer</sub></em> is 7,9 g/mL. Bereken de massa van die moer.</p>\n<p>m=<textentry identifier=\"TE_662017224b549\"></textentry>g</p>",
+                                                    "items": [
+                                                        {
+                                                            "identifier": "TE_662017224b549",
+                                                            "responseIdentifier": "TE_662017224b549_0",
+                                                            "feedbackInline": null
+                                                        }
+                                                    ]
+                                                },
+                                                "label": "",
+                                                "responseIdentifier": null,
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "TE_662017224b549_0",
+                                                "cardinality": "record",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "94,8"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    },
+                                    {
+                                        "identifier": "6456886_4",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "textEntryInteraction",
+                                                "content": {
+                                                    "body": "<p>m= 100 g, V= 10 cm\u00b3. Bereken de dichtheid.</p>\n<p><textentry identifier=\"TE_662017224b78d\"></textentry>g/cm<sup>3</sup></p>",
+                                                    "items": [
+                                                        {
+                                                            "identifier": "TE_662017224b78d",
+                                                            "responseIdentifier": "TE_662017224b78d_0",
+                                                            "feedbackInline": null
+                                                        }
+                                                    ]
+                                                },
+                                                "label": "",
+                                                "responseIdentifier": null,
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "TE_662017224b78d_0",
+                                                "cardinality": "record",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "10"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    },
+                                    {
+                                        "identifier": "6456886_5",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "textEntryInteraction",
+                                                "content": {
+                                                    "body": "<p>Je ziet een typeplaatje van een oplader (switching adapter).</p>\n<p>Toon met een berekening aan dat het afgegeven vermogen van deze oplader 2,5 W is. <textentry identifier=\"TE_662017224b9dd\"></textentry></p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/4/4e921accd9f68644699f0ab338f3c971db2aa803.png\" class=\"c1\" /></p>",
+                                                    "items": [
+                                                        {
+                                                            "identifier": "TE_662017224b9dd",
+                                                            "responseIdentifier": "TE_662017224b9dd_0",
+                                                            "feedbackInline": null
+                                                        }
+                                                    ]
+                                                },
+                                                "label": "",
+                                                "responseIdentifier": null,
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "TE_662017224b9dd_0",
+                                                "cardinality": "record",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "P = U \u00d7 I = 5 \u00d7 0,5 = 2,5 W"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 2,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    },
+                                    {
+                                        "identifier": "6456886_6",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "textEntryInteraction",
+                                                "content": {
+                                                    "body": "<p>Bereken de dichtheid van de volgende materialen en vul het juiste getal in. Met cm3 wordt in de vraag cm<sup>3</sup> bedoeld.</p>\n<ul>\n<li>100 cm3 beton heeft een massa van 230 g. De dichtheid van beton is <textentry identifier=\"TE_662017224bc8e\"></textentry> g/cm3</li>\n<li>Een gouden ring heeft een massa van 4,825 g. Het volume van de ring is 0,25 cm3. De dichtheid van goud is <textentry identifier=\"TE_662017224bc94\"></textentry> g/cm3</li>\n<li>Een plexiglas ruitje is 0,5 x 20 x 30 cm. Het volume van het ruitje is <textentry identifier=\"TE_662017224bc98\"></textentry> cm3. De massa van het ruitje is 360 g. De dichtheid van plexiglas is dus <textentry identifier=\"TE_662017224bc9a\"></textentry> g/cm3</li>\n</ul>",
+                                                    "items": [
+                                                        {
+                                                            "identifier": "TE_662017224bc8e",
+                                                            "responseIdentifier": "TE_662017224bc8e_0",
+                                                            "feedbackInline": null
+                                                        },
+                                                        {
+                                                            "identifier": "TE_662017224bc94",
+                                                            "responseIdentifier": "TE_662017224bc94_1",
+                                                            "feedbackInline": null
+                                                        },
+                                                        {
+                                                            "identifier": "TE_662017224bc98",
+                                                            "responseIdentifier": "TE_662017224bc98_2",
+                                                            "feedbackInline": null
+                                                        },
+                                                        {
+                                                            "identifier": "TE_662017224bc9a",
+                                                            "responseIdentifier": "TE_662017224bc9a_3",
+                                                            "feedbackInline": null
+                                                        }
+                                                    ]
+                                                },
+                                                "label": "Dichtheid berekenen",
+                                                "responseIdentifier": null,
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "TE_662017224bc8e_0",
+                                                "cardinality": "record",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "2,3"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            },
+                                            {
+                                                "identifier": "TE_662017224bc94_1",
+                                                "cardinality": "record",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "19,3"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            },
+                                            {
+                                                "identifier": "TE_662017224bc98_2",
+                                                "cardinality": "record",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "300"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            },
+                                            {
+                                                "identifier": "TE_662017224bc9a_3",
+                                                "cardinality": "record",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "1,2"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    },
+                                    {
+                                        "identifier": "6456886_7",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "textEntryInteraction",
+                                                "content": {
+                                                    "body": "<p>Vul het juiste getal in!</p>\n<ul>\n<li>Je hebt 25 cm3 messing, de dichtheid van messing is 8,5 g/cm3. De massa van het messing is <textentry identifier=\"TE_662017224c0e0\"></textentry> g</li>\n<li>De dichtheid van marmer is 2,7 g/cm3. Je hebt een plaat marmer van 20x100x1 cm. De massa van de plaat marmer is <textentry identifier=\"TE_662017224c0e6\"></textentry> kg</li>\n<li>De dichtheid van glas is 2,6 g/cm3. Een plaat glas is 100cm lang en 50 cm breed. De massa van de plaat is 6,5 kg. Het glas is dus <textentry identifier=\"TE_662017224c0e9\"></textentry> cm dik</li>\n</ul>",
+                                                    "items": [
+                                                        {
+                                                            "identifier": "TE_662017224c0e0",
+                                                            "responseIdentifier": "TE_662017224c0e0_0",
+                                                            "feedbackInline": null
+                                                        },
+                                                        {
+                                                            "identifier": "TE_662017224c0e6",
+                                                            "responseIdentifier": "TE_662017224c0e6_1",
+                                                            "feedbackInline": null
+                                                        },
+                                                        {
+                                                            "identifier": "TE_662017224c0e9",
+                                                            "responseIdentifier": "TE_662017224c0e9_2",
+                                                            "feedbackInline": null
+                                                        }
+                                                    ]
+                                                },
+                                                "label": "Volume of massa berekenen als je de dichtheid weet",
+                                                "responseIdentifier": null,
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "TE_662017224c0e0_0",
+                                                "cardinality": "record",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "212,5"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            },
+                                            {
+                                                "identifier": "TE_662017224c0e6_1",
+                                                "cardinality": "record",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "5,4"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            },
+                                            {
+                                                "identifier": "TE_662017224c0e9_2",
+                                                "cardinality": "record",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "0,5"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    }
+                                ]
+                            }
+                        ],
+                        "outcomeDeclarations": null,
+                        "showEvaluation": null,
+                        "feedback": null
+                    }
+                }
+            ],
+            "sections": []
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": null,
+            "dimension": null,
+            "suppressTitle": null
+        },
+        "color": "#333333"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": null,
+        "imageSrc": null,
+        "sources": [],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            },
+            {
+                "key": "learningTime",
+                "label": "Studiebelasting",
+                "terms": [
+                    "4 uur en 0 minuten"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

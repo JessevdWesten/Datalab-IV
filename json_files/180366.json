@@ -1,0 +1,2960 @@
+{
+    "documentAuthors": [
+        "Aniel Bhulai"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Aniel Bhulai",
+            "referenceName": null,
+            "reference": {
+                "value": "140403"
+            },
+            "firstName": "Aniel",
+            "infix": null,
+            "lastName": "Bhulai",
+            "emailAddress": "aniel@bhulai.nl",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2024-01-28T11:46:11Z",
+    "bulkId": "bulk-17041658-refresh_all",
+    "identifier": 180366,
+    "title": "Inleiding programmeren in Python",
+    "description": "Inleiding programmeren.",
+    "lastModifiedDate": "2024-01-28T11:46:11+01:00",
+    "dateCreated": "2021-09-27T14:06:29+02:00",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "Bhulai, Aniel",
+                "reference": {
+                    "value": "140403"
+                },
+                "firstName": "Aniel",
+                "infix": null,
+                "lastName": "Bhulai",
+                "emailAddress": "aniel@bhulai.nl",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-sa-40",
+            "name": "CC Naamsvermelding-GelijkDelen 4.0 Internationale licentie",
+            "description": "De Internationale Creative Commons 4.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarden: Naamsvermelding en Gelijk Delen, zie http://creativecommons.org/licenses/by-sa/4.0/.",
+            "link": "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/180366/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "7007271"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Voorwoord",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Steeds vaker wordt programmeren in het onderwijsprogramma opgenomen. Niet zo verwonderlijk eigenlijk als je ziet dat het bedrijfsleven staat te springen naar afgestudeerden in de informatica. Veel sectoren zijn tegenwoordig in meer of mindere mate afhankelijk van informatica. Een beetje ICT-kennis en probleemoplossend vermogen heb je tegenwoordig overal wel nodig. Ook thuis kan een beetje ICT-kennis en probleemoplossend vermogen handig zijn bijvoorbeeld bij problemen met je internetverbinding of laptop thuis. Maar dat is niet de enige reden dat programmeren steeds meer aandacht krijgt. Naast dat je met programmeren je probleemoplossend vermogen verbetert, biedt programmeren je ook nieuwe mogelijkheden voor het leerproces. Informaticus, Mitch Resnick, zegt in zijn <a href=\"https://www.ted.com/talks/mitch_resnick_let_s_teach_kids_to_code\" target=\"_blank\">TED-talk: Let's teach kids to code</a> het volgende: \"<em>When you learn to read and write, it opens up opportunities for you to learn so many other things. When you learn to read, you can then read to learn. And it's the same thing with coding. If you learn to code, you can code to learn</em>.\"</p>\n<p><br/>\nNa het doorlopen van deze lessenserie</p>\n<ul>\n<li>heb je kennis en begrip van de programmeerconcepten,</li>\n<li>ken je de syntax van Python,</li>\n<li>kun je Python programma's lezen en in hoofdlijnen aangeven wat ze doen,</li>\n<li>kun je een probleem in (logische) stappen opdelen om vervolgens de stappen te coderen,</li>\n<li>kun je vertellen waarom programmeren belangrijk is,</li>\n<li>kun je vertellen wat de voordelen van Python zijn,</li>\n<li>weet je wat variabelen, operatoren, data types, loops, functies en condities zijn en wanneer je ze moet gebruiken,</li>\n<li>kun je variabelen, loops, lijsten, functies en condities aanmaken,</li>\n<li>kun je verschillende soorten datatypen herkennen en opnoemen,</li>\n<li>ken je het verschil tussen een variabel en een parameter,</li>\n<li>ken je een paar standaardfuncties van Python, zoals\n<div class=\"code\">print()</div>\nen\n<div class=\"code\">input()</div>\n,</li>\n<li>kun je commentaar in je code zetten zodat de code voor een ander makkelijk is te volgen,</li>\n<li>kun je eenvoudige programma's schrijven in Python,</li>\n<li>(verdieping) weet je wat Object Geori\u00ebnteerd Programmeren (OOP) is,</li>\n<li>(verdieping) kun je de voordelen van OOP opnoemen,</li>\n<li>(verdieping) weet je wat objecten, methoden en classes zijn en</li>\n<li>(verdieping) kun je objecten en classes aanmaken en gebruiken.</li>\n</ul>\n<p> </p>\n<p>Succes met deze lessenserie.</p>\n<p>Aniel Bhulai<br/>\nJanuari 2022</p>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "6867302"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "1. Wat is Python?",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>De programmeertaal Python wordt door veel mensen en bedrijven gebruikt. Het is een veelzijdige programmeertaal die steeds populairder wordt. Waarschijnlijk omdat Python makkelijk te leren is.</p>\n<p>Python is ontwikkeld door de Nederlandse programmeur <a href=\"https://en.wikipedia.org/wiki/Guido_van_Rossum\" target=\"_blank\">Guido van Rossum</a>. De eerste versie van Python was ontwikkeld in 1991. Daarna zijn er meerdere versies uitgebracht.</p>\n<p>Python is een tekstgebaseerde programmeertaal en wordt o.a. gebruikt voor webdevelopment, software development, Machine learning en artificial intelligence, Data Science, Maken van desktop GUI's en Game development. Populaire spellen die in Python zijn geschreven zijn bijvoorbeeld Civilization, The Sims en Battlefield. Python wordt ook veel gebruikt voor data analyse, omdat Python veel libraries (voorgeprogrammeerde codes die je in je programma's kunt gebruiken) heeft om data analyse makkelijk te doen.</p>\n<p>Zoals eerder aangegeven is Python makkelijk te leren. Je hebt hiervoor geen programmeervoorkennis nodig. In deze serie van Python lessen zullen we de basis van Python behandelen. Niet alle functionaliteiten van Python komen dus aan de orde.</p>\n"
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "6946543"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "1.1 Voordelen van Python",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Waarom zou je nou Python leren als er al zoveel andere programmeertalen zijn? Wat is het nut ervan en de toegevoegde waarde om Python te leren? Hieronder hebben we een aantal voordelen opgesomd voor de vraag waarom je Python zou willen leren.</p>\n<ol>\n<li><strong>Effici\u00ebnt</strong><br/>\nPython is effici\u00ebnt. Naast dat Python makkelijk is te leren en te schrijven, maakt Python het ontwikkelproces sneller. Dit komt door de vele frameworks, libraries en modules die Python heeft. Zelf hoef je dus niet alles vanaf nul te bedenken.<br/>\n<br/>\nDe codes in de frameworks, libraries e.d. kun je hergebruiken om sneller te schrijven. Door het hergebruik van codes is de kans op het maken van fouten daardoor klein.<br/>\n </li>\n<li><strong>Veelzijdig</strong><br/>\nPython is een erg veelzijdige programmeertaal en werkt overal even effici\u00ebnt. Zoals al eerder aangegeven kent Python veel toepassingen waaronder ook in deep learning, procesautomatisering, het Internet of Things (IoT), data engineering en nog veel meer.<br/>\n<br/>\nDat Python zo veelzijdig is, komt met name door de grote hoeveelheid ondersteunde functies, methodes, libraries en frameworks. Deze ondersteunde functies hebben o.a. gemaakt dat Python een gebruikersvriendelijke programmeertaal is geworden.<br/>\n </li>\n<li><strong>Ondersteunende community</strong><br/>\nNaast de offici\u00eble documentatie van Python is er voor Python gebruikers een actieve en ondersteunde community waar je je vragen kunt stellen en om hulp kunt vragen. Daarnaast kun je allerlei cursussen, tutorials, websites en andere materialen vinden over Python op het Internet.<br/>\n </li>\n<li><strong>Grote bedrijven</strong><br/>\nPython wordt ook steeds meer in de zakelijke wereld gebruikt. Denk maar aan o.a. de dienstverleningssector, de gezondheidszorg sector, de banken en verzekeringssector en de luchtvaart sector.<br/>\n<br/>\nGrote bedrijven die Python gebruiken zijn onder andere Google, NASA, YouTube, HP, IBM en Dropbox. Leren programmeren in Python kan dus goed zijn voor je carri\u00e8re.</li>\n</ol>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "6874627"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "2. Python installeren",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Voordat je Python kunt gebruiken, moet je het programma eerst downloaden en installeren op je computer. Python kun je downloaden van de offici\u00eble Python website, <a href=\"https://www.python.org/\" target=\"_blank\">www.python.org</a>. Als je Python 3 installeert, krijg je ook het gratis programma <span style=\"font-family: monospace\">IDLE</span>. <span style=\"font-family: monospace\"><a href=\"https://docs.python.org/3/library/idle.html\" target=\"_blank\">IDLE</a></span> staat voor <strong>Integrated Development and Learning Environment</strong> en is een basis editor voor beginners waarmee je Pythoncodes kunt schrijven en bewerken (editen). Een screenshot van <span style=\"font-family: monospace\">IDLE</span> zie je in figuur 2-1.</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/0/0d73124a239edaedbae088123c38e38741189cef.png\" class=\"height-192-pixels width-667-pixels\"/>\n<figcaption>Figuur 2-1</figcaption>\n</figure>\n<p><br/>\nIn deze lessenserie gaan we de online Python editor, <a href=\"https://py3.codeskulptor.org/\" target=\"_blank\">CodeSkulptor3</a>, gebruiken. Hiervoor hoef je dus niets te installeren.</p>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "6889890"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "3. Programmeren",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "6889867"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "3.1 Denk als een computer",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Om goed te leren programmeren is het belangrijk om als een computer te denken. De uit te voeren taken moeten in kleine stukjes worden opgedeeld, zodat ze makkelijk te volgen zijn en dat er geen misverstanden kan ontstaan. De opgedeelde stukken moeten eenduidig zijn en het moet onmogelijk zijn om ze verkeerd te interpreteren.</p>\n<p>Een computerprogramma is in feite een reeks instructies geschreven in een programmeertaal (bv. Python) die een computer volgt om een taak uit te voeren. Die reeks instructies worden een <em>algoritme</em> genoemd. Een algoritme is dus een reeks eenvoudige instructies om een taak uit te voeren. <em>Programmeren</em> of <em>coderen</em> willen zeggen dat je een stap-voor-stapinstructie, dus een algoritme, schrijft die de computer vertelt wat hij moet doen.</p>\n<p>Het volgende is een voorbeeld van een algoritme in <em>pseudocode</em><sup>1)</sup> voor een computergestuurde lift. De lift moet nl. weten wanneer die omhoog of omlaag moet gaan en bij welke verdieping hij moet stoppen.</p>\n<pre>&#13;\n1. Wacht tot de liftdeuren dicht zijn&#13;\n2. Wacht tot er op een knop is gedrukt&#13;\n        Als de gekozen verdieping hoger ligt dan de huidige&#13;\n            Beweeg de lift omhoog&#13;\n        Als de gekozen verdieping lager ligt dan de huidige&#13;\n            Beweeg de lift omlaag&#13;\n3. Wacht tot de verdieping gelijk is aan de gekozen verdieping&#13;\n4. Open de liftdeuren&#13;\n</pre>\n<p>Elke stap moet precies en duidelijk zijn om de lift goed en veilig te laten werken. Er mag geen mogelijkheid bestaan voor een andere interpretatie.</p>\n<hr/>\n<p><span class=\"font-size-11px\">1) Vaak wordt er een tussenstap gebruikt om een algoritme te schrijven. Deze tussenstap wordt <em>pseudocode</em> genoemd. Pseudocode is een vorm van gestructureerde tekst (vaak Engels) die algoritmen definieert en die het mogelijk maakt om je te richten op de kernlogica van algoritmen voordat je met programmeren start. Het belangrijkste doel van pseudocode is om duidelijk te beschrijven wat een programma beoogd te doen. Pseudocode is niet uitvoerbaar op een computer.</span></p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6891883"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "3.2 Opdrachten",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "question",
+                            "reference": {
+                                "value": "6891852"
+                            },
+                            "assessmentItem": {
+                                "identifier": "6891852",
+                                "itemBody": null,
+                                "questions": [
+                                    {
+                                        "type": "extendedTextInteraction",
+                                        "label": "Opdracht 1",
+                                        "prompt": {
+                                            "body": "<p>Bedenk een algoritme om van je huis naar school te gaan.</p>"
+                                        },
+                                        "feedback": null
+                                    }
+                                ],
+                                "responseDeclarations": [
+                                    {
+                                        "identifier": "6891852_1",
+                                        "cardinality": "single",
+                                        "baseType": "string",
+                                        "correctResponse": {
+                                            "interpretation": null,
+                                            "values": [
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "<p>Een mogelijke algoritme kan zijn:</p>\r\n\r\n<ol>\r\n\t<li>Loop van je huis naar het busstation</li>\r\n\t<li>Neem de bus</li>\r\n\t<li>Stap bij de schoolhalte uit</li>\r\n\t<li>Loop naar je school</li>\r\n</ol>\r\n"
+                                                }
+                                            ]
+                                        },
+                                        "mapping": {
+                                            "lowerBound": 0,
+                                            "upperBound": 1,
+                                            "default": 0,
+                                            "mapEntries": []
+                                        },
+                                        "areaMapping": null
+                                    }
+                                ],
+                                "outcomeDeclarations": [
+                                    {
+                                        "identifier": "SCORE",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 0,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": null,
+                                        "interpretation": null
+                                    }
+                                ],
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK",
+                                        "identifier": "ANSWER_CORRECT",
+                                        "showHide": true,
+                                        "title": null,
+                                        "content": {
+                                            "body": "<p>Een mogelijke algoritme kan zijn:</p>\n<ol>\n<li>Loop van je huis naar het busstation</li>\n<li>Neem de bus</li>\n<li>Stap bij de schoolhalte uit</li>\n<li>Loop naar je school</li>\n</ol>"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "type": "question",
+                            "reference": {
+                                "value": "6891881"
+                            },
+                            "assessmentItem": {
+                                "identifier": "6891881",
+                                "itemBody": null,
+                                "questions": [
+                                    {
+                                        "type": "extendedTextInteraction",
+                                        "label": "Opdracht 2",
+                                        "prompt": {
+                                            "body": "<p>Bedenk een algoritme om koffie te zetten.</p>"
+                                        },
+                                        "feedback": null
+                                    }
+                                ],
+                                "responseDeclarations": [
+                                    {
+                                        "identifier": "6891881_1",
+                                        "cardinality": "single",
+                                        "baseType": "string",
+                                        "correctResponse": {
+                                            "interpretation": null,
+                                            "values": [
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "<p>Een mogelijke algoritme kan zijn:</p>\r\n\r\n<ol>\r\n\t<li>Zet het koffieapparaat op het aanrecht</li>\r\n\t<li>Zet koffiefilter in het koffieapparaat</li>\r\n\t<li>Zet koffie in het koffieapparaat</li>\r\n\t<li>Zet water in het koffieapparaat</li>\r\n\t<li>Zet de stekker van het koffieapparaat in de stopcontact</li>\r\n\t<li>Zet het koffieapparaat aan</li>\r\n</ol>\r\n"
+                                                }
+                                            ]
+                                        },
+                                        "mapping": {
+                                            "lowerBound": 0,
+                                            "upperBound": 1,
+                                            "default": 0,
+                                            "mapEntries": []
+                                        },
+                                        "areaMapping": null
+                                    }
+                                ],
+                                "outcomeDeclarations": [
+                                    {
+                                        "identifier": "SCORE",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 0,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": null,
+                                        "interpretation": null
+                                    }
+                                ],
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK",
+                                        "identifier": "ANSWER_CORRECT",
+                                        "showHide": true,
+                                        "title": null,
+                                        "content": {
+                                            "body": "<p>Een mogelijke algoritme kan zijn:</p>\n<ol>\n<li>Zet het koffieapparaat op het aanrecht</li>\n<li>Zet koffiefilter in het koffieapparaat</li>\n<li>Zet koffie in het koffieapparaat</li>\n<li>Zet water in het koffieapparaat</li>\n<li>Zet de stekker van het koffieapparaat in de stopcontact</li>\n<li>Zet het koffieapparaat aan</li>\n</ol>"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p><strong>Opdracht 3</strong></p>\n<p>a) Bedenk een algoritme om een auto te starten.<br/>\nb) Bereid het algoritme van opdracht 3a uit om een auto te rijden.<br/>\nc) Vult het algoritme van opdracht 3b aan om een auto te stoppen.</p>\n<p><strong>Opdracht 4</strong></p>\n<p>Bedenk een algoritme om 4 pakken melk bij Albert Heijn af te rekenen bij de kassa.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "6893448"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "4. Python quickstart",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Zoals eerder aangegeven is Python een tekstgebaseerde programmeertaal. Dit betekent dat je als ontwikkelaar de Python codes in een teksteditor schrijft en die bestanden (de .py bestanden) vervolgens in de Python-interpreter plaatst om uit te voeren. Aangezien wij de online Python editor, <a href=\"https://py3.codeskulptor.org/\" target=\"_blank\">CodeSkulptor3</a>, gaan gebruiken kun je de code ook direct in de CodeSkulptor editor typen i.p.v. bijvoorbeeld in een teksteditor zoals bv. Wordpad of <a href=\"https://notepad-plus-plus.org\" target=\"_blank\">Notepad++</a>.</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/9/9daeaf3bc73f39a46b0b11fb31b26f1089313f5e.png\" class=\"height-190-pixels width-600-pixels\"/>\n<figcaption spellcheck=\"false\"><br/>\nFiguur 4-1</figcaption>\n</figure>\n<p> </p>\n<p> </p>\n"
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "6893530"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "4.1 Opdrachten",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<ol>\n<li>Typ in <a href=\"https://py3.codeskulptor.org/\" target=\"_blank\">CodeSkulptor3</a> links in de editor\n<div class=\"code\"><span style=\"color:black;\"><span style=\"color:mediumblue;\">print</span>(<span style=\"color:brown;\">\"Hello, World!\"</span>)</span></div>\nen klik op run. Als je het goed gedaan hebt verschijnt aan de rechterkant in het output venster het volgende:<br/>\n  <img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/d/d6db7b9b151dd90860423273ce10f0d98aa3e1e9.png\" class=\"height-84-pixels width-149-pixels\"/></li>\n<li>Sla de code van opdracht 1 op door op de \"<strong>Save</strong>\" knop te drukken.</li>\n<li>Download nu het bestand en open het met een teksteditor, bv. Wordpad in Windows of <a href=\"https://notepad-plus-plus.org\" target=\"_blank\">Notepad++</a>. Als het goed is, zie je in het bestand\n<div class=\"code\"><span style=\"color:black;\"><span style=\"color:mediumblue;\">print</span>(<span style=\"color:brown;\">\"Hello, World!\"</span>)</span></div>\nstaan.</li>\n<li>Welke extensie heeft het bestand?</li>\n<li>\n<p>Typ in het gedownloade bestand onder</p>\n<div class=\"code\"><span style=\"color:black;\"><span style=\"color:mediumblue;\">print</span>(<span style=\"color:brown;\">\"Hello, World!\"</span>)</span></div>\n<br/>\n<div class=\"code\"><span style=\"color:black;\">print</span></div>\n</li>\n<li>\n<p>Upload dit bestand in CodeSkulptor3 met de \"<strong>Load</strong>\" button en run the code. Als het goed gaat zul je het volgende in de output zien:<br/>\n<br/>\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/6/608de09fe0d71ded8bc4d7af3849eaab916bd29a.png\" class=\"height-89-pixels width-284-pixels\"/></p>\n</li>\n</ol>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "6893534"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "5. Syntax",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>In opdracht 3 van hoofdstuk 4.1 heb je gezien dat de extensie van een Python bestand <span style=\"font-family: monospace\">.py</span> is. Zorg er voor dat je je bestand altijd opslaat met de  <span style=\"font-family: monospace\">.py</span> extensie als je Python codes in een teksteditor als Wordpad schrijft. Mocht je op een laptop werken, kun je ook de <a href=\"https://thonny.org/\" target=\"_blank\">Thonny</a> IDE (Integrated Development Environment) downloaden. Dit is een simpele editor voor Python gebruikers met o.a. syntax-highlighting (zie figuur 5-1).</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/3/3e8f9c589b02dd5e32b69df13e62227c82c555b0.png\" class=\"height-278-pixels width-338-pixels\"/>\n<figcaption>Figuur 5-1</figcaption>\n</figure>\n"
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "6893991"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "5.1 inspringen",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Bij veel programmeertalen wordt inspringen (Eng.: indentation) gebruikt om de leesbaarheid van de code beter te maken. Bij Python echter is inspringen belangrijk om een codeblok aan te geven. De code in figuur 5-2</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/3/35fe6c20b50ed115b71a7360a7de931497dc7959.png\" class=\"height-95-pixels width-335-pixels\"/>\n<figcaption>Figuur 5-2</figcaption>\n</figure>\n<p> </p>\n<p>zal een</p>\n<pre>&#13;\n<span style=\"color:red;\">Line 2: SyntaxError: bad input</span></pre>\n<p>foutmelding geven bij het uitvoeren ervan. Wanneer de code wordt ingesprongen zoals in figuur 5-3 zal de code goed uitgevoerd worden.</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/d/d2b6784749dd7defb83a0d45afc58bcb6d379113.png\" class=\"height-97-pixels width-364-pixels\"/>\n<figcaption>Figuur 5-3</figcaption>\n</figure>\n<p> </p>\n<p>Het aantal keren dat ingesprongen wordt mag je zelf bepalen, mits je tenminste 1x inspringt en het aantal keren dat in een codeblok wordt ingesprongen steeds hetzelfde is. De code in figuur 5-4 zal een foutmelding geven omdat in regel 2 \u00e9\u00e9n keer is ingesprongen en in regel 3 twee keren.</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/0/04b7413e15db9ee1d0052cb70038bd0f76e2fd49.png\" class=\"height-98-pixels width-399-pixels\"/>\n<figcaption>Figuur 5-4</figcaption>\n</figure>\n<p> </p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6894038"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "5.2 Opdrachten",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>De volgende code geeft een foutmelding. Corrigeer deze code zodat er geen foutmelding verschijnt.</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/84a020a52da79db691b803a36d1298aad5ce2369.png\" class=\"height-139-pixels width-438-pixels\"/></p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "6894044"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "6. Commentaar",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Bekijk de volgende code en vertel wat het programma doet.</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/b/b72d3fc8cddbb5aae4ff7293da51f8ad4c6cc5c0.png\" class=\"height-334-pixels width-513-pixels\"/>\n<figcaption spellcheck=\"false\"><br/>\nFiguur 6-1</figcaption>\n</figure>\n<p> </p>\n<p>Als het goed is kon je op basis van de bovenstaande code zonder het programma te draaien (runnen) al vertellen wat dit programma doet. Dat komt omdat er in het programma zgn. <em>commentaar</em> is opgenomen.</p>\n<p>In Python start commentaar met een</p>\n<div class=\"code\">#</div>\nteken. Alles wat na het\n<div class=\"code\">#</div>\nteken volgt, wordt genegeerd tijdens het runnen van het programma. Commentaar in je code is goed om de volgende redenen:\n<ol>\n<li>Met commentaar kun je uitleggen wat een stukje code doet.</li>\n<li>Met commentaar kun je je code leesbaarder maken.</li>\n<li>Met commentaar kun je fouten opsporen door stukjes code niet te laten uitvoeren.</li>\n</ol>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "6894045"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "7. Variabelen",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Bekijk nogmaals de volgende code</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/b/b72d3fc8cddbb5aae4ff7293da51f8ad4c6cc5c0.png\" class=\"height-334-pixels width-513-pixels\"/>\n<figcaption spellcheck=\"false\"><br/>\nFiguur 7-1</figcaption>\n</figure>\n<p> </p>\n<p>In deze code worden het eerste getal en tweede getal opgeslagen in een zgn. <em>variabele</em>, getal1 en getal2. Variabelen onthouden een stukje informatie. Je kunt een variabele vergelijken met een doos, waarin data kunnen worden bewaard. Deze doos wordt gelabeld (krijgt een naam) om later de data uit de doos te halen door naar de label te verwijzen. Zo staat in de variabele getal1, het eerste getal dat de gebruiker opgeeft. In variabele getal2 staat het tweede getal opgeslagen die de gebruiker heeft opgegeven.</p>\n"
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "6917296"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "7.1 Opdrachten",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><strong>Opdracht 1</strong></p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/b/b72d3fc8cddbb5aae4ff7293da51f8ad4c6cc5c0.png\" class=\"height-334-pixels width-513-pixels\"/></p>\n<ol type=\"a\">\n<li>Schrijf alle variabelen op van de bovenstaande code.</li>\n<li>Schrijf een programma dat de lengte en breedte van een kamer vraagt aan de gebruiker en vervolgens de oppervlakte voor je uitrekent en dat op het scherm toont. Gebruik drie variabelen.</li>\n<li>Breid het programma van opdracht 2 uit zodat het programma ook de inhoud van de kamer berekent. Laat zowel de oppervlakte als de inhoud op het scherm zien.</li>\n<li>Hoeveel variabelen heb je bij je programma in opdracht 1c gebruikt?</li>\n</ol>\n<p> </p>\n<p><strong>Opdracht 2</strong></p>\n<p>Om uit te rekenen hoeveel 1 inch in centimeters is, dien je het aantal inches te vermenivuldigen met 2,54. Schrijf een programma dat het aantal inches omrekent naar het aantal centimeters.</p>\n<p>- het programma moet aan de gebruiker het aantal inches vragen,</p>\n<p>- het programma moet het resultaat weergeven als bv. \"1 inch is 2.54 cm\".</p>\n<p> </p>\n<p><strong>Opdracht 3</strong></p>\n<p>Om te zien of je een gezond gewicht hebt in verhouding tot je lengte kun je gebruik maken van de zgn. Body Mass Index, ook wel de BMI waarde genoemd. De BMI geeft een inschatting van hoe gezond je lichaamsgewicht is. Je kunt je BMI waarde zelf uitrekenen door je gewicht in kilogrammen te delen door het kwadraat van je lichaamslengte in meters. Als je bijvoorbeeld 60 kilogram weegt en je bent 1,65 meter lang, dan bereken je je BMI waarde als volgt: 60 kilo / (1,65 x 1,65 meter) = 22,1. Voor volwassenen ligt een gezond BMI tussen de 18,5 en de 25. Maar dit geldt niet voor iedereen.</p>\n<p>Schrijf op basis van het bovenstaande een programma dat de BMI waarde uitrekent voor een willekeurig persoon.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "6894046"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "8. Operatoren",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>In hoofdstuk 7 hebben jullie kennis kunnen maken met variabelen. In variabelen kunnen we data opslaan, zoals bv. getallen. Om bewerkingen op die getallen te kunnen doen, gebruiken we <em>operatoren</em>. Er bestaan verschillende soorten operatoren. Voorlopig beperken we ons tot de volgende operatoren:</p>\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"width-500-pixels\">\n<tbody>\n<tr>\n<td><strong>Operator</strong></td>\n<td><strong>Beschrijving</strong></td>\n<td><strong>Voorbeeld</strong></td>\n</tr>\n<tr>\n<td class=\"text-align-center\">+</td>\n<td>Optellen</td>\n<td class=\"text-align-center\">x + y</td>\n</tr>\n<tr>\n<td class=\"text-align-center\">-</td>\n<td>Aftrekken</td>\n<td class=\"text-align-center\">x - y</td>\n</tr>\n<tr>\n<td class=\"text-align-center\">*</td>\n<td>Vermenivuldigen</td>\n<td class=\"text-align-center\">x * y</td>\n</tr>\n<tr>\n<td class=\"text-align-center\">/</td>\n<td>Delen</td>\n<td class=\"text-align-center\">x / y</td>\n</tr>\n<tr>\n<td class=\"text-align-center\">%</td>\n<td>Modulo (geeft de restwaarde van een deling)</td>\n<td class=\"text-align-center\">x%y</td>\n</tr>\n<tr>\n<td class=\"text-align-center\">=</td>\n<td>Een waarde toekennen</td>\n<td class=\"text-align-center\">x = 9</td>\n</tr>\n<tr>\n<td class=\"text-align-center\">!=</td>\n<td>Niet gelijk aan</td>\n<td class=\"text-align-center\">x != y</td>\n</tr>\n<tr>\n<td class=\"text-align-center\">==</td>\n<td>Gelijk aan</td>\n<td class=\"text-align-center\">x == 9</td>\n</tr>\n<tr>\n<td class=\"text-align-center\">&gt;</td>\n<td>Groter dan</td>\n<td class=\"text-align-center\">x &gt; y</td>\n</tr>\n<tr>\n<td class=\"text-align-center\">&lt;</td>\n<td>Kleiner dan</td>\n<td class=\"text-align-center\">x &lt; y</td>\n</tr>\n<tr>\n<td class=\"text-align-center\">&gt;=</td>\n<td>Groter dan of gelijk aan</td>\n<td class=\"text-align-center\">x &gt;= y</td>\n</tr>\n<tr>\n<td class=\"text-align-center\">&lt;=</td>\n<td>Kleiner dan of gelijk aan</td>\n<td class=\"text-align-center\">x &lt;= y</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n"
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "6926037"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "8.1 Opdrachten",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<ol>\n<li>Schrijf een programma dat<br/>\na) aan de gebruiker twee getallen vraagt. Maak gebruik van variabelen om de getallen op te slaan,<br/>\nb) de twee getallen met elkaar vermenigvuldigt. Maak gebruik van de juiste operator en bewaar het resultaat in een variabel,<br/>\nc) het resultaat van de vermenigvuldiging op het scherm toont.<br/>\nd) Zet commentaar in je code, zodat het duidelijk is voor een ander wat je code doet.</li>\n</ol>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "6894049"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "9. Strings",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p><em>Strings</em> in de informatica zijn een reeks tekens of karakters. In Python kun je strings weergeven met enkele quotes,</p>\n<div class=\"code\">'Hello'</div>\nof met dubbele quotes,\n<div class=\"code\">\"Hello\"</div>\n.\n<p>In</p>\n<div class=\"code\">print(\"Hello World!\")</div>\nis Hello World! een string. Je kunt ook zgn. <em>multiline strings</em> maken door gebruik te maken van drie quotes.\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/4/454a7801fe38f51d69f6a30940ea7bc7f198b788.png\" class=\"height-139-pixels width-235-pixels\"/>\n<figcaption>Figuur 9-1</figcaption>\n</figure>\n<p> </p>\n<p> </p>\n"
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "6917762"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "9.1 Opdrachten",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<ol>\n<li>Typ de volgende code in en bekijk de output.<br/>\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/4/454a7801fe38f51d69f6a30940ea7bc7f198b788.png\" class=\"height-139-pixels width-235-pixels\"/></li>\n<li>Schrijf de code uit opdracht 1 zodanig op zodat de output op 1 regel verschijnt.</li>\n</ol>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "6894050"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "10. Data typen",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>In hoofdstuk 7 hebben jullie kennis kunnen maken met variabelen. We kunnen in variabelen verschillende soorten zaken opslaan. Denk bv. aan getallen en karakters. We kunnen hele getallen in een variabel opslaan, maar ook decimale getallen. Kortom, we kunnen verschillende soorten data typen in een variabel opslaan. Met de verschillende data typen kun je verschillende dingen doen.  Met getallen kun je bv. rekenen. Met karakters kun je bv. woorden en zinnen maken. Het concept <em>data typen</em> is belangrijk in programmeren. In Python wordt de data type ingesteld wanneer je een waarde aan een variabele toekent. In deze lessen serie zullen we ons beperken tot de volgende data typen:</p>\n<p> </p>\n<table border=\"1\" cellpadding=\"5\" cellspacing=\"1\" class=\"width-500-pixels\">\n<tbody>\n<tr>\n<td><strong>Voorbeeld</strong></td>\n<td><strong>Data type</strong></td>\n</tr>\n<tr>\n<td>x = \"Hello World\"</td>\n<td>str</td>\n</tr>\n<tr>\n<td>x = 10</td>\n<td>int</td>\n</tr>\n<tr>\n<td>x = 10.5</td>\n<td>float</td>\n</tr>\n<tr>\n<td>x = [\"koffie\", \"thee\", \"water\"]</td>\n<td>list</td>\n</tr>\n<tr>\n<td>x = (\"koffie\", \"thee\", \"water\")</td>\n<td>tuple</td>\n</tr>\n</tbody>\n</table>\n<p><span class=\"font-size-14px\">Tabel 10-1</span></p>\n<p> </p>\n<p>Je kunt echter ook zelf de data type opgeven. Dat gaat dan op de volgende manier voor bv. de string data type:</p>\n<div class=\"code\">x = str(\"Hello World\")</div>\n"
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "6926842"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "10.1 Opdrachten",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><strong>Opdracht 1</strong></p>\n<p>Geef in de onderstaande gevallen aan om wat voor data type het gaat en geef dit expliciet weer.<br/>\nVoorbeeld:</p>\n<div class=\"code\">x = \"Hello World\"</div>\n. Het gaat hier om een string data type. We kunnen dit ook expliciet aan Python meegeven door\n<div class=\"code\">x =str(\"Hello world\")</div>\nop te schrijven.<br/>\n<br/>\na) x = 10<br/>\nb) y = 10.78<br/>\nc) myList = [\"appel\", \"peer\", \"banaan\"]<br/>\nd) T = (\"Volvo\", \"Hyundai\", \"Mercedes\")<br/>\ne) y = \"Waar ga je naar toe?\"<br/>\nf) z = 245.90<br/>\ng) arr = [\"Jan\", \"Karin\", \"Mies\"]<br/>\nh) x = (\"Peter\", \"Hanna\", \"Pieter\")"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p><strong>Opdacht 2</strong></p>\n<p>Schrijf een programma dat</p>\n<p>- de gebruiker vraagt \u200b\u200bom een \u200b\u200bgetal in te voeren,<br/>\n- vervolgens de gebruiker vraagt \u200b\u200bom een tweede getal in te voeren en<br/>\n- daarna het product berekent van de twee getallen.</p>\n<p>Laat het programma het product van de twee getallen op het scherm tonen als</p>\n<p><span style=\"font-family: monospace\">\"Het product van 2 en 4 is 8\".</span></p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "6894048"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "11. Loops",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Bij programmeren is een <em>loop</em> (lus) een reeks instructies die worden herhaald totdat aan een bepaalde voorwaarde is voldaan. Met een loop kun je dus aangeven dat een instructie meerdere keren moet worden uitgevoerd. De twee meest voorkomende soorten loops in Python zijn de <em>for-loop</em> en de <em>while-loop</em>.</p>\n<p><em><strong>for-loop</strong></em><br/>\nMet de for-loop kun je een stukje code herhalen zonder die opnieuw te hoeven in te voeren. Je kunt met de for-loop iets een bepaald aantal keren herhalen, bv. als je de namen van een klas met 25 leerlingen wilt printen. For-loops zijn handig als je weet hoe vaak een taak moet worden herhaald. In figuur 11-1 worden de cijfers 0 tot en met 9 getoond door gebruik te maken van een for-loop. Let op dat we in informatica bij 0 beginnen te tellen. De code in figuur 11-1 toont de eerste 10 cijfers, beginnend vanaf 0.</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/9/9b31557c6d851bd6204536a01b530f6f48ecf7b8.png\" class=\"height-110-pixels width-208-pixels\"/>\n<figcaption>Figuur 11-1</figcaption>\n</figure>\n<p><br/>\n<strong><em>while-loop</em></strong><br/>\nSoms wil je dat een loop herhaald wordt totdat er iets verandert. In dat soort gevallen kun je dan het beste de <em>while-loop</em> gebruiken. Een while-loop is actief zolang een bepaalde voorwaarde \"waar\" is. Deze voorwaarde heet de <em>loop-voorwaarde</em>. Het resultaat (de output) van figuur 11-1 kunnen we ook bereiken door een while-loop te gebruiken. In figuur 11-2. geven we met de loop-voorwaarde</p>\n<div class=\"code\">i &lt; 10</div>\naan dat de while-loop net zolang moet door gaan totdat er niet meer aan die voorwaarde wordt voldaan.\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/a/a0a492bc5bd4c7476ea8160c6f60921d634177a8.png\" class=\"height-127-pixels width-178-pixels\"/>\n<figcaption>Figuur 11-2</figcaption>\n</figure>\n<p> </p>\n<p> </p>\n"
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "6940376"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "11.1 Opdrachten",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Bekijk de volgende video over loops en maak de opdrachten.</p>\n<p><img alt=\"\" src=\"https://youtu.be/94UHCEmprCY\"/><iframe allowfullscreen=\"allowfullscreen\" frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/94UHCEmprCY\" width=\"560\" class=\"video-item\"/></p>\n<p> </p>\n"
+                        },
+                        {
+                            "type": "question",
+                            "reference": {
+                                "value": "6940379"
+                            },
+                            "assessmentItem": {
+                                "identifier": "6940379",
+                                "itemBody": null,
+                                "questions": [
+                                    {
+                                        "type": "choiceInteraction",
+                                        "label": "Opdracht 1",
+                                        "prompt": {
+                                            "body": "<p>Wat is de functie van de keywoord <em>break</em> in Python?</p>"
+                                        },
+                                        "shuffle": true,
+                                        "maxChoices": 4,
+                                        "minChoices": 1,
+                                        "orientation": "vertical",
+                                        "choices": [
+                                            {
+                                                "identifier": "0",
+                                                "content": {
+                                                    "body": "Break wordt gebruikt om een for-loop of een while-loop te doorbreken."
+                                                },
+                                                "feedback": {
+                                                    "outcomeIdentifier": "FEEDBACK",
+                                                    "identifier": "0",
+                                                    "showHide": true,
+                                                    "title": null,
+                                                    "content": null
+                                                }
+                                            },
+                                            {
+                                                "identifier": "1",
+                                                "content": {
+                                                    "body": "Break wordt gebruikt na een print opdracht om de for-loop te herhalen."
+                                                },
+                                                "feedback": {
+                                                    "outcomeIdentifier": "FEEDBACK",
+                                                    "identifier": "1",
+                                                    "showHide": true,
+                                                    "title": null,
+                                                    "content": null
+                                                }
+                                            },
+                                            {
+                                                "identifier": "2",
+                                                "content": {
+                                                    "body": "Break wordt gebruikt om een if-statement te doorbreken."
+                                                },
+                                                "feedback": {
+                                                    "outcomeIdentifier": "FEEDBACK",
+                                                    "identifier": "2",
+                                                    "showHide": true,
+                                                    "title": null,
+                                                    "content": null
+                                                }
+                                            },
+                                            {
+                                                "identifier": "3",
+                                                "content": {
+                                                    "body": "Break wordt gebruikt na een succesvolle opdracht."
+                                                },
+                                                "feedback": {
+                                                    "outcomeIdentifier": "FEEDBACK",
+                                                    "identifier": "3",
+                                                    "showHide": true,
+                                                    "title": null,
+                                                    "content": null
+                                                }
+                                            }
+                                        ],
+                                        "responseIdentifier": "6940379_1",
+                                        "feedback": null
+                                    }
+                                ],
+                                "responseDeclarations": [
+                                    {
+                                        "identifier": "6940379_1",
+                                        "cardinality": "ordered",
+                                        "baseType": "identifier",
+                                        "correctResponse": {
+                                            "interpretation": null,
+                                            "values": [
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "0"
+                                                }
+                                            ]
+                                        },
+                                        "mapping": {
+                                            "lowerBound": 0,
+                                            "upperBound": 0,
+                                            "default": 0,
+                                            "mapEntries": [
+                                                {
+                                                    "key": "0",
+                                                    "value": "0",
+                                                    "caseSensitive": false
+                                                },
+                                                {
+                                                    "key": "1",
+                                                    "value": "0",
+                                                    "caseSensitive": false
+                                                },
+                                                {
+                                                    "key": "2",
+                                                    "value": "0",
+                                                    "caseSensitive": false
+                                                },
+                                                {
+                                                    "key": "3",
+                                                    "value": "0",
+                                                    "caseSensitive": false
+                                                }
+                                            ]
+                                        },
+                                        "areaMapping": null
+                                    }
+                                ],
+                                "outcomeDeclarations": [
+                                    {
+                                        "identifier": "SCORE",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 0,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK_CORRECT",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": false,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK_INCORRECT",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": true,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK_THRESHOLD",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 0,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "RESPONSE_CORRECT",
+                                        "cardinality": "single",
+                                        "baseType": "boolean",
+                                        "defaultValue": null,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "RESPONSE_INCORRECT",
+                                        "cardinality": "single",
+                                        "baseType": "boolean",
+                                        "defaultValue": null,
+                                        "interpretation": null
+                                    }
+                                ],
+                                "feedback": null
+                            }
+                        },
+                        {
+                            "type": "question",
+                            "reference": {
+                                "value": "6940385"
+                            },
+                            "assessmentItem": {
+                                "identifier": "6940385",
+                                "itemBody": null,
+                                "questions": [
+                                    {
+                                        "type": "choiceInteraction",
+                                        "label": "Opdracht 2",
+                                        "prompt": {
+                                            "body": "<p>Wat is de functie van <em>f</em> in het volgende stukje code?</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/b/babfcb19c0ba65c9ef883f8cd2fc90bac05f3288.png\" class=\"height-94-pixels width-377-pixels\" /></p>"
+                                        },
+                                        "shuffle": true,
+                                        "maxChoices": 4,
+                                        "minChoices": 1,
+                                        "orientation": "vertical",
+                                        "choices": [
+                                            {
+                                                "identifier": "0",
+                                                "content": {
+                                                    "body": "<em>f</em> wordt gebruikt om een tekenreeks op te maken."
+                                                },
+                                                "feedback": {
+                                                    "outcomeIdentifier": "FEEDBACK",
+                                                    "identifier": "0",
+                                                    "showHide": true,
+                                                    "title": null,
+                                                    "content": null
+                                                }
+                                            },
+                                            {
+                                                "identifier": "1",
+                                                "content": {
+                                                    "body": "<em>f</em> wordt gebruikt om variabelen te printen."
+                                                },
+                                                "feedback": {
+                                                    "outcomeIdentifier": "FEEDBACK",
+                                                    "identifier": "1",
+                                                    "showHide": true,
+                                                    "title": null,
+                                                    "content": null
+                                                }
+                                            },
+                                            {
+                                                "identifier": "2",
+                                                "content": {
+                                                    "body": "<em>f</em> wordt gebruikt om variabelen in een <em>for-loop</em> te printen."
+                                                },
+                                                "feedback": {
+                                                    "outcomeIdentifier": "FEEDBACK",
+                                                    "identifier": "2",
+                                                    "showHide": true,
+                                                    "title": null,
+                                                    "content": null
+                                                }
+                                            },
+                                            {
+                                                "identifier": "3",
+                                                "content": {
+                                                    "body": "<em>f</em> wordt gebruikt om een tekenreeks in een <em>for-loop</em> te printen."
+                                                },
+                                                "feedback": {
+                                                    "outcomeIdentifier": "FEEDBACK",
+                                                    "identifier": "3",
+                                                    "showHide": true,
+                                                    "title": null,
+                                                    "content": null
+                                                }
+                                            }
+                                        ],
+                                        "responseIdentifier": "6940385_1",
+                                        "feedback": null
+                                    }
+                                ],
+                                "responseDeclarations": [
+                                    {
+                                        "identifier": "6940385_1",
+                                        "cardinality": "ordered",
+                                        "baseType": "identifier",
+                                        "correctResponse": {
+                                            "interpretation": null,
+                                            "values": [
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "0"
+                                                }
+                                            ]
+                                        },
+                                        "mapping": {
+                                            "lowerBound": 0,
+                                            "upperBound": 0,
+                                            "default": 0,
+                                            "mapEntries": [
+                                                {
+                                                    "key": "0",
+                                                    "value": "0",
+                                                    "caseSensitive": false
+                                                },
+                                                {
+                                                    "key": "1",
+                                                    "value": "0",
+                                                    "caseSensitive": false
+                                                },
+                                                {
+                                                    "key": "2",
+                                                    "value": "0",
+                                                    "caseSensitive": false
+                                                },
+                                                {
+                                                    "key": "3",
+                                                    "value": "0",
+                                                    "caseSensitive": false
+                                                }
+                                            ]
+                                        },
+                                        "areaMapping": null
+                                    }
+                                ],
+                                "outcomeDeclarations": [
+                                    {
+                                        "identifier": "SCORE",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 0,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK_CORRECT",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": false,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK_INCORRECT",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": true,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK_THRESHOLD",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 0,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "RESPONSE_CORRECT",
+                                        "cardinality": "single",
+                                        "baseType": "boolean",
+                                        "defaultValue": null,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "RESPONSE_INCORRECT",
+                                        "cardinality": "single",
+                                        "baseType": "boolean",
+                                        "defaultValue": null,
+                                        "interpretation": null
+                                    }
+                                ],
+                                "feedback": null
+                            }
+                        },
+                        {
+                            "type": "question",
+                            "reference": {
+                                "value": "6946530"
+                            },
+                            "assessmentItem": {
+                                "identifier": "6946530",
+                                "itemBody": null,
+                                "questions": [
+                                    {
+                                        "type": "choiceInteraction",
+                                        "label": "Opdracht 3",
+                                        "prompt": {
+                                            "body": "<p>Wat is de output van de volgende code</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/57d88afeb36d58febb6990684fa4eb280cbe4900.png\" class=\"height-115-pixels width-546-pixels\" /></p>"
+                                        },
+                                        "shuffle": true,
+                                        "maxChoices": 4,
+                                        "minChoices": 1,
+                                        "orientation": "vertical",
+                                        "choices": [
+                                            {
+                                                "identifier": "0",
+                                                "content": {
+                                                    "body": "Attempt 1 .<br />\nAttempt 2 ..<br />\nAttempt 3 ...<br />"
+                                                },
+                                                "feedback": {
+                                                    "outcomeIdentifier": "FEEDBACK",
+                                                    "identifier": "0",
+                                                    "showHide": true,
+                                                    "title": null,
+                                                    "content": null
+                                                }
+                                            },
+                                            {
+                                                "identifier": "1",
+                                                "content": {
+                                                    "body": "Attempt 1 .<br />\nAttempt 2 ..<br />\nAttempt 3 ...<br />\nAttempt 4 ....<br />"
+                                                },
+                                                "feedback": {
+                                                    "outcomeIdentifier": "FEEDBACK",
+                                                    "identifier": "1",
+                                                    "showHide": true,
+                                                    "title": null,
+                                                    "content": null
+                                                }
+                                            },
+                                            {
+                                                "identifier": "2",
+                                                "content": {
+                                                    "body": "Attempt 0 .<br />\nAttempt 1 ..<br />\nAttempt 2 ...<br />\nAttempt 3 ....<br />"
+                                                },
+                                                "feedback": {
+                                                    "outcomeIdentifier": "FEEDBACK",
+                                                    "identifier": "2",
+                                                    "showHide": true,
+                                                    "title": null,
+                                                    "content": null
+                                                }
+                                            },
+                                            {
+                                                "identifier": "3",
+                                                "content": {
+                                                    "body": "Attempt 0<br />\nAttempt 1 .<br />\nAttempt 2 ..<br />\nAttempt 3 ...<br />\nAttempt 4 ....<br />"
+                                                },
+                                                "feedback": {
+                                                    "outcomeIdentifier": "FEEDBACK",
+                                                    "identifier": "3",
+                                                    "showHide": true,
+                                                    "title": null,
+                                                    "content": null
+                                                }
+                                            }
+                                        ],
+                                        "responseIdentifier": "6946530_1",
+                                        "feedback": null
+                                    }
+                                ],
+                                "responseDeclarations": [
+                                    {
+                                        "identifier": "6946530_1",
+                                        "cardinality": "ordered",
+                                        "baseType": "identifier",
+                                        "correctResponse": {
+                                            "interpretation": null,
+                                            "values": [
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "0"
+                                                }
+                                            ]
+                                        },
+                                        "mapping": {
+                                            "lowerBound": 0,
+                                            "upperBound": 0,
+                                            "default": 0,
+                                            "mapEntries": [
+                                                {
+                                                    "key": "0",
+                                                    "value": "0",
+                                                    "caseSensitive": false
+                                                },
+                                                {
+                                                    "key": "1",
+                                                    "value": "0",
+                                                    "caseSensitive": false
+                                                },
+                                                {
+                                                    "key": "2",
+                                                    "value": "0",
+                                                    "caseSensitive": false
+                                                },
+                                                {
+                                                    "key": "3",
+                                                    "value": "0",
+                                                    "caseSensitive": false
+                                                }
+                                            ]
+                                        },
+                                        "areaMapping": null
+                                    }
+                                ],
+                                "outcomeDeclarations": [
+                                    {
+                                        "identifier": "SCORE",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 0,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK_CORRECT",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": false,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK_INCORRECT",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": true,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK_THRESHOLD",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 0,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "RESPONSE_CORRECT",
+                                        "cardinality": "single",
+                                        "baseType": "boolean",
+                                        "defaultValue": null,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "RESPONSE_INCORRECT",
+                                        "cardinality": "single",
+                                        "baseType": "boolean",
+                                        "defaultValue": null,
+                                        "interpretation": null
+                                    }
+                                ],
+                                "feedback": null
+                            }
+                        },
+                        {
+                            "type": "question",
+                            "reference": {
+                                "value": "6946540"
+                            },
+                            "assessmentItem": {
+                                "identifier": "6946540",
+                                "itemBody": null,
+                                "questions": [
+                                    {
+                                        "type": "extendedTextInteraction",
+                                        "label": "Opdracht 4",
+                                        "prompt": {
+                                            "body": "<p>Schrijf een programma dat alle oneven getallen tussen 0 en 100 uitprint.</p>"
+                                        },
+                                        "feedback": null
+                                    }
+                                ],
+                                "responseDeclarations": [
+                                    {
+                                        "identifier": "6946540_1",
+                                        "cardinality": "single",
+                                        "baseType": "string",
+                                        "correctResponse": {
+                                            "interpretation": null,
+                                            "values": [
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "<p>Maak gebruik van de range() functie in Python.</p>\r\n"
+                                                }
+                                            ]
+                                        },
+                                        "mapping": {
+                                            "lowerBound": 0,
+                                            "upperBound": 1,
+                                            "default": 0,
+                                            "mapEntries": []
+                                        },
+                                        "areaMapping": null
+                                    }
+                                ],
+                                "outcomeDeclarations": [
+                                    {
+                                        "identifier": "SCORE",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 0,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": null,
+                                        "interpretation": null
+                                    }
+                                ],
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK",
+                                        "identifier": "ANSWER_CORRECT",
+                                        "showHide": true,
+                                        "title": null,
+                                        "content": {
+                                            "body": "<p>Maak gebruik van de range() functie in Python.</p>"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "type": "question",
+                            "reference": {
+                                "value": "6946541"
+                            },
+                            "assessmentItem": {
+                                "identifier": "6946541",
+                                "itemBody": null,
+                                "questions": [
+                                    {
+                                        "type": "extendedTextInteraction",
+                                        "label": "Opdracht 5",
+                                        "prompt": {
+                                            "body": "<p>Schrijf een programma dat alle even getallen tussen 0 en 101 uitprint. Let op dat nul geen even of oneven cijfer is. Het cijfer nul mag dus <strong>niet</strong> uitgeprint worden.</p>"
+                                        },
+                                        "feedback": null
+                                    }
+                                ],
+                                "responseDeclarations": [
+                                    {
+                                        "identifier": "6946541_1",
+                                        "cardinality": "single",
+                                        "baseType": "string",
+                                        "correctResponse": {
+                                            "interpretation": null,
+                                            "values": [
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "<p>Maak gebruik van de range() functie in Python.</p>\r\n"
+                                                }
+                                            ]
+                                        },
+                                        "mapping": {
+                                            "lowerBound": 0,
+                                            "upperBound": 1,
+                                            "default": 0,
+                                            "mapEntries": []
+                                        },
+                                        "areaMapping": null
+                                    }
+                                ],
+                                "outcomeDeclarations": [
+                                    {
+                                        "identifier": "SCORE",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 0,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": null,
+                                        "interpretation": null
+                                    }
+                                ],
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK",
+                                        "identifier": "ANSWER_CORRECT",
+                                        "showHide": true,
+                                        "title": null,
+                                        "content": {
+                                            "body": "<p>Maak gebruik van de range() functie in Python.</p>"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "type": "question",
+                            "reference": {
+                                "value": "6950673"
+                            },
+                            "assessmentItem": {
+                                "identifier": "6950673",
+                                "itemBody": null,
+                                "questions": [
+                                    {
+                                        "type": "extendedTextInteraction",
+                                        "label": "Opdracht 6",
+                                        "prompt": {
+                                            "body": "<p>Schrijf een programma dat de tafels kan weergeven. Voorbeeld:</p>\n<p>1x1=1<br />\n1x2=2<br />\n1x3=3<br />\n1x4=4<br />\n1x5=5<br />\n1x6=6<br />\n1x7=7<br />\n1x8=8<br />\n1x9=9<br />\n1x10=10</p>\n<p>Je programma moet aan de volgende eisen voldoen:</p>\n<p>- het programma moet aan de gebruiker vragen welke tafel die uitgeprint wilt zien.</p>\n<p>- het programma print de gevraagde tafel op het scherm, zoals in het voorbeeld.</p>"
+                                        },
+                                        "feedback": null
+                                    }
+                                ],
+                                "responseDeclarations": [
+                                    {
+                                        "identifier": "6950673_1",
+                                        "cardinality": "single",
+                                        "baseType": "string",
+                                        "correctResponse": {
+                                            "interpretation": null,
+                                            "values": [
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "<ul>\r\n\t<li>Gebruik de input() functie om de gebruiker te vragen welke tafel er geprint moet worden.</li>\r\n\t<li>Itereer vervolgens over de range() functie m.b.v. de for-loop.</li>\r\n</ul>\r\n"
+                                                }
+                                            ]
+                                        },
+                                        "mapping": {
+                                            "lowerBound": 0,
+                                            "upperBound": 1,
+                                            "default": 0,
+                                            "mapEntries": []
+                                        },
+                                        "areaMapping": null
+                                    }
+                                ],
+                                "outcomeDeclarations": [
+                                    {
+                                        "identifier": "SCORE",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 0,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": null,
+                                        "interpretation": null
+                                    }
+                                ],
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK",
+                                        "identifier": "ANSWER_CORRECT",
+                                        "showHide": true,
+                                        "title": null,
+                                        "content": {
+                                            "body": "<ul>\n<li>Gebruik de input() functie om de gebruiker te vragen welke tafel er geprint moet worden.</li>\n<li>Itereer vervolgens over de range() functie m.b.v. de for-loop.</li>\n</ul>"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "type": "question",
+                            "reference": {
+                                "value": "7466651"
+                            },
+                            "assessmentItem": {
+                                "identifier": "7466651",
+                                "itemBody": null,
+                                "questions": [
+                                    {
+                                        "type": "extendedTextInteraction",
+                                        "label": "Opdracht 7",
+                                        "prompt": {
+                                            "body": "<p>Schrijf een programma dat een woord in omgekeerde volgorde schrijft en dat op het scherm toont.</p>"
+                                        },
+                                        "feedback": null
+                                    }
+                                ],
+                                "responseDeclarations": [
+                                    {
+                                        "identifier": "7466651_1",
+                                        "cardinality": "single",
+                                        "baseType": "string",
+                                        "correctResponse": {
+                                            "interpretation": null,
+                                            "values": [
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "<ul>\r\n\t<li>Vraag de gebruiker om een woord in te voeren</li>\r\n\t<li>Schrijf het woord in omgekeerde volgorde (gebruik een loop)</li>\r\n\t<li>Toon het omgekeerde woord</li>\r\n</ul>\r\n"
+                                                }
+                                            ]
+                                        },
+                                        "mapping": {
+                                            "lowerBound": 0,
+                                            "upperBound": 1,
+                                            "default": 0,
+                                            "mapEntries": []
+                                        },
+                                        "areaMapping": null
+                                    }
+                                ],
+                                "outcomeDeclarations": [
+                                    {
+                                        "identifier": "SCORE",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 0,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": null,
+                                        "interpretation": null
+                                    }
+                                ],
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK",
+                                        "identifier": "ANSWER_CORRECT",
+                                        "showHide": true,
+                                        "title": null,
+                                        "content": {
+                                            "body": "<ul>\n<li>Vraag de gebruiker om een woord in te voeren</li>\n<li>Schrijf het woord in omgekeerde volgorde (gebruik een loop)</li>\n<li>Toon het omgekeerde woord</li>\n</ul>"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "6894047"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "12. Condities",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>In het leven komen we soms situaties tegen waarin we een beslissing moeten nemen. Op basis van de genomen beslissingen bepalen we vervolgens wat we daarna gaan doen. Bij het programmeren moeten we soms ook beslissingen nemen. Op basis van deze beslissingen wordt dan het volgende blok code uitgevoerd. Het nemen van beslissingen bij programmeren doen we door middel van <em>if-else statements</em>. Bekijk de code in figuur 12-1.</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/7/7a31d5d56a5846bd688bec8a2a51b76613c8aa66.png\" class=\"height-190-pixels width-340-pixels\"/>\n<figcaption>Figuur 12-1</figcaption>\n</figure>\n<p> </p>\n<p>In dit stukje code wordt \"x is groter dan 10\" alleen op het scherm getoond <em>als</em> de regel</p>\n<div class=\"code\">x &gt; 10</div>\nwaar is. Wanneer x niet voldoet aan de voorwaarde\n<div class=\"code\">x &gt; 10</div>\nwordt regel 5, de else-statement, uitgevoerd.\n<p> </p>\n"
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "6928468"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "12.1 Opdrachten",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "question",
+                            "reference": {
+                                "value": "6929233"
+                            },
+                            "assessmentItem": {
+                                "identifier": "6929233",
+                                "itemBody": null,
+                                "questions": [
+                                    {
+                                        "type": "extendedTextInteraction",
+                                        "label": "Opdracht 1",
+                                        "prompt": {
+                                            "body": "<p>Bekijk de volgende code en leg uit waarom regel 8 altijd uitgevoerd zal worden.<br />\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/7/7a31d5d56a5846bd688bec8a2a51b76613c8aa66.png\" class=\"height-190-pixels width-340-pixels\" /></p>"
+                                        },
+                                        "feedback": null
+                                    }
+                                ],
+                                "responseDeclarations": [
+                                    {
+                                        "identifier": "6929233_1",
+                                        "cardinality": "single",
+                                        "baseType": "string",
+                                        "correctResponse": {
+                                            "interpretation": null,
+                                            "values": [
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "<p>Regel 8 wordt altijd uitgevoerd omdat dit niet onder de <em>if</em> of <em>else </em>statement staat (is niet ingesprongen).</p>\r\n"
+                                                }
+                                            ]
+                                        },
+                                        "mapping": {
+                                            "lowerBound": 0,
+                                            "upperBound": 1,
+                                            "default": 0,
+                                            "mapEntries": []
+                                        },
+                                        "areaMapping": null
+                                    }
+                                ],
+                                "outcomeDeclarations": [
+                                    {
+                                        "identifier": "SCORE",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 0,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": null,
+                                        "interpretation": null
+                                    }
+                                ],
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK",
+                                        "identifier": "ANSWER_CORRECT",
+                                        "showHide": true,
+                                        "title": null,
+                                        "content": {
+                                            "body": "<p>Regel 8 wordt altijd uitgevoerd omdat dit niet onder de <em>if</em> of <em>else</em> statement staat (is niet ingesprongen).</p>"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "type": "question",
+                            "reference": {
+                                "value": "7467024"
+                            },
+                            "assessmentItem": {
+                                "identifier": "7467024",
+                                "itemBody": null,
+                                "questions": [
+                                    {
+                                        "type": "extendedTextInteraction",
+                                        "label": "Opdracht 2 ",
+                                        "prompt": {
+                                            "body": "<p>Schrijf een programma dat checkt of een getal positief, negatief of nul is.</p>"
+                                        },
+                                        "feedback": null
+                                    }
+                                ],
+                                "responseDeclarations": [
+                                    {
+                                        "identifier": "7467024_1",
+                                        "cardinality": "single",
+                                        "baseType": "string",
+                                        "correctResponse": {
+                                            "interpretation": null,
+                                            "values": [
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "<ul>\r\n\t<li>Controleer of het getal groter is dan nul</li>\r\n\t<li>Controleer of het getal nul is</li>\r\n\t<li>Gebruik if - else om te bepalen of het getal positief of negatief is</li>\r\n</ul>\r\n"
+                                                }
+                                            ]
+                                        },
+                                        "mapping": {
+                                            "lowerBound": 0,
+                                            "upperBound": 1,
+                                            "default": 0,
+                                            "mapEntries": []
+                                        },
+                                        "areaMapping": null
+                                    }
+                                ],
+                                "outcomeDeclarations": [
+                                    {
+                                        "identifier": "SCORE",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 0,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": null,
+                                        "interpretation": null
+                                    }
+                                ],
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK",
+                                        "identifier": "ANSWER_CORRECT",
+                                        "showHide": true,
+                                        "title": null,
+                                        "content": {
+                                            "body": "<ul>\n<li>Controleer of het getal groter is dan nul</li>\n<li>Controleer of het getal nul is</li>\n<li>Gebruik if - else om te bepalen of het getal positief of negatief is</li>\n</ul>"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "type": "question",
+                            "reference": {
+                                "value": "7466828"
+                            },
+                            "assessmentItem": {
+                                "identifier": "7466828",
+                                "itemBody": null,
+                                "questions": [
+                                    {
+                                        "type": "extendedTextInteraction",
+                                        "label": "Opdracht 3",
+                                        "prompt": {
+                                            "body": "<p>Maak een programma dat gebruikers mogelijk maakt om een getal tussen 1 en 10 te raden.</p>\n<ul>\n<li>Het programma moet de gebruiker vragen om een getal te raden.</li>\n<li>Als het getal dat de gebruiker heeft geraden kleiner is dan het te raden getal, moet het programma een bericht geven met de tekst: \"Het getal dat je hebt geraden is te klein\".</li>\n<li>Als het getal dat de gebruiker heeft geraden groter is dan het te raden getal, moet het programma een bericht geven met de tekst: \"Het getal dat je hebt geraden is te groot\".</li>\n<li>Als het getal dat de gebruiker heeft geraden gelijk is aan het te raden getal, moet het programma een bericht geven met de tekst: \"Gefeliciteerd! Je hebt het getal geraden!\".</li>\n</ul>"
+                                        },
+                                        "feedback": null
+                                    }
+                                ],
+                                "responseDeclarations": [
+                                    {
+                                        "identifier": "7466828_1",
+                                        "cardinality": "single",
+                                        "baseType": "string",
+                                        "correctResponse": {
+                                            "interpretation": null,
+                                            "values": [
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "<p>Gebruik if, elif en else.</p>\r\n"
+                                                }
+                                            ]
+                                        },
+                                        "mapping": {
+                                            "lowerBound": 0,
+                                            "upperBound": 1,
+                                            "default": 0,
+                                            "mapEntries": []
+                                        },
+                                        "areaMapping": null
+                                    }
+                                ],
+                                "outcomeDeclarations": [
+                                    {
+                                        "identifier": "SCORE",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 0,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": null,
+                                        "interpretation": null
+                                    }
+                                ],
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK",
+                                        "identifier": "ANSWER_CORRECT",
+                                        "showHide": true,
+                                        "title": null,
+                                        "content": {
+                                            "body": "<p>Gebruik if, elif en else.</p>"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "6894051"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "13. Functies",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Een functie is een codeblok met een specifieke taak dat wordt uitgevoerd wanneer het wordt aangeroepen. Met een functie hoef je dezelfde coderingsregel slechts eenmaal in te voeren. Functies maken codes herbruikbaar. We kunnen gegevens doorgeven aan een functie en een functie kan als resultaat gegevens als output teruggeven.</p>\n<p>Python kent veel handige functies voor het uitvoeren van bepaalde taken. Als een functie wordt aangeroepen, haalt Python de codering voor die functie op en voert hem vervolgens uit. Als de functie is afgelopen, keert het programma terug naar de coderingsregel om het volgende commando uit te voeren.</p>\n<p>Een paar functies in Python hebben we al gezien, nl. de</p>\n<div class=\"code\">print()</div>\nen de\n<div class=\"code\">input()</div>\nfuncties."
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "6931716"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "13.1 Functies maken en aanroepen",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>We kunnen ook zelf functies maken en aanroepen.</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/f/f5481b2768357cc1ede289a0b98921b9a0461fc8.png\" class=\"height-92-pixels width-215-pixels\"/>\n<figcaption>Figuur 13-1</figcaption>\n</figure>\n<p> </p>\n<p>In figuur 13-1 hebben we bv. een functie <em>groet()</em> gemaakt. Telkens wanneer deze functie wordt aangeroepen zal er <em>Hallo!</em> op het scherm worden getoond. Het aanmaken van een functie gebeurt met de</p>\n<div class=\"code\">def</div>\nkeyword. Na de\n<div class=\"code\">def</div>\nkeyword volgt de naam van de functie gevolgd door een dubbele punt. De functie roepen we aan door de naam van de functie. In het voorbeeld is dat\n<div class=\"code\">groet()</div>\n. Aan de\n<div class=\"code\">()</div>\nkun je zien dat we een functie aanroepen en geen variabele."
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6931722"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "13.2 Data doorgeven aan functies",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>We kunnen data aan functies doorgeven.</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/4/4dfe0e2173705c440f0b18e5a6654f1c73844a6d.png\" class=\"height-139-pixels width-756-pixels\"/>\n<figcaption>Figuur 13-2</figcaption>\n</figure>\n<p> </p>\n<p>In figuur 13-2 is een functie gemaakt die de temperatuur van graden celsius omzet naar graden fahrenheit. In de functie</p>\n<div class=\"code\">celsius_naar_fahrenheit(celsius)</div>\nwordt een variabele <em>celsius</em> meegegeven. Deze variabele noemen we een <em>parameter</em>. Parameters zijn dus speciale variabelen die een waarde doorgeven aan een functie. Door de functie aan te roepen met een waarde wordt de code in de functie uitgevoerd."
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6931856"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "13.3 Data terugkrijgen van functies",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Functies kunnen ook data teruggeven, een zgn. <em>retourwaarde</em>. Hiertoe voeg je de</p>\n<div class=\"code\">return</div>\nstatement toe aan het programma gevolgd door de waarde die moet worden teruggegeven.\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/4/4f2837a854ea4e8e2caf9f06e698cf914e820720.png\" class=\"height-202-pixels width-427-pixels\"/>\n<figcaption>Figuur 13-3</figcaption>\n</figure>\n<p> </p>\n<p>In figuur 13-3 wordt op regel 4 de waarde van de variabele</p>\n<div class=\"code\">getal</div>\nteruggegeven. De\n<div class=\"code\">input()</div>\nfunctie in regel 2 stuurt nl. altijd een string terug, zelfs als er een getal is ingevoerd. Het getal wordt in regel 2 daarom ook als een string opgeslagen in de variabele\n<div class=\"code\">getypt</div>\n. Om van de string een getal te maken, gebruiken we in regel 3 de\n<div class=\"code\">int</div>\ndata type. Die converteert de string in een getal en slaat het op in de variabele\n<div class=\"code\">getal</div>\n. Vervolgens wordt de waarde van de variabele\n<div class=\"code\">getal</div>\ndoor de\n<div class=\"code\">return</div>\nstatement teruggegeven."
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6931853"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "13.4 Opdrachten",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "question",
+                            "reference": {
+                                "value": "6931946"
+                            },
+                            "assessmentItem": {
+                                "identifier": "6931946",
+                                "itemBody": null,
+                                "questions": [
+                                    {
+                                        "type": "extendedTextInteraction",
+                                        "label": "Opdracht 1",
+                                        "prompt": {
+                                            "body": "<p>Herschrijf het volgende programma zodanig dat het programma de gebruiker vraagt naar de temperatuur in graden fahrenheit en die vervolgens omzet naar celsius en op het scherm toont.</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/4/4dfe0e2173705c440f0b18e5a6654f1c73844a6d.png\" class=\"height-139-pixels width-756-pixels\" /></p>"
+                                        },
+                                        "feedback": null
+                                    }
+                                ],
+                                "responseDeclarations": [
+                                    {
+                                        "identifier": "6931946_1",
+                                        "cardinality": "single",
+                                        "baseType": "string",
+                                        "correctResponse": {
+                                            "interpretation": null,
+                                            "values": [
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "<p>Gebruik de input() functie om de gebruiker te vragen naar de temperatuur in graden fahrenheit.</p>\r\n\r\n<p>&nbsp;</p>\r\n"
+                                                }
+                                            ]
+                                        },
+                                        "mapping": {
+                                            "lowerBound": 0,
+                                            "upperBound": 1,
+                                            "default": 0,
+                                            "mapEntries": []
+                                        },
+                                        "areaMapping": null
+                                    }
+                                ],
+                                "outcomeDeclarations": [
+                                    {
+                                        "identifier": "SCORE",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 0,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": null,
+                                        "interpretation": null
+                                    }
+                                ],
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK",
+                                        "identifier": "ANSWER_CORRECT",
+                                        "showHide": true,
+                                        "title": null,
+                                        "content": {
+                                            "body": "<p>Gebruik de input() functie om de gebruiker te vragen naar de temperatuur in graden fahrenheit.</p>\n<p> </p>"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "type": "question",
+                            "reference": {
+                                "value": "6932139"
+                            },
+                            "assessmentItem": {
+                                "identifier": "6932139",
+                                "itemBody": null,
+                                "questions": [
+                                    {
+                                        "type": "extendedTextInteraction",
+                                        "label": "Opdracht 2",
+                                        "prompt": {
+                                            "body": "<p>Bekijk de volgende code.</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/4/4f2837a854ea4e8e2caf9f06e698cf914e820720.png\" class=\"height-202-pixels width-427-pixels\" /></p>\n<p> </p>\n<p>a) Wat voor resultaat geeft het programma wanneer je in regel 3 de data type <em>int</em> weglaat?</p>\n<p>b) Geef als invoer aan het bovenstaande programma een decimaal getal, bv. 4.3. Wat zie je nu gebeuren?</p>\n<p>c) Hoe kun je het bovenstaande programma verbeteren zodat het zowel hele getallen als decimale getallen accepteert?</p>"
+                                        },
+                                        "feedback": null
+                                    }
+                                ],
+                                "responseDeclarations": [
+                                    {
+                                        "identifier": "6932139_1",
+                                        "cardinality": "single",
+                                        "baseType": "string",
+                                        "correctResponse": {
+                                            "interpretation": null,
+                                            "values": [
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "<p>a) De ingevoerde getallen worden achter elkaar afgedrukt.</p>\r\n\r\n<p>b) Je krijgt een foutmelding voor int().</p>\r\n\r\n<p>c) Gebruik de data type <em>float</em> i.p.v. <em>int</em> in regel 3.</p>\r\n"
+                                                }
+                                            ]
+                                        },
+                                        "mapping": {
+                                            "lowerBound": 0,
+                                            "upperBound": 1,
+                                            "default": 0,
+                                            "mapEntries": []
+                                        },
+                                        "areaMapping": null
+                                    }
+                                ],
+                                "outcomeDeclarations": [
+                                    {
+                                        "identifier": "SCORE",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 0,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": null,
+                                        "interpretation": null
+                                    }
+                                ],
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK",
+                                        "identifier": "ANSWER_CORRECT",
+                                        "showHide": true,
+                                        "title": null,
+                                        "content": {
+                                            "body": "<p>a) De ingevoerde getallen worden achter elkaar afgedrukt.</p>\n<p>b) Je krijgt een foutmelding voor int().</p>\n<p>c) Gebruik de data type <em>float</em> i.p.v. <em>int</em> in regel 3.</p>"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "type": "question",
+                            "reference": {
+                                "value": "6952746"
+                            },
+                            "assessmentItem": {
+                                "identifier": "6952746",
+                                "itemBody": null,
+                                "questions": [
+                                    {
+                                        "type": "extendedTextInteraction",
+                                        "label": "Opdracht 3",
+                                        "prompt": {
+                                            "body": "<p>Schrijf een programma dat kan optellen, aftrekken, vermenigvuldigen en delen. Het programma moet aan de volgende eisen voldoen:</p>\n<p>- het programma vraagt aan de gebruiker twee getallen.</p>\n<p>- het programma maakt gebruik van functies.</p>\n<p>- het programma maakt gebruik van variabelen.</p>\n<p>- het programma maakt gebruik van een loop.</p>\n<p>- het programma maakt gebruik van condities.</p>"
+                                        },
+                                        "feedback": null
+                                    }
+                                ],
+                                "responseDeclarations": [
+                                    {
+                                        "identifier": "6952746_1",
+                                        "cardinality": "single",
+                                        "baseType": "string",
+                                        "correctResponse": {
+                                            "interpretation": null,
+                                            "values": [
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "<ul>\r\n\t<li>Gebruik de input() functie om de gebruiker twee getallen te vragen.</li>\r\n\t<li>Laat de gebruiker kiezen of die de twee getallen wilt optellen, aftrekken, vermenigvuldigen of delen.</li>\r\n\t<li>Maak gebruik van een while-loop en zet dit op True.</li>\r\n\t<li>Gebruik de break statement om uit de while-loop te komen.</li>\r\n\t<li>Maak gebruik van de if, elif en else statements.</li>\r\n</ul>\r\n"
+                                                }
+                                            ]
+                                        },
+                                        "mapping": {
+                                            "lowerBound": 0,
+                                            "upperBound": 1,
+                                            "default": 0,
+                                            "mapEntries": []
+                                        },
+                                        "areaMapping": null
+                                    }
+                                ],
+                                "outcomeDeclarations": [
+                                    {
+                                        "identifier": "SCORE",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 0,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": null,
+                                        "interpretation": null
+                                    }
+                                ],
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK",
+                                        "identifier": "ANSWER_CORRECT",
+                                        "showHide": true,
+                                        "title": null,
+                                        "content": {
+                                            "body": "<ul>\n<li>Gebruik de input() functie om de gebruiker twee getallen te vragen.</li>\n<li>Laat de gebruiker kiezen of die de twee getallen wilt optellen, aftrekken, vermenigvuldigen of delen.</li>\n<li>Maak gebruik van een while-loop en zet dit op True.</li>\n<li>Gebruik de break statement om uit de while-loop te komen.</li>\n<li>Maak gebruik van de if, elif en else statements.</li>\n</ul>"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "6894052"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "14. Lijsten",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>De lijsten datastructuur in Python wordt gebruikt om gegevens in \u00e9\u00e9n set te ordenen. Lijsten zijn reeksen. Elk element van een reeks krijgt een nummer, d.w.z. het indexnummer of de positie van het element. Het eerste indexcijfer is nul, het tweede indexcijfer is \u00e9\u00e9n, de derde indexcijfer is twee, enzovoort. Op lijsten kunnen we bewerkingen toepassen zoals indexeren, optellen, vermenigvuldigen, e.d. In figuur 14-1 is een simpele lijst in Python te zien. Door de</p>\n<div class=\"code\">print()</div>\nfunctie in combinatie met de lijst te gebruiken, kunnen we de inhoud van de lijst afdrukken.\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/d/d3140e7a1d378ebc4968a821df0cdb33762e21b6.png\" class=\"height-119-pixels width-713-pixels\"/>\n<figcaption>Figuur 14-1</figcaption>\n</figure>\n<p> </p>\n"
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "6935323"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "14.1 for-loop in lijsten",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Door een for-loop te gebruiken kunnen we elk element uit de lijst apart afdrukken. In figuur 14-2. is</p>\n<div class=\"code\">x</div>\neen variabele die verwijst naar een element in de lijst.\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/e/e1e10e67badb2ad4384aeda27ae8ca640da151c4.png\" class=\"height-118-pixels width-594-pixels\"/>\n<figcaption>Figuur 14-2.</figcaption>\n</figure>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6935325"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "14.2 Elementen in lijsten benaderen",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Zoals eerder gezegd heeft elk element een indexnummer in de lijst. Zo heeft in figuur 14-3 het element appels het indexnummer 0, het element melk het indexnummer 1 en het element kaas het indexnummer 2. De indexnummers geven de positie van het element weer in de lijst. We kunnen daarom ook een element in de lijst benaderen door het indexnummer.</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/0/04c4d5d0a13c2f8e470e4581be64f4f1d6577b46.png\" class=\"height-96-pixels width-556-pixels\"/>\n<figcaption>Figuur 14-3</figcaption>\n</figure>\n<p> </p>\n<p>Wanneer we alleen melk willen afdrukken, kunnen we het indexnummer van het element melk gebruiken, zoals in figuur 14-3 is aangegeven.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6935326"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "14.3 Elementen in lijsten wijzigen",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>We kunnen door gebruik te maken van het indexnummer ook een element in de lijst wijzigen. Als we bv. in figuur 14-4 appels willen wijzigen in brood. Dan kan dat door in de lijst te refereren naar het indexnummer van het element. Appels heeft indexnummer 0 in de lijst. Door naar dit indexnummer te refereren en een nieuwe waarde eraan toe te kennen, wordt de waarde van het element aangepast.</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/4/43eafbb3b65fa7b26707c2628ebe7acce353740c.png\" class=\"height-125-pixels width-692-pixels\"/>\n<figcaption>Figuur 14-4</figcaption>\n</figure>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6936130"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "14.4. Elementen toevoegen aan lijsten",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>We kunnen elementen aan een lijst toevoegen door gebruik te maken van de</p>\n<div class=\"code\">append()</div>\nmethode in Python. In figuur 14-5 wordt met\n<div class=\"code\">boodschappenlijst.append(\"wortels\")</div>\n<em>\"wortels\"</em> toegevoegd aan het einde van de boodschappenlijst.\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/d/d5d0ef8766faa3dfc25eee21148f117be129883d.png\" class=\"height-116-pixels width-825-pixels\"/>\n<figcaption>Figuur 14-5</figcaption>\n</figure>\n<p> </p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6944356"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "14.5 Elementen uit een lijst verwijderen",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Door gebruik te maken van de</p>\n<div class=\"code\">remove()</div>\nmethode in Python kunnen we een element uit een lijst verwijderen. In figuur 14-6 wordt met\n<div class=\"code\">boodschappenlijst.remove(\"kaas\")</div>\n, <em>\"kaas\"</em> uit de boodschappenlijst verwijderd.\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/9/9ad64f111f2180b669a4680f5438333ab2cb695d.png\" class=\"height-133-pixels width-782-pixels\"/>\n<figcaption>Figuur 14-6</figcaption>\n</figure>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6952737"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "14.6 Opdrachten",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Bekijk de volgende video over lijsten en maak de opdrachten.</p>\n<p><iframe allowfullscreen=\"allowfullscreen\" frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/9OeznAkyQz4\" width=\"560\" class=\"video-item\"/></p>\n"
+                        },
+                        {
+                            "type": "question",
+                            "reference": {
+                                "value": "6952747"
+                            },
+                            "assessmentItem": {
+                                "identifier": "6952747",
+                                "itemBody": null,
+                                "questions": [
+                                    {
+                                        "type": "extendedTextInteraction",
+                                        "label": "Opdracht 1",
+                                        "prompt": {
+                                            "body": "<p>Schrijf een programma dat een lijst genereert met de getallen van 0 t/m 100.</p>"
+                                        },
+                                        "feedback": null
+                                    }
+                                ],
+                                "responseDeclarations": [
+                                    {
+                                        "identifier": "6952747_1",
+                                        "cardinality": "single",
+                                        "baseType": "string",
+                                        "correctResponse": {
+                                            "interpretation": null,
+                                            "values": [
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "<p>Maak gebruik van de list() en de range() functie.</p>\r\n"
+                                                }
+                                            ]
+                                        },
+                                        "mapping": {
+                                            "lowerBound": 0,
+                                            "upperBound": 1,
+                                            "default": 0,
+                                            "mapEntries": []
+                                        },
+                                        "areaMapping": null
+                                    }
+                                ],
+                                "outcomeDeclarations": [
+                                    {
+                                        "identifier": "SCORE",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 0,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": null,
+                                        "interpretation": null
+                                    }
+                                ],
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK",
+                                        "identifier": "ANSWER_CORRECT",
+                                        "showHide": true,
+                                        "title": null,
+                                        "content": {
+                                            "body": "<p>Maak gebruik van de list() en de range() functie.</p>"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "type": "question",
+                            "reference": {
+                                "value": "6956339"
+                            },
+                            "assessmentItem": {
+                                "identifier": "6956339",
+                                "itemBody": null,
+                                "questions": [
+                                    {
+                                        "type": "extendedTextInteraction",
+                                        "label": "Opdracht 2",
+                                        "prompt": {
+                                            "body": "<p>Bekijk de onderstaande lijst en maak de opdrachten. Achter de opdrachten staat tussen haakjes wat de output moet zijn.</p>\n<p><strong>myList = [1, 'a', 24, 'b', 56, 'c', 60, 'd', 75]</strong></p>\n<p> </p>\n<p>a) Schrijf een programma dat de eerste 3 items van myList print. ( [1, 'a', 24] )</p>\n<p>b) Schrijf een programma dat uit de lijst myList alle getallen print. ( [1, 24, 56, 60, 75] )</p>\n<p>c) Schrijf een programma dat uit de lijst myList alleen de 3e item print. ( 24 )</p>\n<p>d) Schrijf een programma dat de lijst myList van achteren naar voren print. ( [75, 'd', 60, 'c', 56, 'b', 24, 'a', 1] )</p>\n<p>e) Schrijf een programma dat uit de lijst myList alleen de getallen van achteren naar voren print. ( [75, 60, 56, 24, 1] )</p>\n<p>f) Schrijf een programma dat uit de lijst myList alle letters print. ( ['a', 'b', 'c', 'd'] )</p>\n<p>g) Schrijf een programma dat uit de lijst myList alleen de items 'b' en 56 print. ( ['b', 56] )</p>"
+                                        },
+                                        "feedback": null
+                                    }
+                                ],
+                                "responseDeclarations": [
+                                    {
+                                        "identifier": "6956339_1",
+                                        "cardinality": "single",
+                                        "baseType": "string",
+                                        "correctResponse": {
+                                            "interpretation": null,
+                                            "values": [
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "<p>Maak gebruik van <strong>:</strong> om de lijst te splitsen.</p>\r\n"
+                                                }
+                                            ]
+                                        },
+                                        "mapping": {
+                                            "lowerBound": 0,
+                                            "upperBound": 1,
+                                            "default": 0,
+                                            "mapEntries": []
+                                        },
+                                        "areaMapping": null
+                                    }
+                                ],
+                                "outcomeDeclarations": [
+                                    {
+                                        "identifier": "SCORE",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 0,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": null,
+                                        "interpretation": null
+                                    }
+                                ],
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK",
+                                        "identifier": "ANSWER_CORRECT",
+                                        "showHide": true,
+                                        "title": null,
+                                        "content": {
+                                            "body": "<p>Maak gebruik van <strong>:</strong> om de lijst te splitsen.</p>"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "type": "question",
+                            "reference": {
+                                "value": "7466436"
+                            },
+                            "assessmentItem": {
+                                "identifier": "7466436",
+                                "itemBody": null,
+                                "questions": [
+                                    {
+                                        "type": "extendedTextInteraction",
+                                        "label": "Opdracht 3",
+                                        "prompt": {
+                                            "body": "<p>Schrijf een programma dat</p>\n<ul>\n<li>de gebruiker vraagt \u200b\u200bom een \u200b\u200breeks getallen in te voeren,</li>\n<li>het gemiddelde berekent van de getallen en</li>\n<li>het resultaat op het scherm toont als bv. <em>\"Het gemiddelde is: 6\"</em></li>\n</ul>"
+                                        },
+                                        "feedback": null
+                                    }
+                                ],
+                                "responseDeclarations": [
+                                    {
+                                        "identifier": "7466436_1",
+                                        "cardinality": "single",
+                                        "baseType": "string",
+                                        "correctResponse": {
+                                            "interpretation": null,
+                                            "values": [
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "<ul>\r\n\t<li>Splits de getallen in een lijst</li>\r\n\t<li>Converteer de getallen naar integers</li>\r\n\t<li>Bereken het gemiddelde</li>\r\n\t<li>Toon het gemiddelde</li>\r\n</ul>\r\n"
+                                                }
+                                            ]
+                                        },
+                                        "mapping": {
+                                            "lowerBound": 0,
+                                            "upperBound": 1,
+                                            "default": 0,
+                                            "mapEntries": []
+                                        },
+                                        "areaMapping": null
+                                    }
+                                ],
+                                "outcomeDeclarations": [
+                                    {
+                                        "identifier": "SCORE",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 0,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": null,
+                                        "interpretation": null
+                                    }
+                                ],
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK",
+                                        "identifier": "ANSWER_CORRECT",
+                                        "showHide": true,
+                                        "title": null,
+                                        "content": {
+                                            "body": "<ul>\n<li>Splits de getallen in een lijst</li>\n<li>Converteer de getallen naar integers</li>\n<li>Bereken het gemiddelde</li>\n<li>Toon het gemiddelde</li>\n</ul>"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "type": "question",
+                            "reference": {
+                                "value": "7466633"
+                            },
+                            "assessmentItem": {
+                                "identifier": "7466633",
+                                "itemBody": null,
+                                "questions": [
+                                    {
+                                        "type": "extendedTextInteraction",
+                                        "label": "Opdracht 4",
+                                        "prompt": {
+                                            "body": "<p>Schrijf een programma dat</p>\n<ul>\n<li>de gebruiker vraagt om een gegeven aantal cijfers in te voeren en</li>\n<li>vervolgens de som van deze cijfers berekent en toont.</li>\n</ul>"
+                                        },
+                                        "feedback": null
+                                    }
+                                ],
+                                "responseDeclarations": [
+                                    {
+                                        "identifier": "7466633_1",
+                                        "cardinality": "single",
+                                        "baseType": "string",
+                                        "correctResponse": {
+                                            "interpretation": null,
+                                            "values": [
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "<ul>\r\n\t<li>Vraag de gebruiker om een aantal cijfers in te voeren</li>\r\n\t<li>Vraag de gebruiker om de cijfers in te voeren (gebruik een loop)</li>\r\n\t<li>Bereken de som</li>\r\n\t<li>Toon de som</li>\r\n</ul>\r\n"
+                                                }
+                                            ]
+                                        },
+                                        "mapping": {
+                                            "lowerBound": 0,
+                                            "upperBound": 1,
+                                            "default": 0,
+                                            "mapEntries": []
+                                        },
+                                        "areaMapping": null
+                                    }
+                                ],
+                                "outcomeDeclarations": [
+                                    {
+                                        "identifier": "SCORE",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 0,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": null,
+                                        "interpretation": null
+                                    }
+                                ],
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK",
+                                        "identifier": "ANSWER_CORRECT",
+                                        "showHide": true,
+                                        "title": null,
+                                        "content": {
+                                            "body": "<ul>\n<li>Vraag de gebruiker om een aantal cijfers in te voeren</li>\n<li>Vraag de gebruiker om de cijfers in te voeren (gebruik een loop)</li>\n<li>Bereken de som</li>\n<li>Toon de som</li>\n</ul>"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "type": "question",
+                            "reference": {
+                                "value": "7466640"
+                            },
+                            "assessmentItem": {
+                                "identifier": "7466640",
+                                "itemBody": null,
+                                "questions": [
+                                    {
+                                        "type": "extendedTextInteraction",
+                                        "label": "Opdracht 5",
+                                        "prompt": {
+                                            "body": "<p>Schrijf een programma dat de gemiddelde waarde berekent van een lijst met getallen.</p>"
+                                        },
+                                        "feedback": null
+                                    }
+                                ],
+                                "responseDeclarations": [
+                                    {
+                                        "identifier": "7466640_1",
+                                        "cardinality": "single",
+                                        "baseType": "string",
+                                        "correctResponse": {
+                                            "interpretation": null,
+                                            "values": [
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "<ul>\r\n\t<li>Vraag de gebruiker om een aantal cijfers/getallen in te voeren</li>\r\n\t<li>Vraag de gebruiker om de cijfers/getallen in te voeren (gebruik een loop)</li>\r\n\t<li>Bereken het gemiddelde</li>\r\n\t<li>Toon het resultaat</li>\r\n</ul>\r\n"
+                                                }
+                                            ]
+                                        },
+                                        "mapping": {
+                                            "lowerBound": 0,
+                                            "upperBound": 1,
+                                            "default": 0,
+                                            "mapEntries": []
+                                        },
+                                        "areaMapping": null
+                                    }
+                                ],
+                                "outcomeDeclarations": [
+                                    {
+                                        "identifier": "SCORE",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 0,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": null,
+                                        "interpretation": null
+                                    }
+                                ],
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK",
+                                        "identifier": "ANSWER_CORRECT",
+                                        "showHide": true,
+                                        "title": null,
+                                        "content": {
+                                            "body": "<ul>\n<li>Vraag de gebruiker om een aantal cijfers/getallen in te voeren</li>\n<li>Vraag de gebruiker om de cijfers/getallen in te voeren (gebruik een loop)</li>\n<li>Bereken het gemiddelde</li>\n<li>Toon het resultaat</li>\n</ul>"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "6989677"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Ster-hoofdstukken en -opdrachten",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>De ster-hoofdstukken zijn een verdieping op de behandelde stof. De leerstof van deze hoofdstukken kunnen je ondersteunen bij de ster-opdrachten. Het wordt daarom aanbevolen om eerst deze hoofdstukken door te nemen alvorens met de ster-opdrachten aan de gang te gaan. De ster-opdrachten zijn uitdagende opdrachten, waarbij de stof iets verder gaat dan wat er al is behandeld. Bij de ster-opdrachten zul je een korte uitleg krijgen van de nieuwe leerstof met een paar links naar websites waar je meer informatie of uitleg over het onderwerp zult krijgen. In principe werk je zelfstandig aan de ster-opdrachten. Natuurlijk kun je de docent altijd om hulp vragen indien je niet uitkomt.</p>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "6988769"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "*15. Object Geori\u00ebnteerd Programmeren",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Naarmate je meer bedreven zult raken in programmeren, zul je merken dat je programma's ook groter worden; het aantal regels codes zullen toenemen. Een spel bestaat al heel gauw uit duizenden of zelfs miljoenen regels aan codes. Een programmeerstijl dat tegenwoordig vaak gebruikt wordt is het Object Geori\u00ebnteerd Programmeren (Eng.: Object Oriented Programming). Dit wordt afgekort als OOP. Bij OOP wordt er gebruik gemaakt van <em>classes</em> (klassen), <em>objecten</em> en <em>methoden</em> als basis programmeercomponenten. Deze componenten helpen</p>\n<ul>\n<li>om een groot programma te organiseren in kleine modules,</li>\n<li>om een ingewikkeld programma te ontwerpen, en</li>\n<li>om fouten (zgn. <em>bugs</em>) in programma's te vinden en op te lossen.</li>\n</ul>\n"
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "6988775"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "*15.1 Objecten",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Bij OOP worden er logische objecten gemaakt. Deze objecten hebben een naam en bestaan uit eigenschappen en methoden. Eigenschappen zijn waarden (bv. hoogte, breedte, kleur) die verbonden zijn met objecten. Je zou ook kunnen zeggen dat de eigenschappen de variabelen zijn in die objecten.</p>\n<p>In de klasse auto's kun je bv. Mercedes, Tesla en Ford hebben. Mercedes, Tesla en Ford zijn de objecten uit de klasse auto's en zijn dus de namen van de objecten. Deze objecten kunnen verschillende kleuren hebben. Dit zijn de eigenschappen van de objecten (bv. een rode Ford).</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/6/6762c5c321b256e34293be0f7d17b7a97574796a.png\" class=\"height-296-pixels width-500-pixels\"/>\n<figcaption>Figuur: 15-1</figcaption>\n</figure>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6988777"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "*15.2 Methoden",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Naast eigenschappen bevatten objecten methoden. <em>Methoden</em> zijn acties of taken die een object kan uitvoeren. Ze lijken veel op eigenschappen, met als enige verschil dat methoden functies zijn die in een object zitten en geen variabelen die in een object zitten.</p>\n<p>Doordat de programmacode is onderverdeeld in objecten, is de herbruikbaarheid van de code beter en is deze makkelijker te onderhouden. </p>\n<p>In het voorbeeld van de auto's uit hoofdstuk 15.1 zijn bv. starten, rijden en remmen de methoden van een object.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6988779"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "*15.3 Classes",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Objecten worden onderverdeeld in klassen (Eng.: <em>Classes</em>), die gebruikt worden om door de programmeur gedefinieerde datastructuren te cre\u00ebren. Classes defini\u00ebren functies die <em>methoden</em> worden genoemd. Deze methoden identificeren het gedrag en de acties die een object, dat van de class is gemaakt, met zijn gegevens kan uitvoeren. Een object dat van een class is gemaakt noemt men een <em>instantie</em> (Eng.: <em>instance</em>). Een class is een blauwdruk voor hoe iets moet worden gedefinieerd. Het bevat eigenlijk geen data. Terwijl een instance een object is, opgebouwd vanuit een class en echte data bevat.</p>\n<p>Alle objecten in een class hebben vergelijkbare eigenschappen en kunnen over het algemeen dezelfde taken uitvoeren. In het voorbeeld hieronder (zie figuur 15-2) kunnen alle Mercedessen, Tesla's en Fords starten, rijden en remmen.</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/4/420a668c4ebf1ad8a41e3ffdceec108cf1220155.png\" class=\"height-272-pixels width-500-pixels\"/>\n<figcaption>Figuur 15-2</figcaption>\n</figure>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6999640"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "*15.4 Classes en objecten aanmaken",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Bekijk figuur 15-3 hieronder. In deze figuur zie je een class Persoon.</p>\n<p> </p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/e/e42c0d85227f9158400bdcfb935a45c74c3fc411.png\" class=\"height-271-pixels width-500-pixels\"/>\n<figcaption>Figuur 15-3</figcaption>\n</figure>\n<p> </p>\n<p>Peter, paul en mary zijn de objecten, de zgn. instances, van de class Persoon. In de class Persoon is bijvoorbeeld gedefinieerd hoe een persoon eruit ziet. Een persoon heeft een naam, leeftijd, haren, handen, voeten, ogen, oren, e.d. Dit is dus de blauwdruk voor een persoon. In een instance (dus het object dat uit een class is gecre\u00eberd) kun je de personen uniek maken door de persoon eigenschappen mee te geven. Zo kun je als eigenschap een bepaalde kleur aan de ogen en haren mee te geven. Op die manier maak je de persoon uniek.<br/>\nElk object is dus een instance van de class en heeft soortgelijke eigenschappen en kan soortgelijke taken uitvoeren als de andere objecten in de class.</p>\n<p>In Python maak je een class met de keyword</p>\n<div class=\"code\">class</div>\ngevolgd door de naam van de class en een dubbele punt\n<div class=\"code\">:</div>\n. In figuur 15-4 zie je een voorbeeld van hoe een class en object worden aangemaakt.\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/b/b6e2daa1379ac52420c86e0a3dd0b66f158bf717.png\" class=\"height-516-pixels width-500-pixels\"/>\n<figcaption><br/>\nFiguur 15-4</figcaption>\n</figure>\n<p> </p>\n<p>Alle classes hebben een </p>\n<div class=\"code\">__init__()</div>\nfunctie (zie regel 3 in figuur 15-4). Door de naam van de class te gebruiken kun je een object cre\u00ebren. De waarden van het object kun je meegeven door gebruik te maken van de\n<div class=\"code\">__init__()</div>\nfunctie (zie regel 8 en 11 in figuur 15-4). De\n<div class=\"code\">__init__()</div>\nfunctie wordt gebruikt om waarden aan object eigenschappen toe te kennen. Deze wordt elke keer aangeroepen wanneer een object wordt aangemaakt.\n<h2>Methoden in objecten</h2>\n<p>Objecten kunnen ook methoden bevatten. Dat zijn functies die horen bij een object. Zie figuur 15-5.</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/7/7ea88bbcf4442256f19e40ae4d71647cc70cbc65.png\" class=\"height-363-pixels width-500-pixels\"/>\n<figcaption><br/>\nFiguur 15-5</figcaption>\n</figure>\n<p> </p>\n<p>Het aanroepen van een object gaat dus als volgt: <em>object.eigenschappen</em> (zie figuur 15-4 regel 15 voor een voorbeeld) of <em>object.methode</em> (zie figuur 15-5 regel 15 voor een voorbeeld).</p>\n<p>De</p>\n<div class=\"code\">self</div>\nparameter in regel 4 van figuur 15-5 is een referentie naar de huidige instance van de class en wordt gebruikt om variabelen te benaderen die behoren tot de classes. De naam van de self parameter kun je zelf kiezen, mits het de eerste parameter is van elke functie in de class."
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "6958871"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "*16. Ster-opdrachten",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "6958914"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "*16.1 Password generator",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>In games, security, simulatie en test applicaties worden vaak random functies gebruikt om bv. willekeurige waarden te genereren. Python kent ook een aantal random functies. Deze functie zijn echter niet direct te benaderen. Om die random functies te kunnen gebruiken dien je eerst de <em>random</em> module te importeren. Een <em>module</em> kun je beschouwen als een library met aantal functies die je kunt gebruiken in je programmeercode. De random module kun je als volgt importeren</p>\n<div class=\"code\">import random</div>\n<p>Uit de random module kun je bv. de</p>\n<div class=\"code\">choice()</div>\nfunctie aanroepen. Dat gaat dan op de volgende manier\n<div class=\"code\">random.choice()</div>\n. De\n<div class=\"code\">choice()</div>\nfunctie kan een willekeurige element uit bv. een lijst selecteren.\n<p>Bekijk het volgende voorbeeld:</p>\n<pre>&#13;\n<span style=\"color:black;\"><span style=\"color:mediumblue;\">import</span> </span></pre>\n<div class=\"code\">random&#13; boodschappenlijst = [\"appels\", \"melk\", \"kaas\"]&#13; keuze = random.choice(boodschappenlijst)</div>\n<pre><span style=\"color:black;\">print</span> </pre>\n<div class=\"code\">(keuze)</div>\n<p>In dit voorbeeld wordt willekeurig een item uit de boodschappenlijst getoond door gebruik te maken van de</p>\n<div class=\"code\">random.choice()</div>\nfunctie. Probeer het maar eens.\n<p>Meer over de <em>random module</em> kun je lezen op <a href=\"https://docs.python.org/3/library/random.html\" target=\"_blank\">https://docs.python.org/3/library/random.html</a>.</p>\n<p> </p>\n<p><strong>Opdracht</strong></p>\n<p>Maak een password generator die willekeurig wachtwoorden genereert. Je programma moet aan de volgende voorwaarden voldoen:</p>\n<ul>\n<li>Je programma vraagt aan de gebruiker uit hoeveel tekens het wachtwoord moet bestaan.</li>\n<li>Het programma kiest uit een lijst met tekens waaruit het wachtwoord bestaat.</li>\n<li>Het programma print het wachtwoord op het scherm.</li>\n<li>Maak gebruik van de\n<div class=\"code\">random.choice()</div>\nfunctie.</li>\n<li>Zet commentaar in je code zodat het voor een ander duidelijk is wat een stukje code doet.</li>\n</ul>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6977865"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "*16.2 Leeftijd berekenen",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Er zijn verschillende manieren om in Python met datum of tijd te werken. E\u00e9n manier om met datum en tijd te werken is gebruik te maken van de</p>\n<div class=\"code\">datetime</div>\nmodule van Python. Een <em>module</em> kun je beschouwen als een library met aantal functies die je kunt gebruiken in je programmeercode. De datetime module kun je als volgt importeren\n<div class=\"code\">import datetime</div>\n<p>Modules kunnen naast functies ook zgn. <em>objecten</em> bevatten. Objecten kunnen methodes (functies, acties of gebeurtenissen) en eigenschappen (waarden) bevatten.</p>\n<p>Met de</p>\n<div class=\"code\">import datetime</div>\nregel importeren we <em>alle onderdelen</em> uit de datetime module. Wanneer we slechts \u00e9\u00e9n object, bv. de datetime object, uit de module willen importeren, kunnen we dat als volgt doen\n<div class=\"code\">from datetime import datetime</div>\n<p>Uit het object datetime kunnen we dan bv. de methode</p>\n<div class=\"code\">now()</div>\ngebruiken om de huidige datum en tijd weer te geven. De volgende code geeft de huidige datum en tijd weer.\n<pre>&#13;\n<span style=\"color:black;\"><span style=\"color:mediumblue;\">from</span> datetime <span style=\"color:mediumblue;\">import</span> datetime&#13;\nhuidige_tijd_datum = datetime.now()&#13;\n<span style=\"color:mediumblue;\">print</span>(huidige_tijd_datum) </span></pre>\n<p>Let op dat in dit voorbeeld zowel de module als het object <em>datetime</em> heten.</p>\n<p>Meer over de <em>datetime module</em> kun je lezen op <a href=\"https://docs.python.org/3/library/datetime.html\" target=\"_blank\">https://docs.python.org/3/library/datetime.html</a></p>\n<p> </p>\n<p><strong>Opdracht</strong></p>\n<p>Schrijft een programma dat de leeftijd van de gebruiker berekent. Je programma moet voldoen aan de volgende eisen:</p>\n<ul>\n<li>Het programma vraagt de geboortedatum van de gebruiker.</li>\n<li>Het programma berekent de correcte leeftijd door rekening te houden of de gebruiker in het huidige jaar al jarig is geweest of niet.</li>\n<li>Het programma print het resultaat op het scherm.</li>\n</ul>\n<p>Tip: Je kunt de geboortedatum van de gebruiker samenstellen door het geboortejaar, de geboortemaand en geboortedag apart te vragen.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "6893960"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Bronnen",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<ol>\n<li><em>CodeSkulptor 3</em>, Retrieved September 2020<br/>\n<a href=\"https://py3.codeskulptor.org\">https://py3.codeskulptor.org</a></li>\n<li><span class=\"font-size-16px\"><em>Guido van Rossum</em>. (n.d.). Retrieved March 2020, from Wikipedia - The Free Encyclopedia:</span><br/>\n<a href=\"https://en.wikipedia.org/wiki/Guido_van_Rossum\">https://en.wikipedia.org/wiki/Guido_van_Rossum</a></li>\n<li><em>Notepad++</em>, Retrieved April 2020<br/>\n<a href=\"https://notepad-plus-plus.org/\">https://notepad-plus-plus.org/</a></li>\n<li><em>Programmeren voor kinderen,</em> C. Vorderman, 3e druk, 2015</li>\n<li><em>Python</em>, Retrieved September 2020<br/>\n<a href=\"https://www.python.org/\">https://www.python.org/</a></li>\n<li><em>A short introduction to Python</em>, Aniel Bhulai, 2018<br/>\n<a href=\"http://www.cs.vu.nl/~abhulai/algorithms/python_tutorial.pdf\" target=\"_blank\">http://www.cs.vu.nl/~abhulai/algorithms/python_tutorial.pdf</a></li>\n<li>TED-talk: Let's teach kids to code, Mitch Resnick, 2012<br/>\n<a href=\"https://www.ted.com/talks/mitch_resnick_let_s_teach_kids_to_code\">https://www.ted.com/talks/mitch_resnick_let_s_teach_kids_to_code</a></li>\n<li><em>Thonny</em>, Retrieved April 2020<br/>\n<a href=\"https://thonny.org/\">https://thonny.org/</a></li>\n<li>Voedingscentrum, Retrieved November 2021<br/>\n<a href=\"https://www.voedingscentrum.nl/nl/bmi-meter.aspx\">https://www.voedingscentrum.nl/nl/bmi-meter.aspx</a></li>\n</ol>\n"
+                }
+            ],
+            "sections": []
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": null,
+            "dimension": null,
+            "suppressTitle": null
+        },
+        "color": "#333333"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Voorwoord",
+                "reference": {
+                    "value": "7007271"
+                },
+                "sections": []
+            },
+            {
+                "title": "1. Wat is Python?",
+                "reference": {
+                    "value": "6867302"
+                },
+                "sections": [
+                    {
+                        "title": "1.1 Voordelen van Python",
+                        "reference": {
+                            "value": "6946543"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "2. Python installeren",
+                "reference": {
+                    "value": "6874627"
+                },
+                "sections": []
+            },
+            {
+                "title": "3. Programmeren",
+                "reference": {
+                    "value": "6889890"
+                },
+                "sections": [
+                    {
+                        "title": "3.1 Denk als een computer",
+                        "reference": {
+                            "value": "6889867"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "3.2 Opdrachten",
+                        "reference": {
+                            "value": "6891883"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "4. Python quickstart",
+                "reference": {
+                    "value": "6893448"
+                },
+                "sections": [
+                    {
+                        "title": "4.1 Opdrachten",
+                        "reference": {
+                            "value": "6893530"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "5. Syntax",
+                "reference": {
+                    "value": "6893534"
+                },
+                "sections": [
+                    {
+                        "title": "5.1 inspringen",
+                        "reference": {
+                            "value": "6893991"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "5.2 Opdrachten",
+                        "reference": {
+                            "value": "6894038"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "6. Commentaar",
+                "reference": {
+                    "value": "6894044"
+                },
+                "sections": []
+            },
+            {
+                "title": "7. Variabelen",
+                "reference": {
+                    "value": "6894045"
+                },
+                "sections": [
+                    {
+                        "title": "7.1 Opdrachten",
+                        "reference": {
+                            "value": "6917296"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "8. Operatoren",
+                "reference": {
+                    "value": "6894046"
+                },
+                "sections": [
+                    {
+                        "title": "8.1 Opdrachten",
+                        "reference": {
+                            "value": "6926037"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "9. Strings",
+                "reference": {
+                    "value": "6894049"
+                },
+                "sections": [
+                    {
+                        "title": "9.1 Opdrachten",
+                        "reference": {
+                            "value": "6917762"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "10. Data typen",
+                "reference": {
+                    "value": "6894050"
+                },
+                "sections": [
+                    {
+                        "title": "10.1 Opdrachten",
+                        "reference": {
+                            "value": "6926842"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "11. Loops",
+                "reference": {
+                    "value": "6894048"
+                },
+                "sections": [
+                    {
+                        "title": "11.1 Opdrachten",
+                        "reference": {
+                            "value": "6940376"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "12. Condities",
+                "reference": {
+                    "value": "6894047"
+                },
+                "sections": [
+                    {
+                        "title": "12.1 Opdrachten",
+                        "reference": {
+                            "value": "6928468"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "13. Functies",
+                "reference": {
+                    "value": "6894051"
+                },
+                "sections": [
+                    {
+                        "title": "13.1 Functies maken en aanroepen",
+                        "reference": {
+                            "value": "6931716"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "13.2 Data doorgeven aan functies",
+                        "reference": {
+                            "value": "6931722"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "13.3 Data terugkrijgen van functies",
+                        "reference": {
+                            "value": "6931856"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "13.4 Opdrachten",
+                        "reference": {
+                            "value": "6931853"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "14. Lijsten",
+                "reference": {
+                    "value": "6894052"
+                },
+                "sections": [
+                    {
+                        "title": "14.1 for-loop in lijsten",
+                        "reference": {
+                            "value": "6935323"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "14.2 Elementen in lijsten benaderen",
+                        "reference": {
+                            "value": "6935325"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "14.3 Elementen in lijsten wijzigen",
+                        "reference": {
+                            "value": "6935326"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "14.4. Elementen toevoegen aan lijsten",
+                        "reference": {
+                            "value": "6936130"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "14.5 Elementen uit een lijst verwijderen",
+                        "reference": {
+                            "value": "6944356"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "14.6 Opdrachten",
+                        "reference": {
+                            "value": "6952737"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Ster-hoofdstukken en -opdrachten",
+                "reference": {
+                    "value": "6989677"
+                },
+                "sections": []
+            },
+            {
+                "title": "*15. Object Geori\u00ebnteerd Programmeren",
+                "reference": {
+                    "value": "6988769"
+                },
+                "sections": [
+                    {
+                        "title": "*15.1 Objecten",
+                        "reference": {
+                            "value": "6988775"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "*15.2 Methoden",
+                        "reference": {
+                            "value": "6988777"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "*15.3 Classes",
+                        "reference": {
+                            "value": "6988779"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "*15.4 Classes en objecten aanmaken",
+                        "reference": {
+                            "value": "6999640"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "*16. Ster-opdrachten",
+                "reference": {
+                    "value": "6958871"
+                },
+                "sections": [
+                    {
+                        "title": "*16.1 Password generator",
+                        "reference": {
+                            "value": "6958914"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "*16.2 Leeftijd berekenen",
+                        "reference": {
+                            "value": "6977865"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Bronnen",
+                "reference": {
+                    "value": "6893960"
+                },
+                "sections": []
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": null,
+        "imageSrc": null,
+        "sources": [],
+        "metadata": [
+            {
+                "key": "educationalLevels",
+                "label": "Leerniveaus",
+                "terms": {
+                    "85d15c83-e2b4-4359-8475-a355591aaa1a": "VWO 6",
+                    "e2026706-0829-4a4c-b726-9409b6f407e1": "VWO 4",
+                    "f2513775-3d54-423b-803b-15e06a8c89a8": "VWO 5",
+                    "f33b30ee-3c82-4ead-bc20-4255be9ece2d": "HBO - Bachelor"
+                }
+            },
+            {
+                "key": "disciplines",
+                "label": "Leerinhoud en doelen",
+                "terms": {
+                    "2845473d-ce18-450a-9135-6738abbdc129": "Informatica"
+                }
+            },
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            },
+            {
+                "key": "keywords",
+                "label": "Trefwoorden",
+                "terms": [
+                    "programmeren",
+                    "python"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

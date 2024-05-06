@@ -1,0 +1,1043 @@
+{
+    "documentAuthors": [
+        "J. Schep"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "J. Schep",
+            "referenceName": null,
+            "reference": {
+                "value": "160608"
+            },
+            "firstName": "J.",
+            "infix": null,
+            "lastName": "Schep",
+            "emailAddress": "spj@csg.nl",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2021-06-21T17:13:34Z",
+    "bulkId": "bulk-17041658-refresh_all",
+    "identifier": 178181,
+    "title": "Zwangerschap en de pil",
+    "description": "Je leert hoe de zwangerschap verloopt, welke hormonen er een rol bij spelen en wat er gebeurt bij de bevalling. Ook leer je hoe de pil er, via hormonen, voor zorgt dat je niet zwanger kunt worden. ",
+    "lastModifiedDate": "2021-06-21T17:13:34+02:00",
+    "dateCreated": "2021-06-21T15:51:42+02:00",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "Schep, J.",
+                "reference": {
+                    "value": "160608"
+                },
+                "firstName": "J.",
+                "infix": null,
+                "lastName": "Schep",
+                "emailAddress": "spj@csg.nl",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-40",
+            "name": "CC Naamsvermelding 4.0 Internationale licentie",
+            "description": "De Internationale Creative Commons 4.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/4.0/.",
+            "link": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/178181/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "6749255"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Voorkennis",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6749257"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6749257",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Veilig vrijen",
+                                "prompt": {
+                                    "body": "<p>Wat wordt bedoeld met 'veilig vrijen'? </p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6749257_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>Met &#39;veilig vrijen&#39; wordt bedoelt dat er een condoom word gebruikt om en SOA te voorkomen.&nbsp;</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>Met 'veilig vrijen' wordt bedoelt dat er een condoom word gebruikt om en SOA te voorkomen. </p>"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6749259"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6749259",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Anticonceptie",
+                                "prompt": {
+                                    "body": "<p>Noem een verschil en een overeenskomst tussen anticonceptie en veilig vrijen</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6749259_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>Verschil: anticonceptie voorkomt geen SOA, veilig vrijen (met een condoom) wel</p>\r\n\r\n<p>Overeenkomst: zowel anticonceptie als veilig vrijen (met een condoom) zorgen ervoor dat er geen zwangerschap kan ontstaan</p>\r\n\r\n<p>&nbsp;</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>Verschil: anticonceptie voorkomt geen SOA, veilig vrijen (met een condoom) wel</p>\n<p>Overeenkomst: zowel anticonceptie als veilig vrijen (met een condoom) zorgen ervoor dat er geen zwangerschap kan ontstaan</p>\n<p> </p>"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6749268"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6749268",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "choiceInteraction",
+                                "label": "Zwanger worden",
+                                "prompt": {
+                                    "body": "<p>Als je graag een kindje wil, op welke dagen moet je dan seks hebben van de menstruatiecyclus? Er zijn meerdere antwoorden mogelijk.</p>"
+                                },
+                                "shuffle": false,
+                                "maxChoices": 4,
+                                "minChoices": 0,
+                                "orientation": "vertical",
+                                "choices": [
+                                    {
+                                        "identifier": "0",
+                                        "content": {
+                                            "body": "Vlak voor de eisprong"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "0",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "1",
+                                        "content": {
+                                            "body": "Op de dag van de eisprong"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "1",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "2",
+                                        "content": {
+                                            "body": "Vlak voor de ongesteldheid"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "2",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "3",
+                                        "content": {
+                                            "body": "Op de dag van de ongesteldheid"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "3",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    }
+                                ],
+                                "responseIdentifier": "6749268_1",
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6749268_1",
+                                "cardinality": "ordered",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "0"
+                                        },
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": "0",
+                                    "upperBound": 0,
+                                    "default": "0",
+                                    "mapEntries": [
+                                        {
+                                            "key": "0",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "1",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "2",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "3",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        }
+                                    ]
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": "0",
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "6749298"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Van bevruchte eicel tot baby",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p class=\"text-align-justify\">Je hebt geleerd dat de zwangerschap begint met de innesteling.</p>\n<p class=\"text-align-justify\">Vanaf dat moment worden de organen aangelegd. Het vruchtje lijkt nog niet op een mens, maar meer op een salamander. Deze fase duurt ondeveer t/m week 12. Het vruchtje heet tijdens deze fase '<strong>embryo'.</strong></p>\n<p class=\"text-align-justify\">Na de 12e week zijn alle organen in miniatuurformaat aanwezig. Het vruchtje ziet er nu dan ook uit als een mini-mensje en heet vanaf nu '<strong>foetus</strong>' (spreek uit: feutus).</p>\n<p class=\"text-align-justify\">Na 12 weken zijn alle organen in vorm en hoeft de foetus alleen nog maar te groeien.</p>\n<p class=\"text-align-justify\">Het moment waarop je bij de meeste vrouwen een dikkere buik kunt gaan zien begint rond de 20e week. Doordat het kindje met de vruchtzakken zo groot worden, is er minder plaats voor de organen van de vrouw. Ze moet vaker naar de wc en kan last krijgen van oprispend maagzuur.</p>\n<p class=\"text-align-justify\">De borsten van de vrouw gaan nu ook groeien. Door het hormoon progesteron groeien de melkklieren en komt er wat extra vet op de borsten, om de melkklieren te beschermen. Het geeft dus niet als een vrouw van nature kleinere borsten heeft: progesteron zorgt ervoor dat je aan het einde van de zwangerschap genoeg melk kunt maken!</p>\n<p class=\"text-align-justify\"> </p>\n<p class=\"text-align-justify\"> </p>\n"
+                },
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/b/b72acf34f7f2278d835a1582391e2ddb072f93fc.png",
+                    "altText": "Foetale ontwikkeling",
+                    "alignment": "left",
+                    "scale": 0.3,
+                    "link": ""
+                },
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/3/375d58180813370424aaeddda5a83debe16dc993.png",
+                    "altText": "Welke week?",
+                    "alignment": "right",
+                    "scale": 0.3,
+                    "link": ""
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6749334"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6749334",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Welke week?",
+                                "prompt": {
+                                    "body": "<p>Kijk naar de afbeelding. In welke week bevindt zich het embryo op plaats P?</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6749334_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>In week 12</p>\r\n\r\n<p>Week 11 is ook acceptabel, omdat de ledematen niet heel duidelijk zichtbaar zijn op deze foto</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>In week 12</p>\n<p>Week 11 is ook acceptabel, omdat de ledematen niet heel duidelijk zichtbaar zijn op deze foto</p>"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "video",
+                    "url": "https://youtu.be/tWBr--GIUgs",
+                    "align": "left",
+                    "caption": "Ontwikkeling zwangerschap per week",
+                    "poster": "https://img.youtube.com/vi/tWBr--GIUgs/maxresdefault.jpg"
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6749336"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6749336",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "choiceInteraction",
+                                "label": "Ware grootte?",
+                                "prompt": {
+                                    "body": "<p>Kijk naar het filmpje. Is het vruchtje steeds op ware grootte in de buik van de moeder weergegeven?</p>"
+                                },
+                                "shuffle": false,
+                                "maxChoices": 2,
+                                "minChoices": 1,
+                                "orientation": "vertical",
+                                "choices": [
+                                    {
+                                        "identifier": "0",
+                                        "content": {
+                                            "body": "Ja"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "0",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "1",
+                                        "content": {
+                                            "body": "Nee"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "1",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    }
+                                ],
+                                "responseIdentifier": "6749336_1",
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6749336_1",
+                                "cardinality": "ordered",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0,
+                                    "default": 0,
+                                    "mapEntries": [
+                                        {
+                                            "key": "0",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "1",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        }
+                                    ]
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6749347"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6749347",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Les eens uit...",
+                                "prompt": {
+                                    "body": "<p>Les uit hoe je bij jouw antwoord op de vorige vraag bent gekomen.</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6749347_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>Eigen antwoord.&nbsp;<br />\r\n<br />\r\nHet vruchtje was niet op ware grootte weergegeven. dat kun je zien op de abfeeling met de embryo&#39;s (let op die hand) en ook zie je dat het verschil tussen het formaat van het vruchtje in het begin van het filmpje niet veel kleiner is dan aan het eind</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>Eigen antwoord. <br />\n<br />\nHet vruchtje was niet op ware grootte weergegeven. dat kun je zien op de abfeeling met de embryo's (let op die hand) en ook zie je dat het verschil tussen het formaat van het vruchtje in het begin van het filmpje niet veel kleiner is dan aan het eind</p>"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "video",
+                    "url": "https://youtu.be/BVIG3Rv5DGE",
+                    "align": "left",
+                    "caption": "De bevalling",
+                    "poster": "https://img.youtube.com/vi/BVIG3Rv5DGE/maxresdefault.jpg"
+                },
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/4/48d9eaeb33c2aece873a790dca18f42c74115bab.jpg",
+                    "altText": "Vrouwelijke voortplantingsorganen",
+                    "alignment": "left",
+                    "scale": 0.3,
+                    "link": ""
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6749366"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6749366",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Drukken op het hoofdje",
+                                "prompt": {
+                                    "body": "<p>in het filmpje moet de verloskundige twee keer het hoofdje richting de rug van de moeder worden geduwd. Kijk naar de afbeelding met de voortplantingsorganen van de vrouw. Waarom is dat drukken nodig?</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6749366_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>Vanwege het schaambeen. Anders kan het hoofdje daar moeilijker langs.</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>Vanwege het schaambeen. Anders kan het hoofdje daar moeilijker langs.</p>"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "video",
+                    "url": "https://youtu.be/lNUBbgZn2pM",
+                    "align": "left",
+                    "caption": "Hoe werkt de pil?",
+                    "poster": "https://img.youtube.com/vi/lNUBbgZn2pM/maxresdefault.jpg"
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6749373"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6749373",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "choiceInteraction",
+                                "label": "Oestrogeen en progestageen/progesteron",
+                                "prompt": {
+                                    "body": "<p>Door welk onderdeel worden deze hormonen normaalgesproken gemaakt?</p>"
+                                },
+                                "shuffle": false,
+                                "maxChoices": 3,
+                                "minChoices": 1,
+                                "orientation": "vertical",
+                                "choices": [
+                                    {
+                                        "identifier": "0",
+                                        "content": {
+                                            "body": "Hypofyse"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "0",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "1",
+                                        "content": {
+                                            "body": "Rijpende follikel"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "1",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "2",
+                                        "content": {
+                                            "body": "Gele lichaam"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "2",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    }
+                                ],
+                                "responseIdentifier": "6749373_1",
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6749373_1",
+                                "cardinality": "ordered",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0,
+                                    "default": 0,
+                                    "mapEntries": [
+                                        {
+                                            "key": "0",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "1",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "2",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        }
+                                    ]
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Oestrogeen en progesteron zorgen er samen voor dat de productie van LH en FSH wordt geremd. FSH zorgt er normaalgesproken voor dat er een eicel begin te rijpen en LH zorgt ervoor dat de follikel openbarst: de eisprong. Door de invloed van de pil worden beide gebeurenissen dus voorkomen!</p>\n"
+                },
+                {
+                    "type": "video",
+                    "url": "https://youtu.be/sOcFDEfDStk",
+                    "align": "left",
+                    "caption": "Heb je tijd over? Kijk dan dit interessante filmpje over de pil!",
+                    "poster": "https://img.youtube.com/vi/sOcFDEfDStk/maxresdefault.jpg"
+                }
+            ],
+            "sections": []
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": null,
+            "dimension": null,
+            "suppressTitle": null
+        },
+        "color": "#333333"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Voorkennis",
+                "reference": {
+                    "value": "6749255"
+                },
+                "sections": []
+            },
+            {
+                "title": "Van bevruchte eicel tot baby",
+                "reference": {
+                    "value": "6749298"
+                },
+                "sections": []
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": null,
+        "imageSrc": null,
+        "sources": [
+            {
+                "type": "video",
+                "title": "Ontwikkeling zwangerschap per week",
+                "origin": "Ontwikkeling zwangerschap per week",
+                "customOrigin": null,
+                "link": "https://youtu.be/tWBr--GIUgs",
+                "visible": true
+            },
+            {
+                "type": "video",
+                "title": "De bevalling",
+                "origin": "De bevalling",
+                "customOrigin": null,
+                "link": "https://youtu.be/BVIG3Rv5DGE",
+                "visible": true
+            },
+            {
+                "type": "video",
+                "title": "Hoe werkt de pil?",
+                "origin": "Hoe werkt de pil?",
+                "customOrigin": null,
+                "link": "https://youtu.be/lNUBbgZn2pM",
+                "visible": true
+            },
+            {
+                "type": "video",
+                "title": "Heb je tijd over? Kijk dan dit interessante filmpje over de pil!",
+                "origin": "Heb je tijd over? Kijk dan dit interessante filmpje over de pil!",
+                "customOrigin": null,
+                "link": "https://youtu.be/sOcFDEfDStk",
+                "visible": true
+            }
+        ],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            },
+            {
+                "key": "learningTime",
+                "label": "Studiebelasting",
+                "terms": [
+                    "4 uur en 0 minuten"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

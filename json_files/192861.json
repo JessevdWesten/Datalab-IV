@@ -1,0 +1,336 @@
+{
+    "documentAuthors": [
+        "Niels Lambrix"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Niels Lambrix",
+            "referenceName": null,
+            "reference": {
+                "value": "170961"
+            },
+            "firstName": "Niels",
+            "infix": null,
+            "lastName": "Lambrix",
+            "emailAddress": "niels.lambrix@student.uhasselt.be",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2022-12-10T22:37:25Z",
+    "bulkId": "bulk-17041658-refresh_all",
+    "identifier": 192861,
+    "title": "Opmaken bestelbon",
+    "description": "Leerpad voor studenten 3e graad Kantoor voor het opmaken van een bestelbon (incl gebruik Excel-formules, aan de hand van een artikelenlijst)",
+    "lastModifiedDate": "2022-12-10T22:37:25+01:00",
+    "dateCreated": "2022-12-08T21:19:00+01:00",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "Lambrix, Niels",
+                "reference": {
+                    "value": "170961"
+                },
+                "firstName": "Niels",
+                "infix": null,
+                "lastName": "Lambrix",
+                "emailAddress": "niels.lambrix@student.uhasselt.be",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-40",
+            "name": "CC Naamsvermelding 4.0 Internationale licentie",
+            "description": "De Internationale Creative Commons 4.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/4.0/.",
+            "link": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/192861/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "7388092"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "1. Wat staat er in een bestelbon?",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Zoek enkele voorbeelden van bestelbonnen op het internet en beoordeel deze op basis van wat de FOD Economie voorschrijft als inhoudsvereisten.</p>\n<p>******************************************************************</p>\n<p><em><a href=\"https://economie.fgov.be/nl/themas/verkoop/contracten/bestelbon\">Bestelbon | FOD Economie (fgov.be)</a></em></p>\n<p><em>Een consument die een voorschot betaald heeft op een goed of dienst moet een schriftelijk document ontvangen. Dat vermeldt de essenti\u00eble afspraken van de gesloten overeenkomst, zoals de datum of termijn van <a href=\"https://economie.fgov.be/nl/themas/verkoop/contracten/levering-en-risico-overdracht\">levering</a> of dienstverstrekking, of een deel daarvan.</em></p>\n<p><em>De bestelbon moet minimaal vermelden:</em></p>\n<ol>\n<li><em>de naam of benaming, het adres en in voorkomend geval het ondernemingsnummer;</em></li>\n<li><em>de datum en het volgnummer van die bon;</em></li>\n<li><em>een beschrijving die een zekere identificatie van het goed of de dienst mogelijk maakt;</em></li>\n<li><em>de eenheidsprijs, de hoeveelheid en de totale prijs;</em></li>\n<li><em>het bedrag van het betaalde voorschot;</em></li>\n<li><em>het saldo;</em></li>\n<li><em>de datum of termijn van de levering van het goed of van het verlenen van de dienst;</em></li>\n<li><em>de handtekening van de onderneming.</em></li>\n</ol>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "7388096"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "2. Maak een lay-out voor je bestelbon",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Maak op basis van de voorbeelden die je tegengekomen bent in stap 1, een eerste lay-out voor een bestelbon in Excel die kan dienen voor je oefenfirma.</p>\n<ul>\n<li>Check dat alle velden die er zeker in horen, erin verwerkt zitten;</li>\n<li>Geef een naam aan je tabblad: 'bestelbon'</li>\n<li>Durf kritisch te bespreken met je medeleerlingen zodat je bestelbon zo gebruiksklaar mogelijk is.</li>\n<li>Maak daarnaast een nieuw tabblad aan in hetzelfde excelbestand van je bestelbon\n<ul>\n<li>Naam tabblad: 'artikelenlijst'</li>\n<li>Kopieer de waarden uit de artikelenlijst naar dit tabblad.</li>\n</ul>\n</li>\n</ul>\n<p> </p>\n<p><span class=\"underline\">Aanvullend:</span></p>\n<p>Je kan reeds een eerste aanzet geven tot de visuele opmaak van de bestelbon op basis van reeds opgedane kennis, vb:</p>\n<ul>\n<li>Geef de cellen die bij elke bestelbon opnieuw ingevuld moeten worden een andere lichte kleur.</li>\n<li>Maak de cellen met een datum op in formaat dd/mm/jjjj.</li>\n</ul>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "7387648"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "3. Voorzie je bestelbon van enkele handige formules",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "7388464"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Gegevens ophalen uit een artikelenlijst",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Gebruik de formule VERT.ZOEKEN om op basis van een artikelnummer de volgende informatie op te halen uit je artikelenlijst:</p>\n<ul>\n<li>Artikelomschrijving</li>\n<li>Eenheid</li>\n<li>Eenheidsprijs</li>\n</ul>\n<p> </p>\n<p>Meer info over het gebruik van de formule vind je op:</p>\n<p><a href=\"https://support.microsoft.com/nl-nl/office/vert-zoeken-functie-0bbc8083-26fe-4963-8ab8-93a18ad188a1\">VERT.ZOEKEN, functie - Microsoft Ondersteuning</a></p>\n<p> </p>\n<p>Onderstaand filmpje neemt nog iets meer de tijd om door de formule te lopen (bekijken vanaf 6:02):</p>\n<p><a href=\"https://www.youtube.com/watch?v=GUu2J-kra-8\"><iframe allowfullscreen=\"allowfullscreen\" frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/GUu2J-kra-8\" width=\"560\" class=\"video-item\"/></a></p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7388518"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Het totaalbedrag voor een artikel berekenen",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Bouw de formule in voor de totaalprijs per artikel in je bestelbon door de cel met de gevraagde hoeveelheid (aantal) te vermenigvuldigen met de cel met de eenheidsprijs.</p>\n<p>Dit wordt beschouwd als eerder verworven kennis.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7388531"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Formules onzichtbaar maken indien niet van toepassing",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Trek met behulp van de vulgreep de formules (artikelomschrijving, eenheid, eenheidsprijs &amp; totaalbedrag voor een artikel) door naar de volgende rij, zodat een tweede artikelnummer ingegeven kan worden.</p>\n<p> </p>\n<p>Echter zal je de waarde #N/B terugkrijgen als resultaat van je formule. Wanneer de zoekwaarde (artikelnummer) niet teruggevonden kan worden in de tabelmatrix (artikelenlijst), geeft hij deze foutwaarde terug.</p>\n<p> </p>\n<p>Je kan echter formules combineren zodat de cel leeg blijft als de formule niet getoond moet worden. Indien er bijvoorbeeld geen artikelnummer ingevuld staat, moet er ook geen resultaat gegeven worden voor een artikelomschrijving. <br/>\n<br/>\nHet combineren van functies verloopt via geneste functies. Meer info in onderstaand filmpje.</p>\n<p><iframe allowfullscreen=\"allowfullscreen\" frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/wBx6Ju2Ypwo\" width=\"560\" class=\"video-item\"/><br/>\n </p>\n<p>Probeer de redenering eerst logisch te noteren en denk vervolgens aan de formules.</p>\n<p><em>ALS het veld met het artikelnummer LEEG IS, DAN moet de cel waar de artikelomschrijving komt ook LEEG blijven. INDIEN NIET mag de formule op basis van VERT.ZOEKEN getoond worden.</em></p>\n<p><em>Gebruik onderstaande functies:</em></p>\n<p>ALS</p>\n<p><iframe allowfullscreen=\"allowfullscreen\" frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/-2WQjDFN5c8\" width=\"560\" class=\"video-item\"/></p>\n<p>Binnen deze ALS-functie kan je vervolgens de ISLEEG-functie inbouwen:</p>\n<p><a href=\"https://support.microsoft.com/nl-nl/office/is-is-functies-0f2d7971-6019-40a0-a171-f2d869135665?ns=excel&amp;version=90&amp;syslcid=1043&amp;uilcid=1043&amp;appver=zxl900&amp;helpid=xlmain11.chm60177&amp;ui=nl-nl&amp;rs=nl-nl&amp;ad=nl\">IS (IS-functies) - Microsoft Ondersteuning</a></p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7388534"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Het saldobedrag berekenen",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>(niet volledig uitgewerkt)</p>\n<p> </p>\n<p>Hier zorgen we ervoor dat het subtotaal gemaakt wordt, waar er ook rekening gehouden kan worden met een voorschot, zodat er een saldo-bedrag getoond wordt. (eventueel opnieuw met de geneste functie van ALS, ISLEEG &amp; VERT.ZOEKEN.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7388535"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Keuzelijstjes inbouwen",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>(niet volledig uitgewerkt)</p>\n<p> </p>\n<p>In dit deel van het leerpad leren we hoe je gebruik kan maken van keuzelijstjes om uit een beperkte selectie van keuzemogelijkheden te kiezen</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7388536"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Je bestelbon beveiligen",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>(niet volledig uitgewerkt)</p>\n<p> </p>\n<p>In dit deel van het leerpad herhalen we nog eens hoe een werkblad of bepaalde cellen beveiligd kunnen worden. (bvb zodat je enkel de cellen waar ingaves gemaakt kan openstellen voor aanpassingen)</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7388539"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Je bestelbon als een template-bestand opslaan",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>(niet volledig uitgewerkt)</p>\n<p> </p>\n<p>Het is zinvol om de bestelbon als een template-bestand op te slaan zodat er telkens een nieuwe versie geopend wordt voor nieuwe bestellingen.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": null,
+            "dimension": null,
+            "suppressTitle": null
+        },
+        "color": "#333333"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "1. Wat staat er in een bestelbon?",
+                "reference": {
+                    "value": "7388092"
+                },
+                "sections": []
+            },
+            {
+                "title": "2. Maak een lay-out voor je bestelbon",
+                "reference": {
+                    "value": "7388096"
+                },
+                "sections": []
+            },
+            {
+                "title": "3. Voorzie je bestelbon van enkele handige formules",
+                "reference": {
+                    "value": "7387648"
+                },
+                "sections": [
+                    {
+                        "title": "Gegevens ophalen uit een artikelenlijst",
+                        "reference": {
+                            "value": "7388464"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Het totaalbedrag voor een artikel berekenen",
+                        "reference": {
+                            "value": "7388518"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Formules onzichtbaar maken indien niet van toepassing",
+                        "reference": {
+                            "value": "7388531"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Het saldobedrag berekenen",
+                        "reference": {
+                            "value": "7388534"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Keuzelijstjes inbouwen",
+                        "reference": {
+                            "value": "7388535"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Je bestelbon beveiligen",
+                        "reference": {
+                            "value": "7388536"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Je bestelbon als een template-bestand opslaan",
+                        "reference": {
+                            "value": "7388539"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": null,
+        "imageSrc": null,
+        "sources": [],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

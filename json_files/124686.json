@@ -1,0 +1,285 @@
+{
+    "documentAuthors": [
+        "Hans Burg"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Hans Burg",
+            "referenceName": null,
+            "reference": {
+                "value": "79214"
+            },
+            "firstName": "Hans",
+            "infix": null,
+            "lastName": "Burg",
+            "emailAddress": "burghans2011@gmail.com",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2018-05-30T11:21:21Z",
+    "bulkId": "bulk-17041135-refresh_all",
+    "identifier": 124686,
+    "title": "Ijskristallen",
+    "description": "",
+    "lastModifiedDate": "2018-05-30T11:21:21+02:00",
+    "dateCreated": "2018-05-29T17:14:35+02:00",
+    "published": true,
+    "publisher": {
+        "reference": {
+            "value": "1413"
+        },
+        "name": "ThemaTeam ProgrammeerParadigma's",
+        "emailAddresses": [
+            "C.Crombach@Fontys.nl"
+        ],
+        "webAddress": null
+    },
+    "team": {
+        "reference": {
+            "value": "1413"
+        },
+        "name": "themateam_paradigmas",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "Buijze, Frank",
+                "reference": {
+                    "value": "70256"
+                },
+                "firstName": "Frank",
+                "infix": null,
+                "lastName": "Buijze",
+                "emailAddress": "frank@buijze.eu",
+                "type": "author"
+            },
+            {
+                "fullName": null,
+                "referenceName": "Crombach, Coen",
+                "reference": {
+                    "value": "77552"
+                },
+                "firstName": "Coen",
+                "infix": null,
+                "lastName": "Crombach",
+                "emailAddress": "C.Crombach@Fontys.nl",
+                "type": "author"
+            },
+            {
+                "fullName": null,
+                "referenceName": "Burg, Hans",
+                "reference": {
+                    "value": "79214"
+                },
+                "firstName": "Hans",
+                "infix": null,
+                "lastName": "Burg",
+                "emailAddress": "burghans2011@gmail.com",
+                "type": "author"
+            },
+            {
+                "fullName": null,
+                "referenceName": "Heil, Ineke",
+                "reference": {
+                    "value": "80377"
+                },
+                "firstName": "Ineke",
+                "infix": null,
+                "lastName": "Heil",
+                "emailAddress": "c.heil@fontys.nl",
+                "type": "author"
+            },
+            {
+                "fullName": null,
+                "referenceName": "Huizing, Kees",
+                "reference": {
+                    "value": "80657"
+                },
+                "firstName": "Kees",
+                "infix": null,
+                "lastName": "Huizing",
+                "emailAddress": "c.huizing@tue.nl",
+                "type": "author"
+            },
+            {
+                "fullName": null,
+                "referenceName": "Gnodde, Jacco",
+                "reference": {
+                    "value": "80690"
+                },
+                "firstName": "Jacco",
+                "infix": null,
+                "lastName": "Gnodde",
+                "emailAddress": "j.gnodde@griftland.nl",
+                "type": "author"
+            }
+        ],
+        "emailAddress": "C.Crombach@Fontys.nl",
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-40",
+            "name": "CC Naamsvermelding 4.0 Internationale licentie",
+            "description": "De Internationale Creative Commons 4.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/4.0/.",
+            "link": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/124686/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "4352354"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "ijskristallen",
+                "level": 1
+            },
+            "items": [],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "4353140"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Wat gaan we maken?",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>We gaan een eigen ijskristal maken:</p>\n<p>Zoek op het internet plaatjes van ijskristallen zodat je weet hoe deze er uit zien.</p>\n<p>Start het elm programma <a href=\"http://goloca.org:443/examples/ijskristal.elm\">ijskristal.elm</a>. Je ziet het volgende:</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/2/291e5587ef9eacb78b5b5123b1f5ae34fee79f80.png\" class=\"height-300-pixels width-300-pixels\"/></p>\n<p>Links boven kun je selecteren hoeveel maal het ijskristal verdeeld moet worden. Selecteer daar 4. Je ziet het volgende:</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/0/0bb39b145ff33e53d6179e0a89df1e8bf23ca97c.png\" class=\"height-348-pixels width-374-pixels\"/></p>\n<p> </p>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "4353184"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Hoe pakken we het aan?",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Open het elm bestand <strong>myijskristal.elm</strong>. Deze  code staat in het view model daarvan.</p>\n<p>       path =</p>\n<p>           [ koch startP1 startP2 model.passes []</p>\n<p>           , koch startP2 startP3 model.passes []</p>\n<p>           , koch startP3 startP1 model.passes []</p>\n<p>           ]</p>\n<p>In deze regel worden de punten voor de tekening in een lijst gezet\u00ad\u00ad\u00ad. Dit gebeurt door 3 lijnen te bepalen en deze verder te bewerken zoals je hier ziet:</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/0/08f5193de30744ce92f3c01fcff17b0579335fb5.png\" class=\"height-329-pixels width-363-pixels\"/></p>\n<p>Daarvoor wordt de functie <strong>koch</strong> aangeroepen met als parameters:</p>\n<ul>\n<li>Het startpunt van de lijn</li>\n<li>Het eindpunt van de lijn</li>\n<li>Het aantal stappen waarin de lijn bewerkt wordt</li>\n<li>De lijst van punten die tot en met deze stap bepaald zijn</li>\n</ul>\n<p>In <strong>kock</strong> worden de drie nieuwe punten <strong>p1</strong>, <strong>p2</strong> en <strong>p3</strong> berekend om de lijn kunnen te tekenen.</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/591aeaaec06cfc45f62d07b9e7852cbc9c327293.png\" class=\"height-334-pixels width-308-pixels\"/></p>\n<p>Het begin en het eind punt heten binnen <strong>koch</strong> <strong>a</strong> en <strong>b</strong>. Het begin en eindpunt worden als parameters meegegeven.</p>\n<p>Als het aantal stappen niet meer dan 1 is geeft de functie <strong>koch</strong> het volgende terug:</p>\n<p>a :: p1 :: p2 :: p3 :: b :: points</p>\n<p>Als het aantal stappen meer dan 1 is roept roep de functie <strong>koch</strong> zichzelf 4 keer aan met als te bewerken lijnen:</p>\n<ul>\n<li>De lijn tussen de punten <strong>a</strong> en <strong>p1</strong></li>\n<li>De lijn tussen de puntern <strong>p1</strong> en <strong>p2</strong></li>\n<li>De lijn tussen de punten <strong>p2</strong> en <strong>p3</strong></li>\n<li>De lijn tussen de punten <strong>p3</strong> en <strong>b</strong></li>\n</ul>\n<p>Bij deze aanroepen verlaagt <strong>koch</strong> het aantal stappen met 1. Alle resulterende lijsten van deze 4 aanroepen zet <strong>koch</strong> in een gezamenlijke lijst en geeft deze terug.</p>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "4353192"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Opdracht",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Maak je eigen ijskristal door de code van <strong>myijskristal.elm</strong> aan te passen.</p>\n"
+                }
+            ],
+            "sections": []
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": null,
+            "dimension": null,
+            "suppressTitle": null
+        },
+        "color": "#333333"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "ijskristallen",
+                "reference": {
+                    "value": "4352354"
+                },
+                "sections": []
+            },
+            {
+                "title": "Wat gaan we maken?",
+                "reference": {
+                    "value": "4353140"
+                },
+                "sections": []
+            },
+            {
+                "title": "Hoe pakken we het aan?",
+                "reference": {
+                    "value": "4353184"
+                },
+                "sections": []
+            },
+            {
+                "title": "Opdracht",
+                "reference": {
+                    "value": "4353192"
+                },
+                "sections": []
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": null,
+        "imageSrc": null,
+        "sources": [],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            },
+            {
+                "key": "learningTime",
+                "label": "Studiebelasting",
+                "terms": [
+                    "4 uur en 0 minuten"
+                ]
+            }
+        ],
+        "usedLearningResources": [
+            {
+                "author": null,
+                "title": "Hoe gaan we een ijskristal maken?",
+                "url": "https://maken.wikiwijs.nl/124707/",
+                "datePublished": "2018-05-30T11:17:31+02:00"
+            },
+            {
+                "author": null,
+                "title": "Opdracht ijskristallen",
+                "url": "https://maken.wikiwijs.nl/124708/",
+                "datePublished": "2018-05-30T11:20:35+02:00"
+            },
+            {
+                "author": null,
+                "title": "We gaan een ijskristal maken",
+                "url": "https://maken.wikiwijs.nl/124705/",
+                "datePublished": "2018-05-30T11:06:53+02:00"
+            }
+        ]
+    }
+}

@@ -1,0 +1,486 @@
+{
+    "documentAuthors": [
+        "Brecht Hilgersom"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Brecht Hilgersom",
+            "referenceName": null,
+            "reference": {
+                "value": "55652"
+            },
+            "firstName": "Brecht",
+            "infix": null,
+            "lastName": "Hilgersom",
+            "emailAddress": "hw.hilgersom@noorderpoort.nl",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2017-06-07T21:33:41Z",
+    "bulkId": "bulk-17041135-refresh_all",
+    "identifier": 100496,
+    "title": "Stapsgewijs programmeren leren",
+    "description": "",
+    "lastModifiedDate": "2017-06-07T21:33:41+02:00",
+    "dateCreated": "2017-04-22T14:32:36+02:00",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "1526"
+        },
+        "name": "Brecht",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "Hilgersom, Brecht",
+                "reference": {
+                    "value": "55652"
+                },
+                "firstName": "Brecht",
+                "infix": null,
+                "lastName": "Hilgersom",
+                "emailAddress": "hw.hilgersom@noorderpoort.nl",
+                "type": "author"
+            },
+            {
+                "fullName": null,
+                "referenceName": "Hilgersom, Brecht",
+                "reference": {
+                    "value": "83270"
+                },
+                "firstName": "Brecht",
+                "infix": null,
+                "lastName": "Hilgersom",
+                "emailAddress": "hw.hilgersom@noorderpoort.nl",
+                "type": "author"
+            }
+        ],
+        "emailAddress": "",
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-30",
+            "name": "CC Naamsvermelding 3.0 Nederland licentie",
+            "description": "De Nederlandse Creative Commons 3.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/3.0/nl/.",
+            "link": "http://creativecommons.org/licenses/by/3.0/nl/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/100496/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "3210173"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "1 Inleiding",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>De Wikiwijs Stapsgewijs programmeren leren bevat aanvullend lesmateriaal op het onderstaande boek.</p>\n<table cellpadding=\"10\" id=\"yui_3_17_2_1_1492873069316_86\">\n<tbody>\n<tr>\n<th>Boek</th>\n<td><em>Fundament programmeren PHP5 en MySQL</em></td>\n</tr>\n<tr>\n<th>Schrijver</th>\n<td><em>A.C. Gijssen</em></td>\n</tr>\n<tr>\n<th>ISBN</th>\n<td><em>978 90 460 0674 0</em></td>\n</tr>\n<tr>\n<td colspan=\"2\"><em>@ Tweede druk 2013 Instruct, Postbus 38, 2410 AA Bodegraven</em></td>\n</tr>\n</tbody>\n</table>\n"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Maak de PHP-Quiz op p. 5.56-5.57</p>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "3210929"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "7 Programmeeropdrachten",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Hierbij een TIP voor de programmeeropdrachten <strong>7.1 De functie date()</strong> t/m <strong>7.17 Patronen.</strong></p>\n<h1>TIP</h1>\n<p>Pak elk programmeerprobleem in een functie in. Ofwel: schrijf er een functie voor. En begin met een dummy.</p>\n<p> </p>\n<h1>Hoe doe je dit?</h1>\n<p>In <strong>9.5.3 Zelf functies maken</strong> lees je hoe je dit doet. Je mag alle voorbeeldprogrammacode uit 9.5.3 op deze Wiki kop\u00eb\u00ebren en hiermee experimenteren: dat scheelt 80% van jouw programmeerwerk!</p>\n<p> </p>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "3241923"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "7.0 Absentiechecker",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<h1> </h1>\n<p>Maak een script dat aan de hand van een aantal dingen de <strong>absentiecode</strong> teruggeeft. De absentiecode zegt iets over het gedrag van de student in de les (te laat op school, gamen, boeken vergeten, etc.).</p>\n<p>De docent vult in of een student geoorloofd (of ongeoorloofd) afwezig, of aanwezig is. De docent checkt verder of de student:</p>\n<ol>\n<li>te laat in de les verschijnt.</li>\n<li>op zijn/haar telefoon speelt, of gamet.</li>\n<li>les- of notitiemateriaal is vergeten.</li>\n</ol>\n<p>Er zijn drie (hoofd)situaties mogelijk:</p>\n<ol>\n<li>Indien de student ongeoorloofd afwezig was, dan is de <strong>absentiecode</strong> gelijk aan -8 (min acht) punten.</li>\n<li>Indien de student geoorloofd afwezig was, dan is de <strong>absentiecode</strong> gelijk aan 0 punten.</li>\n<li>Indien een student aanwezig was tijdens de les, dan krijgt hij 15 punten als <strong>absentiecode</strong>.</li>\n</ol>\n<p>Indien de student aanwezig was, dan zijn er drie (sub)situaties mogelijk:</p>\n<ol>\n<li>als hij/zij te laat in de les verschijnt, dan worden van de 15 punten 4 punten afgetrokken.</li>\n<li>als hij/zij gamet, video kijkt, of met de telefoon speelt, dan worden nog 2 punten afgetrokken.</li>\n<li>als hij/zij geen laptop, boek en notitiemateriaal meebrengt, dan wordt nog 1 punt afgetrokken.</li>\n</ol>\n<p>De <strong>absentiecode geeft</strong> dus als mogelijke waarden -8, 0, of een waarde tussen 8 en 15 punten terug.</p>\n<p> </p>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "3241914"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "7.8 Nieuwe scooter",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<div>\n<h1> </h1>\n<p>Hierbij een TIP voor de programmeeropdrachten <strong>7.8 Nieuwe scooter</strong><strong>.</strong></p>\n<h1>TIP 1</h1>\n<p>Gebruik de variabele saldo. Bij een tekort is het saldo negatief!</p>\n<p> </p>\n<h1>TIP 2</h1>\n<p>Er zijn vier situaties mogelijk. De situaties zijn hieronder beschreven.</p>\n<div><strong>Situatie 1</strong>: Je kan beter nog even een baantje gaan zoeken.</div>\n<div>Saldo &lt; -500</div>\n<div> </div>\n<div><strong>Situatie 2</strong>: Je bent er bijna. Je komt nog \u2026. euro tekort!</div>\n<div>Saldo &lt; 0 EN Saldo &gt;= -500</div>\n<div> </div>\n<div><strong>Situatie 3</strong>: Hiermee is het mogelijk de scooter te kopen.</div>\n<div>Saldo = 0</div>\n<div> </div>\n<div><strong>Situatie 4</strong>: Je hebt nog \u2026 euro over voor de benzine.</div>\n<div>Saldo &gt; 0</div>\n</div>\n<div>\n<hr/>\n<ul>\n<li> </li>\n</ul>\n</div>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "3241925"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "7.9 Leeftijdchecker",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>De <strong>7.9 Leeftijdchecker</strong> wordt als centraal voorbeeld in deze Wiki gebruikt. Je komt deze programmeeropdracht onder verschillende menu-items in deze Wiki tegen.</p>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "3241912"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "7.11 Een driehoek controleren",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Hierbij een TIP voor de programmeeropdrachten <strong>7.11 Een driehoek controleren</strong><strong>.</strong></p>\n<h1>TIP</h1>\n<p>Als je de grootste zijde hebt gevonden, dan heb je automatisch ook de twee kleinste zijden gevonden!</p>\n<p>Let op: alle zijden mogen ook even groot zijn!</p>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "3210330"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "9.5.3 Zelf functies maken",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<h1>Begrippen</h1>\n<p>Je kunt onderstaand(e) begrip(pen) aan een collega uitleggen. Zie ook: boek (zie: p. 9.105).</p>\n<ul>\n<li>Parameters</li>\n<li>Keyword return</li>\n<li>Defaultwaarde</li>\n<li>Keyword global</li>\n</ul>\n<h1>Uitleg en voorbeeld</h1>\n<p>Het is een goede gewoonte om voor complexe programmeerproblemen een functie te maken waardoor alle ingewikkelde programmacode wordt \"ingekapseld\" in de functie.</p>\n<p>Als voorbeeld nemen we opdracht <strong>7.9 Leeftijdchecker</strong> (zie boek: p. 7.71). Stel dat we voor deze opdracht de functie <span>checkLeeftijd</span> schrijven.</p>\n<p>In de voorbeeldfile hieronder wordt duidelijk gemaakt hoe een functie werkt. Je kunt deze file kopie\u00ebren en uitproberen.</p>\n<h2>leeftijdChecker.php</h2>\n<p><span>&lt;?php</span></p>\n<p> </p>\n<p><span> </span> <span>// Hieronder wordt de functie aangeroepen.</span></p>\n<p><span>  $leeftijd = 15;</span></p>\n<p><span>  $illegaal = false;</span></p>\n<p><span>  echo \"leeftijd =\".$leeftijd.\"&lt;br /&gt;\";</span></p>\n<p><span>  echo \"illegaal =\".$illegaal.\"&lt;br /&gt;\";</span></p>\n<p><span>    checkLeeftijd($leeftijd, $illegaal);</span></p>\n<p> </p>\n<p><span>   // Hieronder wordt de functie gedeclareerd</span>.</p>\n<p> </p>\n<p><span>  function checkLeeftijd($leeftijd, $illegaal) {</span></p>\n<p><span>       // Hier komt jouw programmacode ...</span></p>\n<p><span>       echo \"Dit is een Dummy.&lt;br /&gt;\";</span></p>\n<p><span>       echo \"Hier komen jouw verwerking en echo's.&lt;br /&gt;\";</span></p>\n<p><span>  }</span></p>\n<p><span>?&gt;</span></p>\n<div>\n<hr/>\n<p> </p>\n</div>\n"
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "3210329"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "9.5.3-1 Dummies maken",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<h1>Begrippen</h1>\n<p>Je kunt onderstaand(e) begrip(pen) aan een collega uitleggen.</p>\n<ul>\n<li>Encapsulation</li>\n</ul>\n<p> </p>\n<h1>Uitleg en voorbeelden</h1>\n<p>Als programmeur heb je genoeg te doen. Soms is daarom handig om eerst een dummy te schrijven.</p>\n<p> </p>\n<h2>Voorbeeld 1</h2>\n<p>  <span>function formatNaam($naam) {</span></p>\n<p><span>       // ToDo: hier komt de verwerking van de functie..</span></p>\n<p><span>       return $naam;</span></p>\n<p><span>}</span></p>\n<h2>Voorbeeld 2</h2>\n<p>  <span>function valideerNaam($naam) {</span></p>\n<p><span>       // ToDo: hier komt de verwerking van de functie..</span></p>\n<p><span>       return true;</span></p>\n<p><span>}</span></p>\n<h2>Voorbeeld 3</h2>\n<p>Zie ook: p. 7.75 van het boek.</p>\n<p>  <span>function printWisselkoersentabel($dollarkoers, $pondkoers, $yenkoers, $roepikoers) {</span></p>\n<p><span>       // ToDo: hier komt de verwerking van de functie..</span></p>\n<p><span>      echo \"Hier wordt straks de wisselkoerstabel afgedrukt.\";</span></p>\n<p><span>}</span></p>\n<p> </p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "3210359"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "9.5.3-2 Functietest maken",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<h1>Uitleg en voorbeelden</h1>\n<p>Het is een goede gewoonte om voor complexe functies een functietest te maken waardoor alle gevallen en situaties worden getest: test in het bijzonder speciale (grens)gevallen en foutsituaties.</p>\n<p>Als voorbeeld nemen we opdracht <strong>7.9 Leeftijdchecker</strong> (zie boek: p. 7.71). Stel dat we voor deze opdracht een functie <span>checkLeeftijd</span> hebben geschreven. Je kunt dan een functie <span>checkLeeftijdTest</span> schrijven die alle gevallen en situaties test.</p>\n<p>In de twee voorbeeldfile's hieronder wordt duidelijk gemaakt hoe een functietest werkt. Je kunt deze twee files kopie\u00ebren en uitproberen.</p>\n<h2>leeftijdCheckerTest.php</h2>\n<p><span>&lt;?php</span></p>\n<p><span>  include 'LeeftijdChecker.inc';</span></p>\n<p><span>  checkLeeftijdTest();</span></p>\n<p><span>?&gt;</span></p>\n<p> </p>\n<p> </p>\n<h2>leeftijdChecker.inc</h2>\n<p><span>&lt;?php</span></p>\n<p><br/>\n<span>function checkLeeftijdTest() {</span></p>\n<p><br/>\n<span>  // Als je 15 bent mag je geen alcohol kopen en niet stemmen</span></p>\n<p><span>  $leeftijd = 15;</span></p>\n<p><span>  $illegaal = false;</span></p>\n<p><span>  echo \"leeftijd =\".$leeftijd.\"&lt;br /&gt;\";</span></p>\n<p><span>  echo \"illegaal =\".$illegaal.\"&lt;br /&gt;\";</span></p>\n<p><span>  checkLeeftijd($leeftijd, $illegaal);</span></p>\n<p> </p>\n<p><span>  $leeftijd = 15;</span></p>\n<p><span>  $illegaal = true;</span></p>\n<p><span>  echo \"leeftijd =\".$leeftijd.\"&lt;br /&gt;\";</span></p>\n<p><span>  echo \"illegaal =\".$illegaal.\"&lt;br /&gt;\";</span></p>\n<p><span>  checkLeeftijd($leeftijd, $illegaal);</span></p>\n<p> </p>\n<p><span>  // Als je 16 bent mag je alcohol kopen, maar niet stemmen</span></p>\n<p><span>  $leeftijd = 16;</span></p>\n<p><span>  $illegaal = false;</span></p>\n<p><span>  echo \"leeftijd =\".$leeftijd.\"&lt;br /&gt;\";</span></p>\n<p><span>  echo \"illegaal =\".$illegaal.\"&lt;br /&gt;\";</span></p>\n<p><span>  checkLeeftijd($leeftijd, $illegaal);</span></p>\n<p> </p>\n<p><span>  $leeftijd = 16;</span></p>\n<p><span>  $illegaal = true;</span></p>\n<p><span>  echo \"leeftijd =\".$leeftijd.\"&lt;br /&gt;\";</span></p>\n<p><span>  echo \"illegaal =\".$illegaal.\"&lt;br /&gt;\";</span></p>\n<p><span>  checkLeeftijd($leeftijd, $illegaal);</span></p>\n<p> </p>\n<p><span>  // Als je 18 bent en je bent illegaal, dan mag je niet stemmen</span></p>\n<p><span>  // Als je 18 bent en je bent niet illegaal, dan mag je stemmen</span></p>\n<p><span>  $leeftijd = 18;</span></p>\n<p><span>  $illegaal = false;</span></p>\n<p><span>  echo \"leeftijd =\".$leeftijd.\"&lt;br /&gt;\";</span></p>\n<p><span>  echo \"illegaal =\".$illegaal.\"&lt;br /&gt;\";</span></p>\n<p><span>  checkLeeftijd($leeftijd, $illegaal);</span></p>\n<p> </p>\n<p><span>  $leeftijd = 18;</span></p>\n<p><span>  $illegaal = true;</span></p>\n<p><span>  echo \"leeftijd =\".$leeftijd.\"&lt;br /&gt;\";</span></p>\n<p><span>  echo \"illegaal =\".$illegaal.\"&lt;br /&gt;\";</span></p>\n<p><span>  checkLeeftijd($leeftijd, $illegaal);</span></p>\n<p><span>}</span></p>\n<p> </p>\n<p><span>function checkLeeftijd($leeftijd, $illegaal) {</span></p>\n<p><span> </span><span>// Hier komt jouw programmacode ...</span></p>\n<p>  <span>echo \"Dit is een Dummy.&lt;br /&gt;\";</span></p>\n<p><span>  echo \"Hier komen jouw echo's.&lt;br /&gt;\";</span></p>\n<p><span>}</span></p>\n<p><span>?&gt;</span></p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "3348505"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "9.5.3-3 Interfaceontwerp (IO)",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<h1>Interfaceontwerp (IO) maken</h1>\n<p>Indien je zelf een functie maakt, maak dan eerst een interfaceontwerp (IO). In het IO neem je de volgende gegevens op:</p>\n<p>1. de naam van de functie die jij wilt maken;</p>\n<p>2. het doel van deze functie;</p>\n<p>3. de parameters van de functie, inclusief de defaultwaarde(n); en</p>\n<p>4. de returnwaarde van de functie.</p>\n<p> </p>\n<p>Voor het programmeerprobleem <strong><span style=\"font-size: larger\">7.9 Leeftijdchecker</span> hebben wij reeds een voorbeeld hieronder opgenomen.</strong></p>\n<p> </p>\n"
+                        },
+                        {
+                            "type": "file",
+                            "title": "Interfaceontwerp (IO) maken",
+                            "file": "https://maken.wikiwijs.nl/userfiles/2/215eda61fb861d5faac10a35f82d2083d71481d4.docx"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "3210169"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "10 Formulieren",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "3238850"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "10-2 Functioneel ontwerp maken",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<h1>Functioneel ontwerp maken</h1>\n<p>Je maakt eerst een schermontwerp, bijvoorbeeld in een Word-document.</p>\n<p>Bij het schermontwerp dien je de onderstaande vijf onderdelen te beshrijven.</p>\n<h2>Doel</h2>\n<p>Beschrijf in \u00e9\u00e9n zin wat het doel van jouw applicatie is.</p>\n<h2>Eisen</h2>\n<p>Beschrijf welke eisen er (aan de invoer) worden gesteld.</p>\n<h2>Formulierelementen</h2>\n<p>Geef in een tabel de namen van alle formulierelementen van het schermontwerp, dus:</p>\n<ul>\n<li>labels</li>\n<li>invoervelden</li>\n<li>textera</li>\n<li>radio buttons</li>\n<li>checkboxes</li>\n<li>knoppen</li>\n</ul>\n<h2>Verwerking van het formulier</h2>\n<p>Beschrijf met korte zinnen (die je later als commentaar in jouw programma kunt gebruiken) hoe het programma werkt.</p>\n<h2>Vragen van en antwoorden aan Bob de Bouwer</h2>\n<p>Neem hier de vragen op die de bouwer van de applicatie aan jouw stelt en geef bij elke vraag een antwoord.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "3282506"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "10.2a FO voorbeeld",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "file",
+                            "title": "Functioneel ontwerp maken Leeftijdchecker (7.9)",
+                            "file": "https://maken.wikiwijs.nl/userfiles/d/dbde3449b6c983548b88dc927fa4f2f2d2b8f46d.pdf"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "3241908"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "10-3 PSD maken",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "file",
+                            "title": "PSD maken",
+                            "file": "https://maken.wikiwijs.nl/userfiles/8/8dc5bcfae15c6ccf0257dab2fc5aff4a0fc85d45.pdf"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "3265245"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "10-5 Testplan maken",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<h1>Testplan maken</h1>\n<p>Eerst maak je een schermontwerp (FO) en op basis van het schermontwerp maak je een testplan.</p>\n<p>In een testplan geef je aan wat de invoer is en wat je als uitvoer (meldingen) verwacht.</p>\n<p>Je neemt in een testplan ongeldige situaties (foutsituaties) op en juiste situaties.</p>\n<p>Je probeert zo volledig mogelijk alle situaties te testen, maar je pakt dit systematisch aan zodat je ook niet teveel situaties test.</p>\n<p>Hieronder is een tesplan voor het programmeerprobleem <strong>7.9 Leeftijdchecker</strong> gegeven als voorbeeld.</p>\n<p> </p>\n"
+                        },
+                        {
+                            "type": "file",
+                            "title": "Testplan maken",
+                            "file": "https://maken.wikiwijs.nl/userfiles/4/461b4dce9d21a96ff2bb325e1c95574e4b1c5d19.xlsx"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": null,
+            "dimension": null,
+            "suppressTitle": null
+        },
+        "color": "#495057"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "1 Inleiding",
+                "reference": {
+                    "value": "3210173"
+                },
+                "sections": []
+            },
+            {
+                "title": "7 Programmeeropdrachten",
+                "reference": {
+                    "value": "3210929"
+                },
+                "sections": []
+            },
+            {
+                "title": "7.0 Absentiechecker",
+                "reference": {
+                    "value": "3241923"
+                },
+                "sections": []
+            },
+            {
+                "title": "7.8 Nieuwe scooter",
+                "reference": {
+                    "value": "3241914"
+                },
+                "sections": []
+            },
+            {
+                "title": "7.9 Leeftijdchecker",
+                "reference": {
+                    "value": "3241925"
+                },
+                "sections": []
+            },
+            {
+                "title": "7.11 Een driehoek controleren",
+                "reference": {
+                    "value": "3241912"
+                },
+                "sections": []
+            },
+            {
+                "title": "9.5.3 Zelf functies maken",
+                "reference": {
+                    "value": "3210330"
+                },
+                "sections": [
+                    {
+                        "title": "9.5.3-1 Dummies maken",
+                        "reference": {
+                            "value": "3210329"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "9.5.3-2 Functietest maken",
+                        "reference": {
+                            "value": "3210359"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "9.5.3-3 Interfaceontwerp (IO)",
+                        "reference": {
+                            "value": "3348505"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "10 Formulieren",
+                "reference": {
+                    "value": "3210169"
+                },
+                "sections": [
+                    {
+                        "title": "10-2 Functioneel ontwerp maken",
+                        "reference": {
+                            "value": "3238850"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "10.2a FO voorbeeld",
+                        "reference": {
+                            "value": "3282506"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "10-3 PSD maken",
+                        "reference": {
+                            "value": "3241908"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "10-5 Testplan maken",
+                        "reference": {
+                            "value": "3265245"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": null,
+        "imageSrc": null,
+        "sources": [],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

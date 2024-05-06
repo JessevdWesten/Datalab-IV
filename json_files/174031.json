@@ -1,0 +1,1909 @@
+{
+    "documentAuthors": [
+        "Ronald Leijtens"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Ronald Leijtens",
+            "referenceName": null,
+            "reference": {
+                "value": "155794"
+            },
+            "firstName": "Ronald",
+            "infix": null,
+            "lastName": "Leijtens",
+            "emailAddress": "r.leijtens@trinitascollege.nl",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2021-02-23T10:13:24Z",
+    "bulkId": "bulk-17041658-refresh_all",
+    "identifier": 174031,
+    "title": "H Informatiemodellering",
+    "description": "",
+    "lastModifiedDate": "2021-02-23T10:13:24+01:00",
+    "dateCreated": "2021-02-23T10:12:58+01:00",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "Leijtens, Ronald",
+                "reference": {
+                    "value": "155794"
+                },
+                "firstName": "Ronald",
+                "infix": null,
+                "lastName": "Leijtens",
+                "emailAddress": "r.leijtens@trinitascollege.nl",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-sa-40",
+            "name": "CC Naamsvermelding-GelijkDelen 4.0 Internationale licentie",
+            "description": "De Internationale Creative Commons 4.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarden: Naamsvermelding en Gelijk Delen, zie http://creativecommons.org/licenses/by-sa/4.0/.",
+            "link": "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/174031/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "6596213"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "A Inleiding",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "6596214"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Vooraf",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/1f649aacb61c62f6b76157a53551df2f13e0793f.PNG\" class=\"height-342-pixels width-200-pixels float-right\"/>In de module informatieverwerkende systemen heb je kennis gemaakt met het vak informatica, waarbij informatie en communicatie een belangrijke rol spelen. Voor het verwerken van informatie worden informatieverwerkende systemen gebruikt.<br/>\n<br/>\nAls je bij het vak informatica spreekt over informatieverwerkende systemen beperk je je vrijwel altijd tot informatieverwerking met behulp van computersystemen. Een informatieverwerkend systeem verwerkt gegevens die van buiten het systeem komen. We noemen dat de <strong>invoer</strong>. Het resultaat van de verwerking wordt gepresenteerd aan de gebruiker of aan een ander systeem. Dit is de <strong>uitvoer</strong>. Het verzamelen, bewerken en bewaren van informatie wordt <strong>informatieverwerking</strong> genoemd. Vrijwel alle systemen kunnen deze informatie kortere of langere tijd bewaren in een <strong>geheugen</strong>.</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/b/bf75dcad9e9179c2a7f2c31519875909f7c910e3.PNG\" class=\"height-195-pixels width-598-pixels\"/></p>\n<p>Er bestaan verschillende soorten informatieverwerkende systemen. Informatici maken onderscheid tussen procesgeori\u00ebnteerde, gegevensgeori\u00ebnteerde, modelgeori\u00ebnteerde en autonome systemen.<br/>\n<br/>\nIn de module informatiemodellering beperken we ons tot het ontwerpen van gegevensgeori\u00ebnteerde systemen. De overige type systemen blijven buiten beschouwing. We verdiepen ons daarvoor in de methode FCO-IM. Deze methode wordt gebruikt voor het modelleren van gegevensgeori\u00ebnteerde systemen, die wij in het vervolg van deze module zullen aanduiden als informatiesystemen.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596216"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Leerdoelen",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/a/a204ff5ac614576dca6474739f51934ad34e82bf.png\" class=\"height-200-pixels width-200-pixels float-right\"/></p>\n<p>Lees de leerdoelen door die van toepassing zijn op deze module.<br/>\nNa verwerking van deze module:</p>\n<ul>\n<li>kun je in grote lijnen het ontwikkeltraject van een informatiesysteem beschrijven;</li>\n<li>kun je de rol van de domeindeskundige en de informatieanalist in een ontwikkeltraject van een informatiesysteem beschrijven;</li>\n<li>kun je uit een casebeschrijving de voor de communicatie relevante feiten benoemen;</li>\n<li>weet je hoe je feiten moet verwoorden in feitexpressies;</li>\n<li>weet je wat verstaan wordt onder een elementaire feitexpressie;</li>\n<li>kun je feitexpressies classificeren en kwalificeren;</li>\n<li>kun je objecttypen,labeltypen en feittypen benoemen;</li>\n<li>kun je uitleggen wat een existentiepostulerende feitexpressie is;</li>\n<li>kun je het casetool Casetalk gebruiken bij het ontwikkelen van een model;</li>\n<li>kun je een informatiegrammaticadiagram (IGD) maken;</li>\n<li>weet je waarvoor beperkingen (constraints) worden gebruikt;</li>\n<li>kun je uitleggen wat een waardenbeperking is;</li>\n<li>kun je uitleggen wat een uniciteitsbeperking is;</li>\n<li>kun je uitleggen wat een totaliteitsbeperking is;</li>\n<li>weet je hoe je de beperkingregels bepaald voor een model;</li>\n<li>weet je hoe een controle moet worden uitgevoerd om te bepalen of het ontworpen model correct is;</li>\n<li>weet je wat het GLR-algoritme is;</li>\n<li>kun je een elementair IGD met behulp van het casetool omzetten naar een relationele database.</li>\n</ul>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596218"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Bijlagen",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/9/98d07a609ddaab44a102856c256c91376cf66102.png\" class=\"height-200-pixels width-200-pixels float-right\"/>Bij deze module horen de volgende bijlagen:<br/>\n<br/>\nIn deze module maken we voor het uitwerken van een model gebruik van de casetool <a href=\"http://www.casetalk.com\" target=\"_blank\">CaseTalk versie 8.27</a>.<br/>\n </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596220"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Zo werkt het",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/c/cc89907a55ab4ee09a9e8dfe611aaad007d511ed.png\" class=\"height-200-pixels width-200-pixels float-right\"/></p>\n<p>Je bent begonnen in de module Informatiemodellering. Deze module bestaat uit meerdere onderdelen. In ieder onderdeel vind je, verdeeld over verschillende pagina's, informatie in de vorm van teksten, afbeeldingen en video's. Daarnaast ga je zelf aan de slag. Onder het kopje \"Aan de slag\" vind je steeds toepassingsopdrachten. Deze opdrachten maak je alleen of met een klasgenoot.</p>\n<p>Er zijn ook toetsen. Deze herken je aan de blauwe knop met daarop \"Adaptieve Toets\".<br/>\nEen toets bestaat uit meerdere vragen. Dat kunnen gesloten vragen zijn, die door de computer worden nagekeken, of open vragen, die moet je zelf nakijken.<br/>\nBij een enkele vraag moet je een bestand uploaden.<br/>\n<br/>\nVan de toetsen wordt, als je ingelogd bent, de voortgang bijgehouden.<br/>\nHet resultaat vind je onder de knop \"Voortgang\". Deze voortgang is ook door je docent te bekijken.</p>\n<p>Succes met de module Informatiemodellering.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "6596222"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "B Informatiesystemen",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "6596223"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Informatiesystemen",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/1fdd7e0050021ab8665ef923bea86e9a441398a4.PNG\" class=\"height-381-pixels width-223-pixels float-right\"/>Informatiesystemen spelen een belangrijke rol in onze samenleving. We treffen ze overal aan. Een cijferregistratiesysteem op school, een voorraadsysteem in de supermarkt of een systeem voor de dienstregeling van een vervoersbedrijf. Het zijn slechts een paar voorbeelden. Vaak gaat het om geautomatiseerde systemen. In een supermarkt worden alle transacties bij de kassa direct verwerkt. Daardoor kan op elk moment de actuele voorraad van een product worden opgevraagd.<br/>\nGrote vervoersbedrijven zijn voor hun dienstregeling afhankelijk van geautomatiseerde informatiesystemen. Dat geldt ook voor banken. Bijvoorbeeld voor het registreren van financi\u00eble transacties.<br/>\n<br/>\nDe automatisering van de informatievoorziening begon in de vorige eeuw in de jaren zestig aanvankelijk bij grote bedrijven en instellingen zoals multinationals en banken. Met de komst van de personal computer, begin jaren tachtig, volgden ook de kleinere bedrijven en instellingen.<br/>\n<br/>\nEen informatiesysteem heeft als doel een organisatie te voorzien van de gewenste informatie. Een informatiesysteem kan langzaam en ongeleid tot stand komen, maar kan ook doelbewust worden ontwikkeld door een projectteam. In de praktijk gebeurt dat vaak in het kader van een automatiseringsproject.<br/>\n<br/>\nLang niet alle automatiseringsprojecten zijn een succes. Bij het invoeren van een nieuw stelsel van studiefinanciering eind jaren tachtig van de vorige eeuw kregen veel studenten geen of een onjuist berekende studiefinanciering. Een belangrijke oorzaak was dat het systeem niet goed overweg kon met studenten met bijzondere omstandigheden. Bij het ontwerp was daar onvoldoende rekening mee gehouden.<br/>\n<br/>\nHet ontwikkelen van een informatiesysteem is niet eenvoudig. Het vereist een planmatige aanpak. In het ontwikkeltraject van een informatiesysteem onderscheiden we een aantal stappen.<br/>\nDe eerste stap bestaat uit het formuleren van de informatiebehoefte en het maken van een beschrijving van de relevante informatie. Je geeft met behulp van voorbeelden aan welke informatie het systeem moet kunnen bijhouden.<br/>\nVervolgens ga je kijken welke functies het systeem moet bezitten om aan de informatiebehoefte te kunnen voldoen. Het cijferregistratiesysteem van een school moet bijvoorbeeld rapporten kunnen afdrukken, maar ook de klassenlijsten met namen en cijfers voor de rapportvergadering kunnen samenstellen.<br/>\nTot nu toe bestaat het ontwerp alleen op papier. Bij de derde stap worden de benodigde computerprogramma's aangeschaft of geschreven. Wanneer er nieuwe computerapparatuur nodig is, wordt deze uitgezocht, aangeschaft en ge\u00efnstalleerd. Ook moeten de gebruikers geschoold en begeleid worden om het informatiesysteem te kunnen gebruiken. Tenslotte moet ge\u00ebvalueerd worden of het systeem in de praktijk voldoet aan de informatiebehoefte.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596225"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 1",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/a/a221e14916f6753812fa2eb02f14b390e528c703.PNG\" class=\"height-251-pixels width-223-pixels float-right\"/><strong>Opgave 1</strong><br/>\n<br/>\nWelke fasen worden er onderscheiden in de ontwikkeling van een informatiesysteem?</p>\n<p>Bekijk de onderstaande tabelstructuur:</p>\n<table border=\"1\" cellpadding=\"4\" cellspacing=\"0\" class=\"width-60-percent\">\n<tbody>\n<tr>\n<td>voornaam</td>\n<td>achternaam</td>\n<td>adres</td>\n<td>woonplaats</td>\n<td>hobby</td>\n<td>vak</td>\n<td>cijfer</td>\n</tr>\n</tbody>\n</table>\n<p><br/>\nIn de module over databases zijn de begrippen redundantie en inconsistentie besproken.</p>\n<p><strong>Opgave 2</strong></p>\n<ol type=\"a\">\n<li>Deze tabelstructuur zorgt ervoor dat er redundantie optreedt. Leg dat uit.</li>\n<li>Redundantie kan leiden tot inconsistentie. Waarom mag in een database geen inconsistentie optreden?</li>\n<li>Maak een nieuwe tabellenstructuur, zodat deze problemen vermeden worden.</li>\n<li>In een tabel noemen we een kolom of een combinatie van kolommen op basis waarvan een rij uit een tabel uniek te identificeren is de sleutel. Wat zijn de sleutels van de tabellen in de nieuwe tabellenstructuur?</li>\n</ol>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596227"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Waarom modelleren?",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Je zult je misschien afvragen of het doorlopen van een compleet ontwikkeltraject wel altijd even zinvol is. In de module databases hebben jullie gewerkt met de cd-dvd database. Het strokendiagram van deze database was niet heel ingewikkeld. De tabellen van de cd-dvd database zouden ook zonder dat er een uitgebreid traject wordt doorlopen, ontworpen kunnen worden.</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/57334885bd79628884e7e22c06da0fb266328412.png\"/>\n<figcaption>Strokendiagram cd-dvd database</figcaption>\n</figure>\n<p> </p>\n<p>Voor kleine informatiesystemen, zoals in dit voorbeeld, gaat onze constatering dat het niet altijd even zinvol is om een compleet ontwikkeltraject te doorlopen vermoedelijk wel op. Hoe wezenlijk anders is dat voor complexe informatiesystemen waar we in toenemende mate in onze samenleving mee te maken hebben: een vluchtreserveringssysteem voor een luchtvaartmaatschappij en de bevolkingsadministratie van een gemeente. Zulke systemen ontwerp je niet even op een namiddag. Daarvoor is een gestructureerde aanpak onontbeerlijk.</p>\n<p> </p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/3/39abf48f2818f8f63e92a1df05cd499529b2209b.png\" class=\"height-550-pixels width-704-pixels\"/>\n<figcaption>Informatiesysteem vluchtreservering</figcaption>\n</figure>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596229"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 2",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/d/dd6b74a6f3e7775c7a07989db57f543b10f38b02.png\" class=\"height-381-pixels width-223-pixels float-right\"/>In de tekst worden voorbeelden genoemd van complexe informatiesystemen.<br/>\nBedenk zelf nog twee andere voorbeelden.</p>\n<table border=\"1\" cellpadding=\"5\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td>\n<p><span style=\"background-color:transparent;\">In deze module staat het ontwerpen van een informatiesysteem voor herkansingen centraal. Je maakt daarbij kennis met een methode die gebruikt wordt voor het modelleren van informatiesystemen. Het te ontwerpen systeem zal niet te vergelijken zijn met bijvoorbeeld een ingewikkeld informatiesysteem voor de financi\u00eble transacties voor een bank. Daarentegen maak je wel kennis met verschillende aspecten van het ontwerpproces en wordt de noodzaak van modelleren je duidelijker. Het ontwerpen van een informatiesysteem voor herkansingen loopt als een rode draad door deze module heen. De aan de slag opdrachten helpen je stap voor stap bij het realiseren van het model voor herkansingen.</span></p>\n</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596231"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 3",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/4/4109f25d833f4700825426af515461a71fe935c4.PNG\" class=\"height-381-pixels width-223-pixels float-right\"/>Alan heeft een grote verzameling cd's en dvd's. Vrienden vragen regelmatig of zij een cd mogen lenen. Om geen cd's kwijt te raken, besluit hij een administratie op te zetten voor zijn collectie. In het systeem wil hij de titel van de cd, de naam van de artiest, het soort muziek en de prijs van de cd opnemen. Daarnaast moeten de NAW-gegevens van diegene die iets leent, worden vastgelegd. Omdat ook wel eens gevraagd wordt of hij een bepaald liedje heeft, besluit Alan dat alle nummers die op een cd staan in het systeem moeten worden opgenomen.</p>\n<ol type=\"a\">\n<li>Welke gegevens wil Alan vastleggen in het systeem?</li>\n<li>Welke functies moet het systeem bezitten?</li>\n<li>Ontwerp een tabellenstructuur voor het cd-uitleensysteem.</li>\n</ol>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "6596233"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "C Herkansingen",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "6596234"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Enigmacollege",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/0/036c69b5835903a2a27d11d185aceb766190503a.png\" class=\"height-381-pixels width-223-pixels float-right\"/>Op het Enigmacollege krijgen leerlingen na elke proefwerkweek de gelegenheid om te herkansen voor \u00e9\u00e9n van de vakken waarvoor ze een toets hebben gemaakt. Enkele weken na de proefwerkweek, de cijfers zijn dan inmiddels bekend, vullen leerlingen een formulier in. Hierop moet onder andere worden vermeld voor welk vak ze willen herkansen. Deze formulieren worden verzameld op de administratie en daar handmatig verwerkt. Dat wil zeggen, er worden overzichtslijsten gemaakt waaruit blijkt voor welke vakken leerlingen willen herkansen en bij welke docent. De mensen van de administratie zorgen er vervolgens voor dat deze lijsten in de docentenkamer op het prikbord worden opgehangen. Docenten kunnen dan zelf controleren of ze een of meerdere herkansingen moeten maken.<br/>\n<br/>\nDe schoolleiding vindt deze manier van werken nogal omslachtig. Daarom heeft ze de docent informatica gevraagd daar eens naar te kijken. Hij heeft bedacht dat het veel handiger is om het opgeven voor een herkansing te gaan registreren via de website van school. De benodigde gegevens kunnen dan direct worden opgeslagen in een database. Voor het benaderen van de database stelt hij voor gebruik te gaan maken van php in combinatie met mysql.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596236"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "De deskundigen",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><strong><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/b/b8ef5addf6ce855ec8a3f320b3ec2748dd262c77.png\" class=\"height-381-pixels width-223-pixels float-right\"/>De gegevens voor het informatiesysteem</strong><br/>\nOm een informatiesysteem te kunnen ontwikkelen, is deskundigheid nodig over het onderwerp. Maar ook over het proces zelf. Dus over hoe het ontwikkeltraject van een informatiesysteem verloopt. Meestal berust de deskundigheid over het onderwerp en het ontwikkeltraject niet bij dezelfde mensen. Vaak zijn er verschillende partijen betrokken bij het ontwikkelen van het informatiesysteem:</p>\n<ul>\n<li>De <strong>domeindeskundige</strong> heeft de noodzakelijke kennis over het onderwerp (het <strong>domein</strong>) en weet wat de informatiebehoefte is m.a.w. welke vragen het systeem moet kunnen beantwoorden.</li>\n<li>De <strong>informatieanalist</strong> is de specialist in het ontwikkelen van informatiesystemen.</li>\n</ul>\n<p>Het is niet altijd makkelijk om erachter te komen wat de precieze informatiebehoefte is. Het verwerken van informatie gaat vaak onbewust. Daarnaast is het ook lastig om de informatiebehoefte onder woorden te brengen. De informatieanalist gebruikt daarvoor speciale technieken zoals enqu\u00eates, interviews, groepsoverleg en observaties.<br/>\n<br/>\nIn ons voorbeeld van het ontwikkelen van een informatiesysteem voor herkansingen is er bij het onderzoek naar de informatiebehoefte gekeken naar de overzichten die in de docentenkamer worden opgehangen.</p>\n<p>Hieronder zie je een fragment van de lijsten zoals die door de administratie worden gemaakt:</p>\n<table border=\"1\" cellpadding=\"4\" cellspacing=\"0\" class=\"width-100-percent\">\n<tbody>\n<tr>\n<td><strong>voornaam</strong></td>\n<td><strong>achternaam</strong></td>\n<td><strong>klas</strong></td>\n<td><strong>vak</strong></td>\n<td><strong>docent</strong></td>\n</tr>\n<tr>\n<td>Rob</td>\n<td>Jansen</td>\n<td>4Va</td>\n<td>sp</td>\n<td>agu</td>\n</tr>\n<tr>\n<td>Peter</td>\n<td>Hoekstra</td>\n<td>4Hb</td>\n<td>ak</td>\n<td>bht</td>\n</tr>\n<tr>\n<td>Jessica</td>\n<td>Veerman</td>\n<td>4Hc</td>\n<td>sk</td>\n<td>kox</td>\n</tr>\n<tr>\n<td>Ellen</td>\n<td>Reinsma</td>\n<td>4Vb</td>\n<td>en</td>\n<td>kng</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<p>De overzichtslijst die in de docentenkamer wordt opgehangen, is een zogenaamd <strong>startdocument</strong>. Startdocumenten worden gebruikt om te beschrijven om welke informatie en informatieverwerkende processen het gaat.<br/>\nDe informaticadocent signaleert al snel een probleem. Als er twee leerlingen met dezelfde voor- en achternaam in de lijst voorkomen, kan dat verwarrend zijn. Er wordt daarom besloten om een leerlingnummer te gaan gebruiken voor de identificatie van een leerling.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596238"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 4",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<ol type=\"a\">\n<li><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/b/b01653a370c52341e750118f4db42dd7f0d62b0f.png\" class=\"height-381-pixels width-223-pixels float-right\"/>Wat is de taak van de domeinsdeskundige bij het ontwikkelen van een informatiesysteem?</li>\n<li>Wat is de taak van een informatieanalist bij he tontwikkelen van een informatiesysteem?</li>\n<li>Wat is het domein?</li>\n</ol>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596240"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 5",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><strong><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/4/4aee169a7c1ba4b2965804775a4eba0beff20b28.png\" class=\"height-381-pixels width-223-pixels float-right\"/>Opgave 1</strong><br/>\n<br/>\nOm een leerling uniek te kunnen identificeren, is besloten het leerlingnummer te gebruiken.</p>\n<ol type=\"a\">\n<li>Was het ook mogelijk geweest om een leerling uniek te identificeren door zijn klas aan zijn voor- en achternaam toe te voegen? Licht je antwoord toe.</li>\n<li>Was het ook mogelijk geweest om een leerling uniek te identificeren door aan zijn voor- en achternaam zijn adres en woonplaats toe te voegen? Licht je antwoord toe.</li>\n<li>Is het gebruik van het leerlingnummer in dit geval de beste keuze? Licht je antwoord toe.</li>\n</ol>\n<p><br/>\n<strong>Opgave 2</strong><br/>\n<br/>\nBedenk nog een voorbeeld van een startdocument voor de casus van de herkansingen.<br/>\n<br/>\n<strong>Opgave 3</strong><br/>\n<br/>\nWie zijn in de casus van de herkansingen de domeindeskundigen?</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596242"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "FCO-IM",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/5f9b8e340409c2ad37393f435b5b7fd1c7c0f894.png\" class=\"height-381-pixels width-223-pixels float-right\"/>Het te maken informatiesysteem voor de herkansingen moet een middel zijn dat de bestaande communicatie tussen schoolleiders, docenten, leerlingen en administratie ondersteunt. Bij het ontwikkelen van ons informatiesysteem gaan we gebruik maken van de methode <strong>FCO-IM</strong>.</p>\n<p>FCO-IM is de afkorting van <strong>F</strong>ully <strong>C</strong>ommunication <strong>O</strong>riented <strong>I</strong>nformation <strong>M</strong>odelling (Volledig Communicatiegeori\u00ebnteerde Informatiemodellering).</p>\n<p>Deze methode gaat ervan uit dat alle relevante informatie in voorbeeldzinnen kan worden geformuleerd. Deze voorbeeldzinnen drukken \u00e9\u00e9n eenduidig feit uit, dat in de te modelleren communicatie van belang is of van belang kan zijn.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596244"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 6",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>De methode FCO-IM borduurt voort op de NIAM-traditie.<br/>\nZoek uit waar NIAM voor staat.<br/>\nMaak daarbij gebruik van Wikipedia.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596246"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "FCO-IM - 2",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/d/d994002d63d77687243958224a93ea6ed42411e5.png\" class=\"height-381-pixels width-223-pixels float-right\"/></p>\n<p>In de overzichtslijst die in de docentenkamer wordt opgehangen, staat informatie die docenten nodig hebben voor het klaarmaken van hun herkansingen. Er valt uit op te maken welke leerling voor welk vak herkanst, in welke klas een leerling zit, maar ook bij welke docent een herkansing gemaakt wordt.<br/>\n<br/>\nDit zijn allemaal <strong>feiten</strong> die van belang zijn voor de communicatie tussen docenten en leerlingen. Leerlingen willen weten voor welk vak zij mogen herkansen en docenten zijn ge\u00efnteresseerd in welke leerlingen voor hun vak een herkansing willen maken. Bij het modelleren in FCO-IM gaat het er om een zo precies mogelijk model van die communicatie (die feiten) te maken.<br/>\n<br/>\nAls eerste stap in de analyse worden de feiten verwoord in Nederlandse zinnen. De verwoording moet gebeuren door de domeindeskundige, omdat hij/zij bekend is met het domein. We bekijken een aantal voorbeeldzinnen:<br/>\n<br/>\n<span>Leerling 86139 heeft naam Jessica Veerman.<br/>\nLeerling 86139 zit in klas 4Hc.<br/>\nLeerling 86139 heeft vak sk van kox.<br/>\nLeerling 86141 heeft naam Rob Jansen.<br/>\nLeerling 86141 zit in klas 4Va.<br/>\nLeerling 86141 heeft vak sp van agu.<br/>\nLeerling 86147 heeft naam Peter Hoekstra.<br/>\nLeerling 86147 zit in klas 4Hb.<br/>\nLeerling 86147 heeft vak ak van bht.</span></p>\n<p>In de voorbeeldzinnen drukt iedere zin \u00e9\u00e9n feit uit. Een zin die een feit uitdrukt, noemen we een <strong>feitexpressie</strong>. De methode FCO-IM eist bij de verwoording van informatie dat iedere feitexpressie (zin) een zo klein mogelijk, zelfstandig stukje informatie moet weergeven. Samengestelde feitexpressies, die een verscheidenheid aan informatie geven, worden daarom gesplitst.</p>\n<p>De volgende feitexpressie is niet elementair:<br/>\n<br/>\n<span>Leerling 86139 zit in klas 4Hc en heeft vak sk van docent kox.</span><br/>\n<br/>\nDeze zin kan zonder verlies van informatie worden gesplitst in <span>Leerling 86139</span> zit in <span>klas 4Hc</span> en <span>Leerling 86139</span> heeft <span>vak sk</span> van <span>docent kox</span>.<br/>\n<br/>\nDeze beide feitexpressies drukken wel een elementair feit uit, omdat ze niet verder kunnen worden gesplitst zonder dat er informatie verloren gaat.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596248"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 7",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><strong>Opgave 1</strong></p>\n<ol type=\"a\">\n<li><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/8b2e8164c1da843a1fb087d279aecbcd30395c8b.png\" class=\"height-381-pixels width-223-pixels float-right\"/>Leg uit wat er onder een feit wordt verstaan.</li>\n<li>Leg uit wat er onder een feitexpressie wordt verstaan.</li>\n</ol>\n<p><br/>\n<strong>Opgave 2</strong></p>\n<p>De leerlingen uit de overzichtslijst die in de docentenkamer is opgehangen, wonen in verschillende plaatsen en op verschillende adressen.<br/>\nHieronder zie je een fragment van de lijst met NAW-gegevens van deze leerlingen:</p>\n<table border=\"1\" cellpadding=\"4\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td><strong>leerlingnummer</strong></td>\n<td><strong>voornaam</strong></td>\n<td><strong>achternaam</strong></td>\n<td><strong>adres</strong></td>\n<td><strong>woonplaats</strong></td>\n</tr>\n<tr>\n<td>86139</td>\n<td>Jessica</td>\n<td>Veerman</td>\n<td>Westerweg 33</td>\n<td>Alkmaar</td>\n</tr>\n<tr>\n<td>86141</td>\n<td>Rob</td>\n<td>Jansen</td>\n<td>Stationsweg 45</td>\n<td>Heiloo</td>\n</tr>\n<tr>\n<td>86147</td>\n<td>Peter</td>\n<td>Hoekstra</td>\n<td>Geest 4</td>\n<td>Alkmaar</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<p>Formuleer de feitexpressies waarin je verwerkt in welke plaats en op welk adres deze leerlingen wonen.</p>\n<p><br/>\n<strong>Opgave 3</strong></p>\n<p>Nadat de herkansingen gemaakt zijn, worden er lijsten opgehangen waarop de cijfers van de gemaakte herkansingen worden vermeld.<br/>\nHieronder zie je een fragment van zo'n lijst:</p>\n<table border=\"1\" cellpadding=\"4\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td><strong>leerlingnummer</strong></td>\n<td><strong>voornaam</strong></td>\n<td><strong>achternaam</strong></td>\n<td><strong>vak</strong></td>\n<td><strong>toetscode</strong></td>\n<td><strong>cijfer</strong></td>\n</tr>\n<tr>\n<td>86139</td>\n<td>Jessica</td>\n<td>Veerman</td>\n<td>sk</td>\n<td>sk_t1</td>\n<td>6,3</td>\n</tr>\n<tr>\n<td>86141</td>\n<td>Rob</td>\n<td>Jansen</td>\n<td>sp</td>\n<td>sp_t2</td>\n<td>5,5</td>\n</tr>\n<tr>\n<td>86147</td>\n<td>Peter</td>\n<td>Hoekstra</td>\n<td>ak</td>\n<td>ak_t1</td>\n<td>6,2</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<ol type=\"a\">\n<li>Formuleer de feitexpressies waarin je verwerkt voor welk vak er een herkansing is.</li>\n<li>Formuleer de feitexpressies waarin je verwerkt welk resultaat een leerling voor een herkansing heeft gehaald.</li>\n</ol>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596250"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 8",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/c/cf3c934b11074ca9d5f27f7d9a739eb77bb32545.png\" class=\"height-381-pixels width-223-pixels float-right\"/>In januari 2017 werd in Heerenveen door koning Willem-Alexander het nieuwe Thialf Stadion geopend. In 2019 worden hier de wereldkampioenschappen sprint verreden. Het wordt de zevende keer dat de snelste schaatsers ter wereld om in wereldtitel strijden in de Friese schaatstempel. Voor dit evenement wil de schaatsbond voor de pers een informatiesysteem ontwikkelen. Van iedere schaatser worden de naam, het geslacht en het land waarvoor de schaatser uitkomt, vastgelegd. Daarnaast heeft iedere schaatser een uniek startnummer.<br/>\n<br/>\nEen schaatser komt uit op \u00e9\u00e9n of meer afstanden (bijvoorbeeld: 500 meter heren, 1000 meter heren, 500 meter dames, 1000 meter dames). Van iedere afstand waaraan een schaatser deelneemt, wordt het persoonlijk record in het systeem opgenomen. Wanneer een schaatser een afstand heeft gereden, dan wordt de gereden tijd en plaats in het klassement vastgelegd.<br/>\n<br/>\nVerwoord de feiten die de schaatsbond vastgelegd wil hebben in het informatiesysteem voor de pers in een aantal representatieve feitexpressies. Zorg ervoor dat je alle soorten feiten hebt verwoord.<br/>\n<br/>\nGebruik als voorbeeld schaatser Kjeld Nuis.</p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596252"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 9",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/0/07690ebc641c17cb27d53d3cbb7988d6e01233ea.png\" class=\"height-381-pixels width-223-pixels float-right\"/>We komen terug op het cd-uitleensysteem van Alan. Hij heeft nog een aantal aanvullende wensen. Sommige cd's worden wel maanden geleend. Hij zou dat toch willen terugbrengen tot maximaal \u00e9\u00e9n week. Daarvoor gaan we een ontwerp maken met behulp van de methode FCO-IM. In het nieuw te ontwerpen systeem moeten de titel van de cd, de naam van de artiest, het soort muziek, de prijs van de cd en alle nummers worden opgenomen. Tevens krijgt iedere cd een uniek administratienummer. Van de vrienden die de cd's willen lenen wordt de naam, het adres, de woonplaats en het telefoonnummer vastgelegd. Je mag er daarbij van uit gaan dat de naam uniek is. Als een cd wordt uitgeleend worden naast de noodzakelijke gegevens van de cd en de lener ook de uitleendatum vastgelegd.<br/>\n<br/>\nVerwoord de feiten die de Alan vastgelegd wil hebben in zijn informatiesysteem in een aantal representatieve feitexpressies. Zorg ervoor dat je alle soorten feiten hebt verwoord.<br/>\n<br/>\nGebruik hier als voorbeeld je eigen persoonsgegevens en de gegevens van een cd die je zelf bezit.<br/>\n </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596254"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 10",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/7/753ee37042ff4b450ad2036e61ce75353de2d950.png\" class=\"height-188-pixels width-223-pixels float-right\"/>We bekijken een wat grotere casus:<br/>\n<br/>\nAutoverhuurbedrijf Auto Maat is een jong bedrijf dat in een paar jaar sterk gegroeid is. Vijf jaar geleden is de eigenaar, dhr. P. Maat, begonnen met \u00e9\u00e9n auto. Op dit moment heeft het bedrijf 20 auto's in de verhuur. De verwachtingen voor de toekomst zijn goed. Voor het komend jaar wordt het wagenpark weer uitgebreid met 5 auto's. Het lijkt verstandig om het informatiesysteem te automatiseren. Daarvoor heeft dhr. P. Maat een automatiseringsbedrijf in de arm genomen. In een eerste gesprek met een informatieanalist van het automatiseringsbedrijf vertelt P. Maat:<br/>\n<br/>\n<em>\"We zijn nog een jong bedrijf, maar we hebben nu al 20 auto's in de verhuur. Onze klanten zijn particulieren, die bijvoorbeeld een auto willen huren voor een vakantie of een busje voor een verhuizing. Maar wij mogen ook een aantal grote bedrijven tot onze klantenkring rekenen. Het komt regelmatig voor dat zij dan een paar auto's nodig hebben. Om aan de wensen van de klanten tegemoet te komen hebben wij verschillende typen auto's in de verhuur. De auto's hebben we verdeeld in 5 categorie\u00ebn: categorie A zijn de kleinere auto's, zoals een Fiat 500. De huurprijs bedraagt \u20ac 30 per dag. Daarbij moet dan nog \u20ac 0,30 per kilometer betaald worden. De borgsom voor deze klasse is \u20ac 100. De middenklassers, zoals een Opel Astra, vallen in categorie B. De huurprijs is \u20ac 35 per dag en een kilometerprijs van \u20ac 0,35. De borgsom is \u20ac 150. In de C-categorie zitten de businesswagens, zoals de Volvo V40 met een huurprijs van \u20ac 40 en een kilometerprijs van \u20ac 0,40. De borgsom is \u20ac 200. Tenslotte hebben nog een aantal busjes, die we met name verhuren voor verhuizingen. Die zitten in categorie D. Een busje kost \u20ac 40 per dag en \u20ac 0,45 per kilometer. De borgsom is \u20ac 175. De gegevens van de auto's heb ik in een kaartenbak zitten. Ik heb daarvan een voorbeeld meegenomen.</em></p>\n<p><br/>\nVoor de klantgegevens heb ik ook een kaartenbak. Daarop staan de naw-gegevens, het telefoonnummer en het klantnummer. Op de kaart wordt bijgehouden welke auto's de klant huurt. De rekeningen worden getypt door onze secretaresse.</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/d/d47bc30d176cc03046b6639d12633ceabd5b8d24.png\" class=\"height-194-pixels width-362-pixels\"/>\n<figcaption>Kaartenbak</figcaption>\n</figure>\n<p><br/>\nOm aan te geven welke auto's gereserveerd of verhuurd zijn maken we gebruik van een planningbord. In de linkerkolom van het bord staan de dagen van de maand en in de eerste rij de kentekens van de auto's geordend per klasse. Op de kaartjes staat de naam van de klant en het klantnummer.\"</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/d/d6817c77ff60f4ffc7981fe6045a948041212701.png\" class=\"height-269-pixels width-594-pixels\"/>\n<figcaption>Klantgegevens</figcaption>\n</figure>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/9/9c7a94172460fc1a0791a8e1f25c654625340d49.png\" class=\"height-211-pixels width-712-pixels\"/>\n<figcaption>Planningbord</figcaption>\n</figure>\n<p><br/>\nDe firma Auto Maat heeft al een bestaand informatiesysteem.<br/>\nBekijk dat systeem eens goed.<br/>\nKomt er redundantie in voor? Zo ja waar?</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596256"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 11",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/6/6f21fa44b88c14aa7ed3be878285fed0eb7976ba.png\" class=\"height-381-pixels width-223-pixels float-right\"/>Verwoord de feiten die de heer P. Maat vastgelegd wil hebben in het nieuwe informatiesysteem voor Auto Maat in een aantal representatieve feitexpressies.<br/>\nZorg ervoor dat je alle <em>soorten</em> feiten hebt verwoord.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "6596258"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "D Classificatie-kwalificatie",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "6596259"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Ordenen",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/2/2fd409d4d5df018e5c3386610ebd5bb829d91392.png\" class=\"height-381-pixels width-223-pixels float-right\"/></p>\n<p>De volgende stap in de analyse is het herkennen van patronen in de verzamelde feitexpressies. De feitexpressies met een overeenkomstig patroon worden ingedeeld in een groep (klasse). Dit wordt <strong>classificeren</strong> genoemd. We kijken nog eens naar de voorbeeldzinnen die gemaakt zijn voor het model van de herkansingen.</p>\n<p><span>Leerling 86139 heeft naam Jessica Veerman.<br/>\nLeerling 86141 heeft naam Rob Jansen.</span><br/>\n<span>Leerling 86147 heeft naam Peter Hoekstra.<br/>\n<br/>\nLeerling 86139 zit in klas 4Hc.<br/>\nLeerling 86141 zit in klas 4Va.<br/>\nLeerling 86147 zit in klas 4Hb.<br/>\n<br/>\nLeerling 86139 heeft vak sk van docent kox.<br/>\nLeerling 86141 heeft vak sp van docent agu.<br/>\nLeerling 86147 heeft vak ak van docent bht.</span></p>\n<p>Alle feitexpressies met hetzelfde patroon zijn al bij elkaar geplaatst. In de lijst zie je drie groepen zinnen (drie klassen). Aan elke groep moet een betekenisvolle naam worden gegeven. Dat zou respectievelijk Leerlingnaam, Leerlingklas en Leerlingdocent kunnen zijn. Het geven van betekenisvolle namen aan zinnen die geclassificeerd zijn, wordt <strong>kwalificeren</strong> genoemd.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596261"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 12",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/85aa1b0e693cf0be8ac7272ea9ca117c5959d19b.PNG\" class=\"height-381-pixels width-223-pixels float-right\"/><strong>Opgave 1</strong></p>\n<ol type=\"a\">\n<li>Wat wordt er verstaan onder classificeren?</li>\n<li>Wat wordt er verstaan onder kwalificeren?</li>\n</ol>\n<p> </p>\n<p><strong>Opgave 2</strong></p>\n<p>Voor het maken van deze opdracht heb je de antwoorden nodig die je hebt gegeven bij aan de slag 7 opgave 2.<br/>\nDaarin wordt gevraagd om de feitexpressies te formuleren waarin de woonplaats en het adres van leerlingen die willen herkansen, wordt verwerkt. Het resultaat is een lijst met feitexpressies die nog geclassificeerd en gekwalificeerd moeten worden.</p>\n<ol type=\"a\">\n<li>Classificeer deze feitexpressies.</li>\n<li>Kwalificeer deze feitexpressies</li>\n</ol>\n<p> </p>\n<p><strong>Opgave 3</strong></p>\n<p>Kijk voor deze opdracht naar je uitwerkingen van aan de slag 7 opgave 3. Daarin wordt gevraagd om de feitexpressies te formuleren waarin verwerkt wordt voor welk vak er een herkansing bestaat en welk resultaat leerlingen voor hun herkansing hebben behaald. Het resultaat is een lijst met feitexpressies die nog geclassificeerd en gekwalificeerd moeten worden.</p>\n<ol type=\"a\">\n<li>Classificeer deze feitexpressies.</li>\n<li>Kwalificeer deze feitexpressies.</li>\n</ol>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596263"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Analyseren",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/d/d09410b88bbc47106fbac18e7aa07daf0656c17e.png\" class=\"height-381-pixels width-223-pixels float-right\"/>Na het classificeren en kwalificeren richten we ons op het analyseren van de structuur van de feitexpressies met een overeenkomstig patroon.<br/>\nWe bekijken de volgende zinnen:<br/>\n<br/>\n<span>Leerling 86147 zit in klas 4Hb.<br/>\nLeerling 86139 zit in klas 4Hc.<br/>\nLeerling 86141 zit in klas 4Va</span>.<br/>\n<br/>\nDeze feitexpressies geven allemaal hetzelfde soort feit weer. Alleen de <strong>objecten</strong> waarop zij betrekking hebben zijn verschillend. We kunnen voor de gelijksoortige informatie een standaardformulering afspreken met invulplaatsen:<br/>\n<br/>\n<span>Leerling ... zit in klas ...</span><br/>\n<br/>\nEen standaardformulering voor gelijksoortige feitexpressies noemen we een <strong>feittype</strong>.</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/c/cf5f486f0e216fdc78cb118756040294a4376ab5.PNG\" class=\"height-159-pixels width-456-pixels\"/></p>\n<p>In de feitexpressie staan twee objecten. Het eerste object, leerling 86139, verwijst naar een leerling van het Enigmacollege. Het tweede object, klas 4Hc, naar een klas van het Enigmacollege. Deze objecten duiden dus een leerling en een klas aan in de re\u00eble wereld.<br/>\nVoor soorten objecten gebruiken we de term <strong>objecttype</strong>, in dit geval het objecttype <span>Leerling</span> en het objecttype <span>Klas</span>.</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/0/07d7a27f2b39fa6a2b9fe16ee618fd9bfd933635.png\" class=\"height-223-pixels width-449-pixels\"/></p>\n<p>Er worden eisen gesteld aan datgene wat er mag staan op de invulplaatsen. Op de eerste invulplaats moet een leerlingnummer van leerlingen uit klas 4 havo of 4 vwo worden ingevuld. Bijvoorbeeld 86141. Daarmee wordt een specifieke leerling aangeduid. Deze aanduiding wordt een <strong>label</strong> genoemd. Op de tweede plaats moet een klascode van een 4 havo of 4 vwo klas worden ingevuld. Bijvoorbeeld <span>4Va</span>.</p>\n<p>Net als bij objecten maken we bij labels een onderscheid in soorten. In dit voorbeeld wordt gebruik gemaakt van 2 soorten labels: <strong>labeltypen</strong>. Een leerling duiden we aan met het labeltype <span>leerlingnummer</span> en een klas met het labeltype <span>klascode</span>.</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/c/c8b0bec3deef1ba455d0a7e802d847aa65c68ee8.png\" class=\"height-232-pixels width-458-pixels\"/></p>\n<p>De schoolleiding wil dat in het te ontwikkelen systeem al vooraf alle klassen kunnen worden ingevoerd. In de door ons ingevoerde feitexpressies bestaat nog geen klas 4Ha. We zouden daarvoor de zin <span>Er is een klas 4Ha</span> kunnen gebruiken.<br/>\n<br/>\nIn de feitexpressie <span>Er is een klas 4Ha</span> wordt het bestaan verondersteld van een object, namelijk van een klas met klascode 4Ha. We noemen een dergelijke feitexpressie een <strong>existentiepostulerende feitexpressie</strong>. (Existentie betekent bestaan. Postuleren betekent zonder bewijs aannemen.)</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596265"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Enkele opmerkingen",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<ul>\n<li><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/a/a0cbede07bde7a210489a9ea452b4dba93787ebb.PNG\" class=\"height-206-pixels width-225-pixels float-right\"/>Wanneer je kijkt naar de lijst van herkansingen, merk je wellicht op dat niet alle informatie uit die lijst is verwoord. De leerling <span>Ellen Reinsma</span> komt in het lijstje van voorbeeldzinnen niet voor. We volstaan met van ieder feittype slechts enkele feiten volledig te verwoorden. Daarbij mag geen enkel feittype worden overgeslagen.</li>\n<br/>\n<li>Bij het kwalificeren worden twee lagen gecre\u00eberd: eerst de objecttypen en daarna de labeltypen. Misschien lijkt je dat overbodig. Toch is dit onderscheid erg belangrijk. Een object kan aangeduid worden met \u00e9\u00e9n naam (label), maar het is ook mogelijk dat daarvoor een combinatie van labels wordt gebruikt. Voor de aanduiding van het objecttype Leerling wordt een leerlingnummer gebruikt omdat de combinatie van voor- en achternaam niet altijd gebruikt kan worden om een leerling te identificeren. De naam <span>Ellen Reinsma</span> kan immers bij meerdere leerlingen horen.</li>\n<br/>\n<li>Voor aantallen, volgnummers etc. geldt dat je die als labeltype kunt modelleren.</li>\n</ul>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596267"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 13",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/821a6c0d493e65bdb11366aed58171409e744e4f.png\" class=\"height-381-pixels width-223-pixels float-right\"/></p>\n<ol type=\"a\">\n<li>Leg uit wat er onder een feittype wordt verstaan.</li>\n<li>Wat is het verschil tussen een objecttype en een labeltype?</li>\n<li>Wanneer wordt er geen objecttype gemodelleerd?</li>\n</ol>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596269"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 14",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/c/c96b3fb206df8ccd78cb683e631da59da8fe90c2.PNG\" class=\"height-235-pixels width-246-pixels float-right\"/>De eerste stap van het classificeren en kwalificeren van de feitexpressies voor het model van de herkansingen leverde een aantal klassen op:</p>\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td><span>Leerling 86139 heeft naam Jessica Veerman.</span></td>\n<td rowspan=\"3\"><span><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/3/3730f059a327b43a1de7ce2990c30fe03a123a7a.png\" class=\"height-75-pixels width-27-pixels\"/></span></td>\n<td rowspan=\"3\"><span>Leerlingnaam</span></td>\n</tr>\n<tr>\n<td><span>Leerling 86141 heeft naam Rob Jansen.</span></td>\n</tr>\n<tr>\n<td><span>Leerling 86147 heeft naam Peter Hoekstra.</span></td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td><span>Leerling 86139 zit in klas 4Hc.</span></td>\n<td rowspan=\"3\"><span><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/3/3730f059a327b43a1de7ce2990c30fe03a123a7a.png\" class=\"height-75-pixels width-27-pixels\"/></span></td>\n<td rowspan=\"3\"><span>Leerlingklas</span></td>\n</tr>\n<tr>\n<td><span>Leerling 86141 zit in klas 4Va.</span></td>\n</tr>\n<tr>\n<td><span>Leerling 86147 zit in klas 4Hb.</span></td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td><span>Leerling 86139 heeft vak sk van docent kox.</span></td>\n<td rowspan=\"3\"><span><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/3/3730f059a327b43a1de7ce2990c30fe03a123a7a.png\" class=\"height-75-pixels width-27-pixels\"/></span></td>\n<td rowspan=\"3\"><span>Leerlingdocent</span></td>\n</tr>\n<tr>\n<td><span>Leerling 86141 heeft vak sp van docent agu.</span></td>\n</tr>\n<tr>\n<td><span>Leerling 86147 heeft vak ak van docent bht.</span></td>\n</tr>\n</tbody>\n</table>\n<p><br/>\nDe volgende stap is het afleiden van de objecttypen, de labeltypen en de feittype-expressies.</p>\n<ol type=\"a\">\n<li>Leid de objecttypen af. Houd er rekening mee, dat je niet altijd een objecttype cre\u00ebert.</li>\n<li>Leid de labeltypen af.</li>\n<li>Leid de feittype-expressies af.</li>\n</ol>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596271"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 15",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/11783f791a330011a09bebb8d5e664f9f8cf6108.png\" class=\"height-381-pixels width-223-pixels float-right\"/><strong>Opgave 1</strong></p>\n<p>Bekijk de feitexpressies die je in aan de slag 11 en aan de slag 12 hebt geclassificeerd en gekwalificeerd.<br/>\nOm het model te complementeren moet je hiervan de objecttypen, de labeltypen en feittype-expressies afleiden.</p>\n<ol type=\"a\">\n<li>Leid de objecttypen af.</li>\n<li>Leid de labeltypen af.</li>\n<li>Leid de feittype-expressies af.</li>\n</ol>\n<p> </p>\n<p><strong>Opgave 2</strong></p>\n<p>We gaan verder met het informatiesysteem voor de schaatspers.<br/>\nKijk nog eens kritisch naar alle feitexpressies.<br/>\nJe moet alle soorten feiten hebben verwoord.<br/>\nDe volgende stap is de classificatie en kwalificatie:</p>\n<ol type=\"a\">\n<li>Classificeer en kwalificeer de feitexpressies.</li>\n<li>Leid de objecttypen, labeltypen en feittype-expressies af.</li>\n</ol>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596273"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 16",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/7/7269088392ffc672e16e891253e3982f87c6938a.png\" class=\"height-381-pixels width-223-pixels float-right\"/><strong>Opgave 1</strong></p>\n<p>Samen met Alan zijn de feiten uit zijn cd-uitleensysteem verwoord.<br/>\nJij moet nu feitexpressies gaan classificeren en kwalificeren.</p>\n<ol type=\"a\">\n<li>Classificeer en kwalificeer de feitexpressies.</li>\n<li>Leid de objecttypen, labeltypen en feittype-expressies af.</li>\n</ol>\n<p> </p>\n<p><strong>Opgave 2</strong></p>\n<p>In overleg met de heer P. Maat en de baliemedewerkers zijn de feiten verwoord:</p>\n<ol type=\"a\">\n<li>Classificeer en kwalificeer de feitexpressies.</li>\n<li>Leid de objecttypen, labeltypen en feittype-expressies af.</li>\n</ol>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "6596275"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "E CaseTalk",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "6596276"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Nieuw project",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Voor het visualiseren van een datamodel met daarin de relaties tussen de verschillende typen maken we gebruik van een casetool.<br/>\nCase staat voor <strong>C</strong>omputer <strong>A</strong>ided <strong>S</strong>oftware engineering.<br/>\nIn ons geval gaat het om speciale software waarmee nadat het datamodel is gemaakt ook de databasestructuur gegenereerd kan worden. De casetool waarvoor wij hebben gekozen, heet CaseTalk.</p>\n<p>Wanneer je CaseTalk opstart, open je een nieuw project door in het openingsscherm te kiezen voor File \u2192 New \u2192 Project</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/4/46408ba79b50d615aacbaa6c6f13958c11eaa9bb.png\" class=\"height-92-pixels width-482-pixels\"/>\n<figcaption>CaseTalk</figcaption>\n</figure>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/a/abe49f59c2555f502fd46624a7161b02e26d4abe.png\" class=\"height-119-pixels width-396-pixels\"/>\n<figcaption>Nieuw project</figcaption>\n</figure>\n<p><br/>\nEr worden nu twee vensters geopend met verschillende titels:</p>\n<ul>\n<li>Een venster met de titel Project - New Project</li>\n<li>Een venster met de titel Repository - New IG</li>\n</ul>\n<table border=\"0\" cellpadding=\"5\" cellspacing=\"0\" class=\"width-0-pixels\">\n<tbody>\n<tr>\n<td><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/4/4d93bb6237f3010f867c00c985498424b8a4590f.png\" class=\"height-218-pixels width-321-pixels\"/></td>\n<td><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/9/9481fc4a60ff307614b85b880858a52a8b8277a8.png\" class=\"height-217-pixels width-377-pixels\"/></td>\n</tr>\n<tr>\n<td colspan=\"2\">Project en Repository</td>\n</tr>\n</tbody>\n</table>\n<p><br/>\nIn de werkbalk van het venster met de titel project staat een knop met de letter i:</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/b/b7e20109e930af2f2c3d45b52afa12579f44a8f2.png\" class=\"height-187-pixels width-479-pixels\"/>\n<figcaption>Werkbalk</figcaption>\n</figure>\n<p><br/>\nAls je hierop klikt, wordt er een nieuw venster geopend waar extra informatie over het project kan worden ingevuld.<br/>\nBijvoorbeeld de naam van het project en wie het project gemaakt heeft.<br/>\n<br/>\nTot slot moeten we het project opslaan. CaseTalk maakt voor elk project meerdere bestanden aan. Het is daarom raadzaam om elk nieuw project op te slaan in een aparte map. Voor dit project gebruiken we een map \"herkansingen\". Om een project te kunnen opslaan, moet het dialoogvenster met de titel Project actief zijn. Je kunt een venster actief maken door op de titelbalk van het venster te klikken.</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/2/22d35e4a9ba549dc69c10551cb7bdc7a541bb892.png\" class=\"height-205-pixels width-508-pixels\"/>\n<figcaption>Project opslaan</figcaption>\n</figure>\n<p><br/>\nVoor het opslaan van een project kies je in de menubalk voor File \u2192 Save Project As. Daarna geef je altijd de plek aan waar je het project wilt bewaren en voorzie je het project van een passende naam. In dit voorbeeld slaan we het project op in de map herkansingen en geven we het project de naam herkansingen.</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/f/f54b8e44bfaf88c00abd09fd976627dff62101aa.png\" class=\"height-159-pixels width-475-pixels\"/>\n<figcaption>Project opslaan</figcaption>\n</figure>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596278"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 17",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/e/e777340dccd2717d0517296245364416ccd48159.PNG\" class=\"height-244-pixels width-233-pixels float-right\"/>Maak nu op de plek waar je altijd je bestanden opslaat een map herkansingen aan.<br/>\nSla het project op in de map herkansingen en geef het project de naam herkansingen.<br/>\n<br/>\nVoor het opslaan van een project moet het dialoogvenster met de titel Project actief zijn.<br/>\nKies in het venster met de titel CaseTalk voor Save Project As \u2026</p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596280"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 18",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/7/77d641ad3f39e5679a63df356391a257fcca289a.png\" class=\"height-381-pixels width-223-pixels float-right\"/>Klik in het venster met de naam project in de werkbalk op de knop met de letter i: <img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/d/d103eee292b3501adc9ee512fc9999b5a975514c.png\" class=\"height-28-pixels width-28-pixels\"/><br/>\nWe gaan in het venster met de File Properties aanvullende informatie over het project invullen.</p>\n<p>In het tekstvak achter Name vullen we \"herkansingen\" in. Achter Author vermeld je je eigen naam. Bij Description komt te staan: \"Informatiesysteem voor herkansingen van het Enigmacollege\".</p>\n<p>Klik op <strong>OK</strong> als je alles hebt ingevuld.</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/178d94aa62297e65f4cffcb5264b8866a050bf8e.png\" class=\"height-307-pixels width-421-pixels\"/></figure>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596282"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Invoeren feitexpressies",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/d/dbe0e15b37c77d57873e0d8366a39b51c1aae9e0.PNG\" class=\"height-381-pixels width-223-pixels float-right\"/>Nadat we een nieuw project herkansingen hebben aangemaakt, is de volgende stap het invoeren van feitexpressies. Dat doen we als eerste met de feitexpressie: leerling 86139 woont in Alkmaar. Voor het invoeren van feitexpressies gebruiken we het venster met de titel Repository. Daarachter staat, dat wil zeggen als je het project onder de juiste naam hebt opgeslagen, herkansingen.ig.</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/e/e2a16b7b72c5c461854ee1cd8c862f3bba8b2829.PNG\" class=\"height-66-pixels width-208-pixels\"/></p>\n<p>De eerste knop in de werkbalk gebruiken we voor het invoeren van nieuwe feitexpressies:</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/4/48c931959fdd42e7a1943127ece07285933cb9ab.PNG\" class=\"height-42-pixels width-39-pixels\"/></p>\n<p>Voor het invoeren van nieuwe feitexpressies kan ook de functietoets F6 worden gebruikt.</p>\n<p>In het venster dat we gebruiken voor het invoeren van de feitexpressies vullen we de zin \"<span>leerling 86139 woont in plaats Alkmaar in</span>\".<br/>\nOp de plek van de spaties verschijnen puntjes.</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/3/3f101deb8832e9ab1ec8961add02a8bc74c2d58b.PNG\" class=\"height-293-pixels width-408-pixels\"/>\n<figcaption>Invoeren feitexpressie</figcaption>\n</figure>\n<p><br/>\nNa het invoeren van de zin \"<span>leerling 83139 woont in plaats Alkmaar</span>\" geven we het feittype een naam. We kiezen als naam <span>Leerlingwoonplaats</span>. Het feittype zegt immers iets over de woonplaats van een leerling. We vullen de naam van het feittype links onder in het invoerveld <strong>Object / Fact type name</strong> in. Daarna klikken we op de knop <strong>Qualify</strong>. De naam van het feittype wordt vastgelegd en de zin wordt gecentreerd.</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/3/37ba1df7025d42e92397033ab350c729e61ece47.PNG\" class=\"height-446-pixels width-532-pixels\"/>\n<figcaption>Feittype</figcaption>\n</figure>\n<p><br/>\nOm een objecttype aan te geven, selecteren we nu <span>leerling 86139</span> .<br/>\nDaarna vullen we in het invoerveld <strong>Object / Fact type name</strong> als naam <span>Leerling</span> in.</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/3/3569569a65824aacea5684356dd1c75ec54f7b03.PNG\" class=\"height-300-pixels width-418-pixels\"/>\n<figcaption>Objecttype</figcaption>\n</figure>\n<p><br/>\nDaarna klikken we op de knop <strong>Qualify</strong>.<br/>\nIn de feitexpressie wordt <span>leerling 86139</span> vervangen door <span>Leerling</span>.</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/585b8a41d38056ca94c221b537b3241431dbe812.PNG\" class=\"height-369-pixels width-513-pixels\"/>\n<figcaption>Qualify</figcaption>\n</figure>\n<p><br/>\nWe hebben nu een objecttype <span>Leerling</span> aangemaakt.<br/>\nIn de feitexpressie selecteren we nu <span>plaats Alkmaar</span> .<br/>\nIn het invoerveld <strong>Object / Fact type</strong> name vullen we <span>Plaats</span> in.<br/>\nDaarna klikken we op <strong>Qualify</strong>.</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/e/ea7da6aaec219ebbe3472406783f2024fa3bed66.PNG\" class=\"height-319-pixels width-445-pixels\"/>\n<figcaption>Plaats Alkmaar</figcaption>\n</figure>\n<p><br/>\nDe objecttypen <span>Leerling</span> en <span>Plaats</span> zijn nu vastgelegd.<br/>\nIn de volgende stap gaan we de labeltypen aangeven.<br/>\nDat doen we door op de knop <strong>Next</strong> te klikken.<br/>\nWe selecteren <span>86139</span> en geven het labeltype als naam <span>leerlingnummer</span>.</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/c/c871cc3c5d9a0c4c2a519fc21264ae377804bafa.PNG\" class=\"height-338-pixels width-469-pixels\"/>\n<figcaption>Labeltypen</figcaption>\n</figure>\n<p><br/>\nDaarna klikken we op <strong>Qualify</strong>.<br/>\nIn het object wordt <span>86139</span> vervangen door <span>leerlingnummer</span>.</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/5e8a37157b073406d562085175781f673c70a09d.PNG\" class=\"height-361-pixels width-504-pixels\"/>\n<figcaption>Leerlingnummer</figcaption>\n</figure>\n<p><br/>\nWellicht is het je opgevallen dat de namen van een objecttype met een hoofdletter beginnen.<br/>\nDe namen labeltypen beginnen met een kleine letter.<br/>\n<br/>\nWe klikken nu op <strong>Next</strong>. Het label <span>86139</span> wordt in een wit veld geplaatst.<br/>\nDaar hoeft niets meer mee te gebeuren. We klikken nogmaals op <strong>Next</strong>.<br/>\n<br/>\nVoor <span>Alkmaar</span> herhalen we dezelfde stappen.<br/>\nWe selecteren <span>Alkmaar</span> en vullen als labeltype <span>plaatsnaam</span> in.</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/1d21562e2364bb3ad8fe61e5454d0e52a5102fca.PNG\" class=\"height-355-pixels width-493-pixels\"/>\n<figcaption>Plaatsnaam</figcaption>\n</figure>\n<p><br/>\nWe klikken nu op <strong>Qualify</strong>.<br/>\nDaarna klikken we een paar keer op <strong>Next</strong> totdat het onderstaande scherm verschijnt.</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/5841e8d3847e88779a7bd5d458a8f6ed1a30969e.PNG\" class=\"height-289-pixels width-468-pixels\"/>\n<figcaption>Finish</figcaption>\n</figure>\n<p><br/>\nDoor op de knop <strong>Finish</strong> te klikken, geven we aan dat de classificatie en kwalificatie goed zijn.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596284"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 19",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/867b3bba21f3e302d4ed12e54e493e29a7139c02.PNG\" class=\"height-381-pixels width-223-pixels float-right\"/>Open in CaseTalk het model herkansingen.<br/>\nIn deze aan de slag opdracht ga je zelf alle beschreven stappen voor het invoeren van een feitexpressie doorlopen.<br/>\nAls je dit al tijdens het lezen van het lesmateriaal hebt gedaan, hoef je deze opgave niet meer te maken.</p>\n<ol>\n<li>Voer als nieuwe feitexpressie de zin \"<span>leerling 86139 woont in plaats Alkmaar in</span>\".</li>\n<li>Geef het feittype de naam <span>Leerlingwoonplaats</span>.</li>\n<li>Maak van <span>leerling 86139</span> het objecttype <span>Leerling</span> en van <span>plaats Alkmaar</span> het objecttype <span>Plaats</span>.</li>\n<li>Geef de labeltypen aan. Het objecttype <span>Leerling</span> krijgt het labeltype <span>leerlingnummer</span>. Het objecttype <span>plaats</span> krijgt het labeltype <span>plaatsnaam</span>.</li>\n</ol>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596286"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 20",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Dezelfde soort zinnen kwalificeren, gaat sneller omdat het casetool het feittype herkent.<br/>\nHet model herkansingen is in CaseTalk geopend.</p>\n<ol>\n<li>Klik in het venster <strong>Repository</strong> op de knop <strong>New Expression</strong> of druk op <strong>F6</strong>.</li>\n<li>Type in het invoerveld <span>leerling 86141 woont in plaats Heiloo</span>\".</li>\n<li>De naam van de feitexpressie staat in de lijst bij <strong>Object / Fact type name</strong>. Selecteer <span>Leerlingwoonplaats</span>.</li>\n</ol>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/6/6f787ffbca1881be367a62f7bc03c57f6efe7779.PNG\" class=\"height-340-pixels width-541-pixels\"/>\n<figcaption>Leerlingwoonplaats</figcaption>\n</figure>\n<p> </p>\n<ol start=\"4\">\n<li>Klik op <strong>Qualify</strong>. Het casetool herkent de structuur.</li>\n<li>Klik op <strong>Match</strong>. De feitexpressie wordt op dezelfde manier uitgewerkt</li>\n<li>Klik op <strong>Finish</strong>.</li>\n<li>Herhaal bovenstaande procedure voor de expressie: <span>leerling 86147 woont in plaats Alkmaar</span></li>\n</ol>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596288"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 21",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/0/0b3dd3816a48aba91bb9fb4a850cfca07837f21e.PNG\" class=\"height-226-pixels width-209-pixels float-right\"/>Het model herkansingen is in CaseTalk geopend.<br/>\n<br/>\nKwalificeer de onderstaande zinnen met behulp van het casetool:<br/>\n<br/>\n<span>Leerling 86139 heeft naam Jessica Veerman.<br/>\nLeerling 86141 heeft naam Rob Jansen.<br/>\nLeerling 86147 heeft naam Peter Hoekstra.<br/>\n<br/>\nLeerling 86139 zit in klas 4Hc.<br/>\nLeerling 86141 zit in klas 4Va.<br/>\nLeerling 86147 zit in klas 4Hb.<br/>\n<br/>\nLeerling 86139 heeft vak sk van docent kox.<br/>\nLeerling 86141 heeft vak sp van docent agu.<br/>\nLeerling 86147 heeft vak ak van docent bht.</span></p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596290"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Existentiepostulerende feitexpressies",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/3/3db1348773c0f53d7596feac2a0911e2a98a8c54.PNG\" class=\"height-381-pixels width-223-pixels float-right\"/>De volgende feitexpressie die we gaan classificeren en kwalificeren is het existentiepostulerende feittype: <span>er is een klas 4Ha</span>.<br/>\n<br/>\nIn CaseTalk hebben we het model herkansingen geopend. We gaan nu een nieuwe feitexpressie invoeren. Namelijk de zin \"er is een klas 4Ha\". We moeten nu een naam geven aan deze feitexpressie. Die naam is gelijk aan die van het object, namelijk Klas. Daarmee maken we van deze feitexpressie een object. Het omzetten van een (existentiepostulerende) feitexpressie naar een object heet <strong>nominalisatie</strong>.</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/b/b1850bb19837f45cae8610621556887f0b9243c0.PNG\" class=\"height-322-pixels width-515-pixels\"/>\n<figcaption>Nominalisatie</figcaption>\n</figure>\n<p><br/>\nWe selecteren de naam Klas en klikken daarna op <strong>Qualify</strong>. Bij de volgende stap geven we onmiddellijk het labeltype aan. We selecteren 4Ha en kiezen uit de lijst <strong>Object / Fact type</strong> name <span>klascode</span>.</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/b/b0140f72881b9dc01f9782afdc7aa3fba00f5658.PNG\" class=\"height-323-pixels width-519-pixels\"/>\n<figcaption>Klascode</figcaption>\n</figure>\n<p><br/>\nAls we nu op <strong>Qualify</strong> klikken, verschijnt er een venster waarin gevraagd wordt of de huidige expressie dezelfde rol heeft als de al eerder ingevoerde expressies. In de volgende paragraaf leggen we uit wat rollen zijn. Nu klikken we op <strong>Accept</strong> en vervolgens op <strong>Next</strong> en <strong>Finish</strong>.</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/d/d5db2ea7ec432f471654adfff52d44b2b6c0ed25.PNG\" class=\"height-306-pixels width-431-pixels\"/>\n<figcaption>Nominalisatie</figcaption>\n</figure>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596292"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 22",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/d/dae801d20d8b9cf410f916eba0e309e8a0ba8914.PNG\" class=\"height-381-pixels width-223-pixels float-right\"/><strong>Opgave 1</strong></p>\n<p>Het model herkansingen is in CaseTalk geopend.<br/>\n<br/>\nDe schoolleiding wil dat in het systeem alle vierde klassen van tevoren worden ingevoerd. Dus niet alleen 4Ha, maar ook de andere havo klassen 4Hb, 4Hc en de enige vwo klas, namelijk 4Va. Kwalificeer onderstaande zinnen met behulp van het casetool:</p>\n<p><span>er is een klas 4Hb<br/>\ner is een klas 4Hc<br/>\ner is een klas 4Va</span></p>\n<p> </p>\n<p><strong>Opgave 2</strong></p>\n<p>Wat wordt verstaan onder nominalisatie?</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596294"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "IG-venster",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>In CaseTalk kunnen we het resultaat van de ingevoerde feitexpressies bekijken in het IG-venster. Het informatiegrammaticavenster. In dit venster vind je de feittypen, de objecttypen en de labeltypen terug die we benoemd hebben.</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/f/f04cb9c7b1060d5cc1663efc6c2a30122e0d6fab.PNG\" class=\"height-229-pixels width-468-pixels\"/>\n<figcaption>Informatiegrammaticavenster</figcaption>\n</figure>\n<p><br/>\nIn het overzicht staan aan de linkerkant alle feittypen, objecttypen en labeltypen die we in het model van de herkansingen hebben ingevoerd. Rechts kunnen we de details van een feittype, objecttype of labeltype bekijken. Dat kan door een ingevoerd type te selecteren. Bijvoorbeeld het feittype <span>Leerlingwoonplaats</span>.</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/c/c9aa7115b02eaf5bc7683f32d4c872aa3dc42981.PNG\" class=\"height-324-pixels width-459-pixels\"/>\n<figcaption>Ingevoerd type selecteren</figcaption>\n</figure>\n<p><br/>\nAls je met de rechtermuisknop op een van de expressies klikt, roep je een menu op waarmee je bij Tasks een expressie onder andere kunt wijzigen, verwijderen of hernoemen.</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/0/0155e282cc2fc17527b37ac314af6090b6d33390.PNG\" class=\"height-162-pixels width-427-pixels\"/>\n<figcaption>Tasks</figcaption>\n</figure>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596296"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 23",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/0/0da5c8cc639ae5c667399c5b75288f3de9a2a357.PNG\" class=\"height-142-pixels width-226-pixels float-right\"/>Bekijk de details van het feittype <span>Leerlingwoonplaats</span>.<br/>\n<br/>\nWe hebben tot nu toe feittypen gezien met \u00e9\u00e9n invulplaats <span>(er is een klas ...)</span> en met twee invulplaatsen <span>(leerling ... zit in klas ...)</span><br/>\nDe invulplaatsen noemen we rollen.<br/>\nEr zijn dus feittypen met \u00e9\u00e9n rol. We spreken in dit geval van een <strong>unair</strong> feittype.<br/>\nWanneer een feittype twee rollen heeft, is het een <strong>binair</strong> feittype.<br/>\nEr bestaan ook feittypen met drie rollen. We spreken dan van een <strong>ternair</strong> feittype.</p>\n<p>Een voorbeeld hiervan is het feittype <span>Leerlingvakdocent</span> met drie invulplaatsen <span>(Leerling ... heeft vak ... van docent ...)</span></p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "6596298"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "F Het IGD ",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "6596299"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Een IGD maken",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/d/d1e3d019afe6c110bbf67801dd109932bc15f229.png\" class=\"height-381-pixels width-223-pixels float-right\"/>Bij het modelleren van het informatiesysteem voor de herkansingen heb je kunnen zien dat je snel te maken hebt met een groot aantal feittypen. Ook al hebben we met een relatief eenvoudig systeem te maken. In de praktijk kan het aantal feittypen in de honderden lopen. Je raakt dan al snel het overzicht kwijt. Daarom gebruiken informatieanalisten diagrammen om feittypen, objecttypen en labeltypen en hun onderlinge samenhang weer te geven.<br/>\n<br/>\nCaseTalk biedt de mogelijkheid om diagrammen te maken. Een dergelijk diagram wordt een <strong>informatiegrammaticadiagram</strong> (IGD) genoemd. In een IGD wordt het datamodel bestaande uit feittypen, objecttypen en labeltypen getekend. We bekijken als voorbeeld de opbouw van het feittype <span>Leerlingwoonplaats</span>.</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/9/9aa8e63b608d0e2cf5ecc7e1e0c6f491b839f534.png\" class=\"height-238-pixels width-425-pixels\"/>\n<figcaption>Informatiegrammaticadiagram</figcaption>\n</figure>\n<p><br/>\nHet feittype <span>Leerlingwoonplaats</span> heeft 2 rollen (1 en 2). De eerste rol wordt gespeeld door het objecttype <span>Leerling</span>, de tweede rol door het objecttype <span>Plaats</span>. Dit wordt aangegeven door de verbindingslijnen. De labeltypen zijn weer door een verbindingslijn verbonden met de objecttypen.</p>\n<p>Om een IGD te maken, moet er een IGD-venster worden geopend.<br/>\nDat kan door in het venster van CaseTalk te klikken op de knop <strong>Add a new diagram.</strong></p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/3/3459f3e32261cbf7d2394772cac78d7f3682bf9c.png\" class=\"height-77-pixels width-469-pixels\"/>\n<figcaption>Add a new diagram</figcaption>\n</figure>\n<p><br/>\nAls eerste slaan we nu het diagram op. Het IGD krijgt als naam herkansingen en wordt op dezelfde plek opgeslagen waar ook het project en het ig-bestand voor het model van de herkansingen terug te vinden is.<br/>\n<br/>\nWe selecteren nu alle benodigde onderdelen uit het IG-venster. Dit kan met je muis in het overzicht te gaan staan.<br/>\nKlik daarna op Ctrl + a.<br/>\n<br/>\nDaarna slepen we de geselecteerde onderdelen uit het IG-venster naar het IGD-venster. Het casetool bouwt het diagram automatisch op.</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/b/bd28a7a45241f281d5df188090197f823fdbc7cc.png\" class=\"height-332-pixels width-271-pixels\"/>\n<figcaption>Diagram IGD-venster</figcaption>\n</figure>\n<p><br/>\nHieronder volgen enkele tips voor de opmaak van het IGD:</p>\n<ul>\n<li>Je kunt de elementen (feittypen, objecttypen en labeltypen) aanklikken en verslepen om het IGD duidelijker en overzichtelijker te maken.</li>\n<li>Wanneer je op een lijn klikt, verschijnt er een klein vlakje op. Hiermee kun je de lijn indien nodig om een element leiden. Door op het vlakje rechts te klikken, krijg je een menu waarin er onder andere gekozen kan worden voor het weer recht maken van de verbindingslijn.</li>\n<li>Je kunt de rollen van een feittype in een diagram wisselen. Klik met de <strong>Ctrl</strong>-toets ingedrukt op een rol om deze te selecteren. (de rol wordt groen). Houd vervolgens de <strong>Alt</strong>-toets ingedrukt en versleep de rol naar de plaats ernaast.</li>\n<li>Wanneer je met de rechtermuisknop in het venster klikt, krijg je een snelmenu. Daarmee kun je de afbeelding centreren, afdrukken, tekst toevoegen etc.</li>\n</ul>\n<p>Laten we nog eens de belangrijkste grafische symbolen die gebruikt worden in IGD's op een rijtje zetten. We doen dat aan de hand van de al eerder besproken feittypen.</p>\n<hr/>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/b/b60309906896403966e89a1680814a15ddaa57de.png\" class=\"height-33-pixels width-67-pixels\"/></p>\n<p>Een enkele rechthoek wordt gebruikt bij feittypen met \u00e9\u00e9n rol (unair feittype), zoals bij de zin \"Er is een klas 4Ha\". De rollen worden genummerd, zodat ze te verbinden zijn met de feittype-expressie.</p>\n<hr/>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/3/31193371f4567b1da5102985bd516fedb08dc736.png\" class=\"height-33-pixels width-133-pixels\"/></p>\n<p>Twee of meer aaneengesloten rechthoeken geven een feittype met twee of meer rollen aan (binair, ternair feitype). Iedere rechthoek stelt \u00e9\u00e9n rol voor.</p>\n<hr/>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/b/b3ff0f1c263003f3ca825adbec7cf447fd1d9d5c.png\" class=\"height-68-pixels width-177-pixels\"/></p>\n<p>Een gestippelde cirkel geeft een labeltype aan.</p>\n<hr/>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/c/cdefc780c1994729b7a811eb2ba95619428fd954.PNG\" class=\"height-132-pixels width-94-pixels\"/></p>\n<p>Een gesloten cirkel om een feittype geeft een objecttype aan.</p>\n<hr/>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/5e0ad3ab7141b1227960951c730e2bc86fd35718.png\" class=\"height-124-pixels width-237-pixels\"/></p>\n<p>Een verbindingslijn tussen een rol en een objecttype geeft aan dat de rol gespeeld wordt door het objecttype.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596301"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 24",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/f/ff869f49294feda2ee1b1d7ef4e3450d65b77a6e.png\" class=\"height-381-pixels width-223-pixels float-right\"/>Welk voordeel biedt het werken met diagrammen?</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/7/71164eb06b68b66c40fe019c7bfa28f388601bd8.png\" class=\"height-304-pixels width-527-pixels\"/></figure>\n<p> </p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596303"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 25",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<ol type=\"a\">\n<li><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/b/b8ad67dda8deec13987f3c503ab61aa48891bbab.png\" class=\"height-245-pixels width-195-pixels float-right\"/>Open in CaseTalk het project herkansingen en maak het IGD voor het informatiesysteem voor de herkansingen van het Enigmacollege.<br/>\nVoeg alle feittypen, objecttypen en labeltypen toe aan het diagram.</li>\n<li>Open het project <span>info_wk</span>.<br/>\nMaak het IGD dat hoort bij het informatiesysteem voor de pers.</li>\n<li>Open het project <span>leen_cd</span>.<br/>\nMaak het IGD dat hoort bij het informatiesysteem voor het cd-uitleensysteem.</li>\n<li>Open het project <span>automaat</span>.<br/>\nMaak voor het informatiesysteem voor de firma Auto Maat een IGD.</li>\n</ol>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596305"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 26",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/7/793869cfa5ab277b85b568ea34dacc788407ef3f.png\" class=\"height-381-pixels width-223-pixels float-right\"/>Alan komt met een nieuw idee.<br/>\nHet lijkt hem wel aardig als van ieder nummer de componist en het jaar dat het nummer is geschreven wordt vastgelegd.<br/>\nVolgens hem is dat maar een kleine wijziging in het ontwerp.</p>\n<ol type=\"a\">\n<li>Ben jij dat met hem eens? Houd daarbij rekening dat een nummer op verschillende cd's kan voorkomen.</li>\n<li>Wat moet er aan het huidige ontwerp aangepast worden?</li>\n</ol>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "6596307"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "G Beperkingsregels",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "6596308"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 27",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/f/f2f18ab8235455583fcec6180e0fd699bc1cfee3.png\" class=\"height-381-pixels width-223-pixels float-right\"/>De volgende stap in de analyse is het leggen van beperkingen op de rollen.<br/>\nNiet alles mag worden ingevuld.<br/>\nKijk maar eens naar de volgende voorbeelden:<br/>\n<br/>\n<span>Leerling 86139 woont in plaats Alkmaar.<br/>\nLeerling 86139 woont in plaats Heiloo.</span><br/>\n<br/>\nEen leerling woont in twee verschillende plaatsen. Dat kan niet.<br/>\n<br/>\n<span>Er is een klas 4Ha.<br/>\nEr is een klas 4Ha.</span><br/>\n<br/>\nEen klascode komt twee keer voor. Er is hier sprake van <strong>redundantie.</strong><br/>\n<br/>\n<span>Leerling 86141 heeft vak sp van docent agu.<br/>\nLeerling 86141 heeft vak sp van docent bht.</span><br/>\n<br/>\nOok dit mag niet. Een leerling volgt in ons model een vak bij \u00e9\u00e9n docent en niet bij meerdere docenten.</p>\n<p>Al deze gevallen zijn niet gewenst en moeten verboden worden. Dat kan met de zogenaamde beperkingsregels (in het Engels: <strong>constraints</strong>). De beperkingen worden in het IGD aangegeven. In deze paragraaf bespreken we drie soorten beperkingen:</p>\n<ul>\n<li>de waardenbeperking (<strong>V</strong>alue <strong>C</strong>onstraint)</li>\n<li>de uniciteitsbeperking (<strong>U</strong>nicity <strong>C</strong>onstraint)</li>\n<li>de totaliteitsbeperking (<strong>T</strong>otality <strong>C</strong>onstraint)</li>\n</ul>\n<p> </p>\n<p>Waarom moeten er constraints worden aangegeven in een IGD?</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596310"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "VC",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/4/477011e44bd0eb9db6f49c8c5fd305a9373349ce.png\" class=\"height-381-pixels width-223-pixels float-right\"/>Een value constraint, afgekort VC, is een waardenbeperking die wordt opgelegd aan een labeltype.<br/>\n<br/>\nIn principe kan iedere waarde worden ingevuld onder de rol die door een labeltype wordt gespeeld. Soms is het noodzakelijk het aantal mogelijke labels te beperken. Bij een labeltype maandcode kan de afspraak zijn dat alleen de waarden <span>jan, feb, mrt, apr, mei, jun, jul, aug, sep, okt, nov en dec</span> gebruikt mogen worden.<br/>\n<br/>\nStel dat op het Enigmacollege leerlingen uit de bovenbouw van havo en vwo alleen voor de b\u00e8tavakken zouden mogen herkansen. In dat geval zou voor het labeltype vakcode alleen de waarden <span>wi, na, sk, bi</span> en <span>in</span> mogen worden toegestaan. We gaan die waardenbeperkingen aanbrengen in ons model.</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/4/413d7ff6c7f05a7e0d9d1f9c3c83c52a76330a90.png\" class=\"height-188-pixels width-568-pixels\"/>\n<figcaption>Waardenbeperkingen</figcaption>\n</figure>\n<p> </p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596312"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 28",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/8c87047819a4c42aca2737c56e8ba8476a5da668.png\" class=\"height-189-pixels width-223-pixels float-right\"/>Het model herkansingen is in CaseTalk geopend.</p>\n<ol type=\"a\">\n<li>Klik in het IGD van het model herkansingen op het labeltype vakcode. Het labeltype is blauw geworden. Daarmee wordt aangegeven dat het labeltype is geselecteerd.\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/f/f0e53cbfbb5fa1a2721041aada633998d5276eb1.png\" class=\"height-233-pixels width-157-pixels\"/>\n<figcaption>Blauw labeltype</figcaption>\n</figure>\n<br/></li>\n<li>Klik nu in de werkbalk van het IGD op de knop met het opschrift <sup>x</sup>{}. Deze optie is alleen actief als er in het IGD een labeltype is geselecteerd.\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/c/c5376d3d8a411ce06d8621b41a9e3af211bff112.png\" class=\"height-71-pixels width-607-pixels\"/>\n<figcaption>IGD-optie</figcaption>\n</figure>\n<br/></li>\n<li>Er wordt een nieuw venster geopend waarin de waardenbeperkingen kunnen worden aangegeven.\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/c/c1ca422949d041fccd79cee8667dbc9bfc620970.png\" class=\"height-264-pixels width-323-pixels\"/>\n<figcaption>Aangeven waardebeperkingen</figcaption>\n</figure>\n</li>\n</ol>\n<p> </p>\n<ol start=\"4\" type=\"a\">\n<li>Typ in het tekstveld achter Values de waarden <span>wi</span>, <span>na</span>, <span>sk</span>, <span>bi</span> en <span>in</span> onder elkaar in.<br/>\nKlik daarna op OK. In het IGD wordt nu een waardenbeperking voor het labeltype vakcode aangegeven.\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/6/684d1850e283e35132b916e074041d554470579f.png\" class=\"height-304-pixels width-247-pixels\"/>\n<figcaption>Waardebeperking vakcode</figcaption>\n</figure>\n<br/></li>\n<li>Aangezien het onwaarschijnlijk is dat leerlingen alleen voor b\u00e8tavakken mogen herkansen, verwijderen we deze waardenbeperking weer. Klik met de rechtermuisknop op het labeltype <span>vakcode</span>. Er verschijnt een snelmenu.\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/3/39d4b4a65edf36b3e626c30bb2a0d22304cd2f50.png\" class=\"height-272-pixels width-443-pixels\"/>\n<figcaption>Verwijderen waardenbeperking</figcaption>\n</figure>\n</li>\n</ol>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596314"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 29",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/3/3a36da635f590968b7bcc00c8d0f5d73ff3e470a.png\" class=\"height-381-pixels width-223-pixels float-right\"/>De eerste beperkingsregel die wordt besproken is de waardenbeperking.</p>\n<ol type=\"a\">\n<li>Waaraan wordt een waardenbeperking opgelegd?</li>\n<li>Waarom worden er waardenbeperkingen opgelegd?</li>\n</ol>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596316"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "UC",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/8bf738885a870afc87717c9f24dc8e22ca5a9d70.png\" class=\"height-210-pixels width-223-pixels float-right\"/>Een unicity constraint, afgekort UC, is een uniciteitsbeperking. Met deze beperking wordt aangegeven dat een gegeven of een combinatie van gegevens slechts eenmaal mag voorkomen in alle zinnen van een feittype.<br/>\n<br/>\nWe bekijken een paar zinnen:<br/>\n<br/>\n<span>Leerling 86139 zit in klas 4Hc.<br/>\nLeerling 86137 zit in klas 4Hc.</span><br/>\n<br/>\nUit deze beide zinnen valt op te maken dat het mogelijk is dat er meer dan \u00e9\u00e9n leerling in een bepaalde klas zit. Dat is vanzelfsprekend. Het gegeven 4Hc mag meerdere keren voorkomen in dit feittype.<br/>\n<br/>\nIn de volgende twee zinnen ligt het anders:<br/>\n<br/>\n<span>Leerling 86139 zit in klas 4Hc.<br/>\nLeerling 86139 zit in klas 4Vb.</span></p>\n<p><br/>\nIn de expressie wordt beweerd dat een bepaalde leerling in twee verschillende klassen zit. Het te maken systeem moet dat verbieden. Het gegeven 86139 mag maar \u00e9\u00e9n keer voorkomen in dit feittype. Daarom moet er over de rol die de leerling speelt een uniciteitsbeperking worden gelegd. Dit wordt in het IGD weergegeven door een dubbele pijl over de betreffende rol.</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/9/95ff8fa8a462a37ffc0dc05663c66962318682dc.PNG\" class=\"height-151-pixels width-387-pixels\"/></p>\n<p>Dus een uniciteitsbeperking op rol 10:</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/d/d0e40f9ccfeab472e0aef735777f38f62fc8c5e0.PNG\" class=\"height-118-pixels width-158-pixels\"/></p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596318"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 30",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Het model herkansingen is in CaseTalk geopend.<br/>\nIn het IGD gaan we een uniciteitsbeperking aanbrengen over de rol met de leerlingnummers in het feittype <span>Leerlingklas</span>.</p>\n<ol type=\"a\">\n<li>Klik met de CTRL-toets ingedrukt op de rol(len) waarover de uniciteitsbeperking wordt gelegd.<br/>\nDeze rol wordt groen.\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/9/94522a5d61a53f23fbc9af24bf3b8c53364eb3fa.png\" class=\"height-104-pixels width-180-pixels\"/>\n<figcaption>CRTL-Toets</figcaption>\n</figure>\n<p> </p>\n</li>\n<li>Nu aangegeven is over welke rol we een uniciteitsbeperkingen willen aanbrengen, kunnen we in de werkbalk van het IGD op de knop voor een uniciteitsbeperking klikken.\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/c/cd2915e69fe20ef223bc0d5b4d0636fbd1aa93cf.png\" class=\"height-62-pixels width-585-pixels\"/>\n<figcaption>Uniciteitsbeperking</figcaption>\n</figure>\n<br/>\nKlik op deze knop. In het IGD is nu een dubbele pijl boven rol 9 te zien. In je eigen uitwerking kan deze rol overigens ook een ander nummer hebben. De nummers zeggen alleen iets over de volgorde waarin in het IGD feittypen en objecttypen en dus de rollen zijn aangemaakt.\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/c/cce98514b4f05f301a4507109f262a310f8412de.png\" class=\"height-138-pixels width-241-pixels\"/>\n<figcaption>Dubbele pijl</figcaption>\n</figure>\n</li>\n</ol>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596320"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 31",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/1310c4e3fe78a6c953b9ce8e037f22ee66fc3ace.PNG\" class=\"height-216-pixels width-224-pixels float-right\"/><strong>Opgave 1</strong></p>\n<p>Elk feittype heeft tenminste \u00e9\u00e9n uniciteitsbeperking.</p>\n<ol type=\"a\">\n<li>Wat houdt een uniciteitsbeperking in?</li>\n<li>Waarom moet ieder feittype tenminste \u00e9\u00e9n uniciteitsbeperking hebben?</li>\n<li>Waarover wordt de uniciteitsbeperking gelegd?</li>\n</ol>\n<p> </p>\n<p><strong>Opgave 2</strong></p>\n<p>Het model herkansingen is in CaseTalk geopend.<br/>\nBreng in het IGD uniciteitsbeperkingen aan over de rollen in de objecttypen Leerling en Klas.</p>\n<p> </p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/5b0bde10a2477999160bac2d63c6cfec9c395917.png\" class=\"height-200-pixels width-341-pixels\"/></figure>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596322"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "UC - 2",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/6/60311ae51ecbb49e937d870b320cada779686353.png\" class=\"height-381-pixels width-223-pixels float-right\"/>Het feittype <span>leerling \u2026</span> heeft <span>vak \u2026</span> van <span>docent \u2026</span> heeft drie rollen. Een ternair feittype moet een uniciteitsbeperking hebben die over twee of drie rollen ligt. Om deze te bepalen bekijken we weer een aantal voorbeeldzinnen:<br/>\n<br/>\n<span>Leerling 86139 heeft vak sk van docent kox.<br/>\nLeerling 86139 heeft vak sk van docent lts.</span><br/>\n<br/>\nEen leerling heeft voor een vak maar \u00e9\u00e9n docent. De combinatie van leerlingnummer en vakcode mag maar \u00e9\u00e9n keer voorkomen in dit feittype. Daarom moet er over beide rollen een uniciteitsbeperking worden gelegd.<br/>\n<br/>\nBekijk nu de zinnen:<br/>\n<br/>\n<span>Leerling 86139 heeft vak sk van docent kox.<br/>\nLeerling 86139 heeft vak na van docent kox.</span><br/>\n<br/>\nDe combinatie van <span>leerlingnummer</span> en <span>docentcode</span> komt meerdere keren voor in dit feittype. Deze combinatie is dus niet uniek en er komt geen uniciteitsbeperking op te liggen. Een docent kan immers aan dezelfde leerling meerdere vakken geven.</p>\n<p>Het is natuurlijk wel mogelijk dat twee leerlingen dezelfde docent hebben en hetzelfde vak volgen:<br/>\n<br/>\n<span>Leerling 86139 heeft vak sk van docent kox.<br/>\nLeerling 86141 heeft vak sk van docent kox.</span></p>\n<p>Over de rollen <span>vakcode</span> en <span>docentcode</span> ligt dan ook geen uniciteitsbeperking.</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/6/6194ad050426e7965d7b27d7bb5901e4d38e7524.png\" class=\"height-125-pixels width-644-pixels\"/></p>\n<p>Dus een uniciteitsbeperking op de rollen 12 en 13:</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/c/cd99b85f13703a6b904733904108e4948d5b1874.png\" class=\"height-132-pixels width-266-pixels\"/>\n<figcaption>Uniciteitsbeperking</figcaption>\n</figure>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596324"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "TC",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Een totality constraint, afgekort TC, is een totaliteitsbeperking. Een van de eisen voor het model van de herkansingen is, dat van iedere leerling onder andere de woonplaats moet worden vastgelegd.</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/b/be69bceb5a2a6b44fbe168ab4f6ddb9b3ed8910a.PNG\" class=\"height-315-pixels width-596-pixels\"/>\n<figcaption>Leerlingwoonplaats</figcaption>\n</figure>\n<p><br/>\nDeze eis houdt in dat <em>alle</em> leerlingen (de totale populatie onder rol 3 van het feittype Leerling) ook moeten voorkomen onder rol 1 van het feittype Leerlingwoonplaats. Een dergelijke eis wordt een <strong>totaliteitsbeperking</strong> genoemd. Deze beperking geeft aan dat een gegeven of een combinatie van gegevens tenminste eenmaal moet voorkomen in de zinnen van het betreffende feittype.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596326"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 32",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/e/ef08c4d0d5a523198145c90ba5f6ed36c9f85a84.PNG\" class=\"height-213-pixels width-200-pixels float-right\"/>Het model herkansingen is in CaseTalk geopend. In het IGD gaan we een totaliteitsbeperking aanbrengen over rol 1 in het feittype Leerlingwoonplaats.</p>\n<ol type=\"a\">\n<li>Klik met de Ctrl-toets ingedrukt op de rol(len) waarover de totaliteitsbeperking wordt gelegd.</li>\n<li>Nu aangegeven is over welke rol we een totaliteitsbeperking willen aanbrengen, kunnen we in de werkbalk van het IGD op de knop voor een totaliteitsbeperking klikken.</li>\n</ol>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/10ce3e7ac5cceba749ef0bb8353a6e98cb5f15fd.PNG\" class=\"height-64-pixels width-557-pixels\"/>\n<figcaption>Totaliteitsbeperking</figcaption>\n</figure>\n<p> </p>\n<p>Klik op deze knop. In het IGD is nu een punt bij het objecttype Leerling te zien.</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/b/bf081aba11e75b4a5cb7392493faefeb31f76547.PNG\" class=\"height-278-pixels width-491-pixels\"/></figure>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596328"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 33",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<ol type=\"a\">\n<li>Wat houdt een totaliteitsbeperking in?\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/6/62597e38d1d4dca744ef46128da4e94afad6d561.PNG\" class=\"height-253-pixels width-455-pixels\"/>\n<figcaption>Totaliteitsbeperking</figcaption>\n</figure>\n</li>\n<li>In het bovenstaande IGD ligt er een uniciteit- en een totaliteitsbeperking over rol 1.<br/>\nLeg aan de hand van dit IGD uit wat het inhoudt als beide beperkingen over een rol liggen.</li>\n</ol>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596330"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 34",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><strong>Opgave 1</strong></p>\n<ol type=\"a\">\n<li><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/a/a6ea08fe3bbaa8a75f855e69c1739d9d9083f2bc.PNG\" class=\"height-381-pixels width-223-pixels float-right\"/>Bepaal de beperkingsregels voor het informatiesysteem voor de herkansingen.</li>\n<li>Teken de beperkingsregels in het IGD.</li>\n</ol>\n<p> </p>\n<p><strong>Opgave 2</strong></p>\n<ol type=\"a\">\n<li>Bepaal de beperkingsregels voor het informatiesysteem voor de pers.</li>\n<li>Teken de beperkingsregels in het IGD.</li>\n</ol>\n<p> </p>\n<p><strong>Opgave 3</strong></p>\n<ol type=\"a\">\n<li>Bepaal de beperkingsregels voor het informatiesysteem voor het cd-uitleensysteem.</li>\n<li>Teken de beperkingsregels in het IGD.</li>\n</ol>\n<p> </p>\n<p><strong>Opgave 4</strong></p>\n<ol type=\"a\">\n<li>Bepaal de beperkingsregels voor het informatiesysteem voor de firma Auto Maat.</li>\n<li>Teken de beperkingsregels in het IGD.</li>\n</ol>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "6596332"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "H IGD Omzetten",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "6596333"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Controle",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/e/eb55f7f30aa20be5d846fb779ea1b3e2d027ecc1.PNG\" class=\"height-216-pixels width-199-pixels float-right\"/>Nu we de beperkingregels in het IGD hebben aangebracht, is het model klaar. Wanneer dit op de juiste manier is gebeurd, bevat het IGD alleen elementaire feittypen. We spreken dan ook over een elementair IGD. De laatste hindernis die we moeten nemen, is dat we uit het model dat nu voor ons ligt een ontwerp voor een relationele database moeten maken. Het casetool zal daarbij voor ons een groot deel van het werk uit handen nemen.<br/>\n<br/>\nAls eerste moet gecontroleerd worden of het model correct is. Deze controle kan met behulp van CaseTalk worden uitgevoerd.<br/>\n </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596335"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 35",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<ol type=\"a\">\n<li>Het model herkansingen is in CaseTalk geopend.<br/>\nKlik in het menu op <strong>Run</strong> en vervolgens op <strong>Integrity Check</strong>.\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/2/239f9503b77195d769d89942bf3d85030fc46ce8.PNG\" class=\"height-269-pixels width-653-pixels\"/></figure>\n<br/>\nCaseTalk controleert nu het model op fouten.<br/>\nIn het model van de herkansingen worden geen fouten gevonden.\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/2/28ab2690ac8b628daa8753a6703ba5b0d4a772a9.PNG\" class=\"height-251-pixels width-430-pixels\"/></figure>\n</li>\n</ol>\n<ol start=\"2\" type=\"a\">\n<li>Behalve op fouten kunnen we het model ook controleren op eventuele waarschuwingen.<br/>\nKlik in het menu op <strong>Run</strong> en klik vervolgens op <strong>Verify well-formednes.</strong><br/>\n<br/>\nIn het overzicht verschijnen 16 waarschuwingen.<br/>\n<br/>\nIn ons model betreft het waarschuwingen zoals: The polulation of Docent might not be verbalizable en The population of Vak might not be verbalizable. Deze waarschuwingen kun je negeren.<br/>\n<br/>\nVerder verschijnen er meldingen over het ontbreken van datatypen bij de labeltypen achternaam, cijfer, docentcode, huisnummer, klascode, leerlingnummer, plaatsnaam, straatnaam, toetscode, vakcode en voornaam.<br/>\n<br/>\nHet datatype kunnen we later ook in de relationele database zelf aangeven.<br/>\nOok deze waarschuwingen mag je negeren.</li>\n</ol>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/3/370a2d5a8e7649f450b11beb5e8e0460f4f546dd.PNG\" class=\"height-327-pixels width-566-pixels\"/></figure>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596337"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "GLR-algoritme",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Na het controleren op fouten wordt het elementair IGD omgezet naar een ontwerp voor een relationele database. Dit gebeurt in drie stappen: het groeperen, het lexicaliseren, het reduceren. Deze stappen vormen samen het GLR-algoritme.<br/>\n<br/>\nBekijk nog eens het IGD van het model van herkansingen waarin we alle beperkingen hebben aangebracht:</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/e/ef93fbb66b2f8d340a26da3b647d66b9b64edcf9.png\" class=\"height-700-pixels width-690-pixels\"/>\n<figcaption>IGD herkansingen</figcaption>\n</figure>\n<p><br/>\nIn het IGD staan een aantal feittypen, waarin je meerdere tabellen bestaande uit \u00e9\u00e9n, twee of drie kolommen kunt herkennen. Er zijn veel tabellen en een aantal kolommen kunnen makkelijk samengevoegd worden zonder dat er redundantie optreedt. Dit wordt <strong>groeperen</strong> genoemd.</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/9/9e2e378e19bf35f615f60870fb2126f913f5a03d.png\" class=\"height-488-pixels width-529-pixels\"/>\n<figcaption>Groeperen</figcaption>\n</figure>\n<p><br/>\nDe feittypen Leerlingklas, Leerlingadres, Leerlingwoonplaats en Leerlingnaam kunnen worden samengevoegd. Elke leerling komt \u00e9\u00e9n keer voor in Leerlingklas: op de rol van Leerling ligt namelijk een uniciteits- en totaliteitsbeperking. Hetzelfde geldt voor de feittypen Leerlingadres, Leerlingwoonplaats en Leerlingnaam. Het resultaat zal een niet-elementair feittype zijn, waarbij echter geen redundantie optreedt.<br/>\n<br/>\nOm het model om te kunnen zetten naar een relationele database moeten de rollen gespeeld worden door een labeltype. Bijna alle rollen worden gespeeld door objecttypen.<br/>\n<br/>\nBij de tweede stap, het <strong>lexicaliseren</strong>, worden de feittypen zo aangepast dat alle rollen worden gespeeld door labeltypen.<br/>\nTijdens de laatste stap, het <strong>reduceren</strong>, worden eventueel overbodige feittypen alsnog geschrapt.<br/>\n<br/>\nHet GLR-algoritme wordt gestart door in het menu onder <strong>Run</strong> op <strong>Transform \u2026 (GLR)</strong> te klikken.</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/2/25c8e86e2b341780595d0d96067935e7bf0b5238.png\" class=\"height-128-pixels width-660-pixels\"/>\n<figcaption>GLR-algoritme starten</figcaption>\n</figure>\n<p><br/>\nEr verschijnt een venster waarin gemeld wordt dat het IGD niet door alle testen heen gekomen is. Dat zijn de 16 waarschuwingen waar al eerder over is gesproken.</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/142c18172c23b25e2d4dd23cb0117732633e18de.png\" class=\"height-147-pixels width-330-pixels\"/>\n<figcaption>16 waarschuwingen</figcaption>\n</figure>\n<p><br/>\nWe negeren in dit voorbeeld de waarschuwingen en gaan door met het uitvoeren van het GLR-algoritme. Er verschijnt nu een melding dat het programma het oorspronkelijke model wil opslaan voordat het GLR-algoritme zal worden uitgevoerd.</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/5064578d3714cab67ec6afa5f7a595a54aa5894c.png\" class=\"height-206-pixels width-296-pixels\"/>\n<figcaption>Origineel opslaan</figcaption>\n</figure>\n<p><br/>\nNa het klikken op de OK-knop wordt het GLR-algoritme uitgevoerd. CaseTalk stelt voor om het nieuwe bestand (herkansingen_GLR) op te slaan.</p>\n<p>Het nieuwe IGD-venster met daarin het gegroepeerde model ziet er nogal rommelig uit. Dat komt doordat de rollen verplaatst zijn. Door wat heen en weer te slepen, maak je het model weer overzichtelijk.</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/e/ee8d522cfa8b9fa7181ebfa4696c044897b59f76.png\" class=\"height-409-pixels width-607-pixels\"/>\n<figcaption>Origineel opslaan</figcaption>\n</figure>\n<p><br/>\nIn het nieuwe IGD zijn onder de feittypen Leerling, Leerlingvakdocent, Toets, Resultaat en Klas de tabellen makkelijk te herkennen.<br/>\nHet kan voorkomen dat er bij een rol de letters <strong>OP</strong> staan. Dit is een afkorting van optioneel en geeft aan dat er null-waarden mogen voorkomen. Null-waarden kunnen in een elementair feittype niet voorkomen. Zij ontstaan pas na het groeperen.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596339"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 36",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/7/73e8e8bc9e176c75e1b38b4dddec166b0f70d469.png\" class=\"height-381-pixels width-223-pixels float-right\"/>Het elementair IGD wordt omgezet naar een ontwerp voor een relationele database met behulp van het GLR-algoritme.</p>\n<ol type=\"a\">\n<li>Uit welke drie stappen bestaat dit algoritme?</li>\n<li>Leg uit wat er in elk van die drie stappen gebeurt.</li>\n<li>Voer het GLR-algoritme uit op het model van de herkansingen.</li>\n</ol>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596341"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Exporteren",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/597843eac16e873facf32130013b6c6a7f1a8683.PNG\" class=\"height-381-pixels width-223-pixels float-right\"/>Op basis van het nieuwe IGD kun je nu een relationele database maken in bijvoorbeeld MS-Access of een ander relationeel database management systeem. Het casetool kan ook zelf de tabellen genereren.</p>\n<p><br/>\n </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596343"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 37",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/8ee7cbd66cb357f32aa64a9569d2d0ca3a78e10b.PNG\" class=\"height-152-pixels width-193-pixels float-right\"/>Het model herkansingen is in CaseTalk geopend en het GLR-algoritme is uitgevoerd op het model van de herkansingen.</p>\n<ol type=\"a\">\n<li>Klik in het menu op <strong>Run</strong> en klik vervolgens op <strong>Generate Model \u2026</strong>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/0/096afae888e2d4313c3b14f0333087805f162a1f.PNG\" class=\"height-300-pixels width-370-pixels\"/>\n<figcaption>Model genereren</figcaption>\n</figure>\n</li>\n<li>Er verschijnt een venster waarin je kunt kiezen uit een aantal systemen waarvoor je tabellen kan ontwerpen. Om de tabellen voor Access te maken, selecteer je MS-Access 8.0 Visual Basic code generator.\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/1c253f682d97ecefdc790a90b4083e645bf743c7.PNG\" class=\"height-307-pixels width-296-pixels\"/>\n<figcaption>Systemen</figcaption>\n</figure>\n</li>\n<li>Klik daarna op de knop Invoke. Het onderstaande scherm verschijnt.\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/0/0d9cf545d0f88169b261146e6099b6b5a7e5c4cf.PNG\" class=\"height-323-pixels width-466-pixels\"/>\n<figcaption>Invoke</figcaption>\n</figure>\n</li>\n<li>Klik nu op OK. De casetool maakt nu een bestand aan met de extensie .BAS. Sla het bestand in dezelfde map op waar ook de andere bestanden van het model herkansingen staan.</li>\n</ol>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596345"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Access 2016",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/16afbc31854b354b64a07e154647d8180470e48b.png\" class=\"height-381-pixels width-223-pixels float-right\"/>Tot slot gaan we de relationele database aanmaken in Access.<br/>\n </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596347"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 38",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<ol type=\"a\">\n<li>Start Access op, open een lege database ( <strong>Bestand \u2192 Nieuw \u2192 Lege Database</strong>) en sla de database op onder de naam herkansingen.</li>\n<li>Klik op het tabblad Maken rechts op Module, meteen naast Macro.\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/9/9f665bbc29e4bf9181958d401f710daae82d1bf5.PNG\" class=\"height-126-pixels width-643-pixels\"/>\n<figcaption>Maken</figcaption>\n</figure>\n<br/></li>\n<li>Kies in het menu <strong>Invoegen</strong> voor de optie <strong>Bestand</strong>.\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/d/d8dee1e381e02a973273b71f08d9fd2de9f44898.PNG\" class=\"height-163-pixels width-248-pixels\"/>\n<figcaption>Invoegen</figcaption>\n</figure>\n<br/></li>\n<li>\n<p>Geef als bestandstype Basic-bestanden aan (rechts onderin).</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/8ef5712e1366b783897470bcd80d8e832a4891da.PNG\" class=\"height-112-pixels width-223-pixels\"/>\n<figcaption>Invoegen</figcaption>\n</figure>\n<br/></li>\n<li>Kies in het menu <strong>Extra</strong> voor <strong>Verwijzingen.</strong>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/f/f0ee45cc050b64093b4a7116ae8f345e42c3510e.PNG\" class=\"height-103-pixels width-251-pixels\"/>\n<figcaption>Verwijzingen</figcaption>\n</figure>\n<br/>\n<p>Haal een vinkje weg bij <strong>Microsoft Office 16.0 Access Database engine Object Library</strong>.</p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/2/24e18d41ce6b95bbf9a31f5c4ad88525132e4340.PNG\" class=\"height-241-pixels width-303-pixels\"/>\n<figcaption>Vinkje weghalen</figcaption>\n</figure>\n<br/>\nPlaats een vinkje bij <strong>Microsoft DAO 3.6 Object Library</strong>, een stuk lager in de lijst.\n<p> </p>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/2/29ea6c74a0c20336c7a7b8bb0b2105d9506883f5.PNG\" class=\"height-87-pixels width-299-pixels\"/>\n<figcaption>Vinkje plaatsen</figcaption>\n</figure>\n<br/>\nKlik op <strong>OK</strong></li>\n<li>Klik in het Modulevenster in het rechter invulvak op <strong>FCO_CreateDatabase.</strong>\n<figure class=\"image\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/6/6658d8a20eec34c6da97fa3bf40a17fa537215ab.PNG\" class=\"height-101-pixels width-592-pixels\"/>\n<figcaption>Create Database</figcaption>\n</figure>\n<br/></li>\n<li>\n<p>Kies in het menu <strong>Uitvoeren</strong> voor de optie <strong>Sub/Userform uitvoeren.</strong> De database wordt aangemaakt. Als je in het menu <strong>Hulpmiddelen voor databases</strong> klikt op <strong>Relaties</strong>, dan kun je zien dat ook de relaties tussen de tabellen aangebracht zijn. De database is klaar om gebruikt te gaan worden.</p>\n</li>\n</ol>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596349"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Aan de slag 39",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<ol>\n<li><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/c/c442e8bf24c16e67a35929bfeb53f92a45fbfd98.png\" class=\"height-381-pixels width-223-pixels float-right\"/>Zet het elementair model van het informatiesysteem voor de pers om in een relationele database.</li>\n<li>Zet het elementair model van het cd-uitleensysteem om in een relationele database.</li>\n<li>Zet het elementair model van het informatiesysteem voor de firma Auto Maat om in een relationele database.</li>\n</ol>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6596351"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Toets 1",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/13d64a0f46d3c911a5ab9cecb3c6ff836a64452d.png\" class=\"height-250-pixels width-250-pixels float-right\"/>In de volgende toets wordt getoetst wat je inmiddels zou moeten weten over het onderwerp Informatiemodellering.<br/>\n<br/>\nMaak de toets.</p>\n<table border=\"0\" cellpadding=\"5\">\n<tbody>\n<tr>\n<td><a href=\"http://vo-content.azurewebsites.net/informatica-voortgang/exercise/48054/if-informatiemodellering-oef-1\" onclick=\"window.open(this.href, '', 'resizable=no,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=no,dependent=no,width=1000,height=600'); return false;\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/7/7362ba59d9162f5f0e6713de57cf917713872547.png\" class=\"height-26-pixels width-134-pixels\"/></a></td>\n<td>Informatiemodellering</td>\n</tr>\n</tbody>\n</table>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "6596353"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Voortgang",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/4/4435ff470ef4e67e6cb1192d899accef00c23445.png\" class=\"height-223-pixels width-223-pixels float-right\"/>Bekijk hier je voortgang</p>\n<table cellpadding=\"5\">\n<tbody>\n<tr>\n<td><a href=\"https://vo-content.azurewebsites.net/informatica-voortgang/SetProgress/9?httproute=True\" onclick=\"window.open(this.href, '', 'resizable=no,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=no,dependent=no,width=1000,height=600'); return false;\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/9/923dd9254334b8ef02a235e1a4ae0fe71f96618d.png\" class=\"height-26-pixels width-94-pixels\"/></a></td>\n<td>Keuzedeel</td>\n</tr>\n</tbody>\n</table>\n<br/>\n<br/>\nDocent kan klassen aanmaken en leerlingen volgen<br/>\nEen docent kan op de profielpagina klassen aanmaken. Als een docent dat gedaan heeft, kunnen de leerlignen zich aan de klas koppelen. Als de leerlingen dat gedaan hebben, kan de docent de voortgang van de leerlingen volgen.<br/>\n<br/>\n>> <a href=\"https://vo-content.azurewebsites.net/User\" target=\"_blank\">&#13; <span class=\"underline\"/> &#13;</a>"
+                }
+            ],
+            "sections": []
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": null,
+            "dimension": null,
+            "suppressTitle": null
+        },
+        "color": "#333333"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "A Inleiding",
+                "reference": {
+                    "value": "6596213"
+                },
+                "sections": [
+                    {
+                        "title": "Vooraf",
+                        "reference": {
+                            "value": "6596214"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Leerdoelen",
+                        "reference": {
+                            "value": "6596216"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Bijlagen",
+                        "reference": {
+                            "value": "6596218"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Zo werkt het",
+                        "reference": {
+                            "value": "6596220"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "B Informatiesystemen",
+                "reference": {
+                    "value": "6596222"
+                },
+                "sections": [
+                    {
+                        "title": "Informatiesystemen",
+                        "reference": {
+                            "value": "6596223"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 1",
+                        "reference": {
+                            "value": "6596225"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Waarom modelleren?",
+                        "reference": {
+                            "value": "6596227"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 2",
+                        "reference": {
+                            "value": "6596229"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 3",
+                        "reference": {
+                            "value": "6596231"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "C Herkansingen",
+                "reference": {
+                    "value": "6596233"
+                },
+                "sections": [
+                    {
+                        "title": "Enigmacollege",
+                        "reference": {
+                            "value": "6596234"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "De deskundigen",
+                        "reference": {
+                            "value": "6596236"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 4",
+                        "reference": {
+                            "value": "6596238"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 5",
+                        "reference": {
+                            "value": "6596240"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "FCO-IM",
+                        "reference": {
+                            "value": "6596242"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 6",
+                        "reference": {
+                            "value": "6596244"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "FCO-IM - 2",
+                        "reference": {
+                            "value": "6596246"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 7",
+                        "reference": {
+                            "value": "6596248"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 8",
+                        "reference": {
+                            "value": "6596250"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 9",
+                        "reference": {
+                            "value": "6596252"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 10",
+                        "reference": {
+                            "value": "6596254"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 11",
+                        "reference": {
+                            "value": "6596256"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "D Classificatie-kwalificatie",
+                "reference": {
+                    "value": "6596258"
+                },
+                "sections": [
+                    {
+                        "title": "Ordenen",
+                        "reference": {
+                            "value": "6596259"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 12",
+                        "reference": {
+                            "value": "6596261"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Analyseren",
+                        "reference": {
+                            "value": "6596263"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Enkele opmerkingen",
+                        "reference": {
+                            "value": "6596265"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 13",
+                        "reference": {
+                            "value": "6596267"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 14",
+                        "reference": {
+                            "value": "6596269"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 15",
+                        "reference": {
+                            "value": "6596271"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 16",
+                        "reference": {
+                            "value": "6596273"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "E CaseTalk",
+                "reference": {
+                    "value": "6596275"
+                },
+                "sections": [
+                    {
+                        "title": "Nieuw project",
+                        "reference": {
+                            "value": "6596276"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 17",
+                        "reference": {
+                            "value": "6596278"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 18",
+                        "reference": {
+                            "value": "6596280"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Invoeren feitexpressies",
+                        "reference": {
+                            "value": "6596282"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 19",
+                        "reference": {
+                            "value": "6596284"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 20",
+                        "reference": {
+                            "value": "6596286"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 21",
+                        "reference": {
+                            "value": "6596288"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Existentiepostulerende feitexpressies",
+                        "reference": {
+                            "value": "6596290"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 22",
+                        "reference": {
+                            "value": "6596292"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "IG-venster",
+                        "reference": {
+                            "value": "6596294"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 23",
+                        "reference": {
+                            "value": "6596296"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "F Het IGD ",
+                "reference": {
+                    "value": "6596298"
+                },
+                "sections": [
+                    {
+                        "title": "Een IGD maken",
+                        "reference": {
+                            "value": "6596299"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 24",
+                        "reference": {
+                            "value": "6596301"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 25",
+                        "reference": {
+                            "value": "6596303"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 26",
+                        "reference": {
+                            "value": "6596305"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "G Beperkingsregels",
+                "reference": {
+                    "value": "6596307"
+                },
+                "sections": [
+                    {
+                        "title": "\u2605 Aan de slag 27",
+                        "reference": {
+                            "value": "6596308"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "VC",
+                        "reference": {
+                            "value": "6596310"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 28",
+                        "reference": {
+                            "value": "6596312"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 29",
+                        "reference": {
+                            "value": "6596314"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "UC",
+                        "reference": {
+                            "value": "6596316"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 30",
+                        "reference": {
+                            "value": "6596318"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 31",
+                        "reference": {
+                            "value": "6596320"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "UC - 2",
+                        "reference": {
+                            "value": "6596322"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "TC",
+                        "reference": {
+                            "value": "6596324"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 32",
+                        "reference": {
+                            "value": "6596326"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 33",
+                        "reference": {
+                            "value": "6596328"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 34",
+                        "reference": {
+                            "value": "6596330"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "H IGD Omzetten",
+                "reference": {
+                    "value": "6596332"
+                },
+                "sections": [
+                    {
+                        "title": "Controle",
+                        "reference": {
+                            "value": "6596333"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 35",
+                        "reference": {
+                            "value": "6596335"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "GLR-algoritme",
+                        "reference": {
+                            "value": "6596337"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 36",
+                        "reference": {
+                            "value": "6596339"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Exporteren",
+                        "reference": {
+                            "value": "6596341"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 37",
+                        "reference": {
+                            "value": "6596343"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Access 2016",
+                        "reference": {
+                            "value": "6596345"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 38",
+                        "reference": {
+                            "value": "6596347"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Aan de slag 39",
+                        "reference": {
+                            "value": "6596349"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Toets 1",
+                        "reference": {
+                            "value": "6596351"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Voortgang",
+                "reference": {
+                    "value": "6596353"
+                },
+                "sections": []
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": null,
+        "imageSrc": null,
+        "sources": [],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            },
+            {
+                "key": "learningTime",
+                "label": "Studiebelasting",
+                "terms": [
+                    "4 uur en 0 minuten"
+                ]
+            },
+            {
+                "key": "keywords",
+                "label": "Trefwoorden",
+                "terms": [
+                    "arrangeerbaar",
+                    "leerlijn",
+                    "rearrangeerbare"
+                ]
+            }
+        ],
+        "usedLearningResources": [
+            {
+                "author": {
+                    "fullName": null,
+                    "referenceName": "Leermateriaal, StudioVO",
+                    "reference": {
+                        "value": "5487"
+                    },
+                    "firstName": "StudioVO",
+                    "infix": null,
+                    "lastName": "Leermateriaal",
+                    "emailAddress": "info@studiovo.nl",
+                    "type": "author"
+                },
+                "title": "Informatiemodellering",
+                "url": "https://maken.wikiwijs.nl/125516/",
+                "datePublished": "2019-07-09T08:05:46+02:00"
+            }
+        ]
+    }
+}

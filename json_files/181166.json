@@ -1,0 +1,916 @@
+{
+    "documentAuthors": [
+        "Victoria \u00c1vila"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Victoria \u00c1vila",
+            "referenceName": null,
+            "reference": {
+                "value": "160264"
+            },
+            "firstName": "Victoria",
+            "infix": null,
+            "lastName": "\u00c1vila",
+            "emailAddress": "mvictoria.avila@gmail.com",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2021-11-07T12:41:33Z",
+    "bulkId": "bulk-17041658-refresh_all",
+    "identifier": 181166,
+    "title": "Werkblad 1b Je eigen griezelig liedje (Nieuw)",
+    "description": "Inleiding tot Sonic Pi 2",
+    "lastModifiedDate": "2021-11-07T12:41:33+01:00",
+    "dateCreated": "2021-10-25T13:21:48+02:00",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "\u00c1vila, Victoria",
+                "reference": {
+                    "value": "160264"
+                },
+                "firstName": "Victoria",
+                "infix": null,
+                "lastName": "\u00c1vila",
+                "emailAddress": "mvictoria.avila@gmail.com",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-40",
+            "name": "CC Naamsvermelding 4.0 Internationale licentie",
+            "description": "De Internationale Creative Commons 4.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/4.0/.",
+            "link": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/181166/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "6889601"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Intro",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<hr/>\n<p><img alt=\"sonic pi logo\" src=\"https://maken.wikiwijs.nl/userfiles/b/b9a1c49abf661a4d93c96d142c9d3c60e3c9e7b0.png\" class=\"height-205-pixels width-250-pixels float-left\"/></p>\n<div>Aan het einde van de les ben je in staat van een bekend kinderliedje een griezelig liedje te maken.</div>\n<div><br/>\nDat doe je door in Sonic Pi de klank en de snelheid van het liedje te veranderen en ook door effecten toe te voegen.</div>\n<div> </div>\n<div>Volg de hoofdstukken links in het menu.</div>\n<div> </div>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "6889603"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Weet je het nog?",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p><span style=\"font-size: larger\">Deze noten klinken tegelijk:</span></p>\n<div class=\"code\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/d/d861bd173604fcb1bb218c34a26232c9c2593ad0.png\" class=\"height-239-pixels width-534-pixels\"/></div>\n<p><span style=\"font-size: larger\">Deze noten klinken achter elkaar:</span></p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/c/cdadb4194453ee8498dcee398af9d6ed0baf4bca.png\" class=\"height-302-pixels width-534-pixels\"/></p>\n<p><span style=\"font-size: larger\">C4 klinkt lager dan C5 en C6:</span></p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/f/f4ac810063e049aebb21275aa708576869a0158d.png\" class=\"height-135-pixels width-550-pixels\"/></p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/9/957c4b11468722a4bc6658d40f4e321fb8c4a238.png\" class=\"height-387-pixels width-534-pixels\"/></p>\n<p> </p>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "6889605"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "1. Snel en langzaam",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Als je</p>\n<div class=\"code\">sleep 1</div>\n  schrijft, wacht Sonic Pi 1 tel.<br/>\nMaar soms wil je iets sneller spelen of juist langzamer.\n<p>Probeer dit <a href=\"https://maken.wikiwijs.nl/userfiles/0/08174cd4e9f05c92c115d91b7559567147435da9.txt\" onclick=\"window.open(this.href, '', 'resizable=no,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=yes,dependent=no,width=500,left=70%,top=30%'); return false;\">kinderliedje</a> in Sonic Pi.</p>\n<p>Waarschijnlijk heb je dit melodietje herkend: <em>Op een grote paddestoel</em>. Vind je dat Sonic Pi het liedje snel of langzaam speelt?</p>\n<p>Je kan de snelheid van een liedje aanpassen met</p>\n<div class=\"code\">use_bpm</div>\n, bpm staat voor <em>beats per minutes</em>, of het aantal tellen dat in een minuut past.\n<p>Als je dit getal kleiner maakt, wordt de muziek langzamer. Als je een groter getal kiest, wordt de muziek sneller gespeeld.</p>\n<div style=\"background:rgb(238, 238, 238) none repeat scroll 0% 0%; border:5px solid rgb(204, 204, 204); padding:5px 10px;\">Je schrijft v\u00f3\u00f3r het stukje dat je wil spelen:\n<div class=\"code\"><em>use_bpm</em></div>\n<em>spatie getal</em></div>\n<p> </p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/178c37a829117bc75ef0389b5a73054dbdef5151.png\" class=\"height-301-pixels width-381-pixels\"/></p>\n<div style=\"background:rgb(230, 238, 238) none repeat scroll 0% 0%; border:5px solid rgb(230, 23,131); padding:5px 10px;\">Sonic Pi begrijpt dat er nu 100 tellen in een minuut passen.</div>\n<p> </p>\n<p>Als je niets verandert zal Sonic Pi op een snelheid van 60 tellen per minuut spelen.</p>\n<p>Probeer het stukje van <em>Op een grote paddestoel</em> in Sonic Pi weer met verschillende snelheden, bijvoorbeeld met 90, 120 of 200 beats per minuut.</p>\n"
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6889607"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6889607",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Wat vind jij een goed tempo (snelheid) voor Op een grote paddenstoel?",
+                                "prompt": {
+                                    "body": "<p>Kies een waarde voor use_bpm</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6889607_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>In principe mag je het liedje zo snel zingen of spelen als je wil. Op een grote paddenstoel zal iets vrolijker klinken als je een getal iets hoger dan 60 kiest, bijvoorbeeld 90 of 100.</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>In principe mag je het liedje zo snel zingen of spelen als je wil. Op een grote paddenstoel zal iets vrolijker klinken als je een getal iets hoger dan 60 kiest, bijvoorbeeld 90 of 100.</p>"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "6889608"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "2. Klank",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Standaard klinkt Sonic Pi als een xylofoon.</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/4/4733b3f9aa7c58018c2b9562c86e8a93ba47fbf2.jpg\" class=\"height-328-pixels width-480-pixels\"/></p>\n<p>Deze klank heet in Sonic Pi :beep</p>\n<p>Maar je kan andere klanken kiezen. Bijvoorbeeld, een piano:</p>\n<div class=\"code\">use_synth :piano</div>\n<div style=\"background:rgb(238, 238, 238) none repeat scroll 0% 0%; border:5px solid rgb(204, 204, 204); padding:5px 10px;\">Je schrijft: <em>use_synth spatie dubbele punt piano</em></div>\n<p> </p>\n<div class=\"code\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/9/9822091e76f01d72030203b7651a98ba527971ff.png\" class=\"height-301-pixels width-381-pixels\"/></div>\n<div style=\"background:rgb(230, 238, 238) none repeat scroll 0% 0%; border:5px solid rgb(230, 23,131); padding:5px 10px;\">Sonic Pi begrijpt: <em>vanaf nu moet ik als een piano klinken</em></div>\n<hr/>\n<p>Het leukste aan Sonic Pi zijn de gekke klanken waarmee je kan spelen.<br/>\nOm een griezelige sfeer te cre\u00ebren zou je bijvoorbeeld \u00e9\u00e9n van deze kunnen gebruiken:  </p>\n<ul>\n<li>use_synth :blade</li>\n<li>use_synth :chipnoise</li>\n<li>use_synth :growl</li>\n<li>use_synth :dark_ambience</li>\n</ul>\n<p>Ga nu naar Sonic Pi en probeer <a href=\"https://maken.wikiwijs.nl/userfiles/0/08174cd4e9f05c92c115d91b7559567147435da9.txt\" onclick=\"window.open(this.href, '', 'resizable=no,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=yes,dependent=no,width=500,left=70%,top=30%'); return false;\"><em>Op een grote paddenstoel</em></a> met \u00e9\u00e9n van deze klanken.</p>\n<p>Er zijn veel meer waarden voor use_synth, je kan ze zelf in Sonic Pi opzoeken:</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/9/96fe19c05284ba56806b68ce5fa8679433fb150a.png\" class=\"height-331-pixels width-500-pixels\"/></p>\n"
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6889610"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6889610",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "choiceInteraction",
+                                "label": "Welk voorbeeld is goed geschreven?",
+                                "prompt": {
+                                    "body": "<p><strong>Voorbeeld 1</strong></p>\n<p><strong><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/11cb12ff10d8352322b5257d586276c35776ce26.png\" class=\"height-215-pixels width-300-pixels\" /></strong></p>\n<p><strong>Voorbeeld 2</strong></p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/c/c15ace733de34be147b37b1c8186c2b23c7a1214.png\" class=\"height-224-pixels width-300-pixels\" /></p>\n<p><strong>Voorbeeld 3</strong></p>\n<p><strong><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/f/f2fd9e401d7d6ad301dbefbf7ca6028f36cc9071.png\" class=\"height-214-pixels width-300-pixels\" /></strong></p>"
+                                },
+                                "shuffle": false,
+                                "maxChoices": 3,
+                                "minChoices": 1,
+                                "orientation": "vertical",
+                                "choices": [
+                                    {
+                                        "identifier": "0",
+                                        "content": {
+                                            "body": "Voorbeeld 1"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "0",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": {
+                                                "body": "Er is geen spatie na use_synth"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "identifier": "1",
+                                        "content": {
+                                            "body": "Voorbeeld 2"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "1",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": {
+                                                "body": "Goed gezien!"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "identifier": "2",
+                                        "content": {
+                                            "body": "Voorbeeld 3"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "2",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": {
+                                                "body": "Er is een spatie v\u00f3\u00f3r <em>growl</em>"
+                                            }
+                                        }
+                                    }
+                                ],
+                                "responseIdentifier": "6889610_1",
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6889610_1",
+                                "cardinality": "ordered",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0,
+                                    "default": 0,
+                                    "mapEntries": [
+                                        {
+                                            "key": "0",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "1",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "2",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        }
+                                    ]
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Welke klank zou bij een griezelig liedje passen?</p>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "6889612"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "3. Effecten",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Je kan ook de kwaliteit van de klank veranderen door</p>\n<div class=\"code\">with_fx</div>\nte gebruiken.\n<div style=\"background:rgb(238, 238, 238) none repeat scroll 0% 0%; border:5px solid rgb(204, 204, 204); padding:5px 10px;\">Je schrijft: <em> spatie, dubbele punt, de naam van het effect en <strong>do</strong></em><br/>\nDaarna schrijf je alle noten die je wil spelen. Alles tussen do en end wordt ingesprongen.<br/>\nJe sluit het af met <strong><em>end.</em></strong></div>\n<p> </p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/3/31ca841074574dee81ef06d2cb8cbed4749a75e8.png\" class=\"height-590-pixels width-500-pixels\"/></p>\n<div style=\"background:rgb(230, 238, 238) none repeat scroll 0% 0%; border:5px solid rgb(230, 23,131); padding:5px 10px;\">Sonic Pi begrijpt: <em>gebruik effect 'bitcrusher' vanaf nu totdat je 'end' tegenkomt.</em></div>\n<p> </p>\n<hr/>"
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6889614"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6889614",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "matchInteraction",
+                                "label": "Hoe los je dat op?",
+                                "prompt": {
+                                    "body": "<p>Er zitten fouten in deze codevoorbeelden. Sleep de oplossingen naar de bijbehorende foute code.</p>\n<div>\n<p> </p>\n</div>"
+                                },
+                                "shuffle": true,
+                                "minAssociations": 4,
+                                "maxAssociations": 4,
+                                "sourceSimpleMatchSet": [
+                                    {
+                                        "identifier": "SOURCE_4",
+                                        "content": {
+                                            "body": "Er moeten twee spaties worden toegevoegd in regel 6 en 7"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "SOURCE_3",
+                                        "content": {
+                                            "body": "Er moet een 'do' na ':bitchusher'"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "SOURCE_2",
+                                        "content": {
+                                            "body": "De spatie moet v\u00f3\u00f3r de dubbele punt en niet erna."
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "SOURCE_1",
+                                        "content": {
+                                            "body": "Het hoeft niet. Dit voorbeeld is correct"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    }
+                                ],
+                                "targetSimpleMatchSet": [
+                                    {
+                                        "identifier": "TARGET_1",
+                                        "content": {
+                                            "body": "<img src=\"https://maken.wikiwijs.nl/userfiles/9/9af8fd52f5095f460682b69564e902d0d982f00e.png\" />"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "TARGET_2",
+                                        "content": {
+                                            "body": "<img src=\"https://maken.wikiwijs.nl/userfiles/d/d9c62f49040b4e65f7cd04a577fee77f197746c4.png\" />"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "TARGET_3",
+                                        "content": {
+                                            "body": "<img src=\"https://maken.wikiwijs.nl/userfiles/f/f4ce5c87082fc06e157739d41e162f9b3b42d892.png\" />"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "TARGET_4",
+                                        "content": {
+                                            "body": "<img src=\"https://maken.wikiwijs.nl/userfiles/1/140ad06eadfba478091a5ea0aa21f79eaff64927.png\" />"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    }
+                                ],
+                                "responseIdentifier": "6889614_1",
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_CORRECT",
+                                        "identifier": "FBC_6889614",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "Precies, goed gezien!"
+                                        }
+                                    },
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_INCORRECT",
+                                        "identifier": "FBI_6889614",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "Lees de code zorgvuldig. Probeer het nog een keer."
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6889614_1",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": "SOURCE_1",
+                                            "value": "TARGET_1"
+                                        },
+                                        {
+                                            "fieldIdentifier": "SOURCE_2",
+                                            "value": "TARGET_2"
+                                        },
+                                        {
+                                            "fieldIdentifier": "SOURCE_3",
+                                            "value": "TARGET_3"
+                                        },
+                                        {
+                                            "fieldIdentifier": "SOURCE_4",
+                                            "value": "TARGET_4"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": "0",
+                                    "upperBound": "1",
+                                    "default": "0",
+                                    "mapEntries": null
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": "0",
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": "1",
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Probeer andere effecten die een griezelige sfeer kunnen geven, bijvoorbeeld:</p>\n<ul>\n<li>echo</li>\n<li>krush</li>\n<li>reverb</li>\n<li>slicer</li>\n<li>vowel</li>\n</ul>\n<p>Je kan ze zelf in Sonic Pi opzoeken:</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/0/0873c40f4e8416f8032fae6593e72a2f166df968.png\" class=\"height-331-pixels width-500-pixels\"/></p>\n"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>En je kan meerdere effecten gebruiken:</p>\n<div style=\"background:rgb(238, 238, 238) none repeat scroll 0% 0%; border:5px solid rgb(204, 204, 204); padding:5px 10px;\">Je schrijft <strong>per effect</strong>:\n<ul>\n<li>\u00e9\u00e9n with_fx</li>\n<li>\u00e9\u00e9n do</li>\n<li>\u00e9\u00e9n end</li>\n</ul>\n</div>\n<p> </p>\n<p><img alt=\"meerdere with_fx\" src=\"https://maken.wikiwijs.nl/userfiles/f/fe78cbb1d9d90cd5fac0547ddacdfcb91339c2fa.png\" class=\"height-537-pixels width-568-pixels\"/></p>\n<div style=\"background:rgb(230, 238, 238) none repeat scroll 0% 0%; border:5px solid rgb(230, 23,131); padding:5px 10px;\">Sonic Pi zal zelf de code inspringen.</div>\n<p> </p>\n"
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6889617"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6889617",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "matchInteraction",
+                                "label": "",
+                                "prompt": {
+                                    "body": "<p>Sleep de fout naar de afbeelding waar het gebeurt.</p>"
+                                },
+                                "shuffle": true,
+                                "minAssociations": 3,
+                                "maxAssociations": 3,
+                                "sourceSimpleMatchSet": [
+                                    {
+                                        "identifier": "SOURCE_2",
+                                        "content": {
+                                            "body": "\u00e9\u00e9n 'end' te weinig"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "SOURCE_1",
+                                        "content": {
+                                            "body": "\u00e9\u00e9n 'do' te weinig"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "SOURCE_3",
+                                        "content": {
+                                            "body": "\u00e9\u00e9n 'end' te veel"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    }
+                                ],
+                                "targetSimpleMatchSet": [
+                                    {
+                                        "identifier": "TARGET_1",
+                                        "content": {
+                                            "body": "<img src=\"https://maken.wikiwijs.nl/userfiles/9/929271bac4df0f3223fc325485106e2265ebad74.png\" />"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "TARGET_2",
+                                        "content": {
+                                            "body": "<img src=\"https://maken.wikiwijs.nl/userfiles/9/941d983d059cf72fddfabbb5fb1563ede45c75a5.png\" />"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "TARGET_3",
+                                        "content": {
+                                            "body": "<img src=\"https://maken.wikiwijs.nl/userfiles/e/ee942b446084090f1960cb96789f5bf90812d87b.png\" />"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    }
+                                ],
+                                "responseIdentifier": "6889617_1",
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_CORRECT",
+                                        "identifier": "FBC_6889617",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "Goed gezien!"
+                                        }
+                                    },
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_INCORRECT",
+                                        "identifier": "FBI_6889617",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "Probeer nog een keer! Voor elk with_fx moet er \u00e9\u00e9n 'do' en \u00e9\u00e9n 'end' zijn"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6889617_1",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": "SOURCE_1",
+                                            "value": "TARGET_1"
+                                        },
+                                        {
+                                            "fieldIdentifier": "SOURCE_2",
+                                            "value": "TARGET_2"
+                                        },
+                                        {
+                                            "fieldIdentifier": "SOURCE_3",
+                                            "value": "TARGET_3"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": "0",
+                                    "upperBound": "1",
+                                    "default": "0",
+                                    "mapEntries": null
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": "0",
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": "1",
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<hr/>\n<p><span style=\"color:#E61783;\">Probeer deze puzzel op te lossen</span></p>\n<p><span class=\"font-size-12pt\" style=\"background-color:transparent; color:#0f0f0f;\">Zet zelf de elementen van dit stukje code in de juiste volgorde. Om regels in te springen sleep je ze naar rechts. door de elementen naar rechts te slepen D en druk op</span> <em>Feedback</em> <span class=\"font-size-12pt\" style=\"background-color:transparent; color:#0f0f0f;\">om het resultaat te zien. Let op:</span> <strong>je moet alles tussen do en end inspringen</strong><span class=\"font-size-12pt\" style=\"background-color:transparent; color:#0f0f0f;\">.</span></p>\n<p><iframe height=\"450\" src=\"https://dutchparsonpuzzle.queleemosestanoche.com/examples/#\" width=\"800\"/></p>\n<div style=\"background:rgb(238, 238, 238) none repeat scroll 0% 0%; border:5px solid rgb(255, 205, 128); padding:5px 10px;\">Laat je docent je opgelost puzzel zien en vraag om hulp als het niet lukt!</div>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "6889619"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "4. Je eigen griezelige kinderliedje",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p><span style=\"font-size: larger\">1. Kies een van deze kinderliedjes:</span></p>\n<ul>\n<li><a href=\"https://maken.wikiwijs.nl/userfiles/3/3f364ef5ef495423cbb8bb21055c2275f4d2f858.txt\" onclick=\"window.open(this.href, '', 'resizable=yes,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=yes,dependent=no,width=600,left=70%,top=30%'); return false;\">Alle eendjes</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/userfiles/e/e618aa6b70c36b7735131454927f65d1150b6ab8.txt\" onclick=\"window.open(this.href, '', 'resizable=yes,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=yes,dependent=no,width=600,left=70%,top=30%'); return false;\">Roodkapje</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/userfiles/6/6d8dec2afbc3540c516018bfbccf824c3a20ff97.txt\" onclick=\"window.open(this.href, '', 'resizable=yes,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=yes,dependent=no,width=600,left=70%,top=30%'); return false;\">Op een grote paddenstoel</a></li>\n<li><a href=\"https://maken.wikiwijs.nl/userfiles/e/e1ca4e5e2d27667e96b4760a207d98562cb42a45.txt\" onclick=\"window.open(this.href, '', 'resizable=yes,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=yes,dependent=no,width=600,left=70%,top=30%'); return false;\">Vader Jacob</a></li>\n</ul>\n<p>Klik op het liedje. Hij wordt geopend in een nieuwe tab.</p>\n<p>Kopieer het liedje (control + a, control + c)</p>\n<hr/>\n<p><span style=\"font-size: larger\">2. Ga naar Sonic Pi</span></p>\n<ol>\n<li>Open Sonic Pi en plak het liedje daarin (control  + v)</li>\n<li>Begin je eigen griezelige versie van het liedje</li>\n</ol>\n<hr/>\n<p><span style=\"font-size: larger\">3. Zo maak je een griezelige versie van je liedje</span></p>\n<ul>\n<li>Verander het  tempo (snelheid van het liedje) met\n<div class=\"code\">use_bpm </div>\n</li>\n<li>Verander de klank met\n<div class=\"code\">use_synth</div>\n</li>\n<li>\n<p>Verander de kwaliteit van de noten met</p>\n<div class=\"code\">with_fx.</div>\nProbeer meerdere keren \"with_fx\" te gebruiken.</li>\n<li>\n<p>Verander de echte noten van het liedje, kijk voor idee\u00ebn hiervoor in de tekst van het liedje zelf.</p>\n</li>\n</ul>\n<hr/>\n<div style=\"background:rgb(230, 238, 238) none repeat scroll 0% 0%; border:5px solid rgb(92, 183,243); padding:5px 10px;\">Tip! Laat af en toe verschillende noten tegelijk klinken, zonder 'sleep' te gebruiken. Als de noten heel dicht bij elkaar zijn, krijg je een <em>dissonantie</em> dat klinkt ook griezelig. Bijvoorbeeld G en Gb samen of A, Ab en G samen.</div>\n<p> </p>\n<p><img alt=\"disonantie\" src=\"https://maken.wikiwijs.nl/userfiles/8/8fe602d1e8c477a9a9742414bc953a78f3adcda0.png\" class=\"height-466-pixels width-528-pixels\"/></p>\n<hr/>\n<p><span style=\"font-size: larger\">4. Aftekenen</span></p>\n<div style=\"background:rgb(238, 238, 238) none repeat scroll 0% 0%; border:5px solid rgb(255, 205, 128); padding:5px 10px;\">Laat je griezelige liedje aan je docent horen om deze opdracht af te sluiten.</div>\n<hr/>\n<p><span style=\"font-size: larger\">5. Bewaar je code in een bestand</span></p>\n<ul>\n<li><a href=\"https://maken.wikiwijs.nl/177150/Hulp#!page-6711340\" onclick=\"window.open(this.href, '', 'resizable=yes,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=yes,dependent=no,width=600,left=70%,top=30%'); return false;\">Hier</a> zie je hoe je je code als bestand kan bewaren. Zo kan je het volgende keer weer gebruiken en kan je het bovendien aan iemand laten zien en horen.</li>\n</ul>\n<hr/>\n<p><span style=\"font-size: larger\">6. Neem je code op</span></p>\n<ul>\n<li><a href=\"https://maken.wikiwijs.nl/177150/Hulp#!page-6705504\" onclick=\"window.open(this.href, '', 'resizable=yes,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=yes,dependent=no,width=600,left=70%,top=30%'); return false;\">Hier</a> zie je hoe je je code kan opnemen.</li>\n</ul>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "6889621"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Verdieping 2: een tweede stem toevoegen",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Tot nu toe heb je slechts met \u00e9\u00e9n stem gewerkt.</p>\n<p>Als extra opdracht voeg je nu een tweede stem toe aan het liedje <em>Lang zal ze leven.</em></p>\n<p>Je weet al dat:</p>\n<ul>\n<li>alle noten v\u00f3\u00f3r sleep tegelijk klinken</li>\n<li>je nummers in plaats van letters  kan gebruiken</li>\n</ul>\n<p>De code in deze twee afbeeldingen klinkt precies hetzelfde, <strong>noot D4 en F4 tegelijk.</strong></p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/a/abbfd1391c2d65da6b3b4606cf08a776aa59028d.png\" class=\"height-219-pixels width-700-pixels\"/></p>\n<p>Vaak voeg je een stem aan een melodie toe door 2 noten lager te zingen. Zoals in dit voorbeeld de D4.</p>\n<p>Omdat noten ook nummers zijn, kan je dat laten berekenen:</p>\n<div style=\"background:rgb(238, 238, 238) none repeat scroll 0% 0%; border:5px solid rgb(204, 204, 204); padding:5px 10px;\">Je schrijft <em>:F4</em> min teken 3</div>\n<p> </p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/a/a5624a8208d2674df2bc3c83c74d649e930b66f2.png\" class=\"height-173-pixels width-270-pixels\"/></p>\n<div style=\"background:rgb(230, 238, 238) none repeat scroll 0% 0%; border:5px solid rgb(230, 23,131); padding:5px 10px;\">Sonic Pi speelt F4, en tegelijk 65-3</div>\n<p> </p>\n<p>In deze afbeelding zijn alle noten aangegeven met hun nummers.</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/9/96337caf55497c3d32521a636e28ed048c7cadf0.png\" class=\"height-205-pixels width-700-pixels\"/></p>\n"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p><span style=\"font-size: larger\">Zo voeg je een nieuwe stem aan Lang zal ze leven:</span></p>\n<p><span style=\"font-size: larger\">1. Open <em>het tekstbestand met het liedje:</em></span></p>\n<ul>\n<li><a href=\"https://maken.wikiwijs.nl/userfiles/4/45ad1f188ccdd42efa9b44310c0f2442e3b796e0.txt\" onclick=\"window.open(this.href, 'Langzalzeleven', 'resizable=yes,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=yes,dependent=no,width=500,left=70%,height=500,top=30%'); return false;\">Lang zal ze leven</a></li>\n</ul>\n<hr/>\n<p><span style=\"font-size: larger\">2. Voeg een tweede stem toe door elke noot v\u00f3\u00f3r de <em>sleep</em> te dupliceren en -3 te gebruiken.</span></p>\n<hr/>\n<p><span style=\"font-size: larger\">3. Vind je dat het mooi klinkt?</span></p>\n<ul>\n<li>Vind je dat het te vol klinkt? Maak dan niet elke noot dubbel maar slechts de lange noten.</li>\n<li>Vind je dat het te licht klinkt? Voeg dan af en toe een derde noot met -6</li>\n<li>Zijn er stukjes waar het niet mooi klinkt, probeer dan andere doubele noot met -4 bijvoorbeeld.</li>\n</ul>\n<hr/>\n<div style=\"background:rgb(230, 238, 238) none repeat scroll 0% 0%; border:5px solid rgb(92, 183,243); padding:5px 10px;\">Tip! Gebruik <em>sustain:</em> om de noten langer te laten klinken.</div>\n<p> </p>\n<div style=\"background:rgb(238, 238, 238) none repeat scroll 0% 0%; border:5px solid rgb(204, 204, 204); padding:5px 10px;\">Je schrijft de noot, comma sustain: en de waarde</div>\n<p> </p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/6/60f4a9529a6776e60bc1f7e9099bf538c0978ba8.png\" class=\"height-151-pixels width-438-pixels\"/></p>\n<p> </p>\n<div style=\"background:rgb(230, 238, 238) none repeat scroll 0% 0%; border:5px solid rgb(230, 23,131); padding:5px 10px;\">Sonic Pi begrijpt dat de noot moet 1 seconde lang klinken, in dit geval net zo lang als de wachttijd van <em>sleep</em>.</div>\n<hr/>\n<p><span style=\"font-size: larger\">4. Aftekenen</span></p>\n<div style=\"background:rgb(238, 238, 238) none repeat scroll 0% 0%; border:5px solid rgb(255, 205, 128); padding:5px 10px;\">Laat je nieuwe versie van <em>Lang zal ze leven</em> aan je docent horen om deze opdracht af te sluiten.</div>\n<hr/>\n<p><span style=\"font-size: larger\">5. Bewaar je code in een bestand</span></p>\n<ul>\n<li><a href=\"https://maken.wikiwijs.nl/177150/Hulp#!page-6711340\" onclick=\"window.open(this.href, '', 'resizable=yes,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=yes,dependent=no,width=600,left=70%,top=30%'); return false;\">Hier</a> zie je hoe je je code als bestand kan bewaren. Zo kan je het volgende keer weer gebruiken en kan je het bovendien aan iemand laten zien.</li>\n</ul>\n<hr/>\n<p><span style=\"font-size: larger\">6. Neem je code op</span></p>\n<ul>\n<li><a href=\"https://maken.wikiwijs.nl/177150/Hulp#!page--6705504\" onclick=\"window.open(this.href, '', 'resizable=yes,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=yes,dependent=no,width=600,left=70%,top=30%'); return false;\">Hier</a> zie je hoe je je code kan opnemen. Wil je iemand feliciteren, stuur dan de opname van je eigen verjaardagsliedje!</li>\n</ul>\n"
+                }
+            ],
+            "sections": []
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [
+                {
+                    "content": "<span class=\"font-size-18px\" style=\"color:#3399ff;\"><strong><span>Sonic Pi voor de onderbouw</span></strong></span>"
+                },
+                {
+                    "content": ""
+                }
+            ],
+            "backgroundImageUrl": "https://maken.wikiwijs.nl/generated/l1200x76_e013c640926da600dccd6b9137793bec02435f74.png",
+            "dimension": null,
+            "suppressTitle": false
+        },
+        "color": "#0f0f0f"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Intro",
+                "reference": {
+                    "value": "6889601"
+                },
+                "sections": []
+            },
+            {
+                "title": "Weet je het nog?",
+                "reference": {
+                    "value": "6889603"
+                },
+                "sections": []
+            },
+            {
+                "title": "1. Snel en langzaam",
+                "reference": {
+                    "value": "6889605"
+                },
+                "sections": []
+            },
+            {
+                "title": "2. Klank",
+                "reference": {
+                    "value": "6889608"
+                },
+                "sections": []
+            },
+            {
+                "title": "3. Effecten",
+                "reference": {
+                    "value": "6889612"
+                },
+                "sections": []
+            },
+            {
+                "title": "4. Je eigen griezelige kinderliedje",
+                "reference": {
+                    "value": "6889619"
+                },
+                "sections": []
+            },
+            {
+                "title": "Verdieping 2: een tweede stem toevoegen",
+                "reference": {
+                    "value": "6889621"
+                },
+                "sections": []
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": null,
+        "imageSrc": null,
+        "sources": [],
+        "metadata": [
+            {
+                "key": "educationalLevels",
+                "label": "Leerniveaus",
+                "terms": {
+                    "17da6976-2f1b-4214-a471-168f469d7e04": "VWO 2",
+                    "ac188375-0a1a-4984-ac80-14d04a086a19": "VWO 1"
+                }
+            },
+            {
+                "key": "disciplines",
+                "label": "Leerinhoud en doelen",
+                "terms": {
+                    "7aa6f577-b02d-484a-90d6-72fc80199f9a": "Muziek",
+                    "c6971373-aa44-4de9-91ef-aca886d42a6a": "Techniek"
+                }
+            },
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            },
+            {
+                "key": "difficultyLevel",
+                "label": "Moeilijkheidsgraad",
+                "terms": [
+                    "makkelijk"
+                ]
+            },
+            {
+                "key": "learningTime",
+                "label": "Studiebelasting",
+                "terms": [
+                    "3 uur en 0 minuten"
+                ]
+            }
+        ],
+        "usedLearningResources": [
+            {
+                "author": {
+                    "fullName": null,
+                    "referenceName": "\u00c1vila, Victoria",
+                    "reference": {
+                        "value": "160264"
+                    },
+                    "firstName": "Victoria",
+                    "infix": null,
+                    "lastName": "\u00c1vila",
+                    "emailAddress": "mvictoria.avila@gmail.com",
+                    "type": "author"
+                },
+                "title": "Werkblad 1b Je eigen griezelig liedje",
+                "url": "https://maken.wikiwijs.nl/177725/",
+                "datePublished": "2021-05-27T12:37:05+02:00"
+            }
+        ]
+    }
+}

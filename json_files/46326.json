@@ -1,0 +1,311 @@
+{
+    "documentAuthors": [
+        "B\u00e8tapartners"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "B\u00e8tapartners ",
+            "referenceName": null,
+            "reference": {
+                "value": "163410"
+            },
+            "firstName": "B\u00e8tapartners",
+            "infix": null,
+            "lastName": "",
+            "emailAddress": "bureau@betapartners.nl",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2015-05-08T10:52:40Z",
+    "bulkId": "bulk-17041135-refresh_all",
+    "identifier": 46326,
+    "title": "F. PS Hoe rekent een dynamisch model?",
+    "description": "Deze les maakt onderdeel uit van de e-klas 'Dynamische modellen PowerSim' voor havo 4 en 5 voor het vak wiskunde NLT.",
+    "lastModifiedDate": "2015-05-08T10:52:40+02:00",
+    "dateCreated": "2013-09-10T10:03:20+02:00",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": ", B\u00e8tapartners",
+                "reference": {
+                    "value": "163410"
+                },
+                "firstName": "B\u00e8tapartners",
+                "infix": null,
+                "lastName": "",
+                "emailAddress": "bureau@betapartners.nl",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-sa-30",
+            "name": "CC Naamsvermelding-GelijkDelen 3.0 Nederland licentie",
+            "description": "De Nederlandse Creative Commons 3.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarden: Naamsvermelding en Gelijk Delen, zie http://creativecommons.org/licenses/by-sa/3.0/nl/.",
+            "link": "http://creativecommons.org/licenses/by-sa/3.0/nl/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/46326/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "665570"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Hoe rekent een dynamisch model?",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>In de vorige lessen heb je kennis gemaakt met dynamische modellen. Je hebt een eenvoudig computermodel gebouwd en gekeken hoe zo'n model rekent.</p>\n<p>In dit gedeelte van de cursus ga je ingewikkelder modellen bouwen. We hebben gekozen voor 'bevolkingsgroei' modellen. Dit voorbeeld is gekozen omdat bevolkingsgroei goed gedocumenteerd is.</p>\n<p>Bekijk onderstaande video.</p>\n"
+                },
+                {
+                    "type": "video",
+                    "url": "//www.youtube.com/embed/4BbkQiQyaYc",
+                    "align": "left",
+                    "caption": "Bron: http://nl.youtube.com/watch?v=4BbkQiQyaYc",
+                    "poster": "https://maken.wikiwijs.nl/res/images/playicon_wikiwijs.png"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>In dit gedeelte van de cursus zijn de centrale vragen:</p>\n<p>Hoe plaats je de juiste formules in het model?<br/>\nHoe kun je eindtijd en tijdstap aanpassen?<br/>\nHoe maak je de resultaten zichtbaar; in een grafiek of tabel?.</p>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "665574"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Wat moet je weten?",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Demografie is de wetenschap over de omvang, de structuur en de spreiding van de bevolking, en hoe de bevolking in tijd verandert door geboorten, sterfgevallen, migratie en veroudering. Men verricht studie naar de samenstelling van de bevolking, bijvoorbeeld wat betreft: leeftijd, geslacht, nationaliteit, etniciteit of beroep.</p>\n<p>Op landelijke schaal is bevolkingsgroei (of -krimp) een belangrijk onderwerp. Met deze modellen kun je berekenen hoe bevolkingsaantallen in de toekomst zich gaan ontwikkelen.</p>\n"
+                },
+                {
+                    "type": "video",
+                    "url": "//www.youtube.com/embed/hM1x4RljmnE",
+                    "align": "left",
+                    "caption": "Bron: http://nl.youtube.com/watch?v=hM1x4RljmnE",
+                    "poster": "https://maken.wikiwijs.nl/res/images/playicon_wikiwijs.png"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Bevolkingsmodellen zijn voorbeelden van \"groeimodellen\". Daarin worden wiskundige \"groeifuncties\" gebruikt. Twee eenvoudige wiskundige groeifuncties zijn: <strong><em>lineaire groei</em></strong> en <strong><em>exponenti\u00eble groei.</em></strong></p>\n<p><strong>Lineaire groei</strong></p>\n<p>Een voorbeeld van lineaire groei:<br/>\nje legt op het eerste vak van een schaakbord 1 graankorrel, op het tweede vak 2 graankorrels, op het derde 3, enzovoort. Dus telkens 1 meer dan op het vorige vak.</p>\n<p>Bij <strong>lineaire groei</strong> komt er telkens een <strong>vaste hoeveelheid bij</strong>. Het gaat dus om de wiskundige bewerking optellen.</p>\n<p><strong>Exponenti\u00eble groei</strong></p>\n<p>Een voorbeeld van exponenti\u00eble groei:<br/>\nje legt op het eerste vak van een schaakbord 1 graankorrel, op het tweede vak 2 graankorrels, op het derde 4 graankorrels, op het vierde vak 8, enzovoort. Dus telkens dubbel zo veel als op het vorige vak.</p>\n<p>Bij <strong>exponenti\u00eble groei</strong> komt er telkens een vast percentage bij. Het gaat dus om de wiskundige bewerking <strong>vermenigvuldigen</strong>. Als er bijvoorbeeld telkens 20 % bij komt, betekent het dat de groeiende grootheid bij elke stap met 1,20 wordt vermenigvuldigd</p>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "665578"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Wat ga je doen?",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p><strong>De opdrachten</strong><br/>\nBeantwoord onderstaande opdrachten. Open daarna je werkdocument theorie en werk les F, opdracht 1 uit. Zorg aan het eind van de les dat je je resultaten opslaat in je persoonlijke map 'werkdocumenten dynamisch modelleren'.</p>\n"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<table border=\"1\" cellpadding=\"10\" class=\"width-100-percent\">\n<tbody>\n<tr>\n<td>\n<p><strong><span class=\"font-size-large\" style=\"color:rgb(234, 0, 0);\"><img alt=\"\" height=\"53\" src=\"http://farm9.staticflickr.com/8201/8186927179_445ee50475_t.jpg\" width=\"50\"/><span style=\"color:rgb(255, 0, 255);\">Opdracht 1</span></span></strong></p>\n<p>Dat voor diverse overheidsinstanties voorspellingen uit modellen voor bevolkingsgroei en bevolkingssamenstelling van belang zijn, ligt voor de hand. Neem bijvoorbeeld de plaatselijke gemeente, die natuurlijk moet weten of men huizen en scholen moet bijbouwen of juist niet.</p>\n<p>Noem nog drie maatregelen die een gemeentebestuur kan/moet nemen bij bevolkingsgroei (of -krimp).</p>\n<p> </p>\n<p><span class=\"font-size-small font-size-medium\" style=\"background-color:rgb(153, 153, 153); color:rgb(255, 0, 255);\">Plaats hier je muis</span></p>\n<p> </p>\n</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<table border=\"1\" cellpadding=\"10\" class=\"width-100-percent\">\n<tbody>\n<tr>\n<td>\n<p><strong><span class=\"font-size-large\" style=\"color:rgb(234, 0, 0);\"><img alt=\"\" height=\"53\" src=\"http://farm9.staticflickr.com/8201/8186927179_445ee50475_t.jpg\" width=\"50\"/><span style=\"color:rgb(255, 0, 255);\">Opdracht 2</span></span></strong></p>\n<p>Bevolkingsmodellen zijn ook mooie voorbeelden van \"groeimodellen\". Daarin worden wiskundige \"groeifuncties\" gebruikt. Twee eenvoudige wiskundige groeifuncties zijn: <strong>lineaire groei</strong> en <strong>exponenti\u00eble groei</strong>.</p>\n<p>Een voorbeeld van lineaire groei:<br/>\nje legt op het eerste vak van een schaakbord 1 graankorrel, op het tweede vak 2 graankorrels, op het derde 3, enzovoort. Dus telkens 1 meer dan op het vorige vak.</p>\n<p>Hoeveel graankorrels liggen er uiteindelijk op het hele schaakbord?</p>\n<p> </p>\n<p> </p>\n<p><span class=\"font-size-small font-size-medium\" style=\"background-color:rgb(153, 153, 153); color:rgb(255, 0, 255);\">Plaats hier je muis</span></p>\n<p> </p>\n</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<table border=\"1\" cellpadding=\"10\" class=\"width-100-percent\">\n<tbody>\n<tr>\n<td>\n<p><strong><span class=\"font-size-large\" style=\"color:rgb(234, 0, 0);\"><img alt=\"\" height=\"53\" src=\"http://farm9.staticflickr.com/8201/8186927179_445ee50475_t.jpg\" width=\"50\"/><span style=\"color:rgb(255, 0, 255);\">Opdracht 3</span></span></strong></p>\n<p>Bij lineaire groei komt er telkens een vaste hoeveelheid bij. Het gaat dus om de wiskundige bewerking optellen.</p>\n<p>Hoe ziet de grafiek van een lineair groeiproces in de tijd er uit? Schets deze grafiek.</p>\n<p> </p>\n<p>Klik hier voor <a href=\"https://maken.wikiwijs.nl/userfiles/5/58859d2bc2b14fa71285ffd25034c9e2.docx\">Antwoord opdracht 3</a></p>\n<p> </p>\n</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<table border=\"1\" cellpadding=\"10\" class=\"width-100-percent\">\n<tbody>\n<tr>\n<td>\n<p><strong><span class=\"font-size-large\" style=\"color:rgb(234, 0, 0);\"><img alt=\"\" height=\"53\" src=\"http://farm9.staticflickr.com/8201/8186927179_445ee50475_t.jpg\" width=\"50\"/><span style=\"color:rgb(255, 0, 255);\">Opdracht 4</span></span></strong></p>\n<p>Een voorbeeld van exponenti\u00eble groei:<br/>\nje legt op het eerste vak van een schaakbord 1 graankorrel, op het tweede vak 2 graankorrels, op het derde 4 graankorrels, op het vierde vak 8, enzovoort. Dus telkens dubbel zo veel als op het vorige vak.</p>\n<p>Hoeveel graankorrels liggen er uiteindelijk op het hele schaakbord?</p>\n<p> </p>\n<p> </p>\n<p><span class=\"font-size-small font-size-medium\" style=\"background-color:rgb(153, 153, 153); color:rgb(255, 0, 255);\">Plaats hier je muis</span></p>\n<p> </p>\n</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<table border=\"1\" cellpadding=\"10\" class=\"width-100-percent\">\n<tbody>\n<tr>\n<td>\n<p><strong><span class=\"font-size-large\" style=\"color:rgb(234, 0, 0);\"><img alt=\"\" height=\"53\" src=\"http://farm9.staticflickr.com/8201/8186927179_445ee50475_t.jpg\" width=\"50\"/><span style=\"color:rgb(255, 0, 255);\">Opdracht 5</span></span></strong></p>\n<p>Bij exponenti\u00eble groei komt er telkens een vast percentage bij. Het gaat dus om de wiskundige bewerking vermenigvuldigen. Als er bijvoorbeeld telkens 20 % bij komt, betekent het dat de groeiende grootheid bij elke stap met 1,20 wordt vermenigvuldigd.</p>\n<p>Hoe ziet de grafiek van een exponentieel groeiproces in de tijd er uit?</p>\n<p> </p>\n<p>Klik hier voor <a href=\"https://maken.wikiwijs.nl/userfiles/1/17abb96cdf6e04c4f9ffc34a76f5f906.docx\">Antwoord opdracht 5</a></p>\n<p> </p>\n</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "665583"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Wat ga je leren?",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/c/c3d0c96baff9cf8deafaa48b04ead74b.PNG",
+                    "altText": "",
+                    "alignment": "left",
+                    "scale": 1,
+                    "link": ""
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Na bestudering van les F moet je:</p>\n<p>- het belang van bevolkingsmodellen voor de maatschappij kunnen verkennen<br/>\n- lineaire groei en exponenti\u00eble groei kunnen herkennen</p>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "665586"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Bronnen",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>http://nl.youtube.com/watch?v=4BbkQiQyaYc</p>\n<p>http://nl.youtube.com/watch?v=hM1x4RljmnE</p>\n"
+                }
+            ],
+            "sections": []
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": "https://maken.wikiwijs.nl/generated/l1200x76_78181e2c41732a51e0628a2703c3b6c7.jpg",
+            "dimension": null,
+            "suppressTitle": true
+        },
+        "color": "#495057"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Hoe rekent een dynamisch model?",
+                "reference": {
+                    "value": "665570"
+                },
+                "sections": []
+            },
+            {
+                "title": "Wat moet je weten?",
+                "reference": {
+                    "value": "665574"
+                },
+                "sections": []
+            },
+            {
+                "title": "Wat ga je doen?",
+                "reference": {
+                    "value": "665578"
+                },
+                "sections": []
+            },
+            {
+                "title": "Wat ga je leren?",
+                "reference": {
+                    "value": "665583"
+                },
+                "sections": []
+            },
+            {
+                "title": "Bronnen",
+                "reference": {
+                    "value": "665586"
+                },
+                "sections": []
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": "<p>Dit materiaal is achtereenvolgens ontwikkeld &nbsp;en getest in een SURF-project &nbsp;(2008-2011: e-klassen als voertuig voor aansluiting VO-HO) en een IIO-project (2011-2015: e-klassen&amp;PAL-student).&nbsp; In het SURF project zijn in samenwerking met vakdocenten van VO-scholen, universiteiten en hogescholen e-modules ontwikkeld voor Informatica, Wiskunde D en NLT.&nbsp; In het IIO-project (Innovatie Impuls Onderwijs) zijn in zo&rsquo;n samenwerking modules ontwikkeld voor de vakken Biologie, Natuurkunde en Scheikunde (bovenbouw havo/vwo). &nbsp;Meer dan 40 scholen waren bij deze ontwikkeling betrokken.</p>\n\n<p>Organisatie en begeleiding van uitvoering en ontwikkeling is geco&ouml;rdineerd vanuit <strong>B&egrave;tapartners/Its Academy,</strong> een samenwerkingsverband tussen scholen en vervolgopleidingen. Zie ook <a href=\"http://www.itsacademy.nl\">www.itsacademy.nl</a></p>\n\n<p>De auteurs hebben bij de ontwikkeling van de module gebruik gemaakt van materiaal van derden en daarvoor toestemming verkregen. Bij het achterhalen en voldoen van de rechten op teksten, illustraties, en andere gegevens is de grootst mogelijke zorgvuldigheid betracht. Mochten er desondanks personen of instanties zijn die rechten menen te kunnen doen gelden op tekstgedeeltes, illustraties, enz. van een module, dan worden zij verzocht zich in verbinding te stellen met de programmamanager van de Its Academy (zie website).&nbsp;</p>\n\n<p>Gebruiksvoorwaarden:&nbsp; creative commons cc-by sa 3.0</p>\n\n<p>Handleidingen, toetsen en achtergrondmateriaal zijn voor docenten verkrijgbaar via de b&egrave;tasteunpunten.</p>\n\n<p>&nbsp;</p>\n",
+        "imageSrc": null,
+        "sources": [
+            {
+                "type": "video",
+                "title": "Bron: http://nl.youtube.com/watch?v=4BbkQiQyaYc",
+                "origin": "",
+                "customOrigin": null,
+                "link": "//www.youtube.com/embed/4BbkQiQyaYc",
+                "visible": true
+            },
+            {
+                "type": "video",
+                "title": "Bron: http://nl.youtube.com/watch?v=hM1x4RljmnE",
+                "origin": "",
+                "customOrigin": null,
+                "link": "//www.youtube.com/embed/hM1x4RljmnE",
+                "visible": true
+            }
+        ],
+        "metadata": [
+            {
+                "key": "educationalLevels",
+                "label": "Leerniveaus",
+                "terms": {
+                    "70af3752-c6ad-43d9-aa0c-9ff099931f8a": "HAVO 4",
+                    "cb61531d-61eb-4412-a52f-ca065ca37e39": "HAVO 5"
+                }
+            },
+            {
+                "key": "disciplines",
+                "label": "Leerinhoud en doelen",
+                "terms": {
+                    "08a3212d-1360-406b-ac95-61b16578a75d": "Natuur, leven en technologie",
+                    "34616698-c260-4e83-91b9-78829213c6ba": "Wisselwerking tussen natuurwetenschap en technologie"
+                }
+            },
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            },
+            {
+                "key": "keywords",
+                "label": "Trefwoorden",
+                "terms": [
+                    "e-klassen rearrangeerbaar"
+                ]
+            }
+        ],
+        "usedLearningResources": [
+            {
+                "author": {
+                    "fullName": null,
+                    "referenceName": ", B\u00e8tapartners",
+                    "reference": {
+                        "value": "163410"
+                    },
+                    "firstName": "B\u00e8tapartners",
+                    "infix": null,
+                    "lastName": "",
+                    "emailAddress": "bureau@betapartners.nl",
+                    "type": "author"
+                },
+                "title": "F. Hoe rekent een dynamisch model?",
+                "url": "https://maken.wikiwijs.nl/45438/",
+                "datePublished": "2013-08-10T18:59:39+02:00"
+            }
+        ]
+    }
+}

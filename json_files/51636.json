@@ -1,0 +1,408 @@
+{
+    "documentAuthors": [
+        "Toetsmateriaal Eklassen"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Toetsmateriaal Eklassen",
+            "referenceName": null,
+            "reference": {
+                "value": "22368"
+            },
+            "firstName": "Toetsmateriaal",
+            "infix": "",
+            "lastName": "Eklassen",
+            "emailAddress": "toetsmateriaal.eklassen@gmail.com",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2014-08-18T13:59:37Z",
+    "bulkId": "bulk-17041135-refresh_all",
+    "identifier": 51636,
+    "title": "Wikiwijs: Computercriminaliteit - RFID",
+    "description": "",
+    "lastModifiedDate": "2014-08-18T13:59:37+02:00",
+    "dateCreated": "-0001-11-30T00:00:00+00:19",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "Eklassen, Toetsmateriaal",
+                "reference": {
+                    "value": "22368"
+                },
+                "firstName": "Toetsmateriaal",
+                "infix": "",
+                "lastName": "Eklassen",
+                "emailAddress": "toetsmateriaal.eklassen@gmail.com",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-40",
+            "name": "CC Naamsvermelding 4.0 Internationale licentie",
+            "description": "De Internationale Creative Commons 4.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/4.0/.",
+            "link": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/51636/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "empty_section"
+            },
+            "heading": {
+                "type": "empty_heading",
+                "content": "",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "questionnaire",
+                    "reference": {
+                        "value": "897281"
+                    },
+                    "assessmentTestItem": {
+                        "label": "",
+                        "type": "exam",
+                        "header": {
+                            "url": "https://maken.wikiwijs.nl/p/questionnaire/standalone/897281",
+                            "title": "Computercriminaliteit - RFID"
+                        },
+                        "introduction": {
+                            "body": ""
+                        },
+                        "countQuestions": 4,
+                        "sections": [
+                            {
+                                "type": "assessment",
+                                "identifier": "SECTION_897281",
+                                "name": "MAIN_SECTION",
+                                "select": null,
+                                "shuffle": null,
+                                "selection": null,
+                                "assessmentItems": [
+                                    {
+                                        "identifier": "897281_0",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "Vraag 1",
+                                                "prompt": {
+                                                    "body": "<p>Wat zijn de voordelen van het nieuwe paspoort dat ingevoerd is in augustus 2006?</p>\n<p>Wat is/zijn de nadelen van dit nieuwe paspoort?</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "897281_0_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p>Voordelen:</p>\r\n\r\n<p>1) Het paspoort is minder makkelijk te vervalsen</p>\r\n\r\n<p>2) Bij controles bij bijvoorbeeld douane zijn gegevens heel snel uit te lezen</p>\r\n\r\n<p>3) Gegevens zijn vanwege het digitale karakter van de RFID heel snel te vergelijken met centrale database (anders moet handmatig iets ingevoerd worden)</p>\r\n\r\n<p>Nadelen:</p>\r\n\r\n<p>1)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Identiteitsdiefstal wordt makkelijker gemaakt: een RFID chip valt misschien toch wel te kopi&euml;ren.</p>\r\n\r\n<p>2)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Het paspoort van een persoon kan wellicht zonder dat die persoon toestemming geeft uitgelezen worden.</p>\r\n\r\n<p>3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Het wordt zo makkelijker gemaakt om bij te houden waar iemand zich bevindt, oftewel om iemands privacy te schenden.</p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p>Voordelen:</p>\n<p>1) Het paspoort is minder makkelijk te vervalsen</p>\n<p>2) Bij controles bij bijvoorbeeld douane zijn gegevens heel snel uit te lezen</p>\n<p>3) Gegevens zijn vanwege het digitale karakter van de RFID heel snel te vergelijken met centrale database (anders moet handmatig iets ingevoerd worden)</p>\n<p>Nadelen:</p>\n<p>1)      Identiteitsdiefstal wordt makkelijker gemaakt: een RFID chip valt misschien toch wel te kopi\u00ebren.</p>\n<p>2)      Het paspoort van een persoon kan wellicht zonder dat die persoon toestemming geeft uitgelezen worden.</p>\n<p>3)      Het wordt zo makkelijker gemaakt om bij te houden waar iemand zich bevindt, oftewel om iemands privacy te schenden.</p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "identifier": "897281_1",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "Vraag 2",
+                                                "prompt": {
+                                                    "body": "<p>Bedenk zelf een situatie waarin RFID chips erg handig zouden zijn. Licht je antwoord toe.</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "897281_1_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p>Concertkaartjes, schaatsverhuur, etc...</p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p>Concertkaartjes, schaatsverhuur, etc...</p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "identifier": "897281_2",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "Vraag 3",
+                                                "prompt": {
+                                                    "body": "<p>Bekijk onderstaande voor- en nadelen van het gebruik van RFID. Kies hieruit een voordeel en een nadeel. Verzin twee situaties; een waaruit dat voordeel blijkt en een waaruit dat nadeel blijkt.</p>\n<p><a href=\"http://nl.wikipedia.org/wiki/Radio_frequency_identification\" target=\"_blank\">Voor- en nadelen</a></p>\n<p>Voordelen van het toepassen van RFID zijn onder meer:</p>\n<p>* Unieke code zodat ieder individueel object altijd en overal gevolgd kan worden (ook terug)</p>\n<p>* Er is geen fysiek contact nodig (zoals bij bankpasjes)</p>\n<p>* Er is geen zichtlijn nodig (zoals bij de streepjescode)</p>\n<p>* Vele (honderden) codes kunnen in een of enkele seconden worden gelezen</p>\n<p>* Veel grotere afstanden zijn mogelijk dan bij de streepjescode (alhoewel de techniek ook hier grote vooruitgang boekt)</p>\n<p>* Vervalsen van RFID-tags is veel complexer dan de streepjescode.</p>\n<p>* Door de unieke codering wordt productvervalsing (counterfeits) bemoeilijkt en/of snel opgespoord</p>\n<p>* Door weersinvloeden, vuil, etc kunnen streepjescodes (in tegenstelling tot RFID-tags) onleesbaar worden.</p>\n<p>Nadelen van RFID zijn onder meer:</p>\n<p>* De privacy kan in het geding komen.</p>\n<p>* Als identificatie-documenten zoals een paspoort een RFID-tag hebben, kunnen regeringen of bijvoorbeeld inlichtingendiensten hier misbruik van maken en mensen monitoren (<em>surveillance</em>)</p>\n<p>* Als het identificatienummer van een RFID-tag geassocieerd kan worden met een individu, kan dit individu gevolgd worden (door marketeers, overheidsfunctionarissen, stalkers, dieven of andere criminelen)</p>\n<p>* Lees/schrijf mogelijkheden van de RFID-tag kunnen het mogelijk maken dat er ongemerkt fraude wordt gepleegd</p>\n<p>* Door het grote (zend/ontvang)bereik kan er 'collision' optreden. Oftewel: Er worden niet bedoelde RFID-tags gelezen die de gegevensverwerking kunnen verstoren.</p>\n<p>* Een ander probleem is <a href=\"http://www.technovelgy.com/ct/Technology-Article.asp?ArtNum=57\" target=\"_blank\">tag-collision</a>: als meerdere RFID-chips tegelijk worden geactiveerd, en ze tegellijk hun code versturen, kan de ontvanger de verschillende codes niet onderscheiden. Dit wordt voorkomen door middel van selectieve activatie met behulp van binary tree search methode totdat slechts \u00e9\u00e9n tag reageert.</p>\n<p>* Omdat een RFID reader veel informatie genereert is inzet van een speciaal soort software (middleware/edgeware) noodzakelijk, hoewel er steeds meer readers op de markt verschijnen die dit zelf kunnen.</p>\n<p>* Door het weggooien van verpakkingsmateriaal, tickets enz voorzien van een rfid-chip komt het afval zo vol metalen, dat het alleen nog maar als chemisch afval kan worden opgehaald. Het is in ieder geval niet nogmaals te gebruiken.</p>\n<p>* RFID kan medische apparatuur op afstand verstoren.</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "897281_2_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p>Meerdere antwoorden mogelijk</p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p>Meerdere antwoorden mogelijk</p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "identifier": "897281_3",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "Vraag 4",
+                                                "prompt": {
+                                                    "body": "<p>Wat voor systeem wordt <a href=\"http://www.rfid-library.com/en/default_e.html\" target=\"_blank\">hier</a> beschreven? Wat zou een reden zijn om hier een RFID-systeem te gebruiken?</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "897281_3_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p>Een bibliotheek. Op deze manier zijn boeken sneller en makkelijker uit te lenen en te traceren.</p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p>Een bibliotheek. Op deze manier zijn boeken sneller en makkelijker uit te lenen en te traceren.</p>"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "outcomeDeclarations": null,
+                        "showEvaluation": null,
+                        "feedback": null
+                    }
+                }
+            ],
+            "sections": []
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [
+                {
+                    "content": ""
+                },
+                {
+                    "content": "<span class=\"font-size-20px\">Wikiwijs: Computercriminaliteit - RFID</span>"
+                }
+            ],
+            "backgroundImageUrl": "https://maken.wikiwijs.nl/generated/l1200x76_c2d7d3398783ecc8a9f0ccccc58dca831d30a1af.jpg",
+            "dimension": null,
+            "suppressTitle": true
+        },
+        "color": "#495057"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": "",
+        "imageSrc": null,
+        "sources": [],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

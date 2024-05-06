@@ -1,0 +1,1019 @@
+{
+    "documentAuthors": [
+        "Berdien Udding"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Berdien Udding",
+            "referenceName": null,
+            "reference": {
+                "value": "40694"
+            },
+            "firstName": "Berdien",
+            "infix": null,
+            "lastName": "Udding",
+            "emailAddress": "b.udding@clusius.nl",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2022-06-17T13:30:51Z",
+    "bulkId": "bulk-17041658-refresh_all",
+    "identifier": 188821,
+    "title": "Kennistoets Apps",
+    "description": "Test je kennis over apps",
+    "lastModifiedDate": "2022-06-17T13:30:51+02:00",
+    "dateCreated": "2022-06-17T13:08:54+02:00",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "2864"
+        },
+        "name": "T&T",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "Visser, Hans",
+                "reference": {
+                    "value": "11693"
+                },
+                "firstName": "Hans",
+                "infix": null,
+                "lastName": "Visser",
+                "emailAddress": "h.visser@clusius.nl",
+                "type": "author"
+            },
+            {
+                "fullName": null,
+                "referenceName": "Udding, Berdien",
+                "reference": {
+                    "value": "40694"
+                },
+                "firstName": "Berdien",
+                "infix": null,
+                "lastName": "Udding",
+                "emailAddress": "b.udding@clusius.nl",
+                "type": "author"
+            },
+            {
+                "fullName": null,
+                "referenceName": "Tamis, B",
+                "reference": {
+                    "value": "128649"
+                },
+                "firstName": "B",
+                "infix": null,
+                "lastName": "Tamis",
+                "emailAddress": "b.tamis@clusius.nl",
+                "type": "author"
+            },
+            {
+                "fullName": null,
+                "referenceName": "Visser, hans",
+                "reference": {
+                    "value": "174518"
+                },
+                "firstName": "hans",
+                "infix": null,
+                "lastName": "Visser",
+                "emailAddress": "hans.visser@vonknh.nl",
+                "type": "author"
+            }
+        ],
+        "emailAddress": "",
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-40",
+            "name": "CC Naamsvermelding 4.0 Internationale licentie",
+            "description": "De Internationale Creative Commons 4.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/4.0/.",
+            "link": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/188821/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "empty_section"
+            },
+            "heading": {
+                "type": "empty_heading",
+                "content": "",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "questionnaire",
+                    "reference": {
+                        "value": "7207903"
+                    },
+                    "assessmentTestItem": {
+                        "label": "Toets",
+                        "type": "exam",
+                        "header": {
+                            "url": "https://maken.wikiwijs.nl/p/questionnaire/standalone/7207903",
+                            "title": "Test jezelf Apps"
+                        },
+                        "introduction": {
+                            "body": ""
+                        },
+                        "countQuestions": 6,
+                        "sections": [
+                            {
+                                "type": "assessment",
+                                "identifier": "SECTION_7207903",
+                                "name": "MAIN_SECTION",
+                                "select": null,
+                                "shuffle": null,
+                                "selection": null,
+                                "assessmentItems": [
+                                    {
+                                        "identifier": "7207903_0",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "Vraag 1",
+                                                "prompt": {
+                                                    "body": "<p>App is de afkorting van welk (Nederlands) woord?</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "7207903_0_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p>applicatie</p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p>applicatie</p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "identifier": "7207903_1",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "Vraag 2",
+                                                "prompt": {
+                                                    "body": "<p>Wat betekent dit woord?</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "7207903_1_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p>Toepassing</p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p>Toepassing</p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "identifier": "7207903_2",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "choiceInteraction",
+                                                "label": "Vraag 3",
+                                                "prompt": {
+                                                    "body": "<p>Wat is g<span class=\"underline\">een</span> winkel om apps uit te halen?</p>"
+                                                },
+                                                "shuffle": false,
+                                                "maxChoices": 4,
+                                                "minChoices": 0,
+                                                "orientation": "vertical",
+                                                "choices": [
+                                                    {
+                                                        "identifier": "0",
+                                                        "content": {
+                                                            "body": "App Store"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "0",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "1",
+                                                        "content": {
+                                                            "body": "Google Play Store"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "1",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "2",
+                                                        "content": {
+                                                            "body": "Microsoft Store"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "2",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "3",
+                                                        "content": {
+                                                            "body": "Chrome Store"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "3",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    }
+                                                ],
+                                                "responseIdentifier": "7207903_2_1",
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "7207903_2_1",
+                                                "cardinality": "ordered",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "0"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "3"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": "0",
+                                                    "upperBound": 0,
+                                                    "default": "0",
+                                                    "mapEntries": [
+                                                        {
+                                                            "key": "0",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "1",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "2",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "3",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        }
+                                                    ]
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": "0",
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": false,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": true,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_THRESHOLD",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    },
+                                    {
+                                        "identifier": "7207903_3",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "choiceInteraction",
+                                                "label": "Vraag 4",
+                                                "prompt": {
+                                                    "body": "<p>Wanneer is een programma <span class=\"underline\">wel</span> een app?</p>"
+                                                },
+                                                "shuffle": false,
+                                                "maxChoices": 5,
+                                                "minChoices": 0,
+                                                "orientation": "vertical",
+                                                "choices": [
+                                                    {
+                                                        "identifier": "0",
+                                                        "content": {
+                                                            "body": "<ol>\n<li>Een programma op de smartphone is een app</li>\n</ol>"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "0",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "1",
+                                                        "content": {
+                                                            "body": "<ol>\n<li>Een programma op de tablet is een app</li>\n</ol>"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "1",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "2",
+                                                        "content": {
+                                                            "body": "<ol>\n<li>Een programma binnen Windows 10 (of Windows 8.1) is een app</li>\n</ol>"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "2",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "3",
+                                                        "content": {
+                                                            "body": "<ol>\n<li>Een programma op televisie is een app</li>\n</ol>"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "3",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    },
+                                                    {
+                                                        "identifier": "4",
+                                                        "content": {
+                                                            "body": "<ol>\n<li>Een softwareprogramma in een keukenapparaat is ook een app</li>\n</ol>"
+                                                        },
+                                                        "feedback": {
+                                                            "outcomeIdentifier": "FEEDBACK",
+                                                            "identifier": "4",
+                                                            "showHide": true,
+                                                            "title": null,
+                                                            "content": null
+                                                        }
+                                                    }
+                                                ],
+                                                "responseIdentifier": "7207903_3_1",
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "7207903_3_1",
+                                                "cardinality": "ordered",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "0"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "1"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "2"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": "0",
+                                                    "upperBound": 0,
+                                                    "default": "0",
+                                                    "mapEntries": [
+                                                        {
+                                                            "key": "0",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "1",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "2",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "3",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "4",
+                                                            "value": "0",
+                                                            "caseSensitive": false
+                                                        }
+                                                    ]
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": "0",
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": false,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": true,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK_THRESHOLD",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_CORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "RESPONSE_INCORRECT",
+                                                "cardinality": "single",
+                                                "baseType": "boolean",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    },
+                                    {
+                                        "identifier": "7207903_4",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "gapMatchInteraction",
+                                                "content": {
+                                                    "body": "<p><strong>Weetjes</strong><br />\n<br />\nIn <gap identifier=\"GM_66202b362fabb\"></gap> zijn er 79.4 miljard <gap identifier=\"GM_66202b362fac9\"></gap> gedownload dat zorgde voor <gap identifier=\"GM_66202b362facc\"></gap> winst.<br />\n<br />\nOp 10 juli <gap identifier=\"GM_66202b362facf\"></gap> werd de App Store gelanceerd in <gap identifier=\"GM_66202b362fad2\"></gap>.<br />\n<br />\n<gap identifier=\"GM_66202b362fad5\"></gap> waren vanaf het allereerste begin beschikbaar.<br />\nDeze apps behoren bij de populairste ooit.<br />\n<br />\nDe bedenker van <gap identifier=\"GM_66202b362fad8\"></gap> verdiende <gap identifier=\"GM_66202b362fadb\"></gap> per dag<br />\nhelaas is flappy bird nu uit de <gap identifier=\"GM_66202b362fade\"></gap> wegens na\u00e4ping.</p>",
+                                                    "items": [
+                                                        {
+                                                            "identifier": "GM_66202b362facc",
+                                                            "answer": {
+                                                                "identifier": "GMT_66202b362facd",
+                                                                "content": {
+                                                                    "body": "30 miljard euro"
+                                                                }
+                                                            },
+                                                            "feedbackInline": null
+                                                        },
+                                                        {
+                                                            "identifier": "GM_66202b362fabb",
+                                                            "answer": {
+                                                                "identifier": "GMT_66202b362fabc",
+                                                                "content": {
+                                                                    "body": "2014"
+                                                                }
+                                                            },
+                                                            "feedbackInline": null
+                                                        },
+                                                        {
+                                                            "identifier": "GM_66202b362fadb",
+                                                            "answer": {
+                                                                "identifier": "GMT_66202b362fadc",
+                                                                "content": {
+                                                                    "body": "50.000 euro"
+                                                                }
+                                                            },
+                                                            "feedbackInline": null
+                                                        },
+                                                        {
+                                                            "identifier": "GM_66202b362facf",
+                                                            "answer": {
+                                                                "identifier": "GMT_66202b362fad0",
+                                                                "content": {
+                                                                    "body": "2008"
+                                                                }
+                                                            },
+                                                            "feedbackInline": null
+                                                        },
+                                                        {
+                                                            "identifier": "GM_66202b362fade",
+                                                            "answer": {
+                                                                "identifier": "GMT_66202b362fadf",
+                                                                "content": {
+                                                                    "body": "app store"
+                                                                }
+                                                            },
+                                                            "feedbackInline": null
+                                                        },
+                                                        {
+                                                            "identifier": "GM_66202b362fad2",
+                                                            "answer": {
+                                                                "identifier": "GMT_66202b362fad3",
+                                                                "content": {
+                                                                    "body": "62 landen"
+                                                                }
+                                                            },
+                                                            "feedbackInline": null
+                                                        },
+                                                        {
+                                                            "identifier": "GM_66202b362fad8",
+                                                            "answer": {
+                                                                "identifier": "GMT_66202b362fad9",
+                                                                "content": {
+                                                                    "body": "flappy bird"
+                                                                }
+                                                            },
+                                                            "feedbackInline": null
+                                                        },
+                                                        {
+                                                            "identifier": "GM_66202b362fad5",
+                                                            "answer": {
+                                                                "identifier": "GMT_66202b362fad6",
+                                                                "content": {
+                                                                    "body": "Facebook en Shazam"
+                                                                }
+                                                            },
+                                                            "feedbackInline": null
+                                                        },
+                                                        {
+                                                            "identifier": "GM_66202b362fac9",
+                                                            "answer": {
+                                                                "identifier": "GMT_66202b362faca",
+                                                                "content": {
+                                                                    "body": "Apps"
+                                                                }
+                                                            },
+                                                            "feedbackInline": null
+                                                        }
+                                                    ]
+                                                },
+                                                "label": "Vraag 5",
+                                                "responseIdentifier": "7207903_4_1",
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "7207903_4_1",
+                                                "cardinality": "record",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": "GM_66202b362fabb",
+                                                            "value": "GMT_66202b362fabc"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": "GM_66202b362fac9",
+                                                            "value": "GMT_66202b362faca"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": "GM_66202b362facc",
+                                                            "value": "GMT_66202b362facd"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": "GM_66202b362facf",
+                                                            "value": "GMT_66202b362fad0"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": "GM_66202b362fad2",
+                                                            "value": "GMT_66202b362fad3"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": "GM_66202b362fad5",
+                                                            "value": "GMT_66202b362fad6"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": "GM_66202b362fad8",
+                                                            "value": "GMT_66202b362fad9"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": "GM_66202b362fadb",
+                                                            "value": "GMT_66202b362fadc"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": "GM_66202b362fade",
+                                                            "value": "GMT_66202b362fadf"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": [
+                                                        {
+                                                            "key": "GM_66202b362fabb",
+                                                            "value": 0.11,
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "GM_66202b362fac9",
+                                                            "value": 0.11,
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "GM_66202b362facc",
+                                                            "value": 0.11,
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "GM_66202b362facf",
+                                                            "value": 0.11,
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "GM_66202b362fad2",
+                                                            "value": 0.11,
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "GM_66202b362fad5",
+                                                            "value": 0.11,
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "GM_66202b362fad8",
+                                                            "value": 0.11,
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "GM_66202b362fadb",
+                                                            "value": 0.11,
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "GM_66202b362fade",
+                                                            "value": 0.11,
+                                                            "caseSensitive": false
+                                                        }
+                                                    ]
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    },
+                                    {
+                                        "identifier": "7207903_5",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "orderInteraction",
+                                                "label": "Vraag 6",
+                                                "prompt": {
+                                                    "body": "<p>Dit zijn de 5 populairste apps van 2021. Zij zijn het meest gedownload in zowel voor PlayStore als Android. Zet bovenaan de meest gedownloade app en vul zo de top 5 aan (met op de 5e plek de <span class=\"underline\">minst</span> populaire van deze 5).</p>"
+                                                },
+                                                "shuffle": true,
+                                                "minChoices": 0,
+                                                "maxChoices": 5,
+                                                "orientation": "vertical",
+                                                "choices": [
+                                                    {
+                                                        "identifier": "ec46da4638d1a6bc9c7d601efcb88bd2",
+                                                        "content": {
+                                                            "body": "Telegram"
+                                                        },
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "1295359046aa972a407e41a1350316e7",
+                                                        "content": {
+                                                            "body": "Facebook"
+                                                        },
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "97094d4eb5162950ed0f771abed47e4d",
+                                                        "content": {
+                                                            "body": "Instagram"
+                                                        },
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "7277e44510f33087d07f4066d0ce308b",
+                                                        "content": {
+                                                            "body": "Tik Tok"
+                                                        },
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "1815d0886d3fddd35b602bc0054b868d",
+                                                        "content": {
+                                                            "body": "WhatsApp"
+                                                        },
+                                                        "feedbackInline": null
+                                                    }
+                                                ],
+                                                "responseIdentifier": "7207903_5_1",
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "7207903_5_1",
+                                                "cardinality": "ordered",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "7277e44510f33087d07f4066d0ce308b"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "1295359046aa972a407e41a1350316e7"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "97094d4eb5162950ed0f771abed47e4d"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "1815d0886d3fddd35b602bc0054b868d"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "ec46da4638d1a6bc9c7d601efcb88bd2"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": [
+                                                        {
+                                                            "key": "7277e44510f33087d07f4066d0ce308b",
+                                                            "value": 0.2,
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "1295359046aa972a407e41a1350316e7",
+                                                            "value": 0.2,
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "97094d4eb5162950ed0f771abed47e4d",
+                                                            "value": 0.2,
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "1815d0886d3fddd35b602bc0054b868d",
+                                                            "value": 0.2,
+                                                            "caseSensitive": false
+                                                        },
+                                                        {
+                                                            "key": "ec46da4638d1a6bc9c7d601efcb88bd2",
+                                                            "value": 0.2,
+                                                            "caseSensitive": false
+                                                        }
+                                                    ]
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": "0",
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    }
+                                ]
+                            }
+                        ],
+                        "outcomeDeclarations": null,
+                        "showEvaluation": null,
+                        "feedback": null
+                    }
+                }
+            ],
+            "sections": []
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": null,
+            "dimension": null,
+            "suppressTitle": null
+        },
+        "color": "#333333"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": null,
+        "imageSrc": null,
+        "sources": [],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            },
+            {
+                "key": "learningTime",
+                "label": "Studiebelasting",
+                "terms": [
+                    "4 uur en 0 minuten"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

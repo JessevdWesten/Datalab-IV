@@ -1,0 +1,1645 @@
+{
+    "documentAuthors": [
+        "Inge van Grieken"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Inge van Grieken",
+            "referenceName": null,
+            "reference": {
+                "value": "133038"
+            },
+            "firstName": "Inge",
+            "infix": null,
+            "lastName": "van Grieken",
+            "emailAddress": "inge.vangrieken@student.hu.nl",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2020-07-30T14:02:25Z",
+    "bulkId": "bulk-17041658-refresh_all",
+    "identifier": 161496,
+    "title": "ICT probleemoplossend en computational thinking",
+    "description": "",
+    "lastModifiedDate": "2020-07-30T14:02:25+02:00",
+    "dateCreated": "2020-05-04T12:22:57+02:00",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "van Grieken, Inge",
+                "reference": {
+                    "value": "133038"
+                },
+                "firstName": "Inge",
+                "infix": null,
+                "lastName": "van Grieken",
+                "emailAddress": "inge.vangrieken@student.hu.nl",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-40",
+            "name": "CC Naamsvermelding 4.0 Internationale licentie",
+            "description": "De Internationale Creative Commons 4.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/4.0/.",
+            "link": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/161496/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "6010752"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Introductie",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "video",
+                    "url": "https://youtu.be/ScErP6-0OpE",
+                    "align": "left",
+                    "caption": "https://youtu.be/ScErP6-0OpE",
+                    "poster": "https://img.youtube.com/vi/ScErP6-0OpE/maxresdefault.jpg"
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6195992"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6195992",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "choiceInteraction",
+                                "label": "Vraag 1",
+                                "prompt": {
+                                    "body": "<p>Over welk land werd er in het filmpje wat gezegd?</p>"
+                                },
+                                "shuffle": true,
+                                "maxChoices": 3,
+                                "minChoices": 1,
+                                "orientation": "vertical",
+                                "choices": [
+                                    {
+                                        "identifier": "0",
+                                        "content": {
+                                            "body": "Nederland"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "0",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "1",
+                                        "content": {
+                                            "body": "Belgi\u00eb"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "1",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "2",
+                                        "content": {
+                                            "body": "Duitsland"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "2",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    }
+                                ],
+                                "responseIdentifier": "6195992_1",
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6195992_1",
+                                "cardinality": "ordered",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0,
+                                    "default": 0,
+                                    "mapEntries": [
+                                        {
+                                            "key": "0",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "1",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "2",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        }
+                                    ]
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6195993"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6195993",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "choiceInteraction",
+                                "label": "Vraag 2",
+                                "prompt": {
+                                    "body": "<p>Welk feitje werd er over het land verteld in het filmpje?</p>"
+                                },
+                                "shuffle": true,
+                                "maxChoices": 3,
+                                "minChoices": 1,
+                                "orientation": "vertical",
+                                "choices": [
+                                    {
+                                        "identifier": "0",
+                                        "content": {
+                                            "body": "Er zijn meer fietsen dan mensen."
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "0",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "1",
+                                        "content": {
+                                            "body": "Er wonen gemiddeld de kleinste mensen op de wereld."
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "1",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "2",
+                                        "content": {
+                                            "body": "Het land grenst met Belgi\u00eb."
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "2",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    }
+                                ],
+                                "responseIdentifier": "6195993_1",
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6195993_1",
+                                "cardinality": "ordered",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0,
+                                    "default": 0,
+                                    "mapEntries": [
+                                        {
+                                            "key": "0",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "1",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "2",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        }
+                                    ]
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "6010778"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Unplugged activiteit",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "video",
+                    "url": "https://youtu.be/wvH4KHmqSzI",
+                    "align": "left",
+                    "caption": "https://youtu.be/wvH4KHmqSzI",
+                    "poster": "https://img.youtube.com/vi/wvH4KHmqSzI/maxresdefault.jpg"
+                },
+                {
+                    "type": "file",
+                    "title": "Werkblad kaartjes",
+                    "file": "https://maken.wikiwijs.nl/userfiles/c/cd96304797c8831518e1354679191830a08c483a.docx"
+                },
+                {
+                    "type": "video",
+                    "url": "https://youtu.be/yDmua49Os5Y",
+                    "align": "left",
+                    "caption": "https://youtu.be/yDmua49Os5Y",
+                    "poster": "https://img.youtube.com/vi/yDmua49Os5Y/maxresdefault.jpg"
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6195989"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6195989",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Vraag 1",
+                                "prompt": {
+                                    "body": "<p>Was jouw volgorde goed? Zo niet, wat was er mis gegaan?</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6195989_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>Eigen antwoord.</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>Eigen antwoord.</p>"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "video",
+                    "url": "https://youtu.be/lFxIrnfBm54",
+                    "align": "left",
+                    "caption": "https://youtu.be/lFxIrnfBm54",
+                    "poster": "https://img.youtube.com/vi/lFxIrnfBm54/maxresdefault.jpg"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "6010781"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Bestaande Scratch gebruiken",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "video",
+                    "url": "https://youtu.be/VWxNsbo0i-w",
+                    "align": "left",
+                    "caption": "https://youtu.be/VWxNsbo0i-w",
+                    "poster": "https://img.youtube.com/vi/VWxNsbo0i-w/maxresdefault.jpg"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Klik op de link om naar de Scratch presentatie te gaan:</p>\n<p><a href=\"https://scratch.mit.edu/projects/413636674\">https://scratch.mit.edu/projects/413636674</a></p>\n"
+                },
+                {
+                    "type": "video",
+                    "url": "https://youtu.be/ePrT2_82Do4",
+                    "align": "left",
+                    "caption": "https://youtu.be/ePrT2_82Do4",
+                    "poster": "https://img.youtube.com/vi/ePrT2_82Do4/maxresdefault.jpg"
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6197934"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6197934",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "selectPointInteraction",
+                                "label": "Vraag 1",
+                                "prompt": {
+                                    "body": "<p>Klik op de afbeelding om de vraag te beantwoorden.</p>\n<p>Welk programmeerblok zorgt er voor dat wanneer je op de groene vlag klikt, er een uitleg tekst in beeld komt?</p>"
+                                },
+                                "minNumberOfPins": 1,
+                                "maxNumberOfPins": "1",
+                                "image": {
+                                    "src": "https://maken.wikiwijs.nl/userfiles/2/2110a945365171927974f27221c0d62059757de4.png",
+                                    "width": "515",
+                                    "height": "151"
+                                },
+                                "responseIdentifier": "6197934_1",
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_CORRECT",
+                                        "identifier": "FBC_6197934",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "Goed gedaan!"
+                                        }
+                                    },
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_INCORRECT",
+                                        "identifier": "FBI_6197934",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "Het goede antwoord was het paarse blokje Zeg Druk op de pijltjes om naar het volgende of vorige land te gaan."
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6197934_1",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": null,
+                                "mapping": null,
+                                "areaMapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "areaMapEntries": [
+                                        {
+                                            "shape": "rectangle",
+                                            "coordinates": [
+                                                {
+                                                    "x": 0,
+                                                    "y": 0,
+                                                    "z": null
+                                                },
+                                                {
+                                                    "x": 0,
+                                                    "y": 0,
+                                                    "z": null
+                                                },
+                                                {
+                                                    "x": 0,
+                                                    "y": 0,
+                                                    "z": null
+                                                },
+                                                {
+                                                    "x": 0,
+                                                    "y": 0,
+                                                    "z": null
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 1,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6197937"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6197937",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "selectPointInteraction",
+                                "label": "Vraag 2",
+                                "prompt": {
+                                    "body": "<p>Klik op de afbeelding om de vraag te beantwoorden.</p>\n<p>Welk programmeerblok zorgt ervoor dat er iets 3 seconde lang gezegd wordt?</p>"
+                                },
+                                "minNumberOfPins": 1,
+                                "maxNumberOfPins": "1",
+                                "image": {
+                                    "src": "https://maken.wikiwijs.nl/userfiles/d/da0ebe937ef27ceb53bd29e49a210c9d898f4dfe.png",
+                                    "width": "543",
+                                    "height": "347"
+                                },
+                                "responseIdentifier": "6197937_1",
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_CORRECT",
+                                        "identifier": "FBC_6197937",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "Goed gedaan!"
+                                        }
+                                    },
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_INCORRECT",
+                                        "identifier": "FBI_6197937",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "De paarse zeg blokjes waar sec. achter staan, zorgen er voor dat de tekst 3 seconde lang gezegt wordt."
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6197937_1",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": null,
+                                "mapping": null,
+                                "areaMapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "areaMapEntries": [
+                                        {
+                                            "shape": "polygon",
+                                            "coordinates": [
+                                                {
+                                                    "x": 518,
+                                                    "y": 285,
+                                                    "z": null
+                                                },
+                                                {
+                                                    "x": 520,
+                                                    "y": 325,
+                                                    "z": null
+                                                },
+                                                {
+                                                    "x": 34,
+                                                    "y": 325,
+                                                    "z": null
+                                                },
+                                                {
+                                                    "x": 33.79998779296875,
+                                                    "y": 206.5,
+                                                    "z": null
+                                                },
+                                                {
+                                                    "x": 415,
+                                                    "y": 207,
+                                                    "z": null
+                                                },
+                                                {
+                                                    "x": 414.79998779296875,
+                                                    "y": 245.5,
+                                                    "z": null
+                                                },
+                                                {
+                                                    "x": 469.79998779296875,
+                                                    "y": 247.5,
+                                                    "z": null
+                                                },
+                                                {
+                                                    "x": 470,
+                                                    "y": 285,
+                                                    "z": null
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 1,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6197938"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6197938",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "gapMatchInteraction",
+                                "content": {
+                                    "body": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/0/015043b2e8c048aad0bcbc2286fb8877e204d17f.PNG\" class=\"height-189-pixels width-561-pixels\" /></p>\n<p>Zet de zinnen op het juiste stukje in het verhaal.</p>\n<p>Wanneer de achtergrond van <gap identifier=\"GM_66200b36bf8a4\"></gap> verschijnt, zegt de Sprite eerst <gap identifier=\"GM_66200b36bf8b3\"></gap>.<br />\nDit duurt <gap identifier=\"GM_66200b36bf8b6\"></gap><br />\nDaarna zegt de Sprite <gap identifier=\"GM_66200b36bf8b9\"></gap><br />\nAls laatst zegt de Sprite <gap identifier=\"GM_66200b36bf8bc\"></gap><br />\nWanneer de laatste zin is gezegd <gap identifier=\"GM_66200b36bf8bf\"></gap></p>",
+                                    "items": [
+                                        {
+                                            "identifier": "GM_66200b36bf8a4",
+                                            "answer": {
+                                                "identifier": "GMT_66200b36bf8a5",
+                                                "content": {
+                                                    "body": "China"
+                                                }
+                                            },
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "GM_66200b36bf8b3",
+                                            "answer": {
+                                                "identifier": "GMT_66200b36bf8b4",
+                                                "content": {
+                                                    "body": "Ik ga je wat vertellen over China"
+                                                }
+                                            },
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "GM_66200b36bf8b6",
+                                            "answer": {
+                                                "identifier": "GMT_66200b36bf8b7",
+                                                "content": {
+                                                    "body": "3 seconde lang."
+                                                }
+                                            },
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "GM_66200b36bf8b9",
+                                            "answer": {
+                                                "identifier": "GMT_66200b36bf8ba",
+                                                "content": {
+                                                    "body": "Het langste bouwwerk ter wereld staat in China, de Chinese muur. Voor 4 seconde lang."
+                                                }
+                                            },
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "GM_66200b36bf8bf",
+                                            "answer": {
+                                                "identifier": "GMT_66200b36bf8c0",
+                                                "content": {
+                                                    "body": "gaat de tekst weg."
+                                                }
+                                            },
+                                            "feedbackInline": null
+                                        },
+                                        {
+                                            "identifier": "GM_66200b36bf8bc",
+                                            "answer": {
+                                                "identifier": "GMT_66200b36bf8bd",
+                                                "content": {
+                                                    "body": "Het land met de meeste inwoners op de wereld is China. Voor 4 seconde lang."
+                                                }
+                                            },
+                                            "feedbackInline": null
+                                        }
+                                    ]
+                                },
+                                "label": "Vraag 3",
+                                "responseIdentifier": "6197938_1",
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_CORRECT",
+                                        "identifier": "FBC_6197938",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "Goed gedaan!"
+                                        }
+                                    },
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_INCORRECT",
+                                        "identifier": "FBI_6197938",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "Wanneer de achtergrond van <strong>China</strong> verschijnt, zegt de Sprite eerst <strong>Ik ga je wat vertellen over China</strong>.<br />\nDit duurt <strong>3 seconde lang.</strong><br />\nDaarna zegt de Sprite <strong>Het langste bouwwerk ter wereld staat in China, de Chinese muur. Voor 4 seconde lang.</strong><br />\nAls laatst zegt de Sprite <strong>Het land met de meeste inwoners op de wereld is China. Voor 4 seconde lang.</strong><br />\nWanneer de laatste zin is gezegd <strong>gaat de tekst weg.</strong>"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6197938_1",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": "GM_66200b36bf8a4",
+                                            "value": "GMT_66200b36bf8a5"
+                                        },
+                                        {
+                                            "fieldIdentifier": "GM_66200b36bf8b3",
+                                            "value": "GMT_66200b36bf8b4"
+                                        },
+                                        {
+                                            "fieldIdentifier": "GM_66200b36bf8b6",
+                                            "value": "GMT_66200b36bf8b7"
+                                        },
+                                        {
+                                            "fieldIdentifier": "GM_66200b36bf8b9",
+                                            "value": "GMT_66200b36bf8ba"
+                                        },
+                                        {
+                                            "fieldIdentifier": "GM_66200b36bf8bc",
+                                            "value": "GMT_66200b36bf8bd"
+                                        },
+                                        {
+                                            "fieldIdentifier": "GM_66200b36bf8bf",
+                                            "value": "GMT_66200b36bf8c0"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": [
+                                        {
+                                            "key": "GM_66200b36bf8a4",
+                                            "value": 0.17,
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "GM_66200b36bf8b3",
+                                            "value": 0.17,
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "GM_66200b36bf8b6",
+                                            "value": 0.17,
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "GM_66200b36bf8b9",
+                                            "value": 0.17,
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "GM_66200b36bf8bc",
+                                            "value": 0.17,
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "GM_66200b36bf8bf",
+                                            "value": 0.17,
+                                            "caseSensitive": false
+                                        }
+                                    ]
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 1,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6197940"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6197940",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Vraag 4",
+                                "prompt": {
+                                    "body": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/0/07c372049a3ef3ccd9a8905eafac6757aaf2a263.PNG\" class=\"height-117-pixels width-353-pixels\" /></p>\n<p>Je ziet hier de code van een pijltje en de code van een achtergrond. Hoe werken deze twee stukjes code samen?</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6197940_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>Wanneer je op het pijltje klikt gaat de achtergrond naar de vorige achtergrond. Als deze achtergrond op het scherm staat wordt er iets verteld over het land waar de achtergrond vandaan&nbsp;komt.</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>Wanneer je op het pijltje klikt gaat de achtergrond naar de vorige achtergrond. Als deze achtergrond op het scherm staat wordt er iets verteld over het land waar de achtergrond vandaan komt.</p>"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6197942"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6197942",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Vraag 5",
+                                "prompt": {
+                                    "body": "<p>Kun je in eigen woorden uitleggen wat heel de code doet?<br />\nJe kunt op scratch zelf de code bekijken</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6197942_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>EIGEN ANTWOORD<br />\r\nVoorbeeld: Wanneer er op het rechtse pijltje wordt geklikt gaat de achtergrond naar de volgende achtergrond. Bij elke achtergrond wordt er iets verteld over het land van de achtergrond. De landen waar iets over wordt verteld zijn Nederland, China en de Noordpool. Wanneer er op het linkse pijltje wordt geklikt gaat de achtergrond naar de vorige achtergrond.</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>EIGEN ANTWOORD<br />\nVoorbeeld: Wanneer er op het rechtse pijltje wordt geklikt gaat de achtergrond naar de volgende achtergrond. Bij elke achtergrond wordt er iets verteld over het land van de achtergrond. De landen waar iets over wordt verteld zijn Nederland, China en de Noordpool. Wanneer er op het linkse pijltje wordt geklikt gaat de achtergrond naar de vorige achtergrond.</p>"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "6010783"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Bestaande Scratch aanpassen",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "video",
+                    "url": "https://youtu.be/gDt71NxJNQg",
+                    "align": "left",
+                    "caption": "https://youtu.be/gDt71NxJNQg",
+                    "poster": "https://img.youtube.com/vi/gDt71NxJNQg/maxresdefault.jpg"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p><a href=\"https://scratch.mit.edu/projects/413636674\">https://scratch.mit.edu/projects/413636674</a></p>\n<p>Ga naar de scratch en verander de volgende dingen:\u200b</p>\n<ul>\n<li>Verander de openingstekst. Schrijf zelf een nieuwe kleine opening en kijk wat er gebeurt als je op de groene vlag klikt.</li>\n<li>Zet de paarse zeg vakjes bij de Noordpool op een andere volgorde en kijk wat er gebeurt wanneer je naar de achtergrond van de Noordpool gaat.</li>\n<li>Zet een nieuwe achtergrond in de presentatie <em>foto van Belgi\u00eb.</em> En kijk wat er gebeurt als je op de pijltjes klikt. (Sla de afbeelding op, op je computer om het toe te voegen aan scratch)</li>\n</ul>\n"
+                },
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/3/344bf36f3563e8ccd06d3ee83030eee5025d204a.png",
+                    "altText": "Foto van Belgi\u00eb",
+                    "alignment": "left",
+                    "scale": 0.3,
+                    "link": ""
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "6010791"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Zelf presentatie maken",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "video",
+                    "url": "https://youtu.be/TiAkV60iZCs",
+                    "align": "left",
+                    "caption": "https://youtu.be/TiAkV60iZCs",
+                    "poster": "https://img.youtube.com/vi/TiAkV60iZCs/maxresdefault.jpg"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Klik op de link en klik daarna op <strong>maak </strong>om een eigen presentatie te maken:</p>\n<p><a href=\"https://scratch.mit.edu/\">https://scratch.mit.edu/</a></p>\n"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p><strong>Wat moet je doen:</strong></p>\n<p>- Wanneer er op de groene vlag wordt geklikt staat er een openingstekst in beeld.<br/>\n- Er zijn 4 nieuwe landen, waarbij een bijpassende achtergrond is te zien. Dus gebruik geen land uit het voorbeeld.<br/>\n- Er worden per land 2 feitjes benoemd over het land dat te zien is in de achtergrond.<br/>\n- Er worden 2 knoppen gemaakt waarmee de presentatie bestuurd kan worden. zoals de pijltjes<br/>\n- Er staat in de presentatie een Sprite die de informatie verteld. Je mag zelf een sprite kiezen</p>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "6010794"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Evalueren",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6198411"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6198411",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Vraag 1",
+                                "prompt": {
+                                    "body": "<p>Leg in eigen woorden uit wat 'sequentie' is en gebruik een voorbeeld van jouw scratch presentatie.</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6198411_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>EIGEN ANTWOORD</p>\r\n\r\n<p>voorbeeld: Sequentie is het stapgewijs iets doen. Het zijn dingen die los van elkaar staan. In de presentatie worden de teksten op volgorde voorgelezen.</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>EIGEN ANTWOORD</p>\n<p>voorbeeld: Sequentie is het stapgewijs iets doen. Het zijn dingen die los van elkaar staan. In de presentatie worden de teksten op volgorde voorgelezen.</p>"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6198415"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6198415",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "orderInteraction",
+                                "label": "Vraag 2",
+                                "prompt": {
+                                    "body": "<p>Zet de volgende plaatjes op de goede volgorde van boven naar beneden.</p>"
+                                },
+                                "shuffle": true,
+                                "minChoices": 0,
+                                "maxChoices": 4,
+                                "orientation": "vertical",
+                                "choices": [
+                                    {
+                                        "identifier": "7277e44510f33087d07f4066d0ce308b",
+                                        "content": {
+                                            "body": "<img alt=\"Boterham - Wikipedia\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Boterham_0205.jpg/250px-Boterham_0205.jpg\" class=\"height-272-pixels width-204-pixels\" />"
+                                        },
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "1295359046aa972a407e41a1350316e7",
+                                        "content": {
+                                            "body": "<img alt=\"Boter op je brood; belangrijk voor je kleuter! - Baby.be\" src=\"https://www.baby.be/cache/im/rich_content_page/uploads/thumbnail/news/55acbe6c38009.png?v=1.2.6\" class=\"height-141-pixels width-230-pixels\" />"
+                                        },
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "97094d4eb5162950ed0f771abed47e4d",
+                                        "content": {
+                                            "body": "<img alt=\"ansichtkaart tjalf sparnaay - boterham met hagelslag|Muller ...\" src=\"https://www.mullerwenskaarten.nl/media/catalog/product/cache/88c249e9b35f8318e3f98995be1adeed/a/n/ansichtkaart-29303.jpg\" class=\"height-186-pixels width-260-pixels\" />"
+                                        },
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "1815d0886d3fddd35b602bc0054b868d",
+                                        "content": {
+                                            "body": "<img alt=\"Hagelslag is gewoon strooisnoep op brood | De Volkskrant\" src=\"https://images1.persgroep.net/rcs/-Azzb8IcrKouZIQM-dt0Nz-4UUA/diocontent/112951051/_crop/0/73/1580/893/_fitwidth/763?appId=93a17a8fd81db0de025c8abd1cca1279&amp;quality=0.8\" class=\"height-136-pixels width-241-pixels\" />"
+                                        },
+                                        "feedbackInline": null
+                                    }
+                                ],
+                                "responseIdentifier": "6198415_1",
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_CORRECT",
+                                        "identifier": "FBC_6198415",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "Goed gedaan!"
+                                        }
+                                    },
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_INCORRECT",
+                                        "identifier": "FBI_6198415",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "Als eerst pak je een boterham. Daarna smeer je boter op de boterham. Dan doe je hagelslag op de boterham. Als laatst snij je de boterham in stukjes en is het klaar om gegeten te worden."
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6198415_1",
+                                "cardinality": "ordered",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "7277e44510f33087d07f4066d0ce308b"
+                                        },
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "1295359046aa972a407e41a1350316e7"
+                                        },
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "97094d4eb5162950ed0f771abed47e4d"
+                                        },
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "1815d0886d3fddd35b602bc0054b868d"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": [
+                                        {
+                                            "key": "7277e44510f33087d07f4066d0ce308b",
+                                            "value": 0.3,
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "1295359046aa972a407e41a1350316e7",
+                                            "value": 0.3,
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "97094d4eb5162950ed0f771abed47e4d",
+                                            "value": 0.3,
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "1815d0886d3fddd35b602bc0054b868d",
+                                            "value": 0.3,
+                                            "caseSensitive": false
+                                        }
+                                    ]
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": "0",
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": "1",
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6198419"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6198419",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Vraag 3",
+                                "prompt": {
+                                    "body": "<p>Schrijf hier twee feitjes die je hebt gebruikt voor het maken van je presentatie over jouw eigen gekozen landen.</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6198419_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>EIGEN ANTWOORD</p>\r\n\r\n<p>Voorbeeld: Er zijn in Nederland meer fietsen dan mensen en Nederlanders zijn gemiddeld de langste mensen op de wereld.</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>EIGEN ANTWOORD</p>\n<p>Voorbeeld: Er zijn in Nederland meer fietsen dan mensen en Nederlanders zijn gemiddeld de langste mensen op de wereld.</p>"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "sections": []
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": null,
+            "dimension": null,
+            "suppressTitle": null
+        },
+        "color": "#333333"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Introductie",
+                "reference": {
+                    "value": "6010752"
+                },
+                "sections": []
+            },
+            {
+                "title": "Unplugged activiteit",
+                "reference": {
+                    "value": "6010778"
+                },
+                "sections": []
+            },
+            {
+                "title": "Bestaande Scratch gebruiken",
+                "reference": {
+                    "value": "6010781"
+                },
+                "sections": []
+            },
+            {
+                "title": "Bestaande Scratch aanpassen",
+                "reference": {
+                    "value": "6010783"
+                },
+                "sections": []
+            },
+            {
+                "title": "Zelf presentatie maken",
+                "reference": {
+                    "value": "6010791"
+                },
+                "sections": []
+            },
+            {
+                "title": "Evalueren",
+                "reference": {
+                    "value": "6010794"
+                },
+                "sections": []
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": null,
+        "imageSrc": null,
+        "sources": [
+            {
+                "type": "video",
+                "title": "",
+                "origin": "https://youtu.be/ScErP6-0OpE ",
+                "customOrigin": null,
+                "link": "https://youtu.be/ScErP6-0OpE ",
+                "visible": true
+            },
+            {
+                "type": "video",
+                "title": "",
+                "origin": "https://youtu.be/wvH4KHmqSzI",
+                "customOrigin": null,
+                "link": "https://youtu.be/wvH4KHmqSzI",
+                "visible": true
+            },
+            {
+                "type": "video",
+                "title": "",
+                "origin": "https://youtu.be/yDmua49Os5Y",
+                "customOrigin": null,
+                "link": "https://youtu.be/yDmua49Os5Y",
+                "visible": true
+            },
+            {
+                "type": "video",
+                "title": "",
+                "origin": "https://youtu.be/lFxIrnfBm54 ",
+                "customOrigin": null,
+                "link": "https://youtu.be/lFxIrnfBm54 ",
+                "visible": true
+            },
+            {
+                "type": "video",
+                "title": "",
+                "origin": "https://youtu.be/VWxNsbo0i-w ",
+                "customOrigin": null,
+                "link": "https://youtu.be/VWxNsbo0i-w ",
+                "visible": true
+            },
+            {
+                "type": "video",
+                "title": "",
+                "origin": "https://youtu.be/ePrT2_82Do4 ",
+                "customOrigin": null,
+                "link": "https://youtu.be/ePrT2_82Do4 ",
+                "visible": true
+            },
+            {
+                "type": "video",
+                "title": "",
+                "origin": "https://youtu.be/gDt71NxJNQg ",
+                "customOrigin": null,
+                "link": "https://youtu.be/gDt71NxJNQg ",
+                "visible": true
+            },
+            {
+                "type": "video",
+                "title": "",
+                "origin": "https://youtu.be/TiAkV60iZCs ",
+                "customOrigin": null,
+                "link": "https://youtu.be/TiAkV60iZCs ",
+                "visible": true
+            }
+        ],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

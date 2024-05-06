@@ -1,0 +1,715 @@
+{
+    "documentAuthors": [
+        "Hans Werker"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Hans Werker",
+            "referenceName": null,
+            "reference": {
+                "value": "47023"
+            },
+            "firstName": "Hans",
+            "infix": null,
+            "lastName": "Werker",
+            "emailAddress": "h.werker@noorderpoort.nl",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2017-01-30T11:22:03Z",
+    "bulkId": "bulk-17041135-refresh_all",
+    "identifier": 87606,
+    "title": "access",
+    "description": "",
+    "lastModifiedDate": "2017-01-30T11:22:03+01:00",
+    "dateCreated": "2016-10-10T20:02:46+02:00",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "1026"
+        },
+        "name": "Team Hans Werker",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "Werker, Hans",
+                "reference": {
+                    "value": "47023"
+                },
+                "firstName": "Hans",
+                "infix": null,
+                "lastName": "Werker",
+                "emailAddress": "h.werker@noorderpoort.nl",
+                "type": "author"
+            },
+            {
+                "fullName": null,
+                "referenceName": "Werker, Hans",
+                "reference": {
+                    "value": "57951"
+                },
+                "firstName": "Hans",
+                "infix": null,
+                "lastName": "Werker",
+                "emailAddress": "h.werker@noorderpoort.nl",
+                "type": "author"
+            },
+            {
+                "fullName": null,
+                "referenceName": "doornbosch, peter",
+                "reference": {
+                    "value": "59118"
+                },
+                "firstName": "peter",
+                "infix": null,
+                "lastName": "doornbosch",
+                "emailAddress": "p.doornbosch@noorderpoort.nl",
+                "type": "author"
+            },
+            {
+                "fullName": null,
+                "referenceName": "Epema, Kees",
+                "reference": {
+                    "value": "97259"
+                },
+                "firstName": "Kees",
+                "infix": null,
+                "lastName": "Epema",
+                "emailAddress": "cw.epema@noorderpoort.nl",
+                "type": "author"
+            },
+            {
+                "fullName": null,
+                "referenceName": "Dubbelhuis, Paul",
+                "reference": {
+                    "value": "108237"
+                },
+                "firstName": "Paul",
+                "infix": null,
+                "lastName": "Dubbelhuis",
+                "emailAddress": "ajh.dubbelhuis@noorderpoort.nl",
+                "type": "author"
+            }
+        ],
+        "emailAddress": "h.werker@noorderpoort.nl",
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-30",
+            "name": "CC Naamsvermelding 3.0 Nederland licentie",
+            "description": "De Nederlandse Creative Commons 3.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/3.0/nl/.",
+            "link": "http://creativecommons.org/licenses/by/3.0/nl/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/87606/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "2527039"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "0. Inleiding",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Even opfrissen: wat is een database? en hoe zit het ook alweer met Access? Lees het hier na.</p>\n"
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "2527041"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Database en tabel",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<h2>Access</h2>\n<p>Microsoft Access is een programma voor het opzetten en gebruiken van databases.</p>\n<h2>Database</h2>\n<p>Een database dient voor het <strong>ordenen</strong> van gegevens. Dat ordenen dient ervoor om de gegevens weer gemakkelijk te kunnen raadplegen en gebruiken. Je kunt een database dan ook zien als een soort <strong>archief</strong>, maar dan in digitale vorm. (of denk aan een bibliotheek: de boeken zijn daar zo geordend dat je ze snel terugvindt).</p>\n<p>In Microsoft Access is een database het totaal van alle tabellen, formulieren, queries, relaties, rapporten etc. + de ingevoerde gegevens.</p>\n<h2>Tabel</h2>\n<p>De gegevens worden in groepen geordend: groepen die bij elkaar horen. In Microsoft Access noem je zo'n geordende groep gegevens een <strong>tabel</strong>. Zo'n tabel is in feite een lijst met rijen en kolommen zoals je ook op ruitjespapier of in een Excel-spreadsheet zou kunnen maken. Iedere tabel heeft een <strong>tabelnaam</strong> die uniek is voor de tabellen binnen de database. Een geordende groep zou bijvoorbeeld kunnen gaan over boeken in een bibliotheek.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "2527043"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Opbouw tabel",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Een <strong>rij</strong> in de tabel noem je een <strong>record.</strong> In een record vind je betekenisvolle informatie over \u00e9\u00e9n iets, bijv. over \u00e9\u00e9n boek, over \u00e9\u00e9n leerling, over \u00e9\u00e9n klas.</p>\n<p>Een <strong>kolom</strong> in de tabel noem je een <strong>veld.</strong> Een veld gaat over \u00e9\u00e9n item, bijv. de prijs van ieder boek. Ieder veld heeft een <strong>veldnaam</strong> die uniek is binnen de tabel.</p>\n<p>Ieder veld is van een bepaald <strong>type</strong>. Zo kun je bijvoorbeeld tekstvelden benoemen, numerieke velden, ja/nee-velden, een invoervak met keuzelijst etc. Het type veld bepaalt welke gegevens kunnen worden ingevoerd. In een numeriek veld kun je bijvoorbeeld geen tekst invoeren. </p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/2/2461fe088be86ca11fce8ace9bb8be60.JPG\" class=\"height-224-pixels width-600-pixels\"/></p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "2527045"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Opzet database",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>In een database komen in het algemeen <strong>meerdere tabellen</strong> voor.</p>\n<h2>Meerdere tabellen</h2>\n<p>Bij het opzetten van een database gelden regels.</p>\n<ul>\n<li>regel is dat dubbele gegevens in de database niet zouden moeten voorkomen. Dit is nl. foutgevoelig, tijdrovend en (maar dat is tegenwoordig niet meer zo belangrijk) het kost ook ruimte.</li>\n<li>De gegevens in de database moeten correct zijn.</li>\n</ul>\n<p>Om dubbele gegevens te voorkomen, is het nodig om de gegevens per onderwerp op te nemen in verschillende tabellen.</p>\n<h2>Sleutel</h2>\n<p>Een <strong>sleutel</strong> (<strong>primaire sleutel)</strong> is een veld waarin de <strong>waardes</strong> binnen een bepaalde tabel <strong>uniek</strong> zijn, dus maar \u00e9\u00e9n keer mogen voorkomen. De sleutel wordt gebruikt om een bepaald record uniek te kunnen aanduiden en  voor verwijzingen tussen verschillende tabellen. Denk aan school: op school kunnen natuurlijk best mensen zitten met dezelfde naam. Dat is onhandig: dan zou jij de cijfers kunnen krijgen van een andere Jan Janssen. Op school heb je daarom een uniek leerlingnummer dat niemand anders heeft. Dat leerlingnummer is een sleutel in de leerlingtabel.</p>\n<p>Als je een tabel maakt, geeft Access je automatisch een primaire sleutel mee via <strong>'autonummering'</strong>. Bij ieder record dat je invoert, zet Access dan vanzelf een uniek nummer. Wil je dit niet gebruiken, dan kun je dit veld weghalen en vervangen door je eigen oplossing.</p>\n<p>Het is ook mogelijk om te werken met een <strong>samengestelde sleutel</strong>. Dan is de <strong>combinatie van twee of meer velden</strong> uniek. </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "2527047"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Relaties",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><span class=\"font-size-12px\">(zie presentatie relaties voor 1 op 1, 1 op meer, meer op meer relaties)</span></p>\n<p>Binnen een database komen vaak meerdere tabellen voor die onderling wel <strong>iets met elkaar te maken</strong> hebben. De gegevens in de verschillende tabellen hebben een relatie.</p>\n<p>Binnen Acces kun je die relatie tussen de verschillende tabellen aangeven. Het is heel belangrijk om dat op een goede manier te doen. Heb je de relatie tussen verschillende tabellen op de goede manier gelegd, dan kun je gegevens uit de <strong>combinatie van de verschillende tabellen</strong> tonen in \u00e9\u00e9n query, in \u00e9\u00e9n rapport en in \u00e9\u00e9n formulier.</p>\n<p>Via <strong>'hulpmiddelen voor databases'</strong> en via <strong>'query'</strong> kun je relaties leggen.</p>\n<p>Stel je bijvoorbeeld een luchthaven voor. Ieder vliegtuig wordt uniek aangeduid met een nummer. Het vliegtuignummer is dus een sleutelveld binnen de tabel 'vliegtuigen'. Daarnaast staat er allerlei informatie in deze tabel over merk/type vliegtuig, vlieguren etc.</p>\n<p>Er zijn natuurlijk ook piloten. Iedere piloot wordt ook uniek aangeduid met een pilotennummer. Het pilotennummer is dus een sleutelveld binnen de tabel 'piloten'. Verder staat in deze tabel allerlei informatie over de piloot, aantal vlieguren, adres enzovoorts.</p>\n<p>Op iedere vlucht heb je een vliegtuig nodig en ook een piloot. In de tabel 'vluchten' ga je dus opnemen welke piloot en welk vliegtuig wordt gebruikt. Door in deze tabel het <strong>sleutelveld</strong> uit de tabel 'piloten' en het sleutelveld uit de tabel 'vliegtuigen' op te nemen weet je precies welke piloot welk vliegtuig gaat besturen. Maar: in de tabel 'vluchten' is het pilotennummer geen sleutelveld. Een piloot gaat natuurlijk nog wel eens vaker een vlucht maken. Het vliegtuignummer is ook geen sleutelveld. Een vliegtuig maakt ook vaker dan \u00e9\u00e9n keer een vlucht.</p>\n<p>We moeten dus op zoek naar een nieuwe sleutel voor de tabel 'vluchten'. Dat kan op verschillende manieren:</p>\n<ul>\n<li>Het benoemen van een <strong>nieuwe sleutel</strong>, bijvoorbeeld een uniek vluchtnummer</li>\n<li>Het bepalen van een unieke <strong>samengestelde sleutel</strong>, bijvoorbeeld door pilotennummer, vliegtuignummer en vertrektijd samen als samengestelde sleutel te benoemen. (De kans dat hetzelfde vliegtuig met dezelfde piloot meerdere keren op hetzelfde moment vertrekt is 0)</li>\n</ul>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "2527049"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Queries",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Relaties in een database zijn heel erg belangrijk. Er zijn 1 op 1, 1 op meer, en meer op meer relaties. Neem de presentatie goed door.</p>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p><span class=\"font-size-12px\">Een query is een stuk gereedschap om gegevens mee op te vragen en te bewerken. Er zijn verschillende soorten queries:</span></p>\n<ul>\n<li>\n<p><strong>Selectiequery</strong>: je gebruikt een selectiequery om gegevens mee op te vragen. In de query kun je instellen dat je alleen bepaalde records wilt zien. Dit doe je door <strong><span class=\"underline\">criteria</span></strong> op te geven. Het resultaat is een overzicht van alle records die aan je selectiecriteria voldoen. Dit resultaat noem je een <span class=\"underline\">dynaset</span>. Je kunt gegevens uit de dynaset wijzigen:  je wijzigt dan direct de oorspronkelijke tabelgegevens.</p>\n</li>\n<li>\n<p><strong>Toevoegquery:</strong> met een toevoegquery kun je in \u00e9\u00e9n klap een serie records vanuit tabel1 toevoegen aan tabel2.</p>\n</li>\n<li>\n<p><strong>Bijwerkquery</strong>: met een bijwerkquery kun je een bepaald veld in een tabel in \u00e9\u00e9n klap met een waarde vullen.  </p>\n</li>\n</ul>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "2527052"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Formulier en rapport",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<h2>Formulieren</h2>\n<p>Een formulier maak je op basis van een tabel. Met een formulier kun je de gegevens van \u00e9\u00e9n record op je scherm bekijken, wijzigen, verwijderen of toevoegen.</p>\n<p>Binnen een formulier kun je een subformulier aanmaken. In dat subformulier kun je gegevens tonen uit een gerelateerde tabel.</p>\n<p> </p>\n<h2>Rapporten</h2>\n<p>Met rapporten kun je gegevens vanuit de database laten afdrukken. Je kunt zelf instellen welke velden van de records getoond moeten worden op het rapport, en hoe de gegevens moeten worden opgemaakt (denk aan lettergrootte, lettertype, kleur enz.).  Je kunt op een rapport bijvoorbeeld ook velden laten optellen (bijvoorbeeld op een lijst met verkochte auto's ook het totaal van de verkopen  laten afdrukken)</p>\n<p> </p>\n<h1> </h1>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "2527054"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Wat komt in de database?",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<h1>Wat komt er in de database?</h1>\n<p>Stel je voor dat je een database moet gaan ontwerpen. Wat moet er in komen? Met die vraag zitten systeemontwerpers bij bedrijven ook. Je begint niet zomaar met het bouwen van een database. Zo'n systeemontwerper heeft een <span class=\"underline\">klant</span> die hem of haar heeft gevraagd om een database te bouwen. Die klant heeft daar natuurlijk een reden voor. De systeemontwerper zal dan ook beginnen met vragen stellen, zoals:</p>\n<ul>\n<li>Waar is de database voor bedoeld?</li>\n<li>Wat gebeurt er precies? Hoe ziet het werk van de klant er uit?</li>\n<li>Waarom wil de klant een (andere) database?</li>\n<li>Welk systeem gebruikt de klant nu?</li>\n<li>Wat is daar goed aan? En wat juist niet?</li>\n<li>Wil de klant misschien hele nieuwe dingen gaan doen?</li>\n</ul>\n<p>Pas daarna heeft de systeemontwerper een idee welke gegevens er in de database moeten worden opgenomen.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "2527056"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "1. Herhaling",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "video",
+                    "url": "https://www.youtube.com/watch?v=23j3e_XciIY&index=2&list=PLrsXYNNwl2Zu-x7oza6YT_6mL6r45uR9u",
+                    "align": "left",
+                    "caption": "https://www.youtube.com/watch?v=23j3e_XciIY&index=2&list=PLrsXYNNwl2Zu-x7oza6YT_6mL6r45uR9u",
+                    "poster": "https://img.youtube.com/vi/23j3e_XciIY/maxresdefault.jpg"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"width-100-percent\">\n<tbody>\n<tr>\n<td>\n<p><span style=\"color:#0000FF;\">Lees de opdracht eerst helemaal goed door. De informatie die je nodig hebt staat verspreid.</span></p>\n</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<ul>\n<li>Maak een tabel met:\n<ul>\n<li><strong>naw-gegevens</strong> van leerlingen. Naw staat voor <strong>Naam, Adres, Woonplaats</strong>. </li>\n<li>Ook moet een <strong>foto</strong> van de leerling kunnen worden opgeslagen.</li>\n<li>Zorg voor een <strong>primaire sleutel</strong></li>\n</ul>\n</li>\n</ul>\n<ul>\n<li>De tabel moet zo worden ingericht dat er kan worden gesorteerd op <strong>voornaam, achternaam, leeftijd en klas.</strong></li>\n</ul>\n<ul>\n<li>Wanneer je de tabel af hebt, maak je er een <strong>formulier</strong> voor. Niet met de wizard maar gewoon in ontwerpweergave.\n<ul>\n<li>Verander de <strong>formulierkoptekst</strong> in<strong>'leerlinggegevens'</strong></li>\n<li>Zorg dat de <strong>lengte</strong> van de invoervelden past bij de gegevens die erin komen te staan.</li>\n<li>Zorg dat de <strong>foto</strong> onderaan komt te staan en <strong>groter</strong> wordt getoond.</li>\n<li>Zorg ervoor dat je bij het invoeren van de gegevens via het formulier als <strong>laatste</strong> de foto moet toevoegen</li>\n<li>De klas van de leerling moet kunnen worden gekozen uit een <strong>keuzelijst met invoervak</strong>. Dit kan op twee manieren. Kies zelf de geschikste manier en onderbouw je keuze.</li>\n<li>Het veld <strong>IPAD</strong> (heeft de leerling er \u00e9\u00e9n?) is een <strong>selectievakje</strong>.</li>\n<li>De <strong>datum</strong> ziet er als volgt uit: 1 januari 2011, wanneer een leerling ouder is dan 14 jaar dan moet de tekst <strong>groen</strong> worden (anders <strong>zwart</strong>)</li>\n<li>Ouderbijdrage: Dit is normaal gesproken \u20ac 10,00, in bijzondere gevallen betalen ouders minder of niets.</li>\n<li>Vul bij het <strong>navigatiebijschrift</strong> de tekst Bladeren: in (eigenschappen formulier)</li>\n<li>Maak in de <strong>formuliervoettekst</strong> een <strong>knop om een record af te drukken.</strong></li>\n</ul>\n</li>\n</ul>\n<ul>\n<li>Vul minimaal \u00e9\u00e9n record volledig in om te controleren of alles goed werkt.</li>\n</ul>\n<p> </p>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "2527058"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "2. Uitleg relaties",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>In onderstaande presentatie worden 1 op 1 relaties, 1 op meer relaties en meer op meer relaties nog eens uitgelegd.</p>\n"
+                },
+                {
+                    "type": "file",
+                    "title": "Presentatie 1 op 1, 1 op meer, meer op meer relaties",
+                    "file": "https://maken.wikiwijs.nl/userfiles/e/e2a38c4faf3a3dc9359ca2380e3210fa.pptx"
+                },
+                {
+                    "type": "file",
+                    "title": "https://maken.wikiwijs.nl/userfiles/5/5727cd43edd43c83703829c7e1269d60.pdf",
+                    "file": "https://maken.wikiwijs.nl/userfiles/5/5727cd43edd43c83703829c7e1269d60.pdf"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "2527062"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "3. Opdracht relaties",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<h3>Opdracht: Tabellen en relaties</h3>\n<p>Maak de twee volgende <strong>tabellen</strong>:</p>\n<ul>\n<li><strong>Leerlingen</strong> met de velden leerlingnr, Naam, geslacht (ja/nee veld- je hebt maar twee geslachten)</li>\n<li><strong>Vakken</strong> met de velden Vakcode en Vakomschrijving</li>\n</ul>\n<p>Deze twee tabellen hebben een <strong>meer op meer</strong> relatie. Dit kan niet rechtstreeks in Access worden opgelost. Maak dus  <strong>nog een tabel</strong> om dit probleem op te lossen. Bedenk dat de meer op meer relatie wordt opgesplitst in twee \u00e9\u00e9n op meer relaties.</p>\n<p>Zorg ervoor dat de juiste <strong>sleutelvelden</strong> worden gedefinieerd.</p>\n<p>Leg de relaties in het <strong>Relatiescherm</strong>.</p>\n<h3>Formulier</h3>\n<p>Maak een formulier met de <strong>leerlinggegevens</strong>. Gebruik <strong><span class=\"underline\">formulierontwerp!</span></strong></p>\n<p><span class=\"font-size-14px\">Zorg met behulp van een</span> <strong>subformulier</strong> <span class=\"font-size-14px\">(dit is een keuze in formulierontwerp) dat per leerling de bijbehorende vakken getoond worden. (zowel de afkorting als de hele naam). In eerste instantie zie je (waarschijnlijk) dat het leerlingen nummer per vak herhaald wordt. Haal dit veld weg uit het subformulier.</span></p>\n<p><span class=\"font-size-14px\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/3/3d25df3093968f59f68e7c5e7b471a38.png\" class=\"height-448-pixels width-396-pixels\"/></span></p>\n<p>Je ziet nu de vakafkortingen van de vakken die de leerling heeft.</p>\n<p>Maak van het tekstvak <strong>vakcode</strong> een <strong>keuzelijst met invoervak</strong> die gekoppeld is aan de tabel vakken zodanig dat de vakomschrijving wordt getoond en de vakcode wordt opgeslagen.</p>\n<p>Het resultaat is nu een formulier waar drie verschillende tabellen worden getoond.</p>\n<p> Is dit allemaal gelukt, maak dan van het veld geslacht een groepsvak die er als volgt uitziet:</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/0/05d28fa4900b0ba519246b87df1b5786.png\" class=\"height-147-pixels width-193-pixels\"/></p>\n<p>De waarden die je moet invullen zijn waar/onwaar in plaats van de 1 en 2 die er staan. Dat doe je omdat je van het veld 'geslacht' volgens de opdracht een ja/nee veld hebt moeten maken. Bij een ja/nee veld hoort de waarde -1 (waar) of 0 (onwaar).</p>\n<p>Je mag zelf kiezen of je bij 'man'  'waar'  intypt of bij 'vrouw' (bij het andere geslacht komt dan 'onwaar' te staan)</p>\n<p>Van het woord 'waar' maakt Access zelf -1 en van 'onwaar' maakt Access 0. Je kunt ook direct de cijfers intypen als je wilt.</p>\n<p>BELANGRIJK: je moet wel onthouden of -1 in jouw geval 'man' of 'vrouw' betekent. </p>\n"
+                },
+                {
+                    "type": "file",
+                    "title": "https://maken.wikiwijs.nl/userfiles/6/6265c352b94e72ca3aa6475809abc91f.docx",
+                    "file": "https://maken.wikiwijs.nl/userfiles/6/6265c352b94e72ca3aa6475809abc91f.docx"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "2527065"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "4. Cursus",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Zoek in het document 'videocursus Access' opdracht 2A, 2C en 2D en voer deze uit.even ui</p>\n<p>Download de database 'contacten'. Hierin vind je de tabel tblPersoonsgegevens die je nodig hebt om de opdracht te kunnen maken.</p>\n<p>Pas op, het is een zipfile: even uitpakken en opslaan.</p>\n"
+                },
+                {
+                    "type": "file",
+                    "title": "Cursus Access",
+                    "file": "https://maken.wikiwijs.nl/userfiles/e/e0b7db35451d96f171d59f60fd280f6a.pdf"
+                },
+                {
+                    "type": "file",
+                    "title": "https://maken.wikiwijs.nl/userfiles/8/852accf8de28585f8785118b3e0d8aea.zip",
+                    "file": "https://maken.wikiwijs.nl/userfiles/8/852accf8de28585f8785118b3e0d8aea.zip"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "2527069"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "5. Belgisch bier",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>1. Download het bestand 'Belgisch bier'. Pas op: dit is een zipfile: even uitpakken dus en opslaan in je eigen map.</p>\n<p>Zie ELO voor opdracht</p>\n<p> </p>\n"
+                },
+                {
+                    "type": "file",
+                    "title": "https://maken.wikiwijs.nl/userfiles/8/84f5f8f3ede7f00a1e02c9ca5f7f6a3a.zip",
+                    "file": "https://maken.wikiwijs.nl/userfiles/8/84f5f8f3ede7f00a1e02c9ca5f7f6a3a.zip"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "2527072"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "6. Eindopdracht",
+                "level": 1
+            },
+            "items": [],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "2586954"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Opdracht 32a",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "2586959"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Vervangende opdracht",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "file",
+                            "title": "Opdracht voor klas 32A",
+                            "file": "https://maken.wikiwijs.nl/userfiles/e/e34e4d31d90bec91aedd0a166232b5db67733a2e.docx"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "2587036"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "query maken",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>De vertaling van het Engelse woord query is vraag. Een voorbeeld van een query is: 'Ik wil uit de tabel Vrijwilligers alleen de namen en de telefoonnummers zien.' De gegevens worden uit de oorspronkelijke tabel gehaald en op uw scherm gezet. Er wordt geen kopie gemaakt van de tabel, maar er ontstaat een tijdelijke set met gegevens. De query kan worden opgeslagen, zodat u deze later nog een keer kunt gebruiken. Uiteraard worden dan de gegevens getoond die op dat moment in de tabel staan. Het voorbeeld met de namen en telefoonnummers is eenvoudig. U kunt in een query ook de opdracht geven om gegevens te sorteren, te selecteren en zelfs gegevens bij te werken. Bij dat laatste kunt u denken aan het verhogen van de prijs met een bepaald percentage. Query's zijn ook te gebruiken als bron voor rapporten of formulieren. De query met de namen en de telefoonnummers van de vrijwilligers kunt u gebruiken voor een rapport; een telefoonlijst dus.</p>\n<p class=\"text-align-center\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/d/d1e801aa3345af3df3d5bfc14b59794d5178ac8d.png\" class=\"height-340-pixels width-500-pixels\"/></p>\n<p>In de tabellen worden alle velden opgenomen die nodig zijn om de juiste informatie uit de database te kunnen halen, maar u hebt lang niet altijd alle gegevens nodig. Voor bijvoorbeeld de telefoonlijst hebt u voldoende aan de naamgegevens en de telefoonnummers, zowel vast als mobiel. U gebruikt de wizard om de query te maken. Daarna ziet u hoe u met de wizard Rapport een nette telefoonlijst kunt maken.</p>\n<ol>\n<li>Klik op het tabblad Maken.</li>\n<li>Klik op Wizard  Query. Het venster Nieuwe Query verschijnt.</li>\n<li>Klik op Wizard Selectiequery en klik op <strong>OK</strong>.</li>\n<li>Selecteer de tabel Vrijwilligers.</li>\n<li>Verplaats de velden v_voornaam, v_tussenv, v_achternaam, v_telefoon en v_mobiel naar Geselecteerde velden en klik op Volgende.</li>\n<li>Wijzig de naam van de query in Telefoon Vri jwi 11 i gers en klik op Voltooien.</li>\n<li>Sluit de tabel.</li>\n</ol>\n<p class=\"text-align-center\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/d/dc875c7c11fad61326d857d382f3e2f583af6d9d.png\" class=\"height-320-pixels width-500-pixels\"/></p>\n<p>De query wordt gebruikt om een nieuw rapport samen te stellen. U herkent een query aan het pictogram dat bestaat uit twee elkaar overlappende vensters. U ziet in het navigatiedeelvenster de query Telefoon Vrijwilligers.</p>\n<p> </p>\n<p> </p>\n"
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "2590707"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Opracht voor bijwerk query",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "file",
+                            "title": "Bijwerk Query",
+                            "file": "https://maken.wikiwijs.nl/userfiles/f/fd7ff9190143add54536441778cbd4f46ec05914.accdb"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Er zijn verschillende query's.</p>\n<p>Een query kan heel erg krachtig zijn. met de bijwerk query gaan we bovenstaand database bijwerken. Als je de database opent dan zie je dat er een aantal velden niet zijn ingevuld. Bijvoorbeeld</p>\n<ol>\n<li>Volledige naam</li>\n<li>Maandprod</li>\n<li>Bonus</li>\n</ol>\n<p>Ik wil dat jullie via een bijwerk query het jaarsalaris van de mensen gaan verhogen met 4% salaris verhoging. </p>\n<p>Dit zal ik voordoen.</p>\n<p> </p>\n<ul>\n<li>Daarna mogen jullie zelf onderzoeken hoe de kolom Volledigenaam moet worden gevuld met Voornaam tussenvoegsel en achternaam. Bewaar deze query als bijwerk voornaam achternaam</li>\n<li>Daarna mogen jullie alle vrouwen een maandproductie geven van 40.000 euro en de heren een maandproductie van 35.000 euro. </li>\n<li>Het woord Randstd is niet helemaal goed overgekomen bij de database conversie. Verander in de bijwerk query Rndstd in Randstad.</li>\n<li>Geef iedereen die minder verdient dan 25.000 een bonus van 1000 euro</li>\n<li>Extra iedereen die voor 1-1-1965 is geboren krijgt de vermelding Senior</li>\n</ul>\n<p>Bewaar alle query's met een logische naam en upload het bestand naar de ELO</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "2586955"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Eindopdrachten",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "file",
+                            "title": "https://maken.wikiwijs.nl/userfiles/7/703c906f1d84ec0bcab0eaf1b4b0be5d.docx",
+                            "file": "https://maken.wikiwijs.nl/userfiles/7/703c906f1d84ec0bcab0eaf1b4b0be5d.docx"
+                        },
+                        {
+                            "type": "file",
+                            "title": "https://maken.wikiwijs.nl/userfiles/7/7e781a32e2da791adc915bad21669d66.docx",
+                            "file": "https://maken.wikiwijs.nl/userfiles/7/7e781a32e2da791adc915bad21669d66.docx"
+                        },
+                        {
+                            "type": "file",
+                            "title": "https://maken.wikiwijs.nl/userfiles/b/bc52729304553666f1cf88bde52d8425.docx",
+                            "file": "https://maken.wikiwijs.nl/userfiles/b/bc52729304553666f1cf88bde52d8425.docx"
+                        },
+                        {
+                            "type": "file",
+                            "title": "https://maken.wikiwijs.nl/userfiles/c/c3188c2d0fb133729670c2b167fc168f.docx",
+                            "file": "https://maken.wikiwijs.nl/userfiles/c/c3188c2d0fb133729670c2b167fc168f.docx"
+                        },
+                        {
+                            "type": "file",
+                            "title": "https://maken.wikiwijs.nl/userfiles/7/73561b861eda99fc663b61fc6dd5c508.docx",
+                            "file": "https://maken.wikiwijs.nl/userfiles/7/73561b861eda99fc663b61fc6dd5c508.docx"
+                        },
+                        {
+                            "type": "file",
+                            "title": "https://maken.wikiwijs.nl/userfiles/1/12a010823787811668448d8433f3904a.docx",
+                            "file": "https://maken.wikiwijs.nl/userfiles/1/12a010823787811668448d8433f3904a.docx"
+                        },
+                        {
+                            "type": "file",
+                            "title": "https://maken.wikiwijs.nl/userfiles/b/bb1164cbd0c3b2fe2acb44f036875552.docx",
+                            "file": "https://maken.wikiwijs.nl/userfiles/b/bb1164cbd0c3b2fe2acb44f036875552.docx"
+                        },
+                        {
+                            "type": "file",
+                            "title": "https://maken.wikiwijs.nl/userfiles/d/d6b1f5c88b1948ed5b05ac333cc2e348.docx",
+                            "file": "https://maken.wikiwijs.nl/userfiles/d/d6b1f5c88b1948ed5b05ac333cc2e348.docx"
+                        },
+                        {
+                            "type": "file",
+                            "title": "https://maken.wikiwijs.nl/userfiles/5/59996790a8944719eafd7a9ff4731a04.docx",
+                            "file": "https://maken.wikiwijs.nl/userfiles/5/59996790a8944719eafd7a9ff4731a04.docx"
+                        },
+                        {
+                            "type": "file",
+                            "title": "https://maken.wikiwijs.nl/userfiles/a/a455576516812f7be0515e971290e6b7.docx",
+                            "file": "https://maken.wikiwijs.nl/userfiles/a/a455576516812f7be0515e971290e6b7.docx"
+                        },
+                        {
+                            "type": "file",
+                            "title": "https://maken.wikiwijs.nl/userfiles/6/668acb74b61bb12fda2694fae785b5b0.docx",
+                            "file": "https://maken.wikiwijs.nl/userfiles/6/668acb74b61bb12fda2694fae785b5b0.docx"
+                        },
+                        {
+                            "type": "file",
+                            "title": "Query",
+                            "file": "https://maken.wikiwijs.nl/userfiles/0/06023c9ce9a2c56d4eb3b0fdd413323452140702.accdb"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<h1><a>Actiequery's ontwerpen</a></h1>\n<hr/>\n<p>Leerdoel; De student moet in staat zijn om zogenaamde actiequery's uit te voeren</p>\n<hr/>\n<p>Zoals eerder reeds werd aangegeven, worden query's niet enkel gebruikt om records in een tabel te selecteren, filteren en sorteren, maar ook om als basis te dienen voor formulieren of rapporten, en zelfs om er bepaalde acties mee uit te voeren:</p>\n<ul>\n<li>te interageren met de gebruiker</li>\n<li>kruistabellen en statistieken te berekenen</li>\n<li>gegevens in de records van een tabel aan te passen</li>\n<li>een nieuwe tabel te maken op basis van een bestaande tabel</li>\n<li>bepaalde records uit een tabel te verwijderen</li>\n</ul>\n<p>We bekijken enkele van deze vele mogelijkheden.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": null,
+            "dimension": null,
+            "suppressTitle": null
+        },
+        "color": "#495057"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "0. Inleiding",
+                "reference": {
+                    "value": "2527039"
+                },
+                "sections": [
+                    {
+                        "title": "Database en tabel",
+                        "reference": {
+                            "value": "2527041"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Opbouw tabel",
+                        "reference": {
+                            "value": "2527043"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Opzet database",
+                        "reference": {
+                            "value": "2527045"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Relaties",
+                        "reference": {
+                            "value": "2527047"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Queries",
+                        "reference": {
+                            "value": "2527049"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Formulier en rapport",
+                        "reference": {
+                            "value": "2527052"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Wat komt in de database?",
+                        "reference": {
+                            "value": "2527054"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "1. Herhaling",
+                "reference": {
+                    "value": "2527056"
+                },
+                "sections": []
+            },
+            {
+                "title": "2. Uitleg relaties",
+                "reference": {
+                    "value": "2527058"
+                },
+                "sections": []
+            },
+            {
+                "title": "3. Opdracht relaties",
+                "reference": {
+                    "value": "2527062"
+                },
+                "sections": []
+            },
+            {
+                "title": "4. Cursus",
+                "reference": {
+                    "value": "2527065"
+                },
+                "sections": []
+            },
+            {
+                "title": "5. Belgisch bier",
+                "reference": {
+                    "value": "2527069"
+                },
+                "sections": []
+            },
+            {
+                "title": "6. Eindopdracht",
+                "reference": {
+                    "value": "2527072"
+                },
+                "sections": []
+            },
+            {
+                "title": "Opdracht 32a",
+                "reference": {
+                    "value": "2586954"
+                },
+                "sections": [
+                    {
+                        "title": "Vervangende opdracht",
+                        "reference": {
+                            "value": "2586959"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "query maken",
+                "reference": {
+                    "value": "2587036"
+                },
+                "sections": [
+                    {
+                        "title": "Opracht voor bijwerk query",
+                        "reference": {
+                            "value": "2590707"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Eindopdrachten",
+                        "reference": {
+                            "value": "2586955"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": null,
+        "imageSrc": null,
+        "sources": [
+            {
+                "type": "video",
+                "title": "",
+                "origin": "https://www.youtube.com/watch?v=23j3e_XciIY&index=2&list=PLrsXYNNwl2Zu-x7oza6YT_6mL6r45uR9u",
+                "customOrigin": null,
+                "link": "https://www.youtube.com/watch?v=23j3e_XciIY&index=2&list=PLrsXYNNwl2Zu-x7oza6YT_6mL6r45uR9u",
+                "visible": true
+            }
+        ],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

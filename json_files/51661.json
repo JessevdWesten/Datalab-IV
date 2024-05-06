@@ -1,0 +1,280 @@
+{
+    "documentAuthors": [
+        "Toetsmateriaal Eklassen"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Toetsmateriaal Eklassen",
+            "referenceName": null,
+            "reference": {
+                "value": "22368"
+            },
+            "firstName": "Toetsmateriaal",
+            "infix": "",
+            "lastName": "Eklassen",
+            "emailAddress": "toetsmateriaal.eklassen@gmail.com",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2014-08-18T14:07:54Z",
+    "bulkId": "bulk-17041135-refresh_all",
+    "identifier": 51661,
+    "title": "Wikiwijs: Computercriminaliteit - Wormen",
+    "description": "",
+    "lastModifiedDate": "2014-08-18T14:07:54+02:00",
+    "dateCreated": "-0001-11-30T00:00:00+00:19",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "Eklassen, Toetsmateriaal",
+                "reference": {
+                    "value": "22368"
+                },
+                "firstName": "Toetsmateriaal",
+                "infix": "",
+                "lastName": "Eklassen",
+                "emailAddress": "toetsmateriaal.eklassen@gmail.com",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-40",
+            "name": "CC Naamsvermelding 4.0 Internationale licentie",
+            "description": "De Internationale Creative Commons 4.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/4.0/.",
+            "link": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/51661/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "empty_section"
+            },
+            "heading": {
+                "type": "empty_heading",
+                "content": "",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "questionnaire",
+                    "reference": {
+                        "value": "897284"
+                    },
+                    "assessmentTestItem": {
+                        "label": "",
+                        "type": "exam",
+                        "header": {
+                            "url": "https://maken.wikiwijs.nl/p/questionnaire/standalone/897284",
+                            "title": "Computercriminaliteit - Wormen"
+                        },
+                        "introduction": {
+                            "body": ""
+                        },
+                        "countQuestions": 2,
+                        "sections": [
+                            {
+                                "type": "assessment",
+                                "identifier": "SECTION_897284",
+                                "name": "MAIN_SECTION",
+                                "select": null,
+                                "shuffle": null,
+                                "selection": null,
+                                "assessmentItems": [
+                                    {
+                                        "identifier": "897284_0",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": " Vraag 1",
+                                                "prompt": {
+                                                    "body": "<p>Zoek met behulp van Google en/of Wikipedia uit:</p>\n<p>a) Wat waren de gevolgen van de Morris Worm?</p>\n<p>b) Wat was de financiele schade die de Morris Worm veroorzaakt heeft?</p>\n<p>c) Wat was de bedoeling van de maker van de Morris worm?</p>\n<p>d) Tot welke straf is hij veroordeeld voor het verspreiden van deze worm?</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "897284_0_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p>a) Wat waren de gevolgen van de Morris Worm?</p>\r\n\r\n<p>De worm opende op ge&iuml;nfecteerde systemen een steeds groeiend aantal processen, waardoor de systemen zeer traag werden. Ongeveer 6000 grote Unix machines raakte ge&iuml;nfecteerd. Dit maakte het een zeer grote Denial of Service attack.</p>\r\n\r\n<p>b) Wat was de financiele schade die de Morris Worm veroorzaakt heeft?</p>\r\n\r\n<p>Schattingen lopen uiteen van $100,000 tot $10,000,000.</p>\r\n\r\n<p>c) Wat was de bedoeling van de maker van de Morris worm?</p>\r\n\r\n<p>Hij wilde uitvinden hoeveel machines er aan het internet waren verbonden.</p>\r\n\r\n<p>d) Tot welke straf is hij veroordeeld voor het verspreiden van deze worm?</p>\r\n\r\n<p>400 uur taakstraf en een boete van $10,000</p>\r\n\r\n<p>&nbsp;</p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p>a) Wat waren de gevolgen van de Morris Worm?</p>\n<p>De worm opende op ge\u00efnfecteerde systemen een steeds groeiend aantal processen, waardoor de systemen zeer traag werden. Ongeveer 6000 grote Unix machines raakte ge\u00efnfecteerd. Dit maakte het een zeer grote Denial of Service attack.</p>\n<p>b) Wat was de financiele schade die de Morris Worm veroorzaakt heeft?</p>\n<p>Schattingen lopen uiteen van $100,000 tot $10,000,000.</p>\n<p>c) Wat was de bedoeling van de maker van de Morris worm?</p>\n<p>Hij wilde uitvinden hoeveel machines er aan het internet waren verbonden.</p>\n<p>d) Tot welke straf is hij veroordeeld voor het verspreiden van deze worm?</p>\n<p>400 uur taakstraf en een boete van $10,000</p>\n<p> </p>"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "identifier": "897284_1",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "extendedTextInteraction",
+                                                "label": "Vraag 2",
+                                                "prompt": {
+                                                    "body": "<p>In deze opdracht gebruik je het programma \"Worm Simulator\". Download het programma op<a href=\"http://vx.netlux.org/vx.php?id=ss01\" target=\"_blank\">http://vx.netlux.org/vx.php?id=ss01</a> (klik op de diskette links onder Download). Installeer het programma en open de toepassing WormSimulator.</p>\n<p>Klik op Load en selecteer de Blaster worm. Start de simulatie. Bekijk daarna ook de wormen MyDoom, Netsky, Sasser, Slammer, and SoBig.</p>\n<p>a) Welke worm verspreidt zich het snelst?</p>\n<p>b) Wat denk je dat Clean, Patched, Dormant, Infected en Dead betekenen?</p>\n<p>c) Welke worm is het gevaarlijkst en waarom?</p>"
+                                                },
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "897284_1_1",
+                                                "cardinality": "single",
+                                                "baseType": "string",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": null,
+                                                            "value": "<p>Clean : Dit betekent dat de computer nog geen worm heeft<br />\r\nPatched : Dit betekent dat de computer zijn virusdefinities heeft ge&uuml;pdate of een patch heeft ge&iuml;nstalleerd. Als een computer gepatched is zal hij dit altijd blijven.<br />\r\nDormant : De worm bevindt zich op de computer maar is nog niet geactiveerd. De worm zit bijvoorbeeld in een nog ongeopende e-mail.<br />\r\nInfected : De computer heeft de worm<br />\r\nDead : De computer heeft de worm niet overleefd en doet niets meer.</p>\r\n"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": 0,
+                                                    "upperBound": 1,
+                                                    "default": 0,
+                                                    "mapEntries": []
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": 0,
+                                                "interpretation": null
+                                            },
+                                            {
+                                                "identifier": "FEEDBACK",
+                                                "cardinality": "single",
+                                                "baseType": "identifier",
+                                                "defaultValue": null,
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK",
+                                                "identifier": "ANSWER_CORRECT",
+                                                "showHide": true,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "<p>Clean : Dit betekent dat de computer nog geen worm heeft<br />\nPatched : Dit betekent dat de computer zijn virusdefinities heeft ge\u00fcpdate of een patch heeft ge\u00efnstalleerd. Als een computer gepatched is zal hij dit altijd blijven.<br />\nDormant : De worm bevindt zich op de computer maar is nog niet geactiveerd. De worm zit bijvoorbeeld in een nog ongeopende e-mail.<br />\nInfected : De computer heeft de worm<br />\nDead : De computer heeft de worm niet overleefd en doet niets meer.</p>"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "outcomeDeclarations": null,
+                        "showEvaluation": null,
+                        "feedback": null
+                    }
+                }
+            ],
+            "sections": []
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [
+                {
+                    "content": ""
+                },
+                {
+                    "content": "<span class=\"font-size-20px\">Wikiwijs: Computercriminaliteit - Wormen</span>"
+                }
+            ],
+            "backgroundImageUrl": "https://maken.wikiwijs.nl/generated/l1200x76_c2d7d3398783ecc8a9f0ccccc58dca831d30a1af.jpg",
+            "dimension": null,
+            "suppressTitle": true
+        },
+        "color": "#495057"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": "",
+        "imageSrc": null,
+        "sources": [],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

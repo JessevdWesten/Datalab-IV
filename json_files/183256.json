@@ -1,0 +1,688 @@
+{
+    "documentAuthors": [
+        "J. Schep"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "J. Schep",
+            "referenceName": null,
+            "reference": {
+                "value": "160608"
+            },
+            "firstName": "J.",
+            "infix": null,
+            "lastName": "Schep",
+            "emailAddress": "spj@csg.nl",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2022-01-14T13:06:10Z",
+    "bulkId": "bulk-17041658-refresh_all",
+    "identifier": 183256,
+    "title": "Bronnen beoordelen",
+    "description": "3 havo / atheneum\nDe leerling leert a.h.v. een aantal kenmerken beoordelen of een bron betrouwbaar is.",
+    "lastModifiedDate": "2022-01-14T13:06:10+01:00",
+    "dateCreated": "2022-01-09T13:16:35+01:00",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "Schep, J.",
+                "reference": {
+                    "value": "160608"
+                },
+                "firstName": "J.",
+                "infix": null,
+                "lastName": "Schep",
+                "emailAddress": "spj@csg.nl",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-40",
+            "name": "CC Naamsvermelding 4.0 Internationale licentie",
+            "description": "De Internationale Creative Commons 4.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/4.0/.",
+            "link": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/183256/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "6977930"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Geloof jij in nepnieuws?",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/5/51914b99549767d3cba8da21c3bf00b890aa3b66.jpg",
+                    "altText": "",
+                    "alignment": "center",
+                    "scale": 0.6,
+                    "link": ""
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Via (sociale) media kun je veel informatie vinden. Een deel van die informatie klopt, maar er is ook veel onzin te vinden, of informatie die maar voor een deel klopt.</p>\n<p>Maar hoe weet je nu of iets wel echt waar is?<br/>\n<br/>\nTijdens deze les leer je hoe je kunt beoordelen of een bron <em>betrouwbaar</em> is. Met een betrouwbare bron bedoelen we: een stukje informatie waarvan het waarschijnlijk is dat de inhoud klopt.</p>\n"
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "6978004"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Waarom geloven mensen in nepnieuws?",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "video",
+                            "url": "https://www.vibby.com/v/X1GfUG6L3",
+                            "align": "left",
+                            "caption": "Algoritmes zorgen ervoor dat je steeds hetzelfde soort informatie ziet, waardoor je erin gaat geloven",
+                            "poster": "https://maken.wikiwijs.nl/res/images/playicon_wikiwijs.png"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6977935"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Het gevaar van nepnieuws",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "question",
+                            "reference": {
+                                "value": "6978016"
+                            },
+                            "assessmentItem": {
+                                "identifier": "6978016",
+                                "itemBody": null,
+                                "questions": [
+                                    {
+                                        "type": "extendedTextInteraction",
+                                        "label": "Waarom is nepnieuws eigenlijk een probleem?",
+                                        "prompt": {
+                                            "body": "<p>Nepnieuws zorgt ervoor dat mensen dingen gaan geloven die niet waar zijn. Waarom denk jij dat dat gevaarlijk is? Geef een mogelijk gevolg van nepnieuws.</p>"
+                                        },
+                                        "feedback": null
+                                    }
+                                ],
+                                "responseDeclarations": [
+                                    {
+                                        "identifier": "6978016_1",
+                                        "cardinality": "single",
+                                        "baseType": "string",
+                                        "correctResponse": {
+                                            "interpretation": null,
+                                            "values": [
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "<p>eigen antwoord</p>\r\n"
+                                                }
+                                            ]
+                                        },
+                                        "mapping": {
+                                            "lowerBound": 0,
+                                            "upperBound": 1,
+                                            "default": 0,
+                                            "mapEntries": []
+                                        },
+                                        "areaMapping": null
+                                    }
+                                ],
+                                "outcomeDeclarations": [
+                                    {
+                                        "identifier": "SCORE",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 0,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": null,
+                                        "interpretation": null
+                                    }
+                                ],
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK",
+                                        "identifier": "ANSWER_CORRECT",
+                                        "showHide": true,
+                                        "title": null,
+                                        "content": {
+                                            "body": "<p>eigen antwoord</p>"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/4/498f0ea9aa2cfa65c5028dd1ba638daa7777748f.jpg",
+                            "altText": "",
+                            "alignment": "left",
+                            "scale": 0.3,
+                            "link": ""
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "6978017"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Hoe herken je nepnieuws?",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Stel: je komt op een website terecht met informatie die je interessant vind. Je wil graag iets met de informatie doen (vertellen aan vrienden, gebruiken voor een verslag, je gedrag aanpassen omdat de inhoud je raakt, enzovoorts). Dan is het wel handig om te weten of de informatie wel klopt.</p>\n<p>Let op: Dit geld ook als iemand informatie van interne met jou deelt. Het kan zijn dat die informatie alsnog niet klopt.</p>\n<p>Gelukkig zijn er een 10 checks die je kunt uitvoeren om te controleren of de bron betrouwbaar is. Je zult niet altijd alle kenmerken kunnen vinden, maar hoemeer kenmerken er zijn, hoe groter de kans dat het om een goede bron gaat!</p>\n<p>De betrouwbaarheid van een bron kun je afleiden uit:</p>\n<ol>\n<li>De titel</li>\n<li>De auteur</li>\n<li>De datum</li>\n<li>Wie heeft het gepubliceerd?</li>\n<li>Welke bronnen zijn aangehaald?</li>\n<li>Kloppen de links?</li>\n<li>Welke reden had de auteur?</li>\n<li>Jouw eigen vooroordelen</li>\n<li>Kwaliteit van de tekst</li>\n<li>Beeldmateriaal</li>\n</ol>\n<p><br/>\nLet op! Stel dat alles goed lijkt te zijn, maar dat je er toch achter komt dat er \u00e9\u00e9n punt overduidelijk niet klopt (bijvoorbeeld dat de auteur er waarschijnlijk helemaal niks vanaf weet). Dan is het aan jou om te beoordelen hoe betrouwbaar je het vind.</p>\n<p>Hierna wordt per punt uitgelegd hoe je het moet toepassen. Gebruik die informatie bij het uitvoeren van de opdracht! (Tip: pak eerst de opdracht erbij).</p>\n"
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6978055"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6978055",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Argwaan",
+                                "prompt": {
+                                    "body": "<p>Jij hebt vast ook weleens het gevoel gehad dat iets niet klopte of nep was. Noem eenn voorbeeld van informatie waarvan je twijfelde of het wel echt was en leg uit wat maakte dat je twijfelde.</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6978055_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>Eigen antwoord</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>Eigen antwoord</p>"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "6978056"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "1. Controleer de titel",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/1/1d100f6977040205a7ab2ce5165ac0e45dd2c2ef.png",
+                            "altText": "",
+                            "alignment": "left",
+                            "scale": 0.3,
+                            "link": ""
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>#CLICKBAIT</p>\n<p>Klopt de titel met wat er in het artikel staat? Of is hij bedoeld om aandacht te trekken of emoties op te roepen?</p>\n<p>Als de titel niet past bij de inhoud van het artikel of vooral bedoelt is om bij jou een reactie uit te lokken, kan dat betekenen dat de informatie niet betrouwbaar is. Het kan bijvoorbeeld zijn dat er iemand geld verdient aan hoe vaak er op de link geklikt wordt.Deze persoon zal er dus alles aan doen om jou te laten klikken. Dit soort artikelen hebben meestal niet als doel jou van eerlijke informatie te voorzien.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6978057"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "2. Wie is de auteur?",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>#JOURNALIST</p>\n<p>Is er een auteur vermeld? Bestaat deze echt? Hoe staat hij/zij bekend? Is hij/zij werkzaam binnen de sector waar het nieuws over gaat? Schrijft hij/zij voor bekende sites/kranten?</p>\n<p>Iedereen kan informatie verspreiden via het internet. Je hebt inmiddels wel door dat die informatie niet altijd klopt. Daarom is het slim om erachter te komen wat voor persoon (of welke instantie) het artikel geschreven heeft. Het artikel wordt betrouwbaarder wanneer dit een persoon of instantie is die er verstand van heeft.<br/>\n<br/>\nVoorbeeld: Een econoom heeft verstand van geld. Als die een bewering doet over tandpasta, betekent dat niet dat hij daar meer verstand van heeft dan jij, dus hoef je ook niet zomaar te geloven wat hij schrijft. <br/>\n<br/>\nLet op: Er zijn ook bedrijven die bijvoorbeeld onderzoek laten doen naar de werkzaamheid van hun producten. Ze hebben er baat bij dat het onderzoek positief uitvalt, dus zullen er alles aan doen om de conclusie zo positief mogelijk te laten zijn, dan lijkt het namelijk of de werkzaamheid van hun product wetenschappelijk bewezen is en kunnen ze meer geld verdienen.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6978058"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "3. Wat is de datum van het artikel?",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>#OUD NIEUWS</p>\n<p>Controleer de datum van wat je leest. Het kan zijn dat nieuws van een tijd geleden al ontkracht of niet meer relevant is. </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6978059"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "4. Wie publiceerde het artikel?",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/e/eeffe57ed7d654d09a5c3740a9abb748df67c8f8.png",
+                            "altText": "De speld fabriceert grappig nepnieuws om te amuseren",
+                            "alignment": "center",
+                            "scale": 0.9,
+                            "link": ""
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>#ZELFDENIEUWS #INVALSHOEKEN</p>\n<p>Let op: hier gaat het niet om de schrijver, maar waar het artikel gepubliceerd wordt (een nieuwssite, de website van het RIVM, Instagram, enz.).<br/>\n<br/>\nIs het van een betrouwbaar nieuwsmedium of staat het alleen op sociale media? Welk publiek willen ze bereiken? Wat voor nieuws publiceert deze website nog meer?<br/>\n<br/>\nAls je weet wat voor artikelen er nog meer op deze website te vinden is, kun je een inschatting maken van wat deze site eigenlijk wil met die berichten. Ook is het raadzaam om te controleren of het bericht ook ergens anders te vinden is, zoals bij de NOS.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6978062"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "5. Wat zijn de bronnen?",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>#EXPERT #ECHTEQUOTE</p>\n<p>Waar komt de informatie vandaan? Kijk of er bronnen worden aangehaald. Komt het uit een onderzoek, interview, rapport of organisatie? Worden er meerdere bronnen gebruikt?</p>\n<p>Natuurlijk moeten de bronnen er ook betrouwbaar uitzien. Hoe meer (betrouwbare) bronnen, hoe beter het artikel.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6978063"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "6. Kloppen de links?",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>#FAKEHYPERLINK</p>\n<p>Je kwam waarschijnlijk via een link (dit kan ook een foto of pictogram zijn) bij het artikel en het artikel staan soms ook links. Soms gaan die link bijvoorbeeld naar bronnen of extra informatie.</p>\n<p>Controleer de links: Gaan ze ook daadwerkelijk naar de informatie waar je voor klikte? Kijk naar de url (in de adresbalk) van de website, staat er in de link hetzelfde als wat in het artikel beweerd wordt?\u200b</p>\n<p>Sommige sites lijken in hun uiterlijk heel erg op betrouwbare sites, zoals een site van de overheid of van de NOS. Lees het eerste deel van de url, dan kun je soms al zien dat het eigenlijk niet echt die website is, hoewel het je soms wel moeilijk is gemaakt. Een voorbeeld: \"http://<strong>example</strong>.nl/rabobank.nl\". Dit is niet de <strong>website</strong> van de Rabobank maar van <strong>example</strong>.nl. Hier gaat het natuurlijk niet om een nieuwssite, maar je snapt nu wel waar je op moet letten!</p>\n<p> </p>\n"
+                        },
+                        {
+                            "type": "link",
+                            "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                            "title": "Maak deze opdracht",
+                            "description": "",
+                            "comment": ""
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6978064"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "7. Welke reden had de auteur?",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>#NUANCE #CLICKBAIT</p>\n<p>Wat wil de auteur? Is het een mening? Reclame? Om te lachen? Hoort het bij het beroep?\u200b Wil hij je informeren of sjuist shockeren? Of is het een website waarbij je steeds moet klikken om bij nieuwe informatie te komen (dit gebeurt vaak bij een opsomming of een reeks gebeurtenissen)? In het laatste geval moet je je bedenken dat de kliks vaak geld opbrengen voor de auteur.</p>\n"
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/2/2f189d015f8c4ad339d7615f707b3a8d1031223c.jpg",
+                            "altText": "Op deze website moet je steeds klikken om naar de volgende celebrity te gaan",
+                            "alignment": "right",
+                            "scale": 0.3,
+                            "link": ""
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6978065"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "8. Wat zijn jouw vooroordelen?\u200b",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>#DTV<br/>\n<br/>\nAls er op een website iets wordt beweerd wat aansluit bij wat jij al denkt, vind of graag zou willen, is het makkelijker om aan te nemen dat de informatie klopt. Dat zou jou namelijk goed uitkomen! Het is dus ook goed om kritisch naar jezelf te kijken. Ken je wel het hele plaatje? Of bevestigt deze bron jouw mening en wil je het daardoor graag geloven?<br/>\n<br/>\nHet hoeft natuurlijk niet zo te zijn dat een bron per definitie onbetrouwbaar is als deze overeenkomt met jouw mening of als deze daar juist vanaf wijkt. Maar het is wel goed om je hier bewust van te zijn! </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6978066"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "9. Wat is de kwaliteit van de tekst?",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>#TAAL</p>\n<p>Zitten er veel typfouten, schrijffouten, uitroeptekens of bewerkte afbeeldingen bij? Dit is vrijwel altijd een teken dat een bron niet betrouwbaar is. Natuurlijk maakt iedere journalist weleens een taalfoutje, maar als het er opvallend veel zijn, is er iets mis!</p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6978067"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "10. Is er beeldmateriaal?\u200b",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Kijk goed naar de afbeeldingen. Zijn die bewerkt en moeten ze doorgaan voor werkelijkheid? Dan weet je al dat het mis is. Sommige afbeeldingen zijn heel goed bewerkt, dan kun je dat niet direct zien. Gebruik dan je verstand! Als jij denkt dat het niet kan, kan het meestal ook niet.</p>\n<p>Tegenwoordig is dit ook met video mogelijk. Dan wordt er over een acteur een digitaal masker geplakt en krijgt hij de stem van degene die het zou moeten zijn, maar dat wil nog niet zeggen dat dit echt is. Deep fakes lijken h\u00e9\u00e9l echt, dus veel mensen trappen erin. Gebruik ook hier je verstand!</p>\n<p>Soms wordt een afbeelding of video ook uit de context gehaald, waardoor het lijkt alsof er iets heel heftigs gebeurd of dat iemand iets raars heeft gezegd. Als je de context eromheen weet, blijkt dat soms wel mee te vallen.</p>\n"
+                        },
+                        {
+                            "type": "video",
+                            "url": "https://youtu.be/ofRbESDCRYw",
+                            "align": "right",
+                            "caption": "Deep fake - Mark Rutte bij Brittain's Got Talent",
+                            "poster": "https://img.youtube.com/vi/ofRbESDCRYw/maxresdefault.jpg"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "6978715"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Doen: PO, persoonlijk deel, opdracht 2",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Zoek een krantenartikel op over duurzaamheid en milieu: denk aan global warming, biodiversiteit, klimaatverandering of duurzaamheid. Hierbij ga jij laten zien hoe goed jij kunt kijken naar de betrouwbaarheid van het artikel.  </p>\n<p><strong>Let op: het artikel mag zowel betrouwbaar als onbetrouwbaar zijn, maar het is heel belangrijk dat je dit aspect meeneemt bij het verwoorden van jouw mening.</strong></p>\n<p>Maak een kort verslagje over het artikel wat je gelezen hebt. Gebruik 200-400 woorden. Hierin moet in ieder geval terugkomen:</p>\n<ul>\n<li>\n<p>Beargumenteer of het artikel betrouwbaar is. Gebruik hierbij de kenmerken die zijn behandeld in de les (hoeft niet alle 10, maar maak het wel geloofwaardig).</p>\n</li>\n<li>\n<p>Een reactie op de inhoud in het artikel, koppel de informatie die gegeven wordt met wat je al geleerd hebt over duurzaamheid. Let op: dit gaat niet over jouw eigen mening; dat komt pas bij c. Gebruik eventueel de PowerPoint van les 1: Global Warming.</p>\n</li>\n<li>\n<p>Jouw persoonlijke standpunt over dit onderwerp. Laat zien wat jouw mening is en onderbouw deze met argumenten waarom jij die mening hebt.</p>\n</li>\n<li>\n<p>De link van je artikel</p>\n</li>\n<li>\n<p>Geef aan welke bronnen je gebruikt hebt. Ook als je alleen de PowerPoint van les 1 en je artikel gebruikt hebt!</p>\n</li>\n</ul>\n<p>Lever de opdracht in via Teams!</p>\n"
+                }
+            ],
+            "sections": []
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": null,
+            "dimension": null,
+            "suppressTitle": null
+        },
+        "color": "#333333"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Geloof jij in nepnieuws?",
+                "reference": {
+                    "value": "6977930"
+                },
+                "sections": [
+                    {
+                        "title": "Waarom geloven mensen in nepnieuws?",
+                        "reference": {
+                            "value": "6978004"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Het gevaar van nepnieuws",
+                        "reference": {
+                            "value": "6977935"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Hoe herken je nepnieuws?",
+                "reference": {
+                    "value": "6978017"
+                },
+                "sections": [
+                    {
+                        "title": "1. Controleer de titel",
+                        "reference": {
+                            "value": "6978056"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "2. Wie is de auteur?",
+                        "reference": {
+                            "value": "6978057"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "3. Wat is de datum van het artikel?",
+                        "reference": {
+                            "value": "6978058"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "4. Wie publiceerde het artikel?",
+                        "reference": {
+                            "value": "6978059"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "5. Wat zijn de bronnen?",
+                        "reference": {
+                            "value": "6978062"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "6. Kloppen de links?",
+                        "reference": {
+                            "value": "6978063"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "7. Welke reden had de auteur?",
+                        "reference": {
+                            "value": "6978064"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "8. Wat zijn jouw vooroordelen?\u200b",
+                        "reference": {
+                            "value": "6978065"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "9. Wat is de kwaliteit van de tekst?",
+                        "reference": {
+                            "value": "6978066"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "10. Is er beeldmateriaal?\u200b",
+                        "reference": {
+                            "value": "6978067"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Doen: PO, persoonlijk deel, opdracht 2",
+                "reference": {
+                    "value": "6978715"
+                },
+                "sections": []
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": "",
+        "imageSrc": null,
+        "sources": [
+            {
+                "type": "video",
+                "title": "Algoritmes zorgen ervoor dat je steeds hetzelfde soort informatie ziet, waardoor je erin gaat geloven",
+                "origin": "",
+                "customOrigin": null,
+                "link": "https://www.vibby.com/v/X1GfUG6L3",
+                "visible": true
+            },
+            {
+                "type": "link",
+                "title": "Maak deze opdracht",
+                "origin": "",
+                "customOrigin": null,
+                "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                "visible": true
+            },
+            {
+                "type": "video",
+                "title": "Deep fake - Mark Rutte bij Brittain's Got Talent",
+                "origin": "",
+                "customOrigin": null,
+                "link": "https://youtu.be/ofRbESDCRYw",
+                "visible": true
+            }
+        ],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            },
+            {
+                "key": "learningTime",
+                "label": "Studiebelasting",
+                "terms": [
+                    "0 uur en 25 minuten"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

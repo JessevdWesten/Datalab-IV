@@ -1,0 +1,636 @@
+{
+    "documentAuthors": [
+        "Eva Elbert"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Eva Elbert",
+            "referenceName": null,
+            "reference": {
+                "value": "131337"
+            },
+            "firstName": "Eva",
+            "infix": null,
+            "lastName": "Elbert",
+            "emailAddress": "ewelbert90@gmail.com",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2020-04-17T14:34:28Z",
+    "bulkId": "bulk-17041658-refresh_all",
+    "identifier": 160781,
+    "title": "Botontkalking voorkomen",
+    "description": "Adviezen die je kunt geven zodat pati\u00ebnten botontkalking kunnen voorkomen. ",
+    "lastModifiedDate": "2020-04-17T14:34:28+02:00",
+    "dateCreated": "2020-04-17T09:41:15+02:00",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "Elbert, Eva",
+                "reference": {
+                    "value": "131337"
+                },
+                "firstName": "Eva",
+                "infix": null,
+                "lastName": "Elbert",
+                "emailAddress": "ewelbert90@gmail.com",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-40",
+            "name": "CC Naamsvermelding 4.0 Internationale licentie",
+            "description": "De Internationale Creative Commons 4.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/4.0/.",
+            "link": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/160781/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "5984370"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Wat is botontkalking?",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Bij botontkalking of osteoporose worden de botten broos en daardoor snel breekbaar. Mensen breken sneller iets of krijgen ingezakte rugwervels. Dit komt doordat er bij het ouder worden meer afbraak van botweefsel is dan aanmaak.</p>\n<p>Globaal komt botontkalking vooral voor bij mensen boven de 50 jaar. </p>\n<p>Bij vrouwen worden de botten sneller afgebroken in de eerste jaren na de overgang.</p>\n<p>Bepaalde ziekten of medicijnen kunnen ook botontkalking veroorzaken. </p>\n<p> </p>\n"
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "5985048"
+                    },
+                    "assessmentItem": {
+                        "identifier": "5985048",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "",
+                                "prompt": {
+                                    "body": "<p>Wat kan de pati\u00ebnt zelf doen om botontkalking te voorkomen?</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "5985048_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>1. Zorg voor voldoende lichaamsbeweging zoals wandelen, fietsen of sporten, gedurende een half uur per dag.</p>\r\n\r\n<p>2. Neem 2 &agrave; 3 porties zuivel en 1 of 2 plakken kaas per dag. Dit zorgt voor voldoende calcium en een beetje van de benodigde vitamine D.</p>\r\n\r\n<p>3. Als je niet genoeg vitamine D op kunt nemen uit zonlicht, wordt aangeraden om dit extra te nemen (later in de les meer info hierover).</p>\r\n\r\n<p>4.Leefstijladviezen: maximaal 1 glas alcohol per dag, en liefst niet elke dag.</p>\r\n\r\n<p>5. Niet roken</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>1. Zorg voor voldoende lichaamsbeweging zoals wandelen, fietsen of sporten, gedurende een half uur per dag.</p>\n<p>2. Neem 2 \u00e0 3 porties zuivel en 1 of 2 plakken kaas per dag. Dit zorgt voor voldoende calcium en een beetje van de benodigde vitamine D.</p>\n<p>3. Als je niet genoeg vitamine D op kunt nemen uit zonlicht, wordt aangeraden om dit extra te nemen (later in de les meer info hierover).</p>\n<p>4.Leefstijladviezen: maximaal 1 glas alcohol per dag, en liefst niet elke dag.</p>\n<p>5. Niet roken</p>"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "5985062"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Vitamine D ",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "questionnaire",
+                    "reference": {
+                        "value": "5984393"
+                    },
+                    "assessmentTestItem": {
+                        "label": "Oefening",
+                        "type": "exercise",
+                        "header": {
+                            "url": "https://maken.wikiwijs.nl/p/questionnaire/standalone/5984393",
+                            "title": "Wie heeft er extra vitamine D nodig? "
+                        },
+                        "introduction": {
+                            "body": "<p>Puzzel de gegevens bij elkaar.</p>\n<p>Succes!</p>"
+                        },
+                        "countQuestions": 1,
+                        "sections": [
+                            {
+                                "type": "assessment",
+                                "identifier": "SECTION_5984393",
+                                "name": "MAIN_SECTION",
+                                "select": null,
+                                "shuffle": null,
+                                "selection": null,
+                                "assessmentItems": [
+                                    {
+                                        "identifier": "5984393_0",
+                                        "itemBody": null,
+                                        "questions": [
+                                            {
+                                                "type": "matchInteraction",
+                                                "label": "",
+                                                "prompt": {
+                                                    "body": "<p>Wie heeft extra vitamine D nodig?</p>"
+                                                },
+                                                "shuffle": true,
+                                                "minAssociations": 14,
+                                                "maxAssociations": 14,
+                                                "sourceSimpleMatchSet": [
+                                                    {
+                                                        "identifier": "SOURCE_13",
+                                                        "content": {
+                                                            "body": "<p>Heeft extra vitamine D nodig</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "SOURCE_1",
+                                                        "content": {
+                                                            "body": "<p>Geen extra vitamine D nodig</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "SOURCE_12",
+                                                        "content": {
+                                                            "body": "<p>Hoeft meestal geen vitamine D te nemen, maar in bepaalde gevallen is dit zinvol</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "SOURCE_6",
+                                                        "content": {
+                                                            "body": "<p>Heeft extra vitamine D nodig</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "SOURCE_11",
+                                                        "content": {
+                                                            "body": "<p>Hoeft meestal geen vitamine D te nemen, maar in bepaalde gevallen is dit zinvol</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "SOURCE_8",
+                                                        "content": {
+                                                            "body": "<p>Alleen extra vitamine D bij onvoldoende buiten komen</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "SOURCE_10",
+                                                        "content": {
+                                                            "body": "<p>Heeft extra vitamine D nodig</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "SOURCE_14",
+                                                        "content": {
+                                                            "body": "<p>Heeft extra vitamine D nodig</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "SOURCE_4",
+                                                        "content": {
+                                                            "body": "<p>Heeft extra vitamine D nodig</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "SOURCE_5",
+                                                        "content": {
+                                                            "body": "<p>Heeft extra vitamine D nodig</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "SOURCE_9",
+                                                        "content": {
+                                                            "body": "<p>Heeft extra vitamine D nodig</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "SOURCE_3",
+                                                        "content": {
+                                                            "body": "<p>Heeft extra vitamine D nodig</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "SOURCE_7",
+                                                        "content": {
+                                                            "body": "<p>Mag extra vitamine D nemen, maar dit hoeft niet</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "SOURCE_2",
+                                                        "content": {
+                                                            "body": "<p>Heeft extra vitamine D nodig</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    }
+                                                ],
+                                                "targetSimpleMatchSet": [
+                                                    {
+                                                        "identifier": "TARGET_1",
+                                                        "content": {
+                                                            "body": "<p>Blanke man van 50 jaar</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "TARGET_2",
+                                                        "content": {
+                                                            "body": "<p>Blanke man van 70 jaar</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "TARGET_3",
+                                                        "content": {
+                                                            "body": "<p>Blanke vrouw van 50 jaar</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "TARGET_4",
+                                                        "content": {
+                                                            "body": "<p>Persoon die niet langer dan 15 minuten per dag buiten komt</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "TARGET_5",
+                                                        "content": {
+                                                            "body": "<p>Persoon met getinte of donkere huid</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "TARGET_6",
+                                                        "content": {
+                                                            "body": "<p>Vrouw die hoofddoek of burka draagt</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "TARGET_7",
+                                                        "content": {
+                                                            "body": "<p>Persoon met lichte huid in de winter</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "TARGET_8",
+                                                        "content": {
+                                                            "body": "<p>Kind van 8 jaar met lichte huid</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "TARGET_9",
+                                                        "content": {
+                                                            "body": "<p>Peuter</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "TARGET_10",
+                                                        "content": {
+                                                            "body": "<p>Kind van 10 jaar met donkere huid</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "TARGET_11",
+                                                        "content": {
+                                                            "body": "<p>Zwangeren</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "TARGET_12",
+                                                        "content": {
+                                                            "body": "<p>Bij borstvoeding</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "TARGET_13",
+                                                        "content": {
+                                                            "body": "<p>Vrouw van 45 jaar na de overgang</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    },
+                                                    {
+                                                        "identifier": "TARGET_14",
+                                                        "content": {
+                                                            "body": "<p>Persoon die bisfosfonaten gebruikt</p>"
+                                                        },
+                                                        "minMatch": 1,
+                                                        "maxMatch": 1,
+                                                        "feedbackInline": null
+                                                    }
+                                                ],
+                                                "responseIdentifier": "5984393_0_1",
+                                                "feedback": null
+                                            }
+                                        ],
+                                        "responseDeclarations": [
+                                            {
+                                                "identifier": "5984393_0_1",
+                                                "cardinality": "record",
+                                                "baseType": "identifier",
+                                                "correctResponse": {
+                                                    "interpretation": null,
+                                                    "values": [
+                                                        {
+                                                            "fieldIdentifier": "SOURCE_1",
+                                                            "value": "TARGET_1"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": "SOURCE_2",
+                                                            "value": "TARGET_2"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": "SOURCE_3",
+                                                            "value": "TARGET_3"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": "SOURCE_4",
+                                                            "value": "TARGET_4"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": "SOURCE_5",
+                                                            "value": "TARGET_5"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": "SOURCE_6",
+                                                            "value": "TARGET_6"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": "SOURCE_7",
+                                                            "value": "TARGET_7"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": "SOURCE_8",
+                                                            "value": "TARGET_8"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": "SOURCE_9",
+                                                            "value": "TARGET_9"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": "SOURCE_10",
+                                                            "value": "TARGET_10"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": "SOURCE_11",
+                                                            "value": "TARGET_11"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": "SOURCE_12",
+                                                            "value": "TARGET_12"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": "SOURCE_13",
+                                                            "value": "TARGET_13"
+                                                        },
+                                                        {
+                                                            "fieldIdentifier": "SOURCE_14",
+                                                            "value": "TARGET_14"
+                                                        }
+                                                    ]
+                                                },
+                                                "mapping": {
+                                                    "lowerBound": "0",
+                                                    "upperBound": "1",
+                                                    "default": "0",
+                                                    "mapEntries": null
+                                                },
+                                                "areaMapping": null
+                                            }
+                                        ],
+                                        "outcomeDeclarations": [
+                                            {
+                                                "identifier": "SCORE",
+                                                "cardinality": "single",
+                                                "baseType": "float",
+                                                "defaultValue": "0",
+                                                "interpretation": null
+                                            }
+                                        ],
+                                        "feedback": null
+                                    }
+                                ]
+                            }
+                        ],
+                        "outcomeDeclarations": null,
+                        "showEvaluation": null,
+                        "feedback": null
+                    }
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "5985057"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Zijn extra kalktabletten nodig? ",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Als de pati\u00ebnt voldoende zuivel krijgt is aanvullend calcium niet nodig.</p>\n<p>Overleg met de huisarts als het niet lukt om voldoende zuivel te nemen.</p>\n<p>Laat de pati\u00ebnt nooit zonder overleg calciumtabletten slikken, een te hoge dosis kan leiden tot hart- en vaatproblemen.</p>\n<p><strong>EINDE</strong></p>\n<p> </p>\n"
+                }
+            ],
+            "sections": []
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": null,
+            "dimension": null,
+            "suppressTitle": null
+        },
+        "color": "#333333"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Wat is botontkalking?",
+                "reference": {
+                    "value": "5984370"
+                },
+                "sections": []
+            },
+            {
+                "title": "Vitamine D ",
+                "reference": {
+                    "value": "5985062"
+                },
+                "sections": []
+            },
+            {
+                "title": "Zijn extra kalktabletten nodig? ",
+                "reference": {
+                    "value": "5985057"
+                },
+                "sections": []
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": "<p>Made by EM&copy;&nbsp;</p>\n\n<p>17-4-2020</p>\n",
+        "imageSrc": null,
+        "sources": [],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            },
+            {
+                "key": "learningTime",
+                "label": "Studiebelasting",
+                "terms": [
+                    "4 uur en 0 minuten"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

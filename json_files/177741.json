@@ -1,0 +1,2521 @@
+{
+    "documentAuthors": [
+        "Ilse Tukker"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Ilse Tukker",
+            "referenceName": null,
+            "reference": {
+                "value": "132762"
+            },
+            "firstName": "Ilse",
+            "infix": null,
+            "lastName": "Tukker",
+            "emailAddress": "Ilse.tukker@student.hu.nl",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2021-05-27T21:06:31Z",
+    "bulkId": "bulk-17041658-refresh_all",
+    "identifier": 177741,
+    "title": "Plattegrond maken",
+    "description": "Hoe maak je een plattegrond bij een stad",
+    "lastModifiedDate": "2021-05-27T21:06:31+02:00",
+    "dateCreated": "2021-05-27T15:53:12+02:00",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "Tukker, Ilse",
+                "reference": {
+                    "value": "132762"
+                },
+                "firstName": "Ilse",
+                "infix": null,
+                "lastName": "Tukker",
+                "emailAddress": "Ilse.tukker@student.hu.nl",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-40",
+            "name": "CC Naamsvermelding 4.0 Internationale licentie",
+            "description": "De Internationale Creative Commons 4.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/4.0/.",
+            "link": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/177741/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "6728066"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Plattegronden maken",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Je leert in deze les hoe je zelf een eigen plattegrond kan maken.</p>\n<p>Je gaat onderzoeken wat jij in je stad wilt plaatsen.</p>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "6728061"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Amersfoort, Amsterdam, Berlijn",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/c/cb9bab7b285bb2e9cb34c7206e241e0101c1e93e.jpg",
+                    "altText": "Plattegrond Berlijn",
+                    "alignment": "center",
+                    "scale": 0.3,
+                    "link": ""
+                },
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/9/95608e93d7ead6976ff97b4183b6c28c4693c729.png",
+                    "altText": "Plattegrond Amersfoort",
+                    "alignment": "center",
+                    "scale": 0.3,
+                    "link": ""
+                },
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/1/1ccf206c7ba89de175fbdf7e1fd6f6095a9c7fa9.png",
+                    "altText": "Plattegrond Amsterdam",
+                    "alignment": "center",
+                    "scale": 0.3,
+                    "link": ""
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p>Je ziet hierboven 3 plattegronden. 1 van Amersfoort, 1 van Berlijn en 1 van Amsterdam. Maak de onderstaande vragen over deze plattegronden.</p>\n"
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6728072"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6728072",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Vraag 1.",
+                                "prompt": {
+                                    "body": "<p>Wat valt je op aan deze plattegronden?</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6728072_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>Alle antwoorden zijn goed.</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>Alle antwoorden zijn goed.</p>"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6728074"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6728074",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "matchInteraction",
+                                "label": "Vraag 2.",
+                                "prompt": {
+                                    "body": "<p>Je ziet verschillende kleuren op de kaart. Wat betekenen de kleuren? Sleep de goede tekst naar de goede kleur.</p>"
+                                },
+                                "shuffle": true,
+                                "minAssociations": 6,
+                                "maxAssociations": 6,
+                                "sourceSimpleMatchSet": [
+                                    {
+                                        "identifier": "SOURCE_2",
+                                        "content": {
+                                            "body": "<p>Water</p>"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "SOURCE_4",
+                                        "content": {
+                                            "body": "<p>Kerken</p>"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "SOURCE_6",
+                                        "content": {
+                                            "body": "<p>Natuurgebied, parken</p>"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "SOURCE_1",
+                                        "content": {
+                                            "body": "<p>Gebouwen</p>"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "SOURCE_3",
+                                        "content": {
+                                            "body": "<p>Wegen</p>"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "SOURCE_5",
+                                        "content": {
+                                            "body": "<p>Belangrijkste wegen</p>"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    }
+                                ],
+                                "targetSimpleMatchSet": [
+                                    {
+                                        "identifier": "TARGET_1",
+                                        "content": {
+                                            "body": "<p>Oranje</p>"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "TARGET_2",
+                                        "content": {
+                                            "body": "<p>Blauw</p>"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "TARGET_3",
+                                        "content": {
+                                            "body": "<p>Wit</p>"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "TARGET_4",
+                                        "content": {
+                                            "body": "<p>Grijs</p>"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "TARGET_5",
+                                        "content": {
+                                            "body": "<p>Geel</p>"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    },
+                                    {
+                                        "identifier": "TARGET_6",
+                                        "content": {
+                                            "body": "<p>Groen</p>"
+                                        },
+                                        "minMatch": 1,
+                                        "maxMatch": 1,
+                                        "feedbackInline": null
+                                    }
+                                ],
+                                "responseIdentifier": "6728074_1",
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_CORRECT",
+                                        "identifier": "FBC_6728074",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "Heel goed!"
+                                        }
+                                    },
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_INCORRECT",
+                                        "identifier": "FBI_6728074",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "Groen staat voor natuurgebieden en parken, geel de belangrijkste wegen, grijs voor kerken, wit zijn wegen, blauw is water en oranje zijn gebouwen."
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6728074_1",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": "SOURCE_1",
+                                            "value": "TARGET_1"
+                                        },
+                                        {
+                                            "fieldIdentifier": "SOURCE_2",
+                                            "value": "TARGET_2"
+                                        },
+                                        {
+                                            "fieldIdentifier": "SOURCE_3",
+                                            "value": "TARGET_3"
+                                        },
+                                        {
+                                            "fieldIdentifier": "SOURCE_4",
+                                            "value": "TARGET_4"
+                                        },
+                                        {
+                                            "fieldIdentifier": "SOURCE_5",
+                                            "value": "TARGET_5"
+                                        },
+                                        {
+                                            "fieldIdentifier": "SOURCE_6",
+                                            "value": "TARGET_6"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": "0",
+                                    "upperBound": "1",
+                                    "default": "0",
+                                    "mapEntries": null
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": "0",
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": "1",
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6728076"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6728076",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "choiceInteraction",
+                                "label": "Vraag 3.",
+                                "prompt": {
+                                    "body": "<p>Plattegronden zijn altijd vanaf een bepaald aanzicht gemaakt. Van welk aanzicht?</p>"
+                                },
+                                "shuffle": true,
+                                "maxChoices": 3,
+                                "minChoices": 1,
+                                "orientation": "vertical",
+                                "choices": [
+                                    {
+                                        "identifier": "0",
+                                        "content": {
+                                            "body": "Bovenaanzicht"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "0",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "1",
+                                        "content": {
+                                            "body": "Vooraanzicht"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "1",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "2",
+                                        "content": {
+                                            "body": "Zijaanzicht"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "2",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    }
+                                ],
+                                "responseIdentifier": "6728076_1",
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6728076_1",
+                                "cardinality": "ordered",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0,
+                                    "default": 0,
+                                    "mapEntries": [
+                                        {
+                                            "key": "0",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "1",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "2",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        }
+                                    ]
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6728084"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6728084",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "selectPointInteraction",
+                                "label": "Vraag 4.",
+                                "prompt": {
+                                    "body": "<p>Waar op de plattegrond van Amersfoort zie je parkeerplaatsen? Je moet meerdere plekken selecteren.</p>"
+                                },
+                                "minNumberOfPins": 1,
+                                "maxNumberOfPins": "8",
+                                "image": {
+                                    "src": "https://maken.wikiwijs.nl/userfiles/9/95608e93d7ead6976ff97b4183b6c28c4693c729.png",
+                                    "width": "800",
+                                    "height": "800"
+                                },
+                                "responseIdentifier": "6728084_1",
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_CORRECT",
+                                        "identifier": "FBC_6728084",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "Je ziet licht oranje plekken, dit zijn parkeervakken. Daarnaast staan er op verschillende plekken P's dit zijn ook parkeerplekken."
+                                        }
+                                    },
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK_INCORRECT",
+                                        "identifier": "FBI_6728084",
+                                        "showHide": null,
+                                        "title": null,
+                                        "content": {
+                                            "body": "Je ziet licht oranje plekken, dit zijn parkeervakken. Daarnaast staan er op verschillende plekken P's dit zijn ook parkeerplekken."
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6728084_1",
+                                "cardinality": "record",
+                                "baseType": "identifier",
+                                "correctResponse": null,
+                                "mapping": null,
+                                "areaMapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "areaMapEntries": [
+                                        {
+                                            "shape": "circle",
+                                            "coordinates": [
+                                                {
+                                                    "x": 0,
+                                                    "y": 0,
+                                                    "z": null
+                                                },
+                                                {
+                                                    "x": 0,
+                                                    "y": 0,
+                                                    "z": null
+                                                },
+                                                {
+                                                    "x": 0,
+                                                    "y": 0,
+                                                    "z": null
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "shape": "circle",
+                                            "coordinates": [
+                                                {
+                                                    "x": 0,
+                                                    "y": 0,
+                                                    "z": null
+                                                },
+                                                {
+                                                    "x": 0,
+                                                    "y": 0,
+                                                    "z": null
+                                                },
+                                                {
+                                                    "x": 0,
+                                                    "y": 0,
+                                                    "z": null
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "shape": "circle",
+                                            "coordinates": [
+                                                {
+                                                    "x": 0,
+                                                    "y": 0,
+                                                    "z": null
+                                                },
+                                                {
+                                                    "x": 0,
+                                                    "y": 0,
+                                                    "z": null
+                                                },
+                                                {
+                                                    "x": 0,
+                                                    "y": 0,
+                                                    "z": null
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "shape": "circle",
+                                            "coordinates": [
+                                                {
+                                                    "x": 0,
+                                                    "y": 0,
+                                                    "z": null
+                                                },
+                                                {
+                                                    "x": 0,
+                                                    "y": 0,
+                                                    "z": null
+                                                },
+                                                {
+                                                    "x": 0,
+                                                    "y": 0,
+                                                    "z": null
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "shape": "circle",
+                                            "coordinates": [
+                                                {
+                                                    "x": 0,
+                                                    "y": 0,
+                                                    "z": null
+                                                },
+                                                {
+                                                    "x": 0,
+                                                    "y": 0,
+                                                    "z": null
+                                                },
+                                                {
+                                                    "x": 0,
+                                                    "y": 0,
+                                                    "z": null
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "shape": "circle",
+                                            "coordinates": [
+                                                {
+                                                    "x": 0,
+                                                    "y": 0,
+                                                    "z": null
+                                                },
+                                                {
+                                                    "x": 0,
+                                                    "y": 0,
+                                                    "z": null
+                                                },
+                                                {
+                                                    "x": 0,
+                                                    "y": 0,
+                                                    "z": null
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "shape": "circle",
+                                            "coordinates": [
+                                                {
+                                                    "x": 0,
+                                                    "y": 0,
+                                                    "z": null
+                                                },
+                                                {
+                                                    "x": 0,
+                                                    "y": 0,
+                                                    "z": null
+                                                },
+                                                {
+                                                    "x": 0,
+                                                    "y": 0,
+                                                    "z": null
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "shape": "circle",
+                                            "coordinates": [
+                                                {
+                                                    "x": 0,
+                                                    "y": 0,
+                                                    "z": null
+                                                },
+                                                {
+                                                    "x": 0,
+                                                    "y": 0,
+                                                    "z": null
+                                                },
+                                                {
+                                                    "x": 0,
+                                                    "y": 0,
+                                                    "z": null
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 1,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/8/8e36f33020f5a6f24add23136112f2d05f5a6a2d.jpg",
+                    "altText": "Legenda",
+                    "alignment": "left",
+                    "scale": 0.3,
+                    "link": ""
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6728094"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6728094",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "choiceInteraction",
+                                "label": "Vraag 5. ",
+                                "prompt": {
+                                    "body": "<p>Je hebt geleerd wat de kleuren in de plattegrond van Amersfoort betekenen. Hierboven die je een legenda. Maak bij de plattegrond van Amersfoort zelf een legenda. Je kan hiervoor een wit blaadje pakken op de tafel bij het bureau. Als je klaar bent klik je op een van de antwoorden.</p>"
+                                },
+                                "shuffle": false,
+                                "maxChoices": 2,
+                                "minChoices": 1,
+                                "orientation": "vertical",
+                                "choices": [
+                                    {
+                                        "identifier": "0",
+                                        "content": {
+                                            "body": "Het is gelukt om een legenda te maken."
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "0",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "1",
+                                        "content": {
+                                            "body": "Het is niet gelukt om een legenda te maken."
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "1",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    }
+                                ],
+                                "responseIdentifier": "6728094_1",
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6728094_1",
+                                "cardinality": "ordered",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0,
+                                    "default": 0,
+                                    "mapEntries": [
+                                        {
+                                            "key": "0",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "1",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        }
+                                    ]
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "6728102"
+                    },
+                    "assessmentItem": {
+                        "identifier": "6728102",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Vraag 6.",
+                                "prompt": {
+                                    "body": "<p>Wat is het verschil tussen de plattegronden? </p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "6728102_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>Laat je antwoord controleren door de juf.</p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>Laat je antwoord controleren door de juf.</p>"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "6728103"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Je eigen stad bouwen",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "6728109"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Plaats",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Jullie hebben nu geleerd hoe je straks zelf een plattegrond kan maken bij jou eigen stad. Nu moet je nog gaan nadenken over hoe jullie stad er uit gaan zien. Met behulp van deze vragen word je verder op weg geholpen!</p>\n"
+                        },
+                        {
+                            "type": "question",
+                            "reference": {
+                                "value": "6728107"
+                            },
+                            "assessmentItem": {
+                                "identifier": "6728107",
+                                "itemBody": null,
+                                "questions": [
+                                    {
+                                        "type": "selectPointInteraction",
+                                        "label": "Vraag 1.",
+                                        "prompt": {
+                                            "body": "<p>Je gaat een nieuwe stad bouwen in Nederland. Waar in Nederland ga je deze bouwen? Zet het pijltje op de kaart neer.</p>"
+                                        },
+                                        "minNumberOfPins": 1,
+                                        "maxNumberOfPins": "1",
+                                        "image": {
+                                            "src": "https://maken.wikiwijs.nl/userfiles/a/adc8db5568c608c830037655c50055b4779901e3.png",
+                                            "width": "420",
+                                            "height": "594"
+                                        },
+                                        "responseIdentifier": "6728107_1",
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK_CORRECT",
+                                                "identifier": "FBC_6728107",
+                                                "showHide": null,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "Top!"
+                                                }
+                                            },
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK_INCORRECT",
+                                                "identifier": "FBI_6728107",
+                                                "showHide": null,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "Top!"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "responseDeclarations": [
+                                    {
+                                        "identifier": "6728107_1",
+                                        "cardinality": "record",
+                                        "baseType": "identifier",
+                                        "correctResponse": null,
+                                        "mapping": null,
+                                        "areaMapping": {
+                                            "lowerBound": 0,
+                                            "upperBound": 1,
+                                            "default": 0,
+                                            "areaMapEntries": [
+                                                {
+                                                    "shape": "rectangle",
+                                                    "coordinates": [
+                                                        {
+                                                            "x": 0,
+                                                            "y": 0,
+                                                            "z": null
+                                                        },
+                                                        {
+                                                            "x": 0,
+                                                            "y": 0,
+                                                            "z": null
+                                                        },
+                                                        {
+                                                            "x": 0,
+                                                            "y": 0,
+                                                            "z": null
+                                                        },
+                                                        {
+                                                            "x": 0,
+                                                            "y": 0,
+                                                            "z": null
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "outcomeDeclarations": [
+                                    {
+                                        "identifier": "SCORE",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 0,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK_CORRECT",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": false,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK_INCORRECT",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": true,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK_THRESHOLD",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 1,
+                                        "interpretation": null
+                                    }
+                                ],
+                                "feedback": null
+                            }
+                        },
+                        {
+                            "type": "question",
+                            "reference": {
+                                "value": "6728108"
+                            },
+                            "assessmentItem": {
+                                "identifier": "6728108",
+                                "itemBody": null,
+                                "questions": [
+                                    {
+                                        "type": "extendedTextInteraction",
+                                        "label": "Vraag 2.",
+                                        "prompt": {
+                                            "body": "<p>Waarom hebben jullie gekozen voor deze plek? Leg uit.</p>"
+                                        },
+                                        "feedback": null
+                                    }
+                                ],
+                                "responseDeclarations": [
+                                    {
+                                        "identifier": "6728108_1",
+                                        "cardinality": "single",
+                                        "baseType": "string",
+                                        "correctResponse": {
+                                            "interpretation": null,
+                                            "values": [
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "<p>Laat de juf het antwoord controleren.</p>\r\n"
+                                                }
+                                            ]
+                                        },
+                                        "mapping": {
+                                            "lowerBound": 0,
+                                            "upperBound": 1,
+                                            "default": 0,
+                                            "mapEntries": []
+                                        },
+                                        "areaMapping": null
+                                    }
+                                ],
+                                "outcomeDeclarations": [
+                                    {
+                                        "identifier": "SCORE",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 0,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": null,
+                                        "interpretation": null
+                                    }
+                                ],
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK",
+                                        "identifier": "ANSWER_CORRECT",
+                                        "showHide": true,
+                                        "title": null,
+                                        "content": {
+                                            "body": "<p>Laat de juf het antwoord controleren.</p>"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6728110"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Vervoer",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>In een stad moet je je kunnen verplaatsen. Welke vervoersmiddelen hebben jullie in je stad?</p>\n"
+                        },
+                        {
+                            "type": "question",
+                            "reference": {
+                                "value": "6728376"
+                            },
+                            "assessmentItem": {
+                                "identifier": "6728376",
+                                "itemBody": null,
+                                "questions": [
+                                    {
+                                        "type": "choiceInteraction",
+                                        "label": "Vraag 1.",
+                                        "prompt": {
+                                            "body": "<p>Klik de dingen aan die jij in je stad gaat plaatsen die te maken hebben met vervoer.</p>"
+                                        },
+                                        "shuffle": false,
+                                        "maxChoices": 13,
+                                        "minChoices": 0,
+                                        "orientation": "vertical",
+                                        "choices": [
+                                            {
+                                                "identifier": "0",
+                                                "content": {
+                                                    "body": "Wegen"
+                                                },
+                                                "feedback": {
+                                                    "outcomeIdentifier": "FEEDBACK",
+                                                    "identifier": "0",
+                                                    "showHide": true,
+                                                    "title": null,
+                                                    "content": null
+                                                }
+                                            },
+                                            {
+                                                "identifier": "1",
+                                                "content": {
+                                                    "body": "Snelwegen"
+                                                },
+                                                "feedback": {
+                                                    "outcomeIdentifier": "FEEDBACK",
+                                                    "identifier": "1",
+                                                    "showHide": true,
+                                                    "title": null,
+                                                    "content": null
+                                                }
+                                            },
+                                            {
+                                                "identifier": "2",
+                                                "content": {
+                                                    "body": "Bushaltes"
+                                                },
+                                                "feedback": {
+                                                    "outcomeIdentifier": "FEEDBACK",
+                                                    "identifier": "2",
+                                                    "showHide": true,
+                                                    "title": null,
+                                                    "content": null
+                                                }
+                                            },
+                                            {
+                                                "identifier": "3",
+                                                "content": {
+                                                    "body": "Busbanen"
+                                                },
+                                                "feedback": {
+                                                    "outcomeIdentifier": "FEEDBACK",
+                                                    "identifier": "3",
+                                                    "showHide": true,
+                                                    "title": null,
+                                                    "content": null
+                                                }
+                                            },
+                                            {
+                                                "identifier": "4",
+                                                "content": {
+                                                    "body": "Treinstation"
+                                                },
+                                                "feedback": {
+                                                    "outcomeIdentifier": "FEEDBACK",
+                                                    "identifier": "4",
+                                                    "showHide": true,
+                                                    "title": null,
+                                                    "content": null
+                                                }
+                                            },
+                                            {
+                                                "identifier": "5",
+                                                "content": {
+                                                    "body": "Treinspoort"
+                                                },
+                                                "feedback": {
+                                                    "outcomeIdentifier": "FEEDBACK",
+                                                    "identifier": "5",
+                                                    "showHide": true,
+                                                    "title": null,
+                                                    "content": null
+                                                }
+                                            },
+                                            {
+                                                "identifier": "6",
+                                                "content": {
+                                                    "body": "Metrostation"
+                                                },
+                                                "feedback": {
+                                                    "outcomeIdentifier": "FEEDBACK",
+                                                    "identifier": "6",
+                                                    "showHide": true,
+                                                    "title": null,
+                                                    "content": null
+                                                }
+                                            },
+                                            {
+                                                "identifier": "7",
+                                                "content": {
+                                                    "body": "Tramhaltes"
+                                                },
+                                                "feedback": {
+                                                    "outcomeIdentifier": "FEEDBACK",
+                                                    "identifier": "7",
+                                                    "showHide": true,
+                                                    "title": null,
+                                                    "content": null
+                                                }
+                                            },
+                                            {
+                                                "identifier": "8",
+                                                "content": {
+                                                    "body": "Trambaan"
+                                                },
+                                                "feedback": {
+                                                    "outcomeIdentifier": "FEEDBACK",
+                                                    "identifier": "8",
+                                                    "showHide": true,
+                                                    "title": null,
+                                                    "content": null
+                                                }
+                                            },
+                                            {
+                                                "identifier": "9",
+                                                "content": {
+                                                    "body": "Fietspaden"
+                                                },
+                                                "feedback": {
+                                                    "outcomeIdentifier": "FEEDBACK",
+                                                    "identifier": "9",
+                                                    "showHide": true,
+                                                    "title": null,
+                                                    "content": null
+                                                }
+                                            },
+                                            {
+                                                "identifier": "10",
+                                                "content": {
+                                                    "body": "Vliegveld"
+                                                },
+                                                "feedback": {
+                                                    "outcomeIdentifier": "FEEDBACK",
+                                                    "identifier": "10",
+                                                    "showHide": true,
+                                                    "title": null,
+                                                    "content": null
+                                                }
+                                            },
+                                            {
+                                                "identifier": "11",
+                                                "content": {
+                                                    "body": "Haven"
+                                                },
+                                                "feedback": {
+                                                    "outcomeIdentifier": "FEEDBACK",
+                                                    "identifier": "11",
+                                                    "showHide": true,
+                                                    "title": null,
+                                                    "content": null
+                                                }
+                                            },
+                                            {
+                                                "identifier": "12",
+                                                "content": {
+                                                    "body": "Stoepen"
+                                                },
+                                                "feedback": {
+                                                    "outcomeIdentifier": "FEEDBACK",
+                                                    "identifier": "12",
+                                                    "showHide": true,
+                                                    "title": null,
+                                                    "content": null
+                                                }
+                                            }
+                                        ],
+                                        "responseIdentifier": "6728376_1",
+                                        "feedback": null
+                                    }
+                                ],
+                                "responseDeclarations": [
+                                    {
+                                        "identifier": "6728376_1",
+                                        "cardinality": "ordered",
+                                        "baseType": "identifier",
+                                        "correctResponse": {
+                                            "interpretation": null,
+                                            "values": [
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "0"
+                                                },
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "1"
+                                                },
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "2"
+                                                },
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "3"
+                                                },
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "4"
+                                                },
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "5"
+                                                },
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "6"
+                                                },
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "7"
+                                                },
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "8"
+                                                },
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "9"
+                                                },
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "10"
+                                                },
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "11"
+                                                },
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "12"
+                                                }
+                                            ]
+                                        },
+                                        "mapping": {
+                                            "lowerBound": "0",
+                                            "upperBound": 0,
+                                            "default": "0",
+                                            "mapEntries": [
+                                                {
+                                                    "key": "0",
+                                                    "value": "0",
+                                                    "caseSensitive": false
+                                                },
+                                                {
+                                                    "key": "1",
+                                                    "value": "0",
+                                                    "caseSensitive": false
+                                                },
+                                                {
+                                                    "key": "2",
+                                                    "value": "0",
+                                                    "caseSensitive": false
+                                                },
+                                                {
+                                                    "key": "3",
+                                                    "value": "0",
+                                                    "caseSensitive": false
+                                                },
+                                                {
+                                                    "key": "4",
+                                                    "value": "0",
+                                                    "caseSensitive": false
+                                                },
+                                                {
+                                                    "key": "5",
+                                                    "value": "0",
+                                                    "caseSensitive": false
+                                                },
+                                                {
+                                                    "key": "6",
+                                                    "value": "0",
+                                                    "caseSensitive": false
+                                                },
+                                                {
+                                                    "key": "7",
+                                                    "value": "0",
+                                                    "caseSensitive": false
+                                                },
+                                                {
+                                                    "key": "8",
+                                                    "value": "0",
+                                                    "caseSensitive": false
+                                                },
+                                                {
+                                                    "key": "9",
+                                                    "value": "0",
+                                                    "caseSensitive": false
+                                                },
+                                                {
+                                                    "key": "10",
+                                                    "value": "0",
+                                                    "caseSensitive": false
+                                                },
+                                                {
+                                                    "key": "11",
+                                                    "value": "0",
+                                                    "caseSensitive": false
+                                                },
+                                                {
+                                                    "key": "12",
+                                                    "value": "0",
+                                                    "caseSensitive": false
+                                                }
+                                            ]
+                                        },
+                                        "areaMapping": null
+                                    }
+                                ],
+                                "outcomeDeclarations": [
+                                    {
+                                        "identifier": "SCORE",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": "0",
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK_CORRECT",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": false,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK_INCORRECT",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": true,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK_THRESHOLD",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 0,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "RESPONSE_CORRECT",
+                                        "cardinality": "single",
+                                        "baseType": "boolean",
+                                        "defaultValue": null,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "RESPONSE_INCORRECT",
+                                        "cardinality": "single",
+                                        "baseType": "boolean",
+                                        "defaultValue": null,
+                                        "interpretation": null
+                                    }
+                                ],
+                                "feedback": null
+                            }
+                        },
+                        {
+                            "type": "question",
+                            "reference": {
+                                "value": "6728377"
+                            },
+                            "assessmentItem": {
+                                "identifier": "6728377",
+                                "itemBody": null,
+                                "questions": [
+                                    {
+                                        "type": "extendedTextInteraction",
+                                        "label": "Vraag 2.",
+                                        "prompt": {
+                                            "body": "<p>Waarom heb je hiervoor gekozen, leg uit.</p>"
+                                        },
+                                        "feedback": null
+                                    }
+                                ],
+                                "responseDeclarations": [
+                                    {
+                                        "identifier": "6728377_1",
+                                        "cardinality": "single",
+                                        "baseType": "string",
+                                        "correctResponse": {
+                                            "interpretation": null,
+                                            "values": [
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "<p>Laat de juf dit controleren.</p>\r\n"
+                                                }
+                                            ]
+                                        },
+                                        "mapping": {
+                                            "lowerBound": 0,
+                                            "upperBound": 1,
+                                            "default": 0,
+                                            "mapEntries": []
+                                        },
+                                        "areaMapping": null
+                                    }
+                                ],
+                                "outcomeDeclarations": [
+                                    {
+                                        "identifier": "SCORE",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 0,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": null,
+                                        "interpretation": null
+                                    }
+                                ],
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK",
+                                        "identifier": "ANSWER_CORRECT",
+                                        "showHide": true,
+                                        "title": null,
+                                        "content": {
+                                            "body": "<p>Laat de juf dit controleren.</p>"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6728380"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Woningen",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Als je een stad gaat bouwen moet je natuurlijk ook woningen bouwen waar mensen in kunnen wonen. Wat voor soort woningen ga je maken?</p>\n"
+                        },
+                        {
+                            "type": "question",
+                            "reference": {
+                                "value": "6728388"
+                            },
+                            "assessmentItem": {
+                                "identifier": "6728388",
+                                "itemBody": null,
+                                "questions": [
+                                    {
+                                        "type": "matchInteraction",
+                                        "label": "Vraag 1.",
+                                        "prompt": {
+                                            "body": "<p>Je ziet verschillende soorten woningen. Sleep de goede naam naar de juiste foto.</p>"
+                                        },
+                                        "shuffle": true,
+                                        "minAssociations": 6,
+                                        "maxAssociations": 6,
+                                        "sourceSimpleMatchSet": [
+                                            {
+                                                "identifier": "SOURCE_4",
+                                                "content": {
+                                                    "body": "2 onder 1 kap"
+                                                },
+                                                "minMatch": 1,
+                                                "maxMatch": 1,
+                                                "feedbackInline": null
+                                            },
+                                            {
+                                                "identifier": "SOURCE_2",
+                                                "content": {
+                                                    "body": "Rijtjeshuizen"
+                                                },
+                                                "minMatch": 1,
+                                                "maxMatch": 1,
+                                                "feedbackInline": null
+                                            },
+                                            {
+                                                "identifier": "SOURCE_6",
+                                                "content": {
+                                                    "body": "Middenbouw flat"
+                                                },
+                                                "minMatch": 1,
+                                                "maxMatch": 1,
+                                                "feedbackInline": null
+                                            },
+                                            {
+                                                "identifier": "SOURCE_1",
+                                                "content": {
+                                                    "body": "Laagbouw flat"
+                                                },
+                                                "minMatch": 1,
+                                                "maxMatch": 1,
+                                                "feedbackInline": null
+                                            },
+                                            {
+                                                "identifier": "SOURCE_5",
+                                                "content": {
+                                                    "body": "Villa"
+                                                },
+                                                "minMatch": 1,
+                                                "maxMatch": 1,
+                                                "feedbackInline": null
+                                            },
+                                            {
+                                                "identifier": "SOURCE_3",
+                                                "content": {
+                                                    "body": "Hoogbouw flat"
+                                                },
+                                                "minMatch": 1,
+                                                "maxMatch": 1,
+                                                "feedbackInline": null
+                                            }
+                                        ],
+                                        "targetSimpleMatchSet": [
+                                            {
+                                                "identifier": "TARGET_1",
+                                                "content": {
+                                                    "body": "<img src=\"https://maken.wikiwijs.nl/userfiles/a/a71ad946fbb74016b358ef63849606dd6cb0b282.jpg\" />"
+                                                },
+                                                "minMatch": 1,
+                                                "maxMatch": 1,
+                                                "feedbackInline": null
+                                            },
+                                            {
+                                                "identifier": "TARGET_2",
+                                                "content": {
+                                                    "body": "<img src=\"https://maken.wikiwijs.nl/userfiles/0/0da844a28b31f5b01e2f613d39ba93691d56ae5b.jpg\" />"
+                                                },
+                                                "minMatch": 1,
+                                                "maxMatch": 1,
+                                                "feedbackInline": null
+                                            },
+                                            {
+                                                "identifier": "TARGET_3",
+                                                "content": {
+                                                    "body": "<img src=\"https://maken.wikiwijs.nl/userfiles/9/9314014a34f4dcdb66e1581acc6a2c316732dfda.jpg\" />"
+                                                },
+                                                "minMatch": 1,
+                                                "maxMatch": 1,
+                                                "feedbackInline": null
+                                            },
+                                            {
+                                                "identifier": "TARGET_4",
+                                                "content": {
+                                                    "body": "<img src=\"https://maken.wikiwijs.nl/userfiles/d/d2c9166614324d5217bcf7a60fb3a800e24ecc4b.jpg\" />"
+                                                },
+                                                "minMatch": 1,
+                                                "maxMatch": 1,
+                                                "feedbackInline": null
+                                            },
+                                            {
+                                                "identifier": "TARGET_5",
+                                                "content": {
+                                                    "body": "<img src=\"https://maken.wikiwijs.nl/userfiles/f/fddad7d4b79720dfba09ab9d674c3521e1955b6a.jpg\" />"
+                                                },
+                                                "minMatch": 1,
+                                                "maxMatch": 1,
+                                                "feedbackInline": null
+                                            },
+                                            {
+                                                "identifier": "TARGET_6",
+                                                "content": {
+                                                    "body": "<img src=\"https://maken.wikiwijs.nl/userfiles/8/88a2fc518044b80535378caf14e1c31f891df3e3.jpg\" />"
+                                                },
+                                                "minMatch": 1,
+                                                "maxMatch": 1,
+                                                "feedbackInline": null
+                                            }
+                                        ],
+                                        "responseIdentifier": "6728388_1",
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK_CORRECT",
+                                                "identifier": "FBC_6728388",
+                                                "showHide": null,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "Helemaal goed!"
+                                                }
+                                            },
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK_INCORRECT",
+                                                "identifier": "FBI_6728388",
+                                                "showHide": null,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "."
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "responseDeclarations": [
+                                    {
+                                        "identifier": "6728388_1",
+                                        "cardinality": "record",
+                                        "baseType": "identifier",
+                                        "correctResponse": {
+                                            "interpretation": null,
+                                            "values": [
+                                                {
+                                                    "fieldIdentifier": "SOURCE_1",
+                                                    "value": "TARGET_1"
+                                                },
+                                                {
+                                                    "fieldIdentifier": "SOURCE_2",
+                                                    "value": "TARGET_2"
+                                                },
+                                                {
+                                                    "fieldIdentifier": "SOURCE_3",
+                                                    "value": "TARGET_3"
+                                                },
+                                                {
+                                                    "fieldIdentifier": "SOURCE_4",
+                                                    "value": "TARGET_4"
+                                                },
+                                                {
+                                                    "fieldIdentifier": "SOURCE_5",
+                                                    "value": "TARGET_5"
+                                                },
+                                                {
+                                                    "fieldIdentifier": "SOURCE_6",
+                                                    "value": "TARGET_6"
+                                                }
+                                            ]
+                                        },
+                                        "mapping": {
+                                            "lowerBound": "0",
+                                            "upperBound": "1",
+                                            "default": "0",
+                                            "mapEntries": null
+                                        },
+                                        "areaMapping": null
+                                    }
+                                ],
+                                "outcomeDeclarations": [
+                                    {
+                                        "identifier": "SCORE",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": "0",
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK_CORRECT",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": false,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK_INCORRECT",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": true,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK_THRESHOLD",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": "1",
+                                        "interpretation": null
+                                    }
+                                ],
+                                "feedback": null
+                            }
+                        },
+                        {
+                            "type": "question",
+                            "reference": {
+                                "value": "6728390"
+                            },
+                            "assessmentItem": {
+                                "identifier": "6728390",
+                                "itemBody": null,
+                                "questions": [
+                                    {
+                                        "type": "extendedTextInteraction",
+                                        "label": "Vraag 2. ",
+                                        "prompt": {
+                                            "body": "<p>Wat voor soort woningen komen er in jou stad te staan?</p>"
+                                        },
+                                        "feedback": null
+                                    }
+                                ],
+                                "responseDeclarations": [
+                                    {
+                                        "identifier": "6728390_1",
+                                        "cardinality": "single",
+                                        "baseType": "string",
+                                        "correctResponse": {
+                                            "interpretation": null,
+                                            "values": [
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "<p>Laat de juf je antwoord controleren.</p>\r\n"
+                                                }
+                                            ]
+                                        },
+                                        "mapping": {
+                                            "lowerBound": 0,
+                                            "upperBound": 1,
+                                            "default": 0,
+                                            "mapEntries": []
+                                        },
+                                        "areaMapping": null
+                                    }
+                                ],
+                                "outcomeDeclarations": [
+                                    {
+                                        "identifier": "SCORE",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 0,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": null,
+                                        "interpretation": null
+                                    }
+                                ],
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK",
+                                        "identifier": "ANSWER_CORRECT",
+                                        "showHide": true,
+                                        "title": null,
+                                        "content": {
+                                            "body": "<p>Laat de juf je antwoord controleren.</p>"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6728393"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Voorzieningen",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Klik op de link hieronder en lees de tekst</p>\n"
+                        },
+                        {
+                            "type": "link",
+                            "link": "https://wikikids.nl/Voorziening",
+                            "title": "",
+                            "description": "",
+                            "comment": ""
+                        },
+                        {
+                            "type": "question",
+                            "reference": {
+                                "value": "6728408"
+                            },
+                            "assessmentItem": {
+                                "identifier": "6728408",
+                                "itemBody": null,
+                                "questions": [
+                                    {
+                                        "type": "gapMatchInteraction",
+                                        "content": {
+                                            "body": "<p><gap identifier=\"GM_66201ef0d33cd\"></gap> zijn dingen en zaken waar je gebruik van kunt maken in een stad. Er zijn 4 sectoren: <gap identifier=\"GM_66201ef0d33db\"></gap>, medisch, winkels en sport en ontspanning. Er zijn 3 soorten voorzieningen. <gap identifier=\"GM_66201ef0d33df\"></gap>, Bijzondere voorzieningen en maatschappelijke voorzieningen.</p>",
+                                            "items": [
+                                                {
+                                                    "identifier": "GM_66201ef0d33cd",
+                                                    "answer": {
+                                                        "identifier": "GMT_66201ef0d33ce",
+                                                        "content": {
+                                                            "body": "Voorzieningen"
+                                                        }
+                                                    },
+                                                    "feedbackInline": null
+                                                },
+                                                {
+                                                    "identifier": "GM_66201ef0d33df",
+                                                    "answer": {
+                                                        "identifier": "GMT_66201ef0d33e0",
+                                                        "content": {
+                                                            "body": "Openbare voorzieningen"
+                                                        }
+                                                    },
+                                                    "feedbackInline": null
+                                                },
+                                                {
+                                                    "identifier": "GM_66201ef0d33db",
+                                                    "answer": {
+                                                        "identifier": "GMT_66201ef0d33dc",
+                                                        "content": {
+                                                            "body": "Onderwijs"
+                                                        }
+                                                    },
+                                                    "feedbackInline": null
+                                                }
+                                            ]
+                                        },
+                                        "label": "Vraag 1.",
+                                        "responseIdentifier": "6728408_1",
+                                        "feedback": [
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK_CORRECT",
+                                                "identifier": "FBC_6728408",
+                                                "showHide": null,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "Goed gedaan!"
+                                                }
+                                            },
+                                            {
+                                                "outcomeIdentifier": "FEEDBACK_INCORRECT",
+                                                "identifier": "FBI_6728408",
+                                                "showHide": null,
+                                                "title": null,
+                                                "content": {
+                                                    "body": "Helaas."
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "responseDeclarations": [
+                                    {
+                                        "identifier": "6728408_1",
+                                        "cardinality": "record",
+                                        "baseType": "identifier",
+                                        "correctResponse": {
+                                            "interpretation": null,
+                                            "values": [
+                                                {
+                                                    "fieldIdentifier": "GM_66201ef0d33cd",
+                                                    "value": "GMT_66201ef0d33ce"
+                                                },
+                                                {
+                                                    "fieldIdentifier": "GM_66201ef0d33db",
+                                                    "value": "GMT_66201ef0d33dc"
+                                                },
+                                                {
+                                                    "fieldIdentifier": "GM_66201ef0d33df",
+                                                    "value": "GMT_66201ef0d33e0"
+                                                }
+                                            ]
+                                        },
+                                        "mapping": {
+                                            "lowerBound": 0,
+                                            "upperBound": 1,
+                                            "default": 0,
+                                            "mapEntries": [
+                                                {
+                                                    "key": "GM_66201ef0d33cd",
+                                                    "value": 0.33,
+                                                    "caseSensitive": false
+                                                },
+                                                {
+                                                    "key": "GM_66201ef0d33db",
+                                                    "value": 0.33,
+                                                    "caseSensitive": false
+                                                },
+                                                {
+                                                    "key": "GM_66201ef0d33df",
+                                                    "value": 0.33,
+                                                    "caseSensitive": false
+                                                }
+                                            ]
+                                        },
+                                        "areaMapping": null
+                                    }
+                                ],
+                                "outcomeDeclarations": [
+                                    {
+                                        "identifier": "SCORE",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 0,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK_CORRECT",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": false,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK_INCORRECT",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": true,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK_THRESHOLD",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 1,
+                                        "interpretation": null
+                                    }
+                                ],
+                                "feedback": null
+                            }
+                        },
+                        {
+                            "type": "question",
+                            "reference": {
+                                "value": "6728409"
+                            },
+                            "assessmentItem": {
+                                "identifier": "6728409",
+                                "itemBody": null,
+                                "questions": [
+                                    {
+                                        "type": "extendedTextInteraction",
+                                        "label": "Vraag 2.",
+                                        "prompt": {
+                                            "body": "<p>Welke voorzieningen ga jij allemaal plaatsen in je dorp of stad?</p>"
+                                        },
+                                        "feedback": null
+                                    }
+                                ],
+                                "responseDeclarations": [
+                                    {
+                                        "identifier": "6728409_1",
+                                        "cardinality": "single",
+                                        "baseType": "string",
+                                        "correctResponse": {
+                                            "interpretation": null,
+                                            "values": [
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "<p>Laat het antwoord controleren door de juf.</p>\r\n"
+                                                }
+                                            ]
+                                        },
+                                        "mapping": {
+                                            "lowerBound": 0,
+                                            "upperBound": 1,
+                                            "default": 0,
+                                            "mapEntries": []
+                                        },
+                                        "areaMapping": null
+                                    }
+                                ],
+                                "outcomeDeclarations": [
+                                    {
+                                        "identifier": "SCORE",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 0,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": null,
+                                        "interpretation": null
+                                    }
+                                ],
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK",
+                                        "identifier": "ANSWER_CORRECT",
+                                        "showHide": true,
+                                        "title": null,
+                                        "content": {
+                                            "body": "<p>Laat het antwoord controleren door de juf.</p>"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6728410"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Natuur",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Een stad heeft meestal minder natuur dan een dorp. Toch kan jij in jou stad net zoveel natuur maken als je wilt. Kijk het onderstaande filmpje.</p>\n"
+                        },
+                        {
+                            "type": "video",
+                            "url": "https://www.youtube.com/watch?v=1n5YdpT55JE",
+                            "align": "left",
+                            "caption": "De natuur",
+                            "poster": "https://img.youtube.com/vi/1n5YdpT55JE/maxresdefault.jpg"
+                        },
+                        {
+                            "type": "question",
+                            "reference": {
+                                "value": "6728494"
+                            },
+                            "assessmentItem": {
+                                "identifier": "6728494",
+                                "itemBody": null,
+                                "questions": [
+                                    {
+                                        "type": "extendedTextInteraction",
+                                        "label": "Vraag 1.",
+                                        "prompt": {
+                                            "body": "<p>Ga jij zorgen voor natuur in jou stad of dorp? Zo ja, op welke manier?</p>"
+                                        },
+                                        "feedback": null
+                                    }
+                                ],
+                                "responseDeclarations": [
+                                    {
+                                        "identifier": "6728494_1",
+                                        "cardinality": "single",
+                                        "baseType": "string",
+                                        "correctResponse": {
+                                            "interpretation": null,
+                                            "values": [
+                                                {
+                                                    "fieldIdentifier": null,
+                                                    "value": "<p>Laat het controleren door de leerkracht.</p>\r\n"
+                                                }
+                                            ]
+                                        },
+                                        "mapping": {
+                                            "lowerBound": 0,
+                                            "upperBound": 1,
+                                            "default": 0,
+                                            "mapEntries": []
+                                        },
+                                        "areaMapping": null
+                                    }
+                                ],
+                                "outcomeDeclarations": [
+                                    {
+                                        "identifier": "SCORE",
+                                        "cardinality": "single",
+                                        "baseType": "float",
+                                        "defaultValue": 0,
+                                        "interpretation": null
+                                    },
+                                    {
+                                        "identifier": "FEEDBACK",
+                                        "cardinality": "single",
+                                        "baseType": "identifier",
+                                        "defaultValue": null,
+                                        "interpretation": null
+                                    }
+                                ],
+                                "feedback": [
+                                    {
+                                        "outcomeIdentifier": "FEEDBACK",
+                                        "identifier": "ANSWER_CORRECT",
+                                        "showHide": true,
+                                        "title": null,
+                                        "content": {
+                                            "body": "<p>Laat het controleren door de leerkracht.</p>"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "6728495"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Plattegrond maken",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Je weet nu hoe je een plattegrond met legenda moet maken! Ook weet je nu welke soorten vervoer, hoeveel natuur, wat voor soort huizen, welke voorzieningen en waar jij je stad gaat maken. Het is nu tijd om je eigen plattegrond te maken!</p>\n"
+                },
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/5/58bc08e75d87be0bc50cedf55c67bd17d6965e98.jpg",
+                    "altText": "",
+                    "alignment": "left",
+                    "scale": 0.3,
+                    "link": ""
+                }
+            ],
+            "sections": []
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": null,
+            "dimension": null,
+            "suppressTitle": null
+        },
+        "color": "#333333"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Plattegronden maken",
+                "reference": {
+                    "value": "6728066"
+                },
+                "sections": []
+            },
+            {
+                "title": "Amersfoort, Amsterdam, Berlijn",
+                "reference": {
+                    "value": "6728061"
+                },
+                "sections": []
+            },
+            {
+                "title": "Je eigen stad bouwen",
+                "reference": {
+                    "value": "6728103"
+                },
+                "sections": [
+                    {
+                        "title": "Plaats",
+                        "reference": {
+                            "value": "6728109"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Vervoer",
+                        "reference": {
+                            "value": "6728110"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Woningen",
+                        "reference": {
+                            "value": "6728380"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Voorzieningen",
+                        "reference": {
+                            "value": "6728393"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Natuur",
+                        "reference": {
+                            "value": "6728410"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Plattegrond maken",
+                "reference": {
+                    "value": "6728495"
+                },
+                "sections": []
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": null,
+        "imageSrc": null,
+        "sources": [
+            {
+                "type": "link",
+                "title": "",
+                "origin": "https://wikikids.nl/Voorziening",
+                "customOrigin": null,
+                "link": "https://wikikids.nl/Voorziening",
+                "visible": true
+            },
+            {
+                "type": "video",
+                "title": "De natuur",
+                "origin": "De natuur",
+                "customOrigin": null,
+                "link": "https://www.youtube.com/watch?v=1n5YdpT55JE",
+                "visible": true
+            }
+        ],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            },
+            {
+                "key": "learningTime",
+                "label": "Studiebelasting",
+                "terms": [
+                    "4 uur en 0 minuten"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

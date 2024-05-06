@@ -1,0 +1,799 @@
+{
+    "documentAuthors": [
+        "Wim van Schijndel"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Wim van Schijndel",
+            "referenceName": null,
+            "reference": {
+                "value": "136442"
+            },
+            "firstName": "Wim",
+            "infix": null,
+            "lastName": "van Schijndel",
+            "emailAddress": "w.vanschijndel@hethooghuis.nl",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2021-07-09T15:35:24Z",
+    "bulkId": "bulk-17041658-refresh_all",
+    "identifier": 166906,
+    "title": "Module: Arduino",
+    "description": "",
+    "lastModifiedDate": "2021-07-09T15:35:24+02:00",
+    "dateCreated": "2020-09-14T10:59:13+02:00",
+    "published": true,
+    "publisher": {
+        "reference": {
+            "value": "1509"
+        },
+        "name": "Het Hooghuis Mondriaan informatica",
+        "emailAddresses": [
+            "w.vanschijndel@hethooghuis.nl"
+        ],
+        "webAddress": null
+    },
+    "team": {
+        "reference": {
+            "value": "1509"
+        },
+        "name": "Informatica",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "GrandMondriaan, Linda",
+                "reference": {
+                    "value": "16142"
+                },
+                "firstName": "Linda",
+                "infix": null,
+                "lastName": "GrandMondriaan",
+                "emailAddress": "l.legrand@kennisnet.nl",
+                "type": "author"
+            },
+            {
+                "fullName": null,
+                "referenceName": "Croes, Elif",
+                "reference": {
+                    "value": "90018"
+                },
+                "firstName": "Elif",
+                "infix": null,
+                "lastName": "Croes",
+                "emailAddress": "e.croes@hethooghuis.nl",
+                "type": "author"
+            },
+            {
+                "fullName": null,
+                "referenceName": "van Schijndel, Wim",
+                "reference": {
+                    "value": "136442"
+                },
+                "firstName": "Wim",
+                "infix": null,
+                "lastName": "van Schijndel",
+                "emailAddress": "w.vanschijndel@hethooghuis.nl",
+                "type": "author"
+            }
+        ],
+        "emailAddress": "w.vanschijndel@hethooghuis.nl",
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-40",
+            "name": "CC Naamsvermelding 4.0 Internationale licentie",
+            "description": "De Internationale Creative Commons 4.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/4.0/.",
+            "link": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/166906/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "6279667"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Wat is Arduino?",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Arduino is een open-source elektronicaplatform op basis van gebruiksvriendelijke hardware en software. Arduino-boards kunnen ingangen lezen - een licht wat op een sensor valt, een vinger die een knop indrukt of een Twitter-bericht - en het in een uitgang veranderen - door een motor te activeren, een LED aan te zetten, iets online te publiceren. Je kunt de arduino vertellen wat het moet doen door een reeks instructies naar de microcontroller op de arduino te sturen. Hiervoor gebruik je de programmeertaal <a href=\"https://www.arduino.cc/reference/en/\" target=\"_blank\">Arduino</a> (op basis van <a href=\"http://wiring.org.co/\" target=\"_blank\">wiring</a>) en de Arduino Software (IDE) op basis van <a href=\"https://processing.org/\" target=\"_blank\">processing</a>.</p>\n<p>In de loop der jaren is Arduino het brein geweest van duizenden projecten, van alledaagse voorwerpen tot complexe wetenschappelijke instrumenten. Een wereldwijde gemeenschap van makers - studenten, hobbyisten, artiesten, programmeurs en professionals - heeft zich rond dit open-sourceplatform verzameld, hun bijdragen hebben bijgedragen tot een ongelooflijke hoeveelheid toegankelijke kennis die zowel beginners als experts van grote hulp kan zijn.</p>\n<p>Arduino werd geboren bij het Ivrea Interaction Design Institute als een gemakkelijke tool voor snelle prototyping, gericht op studenten zonder een achtergrond in elektronica en programmeren. Zodra het een bredere gemeenschap bereikte, begon het Arduino-bord te veranderen om zich aan te passen aan nieuwe behoeften en uitdagingen, waarbij het aanbod werd gedifferentieerd van eenvoudige 8-bit-borden tot producten voor IoT-toepassingen, wearable, 3D-printen en embedded omgevingen. Alle Arduino-boards zijn volledig open-source, waardoor gebruikers ze onafhankelijk kunnen bouwen en uiteindelijk kunnen aanpassen aan hun specifieke behoeften. De software is ook open-source en groeit door de bijdragen van gebruikers wereldwijd.</p>\n<p>[Origineel: <a href=\"https://www.arduino.cc/en/Guide/Introduction\" target=\"_blank\">Introductie adruino</a>(14-09-2020) Vertaald in het Nederlands]</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/4/473084ee181d9c2a6259298c798038a8e8f4b7ed.jpg\" class=\"height-387-pixels width-500-pixels\"/></p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/16c2b7380539b1d1d2854477976d093e0a2b53b0.jpg\" class=\"height-396-pixels width-500-pixels\"/></p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/7/712e60e211132c0212814a7fdeaaf6b9804c9746.jpg\" class=\"height-330-pixels width-500-pixels\"/></p>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "6279629"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "De arduino IDE",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Om microcontrollers te kunnen programmeren wordt gebruik gemaakt van een IDE (integrated development environment). Dit is software waarmee je, naast het intypen van de code, de code kunt verifi\u00ebren (laten controleren of het klopt) en compileren (omzetten naar een bestand wat de microcontroller kan uitvoeren). Na compileren kan de code worden ge\u00fcpload naar de microcontroller.</p>\n<p>Voor de arduino microprocessoren wordt vaak gebruik gemaakt van de IDE die door Arduino gemaakt is.</p>\n<p>Download het setupbestand voor de Arduino IDE hier: <a href=\"https://www.arduino.cc/en/Main/Software\">https://www.arduino.cc/en/Main/Software</a>, en installeer het op jouw computer.</p>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "6280165"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Lessen",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Op de site arduino-lessen.nl staan diverse lessen over het programmeren van de arduino. We gaan een aantal van deze lessen volgen. Kijk voordat je de video start eerst even onder aan de pagina voor de benodigdheden en het aansluitschema.</p>\n<p>Deze lessen zijn afkomstig van https://arduino-lessen.nl/</p>\n"
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "6771105"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Ingebouwde Arduino LED laten knipperen",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "video",
+                            "url": "https://youtu.be/meo_OyqEbiM",
+                            "align": "center",
+                            "caption": "https://youtu.be/meo_OyqEbiM",
+                            "poster": "https://img.youtube.com/vi/meo_OyqEbiM/maxresdefault.jpg"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Leerdoelen</p>\n<ul>\n<li>Ingebouwde Arduino LED laten knipperen</li>\n<li>Werken met de Arduino IDE</li>\n<li>Weten hoe je een sketch naar je Arduino upload</li>\n</ul>\n<p>Benodigdheden</p>\n<ul>\n<li>1\u00d7 Arduino</li>\n<li>1\u00d7 USB kabel</li>\n</ul>\n<p>Uitdaging<br/>\nMaak een programma waarbij de LED aan gaat, 0.5 seconde wacht, uit gaat en 2 seconden wacht.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6771110"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Knipperende LED op breadboard",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "video",
+                            "url": "https://youtu.be/KgMocAMAJvg",
+                            "align": "center",
+                            "caption": "https://youtu.be/KgMocAMAJvg",
+                            "poster": "https://img.youtube.com/vi/KgMocAMAJvg/maxresdefault.jpg"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Leerdoelen</p>\n<ul>\n<li>Weten hoe een breadboard werkt</li>\n<li>Weten hoe een weerstand met een LED werkt</li>\n<li>Weten hoe een LED werkt</li>\n</ul>\n<p>Benodigdheden</p>\n<ul>\n<li>1\u00d7 Arduino</li>\n<li>1\u00d7 Breadboard</li>\n<li>1\u00d7 LED</li>\n<li>2\u00d7 Jumper wire (man-man)</li>\n<li>1\u00d7 470 Ohm (goud-bruin-violet-geel) weerstand</li>\n</ul>\n<p class=\"text-align-center\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/2/299bdf4b645f311f07539e9414fb53dcfa3c8044.png\" class=\"height-395-pixels width-900-pixels\"/></p>\n<p>Uitdaging <br/>\nMaak een programma waarbij de LED het SOS signaal knippert.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6771113"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Fade een LED via pulse width modulation",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "video",
+                            "url": "https://youtu.be/ii_Pn7fmZME",
+                            "align": "center",
+                            "caption": "https://youtu.be/ii_Pn7fmZME",
+                            "poster": "https://img.youtube.com/vi/ii_Pn7fmZME/maxresdefault.jpg"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Leerdoelen</p>\n<ul>\n<li>Weten wat Pulse Width Modulation (PWM) is</li>\n<li>Weten hoe je PWM gebruikt</li>\n<li>Weten hoe je een LED kunt faden</li>\n</ul>\n<p>Benodigdheden</p>\n<ul>\n<li>1\u00d7 Arduino</li>\n<li>1\u00d7 Breadboard</li>\n<li>1\u00d7 LED</li>\n<li>2\u00d7 Jumper wire (man-man)</li>\n<li>1\u00d7 470 Ohm (goud-bruin-violet-geel) weerstand</li>\n</ul>\n<p class=\"text-align-center\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/2/299bdf4b645f311f07539e9414fb53dcfa3c8044.png\" class=\"height-395-pixels width-900-pixels\"/></p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6771116"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Knippersnelheid regelen met potmeter",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "video",
+                            "url": "https://youtu.be/eTlsoSDBz7Y",
+                            "align": "center",
+                            "caption": "https://youtu.be/eTlsoSDBz7Y",
+                            "poster": "https://img.youtube.com/vi/eTlsoSDBz7Y/maxresdefault.jpg"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Leerdoelen</p>\n<ul>\n<li>Weten wat een potmeter is</li>\n<li>Weten hoe je een potmeter kunt uitlezen</li>\n</ul>\n<p>Benodigdheden</p>\n<ul>\n<li>1\u00d7 Arduino</li>\n<li>1\u00d7 Breadboard</li>\n<li>2\u00d7 Jumper wire (man-man)</li>\n<li>1\u00d7 Potmeter</li>\n</ul>\n<p class=\"text-align-center\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/2/20abd62428dc9106b8919749e6cee184eb564165.png\" class=\"height-384-pixels width-900-pixels\"/></p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6771119"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "LED schakelen met drukknop",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "video",
+                            "url": "https://youtu.be/HKh-zfgpzGM",
+                            "align": "center",
+                            "caption": "https://youtu.be/HKh-zfgpzGM",
+                            "poster": "https://img.youtube.com/vi/HKh-zfgpzGM/maxresdefault.jpg"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Leerdoelen</p>\n<ul>\n<li>Werking van pull-up - pull-down weerstand</li>\n<li>Schakelaar in spiegelbeeld gebruiken</li>\n<li>Gebruik van drukknop</li>\n</ul>\n<p>Benodigdheden</p>\n<ul>\n<li>1\u00d7 Arduino</li>\n<li>1\u00d7 Breadboard</li>\n<li>3\u00d7 Jumper wire (man-man)</li>\n<li>1\u00d7 Min 10K Ohm weerstand</li>\n<li>1\u00d7 Drukknop</li>\n</ul>\n<p class=\"text-align-center\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/c/c8977daa8adf7833ba3c3b872cdb1e7230a85704.png\" class=\"height-436-pixels width-900-pixels\"/></p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6771122"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "1-wire temperatuursensor uitlezen",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "video",
+                            "url": "https://youtu.be/_kC0871xKks",
+                            "align": "center",
+                            "caption": "https://youtu.be/_kC0871xKks",
+                            "poster": "https://img.youtube.com/vi/_kC0871xKks/maxresdefault.jpg"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Leerdoelen</p>\n<ul>\n<li>Werking van 1-wire bus</li>\n<li>Uitlezen van 1-wire DS18B20 sensor</li>\n</ul>\n<p>Benodigdheden</p>\n<ul>\n<li>1\u00d7 Arduino</li>\n<li>1\u00d7 Breadboard</li>\n<li>3\u00d7 Jumper wire (man-man)</li>\n<li>1\u00d7 4K7 Ohm (goud-rood-violet-geel) weerstand</li>\n<li>1\u00d7 1-wire DS18B20 temperatuursensor</li>\n</ul>\n<p class=\"text-align-center\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/b/bc67c8bb513e6b80e7829f7d7a7d9d316e768197.png\" class=\"height-419-pixels width-900-pixels\"/></p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6771125"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Afstand meten met ultrasoon geluid",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "video",
+                            "url": "https://youtu.be/88DST3tytLA",
+                            "align": "center",
+                            "caption": "https://youtu.be/88DST3tytLA",
+                            "poster": "https://img.youtube.com/vi/88DST3tytLA/maxresdefault.jpg"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Leerdoelen</p>\n<ul>\n<li>Werking HC-SR04 ultrasoon afstand sensor</li>\n</ul>\n<p>Benodigdheden</p>\n<ul>\n<li>1\u00d7 Arduino</li>\n<li>1\u00d7 Breadboard</li>\n<li>4\u00d7 Jumper wire (man-man)</li>\n<li>1\u00d7 HC-SR04 ultrasoon afstand sensor</li>\n</ul>\n<p class=\"text-align-center\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/8e85821863016f63a2a28d3fed4177a80a995ac9.png\" class=\"height-450-pixels width-900-pixels\"/></p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6771128"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Analoge PS2 joystick met drukknop",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "video",
+                            "url": "https://youtu.be/HZoeU0aDpBY",
+                            "align": "center",
+                            "caption": "https://youtu.be/HZoeU0aDpBY",
+                            "poster": "https://img.youtube.com/vi/HZoeU0aDpBY/maxresdefault.jpg"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Leerdoelen</p>\n<ul>\n<li>Werking analoge PS2 joystick</li>\n</ul>\n<p>Benodigdheden</p>\n<ul>\n<li>1\u00d7 Arduino</li>\n<li>1\u00d7 Breadboard</li>\n<li>5\u00d7 Jumper wire (man-man)</li>\n<li>1\u00d7 Analoge joystick PS2 joystick</li>\n</ul>\n<p class=\"text-align-center\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/4/4d9d33141e59592adf8b8501cf63a331e461fbe7.png\" class=\"height-474-pixels width-900-pixels\"/></p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6771131"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Tekst en symbolen op een I2C LCD display",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "video",
+                            "url": "https://youtu.be/o9TrnCcZAGY",
+                            "align": "center",
+                            "caption": "https://youtu.be/o9TrnCcZAGY",
+                            "poster": "https://img.youtube.com/vi/o9TrnCcZAGY/maxresdefault.jpg"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Leerdoelen</p>\n<ul>\n<li>Tekst op LCD display tonen</li>\n<li>Eigen gemaakte symbolen op LCD display tonen</li>\n<li>Scherm op basis van tijd wisselen</li>\n</ul>\n<p>Benodigdheden</p>\n<ul>\n<li>1\u00d7 Arduino</li>\n<li>1\u00d7 Breadboard</li>\n<li>5\u00d7 Jumper wire (man-man)</li>\n<li>1\u00d7 I2C Tekst LCD 16x2 of 20x4</li>\n</ul>\n<p class=\"text-align-center\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/6/6cf6297b4cae62dfb38d44d6052e976c292b5f17.png\" class=\"height-346-pixels width-900-pixels\"/></p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6771134"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Roterende encoder en interrupts",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "video",
+                            "url": "https://youtu.be/tmYPuIvSdrg",
+                            "align": "center",
+                            "caption": "https://youtu.be/tmYPuIvSdrg",
+                            "poster": "https://img.youtube.com/vi/tmYPuIvSdrg/maxresdefault.jpg"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Leerdoelen</p>\n<ul>\n<li>Werking van een rotary encoder begrijpen</li>\n<li>Rotary encoder uitlezen</li>\n<li>Werking van interrupts begrijpen</li>\n<li>Interrupts toepassen bij uitlezen rotary encoder</li>\n</ul>\n<p>Benodigdheden</p>\n<ul>\n<li>1\u00d7 Arduino</li>\n<li>1\u00d7 Breadboard</li>\n<li>5\u00d7 Jumper wire (man-man)</li>\n<li>1\u00d7 Rotary encoder</li>\n</ul>\n<p class=\"text-align-center\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/2/279ea6e3636b68085dd35b8bd8306192779f1e66.png\" class=\"height-515-pixels width-900-pixels\"/></p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6771137"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "DHT11 luchtvochtigheid en temperatuur sensor",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "video",
+                            "url": "https://youtu.be/2eKUI7Cq1nM",
+                            "align": "center",
+                            "caption": "https://youtu.be/2eKUI7Cq1nM",
+                            "poster": "https://img.youtube.com/vi/2eKUI7Cq1nM/maxresdefault.jpg"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Leerdoelen</p>\n<ul>\n<li>Uitlezen DHT11 of DHT22 sensor</li>\n</ul>\n<p>Benodigdheden</p>\n<ul>\n<li>1\u00d7 Arduino</li>\n<li>1\u00d7 Breadboard</li>\n<li>3\u00d7 Jumper wire (man-man)</li>\n<li>1\u00d7 4K7 Ohm (goud-rood-violet-geel) weerstand</li>\n<li>1\u00d7 DHT11 of DHT22 temp- en luchtvochtigheidssensor</li>\n</ul>\n<p class=\"text-align-center\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/7/771274e83224da8c8665ebd7e20f41fd1e39d3a1.png\" class=\"height-494-pixels width-900-pixels\"/></p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6771140"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "28BYJ-48 stappenmotor met ULN2003 driver",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "video",
+                            "url": "https://youtu.be/4CtMKN3wuDA",
+                            "align": "center",
+                            "caption": "https://youtu.be/4CtMKN3wuDA",
+                            "poster": "https://img.youtube.com/vi/4CtMKN3wuDA/maxresdefault.jpg"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Leerdoelen</p>\n<ul>\n<li>Begrijpen werking stappenmotor</li>\n<li>Aansturen stappenmotor met ULN2003 motor driver</li>\n<li>Gebruik maken van hulpfunctie</li>\n</ul>\n<p>Benodigdheden</p>\n<ul>\n<li>1\u00d7 Arduino</li>\n<li>1\u00d7 Breadboard</li>\n<li>2\u00d7 Jumper wire (man-man)</li>\n<li>6\u00d7 Jumper wire (man-vrouw)</li>\n<li>1\u00d7 28BYJ-48 stappenmotor</li>\n<li>1\u00d7 ULN2003 motor driver</li>\n<li>1\u00d7 5V externe adapter</li>\n<li>1\u00d7 Power plug</li>\n<li>1\u00d7 Stukje karton</li>\n</ul>\n<p class=\"text-align-center\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/19bd1e714e624ab1f35ded2f83121646997951bc.png\" class=\"height-535-pixels width-900-pixels\"/></p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6771143"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Long press drukknop",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "video",
+                            "url": "https://youtu.be/O4Sqq56CZUE",
+                            "align": "center",
+                            "caption": "https://youtu.be/O4Sqq56CZUE",
+                            "poster": "https://img.youtube.com/vi/O4Sqq56CZUE/maxresdefault.jpg"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Leerdoelen</p>\n<ul>\n<li>Werken met millis() functie</li>\n<li>Bepalen of een drukknop lang is ingedrukt</li>\n</ul>\n<p>Benodigdheden</p>\n<ul>\n<li>1\u00d7 Arduino</li>\n<li>1\u00d7 Breadboard</li>\n<li>3\u00d7 Jumper wire (man-man)</li>\n<li>1\u00d7 Drukknop</li>\n<li>1\u00d7 Weerstand van minimaal 10K Ohm</li>\n</ul>\n<p class=\"text-align-center\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/a/a2dc3fefbae0d1ff7a109c465174e21f2e8c8985.png\" class=\"height-537-pixels width-900-pixels\"/></p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6771146"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Lichtgevoelige weerstand (LDR) uitlezen",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "video",
+                            "url": "https://youtu.be/HcoPGiV9SUU",
+                            "align": "center",
+                            "caption": "https://youtu.be/HcoPGiV9SUU",
+                            "poster": "https://img.youtube.com/vi/HcoPGiV9SUU/maxresdefault.jpg"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Leerdoelen</p>\n<ul>\n<li>Uitlezen van lichtgevoelige weerstand (LDR)</li>\n<li>Werking spanningsdeler</li>\n</ul>\n<p>Benodigdheden</p>\n<ul>\n<li>1\u00d7 Arduino</li>\n<li>1\u00d7 Breadboard</li>\n<li>3\u00d7 Jumper wire (man-man)</li>\n<li>1\u00d7 Lichtgevoelige weerstand (LDR)</li>\n</ul>\n<p class=\"text-align-center\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/5be17e6e9ce2e572a53fba05b045d23550f7800a.png\" class=\"height-393-pixels width-900-pixels\"/></p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6771149"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "SG90 Tower Pro Servo",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "video",
+                            "url": "https://youtu.be/SeiX0QnevGY",
+                            "align": "center",
+                            "caption": "https://youtu.be/SeiX0QnevGY",
+                            "poster": "https://img.youtube.com/vi/SeiX0QnevGY/maxresdefault.jpg"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Leerdoelen</p>\n<ul>\n<li>Aansturen SG90 Tower Pro Servo</li>\n</ul>\n<p>Benodigdheden</p>\n<ul>\n<li>1\u00d7 Arduino</li>\n<li>1\u00d7 Breadboard</li>\n<li>5\u00d7 Jumper wire (man-man)</li>\n<li>1\u00d7 Externe adapter (voltage tussen de 5V en 12V)</li>\n<li>1\u00d7 Power plug</li>\n<li>1\u00d7 SG90 Tower Pro Servo</li>\n</ul>\n<p class=\"text-align-center\"><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/c/ceb4b8bb911fddadbcafa92b7df812c21556c8cf.png\" class=\"height-500-pixels width-900-pixels\"/></p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": null,
+            "dimension": null,
+            "suppressTitle": null
+        },
+        "color": "#333333"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Wat is Arduino?",
+                "reference": {
+                    "value": "6279667"
+                },
+                "sections": []
+            },
+            {
+                "title": "De arduino IDE",
+                "reference": {
+                    "value": "6279629"
+                },
+                "sections": []
+            },
+            {
+                "title": "Lessen",
+                "reference": {
+                    "value": "6280165"
+                },
+                "sections": [
+                    {
+                        "title": "Ingebouwde Arduino LED laten knipperen",
+                        "reference": {
+                            "value": "6771105"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Knipperende LED op breadboard",
+                        "reference": {
+                            "value": "6771110"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Fade een LED via pulse width modulation",
+                        "reference": {
+                            "value": "6771113"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Knippersnelheid regelen met potmeter",
+                        "reference": {
+                            "value": "6771116"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "LED schakelen met drukknop",
+                        "reference": {
+                            "value": "6771119"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "1-wire temperatuursensor uitlezen",
+                        "reference": {
+                            "value": "6771122"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Afstand meten met ultrasoon geluid",
+                        "reference": {
+                            "value": "6771125"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Analoge PS2 joystick met drukknop",
+                        "reference": {
+                            "value": "6771128"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Tekst en symbolen op een I2C LCD display",
+                        "reference": {
+                            "value": "6771131"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Roterende encoder en interrupts",
+                        "reference": {
+                            "value": "6771134"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "DHT11 luchtvochtigheid en temperatuur sensor",
+                        "reference": {
+                            "value": "6771137"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "28BYJ-48 stappenmotor met ULN2003 driver",
+                        "reference": {
+                            "value": "6771140"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Long press drukknop",
+                        "reference": {
+                            "value": "6771143"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Lichtgevoelige weerstand (LDR) uitlezen",
+                        "reference": {
+                            "value": "6771146"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "SG90 Tower Pro Servo",
+                        "reference": {
+                            "value": "6771149"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": null,
+        "imageSrc": null,
+        "sources": [
+            {
+                "type": "video",
+                "title": "",
+                "origin": "https://youtu.be/meo_OyqEbiM",
+                "customOrigin": null,
+                "link": "https://youtu.be/meo_OyqEbiM",
+                "visible": true
+            },
+            {
+                "type": "video",
+                "title": "",
+                "origin": "https://youtu.be/KgMocAMAJvg",
+                "customOrigin": null,
+                "link": "https://youtu.be/KgMocAMAJvg",
+                "visible": true
+            },
+            {
+                "type": "video",
+                "title": "",
+                "origin": "https://youtu.be/ii_Pn7fmZME",
+                "customOrigin": null,
+                "link": "https://youtu.be/ii_Pn7fmZME",
+                "visible": true
+            },
+            {
+                "type": "video",
+                "title": "",
+                "origin": "https://youtu.be/eTlsoSDBz7Y\r\n",
+                "customOrigin": null,
+                "link": "https://youtu.be/eTlsoSDBz7Y\r\n",
+                "visible": true
+            },
+            {
+                "type": "video",
+                "title": "",
+                "origin": "https://youtu.be/HKh-zfgpzGM",
+                "customOrigin": null,
+                "link": "https://youtu.be/HKh-zfgpzGM",
+                "visible": true
+            },
+            {
+                "type": "video",
+                "title": "",
+                "origin": "https://youtu.be/_kC0871xKks\r\n",
+                "customOrigin": null,
+                "link": "https://youtu.be/_kC0871xKks\r\n",
+                "visible": true
+            },
+            {
+                "type": "video",
+                "title": "",
+                "origin": "https://youtu.be/88DST3tytLA\r\n",
+                "customOrigin": null,
+                "link": "https://youtu.be/88DST3tytLA\r\n",
+                "visible": true
+            },
+            {
+                "type": "video",
+                "title": "",
+                "origin": "https://youtu.be/HZoeU0aDpBY\r\n",
+                "customOrigin": null,
+                "link": "https://youtu.be/HZoeU0aDpBY\r\n",
+                "visible": true
+            },
+            {
+                "type": "video",
+                "title": "",
+                "origin": "https://youtu.be/o9TrnCcZAGY\r\n",
+                "customOrigin": null,
+                "link": "https://youtu.be/o9TrnCcZAGY\r\n",
+                "visible": true
+            },
+            {
+                "type": "video",
+                "title": "",
+                "origin": "https://youtu.be/tmYPuIvSdrg",
+                "customOrigin": null,
+                "link": "https://youtu.be/tmYPuIvSdrg",
+                "visible": true
+            },
+            {
+                "type": "video",
+                "title": "",
+                "origin": "https://youtu.be/2eKUI7Cq1nM",
+                "customOrigin": null,
+                "link": "https://youtu.be/2eKUI7Cq1nM",
+                "visible": true
+            },
+            {
+                "type": "video",
+                "title": "",
+                "origin": "https://youtu.be/4CtMKN3wuDA\r\n",
+                "customOrigin": null,
+                "link": "https://youtu.be/4CtMKN3wuDA\r\n",
+                "visible": true
+            },
+            {
+                "type": "video",
+                "title": "",
+                "origin": "https://youtu.be/O4Sqq56CZUE\r\n",
+                "customOrigin": null,
+                "link": "https://youtu.be/O4Sqq56CZUE\r\n",
+                "visible": true
+            },
+            {
+                "type": "video",
+                "title": "",
+                "origin": "https://youtu.be/HcoPGiV9SUU\r\n",
+                "customOrigin": null,
+                "link": "https://youtu.be/HcoPGiV9SUU\r\n",
+                "visible": true
+            },
+            {
+                "type": "video",
+                "title": "",
+                "origin": "https://youtu.be/SeiX0QnevGY\r\n",
+                "customOrigin": null,
+                "link": "https://youtu.be/SeiX0QnevGY\r\n",
+                "visible": true
+            }
+        ],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            },
+            {
+                "key": "learningTime",
+                "label": "Studiebelasting",
+                "terms": [
+                    "4 uur en 0 minuten"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

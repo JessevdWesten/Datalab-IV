@@ -1,0 +1,612 @@
+{
+    "documentAuthors": [
+        "Hanan Hanan"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Hanan Hanan",
+            "referenceName": null,
+            "reference": {
+                "value": "22823"
+            },
+            "firstName": "Hanan",
+            "infix": "",
+            "lastName": "Hanan",
+            "emailAddress": "H.boundatiel@noorderpoort.nl",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2014-07-10T10:10:55Z",
+    "bulkId": "bulk-17041135-refresh_all",
+    "identifier": 52161,
+    "title": "Traffic Safety",
+    "description": "",
+    "lastModifiedDate": "2014-07-10T10:10:55+02:00",
+    "dateCreated": "-0001-11-30T00:00:00+00:19",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "Hanan, Hanan",
+                "reference": {
+                    "value": "22823"
+                },
+                "firstName": "Hanan",
+                "infix": "",
+                "lastName": "Hanan",
+                "emailAddress": "H.boundatiel@noorderpoort.nl",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-40",
+            "name": "CC Naamsvermelding 4.0 Internationale licentie",
+            "description": "De Internationale Creative Commons 4.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/4.0/.",
+            "link": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/52161/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "865878"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Luisteroefeningen",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "link",
+                    "link": "http://www.youtube.com/watch?v=txedGfKncTo",
+                    "title": "Traffic Safety running a red light",
+                    "description": "",
+                    "comment": ""
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "865862"
+                    },
+                    "assessmentItem": {
+                        "identifier": "865862",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "choiceInteraction",
+                                "label": "Traffic safety running a red light vraag 1",
+                                "prompt": {
+                                    "body": "<p>Komen de inhoud van de tekst en de geluids-/beeldfragmenten met elkaar overeen?</p>"
+                                },
+                                "shuffle": true,
+                                "maxChoices": 2,
+                                "minChoices": 1,
+                                "orientation": "vertical",
+                                "choices": [
+                                    {
+                                        "identifier": "0",
+                                        "content": {
+                                            "body": "Ja"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "0",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "1",
+                                        "content": {
+                                            "body": "Nee"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "1",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": {
+                                                "body": "De tekst en de beelden spreken elkaar tegen"
+                                            }
+                                        }
+                                    }
+                                ],
+                                "responseIdentifier": "865862_1",
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "865862_1",
+                                "cardinality": "ordered",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0,
+                                    "default": 0,
+                                    "mapEntries": [
+                                        {
+                                            "key": "0",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "1",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        }
+                                    ]
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "865863"
+                    },
+                    "assessmentItem": {
+                        "identifier": "865863",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "choiceInteraction",
+                                "label": "Traffic safety running a red light vraag 2",
+                                "prompt": {
+                                    "body": "<p>Wat is de mening van de auteur wat betreft het plaatsen van camera's bij stoplichten?</p>"
+                                },
+                                "shuffle": true,
+                                "maxChoices": 3,
+                                "minChoices": 1,
+                                "orientation": "vertical",
+                                "choices": [
+                                    {
+                                        "identifier": "0",
+                                        "content": {
+                                            "body": "De auteur is het eens met de mensen in de geluids-/beeldfragementen: camera's bij stoplichten zijn vervelend en alleen bedoeld om mensen geld af te troggelen."
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "0",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "1",
+                                        "content": {
+                                            "body": "De auteur heeft geen mening"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "1",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "2",
+                                        "content": {
+                                            "body": "<br />\nDe auteur vindt dat er vaker camera's bij stoplichten moeten worden geplaatst."
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "2",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": {
+                                                "body": "De auteur vindt dat de feiten voor zichzelf spreken, de cijfers tonen aan dat het plaatsen van camera's bij stoplichten er voor zorgt dat minder mensen door rood licht rijden en dus minder ongelukken veroorzaken."
+                                            }
+                                        }
+                                    }
+                                ],
+                                "responseIdentifier": "865863_1",
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "865863_1",
+                                "cardinality": "ordered",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "2"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0,
+                                    "default": 0,
+                                    "mapEntries": [
+                                        {
+                                            "key": "0",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "1",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "2",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        }
+                                    ]
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                },
+                {
+                    "type": "link",
+                    "link": "http://www.youtube.com/watch?v=GRofM6C9jU4&list=PLCAB3C5CBFE35FDF3",
+                    "title": "Traffic safety talking on the phone",
+                    "description": "",
+                    "comment": ""
+                },
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "865875"
+                    },
+                    "assessmentItem": {
+                        "identifier": "865875",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "choiceInteraction",
+                                "label": "Traffic Safety talking on the phone ",
+                                "prompt": {
+                                    "body": "<p>Is het veiliger hands free te bellen tijdens het rijden in plaats van met de telefoon in de hand?</p>"
+                                },
+                                "shuffle": true,
+                                "maxChoices": 3,
+                                "minChoices": 1,
+                                "orientation": "vertical",
+                                "choices": [
+                                    {
+                                        "identifier": "0",
+                                        "content": {
+                                            "body": "Het is veiliger handsfree te bellen"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "0",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "1",
+                                        "content": {
+                                            "body": "Het is veiliger met de telefoon in de hand te bellen"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "1",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "2",
+                                        "content": {
+                                            "body": "Het maakt geen verschil of je handsfree of met de telefoon in de hand belt"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "2",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": {
+                                                "body": "Bellen in de auto leidt af. Bellers rijden twee keer zo vaak door rood licht dan niet-bellers (of deze nu naar iemand luisteren in de auto of niet)"
+                                            }
+                                        }
+                                    }
+                                ],
+                                "responseIdentifier": "865875_1",
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "865875_1",
+                                "cardinality": "ordered",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "2"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0,
+                                    "default": 0,
+                                    "mapEntries": [
+                                        {
+                                            "key": "0",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "1",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "2",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        }
+                                    ]
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "865879"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Spreekoefening",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p><strong>Stellingen</strong></p>\n<p> </p>\n<ol>\n<li>The government should place cameras at every traffic light.</li>\n<li>The government should ban phone calls in the car altogether.</li>\n</ol>\n<p> </p>\n<p><strong>Opdracht</strong></p>\n<p>Stel een groepje van vier samen en maak binnen dat groepje twee tweetallen. Kies per tweetal een standpunt voor of tegen de stellingen hierboven. Bedenk met je partner argumenten en noteer deze. Neem 3 minuten de tijd om te overleggen en je argumenten voor te bereiden. Vervolgens ga je met het andere tweetal in discussie.  Neem voor de discussie 4 minuten de tijd. Houdt de tijd bij met een online stopwatch: http://www.online-stopwatch.com/</p>\n<p> </p>\n<p><strong>Probeer tijdens de oefening de volgende vocabulaire te gebruiken:</strong></p>\n<p> </p>\n<p>I don't agree / I disagree with you (on that)</p>\n<p>I agree with you (on that)</p>\n<p>I don't / I can't share your view (on that)</p>\n<p>I can see your point of view, but\u2026</p>\n<p>I totally agree / disagree</p>\n"
+                }
+            ],
+            "sections": []
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": null,
+            "dimension": null,
+            "suppressTitle": null
+        },
+        "color": ""
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Luisteroefeningen",
+                "reference": {
+                    "value": "865878"
+                },
+                "sections": []
+            },
+            {
+                "title": "Spreekoefening",
+                "reference": {
+                    "value": "865879"
+                },
+                "sections": []
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": "",
+        "imageSrc": null,
+        "sources": [
+            {
+                "type": "link",
+                "title": "Traffic Safety running a red light",
+                "origin": "Traffic Safety running a red light",
+                "customOrigin": null,
+                "link": "http://www.youtube.com/watch?v=txedGfKncTo",
+                "visible": true
+            },
+            {
+                "type": "link",
+                "title": "Traffic safety talking on the phone",
+                "origin": "Traffic safety talking on the phone",
+                "customOrigin": null,
+                "link": "http://www.youtube.com/watch?v=GRofM6C9jU4&list=PLCAB3C5CBFE35FDF3",
+                "visible": true
+            }
+        ],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

@@ -1,0 +1,475 @@
+{
+    "documentAuthors": [
+        "Mario van Wetten"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Mario van Wetten",
+            "referenceName": null,
+            "reference": {
+                "value": "53769"
+            },
+            "firstName": "Mario",
+            "infix": null,
+            "lastName": "van Wetten",
+            "emailAddress": "m.wetten@merletcollege.nl",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2017-06-14T09:28:32Z",
+    "bulkId": "bulk-17041135-refresh_all",
+    "identifier": 103136,
+    "title": "GameMaker Merletcollege: opdracht Mack",
+    "description": "Om deze opdracht te kunnen maken, moet je al wel wat ervaring hebben met GameMaker. Je voert de opdracht zelfstandig uit. ",
+    "lastModifiedDate": "2017-06-14T09:28:32+02:00",
+    "dateCreated": "2017-06-06T13:15:39+02:00",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "van Wetten, Mario",
+                "reference": {
+                    "value": "53769"
+                },
+                "firstName": "Mario",
+                "infix": null,
+                "lastName": "van Wetten",
+                "emailAddress": "m.wetten@merletcollege.nl",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-30",
+            "name": "CC Naamsvermelding 3.0 Nederland licentie",
+            "description": "De Nederlandse Creative Commons 3.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/3.0/nl/.",
+            "link": "http://creativecommons.org/licenses/by/3.0/nl/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/103136/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "3337005"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Opdracht Mack",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p><strong>Voorkennis</strong></p>\n<p>Om deze opdracht te kunnen maken, moet je GameMaker al een beetje kennen, bijvoorbeeld doordat je een cursus hebt gevolgd en misschien al zelfstandig een klein game hebt gemaakt.</p>\n<p> </p>\n<p><strong>Wat ga je doen</strong></p>\n<p>Je gaat helemaal zelfstandig een aantal opdrachten uitvoeren. Er staat nergens uitleg bij: weet je iets niet, dan zoek je het op, of je vraagt het aan een klasgenoot of je docent.</p>\n<p> </p>\n<p><strong>Hoe lang ben je ermee bezig?</strong></p>\n<p>Je bent tussen de 7 en 10 lesuren met de opdrachten bezig.</p>\n"
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "3337007"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Het verhaal",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/855924c59e05e53d3ddf51b48fd9c539726da951.png\" class=\"height-157-pixels width-192-pixels float-right\"/>Mack is aan het wandelen in de woestijn. Helaas verdwaalt hij. Het is jouw opdracht om Mack weer veilig thuis te brengen. Daarvoor moet hij wel een hindernis overwinnen want tussen Mack en zijn huis zit een diep ravijn.</p>\n<p>Hij kan kiezen of hij zijn <strong>springschoenen</strong>, zijn <strong>touw</strong>, of zijn <strong>duikpak</strong> meeneemt. Hij kan maar \u00e9\u00e9n ding tegelijk meenemen.</p>\n<p>Als hij bij het ravijn komt moet hij naar de overkant zien te komen:</p>\n<ul>\n<li>Als hij zijn duikpak bij zich heeft, kan hij het ravijn niet over.</li>\n<li>Als hij zijn touw bij zich heeft, kan hij dat naar de overkant gooien en zo over het ravijn komen.</li>\n<li>Als hij zijn springschoenen aan heeft, kan hij over het ravijn springen.</li>\n</ul>\n<p>Heeft hij alle hindernissen overwonnen, dan kan hij naar huis.</p>\n<p> </p>\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"width-100-percent\">\n<tbody>\n<tr>\n<td style=\"background-color:rgb(255, 255, 204);\">\n<h4><strong>Opdracht</strong></h4>\n<ul>\n<li>Je gaat het bovenstaande verhaal in GameMaker maken. Dat doe je in stappen. Voor iedere stap kun je punten verdienen.</li>\n<li>Het is NIET de bedoeling dat je bezig bent met de grafische kanten van de game, daarom staat er een 'begin-game' voor je klaar met daarin de sprites die je nodig kunt hebben.</li>\n<li>Je werkt alleen.</li>\n</ul>\n</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "3337009"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Stap 0: Downloaden",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"width-100-percent\">\n<tbody>\n<tr>\n<td style=\"background-color:rgb(255, 255, 204);\">\n<ul>\n<li><strong>Download</strong> het bestand <strong>basis eindopdracht0.gmk</strong>.</li>\n<li><strong>Open</strong> het bestand in GameMaker 8.</li>\n<li>Je ziet dat er al veel <strong>sprites</strong> klaarstaan. Bekijk de sprites en kijk of je kunt bedenken waar je ze voor kunt gebruiken.</li>\n<li>Je ziet ook al een <strong>achtergrond</strong> klaar staan.</li>\n</ul>\n<div>\n<ul>\n<li>En tot slot is er ook al een <strong>room</strong> gemaakt, met daarin de achtergrond. De objecten die je nodig hebt, zet je er zelf in. Gebruik sprites die al in het basisbestand zijn klaargezet. Het is NIET de bedoeling dat je zelf andere sprites en achtergronden gaat zoeken</li>\n</ul>\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n"
+                        },
+                        {
+                            "type": "file",
+                            "title": "Basisbestand voor de opdracht: eindopdracht0",
+                            "file": "https://maken.wikiwijs.nl/userfiles/e/ea7858edcf20cb2cfb756c595c904c74.gmk"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "3337012"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Stap 1: Lopen",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"height-21-pixels width-100-percent\">\n<tbody>\n<tr>\n<td style=\"background-color:rgb(255, 255, 204);\">\n<ul>\n<li>Zorg dat Mack naar links en rechts kan lopen.</li>\n</ul>\n</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/6/6ab6f2b15b1fd61e9aa3120000a3efdbf6966930.PNG\" class=\"height-234-pixels width-272-pixels\"/></p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "3337014"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Stap 2: attributen oprapen",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"width-100-percent\">\n<tbody>\n<tr>\n<td style=\"background-color:rgb(255, 255, 204);\">\n<ul>\n<li>Zorg dat Mack \u00e9\u00e9n van de attributen: springschoenen, touw of duikpak kan meenemen. Je moet aan Mack kunnen zien wat hij bij zich heeft.</li>\n<li>Als Mack een attribuut opraapt, moet het dus niet meer op de grond liggen.</li>\n</ul>\n</td>\n</tr>\n</tbody>\n</table>\n<h4>Hieronder zie je Mack met:</h4>\n<p> </p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/0/0fcea9b9bb55a4d653771655d152b0f20733f9f1.PNG\" class=\"height-133-pixels width-800-pixels\"/></p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "3337016"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Stap 3: attributen uitwisselen",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"width-100-percent\">\n<tbody>\n<tr>\n<td style=\"background-color:rgb(255, 255, 204);\">\n<ul>\n<li>Als Mack het ene attribuut inwisselt voor het andere moet het attribuut dat hij NIET meer bij zich heeft, weer op de oorspronkelijke plek komen liggen.</li>\n</ul>\n</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<p> </p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/0/087b4097f6c981ec670235bbf33e61dd38a17db2.PNG\" class=\"height-143-pixels width-603-pixels\"/></p>\n<p> </p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "3337018"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Stap 4: vallen is game over",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"width-100-percent\">\n<tbody>\n<tr>\n<td style=\"background-color:rgb(255, 255, 204);\">\n<ul>\n<li>Zorg dat de game over is als Mack <strong>in het ravijn</strong> valt. Zoek zelf een manier.</li>\n<li>Daarna moet de game dan <strong>opnieuw</strong> beginnen.</li>\n</ul>\n</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/2/2bd0c6d18066e1a57ae5b07cb445a5bc22bf3289.png\" class=\"height-274-pixels width-310-pixels\"/></p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "3337020"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Stap 5: Springen met springschoenen",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"width-100-percent\">\n<tbody>\n<tr>\n<td style=\"background-color:rgb(255, 255, 204);\">\n<ul>\n<li>Zorg dat Mack kan springen als hij de <strong>springschoenen</strong> aan heeft.</li>\n</ul>\n<ul>\n<li>Zorg dat Mack <strong>NIET</strong> kan springen als hij de springschoenen niet aan heeft.</li>\n</ul>\n</td>\n</tr>\n</tbody>\n</table>\n<div>\n<p> </p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/3/3b4ab32c6aafafade452e91b316fde3824f53ccf.PNG\" class=\"height-271-pixels width-307-pixels\"/></p>\n</div>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "3337022"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Stap 6: met touw over ravijn",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"width-100-percent\">\n<tbody>\n<tr>\n<td style=\"background-color:rgb(255, 255, 204);\">\n<div>\n<ul>\n<li>Zorg dat Mack met het touw het ravijn over kan.</li>\n<li>Gebruik je fantasie en bedenk een werkende manier.</li>\n</ul>\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "3337024"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Stap 7: Thuis",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"width-100-percent\">\n<tbody>\n<tr>\n<td style=\"background-color:rgb(255, 255, 204);\">\n<ul>\n<li>Als Mack veilig over he ravijn is, kan hij naar huis en heeft hij gewonnen. Zorg dat het spel dan eindigt.</li>\n<li>Bedenk zelf een passende/leuke manier om het spel te laten eindigen.</li>\n</ul>\n</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/8b09159d51073f1608a99fd3f3277a7b44d9ea3b.png\" class=\"height-148-pixels width-292-pixels\"/></p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "3337026"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Stap 8: Game info",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"width-100-percent\">\n<tbody>\n<tr>\n<td style=\"background-color:rgb(255, 255, 204);\">\n<p> </p>\n<p>Vergeet niet de werking van je game uit te leggen. Bedenk zelf een passende manier.</p>\n<p> </p>\n</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<p> </p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/3/3d8c1d8bb219b7f731e1b3c2d346a38748f10b45.PNG\" class=\"height-139-pixels width-350-pixels\"/></p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "3337028"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Stap 9: Testen",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"width-100-percent\">\n<tbody>\n<tr>\n<td style=\"background-color:rgb(255, 255, 204);\">\n<p>Je hebt natuurlijk tussendoor gecontroleerd of de oplossingen die je hebt verzonnen ook goed werken. Maar nu je game klaar is, is het tijd voor de afsluitende test.</p>\n<p><strong>Test</strong> je game door het te spelen.</p>\n<p>Ga alle situaties na.</p>\n<p>Noteer zorgvuldig rare of onverwachte dingen. Wat gebeurde er precies, wanneer trad het op, wat had er moeten gebeuren?</p>\n<p> </p>\n<p>Vaak ziet een ander foutjes ('bugs') in je game, die jouzelf niet overkomen of die jij niet ziet. Het is daarom slim om je game ook eens te ruilen met dat van een klasgenoot. Zo kun je elkaars game testen.</p>\n<p> </p>\n<p>Welke fouten heb je gevonden?</p>\n<p>Probeer ze te verbeteren.</p>\n<p> </p>\n<p><strong>Helemaal klaar? Lever je game dan in bij je docent. (let op: je bestand moet eindigen op .gmk)</strong></p>\n<p> </p>\n</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "3337030"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Veel voorkomende fouten",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "file",
+                    "title": "https://maken.wikiwijs.nl/userfiles/c/c0c2d702eef3dccb9aae201760f577b6.docx",
+                    "file": "https://maken.wikiwijs.nl/userfiles/c/c0c2d702eef3dccb9aae201760f577b6.docx"
+                }
+            ],
+            "sections": []
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [
+                {
+                    "content": "GameMaker Merletcollege: opdracht Mack"
+                }
+            ],
+            "backgroundImageUrl": "https://maken.wikiwijs.nl/generated/l1200x76_6c41008b8d9bf30ee0b0b115cf38cb528c77c85e.jpg",
+            "dimension": null,
+            "suppressTitle": false
+        },
+        "color": "#050505"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Opdracht Mack",
+                "reference": {
+                    "value": "3337005"
+                },
+                "sections": [
+                    {
+                        "title": "Het verhaal",
+                        "reference": {
+                            "value": "3337007"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Stap 0: Downloaden",
+                        "reference": {
+                            "value": "3337009"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Stap 1: Lopen",
+                        "reference": {
+                            "value": "3337012"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Stap 2: attributen oprapen",
+                        "reference": {
+                            "value": "3337014"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Stap 3: attributen uitwisselen",
+                        "reference": {
+                            "value": "3337016"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Stap 4: vallen is game over",
+                        "reference": {
+                            "value": "3337018"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Stap 5: Springen met springschoenen",
+                        "reference": {
+                            "value": "3337020"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Stap 6: met touw over ravijn",
+                        "reference": {
+                            "value": "3337022"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Stap 7: Thuis",
+                        "reference": {
+                            "value": "3337024"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Stap 8: Game info",
+                        "reference": {
+                            "value": "3337026"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Stap 9: Testen",
+                        "reference": {
+                            "value": "3337028"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Veel voorkomende fouten",
+                "reference": {
+                    "value": "3337030"
+                },
+                "sections": []
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": null,
+        "imageSrc": null,
+        "sources": [],
+        "metadata": [
+            {
+                "key": "educationalLevels",
+                "label": "Leerniveaus",
+                "terms": {
+                    "17da6976-2f1b-4214-a471-168f469d7e04": "VWO 2",
+                    "70af3752-c6ad-43d9-aa0c-9ff099931f8a": "HAVO 4",
+                    "78f5cabe-6649-4dc3-84bf-36d82c6c2d31": "HAVO 1",
+                    "ac188375-0a1a-4984-ac80-14d04a086a19": "VWO 1",
+                    "af3ecd88-a654-4458-9c5b-1e1f7d09f463": "HAVO 3",
+                    "b924d4ad-65a1-41dc-b704-c7786eb4aec0": "VWO 3",
+                    "eaa0c07f-193e-4be5-8dc6-a00bbfc7a446": "HAVO 2"
+                }
+            },
+            {
+                "key": "disciplines",
+                "label": "Leerinhoud en doelen",
+                "terms": {
+                    "2845473d-ce18-450a-9135-6738abbdc129": "Informatica"
+                }
+            },
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            },
+            {
+                "key": "learningTime",
+                "label": "Studiebelasting",
+                "terms": [
+                    "0 uur en 50 minuten"
+                ]
+            },
+            {
+                "key": "keywords",
+                "label": "Trefwoorden",
+                "terms": [
+                    "gedeeld_door_mondriaan_college"
+                ]
+            }
+        ],
+        "usedLearningResources": [
+            {
+                "author": {
+                    "fullName": null,
+                    "referenceName": "GrandMondriaan, Linda",
+                    "reference": {
+                        "value": "16142"
+                    },
+                    "firstName": "Linda",
+                    "infix": null,
+                    "lastName": "GrandMondriaan",
+                    "emailAddress": "l.legrand@kennisnet.nl",
+                    "type": "author"
+                },
+                "title": "GameMaker: opdracht Mack",
+                "url": "https://maken.wikiwijs.nl/56532/",
+                "datePublished": "2015-01-10T23:37:26+01:00"
+            }
+        ]
+    }
+}

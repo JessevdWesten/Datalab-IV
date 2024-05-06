@@ -1,0 +1,2109 @@
+{
+    "documentAuthors": [
+        "Patrick Hulshof",
+        "Martijn Bockstael"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Patrick Hulshof",
+            "referenceName": null,
+            "reference": {
+                "value": "107023"
+            },
+            "firstName": "Patrick",
+            "infix": null,
+            "lastName": "Hulshof",
+            "emailAddress": "p.hulshof@noorderpoort.nl",
+            "type": "author"
+        },
+        {
+            "fullName": "Martijn Bockstael",
+            "referenceName": null,
+            "reference": {
+                "value": "135977"
+            },
+            "firstName": "Martijn",
+            "infix": null,
+            "lastName": "Bockstael",
+            "emailAddress": "m.bockstael@noorderpoort.nl",
+            "type": "coauthor"
+        }
+    ],
+    "documentDate": "2021-05-30T10:16:38Z",
+    "bulkId": "bulk-17041658-refresh_all",
+    "identifier": 172001,
+    "title": "Linux gevorderd",
+    "description": "Deze lessen zijn voor module 4 & 5 voor Linux. Deze lessen gaan in op Docker, Kubernetes, netwerkbeheer met Linux.",
+    "lastModifiedDate": "2021-05-30T10:16:38+02:00",
+    "dateCreated": "2021-01-12T11:16:12+01:00",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "Hulshof, Patrick",
+                "reference": {
+                    "value": "107023"
+                },
+                "firstName": "Patrick",
+                "infix": null,
+                "lastName": "Hulshof",
+                "emailAddress": "p.hulshof@noorderpoort.nl",
+                "type": "author"
+            },
+            {
+                "fullName": null,
+                "referenceName": "Bockstael, Martijn",
+                "reference": {
+                    "value": "135977"
+                },
+                "firstName": "Martijn",
+                "infix": null,
+                "lastName": "Bockstael",
+                "emailAddress": "m.bockstael@noorderpoort.nl",
+                "type": "coauthor"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-40",
+            "name": "CC Naamsvermelding 4.0 Internationale licentie",
+            "description": "De Internationale Creative Commons 4.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/4.0/.",
+            "link": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/172001/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "6505307"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Les 0: Basisconfiguratie Ubuntu-server",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Maak een standaard Linux-server met de volgende instellingen.</p>\n<ul>\n<li>apt update</li>\n<li>apt install net-tools</li>\n<li>Gebruiker (student) met sudo rechten</li>\n<li>Basis firewall instellingen</li>\n<li>SSH toevoegen aan UFW</li>\n<li>SSH-sleutels delen met je server</li>\n<li>Standaard gebruiker moet met SSH in kunnen loggen op de server</li>\n</ul>\n<p>Zie hiervoor les 0 van de Wiki Linux-server.</p>\n<p><a href=\"https://maken.wikiwijs.nl/171453/Linux_server\">https://maken.wikiwijs.nl/171453/Linux_server</a></p>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "6505309"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Les 1: Docker",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Docker is een applicatie die het proces van het beheren van applicatieprocessen in <em>containers</em> vereenvoudigt. Met containers kun je applicaties uitvoeren in processen die zijn gescheiden van bronnen. Ze lijken op virtuele machines, maar containers zijn draagbaarder, resourcevriendelijker en afhankelijker van het hostbesturingssysteem.</p>\n<p>In deze les installeer en gebruik je Docker Community Edition (CE) op Ubuntu 20.04. Je installeert Docker zelf, werkt met containers en images.</p>\n"
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "6572354"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Docker installeren",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Het Docker-installatiepakket dat beschikbaar is in de offici\u00eble Ubuntu-repository is mogelijk niet de nieuwste versie. Om ervoor te zorgen dat we de nieuwste versie krijgen, installeren we Docker vanuit de offici\u00eble Docker-repository. Om dat te doen, voegen we een nieuwe pakketbron toe, voegen we de GPG-sleutel van Docker toe om ervoor te zorgen dat de downloads geldig zijn, en installeren we vervolgens het pakket.</p>\n<p>Werk eerst je bestaande lijst met pakketten bij:</p>\n<pre>&#13;\nsudo apt update</pre>\n<p>Installeer vervolgens een paar vereiste pakketten waarmee</p>\n<div class=\"code\">apt</div>\nje pakketten via HTTPS kunt gebruiken:\n<pre>&#13;\nsudo apt install apt-transport-https ca-certificates curl software-properties-common </pre>\n<p>Voeg vervolgens de GPG-sleutel voor de offici\u00eble Docker-repository toe aan je systeem:</p>\n<pre>&#13;\ncurl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - </pre>\n<p>Voeg de Docker-repository toe aan APT-bronnen:</p>\n<pre>&#13;\nsudo add-apt-repository \"deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable\" </pre>\n<p>Werk vervolgens de pakketdatabase bij met de Docker-pakketten uit de nieuw toegevoegde opslagplaats:</p>\n<pre>&#13;\nsudo apt update </pre>\n<p>Zorg ervoor dat je op het punt staat te installeren vanuit de Docker-opslagplaats in plaats van de standaard Ubuntu-opslagplaats:</p>\n<pre>&#13;\napt-cache policy docker-ce </pre>\n<p>Je ziet de uitvoer als volgt, hoewel het versienummer voor Docker kan verschillen:</p>\n<p>Uitvoer van apt-cache policy docker-ce:</p>\n<pre>&#13;\n</pre>\n<div class=\"code\">docker-ce:&#13; Installed: (none)&#13; Candidate: 5:20.10.3~3-0~ubuntu-focal&#13; Version table:&#13; 5:20.10.3~3-0~ubuntu-focal 500&#13; 500 https://download.docker.com/linux/ubuntu focal/stable amd64 Packages</div>\n<pre>&#13;\n</pre>\n<p>Merk op dat het</p>\n<div class=\"code\">docker-ce</div>\nniet is ge\u00efnstalleerd, maar de kandidaat voor installatie komt uit de Docker-repository voor Ubuntu 20.04 (\n<div class=\"code\">focal</div>\n).\n<p>Installeer ten slotte Docker:</p>\n<pre>&#13;\nsudo apt install docker-ce </pre>\n<p>Docker zou nu moeten worden ge\u00efnstalleerd, de daemon zou moeten zijn gestart en het proces zou moeten starten bij het opstarten. Controleer of het werkt:</p>\n<pre>&#13;\nsudo systemctl status docker </pre>\n<p>De uitvoer moet er ongeveer als volgt uitzien, om aan te geven dat de service actief is:</p>\n<p>Als je Docker nu installeert, krijg je niet alleen de Docker-service (daemon) maar ook het</p>\n<div class=\"code\">docker</div>\nopdrachtregelprogramma of de Docker-client. "
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/0/0b34a657462d8fe10ce379bd49a688432c5a906f.png",
+                            "altText": "",
+                            "alignment": "center",
+                            "scale": 0.8,
+                            "link": ""
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6572372"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Docker uitvoeren zonder sudo",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Standaard kan de</p>\n<div class=\"code\">docker</div>\nopdracht alleen worden uitgevoerd door de <strong>rootgebruiker</strong> of door een gebruiker in de <strong>docker-</strong> groep, die automatisch wordt aangemaakt tijdens het installatieproces van Docker. Als je probeert om de\n<div class=\"code\">docker</div>\nopdracht uit te voeren zonder er een voorvoegsel aan te geven, met\n<div class=\"code\">sudo</div>\nof zonder in de <strong>docker-</strong> groep te zijn, krijg je een output als deze:\n<pre>&#13;\n</pre>\n<div class=\"code\">docker: Cannot connect to the Docker daemon. Is the docker daemon running on this host?. See 'docker run --help'.</div>\n<p>Als je niet </p>\n<div class=\"code\">sudo</div>\nwilt typen wanneer je de\n<div class=\"code\">docker</div>\nopdracht uitvoert, voeg je de gebruikersnaam toe aan de\n<div class=\"code\">docker</div>\ngroep:\n<pre>&#13;\nsudo usermod -aG docker ${USER} </pre>\n<p>Om het nieuwe groepslidmaatschap toe te passen, log je uit bij de server en weer in, of typ je het volgende:</p>\n<pre>&#13;\nsu - ${USER} </pre>\n<p>Je wordt gevraagd om je gebruikerswachtwoord in te voeren om door te gaan.</p>\n<p>Bevestig dat uw gebruiker nu is toegevoegd aan de <strong>docker-</strong> groep door te typen:</p>\n<pre>&#13;\nid -nG </pre>\n<pre>&#13;\n</pre>\n<div class=\"code\">Output&#13; student sudo docker</div>\n<p>Als je een gebruiker moet toevoegen aan de</p>\n<div class=\"code\">docker</div>\ngroep waarbij je niet bent aangemeld, geef die gebruikersnaam dan expliciet op met:\n<pre>&#13;\nsudo usermod -aG docker username </pre>\n<p>In de rest van deze les wordt ervan uitgegaan dat je de</p>\n<div class=\"code\">docker</div>\nopdracht uitvoert als gebruiker in de <strong>dockergroep</strong> . Als je ervoor kiest om dit niet te doen, plaats je de opdrachten vooraf met\n<div class=\"code\">sudo</div>\n.\n<p>Laten we het</p>\n<div class=\"code\">docker</div>\ncommando onderzoeken ."
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6572423"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Het docker commando gebruiken",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Opdracht </p>\n<div class=\"code\">docker</div>\nbestaat uit het doorgeven van een reeks opties en opdrachten gevolgd door argumenten. De syntaxis heeft deze vorm:\n<pre>&#13;\ndocker [option] [command] [arguments] </pre>\n<p>Om alle beschikbare subopdrachten te zien, typ je:</p>\n<pre>&#13;\ndocker </pre>\n<p>Vanaf Docker 19 bevat de volledige lijst met beschikbare subopdrachten</p>\n<p>Om de beschikbare opties voor een specifieke opdracht te zien, typ je:</p>\n<pre>&#13;\ndocker docker-subcommand --help </pre>\n<p>Om systeembrede informatie over Docker te bekijken, gebruik je:</p>\n<pre>&#13;\ndocker info </pre>\n<p>Laten we enkele van deze commando's onderzoeken. We beginnen met het werken met Docker images.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6572437"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Werken met Docker-images",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Docker-containers worden gemaakt op basis van Docker-installatie kopie\u00ebn. Docker haalt deze images standaard uit Docker Hub, een Docker-registry beheerd door Docker, het bedrijf achter het Docker-project. Iedereen kan zijn Docker-images hosten op Docker Hub, dus voor de meeste applicaties en Linux-distributies die je nodig hebt, worden daar images gehost.</p>\n<p>Om te controleren of je images kunt openen en downloaden van Docker Hub, typ je:</p>\n<pre>&#13;\ndocker run hello-world </pre>\n<p>De uitvoer geeft aan dat Docker correct werkt:</p>\n<pre>&#13;\n</pre>\n<div class=\"code\">Output&#13; Unable to find image 'hello-world:latest' locally&#13; latest: Pulling from library/hello-world&#13; 0e03bdcc26d7: Pull complete &#13; Digest: sha256:95ddb6c31407e84e91a986b004aee40975cb0bda14b5949f6faac5d2deadb4b9&#13; Status: Downloaded newer image for hello-world:latest&#13; &#13; Hello from Docker!&#13; This message shows that your installation appears to be working correctly.</div>\n<p>Docker kon de</p>\n<div class=\"code\">hello-world</div>\nimage aanvankelijk niet lokaal vinden, dus heeft het de afbeelding gedownload van Docker Hub, de standaardrepository. Nadat de afbeelding was gedownload, heeft Docker een container gemaakt van de afbeelding en de applicatie binnen de container uitgevoerd, waarbij het bericht wordt weergegeven.\n<p>Je kunt zoeken naar images die beschikbaar zijn op Docker Hub door de</p>\n<div class=\"code\">docker</div>\nopdracht met de\n<div class=\"code\">search</div>\nsubopdracht te gebruiken. Om bijvoorbeeld naar de Ubuntu-afbeelding te zoeken, typ je:\n<pre>&#13;\ndocker search ubuntu </pre>\n<p>Het script crawlt door Docker Hub en retourneert een lijst met alle images waarvan de naam overeenkomt met de zoekreeks. In dit geval ziet de uitvoer er ongeveer zo uit:</p>\n<pre>&#13;\n</pre>\n<div class=\"code\">Output&#13; NAME DESCRIPTION STARS OFFICIAL AUTOMATED&#13; ubuntu Ubuntu is a Debian-based Linux operating sys\u2026 11806 [OK] &#13; dorowu/ubuntu-desktop-lxde-vnc Docker image to provide HTML5 VNC interface \u2026 497 [OK]&#13; websphere-liberty WebSphere Liberty multi-architecture images \u2026 267 [OK] &#13; rastasheep/ubuntu-sshd Dockerized SSH service, built on top of offi\u2026 250 [OK]&#13; consol/ubuntu-xfce-vnc Ubuntu container with \"headless\" VNC session\u2026 232 [OK]&#13; ubuntu-upstart Upstart is an event-based replacement for th\u2026 110 [OK] &#13; neurodebian NeuroDebian provides neuroscience research s\u2026 79 [OK] &#13; 1and1internet/ubuntu-16-nginx-php-phpmyadmin-mysql-5 ubuntu-16-nginx-php-phpmyadmin-mysql-5 50 [OK]&#13; ubuntu-debootstrap debootstrap --variant=minbase --components=m\u2026 44 [OK] &#13; open-liberty Open Liberty multi-architecture images based\u2026 42 [OK] &#13; i386/ubuntu Ubuntu is a Debian-based Linux operating sys\u2026 24 &#13; nuagebec/ubuntu Simple always updated Ubuntu docker images w\u2026 24 [OK]&#13; 1and1internet/ubuntu-16-apache-php-5.6 ubuntu-16-apache-php-5.6 14 [OK]</div>\n<p>In de <strong>OFFICI\u00cbLE</strong> kolom geeft <strong>OK</strong> een afbeelding aan die is gebouwd en ondersteund door het bedrijf achter het project. Als je eenmaal de image hebt ge\u00efdentificeerd die je wilt gebruiken, kun je deze met de</p>\n<div class=\"code\">pull</div>\nsubopdracht naar je computer downloaden .\n<p>Voer de volgende opdracht uit om de offici\u00eble</p>\n<div class=\"code\">ubuntu</div>\nafbeelding naar je computer te downloaden :\n<pre>&#13;\ndocker pull ubuntu </pre>\n<p>Je ziet de volgende output:</p>\n<pre>&#13;\n</pre>\n<div class=\"code\">Output&#13; Using default tag: latest&#13; latest: Pulling from library/ubuntu&#13; 83ee3a23efb7: Pull complete &#13; db98fc6f11f0: Pull complete &#13; f611acd52c6c: Pull complete &#13; Digest: sha256:703218c0465075f4425e58fac086e09e1de5c340b12976ab9eb8ad26615c3715&#13; Status: Downloaded newer image for ubuntu:latest&#13; docker.io/library/ubuntu:latest</div>\n<p>Nadat een image is gedownload, kun je een container uitvoeren met behulp van de gedownloade image met het</p>\n<div class=\"code\">run</div>\nsubcommando. Zoals je in het\n<div class=\"code\">hello-world</div>\nvoorbeeld hebt gezien, zal de Docker-client eerst de image downloaden en vervolgens een container gebruiken als er geen image is gedownload wanneer deze\n<div class=\"code\">docker</div>\nwordt uitgevoerd met het\n<div class=\"code\">run</div>\nsubcommando.\n<p>Om de image te zien die naar je computer zijn gedownload, typ je:</p>\n<pre>&#13;\ndocker images </pre>\n<p>De uitvoer ziet er als volgt uit:</p>\n<pre>&#13;\n</pre>\n<div class=\"code\">Output&#13; REPOSITORY TAG IMAGE ID CREATED SIZE&#13; ubuntu latest f63181f19b2f 3 weeks ago 72.9MB&#13; hello-world latest bf756fb1ae65 13 months ago 13.3kB</div>\n<p>Zoals je later in deze les zult zien, kunnen images die je gebruikt om containers uit te voeren, worden gewijzigd en gebruikt om nieuwe images te genereren, die vervolgens kunnen worden ge\u00fcpload (<em>pushed</em> is de technische term) naar Docker Hub of andere Docker-registers.</p>\n<p>Laten we eens kijken hoe je containers in meer detail kunt uitvoeren.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6572456"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Een Docker-container uitvoeren",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>De</p>\n<div class=\"code\">hello-world</div>\ncontainer die je in de vorige stap hebt uitgevoerd, is een voorbeeld van een container die wordt uitgevoerd en afgesloten na het verzenden van een testbericht. Containers kunnen veel nuttiger zijn dan dat, en ze kunnen interactief zijn. Ze lijken tenslotte op virtuele machines, maar zijn resource-vriendelijker.\n<p>Laten we als voorbeeld een container uitvoeren met de nieuwste image van Ubuntu. De combinatie van de <strong>-i</strong> en <strong>-t</strong> schakelaars geeft je interactieve shell-toegang tot de container:</p>\n<pre>&#13;\ndocker run -it ubuntu </pre>\n<p>Je opdrachtprompt zal veranderen om het feit weer te geven dat je nu in de container werkt en zou deze vorm moeten hebben:</p>\n<pre>&#13;\n</pre>\n<div class=\"code\">Output&#13; root@37bed2ed6698:/#</div>\n<p>Let op de container-ID in de opdrachtprompt. In dit voorbeeld is het</p>\n<div class=\"code\">37bed2ed6698</div>\n. Je hebt die container-ID later nodig om de container te identificeren wanneer je deze wilt verwijderen.\n<p>Nu kun je elke opdracht in de container uitvoeren. Laten we bijvoorbeeld de pakketdatabase in de container bijwerken. Je hoeft geen </p>\n<div class=\"code\">sudo</div>\ncommando voor te voegen, omdat je in de container werkt als de <strong>rootgebruiker</strong> :\n<pre>&#13;\napt update </pre>\n<p>Installeer vervolgens een applicatie erin. Laten we Node.js installeren:</p>\n<pre>&#13;\napt install nodejs </pre>\n<p>Dit installeert Node.js in de container vanuit de offici\u00eble Ubuntu-repository. Als de installatie is voltooid, controleert je of Node.js is ge\u00efnstalleerd:</p>\n<pre>&#13;\nnode -v </pre>\n<p>Je ziet het versienummer weergegeven in je terminal:</p>\n<pre>&#13;\n</pre>\n<div class=\"code\">Output&#13; v10.19.0</div>\n<p>Alle wijzigingen die je in de container aanbrengt, zijn alleen van toepassing op die container.</p>\n<p>Typ</p>\n<div class=\"code\">exit</div>\nin de prompt om de container te verlaten .\n<p>Laten we nu eens kijken naar het beheren van de containers op ons systeem.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6572547"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Docker-containers beheren",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Nadat je Docker een tijdje hebt gebruikt, heb je veel actieve (actieve) en inactieve containers op je computer. Om de <strong>actieve te zien</strong>, gebruik:</p>\n<pre>&#13;\ndocker ps </pre>\n<p>U ziet een output die lijkt op de volgende:</p>\n<pre>&#13;\n</pre>\n<div class=\"code\">Output&#13; CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES</div>\n<p>In deze les heb je twee containers gestart; een uit de</p>\n<div class=\"code\">hello-world</div>\nimage en een andere uit de\n<div class=\"code\">ubuntu</div>\nimage. Beide containers zijn niet meer actief, maar ze staan \u200b\u200bnog steeds op je systeem.\n<p>Om alle containers te zien - actief en inactief, voer je uit</p>\n<div class=\"code\">docker ps</div>\nmet de\n<div class=\"code\">-a</div>\noptie:\n<pre>&#13;\ndocker ps -a </pre>\n<p>U ziet de output vergelijkbaar met deze:</p>\n<pre>&#13;\n</pre>\n<div class=\"code\">CONTAINER ID   IMAGE         COMMAND       CREATED          STATUS                      PORTS     NAMES&#13; 37bed2ed6698   ubuntu        \"/bin/bash\"   9 minutes ago    Exited (0) 3 minutes ago              exciting_nash&#13; 8af29b12b9cb   hello-world   \"/hello\"      20 minutes ago   Exited (0) 20 minutes ago             vibrant_kowalevski</div>\n<p>Om de laatste container die je hebt gemaakt te bekijken, geeft je deze de</p>\n<div class=\"code\">-l</div>\noptie:\n<pre>&#13;\ndocker ps -l </pre>\n<pre>&#13;\nCONTAINER ID   IMAGE     COMMAND       CREATED          STATUS                     PORTS     NAMES&#13;\n37bed2ed6698   ubuntu    \"/bin/bash\"   11 minutes ago   Exited (0) 5 minutes ago             exciting_nash&#13;\n</pre>\n<p>Om een \u200b\u200bgestopte container te starten, gebruikt je </p>\n<div class=\"code\">docker start</div>\n, gevolgd door de container-ID of de naam van de container. Laten we de op Ubuntu gebaseerde container starten met de ID 37bed2ed6698:\n<pre>&#13;\ndocker start 37bed2ed6698</pre>\n<p>De container wordt gestart en je kunt </p>\n<div class=\"code\">docker ps</div>\ngebruiker om de status te zien:\n<pre>&#13;\n</pre>\n<div class=\"code\">Output&#13; CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES&#13; 37bed2ed6698 ubuntu \"/bin/bash\" 13 minutes ago Up 25 seconds exciting_nash</div>\n<p>Gebruik</p>\n<div class=\"code\">docker stop</div>\n, gevolgd door de container-ID of -naam om een \u200b\u200bactieve container te stoppen . Deze keer gebruiken we de naam die Docker aan de container heeft toegewezen, namelijk\n<div class=\"code\">exciting_nash</div>\n:\n<pre>&#13;\ndocker stop exciting_nash</pre>\n<p>Als je eenmaal hebt besloten dat je een container niet langer nodig hebt, verwijder je deze met de</p>\n<div class=\"code\">docker rm</div>\nopdracht, opnieuw met behulp van de container-ID of de naam. Gebruik de\n<div class=\"code\">docker ps -a</div>\nopdracht om de container-ID of naam te zoeken voor de container die aan de\n<div class=\"code\">hello-world</div>\nafbeelding is gekoppeld en deze te verwijderen.\n<pre>&#13;\ndocker rm vibrant_kowalevski</pre>\n<p>Je kunt een nieuwe container starten en deze een naam geven met de</p>\n<div class=\"code\">--name</div>\noptie. Je kunt de\n<div class=\"code\">--rm</div>\nschakelaar ook gebruiken om een \u200b\u200bcontainer te maken die zichzelf verwijdert wanneer deze wordt gestopt. Zie\n<div class=\"code\">docker run help</div>\nopdracht voor meer informatie over deze en andere opties.\n<p>Je weet nu hoe je moet zoeken naar images, deze naar de computer download en deze start/stopt. Daarna ben je in staat de container die niet meer draait te verwijderen.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6572565"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Opdracht Docker",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>De opdracht voor deze les staat op ItsLearning. Deze gaat over het installeren van Docker-ce, het starten en stoppen van containers en het zoeken naar images.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "6505310"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Les 2: Containers",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "6572776"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Docker-container maken met Dockerfile",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Zodra we een proces in Docker starten vanuit een image, haalt Docker de image en de bijbehorende bovenliggende images op en herhaalt het proces totdat het de basis-image heeft bereikt. Vervolgens voegt het Union File System een \u200b\u200blees-schrijflaag toe. Die lees-schrijflaag, de informatie over de bovenliggende image en andere informatie zoals de unieke id, netwerkconfiguratie en resourcelimieten wordt een container genoemd. Containers hebben statussen omdat ze kunnen veranderen van actieve naar verlaten status. Een container met de status 'running' bevat een boom van processen die op de CPU worden uitgevoerd, ge\u00efsoleerd van de andere processen die op de host worden uitgevoerd, waarbij de status van het bestandssysteem wordt afgesloten en de exitwaarde behouden blijft. Je kunt er een container mee starten, stoppen en herstarten.</p>\n<p>Een <strong>Dockerfile</strong> is een script/tekstbestand, samengesteld uit verschillende commando's en argumenten die achtereenvolgens worden opgesomd om automatisch acties uit te voeren op een <strong>basisimage</strong> om een \u200b\u200bnieuwe te cre\u00ebren. Het helpt ons om te voorkomen dat er problemen onstaan tijdens het uitvoeren van container. Ze worden gebruikt om dingen te organiseren en helpen enorm bij implementaties door het proces van begin tot eind te vereenvoudigen. Het begint met het defini\u00ebren van een afbeelding FROM waaruit het bouwproces begint en levert een nieuwe afbeelding met vereiste opdrachten en argumenten die moeten worden gebruikt voor het maken van docker-containers.</p>\n<p>Hier zijn dus een snelle en eenvoudige stappen over hoe we een Dockerfile kunnen gebruiken om een \u200b\u200bDocker-container te maken.</p>\n<h2>Docker-commands</h2>\n<p>Voordat we beginnen met het maken van onze Dockerfile, moeten we de nodige commando's leren om een \u200b\u200bwerkende Dockerfile te maken. Er zijn tientallen opdrachten die kunnen worden gebruikt om het te maken.</p>\n<p><strong>ADD</strong></p>\n<p>De opdracht ADD wordt gebruikt om de bestanden van een brondirectory naar de bestemming te kopi\u00ebren, de bron kan ook een url zijn. Als het een url is, zal de opdracht het doel eenvoudig naar de bestemmingsmap downloaden.</p>\n<p><strong>CMD</strong></p>\n<p>CMD-opdracht wordt gebruikt om specifieke opdrachten uit te voeren die worden uitgevoerd bij het maken van containers op basis van de afbeelding. Het lijkt erg op de RUN-opdracht, terwijl CMD niet wordt uitgevoerd tijdens het bouwen.</p>\n<p><strong>ENTRYPOINT</strong></p>\n<p>ENTRYPOINT-argument stelt de concrete standaardtoepassing in die wordt gebruikt elke keer dat een container wordt gemaakt met behulp van de afbeelding.</p>\n<p><strong>ENV</strong></p>\n<p>ENV wordt gebruikt om de omgevingsvariabelen in te stellen. Deze variabelen zijn toegankelijk met de docker-container die een enorme hoeveelheid flexibiliteit biedt voor het uitvoeren van programma's.</p>\n<p><strong>FROM</strong></p>\n<p>Het FROM-argument definieert het basisimage dat moet worden gebruikt om het bouwproces te starten. Dit kan elk docker-image zijn, of het nu op de host of in de repository is.</p>\n<p><strong>WORKDIR</strong></p>\n<p>De WORKDIR-instructie wordt gebruikt om in te stellen waar het commando gedefinieerd met CMD moet worden uitgevoerd.</p>\n<p><strong>RUN</strong></p>\n<p>RUN is de opdracht die wordt gebruikt om de docker-images te bouwen, wat een centraal uitvoerende richtlijn is voor de Dockerfiles.</p>\n<p><strong>MAINTAINER</strong></p>\n<p>MAINTAINER is de opdracht die niet wordt uitgevoerd maar de auteur aangeeft, en dus het auteurveld van de afbeeldingen instelt.</p>\n<p><strong>USER</strong></p>\n<p>De USER-instructie wordt gebruikt om de UID (of gebruikersnaam) in te stellen die de container moet uitvoeren op basis van de image die wordt gebouwd.</p>\n<p><strong>VOLUME</strong></p>\n<p>De VOLUME-opdracht wordt gebruikt om toegang vanuit je container tot een map op de hostcomputer mogelijk te maken.</p>\n<p><strong>EXPOSE</strong></p>\n<p>De opdracht EXPOSE wordt gebruikt om een \u200b\u200bopgegeven poort te koppelen om netwerken mogelijk te maken tussen het actieve proces in de container en de host.</p>\n<h2>Een Dockerfile maken</h2>\n<p>Nadat we de nodige commando's hebben geleerd om onze vereiste container te bouwen, gaan we snel aan de slag met onze eerste eigen container. Hier maken we een Dockerfile om een \u200b\u200bimage te maken om de Nginx Web Server-container te installeren. Daarvoor moeten we een bestand met de naam Dockerfile maken met onze favoriete teksteditor.</p>\n<pre>\n$ sudo nano Dockerfile</pre>\n<p>Vervolgens willen we onze Docker-configuratie toevoegen die de opdrachten en argumenten voor de Nginx Web Server-container bevat.</p>\n<pre>\n#Base image\nFROM ubuntu\n\n#Lets install NGINX\nRUN apt -y update &amp;&amp; apt -y install nginx\n\n#Lets copy the local index.html to /tmp\nCOPY index.html /tmp/index.html\nCOPY default /etc/nginx/sites-available/default\n\n#lets expose port 80\nEXPOSE 80/tcp\n\nCMD /usr/sbin/nginx &amp;&amp; tail -f /dev/null\n\n\n</pre>\n<p>Nadat we het bestand met de bovenstaande opdrachten hebben gemaakt, gaan we het bestand opslaan en afsluiten.</p>\n<p>Bovenstaande Dockerfile verwijst naar een index.html, zorg dat de index.html bestaat in dezelfde directory.</p>\n<pre>\n&lt;b&gt;Copied From physical machine.&lt;/b&gt;\n\n&lt;h1&gt; Hello, How are you?&lt;/h1&gt;</pre>\n<p>Maak ook een bestand genaamd default, hierin komen een aantal default instellingen voor Nginx.</p>\n<pre>\nserver {\n        listen 80 default_server;\n        listen [::]:80 default_server;\n\n        root /tmp;\n\n        # Add index.php to the list if you are using PHP\n        index index.html index.htm index.nginx-debian.html;\n\n        server_name _;\n        location / {\n                # First attempt to serve request as file, then\n                # as directory, then fall back to displaying a 404.\n                try_files $uri $uri/ =404;\n        }\n}\n\n</pre>\n<p>De volgende bestanden zitten nu in de directory:</p>\n<pre>\n-rw-r--r-- 1 root    root     287 Feb 11 16:40 Dockerfile\n-rw-r--r-- 1 root    root     452 Feb 11 16:36 default\n-rw-r--r-- 1 root    root      69 Feb 11 16:36 index.html</pre>\n<h2>Een image bouwen met Dockerfile</h2>\n<p>Nu we klaar zijn met het maken van ons Dockerfile voor de Nginx Web Server Container, zullen we nu eindelijk een image bouwen met deze Dockerfile. Om een image te maken, moeten we de volgende opdracht uitvoeren in onze directory.</p>\n<pre>\ndocker build -t my_first_nginx .</pre>\n<p>Het bovenstaande commando zal een image bouwen met de naam my_first_nginx met behulp van het gemaakte Dockerfile.</p>\n<h2>Een Docker-container maken</h2>\n<p>Met behulp van de image die we zojuist hebben gemaakt, gaan we nu verder met de laatste stap van het maken van een container met daarin een Nginx Web Server-container, met een naam naar keuze. Hier is het nginx.</p>\n<pre>\n# docker run --name nginx -p 80:80 -d my_nginx</pre>\n<p>Ten slotte hebben we onze Nginx-container gemaakt en deze wordt doorgestuurd naar poort 80. Om te controleren of deze correct werkt, kunnen we <strong>docker ps</strong> gebruiken.</p>\n<p> </p>\n"
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/1/1d4343e53f1fe4299d1fa7d259f4261fcc482e55.png",
+                            "altText": "",
+                            "alignment": "center",
+                            "scale": 0.8,
+                            "link": ""
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/7/7f5382aef888af607be985d5eb1a5917fa23c0e7.png",
+                            "altText": "",
+                            "alignment": "center",
+                            "scale": 0.8,
+                            "link": ""
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6572739"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Data uitwisseling tussen Host & Container",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Over het algemeen zijn Docker-containers kortstondig en worden ze net zo lang uitgevoerd als nodig is tot de opdracht die in de container is uitgevoert, te voltooien. Alle gegevens die in de container zijn gemaakt, zijn standaard alleen beschikbaar vanuit de container en alleen terwijl de container actief is.</p>\n<p><strong>Docker-volumes</strong> kunnen worden gebruikt om bestanden te delen tussen een hostsysteem en de Docker-container. Laten we bijvoorbeeld zeggen dat je de offici\u00eble Docker Nginx-image wilde gebruiken en een permanente kopie van de logbestanden van Nginx wilde bewaren om later te analyseren. Standaard</p>\n<div class=\"code\">nginx</div>\nlogt in op de Docker-image in de\n<div class=\"code\">/var/log/nginx</div>\nmap <em>in</em> de Docker Nginx-container. Normaal gesproken is het niet bereikbaar vanaf het hostbestandssysteem.\n<p>In deze les onderzoeken we hoe je gegevens vanuit de container toegankelijk kunt maken op de hostcomputer.</p>\n<h2>Een volume koppelen</h2>\n<p>Met de volgende opdracht wordt een map gemaakt met de naam</p>\n<div class=\"code\">nginxlogs</div>\nin de homedirectory van uw huidige gebruiker en wordt deze gekoppeld aan\n<div class=\"code\">/var/log/nginx</div>\nde container:\n<pre>&#13;\ndocker run --name=nginx -d -v ~/nginxlogs:/var/log/nginx -p 5000:80 nginx </pre>\n<p>Laten we even de tijd nemen om deze opdracht in detail te bekijken:</p>\n<ul>\n<li>\n<div class=\"code\">--name=nginx</div>\ngeeft de container een naam, zodat we er gemakkelijker naar kunnen verwijzen.</li>\n<li>\n<div class=\"code\">-d</div>\nmaakt het proces los en voert het op de achtergrond uit. Anders zouden we alleen een lege Nginx-prompt bekijken en deze terminal niet kunnen gebruiken totdat we Nginx hebben gestopt.</li>\n<li>\n<div class=\"code\">-v ~/nginxlogs:/var/log/nginx</div>\nzet een mount-volume op dat de\n<div class=\"code\">/var/log/nginx</div>\ndirectory vanuit de Nginx-container koppelt aan de\n<div class=\"code\">~/nginxlogs</div>\ndirectory op de hostcomputer. Docker gebruikt een\n<div class=\"code\">:</div>\nom het hostpad te splitsen van het containerpad, en het hostpad komt altijd op de eerste plaats.</li>\n<li>\n<div class=\"code\">-p 5000:80</div>\nstelt een poort in. De Nginx-container luistert\n<div class=\"code\">80</div>\nstandaard op poort . Deze optie wijst de poort\n<div class=\"code\">80</div>\nvan de container toe aan de poort\n<div class=\"code\">5000</div>\nop het hostsysteem.</li>\n<li>\n<div class=\"code\">nginx</div>\nspecificeert dat de container moet worden gebouwd op basis van de Nginx-afbeelding, die de opdracht geeft <a href=\"https://github.com/nginxinc/docker-nginx/blob/8921999083def7ba43a06fabd5f80e4406651353/mainline/jessie/Dockerfile#L27\">\n<div class=\"code\">nginx -g \"daemon off\"</div>\n</a>om Nginx te starten.</li>\n</ul>\n<p><strong>Let op:</strong> De</p>\n<div class=\"code\">-v</div>\noptie is erg flexibel. Het kan een volume binden of een naam geven met slechts een kleine aanpassing in de syntaxis. Als het eerste argument begint met een\n<div class=\"code\">/</div>\nof\n<div class=\"code\">~/</div>\n, maakt je een mount. Verwijder dat, en je geeft het volume een naam.\n<ul>\n<li>\n<div class=\"code\">-v /path:/path/in/container</div>\nkoppelt de host-directory\n<div class=\"code\">/path</div>\naan de\n<div class=\"code\">/path/in/container</div>\n</li>\n<li>\n<div class=\"code\">-v path:/path/in/container</div>\nmaakt een volume met de naam\n<div class=\"code\">path</div>\nzonder relatie met de host.</li>\n</ul>\n<h2>Toegang tot gegevens op de host</h2>\n<p>We hebben nu een kopie van Nginx die in een Docker-container op onze computer draait, en de poort van onze hostcomputer</p>\n<div class=\"code\">5000</div>\nverwijst rechtstreeks naar die kopie van de poort van Nginx\n<div class=\"code\">80</div>\n.\n<p>Laad het adres in een webbrowser, met behulp van het IP-adres of de hostnaam van je server en het poortnummer : . Je zou Nginx moeten zien op:</p>\n<div class=\"code\">http://your_server_ip:5000</div>\n<p>Interessanter is dat als we in de</p>\n<div class=\"code\">~/nginxlogs</div>\ndirectory op de host kijken, we zien dat\n<div class=\"code\">access.log</div>\nis gemaakt door de container\n<div class=\"code\">nginx</div>\ndie ons verzoek zal tonen:\n<pre>&#13;\ncat ~/nginxlogs/access.log </pre>\n<p>Dit zou iets moeten weergeven als:</p>\n<pre>&#13;\n</pre>\n<div class=\"code\">Output&#13; 192.168.182.130 - - [11/Feb/2021:16:08:46 +0000] \"GET / HTTP/1.1\" 200 612 \"-\" \"curl/7.68.0\" \"-\"&#13; 192.168.182.128 - - [11/Feb/2021:16:10:54 +0000] \"GET / HTTP/1.1\" 200 612 \"-\" \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0\" \"-\"&#13; 192.168.182.128 - - [11/Feb/2021:16:10:54 +0000] \"GET /favicon.ico HTTP/1.1\" 404 153 \"http://192.168.182.130/\" \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0\" \"-\"&#13; 192.168.182.128 - - [11/Feb/2021:16:11:04 +0000] \"GET / HTTP/1.1\" 200 612 \"-\" \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0\" \"-\"&#13; 192.168.182.128 - - [11/Feb/2021:16:11:04 +0000] \"GET /favicon.ico HTTP/1.1\" 404 153 \"http://192.168.182.130:5000/\" \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0\" \"-\"</div>\n<p>Als je wijzigingen in de</p>\n<div class=\"code\">~/nginxlogs</div>\nmap aanbrengt, kun je deze ook in realtime vanuit de Docker-container bekijken."
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "6505313"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Les 3: Apache container",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>In deze les gaan we Apache in een container installeren en configureren.</p>\n"
+                },
+                {
+                    "type": "link",
+                    "link": "https://hub.docker.com/_/httpd",
+                    "title": "Offici\u00eble Apache image",
+                    "description": "Deze link verwijst naar DockerHub.",
+                    "comment": ""
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "6698532"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Apache image maken",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Voor het uitvoeren van Apache kunnen we de standaard image van DockerHub pullen, maar we kunnen ook onze eigen image bouwen. Hier kun je dan gelijk je eigen configuratie zetten en weet je zeker dat de container is ingesteld op de manier dat jij wilt.</p>\n<p><strong>Maken van je eigen image</strong></p>\n<p>Maak hiervoor een eigen directory </p>\n<pre>&#13;\nmkdir apache</pre>\n<p>Maak nu met je favoriete editor een bestand met de naam</p>\n<div class=\"code\">Dockerfile</div>\n<p>Hieronder een standaard opzet, waarbij de laatste versie van httpd(apache2) wordt gebruikt en er een html wordt geconfigureerd naar</p>\n<div class=\"code\">/usr/local/apache2/htdocs/</div>\ndit is de plek waar de container de index.html uit gaat hosten.\n<pre>&#13;\n</pre>\n<div class=\"code\">FROM httpd&#13; COPY ./public-html/ /usr/local/apache2/htdocs/</div>\n<p>Wil je een versie specificeren? zie hieronder:</p>\n<pre>&#13;\n</pre>\n<div class=\"code\">FROM httpd:2.4&#13; COPY ./public-html/ /usr/local/apache2/htdocs/</div>\n<p>Zorg er dus voor dat er een een map</p>\n<div class=\"code\">public-html</div>\nis gemaakt in de directory\n<div class=\"code\">apache</div>\nmet daarin je index.html\n<p><strong>Je eigen image bouwen</strong></p>\n<pre>&#13;\n</pre>\n<div class=\"code\">$ docker build -t my-apache2 .</div>\n<p>Met de opdracht</p>\n<div class=\"code\">docker images</div>\nkun je nu je eigen image zien\n<p><strong>Je eigen container runnen</strong></p>\n<pre>&#13;\n</pre>\n<div class=\"code\">docker run -dit --name my-apache-app -p 80:80 my-apache2</div>\n<p>Met bovenstaande opdracht is je container gestart.</p>\n<ul>\n<li>-d Voer de container op de achtergrond uit en druk de container-ID af</li>\n<li>-i Interactive, houd STDIN open, zelfs als deze niet is bevestigd</li>\n<li>-t Wijs een pseudo-TTY toe</li>\n<li>--name Geeft de container een naam</li>\n<li>-p Publiceer de poort (en) van een container naar de host</li>\n</ul>\n<p>Voor alle opties zie de offici\u00eble Docker documentatie</p>\n<p> </p>\n"
+                        },
+                        {
+                            "type": "link",
+                            "link": "https://docs.docker.com/engine/reference/commandline/run/",
+                            "title": "Docker run opties",
+                            "description": "Verwijzing naar de offici\u00eble documentatie",
+                            "comment": ""
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Container op een andere poort, bijvoorbeeld 8080</p>\n<pre>&#13;\n</pre>\n<div class=\"code\">docker run -dit --name my-apache-app -p 8080:80 my-apache2</div>\n<p>Bezoek nu het IP-adres van de server en zie dat je website online is en daarmee de container gestart.</p>\n<p>Met</p>\n<div class=\"code\">docker ps</div>\nof\n<div class=\"code\">docker ps -a</div>\nzie je alle gestarte containers."
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6698564"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Apache standaard image",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Als je ervoor kiest de standaard image te gebruiken van Apache dan kun je op een paar manieren de container starten. Je kiest ervoor om eerst te zoeken naar de image en deze te pullen of je start de container en Docker pulled zelf de image en maakt gelijk de container. De stappen hieronder laten de verschillen zien.</p>\n<p>Zoeken naar de offici\u00eble image</p>\n<pre>&#13;\ndocker search httpd</pre>\n<p>Deze gezochte image ophalen naar de server</p>\n<pre>&#13;\ndocker pull httpd</pre>\n<p>De container starten en je eigen index.html kopi\u00ebren</p>\n<pre>&#13;\n</pre>\n<div class=\"code\">docker run -dit --name my-apache-app -p 80:80 -v /home/student/website/:/usr/local/apache2/htdocs/ httpd</div>\n<p>Zorg er dus voor dat er een map is met je eigen index.html en verwijs hiernaar met een compleet pad.</p>\n<p>Opties:</p>\n<ul>\n<li>-d Voer de container op de achtergrond uit en druk de container-ID af</li>\n<li>-i Interactive, houd STDIN open, zelfs als deze niet is bevestigd</li>\n<li>-t Wijs een pseudo-TTY toe</li>\n<li>--name Geeft de container een naam</li>\n<li>-p Publiceer de poort (en) van een container naar de host</li>\n<li>-v Binden van een volume</li>\n</ul>\n<p> </p>\n<p> </p>\n<p> </p>\n<p> </p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6698573"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Docker opdrachten",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Met de onderstaande opdrachten kunnen we de container starten, stoppen, verwijderen, enz.</p>\n<p>Lijst van alle draaiende containers</p>\n<pre>\ndocker ps</pre>\n<p>lijst van alle containers, ook de gestopte</p>\n<pre>\ndocker ps -a</pre>\n<p>Lijst van alle images</p>\n<pre>\ndocker images</pre>\n<p>Stoppen van je Apache container</p>\n<pre>\ndocker stop my-apache-app</pre>\n<p>Starten van je Apache container</p>\n<pre>\ndocker start my-apache-app</pre>\n<p>Updaten van je draaiende container (dit geval automatisch starten na reboot van je server)</p>\n<pre>\ndocker update --restart=unless-stopped my-apache-app</pre>\n<p>Verwijderen van je container</p>\n<pre>\ndocker rm my-apache-app</pre>\n<p>Verwijderen van je image</p>\n<pre>\ndocker rmi my-apache-image</pre>\n<p>Docker systeem opschonen, alle niet gebruikte containers en images worden hiermee verwijderd</p>\n<pre>\ndocker system prune</pre>\n<p>Bash shell in je container krijgen</p>\n<pre>\ndocker exec -it my-apache-app /bin/bash</pre>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6698585"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Opdracht",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>De opdracht voor de Apache container staat op ItsLearning. Goed kijken naar de naamgeving van de website, container, enz.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "6505314"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Les 4: MariaDB container",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>In deze les gaan we aan de slag met een database container. Er is gekozen voor de veel gebruikte MariaDB en haar laatste versie. We zullen kijken hoe je de container start/stopt, we gaan de container bewerken, de database aanmaken en aanpassen in de container zelf en via mysql-client. Daarna gaan we de container ook beschikbaar maken voor externe connecties.</p>\n"
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "6711649"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Docker opdrachten",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Met de onderstaande opdrachten kunnen we de container starten, stoppen, verwijderen, enz.</p>\n<p>Lijst van alle draaiende containers</p>\n<pre>\ndocker ps</pre>\n<p>lijst van alle containers, ook de gestopte</p>\n<pre>\ndocker ps -a</pre>\n<p>Lijst van alle images</p>\n<pre>\ndocker images</pre>\n<p>Stoppen van je Apache container</p>\n<pre>\ndocker stop my-mariadb-app</pre>\n<p>Starten van je Apache container</p>\n<pre>\ndocker start my-mariadb-app</pre>\n<p>Updaten van je draaiende container (dit geval automatisch starten na reboot van je server)</p>\n<pre>\ndocker update --restart=unless-stopped my-mariadb-app</pre>\n<p>Verwijderen van je container</p>\n<pre>\ndocker rm my-mariadb-app</pre>\n<p>Verwijderen van je image</p>\n<pre>\ndocker rmi my-mariadb-image</pre>\n<p>Docker systeem opschonen, alle niet gebruikte containers en images worden hiermee verwijderd</p>\n<pre>\ndocker system prune</pre>\n<p>Bash shell in je container krijgen</p>\n<pre>\ndocker exec -it my-mariadb-app /bin/bash</pre>"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6711651"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "MariaDB-container",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Voor we gaan beginnen met containers te starten/stoppen en images te pullen gaan we kijken op Docker-hub wat de laatste stabiele versie is van MariaDB en welke we gaan gebruiken voor deze opdracht.</p>\n<p>Op DockerHub zien we dat de versie 10.5.10 de stabiele geteste versie en dat 10.6 een Alpha versie is. We gebruiken in deze demo de latest tag en zullen daarmee 10.5.10 gebruiken.</p>\n<p>Op de Docker-server gaan we zoeken naar MariaDB.</p>\n<pre>&#13;\ndocker search mariadb</pre>\n<p>Daar zien we de volgende output:</p>\n<div class=\"code\">NAME                                   DESCRIPTION                                     STARS     OFFICIAL   AUTOMATED</div>\n<p>Hiermee zie je dat er veel verschillende versies zijn, wij gebruiken de mariadb.</p>\n<p>Je kunt de image met de volgende opdracht naar je toe halen.</p>\n<pre>&#13;\ndocker pull mariadb</pre>\n<p>De image staat nu lokaal op je server.</p>\n<pre>&#13;\ndocker images</pre>\n<p>Je ziet nu welke images er lokaal staan.</p>\n<h2>Container starten</h2>\n<p>We gaan de container eerst lokaal starten, we zetten nog geen poorten open, daarmee zorg je ervoor dat je zelf de container beschikbaar hebt, maar van buiten er niemand bij kan.</p>\n<p>Met de volgende opdracht start je de container.</p>\n<pre>&#13;\ndocker run --name mariadbdemo -e MYSQL_ROOT_PASSWORD=password -d mariadb</pre>\n<ul>\n<li>--name = geeft de container een eigen naam</li>\n<li>-e = enviroment, hiermee kun je variabelen instellen, in dit geval het wachtwoord voor de root MySQL gebruiker.</li>\n<li>-d = detached, de container draait op de achtergrond.</li>\n</ul>\n<p>De database container is hiermee gestart en kun je vinden onder docker-processes.</p>\n<pre>&#13;\ndocker ps</pre>\n<p>Om het log bestand van je MariaBD container te zien kun je de volgende opdracht gebruiken.</p>\n<pre>&#13;\ndocker logs mariadbdemo</pre>\n<p>Er draait nu nog geen database. Je kunt op 2 manieren inloggen, via de container of via mysql-client. Bij mysql-client moet je het IP-adres weten van de container, die Docker op de achtergrond aan deze container heeft gegeven. We gaan beide methodes demonstreren.</p>\n<h2>Inloggen via Docker exec</h2>\n<p>Een shell krijgen in je container.</p>\n<pre>&#13;\ndocker exec -it mariadbdemo /bin/bash</pre>\n<p>Je ziet dat je nu al root in je container zit, nu kun je inloggen op mysql.</p>\n<pre>&#13;\nmysql -u root -p</pre>\n<p>Je zit na het invoeren van je wachtwoord op de MySQL-server dat draait in een container.</p>\n<h2>Inloggen via MySQL-client</h2>\n<p>Hiervoor moeten we op de server mysql-client installeren. Dat doe je met de volgende opdrachten.</p>\n<pre>&#13;\nsudo apt update&#13;\n&#13;\nsudo apt install mysql-client -y</pre>\n<p>Hiermee wordt mysql-client ge\u00efnstalleerd.</p>\n<p>Het enige wat mysql-client nodig heeft is een adres waar hij verbinding mee kan maken, hier zie je het verschil tussen MySQL lokaal draaien als service en in een containet draaien. Omdat mysql-client lokaal is ge\u00efnstalleerd kunnen we hem benaderen via het IP-adres dat Docker aan de container heeft gegeven. Remote kan (nog) niet.</p>\n<p>Het vinden van het IP-adres van de container.</p>\n<pre>&#13;\ndocker inspect mariadbdemo | grep IPAddress</pre>\n<div class=\"code\">\"SecondaryIPAddresses\": null,</div>\n<p>Verbinding maken met de MariaDB container.</p>\n<pre>&#13;\nmysql -u root -p -h 172.17.0.2</pre>\n<p>na het invullen van je wachtwoord zie je dat je nu gelijk in de MariaDB database zit.</p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6711657"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Database maken",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Voor welke manier je gekozen hebt om in de container te komen maakt niet uit, het maken van de database blijft hetzelfde. Laten we een test database maken, hieronder een voorbeeld. Kijk hiervoor goed naar je eigen opdracht, welke gebruiker moet je aanmaken? Wat is de naam van je database en tabellen? Welke kolommen moet je maken, enz.</p>\n<p>Na het inloggen op je database, zie je als het goed is de volgende regel:</p>\n<div class=\"code\">MariaDB [(none)]&gt;</div>\n<p>en kunnen we aan de slag gaan.</p>\n<p>Welke databases zijn er?</p>\n<pre>&#13;\nSHOW DATABASES;</pre>\n<p>Gebruiker aanmaken</p>\n<pre>&#13;\nGRANT ALL PRIVILEGES ON *.* TO 'db_user'@'localhost' IDENTIFIED BY 'SuperSecretPassword1234#';</pre>\n<pre>&#13;\nFLUSH PRIVILEGES;</pre>\n<p>Database maken</p>\n<pre>&#13;\nCREATE DATABASE db_noorderpoort;</pre>\n<p>Database gebruiken</p>\n<pre>&#13;\nUSE db_noorderpoort;</pre>\n<p>Tabel maken in je database</p>\n<pre>&#13;\nCREATE TABLE Teachers (ID int, FirstName varchar(25), LastName varchar(25));</pre>\n<p>Tabel vullen</p>\n<pre>&#13;\nINSERT INTO Teachers (ID, FirstName, LastName) VALUES ('1', 'Patrick', 'Hulshof');</pre>\n<p>Tabel uitlezen</p>\n<pre>&#13;\nSELECT * FROM Teachers;</pre>\n<p>Met de volgende uitvoer:</p>\n<div class=\"code\">+------+-----------+----------+</div>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6711662"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Externe toegang container",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Om een container externe toegankelijk te maken moeten we de poorten voor toegang regelen met Docker. Met de</p>\n<div class=\"code\">-p</div>\noptie kunnen we aangeven via welke poort de app beschikbaar wordt.\n<p>Laten we eerst kijken nu onze container voor intern gebruik draait of er al poorten open staan, want de standaard poort voor MySQL is 3306.</p>\n<p>Met de standaard app in Linux ss (socket state) (vervanger voor netstat) kunnen we controleren of er geen poorten open staan voor deze container.</p>\n<pre>&#13;\nss -altnp | grep 3306</pre>\n<p>Je ziet dat er geen uitvoer komt, daarmee concluderen we dat er nu geen applicaties draaien op poort 3306.</p>\n<p>Laten we de container starten.</p>\n<pre>&#13;\ndocker run --name mariadbdemoport -p 3306:3306 -e MYSQL_ROOT_PASSWORD=password -d mariadb</pre>\n<p>Je ziet dat de opdracht bijna identiek is aan de lokale MySQL container, maar dat er nu met</p>\n<div class=\"code\">-p</div>\nwordt aangegeven welke poort en op de host met welke poort in de container verbonden wordt.\n<p>Controleren of de container draait.</p>\n<pre>&#13;\ndocker ps</pre>\n<p>Je ziet nu 2 containers, waarvan 1 een poort op de host open heeft staan.</p>\n<div class=\"code\">CONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS          PORTS                    NAMES</div>\n<p>Laten we nu eerst met ss controleren of er inderdaad een poort open staat op de host.</p>\n<pre>&#13;\nss -altnp | grep 3306</pre>\n<p>Vanaf nu is de container extern beschikbaar en kan er verbinding mee gemaakt worden.</p>\n<p>Als 3306 is toegevoegd aan UFW, dan kan er remote met de volgende opdracht verbinding worden gemaakt.</p>\n<pre>mysql -u root -p -h 192.168.182.128</pre>"
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/6/615928ebeff43d2a0efc6c10571099153abdc00e.png",
+                            "altText": "",
+                            "alignment": "center",
+                            "scale": 0.8,
+                            "link": ""
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6711695"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Opruimen",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Als je gereed bent met de containers, of je hebt ze niet meer nodig of je wilt ze verwijderen omdat ze een poort bezet houden.</p>\n<p>Controleren welke containers er draaien.</p>\n<pre>&#13;\ndocker ps -a</pre>\n<p>Container stoppen</p>\n<pre>&#13;\ndocker stop mariadbdemo</pre>\n<pre>&#13;\ndocker stop mariadbdemoport</pre>\n<p>Containers verwijderen</p>\n<pre>&#13;\ndocker rm mariadbdemo</pre>\n<pre>&#13;\ndocker rm mariadbdemoport</pre>\n<p>Image verwijderen</p>\n<pre>&#13;\ndocker rmi mariadb</pre>\n<p>Als het goed is, is de lijst nu leeg als je</p>\n<div class=\"code\">docker ps -a</div>\nuitvoert."
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6711665"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Opdracht",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>De opdracht voor MariaDB container staat op ItsLearning. Kijk goed welke namen je moet gebruiken in de databases, gebruikers en tabellen.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "6711829"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Les 5: PHP container",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>In deze les gaan we een LAMP Docker omgeving maken. Hiervoor hebben we voorgaande kennis nodig en gaan we de Apache aan de MariaDB container koppelen en een database op de website laten zien.</p>\n"
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "6711831"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "PHP container",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Op DockerHub gaan we zoeken naar de PHP container. Dit is een reeds voorbereide container met PHP erin verwerkt en er is een variant gemaakt met Apache in de versie benoemd.</p>\n<p>De laatste versie op het moment van maken van deze tutorial is</p>\n<div class=\"code\">php:8.0-apache</div>\n.\n<p>Zoek dus zelf even goed op DockerHub naar de laatste versie van de PHP container en gebruik die dadelijk in je</p>\n<div class=\"code\">Dockerfile</div>\n.\n<p>Maak een directory voor de php container.</p>\n<pre>&#13;\nmkdir php &amp;&amp; cd php</pre>\n<p>Maak daarin een directory voor je website</p>\n<pre>&#13;\nmkdir website &amp;&amp; cd website</pre>\n<p>In de directory website maak je een index.php</p>\n<pre>&#13;\nnano index.php</pre>\n<p>met daarin de volgende inhoud:</p>\n<pre>&#13;\n&lt;?php &#13;\nphpinfo();&#13;\n?&gt;</pre>\n<p>Ga daarna een directory terug naar</p>\n<div class=\"code\">~/php</div>\n<p>Maak hier je Dockerfile</p>\n<pre>&#13;\nnano Dockerfile</pre>\n<p>Met de volgende inhoud:</p>\n<pre>&#13;\nFROM php:8.0-apache&#13;\n&#13;\nCOPY ./website/ /var/www/html/&#13;\n&#13;\n</pre>\n<p>Bouw nu je eigen image:</p>\n<pre>&#13;\ndocker build -t my-php .</pre>\n<p>Controleer of je eigen image in de lijst staat</p>\n<pre>&#13;\ndocker images</pre>\n<p>Run nu je eigen image op poort 80:</p>\n<pre>&#13;\ndocker run --name my-php-app -p 80:80 -d my-php</pre>\n<p>Controleer met</p>\n<div class=\"code\">docker ps</div>\nof er een container is gemaakt.\n<p>Ga naar het IP-adres van je server met een browser en zie daar de</p>\n<div class=\"code\">phpinfo</div>\n. Kan zijn dat je poort 80 aan UFW moet toevoegen als deze actief is."
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/4/4ea5e415e832d8909ef6f0ba34d456dbc913fa26.png",
+                            "altText": "",
+                            "alignment": "center",
+                            "scale": 0.8,
+                            "link": ""
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6711880"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "PHP verbinden met MariaDB container",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Nu we de standaard PHP container hebben draaien en de</p>\n<div class=\"code\">phpinfo</div>\nzichtbaar hebben op de website kunnen we een 2de image gaan maken en deze met een PDO verbinding de database ophalen uit de vorige les.\n<p>Zorg er dus voor dat de MariaDB container draait met daarin een</p>\n<div class=\"code\">test_db</div>\n, ga na of deze draait en of er een database aanwezig is.\n<p>Met docker ps draaien er nu 2 containers:</p>\n<div class=\"code\">CONTAINER ID   IMAGE        COMMAND                  CREATED          STATUS          PORTS                  NAMES</div>\n<p>Het is dus zaak dat er een interne MariaDB draait, met geen poorten open op de host server.</p>\n<p>We gaan een nieuwe image maken voor de php met pdo verbinding. Maak hiervoor in je home-directory een nieuwe directory:</p>\n<pre>&#13;\nmkdir php-pdo &amp;&amp; cd php-pdo</pre>\n<p>maak hierin een directory voor de website:</p>\n<pre>&#13;\nmkdir web-pdo &amp;&amp; cd web-pdo</pre>\n<p>Maak hierin een</p>\n<div class=\"code\">index.php</div>\n:\n<pre>&#13;\nnano index.php</pre>\n<p>Plaats daarin je php met daarin de PDO verbinding:</p>\n<pre>&#13;\n&lt;?php&#13;\n&#13;\n$user = \"root\";&#13;\n$password = \"password\";&#13;\n$database = \"db_noorderpoort\";&#13;\n$table = \"Teachers\";&#13;\ntry {&#13;\n  $db = new PDO(\"mysql:host=172.17.0.2;dbname=$database\", $user, $password);&#13;\n  echo \"&lt;h2&gt;Print Teachers Noorderpoort&lt;/h2&gt;&lt;ol&gt;\";&#13;\n  foreach($db-&gt;query(\"SELECT FirstName FROM $table\") as $row) {&#13;\n    echo \"&lt;li&gt;\" . $row['FirstName'] . \"&lt;/li&gt;\";&#13;\n  }&#13;\n  echo \"&lt;/ol&gt;\";&#13;\n} catch (PDOException $e) {&#13;\n    print \"Error!: \" . $e-&gt;getMessage() . \"&lt;br/&gt;\";&#13;\n    die();&#13;\n}&#13;\n?&gt;</pre>\n<p>Zorg ervoor dat de namen/IP-adres/Wachtwoorden/databases/tabellen overeenkomen met jouw omgeving!</p>\n<p>Het (interne-docker)ip-adres van je MariaDB haal je op met:</p>\n<pre>&#13;\ndocker inspect mariadbdemo | grep IPAddress</pre>\n<p>Als dit gereed staat ga je 1 directory terug naar:</p>\n<pre>&#13;\ncd ~/php-pdo</pre>\n<p>Hier maak je de</p>\n<div class=\"code\">Dockerfile</div>\nmet de volgende inhoud:\n<pre>&#13;\nFROM php:8.0-apache&#13;\nCOPY ./web-pdo/ /var/www/html/&#13;\nRUN docker-php-ext-install pdo pdo_mysql&#13;\n</pre>\n<p>Zie dat er een php installatie plaats vindt om pdo verbindingen mogelijk te maken.</p>\n<p>Maak nu van je Dockerfile een image:</p>\n<pre>&#13;\ndocker build -t my-php-pdo .</pre>\n<p>En run daarna de image op een andere poort dan poort 80:</p>\n<pre>&#13;\ndocker run --name my-php-pdo -p 8080:80 -d my-php-pdo</pre>\n<p>met</p>\n<div class=\"code\">docker ps</div>\ncontroleren of de container draait:\n<div class=\"code\">CONTAINER ID   IMAGE        COMMAND                  CREATED          STATUS          PORTS                  NAMES</div>\n<p>Daarna ga je naar de website met een browser om te zien of je database nu beschikbaar is op de website.</p>\n"
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/f/f645329b8e453234e79a7f65a047196d4b5f0898.png",
+                            "altText": "",
+                            "alignment": "center",
+                            "scale": 0.8,
+                            "link": ""
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6711888"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Docker opdrachten",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Met de onderstaande opdrachten kunnen we de container starten, stoppen, verwijderen, enz.</p>\n<p>Lijst van alle draaiende containers</p>\n<pre>\ndocker ps</pre>\n<p>lijst van alle containers, ook de gestopte</p>\n<pre>\ndocker ps -a</pre>\n<p>Lijst van alle images</p>\n<pre>\ndocker images</pre>\n<p>Stoppen van je Apache container</p>\n<pre>\ndocker stop my-php-app</pre>\n<p>Starten van je Apache container</p>\n<pre>\ndocker start my-php-app</pre>\n<p>Updaten van je draaiende container (dit geval automatisch starten na reboot van je server)</p>\n<pre>\ndocker update --restart=unless-stopped my-php-app</pre>\n<p>Verwijderen van je container</p>\n<pre>\ndocker rm my-php-app</pre>\n<p>Verwijderen van je image</p>\n<pre>\ndocker rmi my-php-image</pre>\n<p>Docker systeem opschonen, alle niet gebruikte containers en images worden hiermee verwijderd</p>\n<pre>\ndocker system prune</pre>\n<p>Bash shell in je container krijgen</p>\n<pre>\ndocker exec -it my-php-app /bin/bash</pre>"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6711890"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Opdracht",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>De opdracht voor PHP container staat op ItsLearning. Lees de opdracht goed en lever hem daarna weer in als je gereed bent.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "6505318"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Les 6: OpenVPN container",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>In deze les gaan we een OpenVPN server opzetten in Docker. VPN verbindingen zijn de afgelopen jaren steeds belangrijker geworden, denk aan het werken op een onveilig netwerk, werken vanaf huis, remote beheer, enz. <br/>\nOpenVPN maakt het mogelijk dat we beveiligd verbinding kunnen maken met een server, er een tunnel naar het eindpunt gecre\u00ebrd wordt en van cli\u00ebnt tot server een encryptie op de verbinding zit.</p>\n<p> </p>\n<p>Daarnaast zullen we onze VPN data opslaan in een aparte volume, dit is nieuw en hebben ze niet eerder gedaan. Volg hiervoor de stappen op de volgende pagina's.</p>\n"
+                },
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/5/5540d88932881921ab72647d4eef3faad0f565da.jpg",
+                    "altText": "",
+                    "alignment": "center",
+                    "scale": 0.8,
+                    "link": ""
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "6730212"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Docker opdrachten",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Met de onderstaande opdrachten kunnen we de container starten, stoppen, verwijderen, enz.</p>\n<p>Lijst van alle draaiende containers</p>\n<pre>\ndocker ps</pre>\n<p>lijst van alle containers, ook de gestopte</p>\n<pre>\ndocker ps -a</pre>\n<p>Lijst van alle images</p>\n<pre>\ndocker images</pre>\n<p>Stoppen van je Apache container</p>\n<pre>\ndocker stop openvpn</pre>\n<p>Starten van je Apache container</p>\n<pre>\ndocker start openvpn</pre>\n<p>Updaten van je draaiende container (dit geval automatisch starten na reboot van je server)</p>\n<pre>\ndocker update --restart=unless-stopped openvpn</pre>\n<p>Verwijderen van je container</p>\n<pre>\ndocker rm openvpn</pre>\n<p>Verwijderen van je image</p>\n<pre>\ndocker rmi openvpn</pre>\n<p>Docker systeem opschonen, alle niet gebruikte containers en images worden hiermee verwijderd</p>\n<pre>\ndocker system prune</pre>\n<p>Bash shell in je container krijgen</p>\n<pre>\ndocker exec -it openvpn /bin/bash</pre>"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6730214"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Volume aanmaken",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Maak een volumecontainer. In deze tutorial wordt de</p>\n<div class=\"code\">$OVPN_DATA</div>\nomgevingsvariabele gebruikt. Stel dit in op wat je maar wilt. De standaardwaarde\n<div class=\"code\">ovpn-data</div>\nwordt aanbevolen voor enkele OpenVPN Docker-containerservers. Het instellen van de variabele in de shell maakt gebruik van stringvervanging om te voorkomen dat de gebruiker deze handmatig vervangt in een stap in de tutorial:\n<pre>&#13;\n</pre>\n<div class=\"code\">OVPN_DATA=\"ovpn-data-noorderpoort\"</div>\n<p>Maak de volume met:</p>\n<pre>&#13;\n</pre>\n<div class=\"code\">docker volume create --name $OVPN_DATA</div>\n<p>Initialiseer de</p>\n<div class=\"code\">$OVPN_DATA</div>\ncontainer die de configuratiebestanden en certificaten zal bevatten en vervang deze\n<div class=\"code\">vpn.example.com</div>\ndoor je FQDN. De\n<div class=\"code\">vpn.example.com</div>\nwaarde moet de volledig gekwalificeerde domeinnaam zijn die je gebruikt om met de server te communiceren. Dit veronderstelt dat de DNS-instellingen al zijn geconfigureerd. Als alternatief is het mogelijk om alleen het IP-adres van de server te gebruiken, maar dit wordt niet aanbevolen.\n<pre>&#13;\n</pre>\n<div class=\"code\">docker run -v $OVPN_DATA:/etc/openvpn --rm kylemanna/openvpn ovpn_genconfig -u udp://VPN.EXAMPLE.COM</div>\n<pre>&#13;\n</pre>\n<pre>&#13;\n</pre>\n<div class=\"code\">docker run -v $OVPN_DATA:/etc/openvpn --rm kylemanna/openvpn ovpn_genconfig -u udp://192.168.182.128</div>\n<p>Genereer de EasyRSA PKI-certificeringsinstantie. Je wordt gevraagd om een \u200b\u200bwachtwoordzin voor de CA-priv\u00e9sleutel. Kies een goede en onthoud het; zonder de wachtwoordzin is het onmogelijk om clientcertificaten uit te geven en te ondertekenen:</p>\n<pre>&#13;\n</pre>\n<div class=\"code\">docker run -v $OVPN_DATA:/etc/openvpn --rm -it kylemanna/openvpn ovpn_initpki</div>\n<p><strong>Let op, de beveiliging van de</strong></p>\n<div class=\"code\"><strong>$OVPN_DATA</strong></div>\n<strong>container is belangrijk.</strong> Het bevat alle priv\u00e9sleutels om de server na te bootsen en alle clientcertificaten. Houd hier rekening mee en controleer de toegang waar nodig. De standaard OpenVPN-scripts gebruiken een wachtwoordzin voor de CA-sleutel om de beveiliging te verhogen en het uitgeven van valse certificaten te voorkomen."
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/a/a061550a6873ec5e60d18d7b940f7c13e7bc85dc.png",
+                            "altText": "docker volume ls && docker volume create",
+                            "alignment": "center",
+                            "scale": 0.8,
+                            "link": ""
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6730216"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Starten OpenVPN-container",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Om de container te starten gebruik je:</p>\n<pre>&#13;\n</pre>\n<div class=\"code\">docker run -v $OVPN_DATA:/etc/openvpn -d -p 1194:1194/udp --cap-add=NET_ADMIN kylemanna/openvpn</div>\n<p>Het enige wat je nu nog moet doen is het genereren van cli\u00ebnt configuratie bestanden, die je naar gebruikers kan sturen zodat ze verbinding kunnen maken met je VPN-server.</p>\n<p>Genereren van een cli\u00ebnt zonder wachtwoord:</p>\n<pre>&#13;\n</pre>\n<div class=\"code\">docker run -v $OVPN_DATA:/etc/openvpn --rm -it kylemanna/openvpn easyrsa build-client-full CLIENTNAME nopass</div>\n<p>Daarna moet je de cli\u00ebnt-config bestand ophalen:</p>\n<pre>&#13;\n</pre>\n<div class=\"code\">docker run -v $OVPN_DATA:/etc/openvpn --rm kylemanna/openvpn ovpn_getclient CLIENTNAME &gt; CLIENTNAME.ovpn</div>\n<p>Vervang CLIENTNAME voor een gebruikersnaam of IP-adres van de server, bedenk hier goed wat voor jouw handig is en hoe je de configuraties uit elkaar houdt.</p>\n<p> </p>\n<p>Het enige wat je nu nog moet doen is het ophalen van je VPN-configuratie, maar die staat op je server. Een manier om dit bestand op te halen is met SCP (secure copy), dat via ssh bestanden kan sturen en ophalen van je server.</p>\n<p>De syntaxis voor</p>\n<div class=\"code\">scp</div>\nis:\n<p>Als je op de computer bevindt waarvan je een bestand naar een externe computer wilt verzenden:</p>\n<pre>&#13;\n</pre>\n<div class=\"code\">scp /file/to/send username@remote:/where/to/put</div>\n<p>Hier</p>\n<div class=\"code\">remote</div>\nkan het een FQDN of een IP-adres zijn.\n<p>Aan de andere kant, als je op de computer een bestand van een externe computer wilt ontvangen:</p>\n<pre>&#13;\n</pre>\n<div class=\"code\">scp username@remote:/file/to/send /where/to/put</div>\n<p>Wij willen een bestand ophalen van de server:</p>\n<pre>&#13;\n</pre>\n<div class=\"code\">scp student@192.168.182.128:/home/student/patrick.ovpn /home/patrick/</div>\n"
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/8/89543f618a1457cf7b38a1e86a235c0778da1579.png",
+                            "altText": "maken van een VPN-config voor een cli\u00ebnt",
+                            "alignment": "center",
+                            "scale": 0.8,
+                            "link": ""
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/2/29e14e795c73a8b10623011de797a7fc23cbee88.png",
+                            "altText": "Cli\u00ebnt bestand ophalen met SCP",
+                            "alignment": "center",
+                            "scale": 0.8,
+                            "link": ""
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6730218"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Verbinding maken met je VPN-server",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Voor het testen van je VPN-verbinding is het noodzakelijk dat OpenVPN correct is ge\u00efnstalleerd op de cli\u00ebnt-computer.</p>\n<p>Om de VPN-config/VPN-verbinding te starten gebruiken we:</p>\n<pre>&#13;\n</pre>\n<div class=\"code\">openvpn --config CLIENTNAME.ovpn</div>\n<p>Controleer je verbinding met bijvoorbeeld ping, nslookup, traceroute, enz.</p>\n"
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/e/e1a6953cd4b65679598a26b950317600b4bec362.png",
+                            "altText": "Denk om je Firewall op de server",
+                            "alignment": "center",
+                            "scale": 0.8,
+                            "link": ""
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/9/9035575fa5d498d90d89f9cec267a23f9b8b01d3.png",
+                            "altText": "VPN verbinden",
+                            "alignment": "center",
+                            "scale": 0.8,
+                            "link": ""
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p><strong>BELANGRIJK!</strong></p>\n<p>Laat de shell met de VPN-verbinding altijd open staan, met {CTRL}+C stop je de VPN-verbinding.</p>\n"
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/1/1cd17ef4d04811796a8bb213918923c4bda976c7.png",
+                            "altText": "tun0 toegevoegd aan je network-interfaces",
+                            "alignment": "center",
+                            "scale": 0.8,
+                            "link": ""
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/e/e47bcb3c882974854236de962cd827101ca15a9c.png",
+                            "altText": "traceroute om te zien dat het de hops over de server gaan",
+                            "alignment": "center",
+                            "scale": 0.8,
+                            "link": ""
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6730220"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Opdracht",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>De opdracht voor deze les staat op ItsLearning, kijk goed naar de gebruikers namen voor je VPN-configuraties.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "6505319"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Les 7: SVN container",
+                "level": 1
+            },
+            "items": [],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "6505320"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Les 8: Docker networking",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "6573362"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Docker macvlan bridge",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>MACVLAN cre\u00ebert meerdere virtuele netwerkinterfaces met verschillende MAC-adressen. Op deze manier, als je systeem meerdere IP-adressen met MAC-adressen heeft, kunnen we meerdere virtuele netwerkinterfaces maken die elk hun eigen IP-adres en MAC-adres hebben.</p>\n<p>MACVLAN hoeft geen mac-adressen van de systemen binnen het netwerk te leren (identificeren) om verkeer te verdelen, aangezien het elk Mac-adres kent, dit maakt het snel en gemakkelijk in te stellen dan een bridge-type netwerk.</p>\n<h2>Problemen met poortbinding van docker-containers:</h2>\n<ul>\n<li>\n<p>Als een container poort 8000 van de host gebruikt, kunnen geen andere containers die poort gebruiken.</p>\n</li>\n<li>\n<p>Het koppelen van meerdere poorten aan de container kan worden gedaan door het poortbereik op te geven, maar deze bewerking kost meer tijd, afhankelijk van nr. van te binden poorten.</p>\n</li>\n<li>\n<p>IPTables-regels worden omslachtig omdat de bindingen toenemen.</p>\n</li>\n</ul>\n<h2>Voordelen van MACVLAN:</h2>\n<ul>\n<li>\n<p>IPTables worden niet be\u00efnvloed.</p>\n</li>\n<li>\n<p>Geen poortbinding.</p>\n</li>\n<li>\n<p>Makkelijk op te zetten.</p>\n</li>\n<li>\n<p>Sneller dan bridge-netwerken.</p>\n</li>\n</ul>\n<h2>MACVLAN-netwerk maken:</h2>\n<p><strong>Voorbeeld:</strong></p>\n<p>Host-IP: 192.168.182.130</p>\n<p>Hostsubnet: 192.168.182.0</p>\n<p>Gastheermasker: 24</p>\n<p>Hostgateway: 192.168.182.2</p>\n<p>Host ethernet-interface: ens33</p>\n<pre>\ndocker network create -d macvlan -o macvlan_mode=bridge --subnet=192.168.182.0/24 --gateway=192.168.182.2 -o parent=ens33 macvlan_bridge</pre>\n<p>Bovenstaande opdracht maakt netwerk met de naam 'macvlan_bridge'. Controleer goed jouw gegevens dat die overeenkomen en pas de opdracht op jouw omgeving aan.</p>\n<h2>Een container draaien met het 'macvlan_bridge'-netwerk:</h2>\n<p><strong>Voorbeeld:</strong></p>\n<p>Host bevat meerdere openbaar toegankelijke IP-adressen met MAC-adressen.</p>\n<p>Extra IP/MAC host: 192.168.182.10/00:50:56:00:60:42</p>\n<pre>\ndocker run --name cont1 --net=macvlan_bridge --ip=192.168.182.10 --mac-address 00:50:56:00:60:42 -itd nginx</pre>\n<p><strong>Voorbeeld zonder MAC-adres:</strong></p>\n<pre>\ndocker run --name cont2 --net=macvlan_bridge --ip=192.168.182.11 -itd nginx</pre>\n<p><strong>Voorbeeld van een andere container:</strong></p>\n<pre>\ndocker run --name cont3 --net=macvlan_bridge --ip=192.168.182.12 -itd httpd</pre>\n<p><strong>Controleer of de containers draaien met:</strong></p>\n<pre>\ndocker ps</pre>\n<p><strong>Controleer op IP-adres in je URL:</strong></p>\n"
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/a/a632f8ac138bb5722dfbb1f95e3c96a032734ef8.png",
+                            "altText": "",
+                            "alignment": "center",
+                            "scale": 0.8,
+                            "link": ""
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/0/02295e33de3bffd3806c80eca26ed448a6f5c409.png",
+                            "altText": "",
+                            "alignment": "center",
+                            "scale": 0.8,
+                            "link": ""
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/c/c0933c6446aeac36e986123fe49e8d5a5b56e17a.png",
+                            "altText": "",
+                            "alignment": "center",
+                            "scale": 0.8,
+                            "link": ""
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Om de container en de netwerk instellingen te controleren gaan we met</p>\n<div class=\"code\">docker inspect</div>\nde container instellingen bekijken.\n<pre>&#13;\ndocker container inspect cont2</pre>\n<pre>\"Networks\": {<br/>&#13;\n                \"macvlan_bridge\": {<br/>&#13;\n                    \"IPAMConfig\": {<br/>&#13;\n                        \"IPv4Address\": \"192.168.182.11\"<br/>&#13;\n                    },<br/>&#13;\n                    \"Links\": null,<br/>&#13;\n                    \"Aliases\": [<br/>&#13;\n                        \"f68a60aba763\"<br/>&#13;\n                    ],<br/>&#13;\n                    \"NetworkID\": \"d6adfdaa0159d03df6a5106c7d5b397283af35a41424f9daf7fa25cf3140d5c3\",<br/>&#13;\n                    \"EndpointID\": \"286a9f6bf98384e426e703c4124e2135537c6a4bc1bde5dc7879e7b1338b505b\",<br/>&#13;\n                    \"Gateway\": \"192.168.182.2\",<br/>&#13;\n                    \"IPAddress\": \"192.168.182.11\",<br/>&#13;\n                    \"IPPrefixLen\": 24,<br/>&#13;\n                    \"IPv6Gateway\": \"\",<br/>&#13;\n                    \"GlobalIPv6Address\": \"\",<br/>&#13;\n                    \"GlobalIPv6PrefixLen\": 0,<br/>&#13;\n                    \"MacAddress\": \"02:42:c0:a8:b6:0b\",<br/>&#13;\n                    \"DriverOpts\": null</pre>"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "6530404"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Les 11: Kubernetes",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Kubernetes is een open-source framework voor containerorkestratie dat is gebaseerd op de omgeving van Google. Het stelt je in staat applicaties uit te voeren met containers in een productie-ready cluster. Kubernetes heeft veel bewegende onderdelen en er zijn talloze manieren om de onderdelen ervan te configureren - van de verschillende systeemcomponenten, netwerktransportstuurprogramma's, CLI-hulpprogramma's en niet te vergeten applicaties en workloads.</p>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "6530405"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Les 12: Kubernetes servers",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>In deze les installeren we Kubernetes 1.16 op een virtuele machine met Ubuntu 20.04. Aan het einde kun je beginnen te leren hoe je met Kubernetes kunt communiceren via de CLI</p>\n<div class=\"code\">kubectl</div>\n.\n<p> </p>\n"
+                },
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/c/cd37db3af7992eeae14ab8fba3c62b266b45accf.png",
+                    "altText": "",
+                    "alignment": "center",
+                    "scale": 0.9,
+                    "link": ""
+                },
+                {
+                    "type": "image",
+                    "src": "https://maken.wikiwijs.nl/userfiles/a/a74b6e0ae706811415269e8ce3eea0234947be2f.png",
+                    "altText": "",
+                    "alignment": "center",
+                    "scale": 0.9,
+                    "link": ""
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "6530427"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Kubernetes installatie",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<h3>Benodigdheden</h3>\n<p>Ik raad aan om de Ubuntu 20.04 omgeving te gebruiken uit voorgaande lessen voor het doorlopen van deze les, hiermee kan je de lessen lokaal uitvoeren. Je hebt 1 master VM nodig en 2 worker VM's. Je kunt er ook voor kiezen om dit in de cloud uit te voeren en 3 virtuele machines te bestellen.</p>\n<p><strong>Aanbevolen</strong></p>\n<p>Zorg voor hostnamen die overeenkomen met de functie van de server. Bijvoorbeeld k8s-master, k8s-worker1, enz.</p>\n<p>Achteraf of bij importeren kun je de hostname veranderen met de volgende opdracht</p>\n<div class=\"code\">sudo hostnamectl set-hostname new-computer-name-here</div>\n<p>Reboot na het aanpassen van de hostname.</p>\n<h3>Installatie</h3>\n<p>(Installatie gebeurt voor de volgende onderdelen op alle 3 servers)</p>\n<p>De hosts hebben een paar minuten nodig om op te starten, waarna je bij elk moet inloggen via</p>\n<div class=\"code\">ssh</div>\nen begin met het installeren van dezelfde set pakketten voor Docker en Kubernetes.\n<div class=\"code\">containerd</div>\nis nu beschikbaar als alternatieve runtime, maar is iets meer werk om te configureren.\n<ul>\n<li>Installeer Docker</li>\n</ul>\n<p>Een bekende/geteste versie van Docker moet worden gebruikt met de</p>\n<div class=\"code\">kubeadm</div>\nbootstrapper, anders zullen we mogelijk onbekend gedrag tegenkomen. De apt-pakketrepository bevat een voldoende oude versie voor ons.\n<pre>&#13;\n</pre>\n<div class=\"code\">$ sudo apt-get update \\&#13; &amp;&amp; sudo apt-get install -qy docker.io</div>\n<ul>\n<li>Voeg de Kubernetes-pakketbron toe</li>\n</ul>\n<p>Deze opdracht uit de Kubernetes-documentatie voegt de pakketrepository toe waar</p>\n<div class=\"code\">kubeadm</div>\n,\n<div class=\"code\">kubectl</div>\nen de gerelateerde pakketten worden regelmatig gepubliceerd.\n<pre>&#13;\n</pre>\n<div class=\"code\">$ sudo apt update \\&#13; &amp;&amp; sudo apt-get install -y apt-transport-https \\&#13; &amp;&amp; curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -</div>\n<ul>\n<li>Voer een pakketupdate uit:</li>\n</ul>\n<pre>&#13;\n</pre>\n<div class=\"code\">$ echo \"deb http://apt.kubernetes.io/ kubernetes-xenial main\" \\&#13; | sudo tee -a /etc/apt/sources.list.d/kubernetes.list \\&#13; &amp;&amp; sudo apt-get update</div>\n<p>Werk nu uw pakketlijst bij met</p>\n<div class=\"code\">apt update</div>\n.\n<ul>\n<li>Installeren\n<div class=\"code\">kubelet</div>\n,\n<div class=\"code\">kubeadm</div>\nen\n<div class=\"code\">kubernetes-cni</div>\n</li>\n</ul>\n<p>Het</p>\n<div class=\"code\">kubelet</div>\nis verantwoordelijk voor het plannen, beheren en draaien van containers op je hosts.\n<div class=\"code\">kubeadm</div>\ntool is een gebruiksgemak dat gereed is voor productie en dat wordt gebruikt om de verschillende componenten van een werkcluster te configureren. Het\n<div class=\"code\">kubernetes-cni</div>\npakket vertegenwoordigt de netwerkcomponenten die niet rechtstreeks in Kubernetes zijn ingebouwd.\n<p><em>CNI staat voor Container Networking Interface, een specificatie die definieert hoe netwerkstuurprogramma's moeten communiceren met Kubernetes. CNI-netwerkstuurprocessen worden uitgevoerd met UNIX-pipes en worden voor elk verzoek forked\u200b.</em></p>\n<pre>&#13;\n</pre>\n<div class=\"code\">sudo apt-get update \\&#13; &amp;&amp; sudo apt-get install -yq \\&#13; kubelet \\&#13; kubeadm \\&#13; kubernetes-cni</div>\n<p>We moeten de Kubernetes-pakketten in de <em>wacht zetten,</em> want als we dat niet doen, wanneer er een nieuwere versie wordt uitgebracht en we draaien</p>\n<div class=\"code\">apt upgrade</div>\n, kunnen we eindigen met een onverwachte hobbel in onze Kubernetes-versie.\n<pre>&#13;\n</pre>\n<div class=\"code\">sudo apt-mark hold kubelet kubeadm kubectl</div>\n<ul>\n<li>Swap moet zijn uitgeschakeld</li>\n</ul>\n<p>De beheerders van Kubernetes besloten dat het gebruik van wisselgeheugen kan leiden tot onvoorspelbaar gedrag en gaven er de voorkeur aan om het uit te schakelen dan om te kampen met een van de bijwerkingen die kunnen optreden.</p>\n<p>Je kunt controleren of je swap heeft ingeschakeld door in te typen</p>\n<div class=\"code\">cat /proc/swaps</div>\n. Als je een wisselbestand of partitie hebt ingeschakeld, schakel deze dan uit met\n<div class=\"code\">swapoff</div>\n. U kunt dit permanent maken door het wisselbestand in\n<div class=\"code\">/etc/fstab</div>\n.\n<pre>&#13;\n</pre>\n<div class=\"code\">cat /proc/swaps&#13; Filename Type Size Used Priority&#13; /dev/md127 partition 1995772 0 -2&#13; $ sudo swapoff /dev/md127&#13; &#13; $ sudo vim /etc/fstab&#13; &#13; UUID=2358eec8-dda6-4212-9cf6-92f515a1b631 / ext4 errors=remount-ro 0 1&#13; #UUID=b038c1b7-fa7f-4f20-b554-6c2885d73ba5 none swap none 0 0</div>\n<p><strong>Belangrijk!</strong></p>\n<p>Op dit punt zou je de bovenstaande stappen op elk van je servers moeten hebben uitgevoerd. Dit zijn allemaal veel voorkomende stappen dat op alle nodes uitgevoerd moet worden.</p>\n<p> </p>\n<p> </p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6530499"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Kubeadm",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>kubeadm streeft ernaar om een \u200b\u200bveilig cluster uit de doos te cre\u00ebren via mechanismen zoals RBAC.</p>\n<p>Terwijl containerorkestrators zoals Docker Swarm monolithisch waren en gedistribueerd als een enkel binair bestand, hanteert Kubernetes een modulaire en uitbreidbare aanpak. Netwerken wordt pas toegevoegd nadat het eerste cluster is gemaakt en het is aan de gebruiker om te kiezen uit een van de tientallen beschikbare netwerkstuurprogramma's.</p>\n<p>We gebruiken vandaag Weave net van Weaveworks. Weave net is eenvoudig te installeren en presteert erg goed in benchmarking met vergelijkbare stuurprogramma's en kan functies bieden zoals wachtwoordbeveiliging en link-encryptie.</p>\n<ul>\n<li>\n<p>Bepaal welk IP-adres je voor Kubernetes wilt gebruiken</p>\n<p>Kubernetes stelt zijn API-server bloot via het priv\u00e9- of openbare netwerk. Als je het openbare netwerk gebruikt, kun je het cluster vanaf je eigen laptop of je CI/CD-server beheren, maar er kunnen hogere kosten in rekening worden gebracht voor gegevens die via het openbare internet worden doorgegeven.</p>\n<p>Als je het cluster alleen binnen je interne priv\u00e9netwerk wilt gebruiken, gebruik dan het private IP. Voor deze tutorial gebruiken we het interne netwerk dat VMWare ons gegeven heeft.</p>\n</li>\n<li>\n<p>Zoek het IP-adres van het prive-netwerk</p>\n</li>\n</ul>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6530496"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Kubeadm installeren op de master-node",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Initialiseer je cluster met</p>\n<div class=\"code\">kubeadm</div>\n<p>Je hoeft deze stap alleen uit te voeren op je aangewezen hoofdserver, voor mij was dat</p>\n<div class=\"code\">k8s-master-node</div>\n.\n<p>We gebruiken nu het interne IP-adres om de Kubernetes-API uit te zenden, in plaats van het internetgerichte adres (lokaal hebben we dit niet, in de cloud wel).</p>\n<p>Je moet --apiserver-advertise-address vervangen door het IP-adres van je master node-host.</p>\n<pre>&#13;\n</pre>\n<div class=\"code\">$ sudo kubeadm init --apiserver-advertise-address=10.80.0.133 --kubernetes-version stable</div>\n<ul>\n<li>\n<div class=\"code\">--apiserver-advertise-address</div>\nbepaalt welk IP-adres Kubernetes zijn API-server moet adverteren.</li>\n<li>\n<div class=\"code\">--skip-preflight-checks</div>\nstaat\n<div class=\"code\">kubeadm</div>\ntoe om de host-kernel te controleren op vereiste functies. Als je problemen tegenkomt waarbij een host de kernel-metagegevens heeft verwijderd, moet je mogelijk met deze vlag draaien.</li>\n<li>\n<div class=\"code\">--kubernetes-version stable-1.16</div>\ndit pint de versie van het cluster naar 1.16, maar als je bijvoorbeeld Kubernetes 1.15 wilt gebruiken, verander dan gewoon de versie. Als je deze vlag verwijdert, wordt alles gebruikt dat geldt als \"nieuwste\".</li>\n</ul>\n<p>Wij gebruiken de stable variant van Kubernetes, omdat deze werkt met Ubuntu 20.04</p>\n<p>Je krijgt deze output als alles volgens plan is verlopen, zo niet, controleer dan de bovenstaande stappen.</p>\n<p> </p>\n"
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/3/38f53ef617732d36178d5e941bbd590e5779a9ae.png",
+                            "altText": "",
+                            "alignment": "center",
+                            "scale": 0.9,
+                            "link": ""
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p><strong>Alleen uitvoeren als je geen sudo gebruiker hebt!</strong></p>\n<ul>\n<li>Configureer een onbevoegd gebruikersaccount (als je deze niet hebt)</li>\n</ul>\n<p>De Ubuntu-installatie wordt geleverd zonder een onbevoegd gebruikersaccount, dus laten we er een toevoegen.</p>\n<pre>&#13;\n</pre>\n<div class=\"code\">$ sudo useradd k8s -G sudo -m -s /bin/bash&#13; $ sudo passwd k8s</div>\n<ul>\n<li>Configureer omgevingsvariabelen voor de nieuwe gebruiker</li>\n</ul>\n<p>Je kunt nu je omgeving configureren met de instructies aan het einde van het init-bericht hierboven.</p>\n<p><strong>Ga hier verder!</strong></p>\n<p>Schakel over naar het nieuwe gebruikersaccount en configureer het</p>\n<div class=\"code\">KUBECONFIG</div>\n<pre>&#13;\n</pre>\n<div class=\"code\">sudo su k8s&#13; &#13; cd $HOME&#13; sudo cp /etc/kubernetes/admin.conf $HOME/&#13; sudo chown $(id -u):$(id -g) $HOME/admin.conf</div>\n<p>Probeer nu het KUBECONFIG-bestand uit:</p>\n<pre>&#13;\n</pre>\n<div class=\"code\">echo \"export KUBECONFIG=$HOME/admin.conf\" | tee -a ~/.bashrc&#13; source ~/.bashrc</div>\n<p>Probeer een</p>\n<div class=\"code\">kubectl</div>\ncommando om te zien of het masterserver nu in de lijst staat, merk op dat het voorlopig een\n<div class=\"code\">NotReady</div>\nstatus heeft\n<pre>&#13;\n</pre>\n<div class=\"code\">$ kubectl get node&#13; NAME STATUS ROLES AGE VERSION&#13; k8s-master NotReady master 3m32s v1.20.2</div>\n<ul>\n<li>Pas uw pod-netwerk aan</li>\n</ul>\n<p>We zullen nu de configuratie toepassen op het cluster met</p>\n<div class=\"code\">kubectl</div>\nen ons nieuwe\n<div class=\"code\">KUBECONFIG</div>\nbestand. Dit maakt netwerken mogelijk en ons hoofdserver wordt\n<div class=\"code\">Ready</div>\n, op dat moment gaan we naar de andere werkservers.\n<pre>&#13;\n</pre>\n<div class=\"code\">sudo mkdir -p /var/lib/weave&#13; head -c 16 /dev/urandom | shasum -a 256 | cut -d\" \" -f1 | sudo tee /var/lib/weave/weave-passwd&#13; &#13; kubectl create secret -n kube-system generic weave-passwd --from-file=/var/lib/weave/weave-passwd</div>\n<p>Omdat we het standaard Pod-netwerk gebruiken voor hostnetwerken, moeten we een ander priv\u00e9-subnet voor Weave-net gebruiken om conflicten te voorkomen. Gelukkig is 192.168.0.0/24 ruimte beschikbaar voor gebruik.</p>\n<pre>&#13;\n</pre>\n<div class=\"code\">$ kubectl apply -f \"https://cloud.weave.works/k8s/net?k8s-version=$(kubectl version | base64 | tr -d '\\n')&amp;password-secret=weave-passwd&amp;env.IPALLOC_RANGE=192.168.0.0/24\"</div>\n<p>We hebben nu het netwerk geconfigureerd voor de pods.</p>\n<ul>\n<li>Optionele stap - taint the master</li>\n</ul>\n<p>Kubernetes streeft ernaar een zeer beschikbare clustering container orchestrator te zijn waarbij workloads met redundantie over meerdere hosts worden verdeeld. We kunnen echter een enkele master node dwingen om workloads uit te voeren voor ontwikkeling door de \"taint\" te verwijderen:</p>\n<p>Dit wordt alleen aanbevolen als je met een enkele host werkt, voer deze stap niet uit als je andere hosts aan het cluster toevoegt.</p>\n<pre>&#13;\n</pre>\n<div class=\"code\">$ kubectl taint nodes --all node-role.kubernetes.io/master-</div>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6530523"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Toevoegen van worker-nodes",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Toen we</p>\n<div class=\"code\">kubeadm init</div>\nop het master-server uitvoerden, stuurde het een token uit dat 24 uur geldig is. We moeten dat nu gebruiken om ons bij andere hosts te voegen.\n<pre>&#13;\n</pre>\n<div class=\"code\">kubeadm join 192.168.182.130:6443 --token q677gq.cb3c90i1k5y0d852 \\&#13;     --discovery-token-ca-cert-hash sha256:bef0ec14c4f766853c2b9354500c5f66787f14d08d8dc255fa4c786c07b340a1</div>\n<p>Als je op dit punt een foutmelding krijgt, komt dit waarschijnlijk doordat je een stap hierboven bent vergeten. Onthoud dat je het wisselgeheugen voor elke host moet uitschakelen, niet alleen voor de master.</p>\n<p><strong>Denk om UFW...... zelf gemaakte fout ;-)</strong></p>\n<p>Voer de join-stap uit op elke host.</p>\n<p>Ga terug naar de</p>\n<div class=\"code\">ssh</div>\nsessie voor de hoofdserver waar je bent aangemeld als de\n<div class=\"code\">k8s of student</div>\nonbevoegde gebruiker.\n<p>Je zou nu al uw knooppunten in de</p>\n<div class=\"code\">Ready</div>\nstatus moeten zien."
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/f/f226746206166cc4ee114b6dcf81b72bf2e50d71.png",
+                            "altText": "",
+                            "alignment": "center",
+                            "scale": 0.9,
+                            "link": ""
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6530529"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Testen van je k8s-cluster",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<ul>\n<li>Controleer of het werkt</li>\n</ul>\n<p>Veel van de Kubernetes-componenten worden als containers op je cluster uitgevoerd in een verborgen naamruimte met de naam</p>\n<div class=\"code\">kube-system</div>\n. Je kunt zien of ze werken en info opvragen:\n<p>kubectl cluster-info</p>\n<p>kubectl cluster-info dump &gt; cluster_info.txt</p>\n<p> </p>\n<p> </p>\n"
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/c/ceb752e57e7fd85a207f9542e85c7f1e9c90d8c3.png",
+                            "altText": "",
+                            "alignment": "center",
+                            "scale": 0.9,
+                            "link": ""
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Zoals u kunt zien, bevinden alle services zich in een staat</p>\n<div class=\"code\">Running</div>\ndie duidt op een gezond cluster. Als deze componenten nog steeds van internet worden gedownload, kan het lijken alsof ze niet zijn gestart.\n<p>Je kunt ook</p>\n<div class=\"code\">kubectl get all --all-namespaces</div>\n. Een snelkoppeling voor\n<div class=\"code\">--all-namespaces</div>\nis\n<div class=\"code\">-A</div>\n."
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/a/a51a7be93ec033283b86c1410ac4d83cd165b3ee.png",
+                            "altText": "",
+                            "alignment": "center",
+                            "scale": 0.9,
+                            "link": ""
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6530538"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Uitvoeren van een container",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Je kunt nu een container op je cluster uitvoeren. Kubernetes organiseert containers in Pods die een gemeenschappelijke IP-adres te delen, zijn altijd gepland op hetzelfde server (host) en kan opslagvolumes delen.</p>\n<p>Controleer eerst of er geen pods (containers) draaien met:</p>\n<pre>&#13;\n</pre>\n<div class=\"code\">$ kubectl get pods</div>\n<p>Laten we beginnen met het controleren van de status van het cluster. Al je nodes zouden in de status <strong>GEREED</strong> moeten zijn.</p>\n<p> </p>\n"
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/f/f226746206166cc4ee114b6dcf81b72bf2e50d71.png",
+                            "altText": "",
+                            "alignment": "center",
+                            "scale": 0.9,
+                            "link": ""
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>We maken een implementatie van <strong>NGINX</strong> met behulp van de <strong>NGINX-</strong> image.</p>\n"
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/1/1e4ab4d8dddc33b6a6f2cc3f41fbd2e7534d5144.png",
+                            "altText": "",
+                            "alignment": "center",
+                            "scale": 0.9,
+                            "link": ""
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Je kunt nu de status van je implementatie zien.</p>\n"
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/9/98b4b4cb19d27bc174869393162402450dbf06c6.png",
+                            "altText": "",
+                            "alignment": "center",
+                            "scale": 0.9,
+                            "link": ""
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Als je meer details over je implementatie wilt zien, kun je de opdracht <strong>describe</strong> uitvoeren. Het is bijvoorbeeld mogelijk om te bepalen hoeveel replica's van de implementatie worden uitgevoerd. In ons geval verwachten we een replica van 1 actief te zien (dwz <strong>1/1</strong> replica's).</p>\n"
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/1/17a406e94f385b85947df3b6c369e0fe0ced1c85.png",
+                            "altText": "",
+                            "alignment": "center",
+                            "scale": 0.9,
+                            "link": ""
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Nu je Nginx-implementatie actief is, wil je misschien de <strong>NGINX-</strong> service beschikbaar stellen aan een openbaar IP-adres dat bereikbaar is op het internet.</p>\n<p>Kubernetes biedt verschillende opties bij het presenteren van je service op basis van een functie genaamd Kubernetes Service-types en ze zijn:</p>\n<ol>\n<li><strong>ClusterIP</strong> - Dit servicetype stelt de service over het algemeen bloot op een intern IP-adres, dat alleen bereikbaar is binnen het cluster en mogelijk alleen binnen de clusternodes.</li>\n<li><strong>NodePort</strong> - Dit is de eenvoudigste optie om je service toegankelijk te maken buiten je cluster, op een specifieke poort (de <strong>NodePort genoemd</strong> ) op elk node in het cluster. We zullen deze optie zo illustreren.</li>\n<li><strong>LoadBalancer</strong> - Deze optie maakt gebruik van externe load-balancing-services die door verschillende providers worden aangeboden om toegang tot je service mogelijk te maken. Dit is een betrouwbaardere optie wanneer je nadenkt over hoge beschikbaarheid voor je service, en heeft meer functies dan standaardtoegang.</li>\n<li><strong>ExternalName</strong> - Deze service leidt verkeer om naar services buiten het cluster. Als zodanig wordt de service dus toegewezen aan een DNS-naam die buiten je cluster kan worden gehost. Het is belangrijk op te merken dat dit geen proxy gebruikt.</li>\n</ol>\n<p>Het standaard servicetype is <strong>ClusterIP</strong> .</p>\n<p>In ons scenario willen we het <strong>NodePort Service-type gebruiken</strong> omdat we zowel een openbaar als priv\u00e9 IP-adres hebben en we voorlopig geen externe load balancer nodig hebben. Met dit servicetype wijst Kubernetes deze service toe aan poorten in het bereik van <strong>30000+</strong> .</p>\n<p> </p>\n"
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/b/bd5654dbd88d1eed4feee5c48b299c4662fceb92.png",
+                            "altText": "",
+                            "alignment": "center",
+                            "scale": 0.9,
+                            "link": ""
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Voer de opdracht <strong>get svc</strong> uit om een \u200b\u200bsamenvatting van de service en de blootgestelde poorten te zien.</p>\n<p> </p>\n"
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/9/90c8385707d3f4d1dc95b738eb61a9620c2f94be.png",
+                            "altText": "",
+                            "alignment": "center",
+                            "scale": 0.9,
+                            "link": ""
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Nu kunt je controleren of de <strong>Nginx-</strong> pagina op alle knooppunten bereikbaar is met het curl-commando.</p>\n<pre>\n# curl master-node-IP:32021\n# curl node-1-IP:32021 \n# curl node-2-IP:32021</pre>"
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/3/38e034e137acfda6cc7aea6e10860f602a8fe27b.png",
+                            "altText": "",
+                            "alignment": "center",
+                            "scale": 0.9,
+                            "link": ""
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/7/7ffad4ea8378e2295193ba95039d655de3c11f9d.png",
+                            "altText": "",
+                            "alignment": "center",
+                            "scale": 0.9,
+                            "link": ""
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6530577"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Kubernetes-dashboard",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Het Kubernetes-dashboard biedt een visuele weergave van de bronnen in het cluster en is ook toegankelijk vanaf uw lokale computer.</p>\n<p>Hiervoor zullen we de dashboard moeten ophalen met de volgende opdracht</p>\n<div class=\"code\">kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.0.0/aio/deploy/recommended.yaml</div>\n<p> </p>\n"
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/2/25e45a929f87e87294a8afa0d52b57cdb2f42cbf.png",
+                            "altText": "",
+                            "alignment": "center",
+                            "scale": 0.9,
+                            "link": ""
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Nu zullen we controleren of de bronnen met succes zijn gemaakt en of de pods worden uitgevoerd in de nieuwe naamruimte van het dashboard:</p>\n<p>kubectl get pods -n kubernetes-dashboard</p>\n<p>Nu moeten we een serviceaccount maken dat we zullen gebruiken om toegang te krijgen tot het dashboard: ons account wordt een beheerdersaccount, zodat het via het dashboard nieuwe bronnen kan bekijken, wijzigen en aanmaken. Dit kunnen we doen door de rollen toe te voegen via een clusterRole.</p>\n<p>Om het serviceaccount te maken, maak je een nieuw bestand aan:</p>\n<pre>&#13;\nnano dashboard-admin.yaml</pre>\n<p>plak vervolgens de volgende inhoud erin:</p>\n<pre>&#13;\napiVersion: v1&#13;\nkind: ServiceAccount&#13;\nmetadata:&#13;\n  name: admin-user&#13;\n  namespace: kubernetes-dashboard&#13;\n&#13;\n---&#13;\napiVersion: rbac.authorization.k8s.io/v1&#13;\nkind: ClusterRoleBinding&#13;\nmetadata:&#13;\n  name: admin-user&#13;\nroleRef:&#13;\n  apiGroup: rbac.authorization.k8s.io&#13;\n  kind: ClusterRole&#13;\n  name: cluster-admin&#13;\nsubjects:&#13;\n- kind: ServiceAccount&#13;\n  name: admin-user&#13;\n  namespace: kubernetes-dashboard&#13;\n</pre>\n<p>Nadat we het bestand hebben opgeslagen, passen we het toe via deze opdracht:</p>\n<div class=\"code\">kubectl apply -f dashboard-admin.yaml</div>\n<p>Om verbinding te kunnen maken met het dashboard, moeten we het token vinden dat door het serviceaccount is gegenereerd.</p>\n<p>Om het token te krijgen, gebruik je eenvoudig de volgende opdracht: deze opdracht extraheert het geheime object dat aan het account is gekoppeld als JSON-indeling, het neemt het token en decodeert het met base64 om het gewenste token te krijgen:</p>\n<div class=\"code\">kubectl get secret -n kubernetes-dashboard $(kubectl get serviceaccount admin-user -n kubernetes-dashboard -o jsonpath=\"{.secrets[0].name}\") -o jsonpath=\"{.data.token}\" | base64 --decode</div>\n<p>Bewaar dit token, want we hebben het later nodig.</p>\n<h2>Toegang tot het dashboard</h2>\n<p>Een ding dat je moet weten over het Kubernetes-dashboard is dat het alleen toegankelijk is via het localhost-adres op de computer waarop het draait. Daarom hebben we een SSH-tunnel naar de server nodig.</p>\n<p>Om dit te doen, kun je met deze opdracht een SSH-tunnel maken. Vervang gewoon de &lt;user&gt; en &lt;master_public_IP&gt; door je Kubernetes master IP en de gebruiker die je gebruikt om er toegang toe te krijgen.</p>\n<pre>&#13;\nssh -L localhost:8001:127.0.0.1:8001 &lt;gebruiker&gt;@&lt;master_public_IP&gt;</pre>\n<p>In mijn geval heb ik deze opdracht gebruikt om mijn SSH-tunnel te maken:</p>\n"
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/0/0390e8f20fa7ab2a2a64d9c1323250b7ed2c7ca3.png",
+                            "altText": "",
+                            "alignment": "center",
+                            "scale": 0.9,
+                            "link": ""
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Gebruik deze opdracht om het Dashboard te starten:</p>\n<pre>\nkubectl proxy</pre>"
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/8/86a65b8ecf20b4d0520b7b108791660adda3ffbc.png",
+                            "altText": "",
+                            "alignment": "center",
+                            "scale": 0.9,
+                            "link": ""
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Nu kun je deze URL gebruiken om toegang te krijgen tot je Dashboard-webinterface:</p>\n<pre>\nhttp://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/</pre>\n<p>De volgende pagina zal verschijnen, je kunt het token gebruiken dat we in de vorige stap hebben opgeslagen om in te loggen:</p>\n<p> </p>\n"
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/0/060230ec312bf73991f3367aa4183fbcfcb43731.png",
+                            "altText": "",
+                            "alignment": "center",
+                            "scale": 0.9,
+                            "link": ""
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/3/355b248b2cb9659c2c6f94f667d034a4051f31ab.png",
+                            "altText": "",
+                            "alignment": "center",
+                            "scale": 0.9,
+                            "link": ""
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6530635"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Het Kubernetes-dashboard gebruiken",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Via het dashboard kunt u de verschillende soorten Kubernetes-bronnen bekijken:</p>\n"
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/8/8cde3393fcba063f3295d49ca46559873d8b9086.png",
+                            "altText": "",
+                            "alignment": "center",
+                            "scale": 0.9,
+                            "link": ""
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/4/44f693073f1692c51c51daa86f1513ce9acf0463.png",
+                            "altText": "",
+                            "alignment": "center",
+                            "scale": 0.9,
+                            "link": ""
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Het dashboard maakt het eigenlijk gemakkelijker om bronnen te maken: dus in plaats van complexe YAML-bestanden te schrijven, kun je de apps implementeren door simpelweg een formulier in te vullen.</p>\n<p>We nemen als voorbeeld de implementatie van een basiswebapplicatie:</p>\n"
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/d/d723790d799ec075664c99e19b5fa76c126374da.png",
+                            "altText": "",
+                            "alignment": "center",
+                            "scale": 0.9,
+                            "link": ""
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/3/3bcf54bef594aee27f29102a42c3850030ebaa30.png",
+                            "altText": "",
+                            "alignment": "center",
+                            "scale": 0.9,
+                            "link": ""
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>In het eerste gedeelte hebben we de naam van de app gespecificeerd, de docker-image die we zullen gebruiken. We noemden ook het aantal te maken pods. En toen hebben we een externe service toegevoegd, de poort en het protocol.</p>\n<p><strong>Troubleshooten:</strong></p>\n<p> </p>\n"
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/3/3b98c1e1db4fc806acab8cfb238fac252669461d.png",
+                            "altText": "",
+                            "alignment": "center",
+                            "scale": 0.9,
+                            "link": ""
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Ik zocht naar de docker-image: apache, echter deze heeft een andere naam. De containers kun je vinden op Docker-hub, zie afbeelding hieronder.</p>\n"
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/6/62deedf945eeb21a5209442996dbf24a3ac794e1.png",
+                            "altText": "",
+                            "alignment": "center",
+                            "scale": 0.9,
+                            "link": ""
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Nadat aangepast te hebben in een nieuwe deployment, werkte het naar behoren en zouden we ervoor kunnen kiezen een aangepaste installatie te doen. Je kunt meerdere variabelen meegeven tijdens het deployen van je images. De oude/foute nog even verwijderen.</p>\n"
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/e/ee0955b3d1cbadbcf0d215524ae40783cbeb3c8e.png",
+                            "altText": "",
+                            "alignment": "center",
+                            "scale": 0.9,
+                            "link": ""
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/2/2a00260f97e4a4e3b7fead41401d3a93876d2f21.png",
+                            "altText": "",
+                            "alignment": "center",
+                            "scale": 0.9,
+                            "link": ""
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Zie wat er allemaal veranderd is en controleer waar de Pods draaien.</p>\n"
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/b/b30bed6388b2f7435cb6244d8300825db853c29f.png",
+                            "altText": "",
+                            "alignment": "center",
+                            "scale": 0.9,
+                            "link": ""
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Om te controleren of apache werkt, zoeken we de poort op onder \"Discovery and Load Balancing\".</p>\n"
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/7/75b67836b649fd2f7aa8dbbad63ee2685c124a48.png",
+                            "altText": "",
+                            "alignment": "center",
+                            "scale": 0.9,
+                            "link": ""
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/d/dea5569abec7f1eae2887aefcd1bf7d827b29c6f.png",
+                            "altText": "",
+                            "alignment": "center",
+                            "scale": 0.9,
+                            "link": ""
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Zo zien we dat Kubernetes zowel op de CLI and in de Dashboad-Kubernetes Pods kan deployen en dat het super werkt.</p>\n<p>Echter dit is pas het begin van onze mooie Kubernetes reis ;-).</p>\n<h2>YAML implementeren met behulp van het Kubernetes-dashboard</h2>\n<p>Nu zullen we de Nginx app implementeren met behulp van een YAML-bestand via het Kubernetes-dashboard.</p>\n<p>Gebruik de volgende YAML-bronnen bij het maken van een nieuwe app met YAML:</p>\n<pre>\n---\napiVersion: apps/v1\nkind: Deployment\nmetadata:\n  name: nginx-yaml\nspec:\n  strategy:\n    type: Recreate\n  selector:\n    matchLabels:\n      app: nginx-yaml\n  replicas: 3\n  template:\n    metadata:\n      labels:\n        app: nginx-yaml\n    spec:\n      containers:\n      - name: nginx\n        image: nginx\n        ports:\n        - containerPort: 80\n\n---\napiVersion: v1\nkind: Service\nmetadata:\n  name: nginx-svc-yaml\n  labels:\n    app: nginx\n  annotations:\n    description: My web App deployment\nspec:\n  externalTrafficPolicy: Cluster\n  ports:\n  - name: http\n    port: 80\n    protocol: TCP\n    targetPort: 80\n  selector:\n    app: nginx-yaml\n  type: LoadBalancer</pre>\n<p> </p>\n"
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/6/66d7a91f4971027eca754a4266c87465311ba0d8.png",
+                            "altText": "",
+                            "alignment": "center",
+                            "scale": 0.9,
+                            "link": ""
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Implementeer de app en controleer de implementaties om te controleren of deze met succes is gemaakt:</p>\n"
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/2/27b3985abf896bf72b9bac4182cd26093a2e5219.png",
+                            "altText": "",
+                            "alignment": "center",
+                            "scale": 0.9,
+                            "link": ""
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/5/5b58235fe7a1da9dcbd54598ae84a9d2237359df.png",
+                            "altText": "",
+                            "alignment": "center",
+                            "scale": 0.9,
+                            "link": ""
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/2/2f1626eb82a61ee5f102e9aacd0eab6e42b8daa0.png",
+                            "altText": "",
+                            "alignment": "center",
+                            "scale": 0.9,
+                            "link": ""
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Top het werkt!</p>\n<p>Kijk welke app's je nog meer op deze manier kunt maken.......</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6530686"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Opdracht Kubernetes installatie",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>De opdracht voor deze les staat op ItsLearning. Je zult aan de hand van de stappen genoemd in deze les zelf een Kubernetes cluster maken en je eerste Pods deployes.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "6535449"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Les 13: Kubernetes recap",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Deze les gaan we rustig alles nog een keer bij langs om te wennen aan de omvang van Kubernetes en vertrouwd te raken met de opdrachten die we kunnen uitvoeren.</p>\n"
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "6535460"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Kubectl",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>In deze sectie zullen we het kernconcept van <strong>kubernetes leren,</strong> zoals <strong>Pod, cluster, implementatie,</strong> <strong>replicaset</strong>. Het idee is om het simpel te houden en intu\u00eftiever te leren.</p>\n<p>In het begin hebben we \u00e9\u00e9n master node en een worker node opgezet</p>\n<ol>\n<li>kube-master</li>\n<li>kube-worker</li>\n</ol>\n<p><strong>kubectl</strong> - Hoofd-CLI-tool voor het uitvoeren van opdrachten en het beheren van Kubernetes-clusters. <strong>dus wat is het cluster?</strong></p>\n<div class=\"code\">kubectl cluster-info</div>\n<p> </p>\n"
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/4/4331b2d698f3cfd74b77aa24562dfcb62edad8e5.png",
+                            "altText": "",
+                            "alignment": "center",
+                            "scale": 0.9,
+                            "link": ""
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p><strong>cluster</strong> bestaat uit ten minste \u00e9\u00e9n <strong>clustermaster</strong> en meerdere werkmachines die <strong>nodes</strong> worden genoemd</p>\n<p>Controleer de <strong>nodes</strong> die zich bij het cluster hebben aangesloten</p>\n<div class=\"code\">kubectl get nodes</div>\n"
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/e/ef8b11c890cec29127ea73565d1cb330aba05c2f.png",
+                            "altText": "",
+                            "alignment": "center",
+                            "scale": 0.9,
+                            "link": ""
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6535487"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Kubernetes API Resources",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<ol>\n<li>Pod: <strong>Kubernetes-pod</strong> is een groep containers die samen op dezelfde host worden ge\u00efmplementeerd</li>\n<li>Service: een <strong>service</strong> in <strong>Kubernetes</strong> is een REST-object, vergelijkbaar met een pod</li>\n<li><strong>Deploy</strong>: een <strong><em>implementatiecontroller</em></strong> biedt declaratieve updates voor pods en replicasets</li>\n<li>Replica Set: Een <strong><em>ReplicaSet</em></strong> zorgt ervoor dat een bepaald aantal pod-replica's op een bepaald moment wordt uitgevoerd</li>\n</ol>\n<p>Voorbeeld: maak een lijst van alle bronnen in de naamruimte</p>\n<div class=\"code\">kubectl get all</div>\n"
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/2/2ceda72d1700cb7efb1b663a6b2443f02fdfb209.png",
+                            "altText": "",
+                            "alignment": "center",
+                            "scale": 0.9,
+                            "link": ""
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Om alle ondersteunde resourcetypen weer te geven, samen met hun korte namen, API-groep, of ze een naamruimte hebben en Kind:</p>\n<div class=\"code\">kubectl api-resources</div>\n"
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/4/4f0e95ba44b8aaf003052b11bd63a7986ac8bd56.png",
+                            "altText": "",
+                            "alignment": "center",
+                            "scale": 0.9,
+                            "link": ""
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Afkortingen:</p>\n<ul>\n<li>po: Pod</li>\n<li>svc: Service</li>\n<li>deploy: Deployment</li>\n<li>rs: Replicaset</li>\n</ul>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6535692"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Lichte Kubernetes flow",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>We gaan een simpele flow maken om te zien wat er gebeurt en later aanpassen. Start hiervoor een enkele nginx met \u00e9\u00e9n replicaset.</p>\n<div class=\"code\">kubectl run nginx --image=nginx --replicas=1</div>\n"
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/c/c2587badf618964540fd68ae77c7009e3d40be78.png",
+                            "altText": "",
+                            "alignment": "center",
+                            "scale": 0.9,
+                            "link": ""
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>We kunnen veel meer informatie over elk van deze pods ophalen met behulp van:</p>\n<div class=\"code\">kubectl describe pod nginx</div>\n<p>Er zal een grote YAML-uitvoer zijn, zoals hieronder.</p>\n"
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/b/bc8dcd2e6bed700c5eed870f9642d3577a665e40.png",
+                            "altText": "",
+                            "alignment": "center",
+                            "scale": 0.9,
+                            "link": ""
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Hier zie je de configuratiegegevens over de <strong>container(s) en pod (labels, resourcevereisten, enz.),</strong> Evenals <strong>statusinformatie</strong> over de container(s) en <strong>pod (status, gereedheid, aantal herstarten, gebeurtenissen, enz.) .</strong></p>\n<p>De containerstatus is <strong>Wachten, Bezig of Be\u00ebindigd</strong>. <em>hier kun je zien dat voor een container in de status Running</em>, het systeem je vertelt wanneer de container is gestart.</p>\n<p><strong>Ready</strong> geeft aan of de container de laatste gereedheidstest heeft doorstaan.</p>\n<p>Om een \u200b\u200blijst te maken van alle evenementen die u kunt gebruiken:</p>\n<div class=\"code\">kubectl get events</div>\n"
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/4/463bf1a493a9ca8ab0774e79de46c517acd18ae9.png",
+                            "altText": "",
+                            "alignment": "center",
+                            "scale": 0.9,
+                            "link": ""
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Haal de <strong>implementatieconfiguratie</strong> van nginx op met de opdracht:</p>\n<div class=\"code\">kubectl get deployment nginx</div>\n"
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/4/47884ab7c4dafba5f01ae7a3d8712592a28323e5.png",
+                            "altText": "",
+                            "alignment": "center",
+                            "scale": 0.9,
+                            "link": ""
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Tijdens de initialisatiestatus hebben we de kubernetes verteld om slechts \u00e9\u00e9n replica te onderhouden door de vlag in te stellen <em>--replicas=1.</em></p>\n<p>Verwijder de <strong>nginx-pod,</strong> om de <strong>pod</strong> te verwijderen specificeer de podnaam.</p>\n<div class=\"code\">kubectl delete pod nginx</div>\n<p>Alleen uitvoeren als je hem ook echt wilt verwijderen, maar we hebben net geleerd hoe je snel weer een pod kunt deployen.</p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6535898"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Opschalen van Pods",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Om de pods op te schalen, vertel kubectl hoeveel huidige replica's er zijn (<strong>huidige replica's</strong>) en hoeveel er moeten worden geschaald (<strong>replica's</strong>).</p>\n<div class=\"code\">kubectl scale --current-replicas=1 --replicas=3 deployment/nginx</div>\n<p>Op de achtergrond worden twee <strong>nieuwe containers gemaakt</strong> en ingezet.</p>\n<p> </p>\n"
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/2/2fb1385d4a9167be47c50a0918ca0dcd86487c54.png",
+                            "altText": "",
+                            "alignment": "center",
+                            "scale": 0.9,
+                            "link": ""
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p><strong>Kijk naar de evenementen</strong></p>\n<div class=\"code\">kubectl get events</div>\n"
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/b/b28e2f6681c4f45e589aae25a9b3c1b7dace54aa.png",
+                            "altText": "",
+                            "alignment": "center",
+                            "scale": 0.9,
+                            "link": ""
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p><strong>Verlaag het aantal pods</strong></p>\n<div class=\"code\">kubectl scale --current-replicas=3 --replicas=1 deployment/nginx</div>\n"
+                        },
+                        {
+                            "type": "image",
+                            "src": "https://maken.wikiwijs.nl/userfiles/2/2c57d584a2de63182118a594c83ce2a93ccc2c2e.png",
+                            "altText": "",
+                            "alignment": "center",
+                            "scale": 0.9,
+                            "link": ""
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6535931"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Nieuwe node aan het cluster toevoegen",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Voor het toevoegen van een nieuwe node aan het <strong>kubernetes-</strong> cluster zijn <strong>token</strong> en <strong>discovery-token-ca-cert-hash</strong> vereist.</p>\n<p>Maak eerst een token met de <strong>kubeadm-</strong> opdracht in de kube-master setup:</p>\n<div class=\"code\">kubeadm token create</div>\n<p>discovery-token-ca-cert-hash:</p>\n<div class=\"code\">openssl x509 -pubkey -in /etc/kubernetes/pki/ca.crt | openssl rsa -pubin -outform der 2&gt;/dev/null | openssl dgst -sha256 -hex | sed 's/^.* //'</div>\n<p>De output discovery-token-ca-cert-hash-waarde.</p>\n<p>Zodra het token is gemaakt, voeg je zich bij de nieuwe node <strong>k8s-worker3</strong> met behulp van de <strong>token</strong> en <strong>tokencacert-</strong> waarde. Voer onderstaande opdracht uit op de nieuwe node.</p>\n<div class=\"code\">kubeadm join 192.168.182.130:6443 --token {jouw token} --discovery-token-ca-cert-hash sha256:{jouw hash waarde}</div>\n<p>Schaal nu nog eens de nginx-applicatie en zie op welke node het draait.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": null,
+            "dimension": null,
+            "suppressTitle": null
+        },
+        "color": "#333333"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Les 0: Basisconfiguratie Ubuntu-server",
+                "reference": {
+                    "value": "6505307"
+                },
+                "sections": []
+            },
+            {
+                "title": "Les 1: Docker",
+                "reference": {
+                    "value": "6505309"
+                },
+                "sections": [
+                    {
+                        "title": "Docker installeren",
+                        "reference": {
+                            "value": "6572354"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Docker uitvoeren zonder sudo",
+                        "reference": {
+                            "value": "6572372"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Het docker commando gebruiken",
+                        "reference": {
+                            "value": "6572423"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Werken met Docker-images",
+                        "reference": {
+                            "value": "6572437"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Een Docker-container uitvoeren",
+                        "reference": {
+                            "value": "6572456"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Docker-containers beheren",
+                        "reference": {
+                            "value": "6572547"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Opdracht Docker",
+                        "reference": {
+                            "value": "6572565"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Les 2: Containers",
+                "reference": {
+                    "value": "6505310"
+                },
+                "sections": [
+                    {
+                        "title": "Docker-container maken met Dockerfile",
+                        "reference": {
+                            "value": "6572776"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Data uitwisseling tussen Host & Container",
+                        "reference": {
+                            "value": "6572739"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Les 3: Apache container",
+                "reference": {
+                    "value": "6505313"
+                },
+                "sections": [
+                    {
+                        "title": "Apache image maken",
+                        "reference": {
+                            "value": "6698532"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Apache standaard image",
+                        "reference": {
+                            "value": "6698564"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Docker opdrachten",
+                        "reference": {
+                            "value": "6698573"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Opdracht",
+                        "reference": {
+                            "value": "6698585"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Les 4: MariaDB container",
+                "reference": {
+                    "value": "6505314"
+                },
+                "sections": [
+                    {
+                        "title": "Docker opdrachten",
+                        "reference": {
+                            "value": "6711649"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "MariaDB-container",
+                        "reference": {
+                            "value": "6711651"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Database maken",
+                        "reference": {
+                            "value": "6711657"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Externe toegang container",
+                        "reference": {
+                            "value": "6711662"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Opruimen",
+                        "reference": {
+                            "value": "6711695"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Opdracht",
+                        "reference": {
+                            "value": "6711665"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Les 5: PHP container",
+                "reference": {
+                    "value": "6711829"
+                },
+                "sections": [
+                    {
+                        "title": "PHP container",
+                        "reference": {
+                            "value": "6711831"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "PHP verbinden met MariaDB container",
+                        "reference": {
+                            "value": "6711880"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Docker opdrachten",
+                        "reference": {
+                            "value": "6711888"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Opdracht",
+                        "reference": {
+                            "value": "6711890"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Les 6: OpenVPN container",
+                "reference": {
+                    "value": "6505318"
+                },
+                "sections": [
+                    {
+                        "title": "Docker opdrachten",
+                        "reference": {
+                            "value": "6730212"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Volume aanmaken",
+                        "reference": {
+                            "value": "6730214"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Starten OpenVPN-container",
+                        "reference": {
+                            "value": "6730216"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Verbinding maken met je VPN-server",
+                        "reference": {
+                            "value": "6730218"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Opdracht",
+                        "reference": {
+                            "value": "6730220"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Les 7: SVN container",
+                "reference": {
+                    "value": "6505319"
+                },
+                "sections": []
+            },
+            {
+                "title": "Les 8: Docker networking",
+                "reference": {
+                    "value": "6505320"
+                },
+                "sections": [
+                    {
+                        "title": "Docker macvlan bridge",
+                        "reference": {
+                            "value": "6573362"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Les 11: Kubernetes",
+                "reference": {
+                    "value": "6530404"
+                },
+                "sections": []
+            },
+            {
+                "title": "Les 12: Kubernetes servers",
+                "reference": {
+                    "value": "6530405"
+                },
+                "sections": [
+                    {
+                        "title": "Kubernetes installatie",
+                        "reference": {
+                            "value": "6530427"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Kubeadm",
+                        "reference": {
+                            "value": "6530499"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Kubeadm installeren op de master-node",
+                        "reference": {
+                            "value": "6530496"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Toevoegen van worker-nodes",
+                        "reference": {
+                            "value": "6530523"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Testen van je k8s-cluster",
+                        "reference": {
+                            "value": "6530529"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Uitvoeren van een container",
+                        "reference": {
+                            "value": "6530538"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Kubernetes-dashboard",
+                        "reference": {
+                            "value": "6530577"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Het Kubernetes-dashboard gebruiken",
+                        "reference": {
+                            "value": "6530635"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Opdracht Kubernetes installatie",
+                        "reference": {
+                            "value": "6530686"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Les 13: Kubernetes recap",
+                "reference": {
+                    "value": "6535449"
+                },
+                "sections": [
+                    {
+                        "title": "Kubectl",
+                        "reference": {
+                            "value": "6535460"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Kubernetes API Resources",
+                        "reference": {
+                            "value": "6535487"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Lichte Kubernetes flow",
+                        "reference": {
+                            "value": "6535692"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Opschalen van Pods",
+                        "reference": {
+                            "value": "6535898"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Nieuwe node aan het cluster toevoegen",
+                        "reference": {
+                            "value": "6535931"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": null,
+        "imageSrc": null,
+        "sources": [
+            {
+                "type": "link",
+                "title": "Offici\u00eble Apache image",
+                "origin": "Offici\u00eble Apache image",
+                "customOrigin": null,
+                "link": "https://hub.docker.com/_/httpd",
+                "visible": true
+            },
+            {
+                "type": "link",
+                "title": "Docker run opties",
+                "origin": "Docker run opties",
+                "customOrigin": null,
+                "link": "https://docs.docker.com/engine/reference/commandline/run/",
+                "visible": true
+            }
+        ],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            },
+            {
+                "key": "learningTime",
+                "label": "Studiebelasting",
+                "terms": [
+                    "4 uur en 0 minuten"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

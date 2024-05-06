@@ -1,0 +1,326 @@
+{
+    "documentAuthors": [
+        "Kennisnet LleG"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Kennisnet LleG",
+            "referenceName": null,
+            "reference": {
+                "value": "10380"
+            },
+            "firstName": "Kennisnet",
+            "infix": null,
+            "lastName": "LleG",
+            "emailAddress": "l.legrand@kennisnet.nl",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2020-02-27T14:50:19Z",
+    "bulkId": "bulk-17041658-refresh_all",
+    "identifier": 157511,
+    "title": "20200227 test Vesna Linda",
+    "description": "dit is de toelichting",
+    "lastModifiedDate": "2020-02-27T14:50:19+01:00",
+    "dateCreated": "2020-02-27T14:18:13+01:00",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "LleG, Kennisnet",
+                "reference": {
+                    "value": "10380"
+                },
+                "firstName": "Kennisnet",
+                "infix": null,
+                "lastName": "LleG",
+                "emailAddress": "l.legrand@kennisnet.nl",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-40",
+            "name": "CC Naamsvermelding 4.0 Internationale licentie",
+            "description": "De Internationale Creative Commons 4.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/4.0/.",
+            "link": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/157511/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "5833253"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Inleiding",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Welkom</p>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "5833257"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Wat weet je al?",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "5833258"
+                    },
+                    "assessmentItem": {
+                        "identifier": "5833258",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "choiceInteraction",
+                                "label": "De kip of het ei?",
+                                "prompt": {
+                                    "body": "<p>Klik het juiste antwoord aan</p>\n<p>Een kip legt een: </p>"
+                                },
+                                "shuffle": false,
+                                "maxChoices": 2,
+                                "minChoices": 1,
+                                "orientation": "vertical",
+                                "choices": [
+                                    {
+                                        "identifier": "0",
+                                        "content": {
+                                            "body": "ei"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "0",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    },
+                                    {
+                                        "identifier": "1",
+                                        "content": {
+                                            "body": "konijn"
+                                        },
+                                        "feedback": {
+                                            "outcomeIdentifier": "FEEDBACK",
+                                            "identifier": "1",
+                                            "showHide": true,
+                                            "title": null,
+                                            "content": null
+                                        }
+                                    }
+                                ],
+                                "responseIdentifier": "5833258_1",
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "5833258_1",
+                                "cardinality": "ordered",
+                                "baseType": "identifier",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 0,
+                                    "default": 0,
+                                    "mapEntries": [
+                                        {
+                                            "key": "0",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        },
+                                        {
+                                            "key": "1",
+                                            "value": "0",
+                                            "caseSensitive": false
+                                        }
+                                    ]
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": false,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": true,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK_THRESHOLD",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_CORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "RESPONSE_INCORRECT",
+                                "cardinality": "single",
+                                "baseType": "boolean",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": null
+                    }
+                }
+            ],
+            "sections": []
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [
+                {
+                    "content": ""
+                },
+                {
+                    "content": "<span style=\"color:#F0F8FF;\">20200227 test Vesna Linda</span>"
+                }
+            ],
+            "backgroundImageUrl": "https://maken.wikiwijs.nl/generated/l1200x76_36385f70e711ace74363d977cb9c9ba7b9f46255.jpg",
+            "dimension": null,
+            "suppressTitle": true
+        },
+        "color": "#333333"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Inleiding",
+                "reference": {
+                    "value": "5833253"
+                },
+                "sections": []
+            },
+            {
+                "title": "Wat weet je al?",
+                "reference": {
+                    "value": "5833257"
+                },
+                "sections": []
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": null,
+        "imageSrc": null,
+        "sources": [],
+        "metadata": [
+            {
+                "key": "educationalLevels",
+                "label": "Leerniveaus",
+                "terms": {
+                    "05d90293-e675-44f4-bcd7-1f67161f6734": "VMBO gemengde leerweg, 2",
+                    "12e85a55-b3ae-4e7f-a2a0-d645f4c573bf": "VMBO kaderberoepsgerichte leerweg, 1",
+                    "17da6976-2f1b-4214-a471-168f469d7e04": "VWO 2",
+                    "30ce6ff5-d654-4a97-a6d4-9c8936f87ca6": "VMBO kaderberoepsgerichte leerweg, 2",
+                    "50746437-08f3-4559-8af3-3fa6e05d1a44": "VMBO basisberoepsgerichte leerweg, 1",
+                    "54edd410-2315-4eb3-a573-0e1cd59184fd": "VMBO theoretische leerweg, 1",
+                    "78f5cabe-6649-4dc3-84bf-36d82c6c2d31": "HAVO 1",
+                    "8ae2af2d-890e-49d6-95cb-3619acb5c2cf": "VMBO gemengde leerweg, 1",
+                    "90a5a228-e8de-473d-84cc-a915bf6107dd": "VMBO theoretische leerweg, 2",
+                    "9716fc83-479c-48da-be13-2fdd74e3b692": "VMBO basisberoepsgerichte leerweg, 2",
+                    "ac188375-0a1a-4984-ac80-14d04a086a19": "VWO 1",
+                    "af3ecd88-a654-4458-9c5b-1e1f7d09f463": "HAVO 3",
+                    "b924d4ad-65a1-41dc-b704-c7786eb4aec0": "VWO 3",
+                    "eaa0c07f-193e-4be5-8dc6-a00bbfc7a446": "HAVO 2"
+                }
+            },
+            {
+                "key": "disciplines",
+                "label": "Leerinhoud en doelen",
+                "terms": {
+                    "c001f86a-4f8f-4420-bd78-381c615ecedc": "Aardrijkskunde",
+                    "c12c4ceb-7ac9-4e1f-9984-aa6a5003360d": "Ecologische voetafdruk/draagkracht en natuur",
+                    "f4d4e356-d0c1-417e-85dd-9b0353ba673a": "Ecosystemen",
+                    "f719f7e0-ba85-493d-8d78-b0910a38c7d8": "Duurzaamheid"
+                }
+            },
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            },
+            {
+                "key": "learningTime",
+                "label": "Studiebelasting",
+                "terms": [
+                    "4 uur en 0 minuten"
+                ]
+            },
+            {
+                "key": "keywords",
+                "label": "Trefwoorden",
+                "terms": [
+                    "hbovpk"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

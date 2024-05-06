@@ -1,0 +1,1719 @@
+{
+    "documentAuthors": [
+        "Tom\u00e1s Nijman",
+        "Eric Redegeld"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Tom\u00e1s Nijman",
+            "referenceName": null,
+            "reference": {
+                "value": "131481"
+            },
+            "firstName": "Tom\u00e1s",
+            "infix": null,
+            "lastName": "Nijman",
+            "emailAddress": "t.nijman@kennisnet.nl",
+            "type": "author"
+        },
+        {
+            "fullName": "Eric Redegeld",
+            "referenceName": null,
+            "reference": {
+                "value": "137325"
+            },
+            "firstName": "Eric",
+            "infix": null,
+            "lastName": "Redegeld",
+            "emailAddress": "eric.redegeld@fonsvitae.nl",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2022-03-03T11:03:21Z",
+    "bulkId": "bulk-17041658-refresh_all",
+    "identifier": 183691,
+    "title": "USBWebserver-PHP-Havo",
+    "description": "De module over PHP is een vervolg op de module HTML5, CSS3 en JavaScript. Je moet de module over HTML eerst doorgewerkt hebben voordat je kunt beginnen aan de module PHP en MySQL.",
+    "lastModifiedDate": "2022-03-03T11:03:21+01:00",
+    "dateCreated": "2022-01-20T11:40:58+01:00",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "Nijman, Tom\u00e1s",
+                "reference": {
+                    "value": "131481"
+                },
+                "firstName": "Tom\u00e1s",
+                "infix": null,
+                "lastName": "Nijman",
+                "emailAddress": "t.nijman@kennisnet.nl",
+                "type": "author"
+            },
+            {
+                "fullName": null,
+                "referenceName": "Redegeld, Eric",
+                "reference": {
+                    "value": "137325"
+                },
+                "firstName": "Eric",
+                "infix": null,
+                "lastName": "Redegeld",
+                "emailAddress": "eric.redegeld@fonsvitae.nl",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-sa-40",
+            "name": "CC Naamsvermelding-GelijkDelen 4.0 Internationale licentie",
+            "description": "De Internationale Creative Commons 4.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarden: Naamsvermelding en Gelijk Delen, zie http://creativecommons.org/licenses/by-sa/4.0/.",
+            "link": "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/183691/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "6997051"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Inleiding",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "6997053"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Vooraf",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>In de module \"Interactieve websites met PHP en MySQL\" leer je werken met scripts.</p>\n<p>Scripts heb je nodig om webpagina's interactief te maken. Met alleen HTML kunnen geen dynamische webpagina's worden ontworpen. Scripts kunnen in diverse talen geschreven worden. Voorbeelden van scriptingtalen zijn PHP en JavaScript. In deze module behandelen we de scriptingtaal PHP en de koppeling met een Database<br/>\n<br/>\nDe module over PHP is een vervolg op de module HTML5, CSS3 en JavaScript. Je moet de module over HTML eerst doorgewerkt hebben voordat je kunt beginnen aan de module PHP en MySQL. HTML is immers de basis van alle website's </p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6997058"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Leerdoelen",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Na verwerking van deze module:</p>\n<ul>\n<li>kun je uitleggen wat een scriptingtaal is;</li>\n<li>kun je het verschil uitleggen tussen een client-side en een server-side scriptingtaal;</li>\n<li>kun je de basis van PHP toepassen;</li>\n<li>kun je uitleggen wat de functie is van echo;</li>\n<li>weet je hoe je PHP-code van commentaar kan voorzien;</li>\n<li>weet je hoe variabelen worden gebruikt in PHP;</li>\n<li>kun je werken met functies en arrays;</li>\n<li>kun je diverse soorten formulieren gebruiken;</li>\n<li>weet je het verschil tussen get en post;</li>\n<li>kun je gegevens uit een database op het scherm tonen;</li>\n<li>kun je een database opzetten en bijhouden met phpMyAdmin;</li>\n<li>kun je gegevens via scripts met PHP en MySQL in tabellen invoeren, updaten en verwijderen;</li>\n<li>kun je een bestaande database importeren met phpMyAdmin;</li>\n<li>weet je wat sessies zijn en waarvoor sessies worden gebruikt;</li>\n<li>kun je een formulier maken waarmee kan worden ingelogd;</li>\n<li>kun je eenvoudige webapplicaties maken.</li>\n</ul>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6997060"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Bijlage",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Wij zullen gebruik maken van USBwebserver.<br/>\nUSBwebserver kan je downloaden vanuit teams voor thuis, en op school kun je bij de les de usb-stick gebruiken. Deze versie is geschikt en getest op de schoollocatie.</p>\n<p>Voor deze lessen zitten we op versie v8.2 die direct vanuit de windows verkenner OneDrive is te starten.</p>\n<p> </p>\n<p>Bij deze module horen de volgende bestanden:</p>\n<ul>\n<li>broncode_javascript.html</li>\n<li>broncode_php.php</li>\n<li>template.html</li>\n<li>formulier.html</li>\n<li>naw.php</li>\n<li>buurtvereniging.sql</li>\n</ul>\n<p><a href=\"https://maken.wikiwijs.nl/userfiles/5/5aed27812cc6bcb849caccf007cfefb4930bcc13.zip\">bestanden module PHP en MYSQL</a></p>\n<p>(Deze hebben we later nodig!)</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6997066"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Opdracht 1",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p class=\"text-align-center\"><strong>DIT IS EEN EENMALIGE ACTIE!!!</strong></p>\n<p class=\"text-align-center\"> </p>\n<p>Start de school computer op, zorg dat je <strong>OneDrive voor school</strong> actief zichtbaar is in de Windows verkenner.</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/d/d3a688c96dc9c7d7a17db7855120546e85785b50.png\" class=\"height-327-pixels width-604-pixels\"/></p>\n<p>Download vanuit Teams de software USBWebserver</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/9/9b0ecf5540adcc71477161413de6fe85ccb773af.png\" class=\"height-313-pixels width-985-pixels\"/></p>\n<p>Deze vind je dan in de Windows verkenner terug onder de map \"downloads\". </p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/b/b9cd1153a47d39395870743bef9b8771b84de8bd.png\" class=\"height-273-pixels width-965-pixels\"/></p>\n<p>Sleep dit bestand naar je School Onedrive, klik dan daar met je rechtermuis knop op en kies dan voor \"hier uitpakken\"</p>\n<p>Je moet dan onderstaand beeld hebben </p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/a/a1f0f0d777b8936eed5b85cb939fc241699ac9df.png\" class=\"height-332-pixels width-612-pixels\"/></p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6997119"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Aan de slag",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Je bent begonnen in de module <strong>PHP en MySQL</strong>. Deze module bestaat uit meerdere onderdelen. In ieder onderdeel vind je, verdeeld over verschillende pagina's, informatie in de vorm van teksten, afbeeldingen en video's.</p>\n<p>je krijgt naast een uitleg ook aantal opdrachten, deze lever je dan in via Teams Opdrachten.</p>\n<p>succes</p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "6997944"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Scripts",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "6997945"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Java versus PHP script",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>PHP is net als JavaScript een scriptingtaal. Scripts maken een webpagina interactief. De manier waarop scripts worden uitgevoerd verschilt. Of in de browser van je computer of op een server.<br/>\n<br/>\nVoor het schrijven van scripts die worden uitgevoerd in een browser gebruik je een client-side scriptingtaal, bijvoorbeeld JavaScript. Scripts die worden uitgevoerd op een server worden geschreven in server-side scriptingtalen, bijvoorbeeld PHP.<br/>\n<br/>\nWanneer een HTML-pagina wordt opgevraagd, zal de server waar de webpagina gehost wordt de gevraagde pagina direct doorsturen naar de client. Dit is de computer die gebruikt wordt om de webpagina te bekijken.<br/>\n<br/>\nStel dat in deze HTML-pagina een JavaScript-code is opgenomen, dan vindt de verwerking van het script in de browser van de client plaats en dus niet op de server waar de website wordt gehost. Het script wordt op je eigen computer uitgevoerd.</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/d/de17ea7d233b42027e1dd714d5923f04ff4da138.png\" class=\"height-194-pixels width-598-pixels\"/></p>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>In een HTML-pagina waar PHP in verwerkt is, zal de server de opgevraagde pagina eerst moeten parsen. Het programma dat daarvoor gebruikt wordt, heet de parser. De parser converteert de ingevoerde code naar begrijpelijke structuur voor het programma. Pas als het script geparst is, stuurt de server de opgevraagde pagina naar de client toe.</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/50b3165fcf8a6b8a4d2ad290c73e3c6f.jpg\" class=\"height-316-pixels width-598-pixels\"/></p>\n<p>Het verschil in hoe een client-side script en een server-side script wordt verwerkt, wordt duidelijk als de broncode van een opgevraagde pagina wordt bekeken.<br/>\n<br/>\nIn een HTML-document waarin JavaScript is verwerkt, krijg je na het opvragen van de broncode van het document het volledige script te zien.<br/>\nIn een HTML-document waarin PHP is opgenomen, zie je in de broncode slechts de uitvoer van het script en dus niet het volledige script zelf. Dat is ook logisch als je bedenkt dat de verwerking van het script op serverniveau plaatsvindt.</p>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Als je goed hebt opgelet, heb je gezien dat de PHP pagina's die door de server worden opgebouwd een extensie .php hebben. Let op dat al jou pagina's waarin je PHP gebruik deze extensie hebben.</p>\n<p>Wanneer je de .html extensie gebruik zal PHP code niet worden uitgevoerd en letterlijk als tekst worden teruggegeven aan de client.</p>\n<p>Een html bestand kan je ook lokaal gewoon openen.</p>\n<p> </p>\n<p>Een PHP bestand moet altijd uitgevoerd worden via een programma(USBWebserver) om te kunnen bekijken.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6997961"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "PHP-editor",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Voor het verwerken van PHP-scripts hebben we een server nodig. <img alt=\"\" src=\"https://maken.wikiwijs.nl/Voor%20het%20verwerken%20van%20PHP-scripts%20hebben%20we%20een%20server%20nodig.%20Wij%20maken%20hiervoor%20gebruik%20van%20USBwebserver.%20Alle%20bestanden%20die%20je%20wilt%20uitvoeren%20kom%20in%20de%20'root'%C2%A0%20folder%20te%20staan%20van%20je%20USBwebserver.%20Stap%201%20Start%20USBwebserver%20op%20Stap%202%20Ga%20naar%20http://localhost%20USBwebserver%20zal%20nu%20kijken%20of%20een%20bestand%20index.php%20in%20de%20root%20folder%20staat.%20Indien%20dit%20bestand%20aanwezig%20is%20zal%20dit%20worden%20uitgevoerd.%20Wanneer%20dit%20bestand%20niet%20bestaat%20krijg%20je%20een%20lijst%20te%20zien%20van%20alle%20bestanden%20die%20in%20de%20root%20folder%20staan.%20Dit%20is%20vaak%20prettig%20want%20dan%20kan%20je%20er%20eentje%20aan%20klikken%20die%20jij%20graag%20wilt%20uitvoeren.%20Dus%20tip%20verwijder%20index.php%20(indien%20aanwezig)%20Voor%20het%20schrijven%20van%20je%20PHP-code%20kan%20je%20gebruik%20maken%20van%20diverse%20editors.%20Bijvoorbeeld:%20-%20Kladblok%20/%20Notepad%20-%20Notepad++%20-%20VSCode%20-%20PHPStorm%20Het%20gebruik%20van%20een%20bepaalde%20editor%20is%20een%20kwestie%20van%20smaak.%20VSCode%20en%20PHPStorm%20maken%20het%20leven%20wel%20een%20heel%20stuk%20makkelijker.%20Let%20op%20als%20je%20voor%20PHPStorm%20kiest%20moet%20je,%20je%20met%20je%20school%20emailadres%20registeren.%20Voor%20studenten%20is%20het%20namelijk%20een%20gratis%20programma.\"/>Wij maken hiervoor gebruik van USBwebserver.</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/50b3165fcf8a6b8a4d2ad290c73e3c6f.jpg\" class=\"height-336-pixels width-220-pixels\"/></p>\n<p>Alle bestanden die je wilt uitvoeren kom in de 'root'  folder te staan van je USBwebserver.</p>\n<p><strong>Stap 1</strong></p>\n<p>Start USBwebserver op</p>\n<p><strong>Stap 2</strong></p>\n<p>Ga naar http://localhost<br/>\nUSBwebserver zal nu kijken of een bestand index.php in de root folder staat. Indien dit bestand aanwezig is zal dit worden uitgevoerd.<br/>\nWanneer dit bestand niet bestaat krijg je een lijst te zien van alle bestanden die in de root folder staan. Dit is vaak prettig want dan kan je er eentje aan klikken die jij graag wilt uitvoeren. Dus tip verwijder index.php (indien aanwezig)</p>\n<p>Voor het schrijven van je PHP-code kan je gebruik maken van diverse editors. Bijvoorbeeld:</p>\n<p>- Kladblok / Notepad</p>\n<p>- Notepad++</p>\n<p>Het gebruik van een bepaalde editor is een kwestie van smaak. Notepad++ maakt het leven wel een heel stuk makkelijker. Deze staat al op de schoolcomputers geinstalleerd</p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "6998159"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "PHP - basiskennis",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "6998161"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Voorbeeld",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Na de eerste kennismaking met PHP wordt het tijd om wat uitgebreider naar een voorbeeld van een PHP-script te kijken. In Notepad++ hebben we de code van een PHP-bestand geopend:</p>\n<p> </p>\n<p>&lt;!DOCTYPE html&gt;<br/>\n&lt;html lang=\"nl\"&gt;<br/>\n     &lt;head&gt;<br/>\n           &lt;title&gt;Een eenvoudig voorbeeld van een PHP-script&lt;/title&gt;<br/>\n           &lt;meta charset=\"utf-8\"&gt;<br/>\n     &lt;/head&gt;<br/>\n     &lt;body&gt;<br/>\n           <span style=\"color:#FF0000;\">&lt;?php</span><br/>\n                echo \"mijn website via PHP\";<br/>\n           <span style=\"color:#FF0000;\">?&gt;</span><br/>\n     &lt;/body&gt;<br/>\n&lt;/html&gt;</p>\n<p> </p>\n<p>De PHP-code begint met de tag <strong>&lt;?php</strong> en eindigt met de tag <strong>?&gt;</strong>.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6998981"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Voorbeeld-2",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Een bestand dat PHP-code bevat, moet altijd worden opgeslagen onder de extensie<img alt=\"\" src=\"https://maken.wikiwijs.nl/bestanden/730497/PHP_VOORBEELD_3.png\" class=\"height-336-pixels width-220-pixels float-right\"/></p>\n<p>eennaam.php</p>\n<p>Doe je dat niet, dan kan de server de PHP-code in het document niet parsen.<br/>\nDe meer betere editors zullen bestanden met een extensie .php voorzien van kleurtjes zodat de code beter leesbaar wordt en fouten sneller kunnen worden opgespoort.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6998983"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Voorbeeld-3",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/50b3165fcf8a6b8a4d2ad290c73e3c6f.jpg\" class=\"float-right\"/></p>\n<p>Een opdracht in PHP wordt ook wel een statement genoemd. Statements worden telkens afgesloten met een puntkomma. In ons eerste voorbeeld wordt het statement echo gebruikt. Door deze opdracht wordt de tekst <span style=\"color:#FF0000;\">\"Hallo Wereld\"</span> aan onze webpagina toegevoegd. Zoals je hebt kunnen merken, wordt alleen de tekst tussen de aanhalingstekens op het scherm getoond. De aanhalingstekens zelf krijg je niet te zien.<br/>\nHet is toegestaan om binnen deze aanhalingstekens ook HTML-tags te gebruiken. Zo is het mogelijk om met de tag &lt;br&gt; binnen het echo-statement een harde return af te dwingen. In sommige HTML-tags moet je gebruik maken van dubbele aanhalingstekens. Binnen een echo-statement veroorzaken deze extra aanhalingstekens problemen.<br/>\n<br/>\nHet PHP-script wordt wel uitgevoerd als er voor deze extra aanhalingstekens een backslash wordt geplaatst. We noemen dat escapen. Als we in de zin <strong>\"Het Griekse woord Enigma betekent raadsel.\"</strong> het woordje Enigma de kleur <span style=\"color:#0000FF;\">blauw</span> geven, ontkomen we er niet aan om in de HTML-tag die we daarvoor gebruiken te escapen. Dat is terug te zien in de onderstaande code:</p>\n<p><span>&lt;?php<br/>\n   echo \"Het Griekse woord &lt;span style=\\\"color:blue;\\\"&gt; Enigma &lt;/span&gt; betekent raadsel.\";<br/>\n?&gt;</span></p>\n<p>Een andere oplossing is het gebruik van enkele quotes in de string. Zie voorbeeld hieronder.</p>\n<p><span>&lt;?php<br/>\n   echo \"Het Griekse woord &lt;span style='color:blue;'&gt; Enigma &lt;/span&gt; betekent raadsel.\";<br/>\n?&gt;</span></p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6998985"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Opdracht 2",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Zorg dat je USBWebserver hebt opgestart<a href=\"https://maken.wikiwijs.nl/?id=15&amp;arrangement=183691#!page-6997066\"><strong>(opdracht1)</strong></a></p>\n<p>Open het programma notepad++ en sla het lege document vast op onder de naam </p>\n<p>opdracht2.php</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/d/df0350c47b5cdd83de85c9b90184203576ef2c26.png\" class=\"height-413-pixels width-541-pixels\"/></p>\n<p> </p>\n<p class=\"text-align-center\"><strong>NEEM NU EXACT ONDERSTAAND CODE OVER</strong></p>\n<p><strong><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/1a0e36c73d45aae1aaae5c386e36714454bebd73.png\" class=\"height-403-pixels width-1350-pixels\"/></strong></p>\n<p>Sla deze op, en open deze door te gaan naar localhost, en dan erachter opdracht2.php te typen</p>\n<p><a href=\"http://localhost:8080/opdracht2.php\">http://localhost:8080/opdracht2.php</a> of <a href=\"http://localhost:8080/opdracht2.php\">http://localhost/opdracht2.php</a></p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/e/eb04bfcc38df486879798a82ca0b5f80a08c7342.png\" class=\"height-149-pixels width-362-pixels\"/></p>\n<p><strong>Deze opdracht2 kun je dan inleveren via Teams</strong></p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6999617"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Commentaar",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>PHP-code kun je op meerdere manieren van commentaar voorzien:</p>\n<ol start=\"1\">\n<li>// \u00e9\u00e9n regel commentaar voorafgegaan door een dubbele slash.</li>\n<li># \u00e9\u00e9n regel commentaar voorafgegaan door een hekje.</li>\n<li>/* meerregelig commentaar wordt omsloten door slash-asterisk<br/>\n\u2026\u2026\u2026.<br/>\n*/ asterisk-slash</li>\n</ol>\n<p>Door het toevoegen van commentaar vergroot je het inzicht in de werking van de geschreven PHP-code. Dat kan handig zijn voor jezelf als je later nog eens terugkijkt naar wat je gedaan hebt. Maar het is ook handig als je met meerdere mensen aan dezelfde documenten werkt.</p>\n<p> </p>\n<p>Bekijk onderstaand video(indien in de klas dan via docent en digibord) Daarin wordt nog even de opties van <strong>\"echo\"</strong> herhaald met mooie voorbeelden.</p>\n<p><strong><span style=\"color:#FF0000;\">Gebruik bij de volgende opdrachten dan ook steeds de Commentaar regels van wat je doen, of code dient te doen.</span></strong></p>\n<p> </p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6999038"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Echo",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "video",
+                            "url": "https://youtu.be/Dah8hmLqyqM",
+                            "align": "left",
+                            "caption": "echo voorbeelden",
+                            "poster": "https://img.youtube.com/vi/Dah8hmLqyqM/maxresdefault.jpg"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "6999621"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Opdracht 3",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Maak een bestand in de ROOT folder genaamd <strong>commentaar.php ,</strong> typ onderstaand code over en voorzie deze met Commentaar regels.</p>\n<p>Zet per echo regel een commentaar regel neer met lort uitleg wat de werking van de code is.</p>\n<p> </p>\n<p>&lt;!DOCTYPE html&gt;<br/>\n&lt;html lang=\"en\"&gt;<br/>\n&lt;head&gt;<br/>\n&lt;title&gt;USBWebserver!!!!&lt;/title&gt;<br/>\n&lt;/head&gt;<br/>\n&lt;body&gt;<br/>\n&lt;?php<br/>\necho 'One line simple string.&lt;br /&gt;';<br/>\necho \"Het Griekse woord &lt;span style=\\\"color:blue;\\\"&gt; Enigma &lt;/span&gt; betekent raadsel.&lt;br /&gt;\";<br/>\necho \"Het Griekse woord &lt;span style=\\\"color:red;\\\"&gt; Enigma &lt;/span&gt; betekent raadsel.&lt;br /&gt;\";<br/>\necho 'Het Griekse woord &lt;span style=\\'color:blue;\\'&gt; Enigma &lt;/span&gt; betekent raadsel.&lt;br /&gt;';<br/>\necho 'Het Griekse woord &lt;span style=\\'color:red;\\'&gt; Enigma &lt;/span&gt; betekent raadsel.';<br/>\n?&gt;</p>\n<p>&lt;/body&gt;<br/>\n&lt;/html&gt;</p>\n<p> </p>\n<p>Sla deze op, en test deze uit.(tip in de browser kun je de met rechtermuis knop bronweergeven, dan kun je de code terug zien)</p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7000410"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Opdracht 3.1",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Maak met drie &lt;hr&gt; tags <em>en</em> de <strong>echo \" *** \"</strong> statement het volgende figuur:</p>\n<p>De nederlandse flag</p>\n<p> </p>\n<p><strong>TIP</strong>: Het rode streepje maak je met de code:</p>\n<p>&lt;hr size='30px' color='red' width='300px'&gt;</p>\n<p>kijk goed naar vorige voorbeelden van de echo regels!!</p>\n<p>Sla wederom op, en test dit uit.</p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "7000416"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Variabelen in PHP",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "7000448"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Kenmerken",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<h2><br/>\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/bestanden/730505/PHP_KENMERKEN_1.png\" class=\"float-right\"/></h2>\n<p>In de meeste programmeertalen moeten we voordat we gebruik kunnen maken van variabelen eerst vertellen dat er variabelen bestaan en aangeven van welk type deze variabelen zijn. We noemen dat het declareren van variabelen. In PHP hoef je variabelen niet te declareren. Je kunt ze gewoon meteen gebruiken. Dit in tegenstelling tot bijvoorbeeld Java. De code voor een integer met de naam getal waar de waarde 10 aan wordt toegekend, wordt in Java int getal = 10;. In PHP hoef je het type van de variabele niet aan te geven en wordt het <strong>$getal = 10;</strong>.<br/>\n<br/>\nIn PHP beginnen variabelen altijd met het dollarteken (<strong>$</strong>). Het dollarteken moet worden gevolgd door een letter of een underscore. De rest van de naam van een variabele kan bestaan uit letters, cijfers en underscores.<br/>\n<br/>\nVoorbeelden van PHP-variabelen kunnen zijn:</p>\n<ul>\n<li><strong>$i</strong></li>\n<li><strong>$land_id</strong></li>\n<li><strong>$hoofdstad</strong></li>\n<li><strong>$inwoners</strong></li>\n<li><strong>$query</strong></li>\n</ul>\n<p>PHP-variabelen zijn hoofdlettergevoelig. <strong>$land_ID</strong> is een andere variabele dan <strong>$land_id</strong>. In PHP worden aan variabelen waarden toegekend. Het toekennen van een startwaarde aan een variabele noemen we initialiseren. Voor het toekennen van een waarde wordt het is-teken (=) gebruikt. De toekenning wordt afgesloten, net zoals alle statements, met een puntkomma (;).<br/>\n<br/>\nVoorbeelden van toekenningen aan variabelen kunnen zijn:</p>\n<ul>\n<li><strong>$i = 0;</strong></li>\n<li><strong>$land_id = 3;</strong></li>\n<li><strong>$hoofdstad = \"Athene\";</strong></li>\n<li><strong>$inwoners = 10700000;</strong></li>\n<li><strong>$query = \"SELECT * FROM landen\";</strong></li>\n</ul>\n<p>Zoals je ziet, is het niet nodig om aan te geven van welke type een variabele is. Uit de naam van de variabele is niet op te maken of we te maken hebben met een string (<strong>$hoofdstad</strong>) of met een integer (<strong>$inwoners</strong>). PHP zoekt zelf uit om wat voor soort variabele het in het script gaat.</p>\n<p>Met het echo-statement kunnen de diverse waarden van variabelen op het scherm worden getoond. De opdracht echo \"De hoofdstad van Griekenland is <strong>$hoofdstad</strong>.\"; levert als resultaat op: De hoofdstad van Griekenland is Athene. Uiteraard moet er dan wel een variabele met de naam <strong>$hoofdstad</strong> bestaan waaraan de waarde Athene is toegekend.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7000420"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Opdracht 4",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Maak een bestand \"hoofdstad.php\" en plaats deze in je root folder.</p>\n<p>Bovenaan in je bestand begin je met &lt;?php omdat we in dit bestand geen HTML gaan gebruiken en alleen PHP code hoeft het bestand niet afgesloten te worden met ?&gt; (mag wel)</p>\n<p>Maak een variabele aan <strong>$hoofdstad</strong> met de waarde \"<strong>Amsterdam</strong>\"</p>\n<p>In de regel daaronder doe je een echo van de variabele.</p>\n<h6><em>*Tip, bekijk de vorige uitleg en voorbeeld code*</em></h6>\n<p> </p>\n<p>Na het uitvoeren van http://localhost/hoofdstad.php zou je op je scherm Amsterdam moeten zien staan.</p>\n<p>Tip. Denk aan het afsluiten van elke regel met een <strong>;</strong></p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7000438"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Concatenatie",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<hr/>\n<p> </p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/bestanden/730509/PHP_CONCATENATIE_1.png\" class=\"float-right\"/></p>\n<p>In het echo-statement zien we tussen de functie en de tag een punt staan. Deze punt dient ervoor om gegevens aan elkaar te plakken. We noemen dat concatenatie. We kunnen verschillende strings aan elkaar plakken, maar ook variabelen en spaties zoals in onderstaand script is te zien.<br/>\n<br/>\n   &lt;?php<br/>\n             $dag =1 ;<br/>\n             $maand = \"januari\";<br/>\n             $gebeurtenis = \"nieuwjaarsdag\";<br/>\n             echo $dag . \" \" . $maand . \"is\" . $gebeurtenis;<br/>\n   ?&gt;</p>\n<p> </p>\n<p> </p>\n<p> </p>\n<p> </p>\n<p>Het resultaat van dit stukje code is dat de zin \"1 januari is nieuwsjaardag\" naar het scherm wordt geschreven:</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/bestanden/730510/PHP_CONCATENATIE_1_1.png\"/></p>\n<hr/>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/bestanden/730511/PHP_CONCATENATIE_2.png\" class=\"float-right\"/></p>\n<p>De dubbele aanhalingstekens worden niet weergegeven. Met het commando echo wordt alles wat tussen de dubbele aanhalingstekens staat als letterlijke tekst naar het scherm weggeschreven. De namen van de variabelen staan niet tussen dubbele aanhalingstekens. Doen we dat wel dan worden alsnog de waarden van de verschillende variabelen getoond. Willen we dat de variabelen als letterlijke tekst wordt afgebeeld, dan plaatsen we de namen van de variabelen tussen enkele aanhalingstekens.</p>\n<p> </p>\n<p> </p>\n<p> </p>\n<p> </p>\n<p> </p>\n<p>De bijbehorende code en het resultaat worden dan:<br/>\n<br/>\n   &lt;?php<br/>\n             $dag =1 ;<br/>\n             $maand = \"januari\";<br/>\n             $gebeurtenis = \"nieuwjaarsdag\";<br/>\n             echo '$dag' . \" \" . '$maand' . \"is\" . '$gebeurtenis;'<br/>\n   ?&gt;</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/bestanden/730512/PHP_CONCATENATIE_2_1.png\"/></p>\n<p> </p>\n<p>snel online testen kan hier</p>\n<p><a href=\"https://replit.com/team/2122-h5in7a/Opdracht-2\">replit.com</a></p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7000467"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Concatenatie-2",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/bestanden/730513/PHP_CONCATENATIE_3.png\" class=\"float-right\"/></p>\n<p>Binnen het echo-statement kunnen we te maken krijgen met het zogenaamd escapen. Bij het escapen van tekens wordt er een backslash (\\) geplaatst voor een teken. Daardoor krijgt dit teken een bijzondere betekenis. Voorbeelden hiervan zijn:<br/>\n<br/>\n  \\n - nieuwe regel<br/>\n  \\$ het dollarteken<br/>\n  \\\" het dubbele aanhalingsteken<br/>\n<br/>\nIn de zin \"Het twee minuten durende reclamefilmpje voor <strong>\"Chanel 5\"</strong> heeft ongeveer $61.000.000 gekost\" is escapen onontkoombaar wanneer je deze zin door middel van het echo-statement op het scherm wilt laten verschijnen. Het echo-statement wordt:</p>\n<p><br/>\n<br/>\necho \"Het twee minuten durende reclamefilmpje voor <strong>\\\"Chanel\\\"</strong> heeft ongeveer \\$61.000.000 gekost.\";</p>\n<p>Het resultaat na verwerking van het script:</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/bestanden/730514/PHP_CONCATENATIE_3_1.png\"/></p>\n<hr/>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/bestanden/730515/PHP_CONCATENATIE_4.png\" class=\"height-229-pixels width-150-pixels float-right\"/></p>\n<p> </p>\n<p>Zou je in deze zin de backslashes in de echo weglaten, dan zal bij het uitvoeren van het script een foutmelding getoond worden. Door het gebruik van dubbele aanhalingstekens bij het woordje <strong>Chanel 5</strong> geef je eigenlijk aan dat het echo-statement eindigt voor het woordje Chanel 5. En deze ook wordt weergegeven met de dubbel aanhalingstekens. De rest van de zin valt buiten de echo waardoor de PHP-code niet geparst kan worden. Dit voorkom je door gebruik te maken van backslashes.</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/bestanden/730516/PHP_CONCATENATIE_4_1.png\" class=\"height-223-pixels width-543-pixels\"/></p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7021130"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Datatypen",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/bestanden/730517/PHP_DATATYPEN_1.png\" class=\"height-235-pixels width-154-pixels float-right\"/></p>\n<p>PHP ondersteunt verschillende typen variabelen. De belangrijkste datatypen waarmee je bij PHP te maken kunt krijgen zijn :</p>\n<ol start=\"1\">\n<li>integers of gehele getallen;</li>\n<li>doubles of komma getallen (doubles worden ook wel floating point numbers genoemd);</li>\n<li>booleans (true/false of waar/onwaar);</li>\n<li>strings (letters en andere tekens eventueel gecombineerd met cijfers);</li>\n<li>arrays (rijen of reeksen);</li>\n<li>objecten.</li>\n</ol>\n<p>In PHP bestaan functies waarmee gecontroleerd kan worden welk datatype een variabele heeft. We hebben immers gezien dat bij het schrijven van de code voor een variabele niet hoeft te worden aangegeven van welk type een variabele is. Hoe weten we dan of de variabele $getal van het type int is? Daarvoor beschikt PHP over de functie is_int().<br/>\n<br/>\nIn het volgende script wordt gebruik gemaakt van verschillende functies waarmee het type van een variabele kan worden achterhaald:</p>\n<hr/>\n<p> </p>\n<p>&lt;!DOCTYPE html&gt;<br/>\n&lt;html lang=\"nl\"&gt;<br/>\n      &lt;head&gt;<br/>\n             &lt;title&gt;datatypen&lt;/title&gt;<br/>\n             &lt;meta charset=\"utf-8\"&gt;<br/>\n             &lt;?php<br/>\n                        $getal = 12;<br/>\n              ?&gt;<br/>\n      &lt;/head&gt;<br/>\n      &lt;body&gt;<br/>\n             &lt;?php<br/>\n                        echo is_int($getal) . \"&lt;br&gt;\";<br/>\n                        echo is_numeric($getal) . \"&lt;br&gt;\";<br/>\n                        echo is_bool($getal) . \"&lt;br&gt;\";<br/>\n             ?&gt;<br/>\n      &lt;/body&gt;<br/>\n&lt;/html&gt;</p>\n<hr/>\n<p>De uitkomst zal true zijn als het klopt en false als het niet het geval is. Bij true verschijnt op het scherm de waarde 1.<br/>\nBij false zou je een 0 verwachten, maar dat is niet het geval. False krijgt de waarde NULL en dat is letterlijk niets.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7021135"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Opdracht 5",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Neem bovenstaand code over, noem dit bestand datatype.php</p>\n<p>en vermeld in je eigen woorden via commentaar regels in de code uit te leggen waarom je een 1 krijgt te zien als resultaat. </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7021139"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Operatoren",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8ae9adfd9b152509ac97d6ec324aeb23dd84de93.PNG\" class=\"height-128-pixels width-125-pixels float-right\"/>In PHP wordt voor het uitvoeren van bewerkingen op variabelen en hun waarden gebruik gemaakt van operatoren. PHP kent verschillende soorten operatoren. We bespreken er een aantal.<br/>\n<br/>\n<br/>\n<br/>\nVoor het uitvoeren van de berekeningen worden <strong>rekenkundige operatoren</strong> gebruikt.</p>\n<table border=\"1\">\n<tbody>\n<tr>\n<td><strong>Operatie</strong></td>\n<td><strong>Rekenkundige bewerkingen</strong></td>\n</tr>\n<tr>\n<td>  x + y</td>\n<td>  x wordt bij y opgeteld als beide getallen numeriek zijn</td>\n</tr>\n<tr>\n<td>  x - y</td>\n<td>  y wordt van x afgetrokken</td>\n</tr>\n<tr>\n<td>  x * y</td>\n<td>  x wordt vermeningvuldigd met y</td>\n</tr>\n<tr>\n<td>  x / y</td>\n<td>  x wordt gedeeld door y</td>\n</tr>\n<tr>\n<td>  x % y</td>\n<td>  modules van x en y (het getal dat overblijft als je x door y deelt)</td>\n</tr>\n<tr>\n<td>x^y of pow(x,y)</td>\n<td>  x tot de macht y</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<p><strong>Vergelijkingsoperatoren</strong> vergelijken de waarden van twee variabelen en geven een boolean waarde waar (true) of onwaar (false) terug.</p>\n<table border=\"1\">\n<tbody>\n<tr>\n<td><strong>Vergelijking</strong></td>\n<td><strong>Waar als</strong></td>\n</tr>\n<tr>\n<td>  x == y</td>\n<td>  Als x en y qua waarden gelijk aan elkaar zijn</td>\n</tr>\n<tr>\n<td>  x != y</td>\n<td>  als x en y ongelijk aan elkaar zijn</td>\n</tr>\n<tr>\n<td>  x === y</td>\n<td>  x identiek is aan y, zowel qua datatype als waarde</td>\n</tr>\n<tr>\n<td>  x &gt; y</td>\n<td>  x groter is dan y</td>\n</tr>\n<tr>\n<td>  x &lt; y</td>\n<td>  x kleiner is dan y</td>\n</tr>\n<tr>\n<td>  x &gt;= y</td>\n<td>  x groter is dan of gelijk aan y</td>\n</tr>\n<tr>\n<td>  x &lt;= y</td>\n<td>  x kleiner is dan of gelijk aan y</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<p><strong>Logische operatoren</strong></p>\n<table border=\"1\">\n<tbody>\n<tr>\n<td><strong>Operatie</strong></td>\n<td><strong>Waar als</strong></td>\n</tr>\n<tr>\n<td>  x &amp;&amp; y (x AND y)</td>\n<td>  x en y beiden waar zijn</td>\n</tr>\n<tr>\n<td>  x || y  (x OR y)</td>\n<td>  of x of y waar is</td>\n</tr>\n<tr>\n<td>  !x</td>\n<td>  x onwaar is</td>\n</tr>\n</tbody>\n</table>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "7021357"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Controlestructuren",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "7021359"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Inleiding",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/bestanden/730520/PHP_EINLEIDING_1.png\" class=\"height-217-pixels width-142-pixels float-right\"/></p>\n<p>De scripts die we tot nu toe gezien hebben, zijn scripts waarin PHP de statements van boven naar beneden uitvoert.<br/>\nDe volgorde waarin de opdrachten worden afgehandeld, wordt ook wel de flow van het programma genoemd. Soms willen we invloed uitoefenen op het verloop, dus op de flow, van het programma. Daarvoor bestaan net zoals in andere programmeertalen in PHP controlestructuren.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7021362"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "if...else-statement",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>In het volgende script wordt gecontroleerd of getal_1 deelbaar is door getal_2<br/>\n(getal_1 % getal_2 == 0).</p>\n<p>Zo ja dan verschijnt de melding \"$getal_1 is deelbaar door $getal_2\" op het scherm.<br/>\nIndien het niet het geval is, lezen we \"$getal_1 is niet deelbaar door $getal_2\". (indien de operator % wordt gebruikt is het resultaat de rest van de deling van de twee geallen, bv 5%3=2)</p>\n<p><strong>Let op dat je in je if == gebruikt en niet =</strong>, de betekenis is namelijk heel anders.</p>\n<p>Meer info(<a href=\"https://www.php.net/manual/en/language.operators.comparison.php\">https://www.php.net/manual/en/language.operators.comparison.php</a>)</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/e/e24903d79b999c80a08dcdd058cc3683d97b2d28.png\" class=\"height-337-pixels width-628-pixels\"/></p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7021380"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Opdracht 6",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Neem de code over die je hiervoor zag, noem dit bestand dan operator.php</p>\n<p>en maak een screenshot van de uitkomst(die sla je op als operator.jpg</p>\n<p>Natuurlijk test je dit met de USBWebserver aan natuurlijk!!</p>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/bestanden/730523/PHP_IFELSE_2.png\" class=\"float-right\"/></p>\n<p>Ons voorbeeld waarin twee getallen met elkaar worden vergeleken, bevat een enkelvoudig if-statement met een else component. Na de expressie (voorwaarde) volgt ofwel een enkelvoudig statement of een opeenvolging van statements tussen accolades. Elk statement wordt afgesloten met een puntkomma.</p>\n<p> </p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/bestanden/730524/PHP_IFELSE_2_1.png\"/></p>\n<p>Er mag geen puntkomma achter het sluithaakje van de voorwaarde en ook niet na else worden geplaatst. De regels die hier gelden, zijn ook van toepassing op het for-, het while- en het switch-statement.<br/>\n<br/>\nHet gebruik van else is niet verplicht. Er kan ook alleen een if-statement worden gebruikt. Wordt er niet voldaan aan de voorwaarde die wordt gesteld binnen de haakjes, dan gaat PHP verder met het uitvoeren van de eerstvolgende regel na het if-statement.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7021396"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "for-statement",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/bestanden/730525/PHP_FORSTATEMENT_1.png\" class=\"height-253-pixels width-166-pixels float-right\"/></p>\n<p>Een for-statement is altijd opgebouwd uit drie onderdelen. Het eerste onderdeel van het for-statement bestaat uit de initialisatie van een variabele, het tweede onderdeel bestaat uit een voorwaarde en tot slot volgt een stapopdracht. De drie onderdelen worden door puntkomma's van elkaar gescheiden.</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/bestanden/730526/PHP_FORSTATEMENT_1_1.png\"/></p>\n<p>Ter illustratie nemen we een programma dat van 20 terugtelt naar 1 en de resultaten daarvan op het scherm laat zien. De code en de uitvoer van het programma zijn:<br/>\n<br/>\n  &lt;?php<br/>\n         for($i=20;$i&gt;=1;$i--)<br/>\n         echo \"$i&lt;br&gt;\";<br/>\n   ?&gt;<br/>\n<br/>\nHet resultaat is:</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/bestanden/730527/PHP_FORSTATEMENT_1_2.png\"/></p>\n<p>In het for-statement geven we met de eerste opdracht aan dat er een variabele <strong>$i</strong> bestaat. We kennen aan deze variabele de waarde 20 toe. Vervolgens luidt de voorwaarde \"zolang <strong>$i</strong> groter is dan of gelijk is aan 1\".<br/>\nDaarna volgt de stapopdracht. In deze stapopdracht wordt <strong>$i</strong> telkens met 1 verlaagd. Hier had ook kunnen staan <strong>$i = $i - 1;</strong>. De notatie <strong>$i--</strong> betekent dus hetzelfde als <strong>$i = $i - 1</strong>.<br/>\nZolang aan de voorwaarde van het for-statement wordt voldaan, wordt de nieuwe waarde van $i telkens op een nieuwe regel onder de oude waarde van <strong>$i</strong> op het scherm getoond. Dat gebeurt net zolang totdat er niet meer aan de voorwaarde van het for-statement wordt voldaan. We hebben hier te maken met een herhalingslus. Als telkens dezelfde code continue achter elkaar wordt uitgevoerd, spreken we ook wel van een loop.</p>\n<p> </p>\n"
+                        },
+                        {
+                            "type": "video",
+                            "url": "https://youtu.be/OY5EP9G0AYc?t=284",
+                            "align": "left",
+                            "caption": "uitleg van \"for\" statement",
+                            "poster": "https://img.youtube.com/vi/OY5EP9G0AYc/maxresdefault.jpg"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7021538"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Opdracht 7",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/bestanden/730528/PHP_FORSTATEMENT_2.png\" class=\"float-right\"/></p>\n<p>Schrijf een script dat de getallen 10 tot en met 100 bij elkaar <strong>optelt</strong><br/>\nGebruik in je code het for-statement.</p>\n<p><br/>\nSla je opdracht op als optellen.php.</p>\n<p>Bekijk de vorig code en uitleg goed!! dan moet je eruit komen</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7021544"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "While-statement",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "video",
+                            "url": "https://youtu.be/OY5EP9G0AYc?t=19",
+                            "align": "left",
+                            "caption": "While-statement",
+                            "poster": "https://img.youtube.com/vi/OY5EP9G0AYc/maxresdefault.jpg"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/bestanden/730529/PHP_WHILE_1.png\" class=\"float-right\"/></p>\n<p>We kunnen het programma dat van 20 terugtelt naar 1 en de resultaten daarna op het scherm toont, zo herschrijven dat er in plaats van een for-loop een while-statement wordt gebruikt. Het resultaat van het programma blijft hetzelfde. De code wordt:<br/>\n<br/>\n  &lt;?php<br/>\n         $i = 21;<br/>\n         while($i&gt;1) {<br/>\n               $i--;<br/>\n               echo \"$i&lt;br&gt;\";<br/>\n         }<br/>\n    ?&gt;</p>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Je gebruikt <strong>while()</strong> vooral bij mysql, want daarmee kan je makkelijk records weergeven.</p>\n<p>Daar komen verder in deze lessen serie weer op terug</p>\n<p><strong>While</strong><br/>\nDe syntax van de while-loop ziet er als volgt uit:</p>\n<p><br/>\n&lt;?php<br/>\n<a href=\"http://www.php.net/while\">while</a>( statement )<br/>\n{<br/>\n  <strong><span style=\"color:#008000;\"> // Doe iets</span></strong><br/>\n}<br/>\n?&gt;</p>\n<hr/>\n<p>Zolang aan <em>statement</em> voldaan wordt, zal de code in de loop, die wederom tussen accolades {} staat, telkens opnieuw uitgevoerd worden. Vaak wordt een while-loop in combinatie met een tellertje gebruikt, bijvoorbeeld om de getallen 1-10 weer te geven:</p>\n<p>&lt;?php<br/>\n$i = 1;<br/>\n<a href=\"http://www.php.net/while\">while</a>($i &lt;= 10)<br/>\n{<br/>\n   <a href=\"http://www.php.net/echo\">echo</a> $i.' ';</p>\n<p><span style=\"color:#008000;\"><strong>//Valt het op?, in de eerdere code hebben we de min tekens gebruikt.</strong></span><br/>\n   $i++;<br/>\n}<br/>\n?&gt;</p>\n<hr/>\n<p>1 2 3 4 5 6 7 8 9 10</p>\n<p>Deze code telt de waarde dus op.</p>\n<hr/>\n<p>De vertaling van dit stukje code is als volgt: 'Zolang <strong>$i</strong> kleiner dan of gelijk aan 10 is, echo <strong>$i</strong> en verhoog de waarde van <strong>$i</strong> met <strong>1</strong>'. De uitdrukking <strong>$i++</strong> zorgt er dus voor dat de waarde van <strong>$i</strong> met <strong>1</strong> opgehoogd wordt. Merk op de variabele <strong>$i</strong> al aangemaakt moet zijn voordat de while-loop begint, anders zal PHP het niet slikken. <br/>\n<br/>\n<strong>For</strong><br/>\nEen tweede soort loop is de for-loop. Hoewel deze eigenlijk precies hetzelfde doet, is de syntax iets anders:</p>\n<p>&lt;?php<br/>\n<a href=\"http://www.php.net/for\">for</a>( beginconditie ; statement ; increment )<br/>\n{<br/>\n   // Doe iets<br/>\n}<br/>\n?&gt;</p>\n<hr/>\n<p>In de <em>beginconditie</em> stel je de beginwaarden voor de loop in. Dit zou bijvoorbeeld het declareren van de variabele <strong>$i</strong> kunnen zijn, zoals we dat ook voor de while loop deden. Het <em>statement</em> is hetzelfde als bij de while-loop en het <em>increment</em> gedeelte bepaalt wat er na elke loop met de variabelen uit de beginconditie gebeurt.</p>\n<p>Ook nu is het weer mogelijk om de getallen 1-10 te genereren:</p>\n<p><span style=\"color:#008000;\">//<br/>\nFor loop in php</span><br/>\n </p>\n<p>&lt;?php<br/>\nfor ($i = 0; $i &lt; 10; $i++) {<br/>\n     echo $i.\"&lt;br&gt;\";<br/>\n} <br/>\n?&gt;</p>\n<hr/>\n<p>Deze constructie zou dezelfde vertaling hebben als het voorbeeld hiervoor, alleen zitten de verschillende onderdelen op een andere plaats. Zo vormt <strong>$i = 0</strong> de beginconditie, is het statement hetzelfde als in de while-loop en vormt <strong>$i++</strong> het increment gedeelte.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7023103"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Switch",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/bestanden/730530/PHP_SWITCH_1.png\" class=\"height-226-pixels width-148-pixels float-right\"/></p>\n<p>Als er een keuze gemaakt kan worden uit meerdere opties is het handig om een switch te gebruiken. Stel je wilt uit een reeks getallen je geluksgetal aangeven, dan kun je dat o.a. door een switch doen.<br/>\nDe code voor die switch ziet er dan bijvoorbeeld als volgt uit:</p>\n<p> </p>\n<p>&lt;?php</p>\n<p>$geluksgetal = 7;</p>\n<p>switch($geluksgetal) {</p>\n<p>  case 3:</p>\n<p>   echo \"Mijn geluksgetal is $geluksgetal\";</p>\n<p>   break;</p>\n<p>  case 9:</p>\n<p>   echo \"Mijn geluksgetal is $geluksgetal\";</p>\n<p>   break;</p>\n<p>  case 7:</p>\n<p>   echo \"Mijn geluksgetal is $geluksgetal\";</p>\n<p>   break;</p>\n<p>  case 13:</p>\n<p>   echo \"Mijn geluksgetal is $geluksgetal\";</p>\n<p>   break;</p>\n<p>  default:</p>\n<p>   echo \"Ik geloof niet in geluksgetallen\";</p>\n<p>}</p>\n<p>?&gt;</p>\n<hr/>\n<p>De switch-syntax werkt als volgt:</p>\n<p>switch(input) {<br/>\n      case waarde 1:<br/>\n      code die moet worden uitgevoerd als input = waarde 1;<br/>\n      break;<br/>\n      case waarde 2:<br/>\n      code die moet worden uitgevoerd als input = waarde 2;<br/>\n      break;<br/>\n      case etc.<br/>\n      default:<br/>\n      code die moet worden uitgevoerd als input \u2260 alle cases;<br/>\n   }</p>\n<hr/>\n<p>De input is meestal een variabele. Als aan een bepaalde voorwaarde is voldaan, wordt de code die daarachter staat uitgevoerd en de switch via de break verlaten. Als aan geen van de gestelde voorwaarden wordt voldaan, wordt de code uitgevoerd die achter default staat.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "7023105"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Functies",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "7023106"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Wat is een Functie?",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/bestanden/730532/PHP_FUNCTIE_1.png\" class=\"height-184-pixels width-120-pixels float-right\"/></p>\n<p>In PHP-scripts tref je vaak verschillende taken aan die moeten worden afgehandeld. Sommige taken moeten zelfs meer dan \u00e9\u00e9n keer worden uitgevoerd. In die gevallen is het handig om voor de uit te voeren taak een functie te schrijven. In de functie leg je \u00e9\u00e9n keer vast wat er moet gebeuren. Door de functie aan te roepen, wordt het uitvoeren van de beschreven taak geregeld. Stel je maakt een website en je wilt op elke pagina een copyright afgebeeld hebben. Daarvoor zou je een aparte functie kunnen schrijven.<br/>\nEen functie in PHP bestaat in het algemeen uit 3 verschillende onderdelen:</p>\n<ul>\n<li>De functienaam voorafgegaan door het woord function en een spatie.</li>\n<li>Haakjes () achter de functienaam waarbinnen door een komma gescheiden argumenten kunnen voorkomen.</li>\n<li>De functie body omsloten door accolades { } .</li>\n</ul>\n<p>Het format van een functie ziet er dan als volgt uit:</p>\n<p> </p>\n<p>function functienaam($arg1, $arg2 , \u2026, $arg)</p>\n<p>{</p>\n<p>   // code sectie</p>\n<p>}</p>\n<hr/>\n<p>Voor het afbeelden van het copyright hebben we de onderstaande functie geschreven:<br/>\n </p>\n<hr/>\n<p>function show_copyright()</p>\n<p>{</p>\n<p>   echo \"Copyright &amp;copy; 2008 ENIGMA. Alle rechten voorbehouden.\";</p>\n<p>}</p>\n<hr/>\n<p><br/>\n<br/>\nDe naam van de functie is show_copyright. De functie heeft geen argumenten.</p>\n<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td><img alt=\"\" src=\"https://maken.wikiwijs.nl/bestanden/730534/PHP_FUNCTIE_2_1.png\"/></td>\n</tr>\n</tbody>\n</table>\n<p><br/>\nAls je in een PHP-script deze functie aanroept, wordt de copyright regel afgebeeld op de plek waar de functie wordt aangeroepen. Het enige wat je moet onderhouden is het jaartal in de functie. Het aanroepen van de functie kan door de opdracht show_copyright(); in het PHP-script te plaatsen. Stel dat je in de show_copyright-functie ook het huidige kalenderjaar wilt opnemen en dat je geen zin hebt om dit elk jaar weer aan te passen. Het is dan mogelijk om gebruik te maken van een ingebouwde PHP-functie die dat voor jou doet. Daarvoor gebruiken we de functie date(). De code luidt dan:<br/>\n </p>\n<hr/>\n<p>&lt;?php</p>\n<p>function show_copyright()</p>\n<p>{</p>\n<p>   echo \"Copyright &amp;copy; 2008 - \" . date(\"Y\") . \" ENIGMA. Alle rechten voorbehouden.\";</p>\n<p>}</p>\n<p>show_copyright();</p>\n<p>?&gt;</p>\n<hr/>\n<p><br/>\n<br/>\nAls functies binnen functies gebruikt worden, spreken we van het nesten van functies. De copyrightregel wordt nu als volgt op het scherm weergegeven:</p>\n<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td><img alt=\"\" src=\"https://maken.wikiwijs.nl/bestanden/730536/PHP_FUNCTIE_3_1.png\"/></td>\n</tr>\n</tbody>\n</table>\n<p><br/>\nDoor het aanroepen van de functie show_copyright() kun je op elke webpagina waar je het copyright wilt laten zien, dat verwezenlijken.<br/>\n<br/>\nPHP heeft een grote hoeveelheid standaardfuncties die je uitgebreid gedocumenteerd kunt raadplegen in de functielijst op <a href=\"http://www.php.net./\" target=\"_blank\"><span class=\"underline\"><strong>www.php.net.</strong></span></a> Maar naast die standaardfuncties biedt PHP je ook de mogelijkheid zelf functies te maken. Dit kan dus handig zijn als je op webpagina's regelmatig dezelfde taken wilt laten uitvoeren.</p>\n<p> </p>\n<p>Het kan zijn dat je als webmaster van verschillende websites eenzelfde copyright wilt gebruiken. Alle websites hebben verschillende namen. Nu kun je een variabele $site_naam introduceren. Met behulp van deze variabele kun je nu elke website voorzien van een unieke copyright regel. Je geeft nu de functie show_copyright() het argument $site_naam mee. Stel deze webmaster past de functie show_copyright op deze manier aan en wil website www.enigma-online.nl in de regel van het coypright laten zien. De functie zou er dan alsvolgt uit kunnen zien</p>\n<hr/>\n<p>&lt;?php</p>\n<p>function show_copyright($site_naam)</p>\n<p>{</p>\n<p>   echo \"Copyright &amp;copy; 2008 - \" . date(\"Y\") . \" \".$site_naam.\" Alle rechten voorbehouden.\";</p>\n<p>}</p>\n<p>show_copyright();</p>\n<p>?&gt;</p>\n<hr/>\n<p>Tussen de haakjes van de functie mag je zelf een variabele bedenken. Deze variabele bestaat alleen binnen de functie.</p>\n<p>De aanroep van de functie: show_copyright(\"Enigma\");</p>\n<p>Met als resultaat:<br/>\nCopyright \u00a9 2008 - 2021 Enigma Alle rechten voorbehouden.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7023109"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Opdracht 8",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Maak een bestand vlag.php</p>\n<p>Schrijf een script waarin je gebruik maakt van een zelf te schrijven functie toon_vlag() waarmee een plaatje van de Nederlandse vlag kan worden afgebeeld. In de PHP-editor gebruiken we voor het plaatje van de vlag een URL. Verwerk daarom de onderstaande URL in je eigen functie.</p>\n<p><a href=\"https://cdn.pixabay.com/photo/2017/06/11/02/24/netherlands-2391370_1280.png\">https://cdn.pixabay.com/photo/2017/06/11/02/24/netherlands-2391370_1280.png</a></p>\n<p><strong>Tips:</strong></p>\n<p><strong>Als je niet meer weet hoe de html &lt;img&gt; tag werkt kijk dan even bij <a href=\"https://www.w3schools.com/html/html_images.asp\">W3schools</a>.<br/>\nJe hoeft de afbeelding niet eerst te downloaden. Je kan de url die hierboven staat als src gebruiken.</strong></p>\n<hr/>\n<p><strong>Uitbreiding</strong></p>\n<p>Je kan ook aan je functie toon_vlag()een parameter toevoegen.</p>\n<p>bv<br/>\ntoon_vlag(\"NL\");<br/>\ntoon_vlag(\"GB\");</p>\n<p>Pas je functie aan zodat dit ook gaat werken.</p>\n<p> </p>\n<p>Tip: Kijk naar de URL van de vlag en ga hier wat aanpassen</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7023112"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Terugkeerwaarde",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/50b3165fcf8a6b8a4d2ad290c73e3c6f.jpg\" class=\"float-right\"/></p>\n<p>Soms is het handig om functies te schrijven die een waarde als output opleveren. Dit wordt mogelijk gemaakt door bij het aanroepen van de functie aan een variabele een waarde toe te kennen. Het maakt daarbij niet uit welk datatype die variabele heeft.<br/>\n<br/>\nHet volgende voorbeeld zal een en ander verduidelijken. Stel we hebben een bedrijf en we moeten de verkoopprijs van producten gaan bepalen. Daar hoort in veel gevallen het tarief van 21% BTW bij. Het zou handig zijn als we in een functie in een keer het eindbedrag voor de klant zouden kunnen bepalen. We noemen deze functie <span>bereken_eindprijs()</span>.<br/>\n<br/>\nHoe gaan we te werk?</p>\n<ul>\n<li>Er moet een variabele <span>$prijs</span> en een variabele <span>$btw</span> zijn.</li>\n<li>Er moet een functie <span>bereken_eindprijs()</span> geschreven worden waarin de parameters <span>$b</span> en <span>$p</span> worden opgenomen.</li>\n<li>Binnen de functie moet de verkoopprijs worden berekend en teruggegeven met <span>return()</span>.</li>\n<li>De functie moet binnen het script worden aangeroepen.</li>\n<li>In een boodschap moet de variabele <span>$verkoopprijs</span> worden meegedeeld.</li>\n</ul>\n<p>Het script wordt dan:</p>\n<div>\n<div><span style=\"color:#569cd6;\">&lt;?php</span></div>\n<div><span style=\"color:#9cdcfe;\">$prijs</span> <span style=\"color:#d4d4d4;\">=</span> <span style=\"color:#b5cea8;\">24.95</span><span style=\"color:#d4d4d4;\">;</span></div>\n<div><span style=\"color:#9cdcfe;\">$btw</span> <span style=\"color:#d4d4d4;\">=</span> <span style=\"color:#b5cea8;\">.21</span><span style=\"color:#d4d4d4;\">;</span> <span style=\"color:#6a9955;\">//Je hoeft niet 0.21 te typen.</span></div>\n<div><span style=\"color:#569cd6;\">function</span> <span style=\"color:#dcdcaa;\">bereken_eindprijs</span><span style=\"color:#d4d4d4;\">(</span><span style=\"color:#9cdcfe;\">$p</span><span style=\"color:#d4d4d4;\">,</span> <span style=\"color:#9cdcfe;\">$b</span><span style=\"color:#d4d4d4;\">)</span></div>\n<div><span style=\"color:#d4d4d4;\">{</span></div>\n<div><span style=\"color:#c586c0;\">   return</span> <span style=\"color:#9cdcfe;\">$p</span> <span style=\"color:#d4d4d4;\">+ (</span><span style=\"color:#9cdcfe;\">$p</span><span style=\"color:#d4d4d4;\">*</span><span style=\"color:#9cdcfe;\">$b</span><span style=\"color:#d4d4d4;\">);</span></div>\n<div><span style=\"color:#d4d4d4;\">}</span></div>\n<div><span style=\"color:#6a9955;\">// Let op hoe de functie bereken_eindprijs() de waarde terug geeft.</span></div>\n<div><span style=\"color:#9cdcfe;\">$eindprijs</span> <span style=\"color:#d4d4d4;\">=</span> <span style=\"color:#dcdcaa;\">bereken_eindprijs</span><span style=\"color:#d4d4d4;\">(</span><span style=\"color:#9cdcfe;\">$prijs</span><span style=\"color:#d4d4d4;\">,</span> <span style=\"color:#9cdcfe;\">$btw</span><span style=\"color:#d4d4d4;\">);</span></div>\n<div> </div>\n<div><span style=\"color:#6a9955;\">// Rond het bedrag af op twee decimalen.</span></div>\n<div><span style=\"color:#9cdcfe;\">$eindprijs</span> <span style=\"color:#d4d4d4;\">=</span> <span style=\"color:#dcdcaa;\">number_format</span><span style=\"color:#d4d4d4;\">(</span><span style=\"color:#9cdcfe;\">$eindprijs</span><span style=\"color:#d4d4d4;\">,</span> <span style=\"color:#b5cea8;\">2</span><span style=\"color:#d4d4d4;\">);</span></div>\n<div><span style=\"color:#dcdcaa;\">echo</span> <span style=\"color:#ce9178;\">\"Verkoopprijs zonder btw = &amp;euro;</span> <span style=\"color:#9cdcfe;\">$prijs</span><span style=\"color:#ce9178;\">&lt;br&gt;</span><span style=\"color:#d7ba7d;\">\\n</span><span style=\"color:#ce9178;\">\"</span><span style=\"color:#d4d4d4;\">;</span></div>\n<div><span style=\"color:#9cdcfe;\">$tarief</span> <span style=\"color:#d4d4d4;\">=</span> <span style=\"color:#b5cea8;\">100</span> <span style=\"color:#d4d4d4;\">*</span> <span style=\"color:#9cdcfe;\">$btw</span><span style=\"color:#d4d4d4;\">;</span></div>\n<div><span style=\"color:#dcdcaa;\">echo</span> <span style=\"color:#ce9178;\">\"BTW-tarief =</span> <span style=\"color:#9cdcfe;\">$tarief</span><span style=\"color:#ce9178;\">&lt;br&gt;</span><span style=\"color:#d7ba7d;\">\\n</span><span style=\"color:#ce9178;\">\"</span><span style=\"color:#d4d4d4;\">;</span></div>\n<div><span style=\"color:#dcdcaa;\">echo</span> <span style=\"color:#ce9178;\">\"De eindprijs = &amp;euro;</span> <span style=\"color:#9cdcfe;\">$eindprijs</span><span style=\"color:#ce9178;\">\"</span><span style=\"color:#d4d4d4;\">;</span></div>\n<div><span style=\"color:#569cd6;\">?</span><span style=\"color:#569cd6;\">&gt;</span></div>\n</div>\n<p>Met als resultaat:</p>\n<table border=\"1\">\n<tbody>\n<tr>\n<td><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/50b3165fcf8a6b8a4d2ad290c73e3c6f.jpg\"/></td>\n</tr>\n</tbody>\n</table>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/50b3165fcf8a6b8a4d2ad290c73e3c6f.jpg\" class=\"float-right\"/></p>\n<p>Het is ook mogelijk om functies met returnwaarden rechtstreeks in controlestructuren te gebruiken.<br/>\nStel we willen online gaan shoppen bij een webwinkel. Deze webwinkel hanteert voor klanten een kredietlimiet. Telkens als een klant iets in zijn winkelwagentje stopt, wordt het bedrag dat hij moet betalen bij de andere gekochte producten opgeteld en wordt dat totaalbedrag vergeleken met de kredietlimiet van de klant. Als de toegestane limiet wordt overschreden, krijgt de klant een melding dat de limiet is overschreden en met welk bedrag. Indien de limiet nog niet is overschreden, krijgt de klant een melding voor welk bedrag er nog aankopen kunnen worden gedaan. De code daarvoor wordt:</p>\n<div>\n<div><span style=\"color:#569cd6;\">&lt;?php</span></div>\n<div><span style=\"color:#9cdcfe;\">$aankoopbedrag</span> <span style=\"color:#d4d4d4;\">=</span> <span style=\"color:#b5cea8;\">234.50</span><span style=\"color:#d4d4d4;\">;</span></div>\n<div><span style=\"color:#9cdcfe;\">$kredietlimiet</span> <span style=\"color:#d4d4d4;\">=</span> <span style=\"color:#b5cea8;\">500.00</span><span style=\"color:#d4d4d4;\">;</span></div>\n<div><span style=\"color:#569cd6;\">function</span> <span style=\"color:#dcdcaa;\">check_kredietlimiet</span><span style=\"color:#d4d4d4;\">(</span><span style=\"color:#9cdcfe;\">$aankoopbedrag</span><span style=\"color:#d4d4d4;\">,</span> <span style=\"color:#9cdcfe;\">$kredietlimiet</span><span style=\"color:#d4d4d4;\">)</span></div>\n<div><span style=\"color:#d4d4d4;\">{</span></div>\n<div><span style=\"color:#c586c0;\">   if</span><span style=\"color:#d4d4d4;\">(</span><span style=\"color:#9cdcfe;\">$aankoopbedrag</span> <span style=\"color:#d4d4d4;\">&gt;</span> <span style=\"color:#9cdcfe;\">$kredietlimiet</span><span style=\"color:#d4d4d4;\">) {</span></div>\n<div><span style=\"color:#c586c0;\">       return</span> <span style=\"color:#569cd6;\">false</span><span style=\"color:#d4d4d4;\">;</span></div>\n<div><span style=\"color:#d4d4d4;\">   }</span> <span style=\"color:#c586c0;\">else</span> <span style=\"color:#d4d4d4;\">{</span></div>\n<div><span style=\"color:#c586c0;\">       return</span> <span style=\"color:#569cd6;\">true</span><span style=\"color:#d4d4d4;\">;</span></div>\n<div><span style=\"color:#d4d4d4;\">   }</span></div>\n<div><span style=\"color:#d4d4d4;\">}</span></div>\n<div><span style=\"color:#c586c0;\">if</span> <span style=\"color:#d4d4d4;\">(</span><span style=\"color:#dcdcaa;\">check_kredietlimiet</span><span style=\"color:#d4d4d4;\">(</span><span style=\"color:#9cdcfe;\">$aankoopbedrag</span><span style=\"color:#d4d4d4;\">,</span> <span style=\"color:#9cdcfe;\">$kredietlimiet</span><span style=\"color:#d4d4d4;\">)) {</span></div>\n<div><span style=\"color:#9cdcfe;\">   $bestedingsbedrag</span> <span style=\"color:#d4d4d4;\">=</span> <span style=\"color:#dcdcaa;\">number_format</span><span style=\"color:#d4d4d4;\">((</span><span style=\"color:#9cdcfe;\">$kredietlimiet</span> <span style=\"color:#d4d4d4;\">-</span> <span style=\"color:#9cdcfe;\">$aankoopbedrag</span><span style=\"color:#d4d4d4;\">),</span><span style=\"color:#b5cea8;\">2</span><span style=\"color:#d4d4d4;\">);</span></div>\n<div><span style=\"color:#dcdcaa;\">   echo</span> <span style=\"color:#ce9178;\">\"Winkel gerust nog nog even door! &lt;br&gt;\"</span><span style=\"color:#d4d4d4;\">;</span></div>\n<div><span style=\"color:#dcdcaa;\">   echo</span> <span style=\"color:#ce9178;\">\"U bent nog &amp;euro; \"</span> <span style=\"color:#d4d4d4;\">.</span> <span style=\"color:#9cdcfe;\">$bestedingsbedrag</span> <span style=\"color:#d4d4d4;\">.</span> <span style=\"color:#ce9178;\">\" verwijderd</span> <span style=\"color:#ce9178;\">van uw kredietlimiet.\"</span><span style=\"color:#d4d4d4;\">;</span></div>\n<div><span style=\"color:#d4d4d4;\">}</span> <span style=\"color:#c586c0;\">else</span> <span style=\"color:#d4d4d4;\">{</span></div>\n<div><span style=\"color:#9cdcfe;\">   $overschrijding</span> <span style=\"color:#d4d4d4;\">=</span> <span style=\"color:#dcdcaa;\">number_format</span><span style=\"color:#d4d4d4;\">((</span><span style=\"color:#9cdcfe;\">$aankoopbedrag</span> <span style=\"color:#d4d4d4;\">-</span> <span style=\"color:#9cdcfe;\">$kredietlimiet</span><span style=\"color:#d4d4d4;\">),</span><span style=\"color:#b5cea8;\">2</span><span style=\"color:#d4d4d4;\">);</span></div>\n<div><span style=\"color:#dcdcaa;\">   echo</span> <span style=\"color:#ce9178;\">\"Uw aankoopbedrag overstijgt de kredietlimiet met &amp;euro;</span> <span style=\"color:#ce9178;\">\"</span><span style=\"color:#d4d4d4;\">.</span> <span style=\"color:#9cdcfe;\">$overschrijding</span> <span style=\"color:#d4d4d4;\">.</span><span style=\"color:#ce9178;\">\"!\"</span><span style=\"color:#d4d4d4;\">;</span></div>\n<div><span style=\"color:#d4d4d4;\">}</span></div>\n<div><span style=\"color:#569cd6;\">?</span><span style=\"color:#569cd6;\">&gt;</span></div>\n</div>\n<p>Hoe werkt de functie <span>check_kredietlimiet()</span>?<br/>\nDe functie heeft 2 parameters: <span>$aankoopbedrag</span> en <span>$kredietlimiet</span>. Als het aankoopbedrag groter is dan de kredietlimiet geeft de functie de returnwaarde of terugkeerwaarde 0 (<span>false</span>). Zo niet dan is de returnwaarde 1(<span>true</span>). Als de functie bij de check een 0 geeft, betekent dat dat de vergelijking <span>$aankoopbedrag</span> &gt; <span>$kredietlimiet</span> niet klopt en dus het aankoopbedrag de kredietlimiet niet overstijgt, waardoor dus een 1 als returnwaarde moet worden weergegeven.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7023115"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "De functie include()",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/50b3165fcf8a6b8a4d2ad290c73e3c6f.jpg\" class=\"float-right\"/></p>\n<p>Als je meerdere functies gebruikt die vaker terugkomen, is het handig een zogenaamde functiebibliotheek aan te leggen. Je kunt alle gebruikte functies in \u00e9\u00e9n PHP-bestand zetten en dat bijvoorbeeld opslaan als <span>functions.php</span>. Het enige wat je dan nog te doen hebt, is dat bestand inladen in een PHP pagina door middel van de PHP-functie <span>include()</span>.<br/>\nDe code om de eindprijs te berekenen zou er dan als volgt kunnen uitzien:</p>\n<p>Geef onderstaand code in je editor de naam verkoop.php</p>\n<p> </p>\n<div>\n<div><span style=\"color:#569cd6;\">&lt;?php</span></div>\n<div><span style=\"color:#dcdcaa;\">include</span><span style=\"color:#d4d4d4;\">(</span><span style=\"color:#ce9178;\">\"functions.php\"</span><span style=\"color:#d4d4d4;\">);</span></div>\n<div><span style=\"color:#9cdcfe;\">$prijs</span> <span style=\"color:#d4d4d4;\">=</span> <span style=\"color:#b5cea8;\">24.95</span><span style=\"color:#d4d4d4;\">;</span></div>\n<div><span style=\"color:#9cdcfe;\">$btw</span> <span style=\"color:#d4d4d4;\">=</span> <span style=\"color:#b5cea8;\">.21</span><span style=\"color:#d4d4d4;\">;</span></div>\n<div><span style=\"color:#9cdcfe;\">$eindprijs</span> <span style=\"color:#d4d4d4;\">=</span> <span style=\"color:#dcdcaa;\">bereken_eindprijs</span><span style=\"color:#d4d4d4;\">(</span><span style=\"color:#9cdcfe;\">$prijs</span><span style=\"color:#d4d4d4;\">,</span><span style=\"color:#9cdcfe;\">$btw</span><span style=\"color:#d4d4d4;\">);</span></div>\n<div><span style=\"color:#9cdcfe;\">$eindprijs</span> <span style=\"color:#d4d4d4;\">=</span> <span style=\"color:#dcdcaa;\">number_format</span><span style=\"color:#d4d4d4;\">(</span><span style=\"color:#9cdcfe;\">$eindprijs</span><span style=\"color:#d4d4d4;\">,</span><span style=\"color:#b5cea8;\">2</span><span style=\"color:#d4d4d4;\">);</span></div>\n<div><span style=\"color:#dcdcaa;\">echo</span> <span style=\"color:#ce9178;\">\"Verkoopprijs zonder BTW = &amp;euro;</span> <span style=\"color:#9cdcfe;\">$prijs</span><span style=\"color:#ce9178;\">&lt;br&gt;</span><span style=\"color:#d7ba7d;\">\\n</span><span style=\"color:#ce9178;\">\"</span><span style=\"color:#d4d4d4;\">;</span></div>\n<div><span style=\"color:#9cdcfe;\">$tarief</span> <span style=\"color:#d4d4d4;\">=</span> <span style=\"color:#b5cea8;\">100</span> <span style=\"color:#d4d4d4;\">*</span> <span style=\"color:#9cdcfe;\">$btw</span><span style=\"color:#d4d4d4;\">;</span></div>\n<div><span style=\"color:#dcdcaa;\">echo</span> <span style=\"color:#ce9178;\">\"BTW-tarief =</span> <span style=\"color:#9cdcfe;\">$tarief</span><span style=\"color:#ce9178;\">&lt;br&gt;</span><span style=\"color:#d7ba7d;\">\\n</span><span style=\"color:#ce9178;\">\"</span><span style=\"color:#d4d4d4;\">;</span></div>\n<div><span style=\"color:#dcdcaa;\">echo</span> <span style=\"color:#ce9178;\">\"De eindprijs = &amp;euro;</span> <span style=\"color:#9cdcfe;\">$eindprijs</span><span style=\"color:#ce9178;\">\"</span><span style=\"color:#d4d4d4;\">;</span></div>\n<div><span style=\"color:#569cd6;\">?</span><span style=\"color:#569cd6;\">&gt;</span></div>\n</div>\n<p> </p>\n<p>In het bestand <span>functions.php</span> staat dan de definitie van de functie <span>bereken_eindprijs</span><br/>\nDus:</p>\n<div>\n<div><span style=\"color:#569cd6;\">&lt;?php</span></div>\n<div><span style=\"color:#569cd6;\">function</span> <span style=\"color:#dcdcaa;\">bereken_eindprijs</span><span style=\"color:#d4d4d4;\">(</span><span style=\"color:#9cdcfe;\">$p</span><span style=\"color:#d4d4d4;\">,</span> <span style=\"color:#9cdcfe;\">$b</span><span style=\"color:#d4d4d4;\">)</span></div>\n<div><span style=\"color:#d4d4d4;\">{</span></div>\n<div><span style=\"color:#c586c0;\">  return</span> <span style=\"color:#9cdcfe;\">$p</span> <span style=\"color:#d4d4d4;\">+ (</span><span style=\"color:#9cdcfe;\">$p</span><span style=\"color:#d4d4d4;\">*</span><span style=\"color:#9cdcfe;\">$b</span><span style=\"color:#d4d4d4;\">);</span></div>\n<div><span style=\"color:#d4d4d4;\">}</span></div>\n<div><span style=\"color:#569cd6;\">?</span><span style=\"color:#569cd6;\">&gt;</span></div>\n<div> </div>\n<div><span style=\"color:#569cd6;\">Je hebt dus TWEE bestanden nodig, het bestand verkoop.php die het bestand functions.php aanroept</span></div>\n</div>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7023117"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Opdracht 9",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Neem bovenstaand code over, pas de waarde aan naar de prijs van b.v. een auto.</p>\n<p>Gebruik als extra Functie de code van je flag(vlag.php) bij Opdracht 8 en gebruik dan als afbeelding een plaatje van een auto</p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7041143"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Arrays, Wat is dat?",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/50b3165fcf8a6b8a4d2ad290c73e3c6f.jpg\" class=\"float-right\"/></p>\n<p>In bijna alle programmeer- en scriptingtalen is het mogelijk om met arrays te werken. Zo ook in PHP. In dit onderdeel gaan we kijken naar wat arrays zijn en hoe je ze kunt gebruiken.<br/>\n<br/>\nTot nu toe hebben we gewerkt met variabelen die op zichzelf staan. Voorbeelden daarvan zijn de variabelen <span><strong>$prijs</strong></span> en <span><strong>$btw</strong></span> die gebruikt worden in het eerder besproken script waarmee we de eindprijs van een product berekenen. Vaak staan gegevens echter niet los van elkaar, maar vormen ze een reeks. Voorbeelden zijn een literatuurlijst voor het vak Engels, een adreslijst van je klasgenoten of een overzicht van landen die behoren tot de Europese Unie.<br/>\n<br/>\nReeksen kunnen we vastleggen met behulp van een array. Je zou een array kunnen vergelijken met een variabele die meerdere waardes (boeken, adressen of landen) kan bevatten.<br/>\nDe verschillende items van een array worden elementen genoemd. Voor het verwijzen naar een element wordt gebruik gemaakt van de indexwaarde die hoort bij dat element. Aan de hand van de index kun je de positie van het element in de array bepalen. Je kunt de individuele waarden uit een array benaderen door gebruik te maken van dat indexgetal.</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/50b3165fcf8a6b8a4d2ad290c73e3c6f.jpg\"/></p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/50b3165fcf8a6b8a4d2ad290c73e3c6f.jpg\" class=\"float-right\"/></p>\n<p>Bekijk maar eens het onderstaande stukje PHP-code:</p>\n<div>\n<div><span style=\"color:#569cd6;\">&lt;?php</span></div>\n<div><span style=\"color:#9cdcfe;\">$landenBenelux</span> <span style=\"color:#d4d4d4;\">= [</span><span style=\"color:#ce9178;\">\"Nederland\"</span><span style=\"color:#d4d4d4;\">,</span> <span style=\"color:#ce9178;\">\"Belgi\u00eb\"</span><span style=\"color:#d4d4d4;\">,</span> <span style=\"color:#ce9178;\">\"Luxemburg\"</span><span style=\"color:#d4d4d4;\">];</span></div>\n<div><span style=\"color:#dcdcaa;\">echo</span> <span style=\"color:#9cdcfe;\">$landenBenelux</span><span style=\"color:#d4d4d4;\">[</span><span style=\"color:#b5cea8;\">0</span><span style=\"color:#d4d4d4;\">];</span></div>\n<div><span style=\"color:#569cd6;\">?</span><span style=\"color:#569cd6;\">&gt;</span></div>\n<div> </div>\n</div>\n<p>De Benelux, sinds 2010 spreken we officieel van de Benelux-unie, bestaat uit de landen Nederland, Belgi\u00eb en Luxemburg. We plaatsen deze landen in een array.<br/>\n<br/>\n<br/>\n<br/>\n </p>\n<p><strong>LET OP</strong><br/>\nIn de eerste regel van de code wordt de array gevuld. In dit geval hebben we de array $landenBenelux genoemd en gevuld met 3 waardes, namelijk de strings: <span><strong>\"Nederland\"</strong></span><span>,</span> <span><strong>\"Belgi\u00eb\"</strong></span> en <strong><span>\"Luxemburg\"</span></strong>.</p>\n<p><span style=\"color:#FF0000;\"><strong>Dit hebben we alleen NIET goed gedaan. Test deze code maar eens in je browser</strong></span></p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/0/0b73e52992374468854c1944897c03d12370dd33.png\" class=\"height-153-pixels width-601-pixels\"/></p>\n<p> </p>\n<p>Zoals in de code ziet, mis je dus de \"array\"</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/5696a555bbda1307ab410e25a0ac1e80de7ceb99.png\" class=\"height-105-pixels width-598-pixels\"/></p>\n<p><br/>\nIn de tweede regel staat een <span>echo-</span>statement. Het eerste element uit de array wordt afgedrukt. Het resultaat van deze code zal dus zijn dat er \"Nederland\" op het scherm wordt afgedrukt.<br/>\nLet op: de indexwaarden in een array beginnen altijd bij 0. <strong>NIET BIJ 1 DUS</strong></p>\n<p><br/>\nHet eerste element, in dit geval Nederland, heeft index 0. De array <span><strong>$landenBenelux</strong></span> bestaat uit 3 elementen waarvan de indexwaarden zijn 0 tot en met 2.</p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7041186"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Escape",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Programeren is veel in Engels, dus ook deze tip van wat escape inhoud</p>\n<p><a href=\"https://phppot.com/php/php-escape-sequences/\">https://phppot.com/php/php-escape-sequences/</a></p>\n<p> </p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7041226"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Opdracht 10",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/bestanden/730551/PHP_ARRAYS_3.png\" class=\"height-259-pixels width-170-pixels float-right\"/>Met loops kan je gemakkelijk array's op het scherm tonen hieronder een voorbeeld van een array met provincies.</p>\n<p>&lt;?php</p>\n<p>$provincies= array (</p>\n<p>  \"Groningen\",</p>\n<p>  \"Friesland\",</p>\n<p>  \"Drenthe\",</p>\n<p>  \"Overijssel\",</p>\n<p>  \"Flevoland\",</p>\n<p>  \"Gelderland\",</p>\n<p>  \"Utrecht\",</p>\n<p>  \"Noord-Holland\",</p>\n<p>  \"Zuid-Holland\",</p>\n<p>  \"Zeeland\",</p>\n<p>  \"Noord-Brabant\",</p>\n<p>  \"Limburg\",</p>\n<p>);</p>\n<p> </p>\n<p>foreach($provincies as $provincie)</p>\n<p>{</p>\n<p>  echo $provincie.\"&lt;br&gt;\";</p>\n<p>}</p>\n<p>?&gt;</p>\n<p> </p>\n<p>De foreach loop gaat alle elementen van een array af en die stop je in een andere variabele. In dit geval $provincie</p>\n<p> </p>\n<p> </p>\n<p>Maak een script <strong>kleuren.php</strong> en stop daar <em><strong>de missende array</strong></em> in.(zie bovenstaande code)</p>\n<p>Extra kudo's als het lukt om dan ook met een loop de daadwerkelijke kleuren op het scherm te krijgen.</p>\n<hr/>\n<p>$kleuren=???(</p>\n<p>\"red\",</p>\n<p>\"green\",</p>\n<p>\"yellow\",</p>\n<p>\"blue\"</p>\n<p>);</p>\n<p>Resultaat</p>\n<p><span style=\"color:#FF0000;\">red</span><span style=\"color:#008000;\">green</span><span style=\"color:#FFFF00;\">yellow</span><span style=\"color:#0000FF;\">blue</span></p>\n<hr/>\n<p><strong><span style=\"color:#000000;\">Tipje</span></strong></p>\n<p>Kijk goed naar de code hierboven van hoe de landen zijn weergeven.</p>\n<p> </p>\n<p>en met echo  <img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/8cb3b67903ecf4b5a45bf1c7c850f6b9bb3278bf.png\" class=\"height-31-pixels width-345-pixels\"/></p>\n<p>zou je resultaat moeten krijgen( de \\ is terug te vinden in de uitleg van \"escapen\")</p>\n<p> </p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7041503"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Handige functies",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/50b3165fcf8a6b8a4d2ad290c73e3c6f.jpg\" class=\"float-right\"/></p>\n<p>Er bestaan handige functies die je in combinatie met arrays kunt gebruiken. Bijvoorbeeld de functie <span>count()</span>:</p>\n<div>\n<div><span style=\"color:#569cd6;\">&lt;?php</span></div>\n<div><span style=\"color:#9cdcfe;\">$mijnArray</span> <span style=\"color:#d4d4d4;\">= [</span><span style=\"color:#b5cea8;\">1</span><span style=\"color:#d4d4d4;\">,</span><span style=\"color:#b5cea8;\">2</span><span style=\"color:#d4d4d4;\">,</span><span style=\"color:#b5cea8;\">3</span><span style=\"color:#d4d4d4;\">,</span><span style=\"color:#b5cea8;\">4</span><span style=\"color:#d4d4d4;\">,</span><span style=\"color:#b5cea8;\">5</span><span style=\"color:#d4d4d4;\">];</span></div>\n<div><span style=\"color:#dcdcaa;\">echo</span> <span style=\"color:#dcdcaa;\">count</span><span style=\"color:#d4d4d4;\">(</span><span style=\"color:#9cdcfe;\">$mijnArray</span><span style=\"color:#d4d4d4;\">);</span></div>\n<div><span style=\"color:#dcdcaa;\">echo</span> <span style=\"color:#ce9178;\">\"&lt;br&gt;\"</span><span style=\"color:#d4d4d4;\">;</span></div>\n<div><span style=\"color:#9cdcfe;\">$mijnArray</span><span style=\"color:#d4d4d4;\">[] =</span> <span style=\"color:#b5cea8;\">6</span><span style=\"color:#d4d4d4;\">;</span></div>\n<div><span style=\"color:#dcdcaa;\">echo</span> <span style=\"color:#dcdcaa;\">count</span><span style=\"color:#d4d4d4;\">(</span><span style=\"color:#9cdcfe;\">$mijnArray</span><span style=\"color:#d4d4d4;\">);</span></div>\n<div><span style=\"color:#569cd6;\">?</span><span style=\"color:#569cd6;\">&gt;</span></div>\n</div>\n<p><br/>\n<br/>\nMet de functie <span>count()</span>kun je de lengte van een array opvragen. Dat betekent dat het resultaat het totaal aantal elementen in de array is.<br/>\nDe regel <span>$mijnArray[] = 6</span> voegt het getal 6 toe als element achter aan de array.<br/>\nIn de code wordt de lengte van de array afgedrukt. Vervolgens wordt er een element aan de array toegevoegd. Tenslotte wordt weer de lengte van de array afgedrukt. Na uitvoer van het script zien we:<br/>\n<span>5<br/>\n6</span></p>\n<p>Er bestaan ook functies om de elementen van een array om te draaien en om de elementen te sorteren:</p>\n<div>\n<div><span style=\"color:#569cd6;\">&lt;?php</span></div>\n<div><span style=\"color:#9cdcfe;\">$mijnArray</span> <span style=\"color:#d4d4d4;\">= [</span><span style=\"color:#b5cea8;\">2</span><span style=\"color:#d4d4d4;\">,</span><span style=\"color:#b5cea8;\">1</span><span style=\"color:#d4d4d4;\">,</span><span style=\"color:#b5cea8;\">5</span><span style=\"color:#d4d4d4;\">];</span></div>\n<div><span style=\"color:#dcdcaa;\">echo</span> <span style=\"color:#9cdcfe;\">$mijnArray</span><span style=\"color:#d4d4d4;\">[</span><span style=\"color:#b5cea8;\">0</span><span style=\"color:#d4d4d4;\">]</span> <span style=\"color:#d4d4d4;\">.</span> <span style=\"color:#ce9178;\">\" , \"</span> <span style=\"color:#d4d4d4;\">.</span> <span style=\"color:#9cdcfe;\">$mijnArray</span><span style=\"color:#d4d4d4;\">[</span><span style=\"color:#b5cea8;\">1</span><span style=\"color:#d4d4d4;\">]</span> <span style=\"color:#d4d4d4;\">.</span> <span style=\"color:#ce9178;\">\" , \"</span> <span style=\"color:#d4d4d4;\">.</span> <span style=\"color:#9cdcfe;\">$mijnArray</span> <span style=\"color:#d4d4d4;\">[</span><span style=\"color:#b5cea8;\">2</span><span style=\"color:#d4d4d4;\">];</span></div>\n<div><span style=\"color:#dcdcaa;\">echo</span> <span style=\"color:#ce9178;\">\"&lt;br&gt;\"</span><span style=\"color:#d4d4d4;\">;</span></div>\n<div><span style=\"color:#9cdcfe;\">$mijnArray2</span> <span style=\"color:#d4d4d4;\">=</span> <span style=\"color:#dcdcaa;\">array_reverse</span><span style=\"color:#d4d4d4;\">(</span><span style=\"color:#9cdcfe;\">$mijnArray</span><span style=\"color:#d4d4d4;\">);</span></div>\n<div><span style=\"color:#dcdcaa;\">echo</span> <span style=\"color:#9cdcfe;\">$mijnArray2</span><span style=\"color:#d4d4d4;\">[</span><span style=\"color:#b5cea8;\">0</span><span style=\"color:#d4d4d4;\">]</span> <span style=\"color:#d4d4d4;\">.</span> <span style=\"color:#ce9178;\">\" , \"</span> <span style=\"color:#d4d4d4;\">.</span> <span style=\"color:#9cdcfe;\">$mijnArray2</span><span style=\"color:#d4d4d4;\">[</span><span style=\"color:#b5cea8;\">1</span><span style=\"color:#d4d4d4;\">]</span> <span style=\"color:#d4d4d4;\">.</span> <span style=\"color:#ce9178;\">\" , \"</span> <span style=\"color:#d4d4d4;\">.</span><span style=\"color:#9cdcfe;\">$mijnArray2</span><span style=\"color:#d4d4d4;\">[</span><span style=\"color:#b5cea8;\">2</span><span style=\"color:#d4d4d4;\">];</span></div>\n<div><span style=\"color:#dcdcaa;\">echo</span> <span style=\"color:#ce9178;\">\"&lt;br&gt;\"</span><span style=\"color:#d4d4d4;\">;</span></div>\n<div><span style=\"color:#dcdcaa;\">sort</span><span style=\"color:#d4d4d4;\">(</span><span style=\"color:#9cdcfe;\">$mijnArray</span><span style=\"color:#d4d4d4;\">);</span></div>\n<div><span style=\"color:#dcdcaa;\">echo</span> <span style=\"color:#9cdcfe;\">$mijnArray</span><span style=\"color:#d4d4d4;\">[</span><span style=\"color:#b5cea8;\">0</span><span style=\"color:#d4d4d4;\">]</span> <span style=\"color:#d4d4d4;\">.</span> <span style=\"color:#ce9178;\">\" , \"</span> <span style=\"color:#d4d4d4;\">.</span> <span style=\"color:#9cdcfe;\">$mijnArray</span><span style=\"color:#d4d4d4;\">[</span><span style=\"color:#b5cea8;\">1</span><span style=\"color:#d4d4d4;\">]</span> <span style=\"color:#d4d4d4;\">.</span> <span style=\"color:#ce9178;\">\" , \"</span> <span style=\"color:#d4d4d4;\">.</span> <span style=\"color:#9cdcfe;\">$mijnArray</span><span style=\"color:#d4d4d4;\">[</span><span style=\"color:#b5cea8;\">2</span><span style=\"color:#d4d4d4;\">];</span></div>\n<div><span style=\"color:#dcdcaa;\">echo</span> <span style=\"color:#ce9178;\">\"&lt;br&gt;\"</span><span style=\"color:#d4d4d4;\">;</span></div>\n<div><span style=\"color:#569cd6;\">?</span><span style=\"color:#569cd6;\">&gt;</span></div>\n</div>\n<p>In het eerste blok wordt een array gevuld met 3 elementen en afgedrukt. In het tweede blok wordt die array omgedraaid en afgedrukt. In het derde blok wordt de array gesorteerd en op het scherm gezet. De functie <span>array_reverse()</span> laat de array waarop deze functie wordt toegepast onveranderd. De functie <span>sort()</span> daarentegen vervangt de oorspronkelijke array door de gesorteerde array.<br/>\n<br/>\nMet als resultaat:</p>\n<table border=\"1\">\n<tbody>\n<tr>\n<td><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/50b3165fcf8a6b8a4d2ad290c73e3c6f.jpg\" class=\"float-left\"/></td>\n</tr>\n</tbody>\n</table>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7041505"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Arrayfuncties en databases",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/bestanden/730574/PHP_ARRAYFUNCTIES_1.png\" class=\"height-221-pixels width-145-pixels float-right\"/></p>\n<p><strong>Op weg naar de koppeling met een Database!</strong></p>\n<p> </p>\n<p>Als je met PHP en MySQL gegevens uit een MySQL database haalt, kom je ook in aanraking met arrays. Als je een query uitvoert en de functie mysqli_fetch_array() gebruikt, krijg je een rij uit de database als array terug. De elementen van dit array zijn de waardes van de verschillende velden van die regel uit de database. We komen hier later op terug</p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "7041507"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Formulieren gebruiken",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/50b3165fcf8a6b8a4d2ad290c73e3c6f.jpg\" class=\"float-right\"/></p>\n<p>Het komt regelmatig voor dat je op een webpagina een formulier moet invullen. Voor het verwerken van gegevens die worden ingevuld in een formulier kan PHP worden gebruikt. De gegevens kunnen worden weggeschreven naar een database, maar het is ook mogelijk om de ingevoerde data op een nieuwe of op dezelfde pagina op te vragen.<br/>\n<br/>\nOnze PHP-editor kan ook formulieren afhandelen. We laten dat zien aan de hand van een formulier waarin NAW-gegevens ingevuld kunnen worden. Deze gegevens worden op een andere pagina weergegeven. Als eerste zie je de HTML-code die je nodig hebt voor het formulier. Het resultaat van de verwerkte HTML-code is een formulier waar naam, adres en woonplaats kunnen worden ingevuld.</p>\n<div>\n<div><span style=\"color:#808080;\">&lt;!</span><span style=\"color:#569cd6;\">DOCTYPE</span> <span style=\"color:#9cdcfe;\">html</span><span style=\"color:#808080;\">&gt;</span></div>\n<div><span style=\"color:#808080;\">&lt;</span><span style=\"color:#569cd6;\">html</span> <span style=\"color:#9cdcfe;\">lang</span><span style=\"color:#d4d4d4;\">=</span><span style=\"color:#ce9178;\">\"nl\"</span><span style=\"color:#808080;\">&gt;</span></div>\n<div><span style=\"color:#808080;\">  &lt;</span><span style=\"color:#569cd6;\">head</span><span style=\"color:#808080;\">&gt;</span></div>\n<div><span style=\"color:#808080;\">   &lt;</span><span style=\"color:#569cd6;\">title</span><span style=\"color:#808080;\">&gt;</span><span style=\"color:#d4d4d4;\">invoeren NAW-gegevens</span><span style=\"color:#808080;\">&lt;/</span><span style=\"color:#569cd6;\">title</span><span style=\"color:#808080;\">&gt;</span></div>\n<div><span style=\"color:#808080;\">   &lt;</span><span style=\"color:#569cd6;\">meta</span> <span style=\"color:#9cdcfe;\">charset</span><span style=\"color:#d4d4d4;\">=</span><span style=\"color:#ce9178;\">\"utf-8\"</span><span style=\"color:#808080;\">&gt;</span></div>\n<div><span style=\"color:#808080;\">  &lt;/</span><span style=\"color:#569cd6;\">head</span><span style=\"color:#808080;\">&gt;</span></div>\n<div><span style=\"color:#808080;\">  &lt;</span><span style=\"color:#569cd6;\">body</span><span style=\"color:#808080;\">&gt;</span></div>\n<div><span style=\"color:#808080;\">   &lt;</span><span style=\"color:#569cd6;\">form</span> <span style=\"color:#9cdcfe;\">name</span><span style=\"color:#d4d4d4;\">=</span><span style=\"color:#ce9178;\">\"form1\"</span> <span style=\"color:#9cdcfe;\">method</span><span style=\"color:#d4d4d4;\">=</span><span style=\"color:#ce9178;\">\"post\"</span> <span style=\"color:#9cdcfe;\">action</span> <span style=\"color:#d4d4d4;\">=</span><span style=\"color:#ce9178;\">\"naw.php\"</span><span style=\"color:#808080;\">&gt;</span></div>\n<div><span style=\"color:#808080;\">     &lt;</span><span style=\"color:#569cd6;\">p</span><span style=\"color:#808080;\">&gt;</span><span style=\"color:#d4d4d4;\">Vul hieronder je naam, adres en woonplaats in:</span><span style=\"color:#808080;\">&lt;/</span><span style=\"color:#569cd6;\">p</span><span style=\"color:#808080;\">&gt;</span></div>\n<div><span style=\"color:#808080;\">     &lt;</span><span style=\"color:#569cd6;\">p</span><span style=\"color:#808080;\">&gt;&lt;</span><span style=\"color:#569cd6;\">input</span> <span style=\"color:#9cdcfe;\">type</span> <span style=\"color:#d4d4d4;\">=</span> <span style=\"color:#ce9178;\">\"text\"</span> <span style=\"color:#9cdcfe;\">size</span> <span style=\"color:#d4d4d4;\">=</span> <span style=\"color:#ce9178;\">\"25\"</span> <span style=\"color:#9cdcfe;\">name</span> <span style=\"color:#d4d4d4;\">=</span> <span style=\"color:#ce9178;\">\"naam\"</span><span style=\"color:#808080;\">&gt;&lt;/</span><span style=\"color:#569cd6;\">p</span><span style=\"color:#808080;\">&gt;</span></div>\n<div><span style=\"color:#808080;\">     &lt;</span><span style=\"color:#569cd6;\">p</span><span style=\"color:#808080;\">&gt;&lt;</span><span style=\"color:#569cd6;\">input</span> <span style=\"color:#9cdcfe;\">type</span> <span style=\"color:#d4d4d4;\">=</span> <span style=\"color:#ce9178;\">\"text\"</span> <span style=\"color:#9cdcfe;\">size</span> <span style=\"color:#d4d4d4;\">=</span> <span style=\"color:#ce9178;\">\"25\"</span> <span style=\"color:#9cdcfe;\">name</span> <span style=\"color:#d4d4d4;\">=</span> <span style=\"color:#ce9178;\">\"adres\"</span><span style=\"color:#808080;\">&gt;&lt;/</span><span style=\"color:#569cd6;\">p</span><span style=\"color:#808080;\">&gt;</span></div>\n<div><span style=\"color:#808080;\">     &lt;</span><span style=\"color:#569cd6;\">p</span><span style=\"color:#808080;\">&gt;&lt;</span><span style=\"color:#569cd6;\">input</span> <span style=\"color:#9cdcfe;\">type</span> <span style=\"color:#d4d4d4;\">=</span> <span style=\"color:#ce9178;\">\"text\"</span> <span style=\"color:#9cdcfe;\">size</span> <span style=\"color:#d4d4d4;\">=</span> <span style=\"color:#ce9178;\">\"25\"</span> <span style=\"color:#9cdcfe;\">name</span> <span style=\"color:#d4d4d4;\">=</span><span style=\"color:#ce9178;\">\"woonplaats\"</span><span style=\"color:#808080;\">&gt;&lt;/</span><span style=\"color:#569cd6;\">p</span><span style=\"color:#808080;\">&gt;</span></div>\n<div><span style=\"color:#808080;\">     &lt;</span><span style=\"color:#569cd6;\">p</span><span style=\"color:#808080;\">&gt;&lt;</span><span style=\"color:#569cd6;\">input</span> <span style=\"color:#9cdcfe;\">type</span> <span style=\"color:#d4d4d4;\">=</span> <span style=\"color:#ce9178;\">\"submit\"</span> <span style=\"color:#9cdcfe;\">value</span> <span style=\"color:#d4d4d4;\">=</span> <span style=\"color:#ce9178;\">\"Verstuur\"</span><span style=\"color:#808080;\">&gt;&lt;/</span><span style=\"color:#569cd6;\">p</span><span style=\"color:#808080;\">&gt;</span></div>\n<div><span style=\"color:#808080;\">   &lt;/</span><span style=\"color:#569cd6;\">form</span><span style=\"color:#808080;\">&gt;</span></div>\n<div><span style=\"color:#808080;\">  &lt;/</span><span style=\"color:#569cd6;\">body</span><span style=\"color:#808080;\">&gt;</span></div>\n<div><span style=\"color:#808080;\">&lt;/</span><span style=\"color:#569cd6;\">html</span><span style=\"color:#808080;\">&gt;</span></div>\n</div>\n<table border=\"1\">\n<tbody>\n<tr>\n<td><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/50b3165fcf8a6b8a4d2ad290c73e3c6f.jpg\" class=\"float-right\"/></td>\n</tr>\n</tbody>\n</table>\n<p><br/>\nHet formulier is als een <span>.html</span> bestand opgeslagen.<br/>\nEr staat immers geen enkele PHP-code in.</p>\n"
+                },
+                {
+                    "type": "paragraph",
+                    "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/50b3165fcf8a6b8a4d2ad290c73e3c6f.jpg\" class=\"float-right\"/></p>\n<p>Laten we de code van het formulier eens nader bekijken. Een formulier wordt altijd geopend met de tag <span><strong>&lt;form&gt;</strong></span> en afgesloten met de tag <strong><span>&lt;/form&gt;</span></strong> In de openingstag staan nog drie attributen: <strong><span>name</span>, <span>method</span></strong> en <span><strong>action</strong>.</span> Een formulier kan een naam meekrijgen. Het attribuut <strong><span>method</span></strong> zegt iets over hoe het formulier gegevens uitwisselt met de webserver. Daarvoor kan in PHP gebruik gemaakt worden van <span><strong>get</strong></span> of <strong><span>post</span></strong>. In ons voorbeeld is gekozen voor <strong><span>post</span></strong><span>.</span> Later in deze module leggen we het verschil uit. Het attribuut <strong><span>action</span></strong> heeft de waarde \"naw.php\" meegekregen. Daarmee regelen we dat bij het klikken op de knop dat de server het bestand <strong><span>naw.php</span></strong> uitvoert. De inhoud van het formulier wordt daarbij naar de pagina naw.php verzonden. Wanneer de <strong><span>action</span></strong> <span>wordt weggelaten zullen de gegevens naar de huidige pagina worden verstuurd.</span> Verder treffen we in het formulier bij de diverse invoervelden een attribuut <strong><span>name</span></strong> aan. Dit attribuut wordt gebruikt voor de naamgeving van de variabelen die gepost worden. In ons voorbeeld zijn dat: naam, adres en woonplaats. In de HTML-pagina zien we dat de gegevens uit het formulier worden gepost. Dat wil zeggen dat ze worden verstuurd naar de server en opgeslagen in een variabele array <span><strong>$_POST</strong>.</span> De variabelen <span>naam</span>, <strong><span>adres</span></strong> en <span><strong>woonplaats</strong></span> worden dus opgeslagen in de array <span><strong>$_POST</strong>.</span><br/>\n<br/>\nDe code van naw.php is:</p>\n<div>\n<div>\n<div><span style=\"color:#569cd6;\">&lt;?php</span></div>\n<div><span style=\"color:#9cdcfe;\">$naam</span> <span style=\"color:#d4d4d4;\">=</span> <span style=\"color:#9cdcfe;\">$_POST</span><span style=\"color:#d4d4d4;\">[</span><span style=\"color:#ce9178;\">\"naam\"</span><span style=\"color:#d4d4d4;\">];</span></div>\n<div><span style=\"color:#9cdcfe;\">$adres</span><span style=\"color:#d4d4d4;\">=</span> <span style=\"color:#9cdcfe;\">$_POST</span><span style=\"color:#d4d4d4;\">[</span><span style=\"color:#ce9178;\">\"adres\"</span><span style=\"color:#d4d4d4;\">];</span></div>\n<div><span style=\"color:#9cdcfe;\">$woonplaats</span> <span style=\"color:#d4d4d4;\">=</span> <span style=\"color:#9cdcfe;\">$_POST</span><span style=\"color:#d4d4d4;\">[</span><span style=\"color:#ce9178;\">\"woonplaats\"</span><span style=\"color:#d4d4d4;\">];</span></div>\n<div><span style=\"color:#569cd6;\">?</span><span style=\"color:#569cd6;\">&gt;</span></div>\n</div>\n<div><span style=\"color:#808080;\">&lt;!</span><span style=\"color:#569cd6;\">DOCTYPE</span> <span style=\"color:#9cdcfe;\">html</span><span style=\"color:#808080;\">&gt;</span></div>\n<div><span style=\"color:#808080;\">&lt;</span><span style=\"color:#569cd6;\">html</span> <span style=\"color:#9cdcfe;\">lang</span><span style=\"color:#d4d4d4;\">=</span><span style=\"color:#ce9178;\">\"nl\"</span><span style=\"color:#808080;\">&gt;</span></div>\n<div><span style=\"color:#808080;\">  &lt;</span><span style=\"color:#569cd6;\">head</span><span style=\"color:#808080;\">&gt;</span></div>\n<div><span style=\"color:#808080;\">  &lt;</span><span style=\"color:#569cd6;\">title</span><span style=\"color:#808080;\">&gt;</span><span style=\"color:#d4d4d4;\">verwerken NAW-gegevens</span><span style=\"color:#808080;\">&lt;/</span><span style=\"color:#569cd6;\">title</span><span style=\"color:#808080;\">&gt;</span></div>\n<div><span style=\"color:#808080;\">  &lt;</span><span style=\"color:#569cd6;\">meta</span> <span style=\"color:#9cdcfe;\">charset</span><span style=\"color:#d4d4d4;\">=</span><span style=\"color:#ce9178;\">\"utf-8\"</span><span style=\"color:#808080;\">&gt;</span></div>\n<div><span style=\"color:#808080;\">  &lt;/</span><span style=\"color:#569cd6;\">head</span><span style=\"color:#808080;\">&gt;</span></div>\n<div><span style=\"color:#808080;\">  &lt;</span><span style=\"color:#569cd6;\">body</span><span style=\"color:#808080;\">&gt;</span></div>\n<div><span style=\"color:#808080;\">  &lt;</span><span style=\"color:#569cd6;\">h4</span><span style=\"color:#808080;\">&gt;</span><span style=\"color:#d4d4d4;\">Je ingevulde NAW-gegevens zijn:</span><span style=\"color:#808080;\">&lt;/</span><span style=\"color:#569cd6;\">h4</span><span style=\"color:#808080;\">&gt;</span></div>\n<div><span style=\"color:#569cd6;\">  &lt;?php</span></div>\n<div><span style=\"color:#dcdcaa;\">  echo</span> <span style=\"color:#9cdcfe;\">$naam</span> <span style=\"color:#d4d4d4;\">.</span> <span style=\"color:#ce9178;\">\"&lt;br&gt;\"</span><span style=\"color:#d4d4d4;\">;</span></div>\n<div><span style=\"color:#dcdcaa;\">  echo</span> <span style=\"color:#9cdcfe;\">$adres</span> <span style=\"color:#d4d4d4;\">.</span> <span style=\"color:#ce9178;\">\"&lt;br&gt;\"</span><span style=\"color:#d4d4d4;\">;</span></div>\n<div><span style=\"color:#dcdcaa;\">  echo</span> <span style=\"color:#9cdcfe;\">$woonplaats</span> <span style=\"color:#d4d4d4;\">.</span> <span style=\"color:#ce9178;\">\"&lt;br&gt;\"</span><span style=\"color:#d4d4d4;\">;</span></div>\n<div><span style=\"color:#569cd6;\">  ?</span><span style=\"color:#569cd6;\">&gt;</span></div>\n<div><span style=\"color:#808080;\">  &lt;/</span><span style=\"color:#569cd6;\">body</span><span style=\"color:#808080;\">&gt;</span></div>\n<div><span style=\"color:#808080;\">&lt;/</span><span style=\"color:#569cd6;\">html</span><span style=\"color:#808080;\">&gt;</span></div>\n<div> </div>\n<div> </div>\n</div>\n<p>Door te klikken op de knop verstuur wordt het bestand <strong>naw.php</strong> aangeroepen en de ingevulde gegevens verwerkt.</p>\n<table border=\"1\">\n<tbody>\n<tr>\n<td><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/50b3165fcf8a6b8a4d2ad290c73e3c6f.jpg\" class=\"float-left\"/></td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<p> </p>\n"
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "7041510"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Opdracht 11",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Neem de code van het formulier over, sla deze op onder fomulier.html</p>\n<p>Neem de code van naw.php over en sla deze dan op onder naw.php</p>\n<p> </p>\n<p>bij de weergave is het veld van invoer leeg, je weet dus niet waar je nu dan de naam, adres of plaatst moet invoeren.</p>\n<p>pas dit aan zodat je als eindgebruiker weet wat je moet invoeren</p>\n<p> </p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/89aedad48415e4109d4e95c0aa51e36d86e79b81.png\" class=\"height-222-pixels width-383-pixels\"/></p>\n<p> </p>\n<p>Test deze eerst, en vul deze daarna aan met de volgende extra velden</p>\n<p><strong>Provincie</strong></p>\n<p><strong>Land</strong></p>\n<p>en test deze wederom.</p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7049500"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Opdracht 11.1",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Maak een bestand ik.php</p>\n<p>Start met een html opmaak</p>\n<p>Plaats in de body het volgende formulier:</p>\n<div>\n<div><span style=\"color:#808080;\">&lt;</span><span style=\"color:#569cd6;\">form</span> <span style=\"color:#9cdcfe;\">method</span><span style=\"color:#d4d4d4;\">=</span><span style=\"color:#ce9178;\">\"post\"</span><span style=\"color:#808080;\">&gt;</span></div>\n<div><span style=\"color:#808080;\">  &lt;</span><span style=\"color:#569cd6;\">p</span><span style=\"color:#808080;\">&gt;&lt;</span><span style=\"color:#569cd6;\">input</span> <span style=\"color:#9cdcfe;\">type</span><span style=\"color:#d4d4d4;\">=</span><span style=\"color:#ce9178;\">\"text\"</span> <span style=\"color:#9cdcfe;\">name</span><span style=\"color:#d4d4d4;\">=</span><span style=\"color:#ce9178;\">\"naam\"</span> <span style=\"color:#9cdcfe;\">placeholder</span><span style=\"color:#d4d4d4;\">=</span><span style=\"color:#ce9178;\">\"Naam\"</span><span style=\"color:#808080;\">&gt;&lt;/</span><span style=\"color:#569cd6;\">p</span><span style=\"color:#808080;\">&gt;</span></div>\n<div><span style=\"color:#808080;\">  &lt;</span><span style=\"color:#569cd6;\">p</span><span style=\"color:#808080;\">&gt;&lt;</span><span style=\"color:#569cd6;\">input</span> <span style=\"color:#9cdcfe;\">type</span><span style=\"color:#d4d4d4;\">=</span><span style=\"color:#ce9178;\">\"number\"</span> <span style=\"color:#9cdcfe;\">name</span><span style=\"color:#d4d4d4;\">=</span><span style=\"color:#ce9178;\">\"leeftijd\"</span> <span style=\"color:#9cdcfe;\">placeholder</span><span style=\"color:#d4d4d4;\">=</span><span style=\"color:#ce9178;\">\"Leeftijd\"</span><span style=\"color:#808080;\">&gt;&lt;/</span><span style=\"color:#569cd6;\">p</span><span style=\"color:#808080;\">&gt;</span></div>\n<div><span style=\"color:#808080;\">  &lt;</span><span style=\"color:#569cd6;\">p</span><span style=\"color:#808080;\">&gt;&lt;</span><span style=\"color:#569cd6;\">input</span> <span style=\"color:#9cdcfe;\">type</span><span style=\"color:#d4d4d4;\">=</span><span style=\"color:#ce9178;\">\"text\"</span> <span style=\"color:#9cdcfe;\">name</span><span style=\"color:#d4d4d4;\">=</span><span style=\"color:#ce9178;\">\"sport\"</span> <span style=\"color:#9cdcfe;\">placeholder</span><span style=\"color:#d4d4d4;\">=</span><span style=\"color:#ce9178;\">\"Sport\"</span><span style=\"color:#808080;\">&gt;&lt;/</span><span style=\"color:#569cd6;\">p</span><span style=\"color:#808080;\">&gt;</span></div>\n<div><span style=\"color:#808080;\">  &lt;</span><span style=\"color:#569cd6;\">p</span><span style=\"color:#808080;\">&gt;&lt;</span><span style=\"color:#569cd6;\">input</span> <span style=\"color:#9cdcfe;\">type</span><span style=\"color:#d4d4d4;\">=</span><span style=\"color:#ce9178;\">\"submit\"</span> <span style=\"color:#9cdcfe;\">value</span><span style=\"color:#d4d4d4;\">=</span><span style=\"color:#ce9178;\">\"verstuur\"</span><span style=\"color:#808080;\">&gt;&lt;/</span><span style=\"color:#569cd6;\">p</span><span style=\"color:#808080;\">&gt;</span></div>\n<div><span style=\"color:#808080;\">&lt;/</span><span style=\"color:#569cd6;\">form</span><span style=\"color:#808080;\">&gt;</span></div>\n</div>\n<p>Omdat het formulier geen <span>action</span> <span>heeft zullen de gegevens naar ik.php worden verstuurd.</span></p>\n<p><span>Voeg helemaal boven aan een stukje php code toe die alle waardes die zijn verstuurd omzetten in een variabele. Hieronder is alvast een begin gemaakt.</span></p>\n<div>\n<div><span style=\"color:#569cd6;\">&lt;?php</span></div>\n<div><span style=\"color:#9cdcfe;\">$naam</span> <span style=\"color:#d4d4d4;\">=</span> <span style=\"color:#9cdcfe;\">$_POST</span><span style=\"color:#d4d4d4;\">[</span><span style=\"color:#ce9178;\">'naam'</span><span style=\"color:#d4d4d4;\">];</span></div>\n<div><span style=\"color:#9cdcfe;\">$leeftijd</span> <span style=\"color:#d4d4d4;\">=</span></div>\n<div><span style=\"color:#569cd6;\">?</span><span style=\"color:#569cd6;\">&gt;</span></div>\n</div>\n<p> </p>\n<p>Hierna kan je een nieuw stukje php code toevoegen in de body, waarin de zin komt te staan.</p>\n<p>Ik ben &lt;naam&gt;, ben &lt;leeftijd&gt; jaar oud en doe graag &lt;sport&gt;.</p>\n<p>Hierbij worden natuurlijk de stukjes tussen &lt; &gt; vervangen door de verstuurde waardes.</p>\n<p> </p>\n<p>Als je de pagina voor de eerste keer opent heeft de $_POST nog geen inhoud. Dit zal een foutmelding geven bij <span style=\"color:#9cdcfe;\">$naam</span> <span style=\"color:#d4d4d4;\">=</span> <span style=\"color:#9cdcfe;\">$_POST</span><span style=\"color:#d4d4d4;\">[</span><span style=\"color:#ce9178;\">'naam'</span><span style=\"color:#d4d4d4;\">];</span>. Na het versturen van je formulier zal de foutmelding verdwijnen omdat de $_POST nu wel inhoud heeft.</p>\n<p>Je kan deze fout eenvoudig vermijden door onderstaande IF toe te voegen.</p>\n<div>\n<div><span style=\"color:#c586c0;\">if</span><span style=\"color:#d4d4d4;\">(</span><span style=\"color:#9cdcfe;\">$_POST</span><span style=\"color:#d4d4d4;\">!=</span><span style=\"color:#569cd6;\">null</span><span style=\"color:#d4d4d4;\">){</span></div>\n<div><span style=\"color:#6a9955;\"> </span> <span style=\"color:#9cdcfe;\">$naam</span> <span style=\"color:#d4d4d4;\">=</span> <span style=\"color:#9cdcfe;\">$_POST</span><span style=\"color:#d4d4d4;\">[</span><span style=\"color:#ce9178;\">'naam'</span><span style=\"color:#d4d4d4;\">];</span></div>\n<div><span style=\"color:#d4d4d4;\">  //.. nog meer code</span></div>\n<div><span style=\"color:#d4d4d4;\">}</span></div>\n</div>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "7049514"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Formulieren gebruiken-2",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/50b3165fcf8a6b8a4d2ad290c73e3c6f.jpg\" class=\"float-right\"/></p>\n<p>In de code van <span>naw.php</span> staat <span>$naam = $_POST[\"naam\"];</span>. Wanneer gegevens uit een formulier worden verwerkt met de methode post zijn deze variabelen daarna beschikbaar in de globale array <span>$_POST</span>. We kunnen door de regel <span>$naam = $_POST[\"naam\"];</span> aan een variabele $naam de waarde toekennen van de tekst die we in dit geval in het eerste tekstveld hebben ingevoerd. In het HTML-formulier wordt name gebruikt voor de naamgeving van de variabelen in de array. De code <span>name = \"naam\"</span> zorgt ervoor dat in het PHP-script dat het formulier verwerkt de variabele <span>$_POST[\"naam\"]</span> beschikbaar is.<br/>\n<br/>\nHet formulier, waarin de naw-gegevens worden ingevuld, is een voorbeeld van een eenvoudig formulier. Bij formulieren die wat groter zijn, kan de HTML-tag <span>&lt;fieldset&gt;</span> gebruikt worden om delen die bij elkaar horen te groeperen. Daardoor oogt alles wat overzichtelijker. We kunnen aan een <span>fieldset</span> een naam geven door gebruik te maken van het HTML-element legend:</p>\n<div>\n<div><span style=\"color:#808080;\">&lt;!</span><span style=\"color:#569cd6;\">DOCTYPE</span> <span style=\"color:#9cdcfe;\">html</span><span style=\"color:#808080;\">&gt;</span></div>\n<div><span style=\"color:#808080;\">&lt;</span><span style=\"color:#569cd6;\">html</span> <span style=\"color:#9cdcfe;\">lang</span><span style=\"color:#d4d4d4;\">=</span><span style=\"color:#ce9178;\">\"nl\"</span><span style=\"color:#808080;\">&gt;</span></div>\n<div><span style=\"color:#808080;\">  &lt;</span><span style=\"color:#569cd6;\">head</span><span style=\"color:#808080;\">&gt;</span></div>\n<div><span style=\"color:#808080;\">   &lt;</span><span style=\"color:#569cd6;\">title</span><span style=\"color:#808080;\">&gt;</span><span style=\"color:#d4d4d4;\">invoeren NAW-gegevens</span><span style=\"color:#808080;\">&lt;/</span><span style=\"color:#569cd6;\">title</span><span style=\"color:#808080;\">&gt;</span></div>\n<div><span style=\"color:#808080;\">   &lt;</span><span style=\"color:#569cd6;\">meta</span> <span style=\"color:#9cdcfe;\">charset</span><span style=\"color:#d4d4d4;\">=</span><span style=\"color:#ce9178;\">\"utf-8\"</span><span style=\"color:#808080;\">&gt;</span></div>\n<div><span style=\"color:#808080;\">  &lt;/</span><span style=\"color:#569cd6;\">head</span><span style=\"color:#808080;\">&gt;</span></div>\n<div><span style=\"color:#808080;\">  &lt;</span><span style=\"color:#569cd6;\">body</span><span style=\"color:#808080;\">&gt;</span></div>\n<div><span style=\"color:#808080;\">   &lt;</span><span style=\"color:#569cd6;\">form</span> <span style=\"color:#9cdcfe;\">name</span><span style=\"color:#d4d4d4;\">=</span><span style=\"color:#ce9178;\">\"form1\"</span> <span style=\"color:#9cdcfe;\">method</span><span style=\"color:#d4d4d4;\">=</span><span style=\"color:#ce9178;\">\"post\"</span> <span style=\"color:#9cdcfe;\">action</span><span style=\"color:#d4d4d4;\">=</span><span style=\"color:#ce9178;\">\"naw-php\"</span><span style=\"color:#808080;\">&gt;</span></div>\n<div><span style=\"color:#808080;\">     &lt;</span><span style=\"color:#569cd6;\">p</span><span style=\"color:#808080;\">&gt;</span><span style=\"color:#d4d4d4;\">Vul hieronder je naam, adres en woonplaats in:</span><span style=\"color:#808080;\">&lt;/</span><span style=\"color:#569cd6;\">p</span><span style=\"color:#808080;\">&gt;</span></div>\n<div><span style=\"color:#808080;\">     &lt;</span><span style=\"color:#569cd6;\">fieldset</span><span style=\"color:#808080;\">&gt;</span></div>\n<div><span style=\"color:#808080;\">       &lt;</span><span style=\"color:#569cd6;\">legend</span><span style=\"color:#808080;\">&gt;</span><span style=\"color:#d4d4d4;\">mijn gegevens</span><span style=\"color:#808080;\">&lt;/</span><span style=\"color:#569cd6;\">legend</span><span style=\"color:#808080;\">&gt;</span></div>\n<div><span style=\"color:#808080;\">       &lt;</span><span style=\"color:#569cd6;\">p</span><span style=\"color:#808080;\">&gt;&lt;</span><span style=\"color:#569cd6;\">input</span> <span style=\"color:#9cdcfe;\">type</span> <span style=\"color:#d4d4d4;\">=</span> <span style=\"color:#ce9178;\">\"text\"</span> <span style=\"color:#9cdcfe;\">placeholder</span><span style=\"color:#d4d4d4;\">=</span><span style=\"color:#ce9178;\">\"Naam\"</span> <span style=\"color:#9cdcfe;\">name</span> <span style=\"color:#d4d4d4;\">=</span><span style=\"color:#ce9178;\">\"naam\"</span><span style=\"color:#808080;\">&gt;&lt;/</span><span style=\"color:#569cd6;\">p</span><span style=\"color:#808080;\">&gt;</span></div>\n<div><span style=\"color:#808080;\">       &lt;</span><span style=\"color:#569cd6;\">p</span><span style=\"color:#808080;\">&gt;&lt;</span><span style=\"color:#569cd6;\">input</span> <span style=\"color:#9cdcfe;\">type</span> <span style=\"color:#d4d4d4;\">=</span> <span style=\"color:#ce9178;\">\"text\"</span> <span style=\"color:#9cdcfe;\">placeholder</span><span style=\"color:#d4d4d4;\">=</span><span style=\"color:#ce9178;\">\"Adres\"</span> <span style=\"color:#9cdcfe;\">name</span> <span style=\"color:#d4d4d4;\">=</span><span style=\"color:#ce9178;\">\"adres\"</span><span style=\"color:#808080;\">&gt;&lt;/</span><span style=\"color:#569cd6;\">p</span><span style=\"color:#808080;\">&gt;</span></div>\n<div><span style=\"color:#808080;\">       &lt;</span><span style=\"color:#569cd6;\">p</span><span style=\"color:#808080;\">&gt;&lt;</span><span style=\"color:#569cd6;\">input</span> <span style=\"color:#9cdcfe;\">type</span> <span style=\"color:#d4d4d4;\">=</span> <span style=\"color:#ce9178;\">\"text\"</span> <span style=\"color:#9cdcfe;\">placeholder</span><span style=\"color:#d4d4d4;\">=</span><span style=\"color:#ce9178;\">\"Woonplaats\"</span> <span style=\"color:#9cdcfe;\">name</span> <span style=\"color:#d4d4d4;\">=</span><span style=\"color:#ce9178;\">\"woonplaats\"</span><span style=\"color:#808080;\">&gt;&lt;/</span><span style=\"color:#569cd6;\">p</span><span style=\"color:#808080;\">&gt;</span></div>\n<div><span style=\"color:#808080;\">     &lt;/</span><span style=\"color:#569cd6;\">fieldset</span><span style=\"color:#808080;\">&gt;</span></div>\n<div><span style=\"color:#808080;\">     &lt;</span><span style=\"color:#569cd6;\">p</span><span style=\"color:#808080;\">&gt;&lt;</span><span style=\"color:#569cd6;\">input</span> <span style=\"color:#9cdcfe;\">type</span> <span style=\"color:#d4d4d4;\">=</span> <span style=\"color:#ce9178;\">\"submit\"</span> <span style=\"color:#9cdcfe;\">value</span> <span style=\"color:#d4d4d4;\">=</span> <span style=\"color:#ce9178;\">\"Verstuur\"</span><span style=\"color:#808080;\">&gt;&lt;/</span><span style=\"color:#569cd6;\">p</span><span style=\"color:#808080;\">&gt;</span></div>\n<div><span style=\"color:#808080;\">   &lt;/</span><span style=\"color:#569cd6;\">form</span><span style=\"color:#808080;\">&gt;</span></div>\n<div><span style=\"color:#808080;\">  &lt;/</span><span style=\"color:#569cd6;\">body</span><span style=\"color:#808080;\">&gt;</span></div>\n<div><span style=\"color:#808080;\">&lt;/</span><span style=\"color:#569cd6;\">html</span><span style=\"color:#808080;\">&gt;</span></div>\n</div>\n"
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "7049650"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Opdracht 11.2",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p> </p>\n<p>Maak een bestand hoofdstad.php</p>\n<p>Maak een formulier met een <span>radio</span> buttons zoals hieronder</p>\n<p> </p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/8/83348ea73f4a07a58f7bfdf1c3d79115c6ecc03c.png\" class=\"height-250-pixels width-391-pixels\"/></p>\n<p> </p>\n<p>Om te kijken of iets verstuurd is in je script kan je gebruik maken van<br/>\nVerstuur het antwoord naar hetzelfde bestand (laat de <span>action</span> dus leeg</p>\n<p> </p>\n<div>\n<div>\n<div><span style=\"color:#c586c0;\">if</span><span style=\"color:#d4d4d4;\">(</span><span style=\"color:#9cdcfe;\">$_POST</span><span style=\"color:#d4d4d4;\">!=</span><span style=\"color:#569cd6;\">null</span><span style=\"color:#d4d4d4;\">){</span></div>\n<div><span style=\"color:#6a9955;\">  //hier jou code</span></div>\n<div><span style=\"color:#d4d4d4;\">}</span></div>\n</div>\n<div> </div>\n<div>Zorg ervoor dat onder je formulier de volgende tekst op het scherm wordt geschreven.</div>\n<div>Je antwoord op de vraag was: <strong>Maastricht</strong></div>\n</div>\n<p><br/>\nPas de afhandeling zo aan dat er ook nog wordt gecheckt of het antwoord goed is. Daarvoor heb je een if-else-constructie:</p>\n<p>Als het antwoord fout is verschijnt de output:<br/>\n<br/>\n     Je antwoord op de vraag was: <strong>Maastricht</strong><br/>\n     Dat is helaas niet goed!<br/>\n<br/>\nAls het antwoord goed is verschijnt de output:<br/>\n<br/>\n      Je antwoord op de vraag was: <strong>Maastricht</strong><br/>\n     Goed geantwoord!</p>\n<p><br/>\ntest beide bestanden in je Root UsbWebserver</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/c/c6ea0fdae0dacdc4b1df3e5abbbb3551b66ae711.png\" class=\"height-329-pixels width-500-pixels\"/></p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "7049683"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "PHP en databases",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "7049684"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Inleiding",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/50b3165fcf8a6b8a4d2ad290c73e3c6f.jpg\" class=\"float-right\"/></p>\n<p>In dit onderdeel bespreken we hoe PHP gebruikt kan worden voor het benaderen van een database. Veel websites, bijvoorbeeld die van webwinkels, hebben toegang tot grote hoeveelheden gegevens die zijn opgeslagen in een database. Met PHP kunnen gegevens worden opgevraagd, veranderd of worden weggeschreven naar een database. We gebruiken daarvoor PHP in combinatie met <strong>MySQL</strong>. MySQL is een database system. Onder een <strong>database system</strong> verstaan we het programma waarmee bewerkingen op een database kunnen worden uitgevoerd en de database, dus de gegevens, zelf. Een programma waarmee bewerkingen op een database kunnen worden uitgevoerd, noemen we een <strong>database management system</strong> ofwel <strong>DBMS</strong>. In de interactieve module databases heb je gezien hoe je met de vraagtaal <strong>SQL</strong> (<strong>Structured Query Language</strong>) gegevens uit een database kunt opvragen. Het is mogelijk om SQL-opdrachten in combinatie met PHP te gebruiken om gegevens uit een database op te vragen in een webpagina of vanuit een webpagina weg te schrijven naar een database.<br/>\n<br/>\nVoor MySQL zijn diverse programma's beschikbaar waarmee de database benaderd kan worden. Het meest gebruikte DBMS voor MYSQL is <strong>phpMyAdmin</strong>. In phpMyAdmin kan een database, inclusief de daarbij behorende tabellen, worden aangemaakt. Daarnaast is het mogelijk om allerlei bewerkingen op de database uit te voeren en de rechten van gebruikers vast te leggen.<br/>\n </p>\n<p><br/>\nWij gebruiken USBWebserver waarbij de database en PHP gebruikt kunnen worden. Eventueel kan je XAMPP gebruiken. Bij de meeste webhosting pakketten is PHP en MySQL al voor ge\u00efnstalleerd. En dit is ook een optie (alleen dit is niet gratis)</p>\n<p> </p>\n<p>Voor de opdrachten zullen we gebruik maken database <strong><span>film</span></strong>.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7061365"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Eerste voorbereiding",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>We gaan als eerste controleren of we toegang hebben tot de database</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/a/a9fe57238be27b142d0fc426c88ce5b5276beac5.png\" class=\"height-308-pixels width-598-pixels\"/></p>\n<p>Is dit zichtbaar met de groene vinkjes. Dan hebben we een werkende \"webserver\"</p>\n<p> </p>\n<p>Klik op Mysql, en daarna op settings</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/3/3ca090b022c8e15dff3309f7b443f1b76e41fdc3.png\" class=\"height-277-pixels width-599-pixels\"/></p>\n<p>Open deze met \"kladblok\" of Notepad++</p>\n<p>Zoek deze regel op</p>\n<p><strong>#password    = </strong></p>\n<p>en verander deze in</p>\n<p><strong>password    = usbw</strong></p>\n<p>En sla deze op(gewoon op opslaan klikken)</p>\n<p>Herstart nu je server en klik dan op \"PHPMyadmin</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/4/48e470f2d02d9b6b4db8a37895d31b113b622879.png\" class=\"height-259-pixels width-542-pixels\"/></p>\n<p> </p>\n<p>Log nu in met de geactiveerde inlog gegevens</p>\n<p>root</p>\n<p>usbw</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/c/ca656260aa9ad4ff1a983974d33ccf6037186086.png\" class=\"height-456-pixels width-695-pixels\"/></p>\n<p> </p>\n<p>Als het goed is zie dan onderstaand beeld</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/5ac4cdd44f5bf25903818b63acd4182829e535f6.png\" class=\"height-278-pixels width-1169-pixels\"/></p>\n<p> </p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7061402"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Database maken",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>We gaan nu een DataBase maken</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/7/70dd5738af7101c19009aa7674f1d8328bc21bed.png\" class=\"height-199-pixels width-801-pixels\"/></p>\n<p> </p>\n<p>Vul hier in Film</p>\n<p>en klik op aanmaken, dat gaat heel snel en je hebt dan een lege Database gemaakt. </p>\n<p>Nu gaan we deze vullen met tabellen. Klik op SQL bovenaan  bij de opties</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/c/c9d9a7083687b1dc81b08509df00973969c9feaf.png\" class=\"height-338-pixels width-1086-pixels\"/></p>\n<p>en kopieer in het witte vak onderstaand tekst</p>\n<p> </p>\n<p>-- phpMyAdmin SQL Dump<br/>\n-- version 3.3.0<br/>\n-- http://www.phpmyadmin.net<br/>\n--<br/>\n-- Machine: localhost<br/>\n-- Genereertijd: 14 Feb 2022 om 08:21<br/>\n-- Serverversie: 5.1.44<br/>\n-- PHP-Versie: 5.2.13</p>\n<p>SET SQL_MODE=\"NO_AUTO_VALUE_ON_ZERO\";</p>\n<p><br/>\n/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;<br/>\n/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;<br/>\n/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;<br/>\n/*!40101 SET NAMES utf8 */;</p>\n<p>--<br/>\n-- Database: `film`<br/>\n--</p>\n<p>-- --------------------------------------------------------</p>\n<p>--<br/>\n-- Tabelstructuur voor tabel `films`<br/>\n--</p>\n<p>CREATE TABLE IF NOT EXISTS `films` (<br/>\n  `id` int(5) NOT NULL,<br/>\n  `filmnr` int(5) NOT NULL,<br/>\n  `titel` varchar(40) NOT NULL,<br/>\n  `regisseurnr` int(5) NOT NULL,<br/>\n  `jaar` int(5) NOT NULL,<br/>\n  `genre` varchar(40) NOT NULL,<br/>\n  `tijdsduur` int(5) NOT NULL<br/>\n) ENGINE=MyISAM DEFAULT CHARSET=latin1;</p>\n<p>--<br/>\n-- Gegevens worden uitgevoerd voor tabel `films`<br/>\n--</p>\n<p>INSERT INTO `films` (`id`, `filmnr`, `titel`, `regisseurnr`, `jaar`, `genre`, `tijdsduur`) VALUES<br/>\n(1, 12, 'Reacher', 23, 2005, 'actie', 90),<br/>\n(3, 13, 'The Way of the Gun', 23, 2000, 'actie', 90),<br/>\n(2, 10, 'Avatar', 12, 2017, 'actie', 85);<br/>\n </p>\n<p>Helemaal rechts zie je dan \"Start\" staan, klik hier dan op</p>\n<p>Als alles goed is gegaan zie je dan dit beeld</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/13b102b4ce2b20e85621101bfc2fca86b6849c09.png\" class=\"height-204-pixels width-586-pixels\"/></p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7049686"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Benaderen database",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/50b3165fcf8a6b8a4d2ad290c73e3c6f.jpg\" class=\"float-right\"/></p>\n<p>Met PHP kunnen we gegevens uit een database opvragen of gegevens aan een database toevoegen. Dit proces verloopt in drie fasen:</p>\n<ol start=\"1\">\n<li>Als eerste maken we contact met de database server via Database Management Services en wordt de juiste database geselecteerd.</li>\n<li>Daarna wordt een query uitgevoerd die de resultaten weergeeft in een webpagina (in ons geval in een editor) of data wegschrijft naar de gekozen database.</li>\n<li>Tot slot wordt de verbinding met de database server verbroken.</li>\n</ol>\n<p>PHP heeft voor elk DBMS (Database Management System) een set database functies waarmee het kan werken.<br/>\nIn ons geval kijken we alleen maar naar de MySQL server.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7049689"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Belangrijke functie- Connect",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/50b3165fcf8a6b8a4d2ad290c73e3c6f.jpg\" class=\"float-right\"/></p>\n<p><strong>Functie mysqli_connect()</strong><br/>\n<br/>\nVoordat we bewerkingen op een database kunnen uitvoeren, moet er eerst een verbinding met de server gemaakt worden en zal de gewenste database geselecteerd moeten worden. In een DBMS kunnen meerdere databases inclusief de daarbij behorende tabellen aanwezig zijn.<br/>\n<br/>\nOm verbinding met de databaseserver te maken, hebben we een hostnaam, een gebruikersnaam en een wachtwoord nodig. Daarnaast moeten we ook de naam van de database opgeven.<br/>\n<br/>\nDe functie die daarvoor gebruikt wordt, is <strong><span>mysqli_connect()</span></strong>. Het format van deze functie is:</p>\n<pre>&#13;\n<span class=\"font-size-14px\"><span style=\"color:rgb(152, 118, 170);\">$link </span>= mysqli_connect(<span style=\"color:rgb(152, 118, 170);\">$host</span><span style=\"color:rgb(204, 120, 50);\">,</span><span style=\"color:rgb(152, 118, 170);\">$user</span><span style=\"color:rgb(204, 120, 50);\">,</span><span style=\"color:rgb(152, 118, 170);\">$password</span><span style=\"color:rgb(204, 120, 50);\">,</span><span style=\"color:rgb(152, 118, 170);\">$database</span>)&#13;\n  <span style=\"color:rgb(204, 120, 50);\">or die</span>(mysqli_connect_error())<span style=\"color:rgb(204, 120, 50);\">;</span></span></pre>\n<p>De <strong>' or die(mysqli_connect_error())</strong> kan ook weggelaten worden. Maar dit geeft een duidelijke foutmelding als er geen verbinding kan worden gemaakt. Zeker in het begin erg handig.</p>\n<p>Boven aan het scipt van \"<strong> or die(mysqli_connect_error()) \" </strong>vul je onderstaand voorbeeld in.</p>\n<pre>&#13;\n<span class=\"font-size-14px\"><span style=\"color:rgb(152, 118, 170);\">$host </span>= <span style=\"color:rgb(106, 135, 89);\">\"localhost\"</span><span style=\"color:rgb(204, 120, 50);\">;&#13;\n</span><span style=\"color:rgb(152, 118, 170);\">$user </span>= <span style=\"color:rgb(106, 135, 89);\">\"root\"</span><span style=\"color:rgb(204, 120, 50);\">;&#13;\n</span><span style=\"color:rgb(152, 118, 170);\">$password </span>= <span style=\"color:rgb(106, 135, 89);\">\"usbw\"</span><span style=\"color:rgb(204, 120, 50);\">;&#13;\n</span><span style=\"color:rgb(152, 118, 170);\">$database </span>= <span style=\"color:rgb(106, 135, 89);\">\"film\"</span><span style=\"color:rgb(204, 120, 50);\">;</span></span></pre>\n<p>Het script start met het contact leggen met de databaseserver en het selecteren van de database. Daarvoor worden de hostnaam, de gebruikersnaam, het wachtwoord en de naam van de database doorgegeven aan MySQL.<br/>\n<br/>\nDe functie zorgt er vervolgens voor dat een foutmelding in beeld wordt gebracht als er om de een of andere reden geen verbinding met het DBMS tot stand gebracht kan worden.<br/>\nDat kan in de trant van: verkeerd wachtwoord, verkeerde gebruikersnaam, DBMS is niet op de computer aangetroffen.<br/>\n<br/>\nWordt de verbinding wel tot stand gebracht, dan volgt de mededeling \"De verbinding met de database is tot stand gebracht\". Of je krijgt gelijk resultaat in je website te zien.<br/>\n<br/>\nVoor het verbreken van de connectie met de MySQL server kan de functie <span>mysqli_close()</span> worden gebruikt.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7049700"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Opdracht 12 maken connect_film.php",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/50b3165fcf8a6b8a4d2ad290c73e3c6f.jpg\" class=\"float-right\"/></p>\n<p>In deze opdracht ga je PHP-code schrijven voor het maken van een verbinding met de database Film.<br/>\n<br/>\nVoor het opzetten van een verbinding met de database Nederland heb je de onderstaande gegevens nodig:<br/>\n<br/>\nDeze heb je in voorgaande uitleg al gezien en bekeken.</p>\n<table border=\"0\" cellpadding=\"5\" cellspacing=\"0\" class=\"width-0-pixels\">\n<tbody>\n<tr>\n<td><span>Host:</span></td>\n<td><span>localhost</span></td>\n</tr>\n<tr>\n<td><span>Gebruikersnaam:</span></td>\n<td><span>root</span></td>\n</tr>\n<tr>\n<td><span>Wachtwoord:</span></td>\n<td><span>usbw</span></td>\n</tr>\n<tr>\n<td><span>Database:</span></td>\n<td><span>film</span></td>\n</tr>\n</tbody>\n</table>\n<p><br/>\nMaak een bestand <span>connect_film.php</span> Schrijf de PHP-code voor het leggen van een verbinding met de database film. Gebruik geen HTML in dit bestand. Als de verbinding tot stand gebracht kan worden, krijg je te zien \"verbinding gemaakt\", of je ziet gelijk waarde van de ingevoerde .SQL tabellen</p>\n<p>Als de verbinding mislukt is dan moet er een error verschijnen.</p>\n<p><strong>Je maakt dus een bestand genaamd connect_film.php</strong></p>\n<p>Daarin neem je op wat hieronder staat</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/f/fa4b5ffb2af83289e8218dbe382e7dd9281bacbd.png\" class=\"height-198-pixels width-462-pixels\"/></p>\n<p><br/>\nAls dit werkt, dan zie je niks.<br/>\nEn dat is goed ;-)</p>\n<p> </p>\n<p> </p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7090389"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Belangrijke functies - Query",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/5/50b3165fcf8a6b8a4d2ad290c73e3c6f.jpg\" class=\"float-right\"/></p>\n<p><strong>Functie mysqli_query()</strong><br/>\n<br/>\nNadat we de juiste database hebben geselecteerd, gebruiken we de functie mysqli_query() om queries naar de database te sturen.<br/>\n<br/>\nHet format van deze functie is:</p>\n<pre>&#13;\n<span class=\"font-size-14px\"><span style=\"color:rgb(152, 118, 170);\">$result </span>= mysqli_query(<span style=\"color:rgb(152, 118, 170);\">$link</span><span style=\"color:rgb(204, 120, 50);\">, </span><span style=\"color:rgb(152, 118, 170);\">$query</span>)<span style=\"color:rgb(204, 120, 50);\">;</span></span></pre>\n<p><br/>\nDe functie stuurt als resultaat alle rijen van een tabel uit een database terug die de uitkomst vormen van de opgegeven query.<br/>\n<br/>\nWe kunnen nu een SELECT query maken:</p>\n<pre>&#13;\n<span class=\"font-size-14px\"><span style=\"color:rgb(128, 128, 128);\">//verbinding maken met de database&#13;\n</span><span style=\"color:rgb(204, 120, 50);\">include </span><span style=\"color:rgb(106, 135, 89);\">\"connect_film.php\"</span><span style=\"color:rgb(204, 120, 50);\">;&#13;\n</span>&#13;\n<span style=\"color:rgb(152, 118, 170);\">$query </span>= <span style=\"color:rgb(106, 135, 89);\">\"SELECT </span><span style=\"color:rgb(255, 198, 109);\">*</span><span style=\"color:rgb(106, 135, 89);\"> FROM films ORDER BY titel\"</span><span style=\"color:rgb(204, 120, 50);\">;&#13;\n</span><span style=\"color:rgb(152, 118, 170);\">$result </span>= mysqli_query(<span style=\"color:rgb(152, 118, 170);\">$link</span><span style=\"color:rgb(204, 120, 50);\">, </span><span style=\"color:rgb(152, 118, 170);\">$query</span>)<span style=\"color:rgb(204, 120, 50);\">;</span></span></pre>"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7090392"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Belangrijke functies - Array",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Elke kolom van een rij wordt benaderd met een array notatie:<br/>\nDe eerste kolom is <span>$row[\"filmnr\"]</span> <span>of</span> <span>$row[0]</span><br/>\nDe tweede kolom is <span>$row[\"titel\"]</span> <span>of</span> <span>$row[1]</span></p>\n<p>Bij gebruik van <span>mysqli_fetch_array</span> kan zowel een key als kolomnummer worden gebruikt. Bij <span>mysqli_fetch_assoc</span> kan alleen een key worden gebruikt.<br/>\nOm nu de eerste kolom van alle rijen van de uitkomst van een query in beeld te brengen, gebruik je de volgende code:</p>\n<div>\n<hr/>\n         while($row = mysqli_fetch_assoc($result)) {<br/>\n              echo $row[\"titel\"] . \"&lt;br&gt;\\n\";<br/>\n         }\n<hr/></div>\n<p><br/>\nWe zullen alle tot nu toe behandelde functies eens in een compleet voorbeeld laten zien. Daarin maken we contact met de database <span>film</span> en voeren we een query op deze database uit waarmee we alles uit de tabel <span>films</span> selecteren. De gegevens worden oplopend gesorteerd op naam van de provincie. Het resultaat, een tabel, wordt op het scherm afgebeeld.</p>\n<p><br/>\nDe code hiervoor is:</p>\n<pre>&#13;\n<span style=\"color:#e8bf6a;\">&lt;!DOCTYPE </span><span style=\"color:#bababa;\">html</span><span style=\"color:#e8bf6a;\">&gt;&#13;\n</span><span style=\"color:#e8bf6a;\">&lt;html </span><span style=\"color:#bababa;\">lang</span><span style=\"color:#a5c261;\">=\"nl\"</span><span style=\"color:#e8bf6a;\">&gt;&#13;\n</span><span style=\"color:#e8bf6a;\">&lt;head&gt;&#13;\n</span><span style=\"color:#e8bf6a;\">    &lt;title&gt;</span>overzicht films<span style=\"color:#e8bf6a;\">&lt;/title&gt;&#13;\n</span><span style=\"color:#e8bf6a;\">    &lt;meta </span><span style=\"color:#bababa;\">charset</span><span style=\"color:#a5c261;\">=\"utf-8\"</span><span style=\"color:#e8bf6a;\">&gt;&#13;\n</span><span style=\"color:#e8bf6a;\">&lt;/head&gt;&#13;\n</span><span style=\"color:#e8bf6a;\">&lt;body&gt;&#13;\n</span><span style=\"color:#e8bf6a;\">&lt;h3&gt;</span>Een overzicht van alle films<span style=\"color:#e8bf6a;\">&lt;/h3&gt;&#13;\n</span><span style=\"color:#e8bf6a;\">&lt;table </span><span style=\"color:#bababa;\">border</span><span style=\"color:#a5c261;\">=\"1\" </span><span style=\"color:#bababa;\">cellpadding</span><span style=\"color:#a5c261;\">=\"3\"</span><span style=\"color:#e8bf6a;\">&gt;&#13;\n</span><span style=\"color:#e8bf6a;\">    &lt;tr&gt;&#13;\n</span><span style=\"color:#e8bf6a;\">        &lt;th&gt;</span>filmnr<span style=\"color:#e8bf6a;\">&lt;/th&gt;&#13;\n</span><span style=\"color:#e8bf6a;\">        &lt;th&gt;</span>titel<span style=\"color:#e8bf6a;\">&lt;/th&gt;&#13;\n</span><span style=\"color:#e8bf6a;\">        &lt;th&gt;</span>regisseurnr<span style=\"color:#e8bf6a;\">&lt;/th&gt;&#13;\n</span><span style=\"color:#e8bf6a;\">        &lt;th&gt;</span>jaar<span style=\"color:#e8bf6a;\">&lt;/th&gt;&#13;\n</span><span style=\"color:#e8bf6a;\">        &lt;th&gt;</span>genre<span style=\"color:#e8bf6a;\">&lt;/th&gt;&#13;\n</span><span style=\"color:#e8bf6a;\">        &lt;th&gt;</span>tijdsduur<span style=\"color:#e8bf6a;\">&lt;/th&gt;&#13;\n</span><span style=\"color:#e8bf6a;\">    &lt;/tr&gt;&#13;\n</span><span style=\"color:#e8bf6a;\">    </span><span style=\"color:rgb(204, 120, 50);\">&lt;?php&#13;\n</span><span style=\"color:rgb(204, 120, 50);\">    include </span><span style=\"color:rgb(106, 135, 89);\">\"connect_film.php\"</span><span style=\"color:rgb(204, 120, 50);\">;&#13;\n</span>&#13;\n&#13;\n<span style=\"color:rgb(204, 120, 50);\">    </span><span style=\"color:rgb(152, 118, 170);\">$query </span>= <span style=\"color:rgb(106, 135, 89);\">\"SELECT </span><span style=\"color:rgb(255, 198, 109);\">*</span><span style=\"color:rgb(106, 135, 89);\"> FROM films ORDER BY titel\"</span><span style=\"color:rgb(204, 120, 50);\">;&#13;\n</span><span style=\"color:rgb(204, 120, 50);\">    </span><span style=\"color:rgb(152, 118, 170);\">$result </span>= mysqli_query(<span style=\"color:rgb(152, 118, 170);\">$link</span><span style=\"color:rgb(204, 120, 50);\">, </span><span style=\"color:rgb(152, 118, 170);\">$query</span>)<span style=\"color:rgb(204, 120, 50);\">;&#13;\n</span><span style=\"color:rgb(204, 120, 50);\">    while </span>(<span style=\"color:rgb(152, 118, 170);\">$row </span>= mysqli_fetch_assoc(<span style=\"color:rgb(152, 118, 170);\">$result</span>)) {&#13;\n        <span style=\"color:rgb(204, 120, 50);\">?&gt;</span>&#13;\n<span style=\"color:#cc7832;\">        </span><span style=\"color:#e8bf6a;\">&lt;tr&gt;&#13;\n</span><span style=\"color:#e8bf6a;\">            &lt;td&gt;</span><span style=\"color:rgb(204, 120, 50);\">&lt;?php echo </span><span style=\"color:rgb(152, 118, 170);\">$row</span>[<span style=\"color:rgb(106, 135, 89);\">\"filmnr\"</span>]<span style=\"color:rgb(204, 120, 50);\">; ?&gt;</span><span style=\"color:#e8bf6a;\">&lt;/td&gt;&#13;\n</span><span style=\"color:#e8bf6a;\">            &lt;td&gt;</span><span style=\"color:rgb(204, 120, 50);\">&lt;?php echo </span><span style=\"color:rgb(152, 118, 170);\">$row</span>[<span style=\"color:rgb(106, 135, 89);\">\"titel\"</span>]<span style=\"color:rgb(204, 120, 50);\">; ?&gt;</span><span style=\"color:#e8bf6a;\">&lt;/td&gt;&#13;\n</span><span style=\"color:#e8bf6a;\">            &lt;td&gt;</span><span style=\"color:rgb(204, 120, 50);\">&lt;?php echo </span><span style=\"color:rgb(152, 118, 170);\">$row</span>[<span style=\"color:rgb(106, 135, 89);\">\"regisseurnr\"</span>]<span style=\"color:rgb(204, 120, 50);\">; ?&gt;</span><span style=\"color:#e8bf6a;\">&lt;/td&gt;&#13;\n</span><span style=\"color:#e8bf6a;\">            &lt;td&gt;</span><span style=\"color:rgb(204, 120, 50);\">&lt;?php echo </span><span style=\"color:rgb(152, 118, 170);\">$row</span>[<span style=\"color:rgb(106, 135, 89);\">\"jaar\"</span>]<span style=\"color:rgb(204, 120, 50);\">; ?&gt;</span><span style=\"color:#e8bf6a;\">&lt;/td&gt;&#13;\n</span><span style=\"color:#e8bf6a;\">            &lt;td&gt;</span><span style=\"color:rgb(204, 120, 50);\">&lt;?php echo </span><span style=\"color:rgb(152, 118, 170);\">$row</span>[<span style=\"color:rgb(106, 135, 89);\">\"genre\"</span>]<span style=\"color:rgb(204, 120, 50);\">; ?&gt;</span><span style=\"color:#e8bf6a;\">&lt;/td&gt;&#13;\n</span><span style=\"color:#e8bf6a;\">            &lt;td&gt;</span><span style=\"color:rgb(204, 120, 50);\">&lt;?php echo </span><span style=\"color:rgb(152, 118, 170);\">$row</span>[<span style=\"color:rgb(106, 135, 89);\">\"tijdsduur\"</span>]<span style=\"color:rgb(204, 120, 50);\">; ?&gt;</span><span style=\"color:#e8bf6a;\">&lt;/td&gt;&#13;\n</span><span style=\"color:#e8bf6a;\">        &lt;/tr&gt;&#13;\n</span><span style=\"color:#e8bf6a;\">        </span><span style=\"color:rgb(204, 120, 50);\">&lt;?php&#13;\n</span><span style=\"color:rgb(204, 120, 50);\">    </span>}&#13;\n    <span style=\"color:rgb(204, 120, 50);\">?&gt;</span>&#13;\n<span style=\"color:#e8bf6a;\">&lt;/table&gt;&#13;\n</span><span style=\"color:rgb(204, 120, 50);\">&lt;?php&#13;\n</span>mysqli_close(<span style=\"color:rgb(152, 118, 170);\">$link</span>)<span style=\"color:rgb(204, 120, 50);\">;&#13;\n</span><span style=\"color:rgb(204, 120, 50);\">?&gt;</span>&#13;\n<span style=\"color:#e8bf6a;\">&lt;/body&gt;&#13;\n</span><span style=\"color:#e8bf6a;\">&lt;/html&gt;&#13;\n</span></pre>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7090393"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Opdracht 13",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Maak een bestand regisseurs.php. Schrijf de PHP-code waarmee op het scherm een tabel wordt afgebeeld met de film en nummer van alle regisseurs.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7090400"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "zoek formulier",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<pre>\nWe gaan aan de slag met een eenvoudige zoekopdracht, en hoe je deze kunt maken met PHP en MySQL. Je zal leren:\n\nGET- en POST-methoden gebruiken\nVerbinding maken met database\nCommuniceren met database\nVind overeenkomende database-items met een bepaald woord of zin\nResultaten weergeven</pre>"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7091719"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Voorbereiding",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Ga naar phpMyAdmin, start de USBWebserver op je computer. Je kunt deze openen via http://localhost/phpmyadmin/\n</p><p> </p>\n<p>En we gaan werken op basis van de bestaande database \"Film\"</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7091767"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "De bestanden",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>we maken als eerste het bestand</p>\n<p>zoeken.php</p>\n<p>Daarin plaatsen we de volgende code, zoals je ziet is dit een combi van HTML en PHP.</p>\n<p>In deze eerste bestand roepen we dan ook een tweede bestand op!! let goed op, staat in de code.</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/c/c2b1a1adb3e5cbd811d88a090495bad561a378ca.png\" class=\"height-320-pixels width-800-pixels\"/></p>\n<p> </p>\n<p> </p>\n"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Tweede bestand noemen we dus</p>\n<p><strong>search.php</strong></p>\n<p>en daarin plaatsen we de volgende code.</p>\n<p> </p>\n\n<p>&lt;?php<br/>\n   mysql_connect(\"localhost\", \"root\", \"usbw\") or die(\"Error connecting to database: \".mysql_error());<br/>\n   <span style=\"color:#008000;\">/*<br/>\n       localhost - de lokatie van de mysql server, meestal localhost<br/>\n       root - gebruikersnaam<br/>\n       derde is password van de phpmyadmin server<br/>\n       <br/>\n       Note. dit is niet de veilige weg, gebruik include commando om de database te koppelen.<br/>\n       <br/>\n       als er geen verbinding is zie je een error<br/>\n   */</span><br/>\n   <br/>\n   mysql_select_db(\"film\") or die(mysql_error());<br/>\n<span style=\"color:#008000;\">   /* film is de naam van de database die we reeds hebben */</span><br/>\n   <br/>\n   <br/>\n   <br/>\n?&gt;</p>\n<p><br/>\n&lt;html&gt;<br/>\n&lt;head&gt;<br/>\n   &lt;title&gt;Search results&lt;/title&gt;<br/>\n   &lt;meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" /&gt;<br/>\n   &lt;!--&lt;link rel=\"stylesheet\" type=\"text/css\" href=\"https://maken.wikiwijs.nl/style.css\"/&gt;--&gt;<br/>\n&lt;/head&gt;<br/>\n&lt;body&gt;<br/>\n&lt;?php<br/>\n   $query = $_GET['query'];<br/>\n  <span style=\"color:#008000;\">// gets waarde verkregen via zoeken.php form</span><br/>\n   <br/>\n   $min_length = 1;<br/>\n   <span style=\"color:#008000;\">// kan je aanpassen naar een  minimum lengte van de query als je dat wilt</span><br/>\n   <br/>\n   if(strlen($query) &gt;= $min_length){ /<span style=\"color:#008000;\">/ als de query lengte meer of gelijk is aan de gestelde minimum, dan</span><br/>\n       <br/>\n       $query = htmlspecialchars($query);<br/>\n      <span style=\"color:#008000;\">// veranderd de characters die je in html gebruikt naar de juiste omschrijving, zoals: &lt; to &amp;gt;</span><br/>\n       <br/>\n       $query = mysql_real_escape_string($query);<br/>\n       <span style=\"color:#008000;\">// voorkomen van een SQL injection(zoek maar op google wat dit betekend)</span><br/>\n       <br/>\n       $raw_results = mysql_query(\"SELECT * FROM films<br/>\n           WHERE (`filmnr` LIKE '%\".$query.\"%') OR (`titel` LIKE '%\".$query.\"%')\") or die(mysql_error());<br/>\n           <br/>\n       <span style=\"color:#008000;\">// * betekende dat je zoekt in alle velden, je kan dit aanpassen zoals naar : `id`(in plaatst van filmnr), `title(etc)`, `regisseurnr`<br/>\n       // films is de naam van de table<br/>\n       <br/>\n       // '%$query%' is waar we naar zoeken, % betekend alls, voorbeel als $query Hello is<br/>\n       // zoeken we naar alles wat past bij \"hello\", \"Hello man\", \"gogohello\", wil je een exacte zoekopdracht dan gebruik je `title`='$query'<br/>\n       // of een volledig woord, zoals \"gogohello\" gebruiken we '% $query %' ...OR ... '$query %' ... OR ... '% $query'</span><br/>\n       <br/>\n       if(mysql_num_rows($raw_results) &gt; 0){ <span style=\"color:#008000;\">// 1 of meer regels dan doen we</span><br/>\n           <br/>\n           while($results = mysql_fetch_array($raw_results)){<br/>\n           <span style=\"color:#008000;\">// $results = mysql_fetch_array($raw_results) plaatst de data van de database in een array, zolang het geldig is als een loop</span><br/>\n           <br/>\n               echo \"&lt;p&gt;&lt;h3&gt;\".$results['id'].\"&lt;/h3&gt;\".$results['titel'].\"&lt;/p&gt;\";<br/>\n               <span style=\"color:#008000;\">// plaatst het resultaat vanuit de database(filmnr en titel) je kan ook de id laten zien ($results['id'])</span><br/>\n           }<br/>\n           <br/>\n       }<br/>\n       else{ <span style=\"color:#008000;\">// Niks gevonden dan...</span><br/>\n           echo \"No results\";<br/>\n       }<br/>\n       <br/>\n   }<br/>\n   else{ <span style=\"color:#008000;\">// minmale lengte als zoekopdracht dan...</span><br/>\n       echo \"Minimum length is \".$min_length;<br/>\n   }<br/>\n?&gt;<br/>\n&lt;/body&gt;<br/>\n&lt;/html&gt;</p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "7092936"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "\u2605 Opdracht 14",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p class=\"text-align-center\"><strong>Nu zelf aan de slag</strong></p>\n<p><em>kijk terug naar eerder uitleg, aanmaken database, contact maken en laten zien op het scherm.</em></p>\n<p> </p>\n<p>Maak een nieuwe database(neem films gewoon als voorbeeld)</p>\n<p>v.b</p>\n<p>voetbal vereniging<br/>\nadressen bestand voor thuis<br/>\nschool, vak en docent</p>\n<p>etc</p>\n<p>en maak daar dan volgens bovenstaand eerdere uitleg een formulier van.</p>\n<p>Let op, denk aan je connect_database.php</p>\n<p>En denk niet te moeilijk, begin klein.<br/>\nAanpassen met meer velden kan altijd nog.</p>\n<p> </p>\n<p>leg uit wat je doet(Word document) en wat er fout gaat.</p>\n<p> </p>\n<p>Om een database te maken met tabellen heb je gegevens nodig.<br/>\nv.b<br/>\ndatabase geef je als naam \"adressen\"<br/>\nTabellen in die database geef je als naam dan \"naw\"<br/>\nen die heeft dan 3 velden. Naam, Adres en Woonplaats.<br/>\n<br/>\n<img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/c/cfcf9503559005f34d43dc7cff31e3be2173ad23.png\" class=\"height-418-pixels width-800-pixels\"/></p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/2/20957929cd5570ecbb4f737c7b893a3131bcdef2.png\" class=\"height-136-pixels width-652-pixels\"/></p>\n<hr/>\n<p>Klik dan op Aanmaken. En vul dan in NAW met als waarde 3.</p>\n<hr/>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/f/fdf16541aee26ce0e90530b40415a9579ec096d8.png\" class=\"height-218-pixels width-997-pixels\"/></p>\n<hr/>\n<p>de volgende velden heb ik als voorbeeld ingevuld:<br/>\nVeld: Naam, Adres, Woonplaats</p>\n<p>bij Type kies je dan \"Text\" het de dropdown want alles is een tekst in dit geval</p>\n<p>en aantal tekens is 40</p>\n<hr/>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/f/f24b8524f9fd6f707f52ee4c39bbd05b3056e6f0.png\" class=\"height-360-pixels width-800-pixels\"/></p>\n<p>Blijf \"nadenken\" als je als \"veld\" een datum gebruikt, moet je bij \"type\" dan \"date\" kiezen.</p>\n<p> </p>\n<p>alles in gevuld? dan op Opslaan kiezen en je hebt je tabellen</p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/0/09af7a5b747f01cbb6568837f7d0a5fa38416fb7.png\" class=\"height-411-pixels width-800-pixels\"/></p>\n<p> </p>\n<p>Succes</p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": null,
+            "dimension": null,
+            "suppressTitle": null
+        },
+        "color": "#333333"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Inleiding",
+                "reference": {
+                    "value": "6997051"
+                },
+                "sections": [
+                    {
+                        "title": "Vooraf",
+                        "reference": {
+                            "value": "6997053"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Leerdoelen",
+                        "reference": {
+                            "value": "6997058"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Bijlage",
+                        "reference": {
+                            "value": "6997060"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Opdracht 1",
+                        "reference": {
+                            "value": "6997066"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Aan de slag",
+                        "reference": {
+                            "value": "6997119"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Scripts",
+                "reference": {
+                    "value": "6997944"
+                },
+                "sections": [
+                    {
+                        "title": "Java versus PHP script",
+                        "reference": {
+                            "value": "6997945"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "PHP-editor",
+                        "reference": {
+                            "value": "6997961"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "PHP - basiskennis",
+                "reference": {
+                    "value": "6998159"
+                },
+                "sections": [
+                    {
+                        "title": "Voorbeeld",
+                        "reference": {
+                            "value": "6998161"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Voorbeeld-2",
+                        "reference": {
+                            "value": "6998981"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Voorbeeld-3",
+                        "reference": {
+                            "value": "6998983"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Opdracht 2",
+                        "reference": {
+                            "value": "6998985"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Commentaar",
+                        "reference": {
+                            "value": "6999617"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Echo",
+                        "reference": {
+                            "value": "6999038"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Opdracht 3",
+                        "reference": {
+                            "value": "6999621"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Opdracht 3.1",
+                        "reference": {
+                            "value": "7000410"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Variabelen in PHP",
+                "reference": {
+                    "value": "7000416"
+                },
+                "sections": [
+                    {
+                        "title": "Kenmerken",
+                        "reference": {
+                            "value": "7000448"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Opdracht 4",
+                        "reference": {
+                            "value": "7000420"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Concatenatie",
+                        "reference": {
+                            "value": "7000438"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Concatenatie-2",
+                        "reference": {
+                            "value": "7000467"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Datatypen",
+                        "reference": {
+                            "value": "7021130"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Opdracht 5",
+                        "reference": {
+                            "value": "7021135"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Operatoren",
+                        "reference": {
+                            "value": "7021139"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Controlestructuren",
+                "reference": {
+                    "value": "7021357"
+                },
+                "sections": [
+                    {
+                        "title": "Inleiding",
+                        "reference": {
+                            "value": "7021359"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "if...else-statement",
+                        "reference": {
+                            "value": "7021362"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Opdracht 6",
+                        "reference": {
+                            "value": "7021380"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "for-statement",
+                        "reference": {
+                            "value": "7021396"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Opdracht 7",
+                        "reference": {
+                            "value": "7021538"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "While-statement",
+                        "reference": {
+                            "value": "7021544"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Switch",
+                        "reference": {
+                            "value": "7023103"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Functies",
+                "reference": {
+                    "value": "7023105"
+                },
+                "sections": [
+                    {
+                        "title": "Wat is een Functie?",
+                        "reference": {
+                            "value": "7023106"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Opdracht 8",
+                        "reference": {
+                            "value": "7023109"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Terugkeerwaarde",
+                        "reference": {
+                            "value": "7023112"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "De functie include()",
+                        "reference": {
+                            "value": "7023115"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Opdracht 9",
+                        "reference": {
+                            "value": "7023117"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Arrays, Wat is dat?",
+                        "reference": {
+                            "value": "7041143"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Escape",
+                        "reference": {
+                            "value": "7041186"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Opdracht 10",
+                        "reference": {
+                            "value": "7041226"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Handige functies",
+                        "reference": {
+                            "value": "7041503"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Arrayfuncties en databases",
+                        "reference": {
+                            "value": "7041505"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Formulieren gebruiken",
+                "reference": {
+                    "value": "7041507"
+                },
+                "sections": [
+                    {
+                        "title": "\u2605 Opdracht 11",
+                        "reference": {
+                            "value": "7041510"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Opdracht 11.1",
+                        "reference": {
+                            "value": "7049500"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Formulieren gebruiken-2",
+                "reference": {
+                    "value": "7049514"
+                },
+                "sections": [
+                    {
+                        "title": "\u2605 Opdracht 11.2",
+                        "reference": {
+                            "value": "7049650"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "PHP en databases",
+                "reference": {
+                    "value": "7049683"
+                },
+                "sections": [
+                    {
+                        "title": "Inleiding",
+                        "reference": {
+                            "value": "7049684"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Eerste voorbereiding",
+                        "reference": {
+                            "value": "7061365"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Database maken",
+                        "reference": {
+                            "value": "7061402"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Benaderen database",
+                        "reference": {
+                            "value": "7049686"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Belangrijke functie- Connect",
+                        "reference": {
+                            "value": "7049689"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Opdracht 12 maken connect_film.php",
+                        "reference": {
+                            "value": "7049700"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Belangrijke functies - Query",
+                        "reference": {
+                            "value": "7090389"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Belangrijke functies - Array",
+                        "reference": {
+                            "value": "7090392"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Opdracht 13",
+                        "reference": {
+                            "value": "7090393"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "zoek formulier",
+                        "reference": {
+                            "value": "7090400"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Voorbereiding",
+                        "reference": {
+                            "value": "7091719"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "De bestanden",
+                        "reference": {
+                            "value": "7091767"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "\u2605 Opdracht 14",
+                        "reference": {
+                            "value": "7092936"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": null,
+        "imageSrc": null,
+        "sources": [
+            {
+                "type": "video",
+                "title": "echo voorbeelden",
+                "origin": "echo voorbeelden",
+                "customOrigin": null,
+                "link": "https://youtu.be/Dah8hmLqyqM",
+                "visible": true
+            },
+            {
+                "type": "video",
+                "title": "uitleg van \"for\" statement",
+                "origin": "uitleg van \"for\" statement",
+                "customOrigin": null,
+                "link": "https://youtu.be/OY5EP9G0AYc?t=284",
+                "visible": true
+            },
+            {
+                "type": "video",
+                "title": "While-statement",
+                "origin": "While-statement",
+                "customOrigin": null,
+                "link": "https://youtu.be/OY5EP9G0AYc?t=19",
+                "visible": true
+            }
+        ],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            },
+            {
+                "key": "keywords",
+                "label": "Trefwoorden",
+                "terms": [
+                    "database",
+                    "fonsvitae",
+                    "php",
+                    "phpmyadmin"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

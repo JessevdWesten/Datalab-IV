@@ -1,0 +1,1720 @@
+{
+    "documentAuthors": [
+        "Mark van Delst"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Mark van Delst",
+            "referenceName": null,
+            "reference": {
+                "value": "174546"
+            },
+            "firstName": "Mark",
+            "infix": null,
+            "lastName": "van Delst",
+            "emailAddress": "mark.van.delst@commanderijcollege.nl",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2023-09-19T13:23:51Z",
+    "bulkId": "bulk-17041658-refresh_all",
+    "identifier": 199711,
+    "title": "Wat weten we nog van onze vorige les....?",
+    "description": "Test jezelf;\r\nJe leest een korte samenvatting van de uitleg van voorgaande les. Daarna test je jezelf. Ken je de rekenvolgorde nog?",
+    "lastModifiedDate": "2023-09-19T13:23:51+02:00",
+    "dateCreated": "2023-09-07T18:19:02+02:00",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "van Delst, Mark",
+                "reference": {
+                    "value": "174546"
+                },
+                "firstName": "Mark",
+                "infix": null,
+                "lastName": "van Delst",
+                "emailAddress": "mark.van.delst@commanderijcollege.nl",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-40",
+            "name": "CC Naamsvermelding 4.0 Internationale licentie",
+            "description": "De Internationale Creative Commons 4.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/4.0/.",
+            "link": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/199711/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "7680715"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Rekenvolgorde",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "question",
+                    "reference": {
+                        "value": "7680719"
+                    },
+                    "assessmentItem": {
+                        "identifier": "7680719",
+                        "itemBody": null,
+                        "questions": [
+                            {
+                                "type": "extendedTextInteraction",
+                                "label": "Kun je het onderstaande uitrekenen?",
+                                "prompt": {
+                                    "body": "<p>reken uit:</p>\n<p>100 :  (15 + 5 x 2) =</p>"
+                                },
+                                "feedback": null
+                            }
+                        ],
+                        "responseDeclarations": [
+                            {
+                                "identifier": "7680719_1",
+                                "cardinality": "single",
+                                "baseType": "string",
+                                "correctResponse": {
+                                    "interpretation": null,
+                                    "values": [
+                                        {
+                                            "fieldIdentifier": null,
+                                            "value": "<p>Stap 1: haakjes wegwerken.</p>\r\n\r\n<p><strong>100 : &nbsp;25 =</strong></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Stap 2: delen (geeft de uitkomst van de som)</p>\r\n\r\n<p><strong>4</strong></p>\r\n"
+                                        }
+                                    ]
+                                },
+                                "mapping": {
+                                    "lowerBound": 0,
+                                    "upperBound": 1,
+                                    "default": 0,
+                                    "mapEntries": []
+                                },
+                                "areaMapping": null
+                            }
+                        ],
+                        "outcomeDeclarations": [
+                            {
+                                "identifier": "SCORE",
+                                "cardinality": "single",
+                                "baseType": "float",
+                                "defaultValue": 0,
+                                "interpretation": null
+                            },
+                            {
+                                "identifier": "FEEDBACK",
+                                "cardinality": "single",
+                                "baseType": "identifier",
+                                "defaultValue": null,
+                                "interpretation": null
+                            }
+                        ],
+                        "feedback": [
+                            {
+                                "outcomeIdentifier": "FEEDBACK",
+                                "identifier": "ANSWER_CORRECT",
+                                "showHide": true,
+                                "title": null,
+                                "content": {
+                                    "body": "<p>Stap 1: haakjes wegwerken.</p>\n<p><strong>100 :  25 =</strong></p>\n<p> </p>\n<p>Stap 2: delen (geeft de uitkomst van de som)</p>\n<p><strong>4</strong></p>"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "7687001"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Uitleg rekenvolgorde",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p>Stap 1: Haakjes wegwerken van <strong>binnen</strong> naar <strong>buiten</strong>.</p>\n<p>Stap 2: Vermenigvuldigen en delen van <strong>links</strong> naar <strong>rechts</strong>.</p>\n<p>Stap 3: Optellen en aftrekken van <strong>links</strong> naar <strong>rechts</strong>.</p>\n<p> </p>\n<p>Let op: Wanneer er tussen de haakjes een som staat waarin meerdere handelingen zijn opgenomen dan geld: <strong>binnen de haakjes gelden dezelfde rekenregels</strong></p>\n"
+                },
+                {
+                    "type": "video",
+                    "url": "https://youtu.be/NKhvK1RHaHs?si=_mqzzgFNG6QXbdp6",
+                    "align": "left",
+                    "caption": "Uitgebreide uitleg rekenvolgorde",
+                    "poster": "https://img.youtube.com/vi/NKhvK1RHaHs/maxresdefault.jpg"
+                }
+            ],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "7680717"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Wanneer je het beheerst; KLIK HIER",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "questionnaire",
+                            "reference": {
+                                "value": "7680724"
+                            },
+                            "assessmentTestItem": {
+                                "label": "Toets",
+                                "type": "exam",
+                                "header": {
+                                    "url": "https://maken.wikiwijs.nl/p/questionnaire/standalone/7680724",
+                                    "title": "minitoets rekenvolgorde"
+                                },
+                                "introduction": {
+                                    "body": "<p>Controleer door middel van het maken van de toets of je de lesstof echt begrepen hebt.</p>"
+                                },
+                                "countQuestions": 10,
+                                "sections": [
+                                    {
+                                        "type": "assessment",
+                                        "identifier": "SECTION_7680724",
+                                        "name": "MAIN_SECTION",
+                                        "select": null,
+                                        "shuffle": null,
+                                        "selection": null,
+                                        "assessmentItems": [
+                                            {
+                                                "identifier": "7680724_0",
+                                                "itemBody": null,
+                                                "questions": [
+                                                    {
+                                                        "type": "choiceInteraction",
+                                                        "label": "",
+                                                        "prompt": {
+                                                            "body": "<p>14 : 2 -4 =</p>"
+                                                        },
+                                                        "shuffle": false,
+                                                        "maxChoices": 3,
+                                                        "minChoices": 1,
+                                                        "orientation": "vertical",
+                                                        "choices": [
+                                                            {
+                                                                "identifier": "0",
+                                                                "content": {
+                                                                    "body": "3"
+                                                                },
+                                                                "feedback": {
+                                                                    "outcomeIdentifier": "FEEDBACK",
+                                                                    "identifier": "0",
+                                                                    "showHide": true,
+                                                                    "title": null,
+                                                                    "content": {
+                                                                        "body": "goed gedaan"
+                                                                    }
+                                                                }
+                                                            },
+                                                            {
+                                                                "identifier": "1",
+                                                                "content": {
+                                                                    "body": "7"
+                                                                },
+                                                                "feedback": {
+                                                                    "outcomeIdentifier": "FEEDBACK",
+                                                                    "identifier": "1",
+                                                                    "showHide": true,
+                                                                    "title": null,
+                                                                    "content": {
+                                                                        "body": "let op; eerst delen en dan aftrekken"
+                                                                    }
+                                                                }
+                                                            },
+                                                            {
+                                                                "identifier": "2",
+                                                                "content": {
+                                                                    "body": "4"
+                                                                },
+                                                                "feedback": {
+                                                                    "outcomeIdentifier": "FEEDBACK",
+                                                                    "identifier": "2",
+                                                                    "showHide": true,
+                                                                    "title": null,
+                                                                    "content": {
+                                                                        "body": "rekenfoutje"
+                                                                    }
+                                                                }
+                                                            }
+                                                        ],
+                                                        "responseIdentifier": "7680724_0_1",
+                                                        "feedback": null
+                                                    }
+                                                ],
+                                                "responseDeclarations": [
+                                                    {
+                                                        "identifier": "7680724_0_1",
+                                                        "cardinality": "ordered",
+                                                        "baseType": "identifier",
+                                                        "correctResponse": {
+                                                            "interpretation": null,
+                                                            "values": [
+                                                                {
+                                                                    "fieldIdentifier": null,
+                                                                    "value": "0"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "mapping": {
+                                                            "lowerBound": 0,
+                                                            "upperBound": 0,
+                                                            "default": 0,
+                                                            "mapEntries": [
+                                                                {
+                                                                    "key": "0",
+                                                                    "value": "0",
+                                                                    "caseSensitive": false
+                                                                },
+                                                                {
+                                                                    "key": "1",
+                                                                    "value": "0",
+                                                                    "caseSensitive": false
+                                                                },
+                                                                {
+                                                                    "key": "2",
+                                                                    "value": "0",
+                                                                    "caseSensitive": false
+                                                                }
+                                                            ]
+                                                        },
+                                                        "areaMapping": null
+                                                    }
+                                                ],
+                                                "outcomeDeclarations": [
+                                                    {
+                                                        "identifier": "SCORE",
+                                                        "cardinality": "single",
+                                                        "baseType": "float",
+                                                        "defaultValue": 0,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "FEEDBACK_CORRECT",
+                                                        "cardinality": "single",
+                                                        "baseType": "identifier",
+                                                        "defaultValue": false,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "FEEDBACK_INCORRECT",
+                                                        "cardinality": "single",
+                                                        "baseType": "identifier",
+                                                        "defaultValue": true,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "FEEDBACK_THRESHOLD",
+                                                        "cardinality": "single",
+                                                        "baseType": "float",
+                                                        "defaultValue": 0,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "RESPONSE_CORRECT",
+                                                        "cardinality": "single",
+                                                        "baseType": "boolean",
+                                                        "defaultValue": null,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "RESPONSE_INCORRECT",
+                                                        "cardinality": "single",
+                                                        "baseType": "boolean",
+                                                        "defaultValue": null,
+                                                        "interpretation": null
+                                                    }
+                                                ],
+                                                "feedback": null
+                                            },
+                                            {
+                                                "identifier": "7680724_1",
+                                                "itemBody": null,
+                                                "questions": [
+                                                    {
+                                                        "type": "choiceInteraction",
+                                                        "label": "",
+                                                        "prompt": {
+                                                            "body": "<p>2 + 8 x 5 = </p>"
+                                                        },
+                                                        "shuffle": false,
+                                                        "maxChoices": 3,
+                                                        "minChoices": 1,
+                                                        "orientation": "vertical",
+                                                        "choices": [
+                                                            {
+                                                                "identifier": "0",
+                                                                "content": {
+                                                                    "body": "42"
+                                                                },
+                                                                "feedback": {
+                                                                    "outcomeIdentifier": "FEEDBACK",
+                                                                    "identifier": "0",
+                                                                    "showHide": true,
+                                                                    "title": null,
+                                                                    "content": {
+                                                                        "body": "goed gedaan"
+                                                                    }
+                                                                }
+                                                            },
+                                                            {
+                                                                "identifier": "1",
+                                                                "content": {
+                                                                    "body": "50"
+                                                                },
+                                                                "feedback": {
+                                                                    "outcomeIdentifier": "FEEDBACK",
+                                                                    "identifier": "1",
+                                                                    "showHide": true,
+                                                                    "title": null,
+                                                                    "content": {
+                                                                        "body": "let op; eerst vermenigvuldigen en dan optellen"
+                                                                    }
+                                                                }
+                                                            },
+                                                            {
+                                                                "identifier": "2",
+                                                                "content": {
+                                                                    "body": "55"
+                                                                },
+                                                                "feedback": {
+                                                                    "outcomeIdentifier": "FEEDBACK",
+                                                                    "identifier": "2",
+                                                                    "showHide": true,
+                                                                    "title": null,
+                                                                    "content": {
+                                                                        "body": "rekenfoutje?"
+                                                                    }
+                                                                }
+                                                            }
+                                                        ],
+                                                        "responseIdentifier": "7680724_1_1",
+                                                        "feedback": null
+                                                    }
+                                                ],
+                                                "responseDeclarations": [
+                                                    {
+                                                        "identifier": "7680724_1_1",
+                                                        "cardinality": "ordered",
+                                                        "baseType": "identifier",
+                                                        "correctResponse": {
+                                                            "interpretation": null,
+                                                            "values": [
+                                                                {
+                                                                    "fieldIdentifier": null,
+                                                                    "value": "0"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "mapping": {
+                                                            "lowerBound": 0,
+                                                            "upperBound": 0,
+                                                            "default": 0,
+                                                            "mapEntries": [
+                                                                {
+                                                                    "key": "0",
+                                                                    "value": "0",
+                                                                    "caseSensitive": false
+                                                                },
+                                                                {
+                                                                    "key": "1",
+                                                                    "value": "0",
+                                                                    "caseSensitive": false
+                                                                },
+                                                                {
+                                                                    "key": "2",
+                                                                    "value": "0",
+                                                                    "caseSensitive": false
+                                                                }
+                                                            ]
+                                                        },
+                                                        "areaMapping": null
+                                                    }
+                                                ],
+                                                "outcomeDeclarations": [
+                                                    {
+                                                        "identifier": "SCORE",
+                                                        "cardinality": "single",
+                                                        "baseType": "float",
+                                                        "defaultValue": 0,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "FEEDBACK_CORRECT",
+                                                        "cardinality": "single",
+                                                        "baseType": "identifier",
+                                                        "defaultValue": false,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "FEEDBACK_INCORRECT",
+                                                        "cardinality": "single",
+                                                        "baseType": "identifier",
+                                                        "defaultValue": true,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "FEEDBACK_THRESHOLD",
+                                                        "cardinality": "single",
+                                                        "baseType": "float",
+                                                        "defaultValue": 0,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "RESPONSE_CORRECT",
+                                                        "cardinality": "single",
+                                                        "baseType": "boolean",
+                                                        "defaultValue": null,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "RESPONSE_INCORRECT",
+                                                        "cardinality": "single",
+                                                        "baseType": "boolean",
+                                                        "defaultValue": null,
+                                                        "interpretation": null
+                                                    }
+                                                ],
+                                                "feedback": null
+                                            },
+                                            {
+                                                "identifier": "7680724_2",
+                                                "itemBody": null,
+                                                "questions": [
+                                                    {
+                                                        "type": "choiceInteraction",
+                                                        "label": "",
+                                                        "prompt": {
+                                                            "body": "<p>6 + 8 - 4 x 3 =</p>"
+                                                        },
+                                                        "shuffle": false,
+                                                        "maxChoices": 2,
+                                                        "minChoices": 1,
+                                                        "orientation": "vertical",
+                                                        "choices": [
+                                                            {
+                                                                "identifier": "0",
+                                                                "content": {
+                                                                    "body": "2"
+                                                                },
+                                                                "feedback": {
+                                                                    "outcomeIdentifier": "FEEDBACK",
+                                                                    "identifier": "0",
+                                                                    "showHide": true,
+                                                                    "title": null,
+                                                                    "content": {
+                                                                        "body": "Goed gedaan"
+                                                                    }
+                                                                }
+                                                            },
+                                                            {
+                                                                "identifier": "1",
+                                                                "content": {
+                                                                    "body": "30"
+                                                                },
+                                                                "feedback": {
+                                                                    "outcomeIdentifier": "FEEDBACK",
+                                                                    "identifier": "1",
+                                                                    "showHide": true,
+                                                                    "title": null,
+                                                                    "content": {
+                                                                        "body": "Let op; eerst vermenigvuldigen"
+                                                                    }
+                                                                }
+                                                            }
+                                                        ],
+                                                        "responseIdentifier": "7680724_2_1",
+                                                        "feedback": null
+                                                    }
+                                                ],
+                                                "responseDeclarations": [
+                                                    {
+                                                        "identifier": "7680724_2_1",
+                                                        "cardinality": "ordered",
+                                                        "baseType": "identifier",
+                                                        "correctResponse": {
+                                                            "interpretation": null,
+                                                            "values": [
+                                                                {
+                                                                    "fieldIdentifier": null,
+                                                                    "value": "0"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "mapping": {
+                                                            "lowerBound": 0,
+                                                            "upperBound": 0,
+                                                            "default": 0,
+                                                            "mapEntries": [
+                                                                {
+                                                                    "key": "0",
+                                                                    "value": "0",
+                                                                    "caseSensitive": false
+                                                                },
+                                                                {
+                                                                    "key": "1",
+                                                                    "value": "0",
+                                                                    "caseSensitive": false
+                                                                }
+                                                            ]
+                                                        },
+                                                        "areaMapping": null
+                                                    }
+                                                ],
+                                                "outcomeDeclarations": [
+                                                    {
+                                                        "identifier": "SCORE",
+                                                        "cardinality": "single",
+                                                        "baseType": "float",
+                                                        "defaultValue": 0,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "FEEDBACK_CORRECT",
+                                                        "cardinality": "single",
+                                                        "baseType": "identifier",
+                                                        "defaultValue": false,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "FEEDBACK_INCORRECT",
+                                                        "cardinality": "single",
+                                                        "baseType": "identifier",
+                                                        "defaultValue": true,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "FEEDBACK_THRESHOLD",
+                                                        "cardinality": "single",
+                                                        "baseType": "float",
+                                                        "defaultValue": 0,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "RESPONSE_CORRECT",
+                                                        "cardinality": "single",
+                                                        "baseType": "boolean",
+                                                        "defaultValue": null,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "RESPONSE_INCORRECT",
+                                                        "cardinality": "single",
+                                                        "baseType": "boolean",
+                                                        "defaultValue": null,
+                                                        "interpretation": null
+                                                    }
+                                                ],
+                                                "feedback": null
+                                            },
+                                            {
+                                                "identifier": "7680724_3",
+                                                "itemBody": null,
+                                                "questions": [
+                                                    {
+                                                        "type": "choiceInteraction",
+                                                        "label": "",
+                                                        "prompt": {
+                                                            "body": "<p>(5+5):2=</p>"
+                                                        },
+                                                        "shuffle": false,
+                                                        "maxChoices": 3,
+                                                        "minChoices": 1,
+                                                        "orientation": "vertical",
+                                                        "choices": [
+                                                            {
+                                                                "identifier": "0",
+                                                                "content": {
+                                                                    "body": "5"
+                                                                },
+                                                                "feedback": {
+                                                                    "outcomeIdentifier": "FEEDBACK",
+                                                                    "identifier": "0",
+                                                                    "showHide": true,
+                                                                    "title": null,
+                                                                    "content": {
+                                                                        "body": "correct"
+                                                                    }
+                                                                }
+                                                            },
+                                                            {
+                                                                "identifier": "1",
+                                                                "content": {
+                                                                    "body": "7,5"
+                                                                },
+                                                                "feedback": {
+                                                                    "outcomeIdentifier": "FEEDBACK",
+                                                                    "identifier": "1",
+                                                                    "showHide": true,
+                                                                    "title": null,
+                                                                    "content": {
+                                                                        "body": "onjuist, waarschijnlijk ben je vergeten om eerst de () weg te werken"
+                                                                    }
+                                                                }
+                                                            },
+                                                            {
+                                                                "identifier": "2",
+                                                                "content": {
+                                                                    "body": "12"
+                                                                },
+                                                                "feedback": {
+                                                                    "outcomeIdentifier": "FEEDBACK",
+                                                                    "identifier": "2",
+                                                                    "showHide": true,
+                                                                    "title": null,
+                                                                    "content": {
+                                                                        "body": "let op de tekens tussen de getallen"
+                                                                    }
+                                                                }
+                                                            }
+                                                        ],
+                                                        "responseIdentifier": "7680724_3_1",
+                                                        "feedback": null
+                                                    }
+                                                ],
+                                                "responseDeclarations": [
+                                                    {
+                                                        "identifier": "7680724_3_1",
+                                                        "cardinality": "ordered",
+                                                        "baseType": "identifier",
+                                                        "correctResponse": {
+                                                            "interpretation": null,
+                                                            "values": [
+                                                                {
+                                                                    "fieldIdentifier": null,
+                                                                    "value": "0"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "mapping": {
+                                                            "lowerBound": 0,
+                                                            "upperBound": 0,
+                                                            "default": 0,
+                                                            "mapEntries": [
+                                                                {
+                                                                    "key": "0",
+                                                                    "value": "0",
+                                                                    "caseSensitive": false
+                                                                },
+                                                                {
+                                                                    "key": "1",
+                                                                    "value": "0",
+                                                                    "caseSensitive": false
+                                                                },
+                                                                {
+                                                                    "key": "2",
+                                                                    "value": "0",
+                                                                    "caseSensitive": false
+                                                                }
+                                                            ]
+                                                        },
+                                                        "areaMapping": null
+                                                    }
+                                                ],
+                                                "outcomeDeclarations": [
+                                                    {
+                                                        "identifier": "SCORE",
+                                                        "cardinality": "single",
+                                                        "baseType": "float",
+                                                        "defaultValue": 0,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "FEEDBACK_CORRECT",
+                                                        "cardinality": "single",
+                                                        "baseType": "identifier",
+                                                        "defaultValue": false,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "FEEDBACK_INCORRECT",
+                                                        "cardinality": "single",
+                                                        "baseType": "identifier",
+                                                        "defaultValue": true,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "FEEDBACK_THRESHOLD",
+                                                        "cardinality": "single",
+                                                        "baseType": "float",
+                                                        "defaultValue": 0,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "RESPONSE_CORRECT",
+                                                        "cardinality": "single",
+                                                        "baseType": "boolean",
+                                                        "defaultValue": null,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "RESPONSE_INCORRECT",
+                                                        "cardinality": "single",
+                                                        "baseType": "boolean",
+                                                        "defaultValue": null,
+                                                        "interpretation": null
+                                                    }
+                                                ],
+                                                "feedback": null
+                                            },
+                                            {
+                                                "identifier": "7680724_4",
+                                                "itemBody": null,
+                                                "questions": [
+                                                    {
+                                                        "type": "choiceInteraction",
+                                                        "label": "",
+                                                        "prompt": {
+                                                            "body": "<p>6 - (2 x 3) =</p>"
+                                                        },
+                                                        "shuffle": false,
+                                                        "maxChoices": 2,
+                                                        "minChoices": 0,
+                                                        "orientation": "vertical",
+                                                        "choices": [
+                                                            {
+                                                                "identifier": "0",
+                                                                "content": {
+                                                                    "body": "1"
+                                                                },
+                                                                "feedback": {
+                                                                    "outcomeIdentifier": "FEEDBACK",
+                                                                    "identifier": "0",
+                                                                    "showHide": true,
+                                                                    "title": null,
+                                                                    "content": {
+                                                                        "body": "Kijk nog eens goed. Rekenfoutje?"
+                                                                    }
+                                                                }
+                                                            },
+                                                            {
+                                                                "identifier": "1",
+                                                                "content": {
+                                                                    "body": "0"
+                                                                },
+                                                                "feedback": {
+                                                                    "outcomeIdentifier": "FEEDBACK",
+                                                                    "identifier": "1",
+                                                                    "showHide": true,
+                                                                    "title": null,
+                                                                    "content": {
+                                                                        "body": "Juist"
+                                                                    }
+                                                                }
+                                                            }
+                                                        ],
+                                                        "responseIdentifier": "7680724_4_1",
+                                                        "feedback": null
+                                                    }
+                                                ],
+                                                "responseDeclarations": [
+                                                    {
+                                                        "identifier": "7680724_4_1",
+                                                        "cardinality": "ordered",
+                                                        "baseType": "identifier",
+                                                        "correctResponse": {
+                                                            "interpretation": null,
+                                                            "values": [
+                                                                {
+                                                                    "fieldIdentifier": null,
+                                                                    "value": "0"
+                                                                },
+                                                                {
+                                                                    "fieldIdentifier": null,
+                                                                    "value": "1"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "mapping": {
+                                                            "lowerBound": "0",
+                                                            "upperBound": 0,
+                                                            "default": "0",
+                                                            "mapEntries": [
+                                                                {
+                                                                    "key": "0",
+                                                                    "value": "0",
+                                                                    "caseSensitive": false
+                                                                },
+                                                                {
+                                                                    "key": "1",
+                                                                    "value": "0",
+                                                                    "caseSensitive": false
+                                                                }
+                                                            ]
+                                                        },
+                                                        "areaMapping": null
+                                                    }
+                                                ],
+                                                "outcomeDeclarations": [
+                                                    {
+                                                        "identifier": "SCORE",
+                                                        "cardinality": "single",
+                                                        "baseType": "float",
+                                                        "defaultValue": "0",
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "FEEDBACK_CORRECT",
+                                                        "cardinality": "single",
+                                                        "baseType": "identifier",
+                                                        "defaultValue": false,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "FEEDBACK_INCORRECT",
+                                                        "cardinality": "single",
+                                                        "baseType": "identifier",
+                                                        "defaultValue": true,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "FEEDBACK_THRESHOLD",
+                                                        "cardinality": "single",
+                                                        "baseType": "float",
+                                                        "defaultValue": 0,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "RESPONSE_CORRECT",
+                                                        "cardinality": "single",
+                                                        "baseType": "boolean",
+                                                        "defaultValue": null,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "RESPONSE_INCORRECT",
+                                                        "cardinality": "single",
+                                                        "baseType": "boolean",
+                                                        "defaultValue": null,
+                                                        "interpretation": null
+                                                    }
+                                                ],
+                                                "feedback": null
+                                            },
+                                            {
+                                                "identifier": "7680724_5",
+                                                "itemBody": null,
+                                                "questions": [
+                                                    {
+                                                        "type": "orderInteraction",
+                                                        "label": "",
+                                                        "prompt": {
+                                                            "body": "<p>Zet de bewerkingen in de juiste volgorde:</p>"
+                                                        },
+                                                        "shuffle": true,
+                                                        "minChoices": 0,
+                                                        "maxChoices": 4,
+                                                        "orientation": "vertical",
+                                                        "choices": [
+                                                            {
+                                                                "identifier": "1295359046aa972a407e41a1350316e7",
+                                                                "content": {
+                                                                    "body": "\u221a x<sup>2</sup>"
+                                                                },
+                                                                "feedbackInline": null
+                                                            },
+                                                            {
+                                                                "identifier": "7277e44510f33087d07f4066d0ce308b",
+                                                                "content": {
+                                                                    "body": "( )"
+                                                                },
+                                                                "feedbackInline": null
+                                                            },
+                                                            {
+                                                                "identifier": "97094d4eb5162950ed0f771abed47e4d",
+                                                                "content": {
+                                                                    "body": "x :"
+                                                                },
+                                                                "feedbackInline": null
+                                                            },
+                                                            {
+                                                                "identifier": "1815d0886d3fddd35b602bc0054b868d",
+                                                                "content": {
+                                                                    "body": "+ -"
+                                                                },
+                                                                "feedbackInline": null
+                                                            }
+                                                        ],
+                                                        "responseIdentifier": "7680724_5_1",
+                                                        "feedback": [
+                                                            {
+                                                                "outcomeIdentifier": "FEEDBACK_CORRECT",
+                                                                "identifier": "FBC_7680724_5",
+                                                                "showHide": null,
+                                                                "title": null,
+                                                                "content": {
+                                                                    "body": "Goed onthouden"
+                                                                }
+                                                            },
+                                                            {
+                                                                "outcomeIdentifier": "FEEDBACK_INCORRECT",
+                                                                "identifier": "FBI_7680724_5",
+                                                                "showHide": null,
+                                                                "title": null,
+                                                                "content": {
+                                                                    "body": "Ga terug naar het begin waar de 4 stappen benoemt staan en vraag uitleg aan de docent"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "responseDeclarations": [
+                                                    {
+                                                        "identifier": "7680724_5_1",
+                                                        "cardinality": "ordered",
+                                                        "baseType": "identifier",
+                                                        "correctResponse": {
+                                                            "interpretation": null,
+                                                            "values": [
+                                                                {
+                                                                    "fieldIdentifier": null,
+                                                                    "value": "7277e44510f33087d07f4066d0ce308b"
+                                                                },
+                                                                {
+                                                                    "fieldIdentifier": null,
+                                                                    "value": "1295359046aa972a407e41a1350316e7"
+                                                                },
+                                                                {
+                                                                    "fieldIdentifier": null,
+                                                                    "value": "97094d4eb5162950ed0f771abed47e4d"
+                                                                },
+                                                                {
+                                                                    "fieldIdentifier": null,
+                                                                    "value": "1815d0886d3fddd35b602bc0054b868d"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "mapping": {
+                                                            "lowerBound": 0,
+                                                            "upperBound": 1,
+                                                            "default": 0,
+                                                            "mapEntries": [
+                                                                {
+                                                                    "key": "7277e44510f33087d07f4066d0ce308b",
+                                                                    "value": 0.3,
+                                                                    "caseSensitive": false
+                                                                },
+                                                                {
+                                                                    "key": "1295359046aa972a407e41a1350316e7",
+                                                                    "value": 0.3,
+                                                                    "caseSensitive": false
+                                                                },
+                                                                {
+                                                                    "key": "97094d4eb5162950ed0f771abed47e4d",
+                                                                    "value": 0.3,
+                                                                    "caseSensitive": false
+                                                                },
+                                                                {
+                                                                    "key": "1815d0886d3fddd35b602bc0054b868d",
+                                                                    "value": 0.3,
+                                                                    "caseSensitive": false
+                                                                }
+                                                            ]
+                                                        },
+                                                        "areaMapping": null
+                                                    }
+                                                ],
+                                                "outcomeDeclarations": [
+                                                    {
+                                                        "identifier": "SCORE",
+                                                        "cardinality": "single",
+                                                        "baseType": "float",
+                                                        "defaultValue": "0",
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "FEEDBACK_CORRECT",
+                                                        "cardinality": "single",
+                                                        "baseType": "identifier",
+                                                        "defaultValue": false,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "FEEDBACK_INCORRECT",
+                                                        "cardinality": "single",
+                                                        "baseType": "identifier",
+                                                        "defaultValue": true,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "FEEDBACK_THRESHOLD",
+                                                        "cardinality": "single",
+                                                        "baseType": "float",
+                                                        "defaultValue": "2",
+                                                        "interpretation": null
+                                                    }
+                                                ],
+                                                "feedback": null
+                                            },
+                                            {
+                                                "identifier": "7680724_6",
+                                                "itemBody": null,
+                                                "questions": [
+                                                    {
+                                                        "type": "choiceInteraction",
+                                                        "label": "",
+                                                        "prompt": {
+                                                            "body": "<p>6 x (3 + 2) =</p>"
+                                                        },
+                                                        "shuffle": false,
+                                                        "maxChoices": 3,
+                                                        "minChoices": 1,
+                                                        "orientation": "vertical",
+                                                        "choices": [
+                                                            {
+                                                                "identifier": "0",
+                                                                "content": {
+                                                                    "body": "20"
+                                                                },
+                                                                "feedback": {
+                                                                    "outcomeIdentifier": "FEEDBACK",
+                                                                    "identifier": "0",
+                                                                    "showHide": true,
+                                                                    "title": null,
+                                                                    "content": {
+                                                                        "body": "je dient eerst de optelsom tussen haakjes uit te rekenen alvorens te vermenigvuldigen"
+                                                                    }
+                                                                }
+                                                            },
+                                                            {
+                                                                "identifier": "1",
+                                                                "content": {
+                                                                    "body": "30"
+                                                                },
+                                                                "feedback": {
+                                                                    "outcomeIdentifier": "FEEDBACK",
+                                                                    "identifier": "1",
+                                                                    "showHide": true,
+                                                                    "title": null,
+                                                                    "content": {
+                                                                        "body": "goed gedaan"
+                                                                    }
+                                                                }
+                                                            },
+                                                            {
+                                                                "identifier": "2",
+                                                                "content": {
+                                                                    "body": "11"
+                                                                },
+                                                                "feedback": {
+                                                                    "outcomeIdentifier": "FEEDBACK",
+                                                                    "identifier": "2",
+                                                                    "showHide": true,
+                                                                    "title": null,
+                                                                    "content": {
+                                                                        "body": "let op de  rekensymbolen"
+                                                                    }
+                                                                }
+                                                            }
+                                                        ],
+                                                        "responseIdentifier": "7680724_6_1",
+                                                        "feedback": null
+                                                    }
+                                                ],
+                                                "responseDeclarations": [
+                                                    {
+                                                        "identifier": "7680724_6_1",
+                                                        "cardinality": "ordered",
+                                                        "baseType": "identifier",
+                                                        "correctResponse": {
+                                                            "interpretation": null,
+                                                            "values": [
+                                                                {
+                                                                    "fieldIdentifier": null,
+                                                                    "value": "1"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "mapping": {
+                                                            "lowerBound": 0,
+                                                            "upperBound": 0,
+                                                            "default": 0,
+                                                            "mapEntries": [
+                                                                {
+                                                                    "key": "0",
+                                                                    "value": "0",
+                                                                    "caseSensitive": false
+                                                                },
+                                                                {
+                                                                    "key": "1",
+                                                                    "value": "0",
+                                                                    "caseSensitive": false
+                                                                },
+                                                                {
+                                                                    "key": "2",
+                                                                    "value": "0",
+                                                                    "caseSensitive": false
+                                                                }
+                                                            ]
+                                                        },
+                                                        "areaMapping": null
+                                                    }
+                                                ],
+                                                "outcomeDeclarations": [
+                                                    {
+                                                        "identifier": "SCORE",
+                                                        "cardinality": "single",
+                                                        "baseType": "float",
+                                                        "defaultValue": 0,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "FEEDBACK_CORRECT",
+                                                        "cardinality": "single",
+                                                        "baseType": "identifier",
+                                                        "defaultValue": false,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "FEEDBACK_INCORRECT",
+                                                        "cardinality": "single",
+                                                        "baseType": "identifier",
+                                                        "defaultValue": true,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "FEEDBACK_THRESHOLD",
+                                                        "cardinality": "single",
+                                                        "baseType": "float",
+                                                        "defaultValue": 0,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "RESPONSE_CORRECT",
+                                                        "cardinality": "single",
+                                                        "baseType": "boolean",
+                                                        "defaultValue": null,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "RESPONSE_INCORRECT",
+                                                        "cardinality": "single",
+                                                        "baseType": "boolean",
+                                                        "defaultValue": null,
+                                                        "interpretation": null
+                                                    }
+                                                ],
+                                                "feedback": null
+                                            },
+                                            {
+                                                "identifier": "7680724_7",
+                                                "itemBody": null,
+                                                "questions": [
+                                                    {
+                                                        "type": "choiceInteraction",
+                                                        "label": "",
+                                                        "prompt": {
+                                                            "body": "<p>5 - 3 \u00d7 3 + 2 \u00d7 3 \u00d7 (2 - 1) = </p>"
+                                                        },
+                                                        "shuffle": false,
+                                                        "maxChoices": 3,
+                                                        "minChoices": 1,
+                                                        "orientation": "vertical",
+                                                        "choices": [
+                                                            {
+                                                                "identifier": "0",
+                                                                "content": {
+                                                                    "body": "24"
+                                                                },
+                                                                "feedback": {
+                                                                    "outcomeIdentifier": "FEEDBACK",
+                                                                    "identifier": "0",
+                                                                    "showHide": true,
+                                                                    "title": null,
+                                                                    "content": {
+                                                                        "body": "je hebt de som zonder de rekenvolgorde van links naar rechts utgerekend"
+                                                                    }
+                                                                }
+                                                            },
+                                                            {
+                                                                "identifier": "1",
+                                                                "content": {
+                                                                    "body": "2"
+                                                                },
+                                                                "feedback": {
+                                                                    "outcomeIdentifier": "FEEDBACK",
+                                                                    "identifier": "1",
+                                                                    "showHide": true,
+                                                                    "title": null,
+                                                                    "content": {
+                                                                        "body": "goed gedaan"
+                                                                    }
+                                                                }
+                                                            },
+                                                            {
+                                                                "identifier": "2",
+                                                                "content": {
+                                                                    "body": "22"
+                                                                },
+                                                                "feedback": {
+                                                                    "outcomeIdentifier": "FEEDBACK",
+                                                                    "identifier": "2",
+                                                                    "showHide": true,
+                                                                    "title": null,
+                                                                    "content": {
+                                                                        "body": "rekenfoutje"
+                                                                    }
+                                                                }
+                                                            }
+                                                        ],
+                                                        "responseIdentifier": "7680724_7_1",
+                                                        "feedback": null
+                                                    }
+                                                ],
+                                                "responseDeclarations": [
+                                                    {
+                                                        "identifier": "7680724_7_1",
+                                                        "cardinality": "ordered",
+                                                        "baseType": "identifier",
+                                                        "correctResponse": {
+                                                            "interpretation": null,
+                                                            "values": [
+                                                                {
+                                                                    "fieldIdentifier": null,
+                                                                    "value": "1"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "mapping": {
+                                                            "lowerBound": 0,
+                                                            "upperBound": 0,
+                                                            "default": 0,
+                                                            "mapEntries": [
+                                                                {
+                                                                    "key": "0",
+                                                                    "value": "0",
+                                                                    "caseSensitive": false
+                                                                },
+                                                                {
+                                                                    "key": "1",
+                                                                    "value": "0",
+                                                                    "caseSensitive": false
+                                                                },
+                                                                {
+                                                                    "key": "2",
+                                                                    "value": "0",
+                                                                    "caseSensitive": false
+                                                                }
+                                                            ]
+                                                        },
+                                                        "areaMapping": null
+                                                    }
+                                                ],
+                                                "outcomeDeclarations": [
+                                                    {
+                                                        "identifier": "SCORE",
+                                                        "cardinality": "single",
+                                                        "baseType": "float",
+                                                        "defaultValue": 0,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "FEEDBACK_CORRECT",
+                                                        "cardinality": "single",
+                                                        "baseType": "identifier",
+                                                        "defaultValue": false,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "FEEDBACK_INCORRECT",
+                                                        "cardinality": "single",
+                                                        "baseType": "identifier",
+                                                        "defaultValue": true,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "FEEDBACK_THRESHOLD",
+                                                        "cardinality": "single",
+                                                        "baseType": "float",
+                                                        "defaultValue": 0,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "RESPONSE_CORRECT",
+                                                        "cardinality": "single",
+                                                        "baseType": "boolean",
+                                                        "defaultValue": null,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "RESPONSE_INCORRECT",
+                                                        "cardinality": "single",
+                                                        "baseType": "boolean",
+                                                        "defaultValue": null,
+                                                        "interpretation": null
+                                                    }
+                                                ],
+                                                "feedback": null
+                                            },
+                                            {
+                                                "identifier": "7680724_8",
+                                                "itemBody": null,
+                                                "questions": [
+                                                    {
+                                                        "type": "choiceInteraction",
+                                                        "label": "",
+                                                        "prompt": {
+                                                            "body": "<p>(5 - 2) \u00d7 4 + 2 \u00d7 3 =</p>"
+                                                        },
+                                                        "shuffle": false,
+                                                        "maxChoices": 2,
+                                                        "minChoices": 1,
+                                                        "orientation": "vertical",
+                                                        "choices": [
+                                                            {
+                                                                "identifier": "0",
+                                                                "content": {
+                                                                    "body": "18"
+                                                                },
+                                                                "feedback": {
+                                                                    "outcomeIdentifier": "FEEDBACK",
+                                                                    "identifier": "0",
+                                                                    "showHide": true,
+                                                                    "title": null,
+                                                                    "content": {
+                                                                        "body": "goed gedaan"
+                                                                    }
+                                                                }
+                                                            },
+                                                            {
+                                                                "identifier": "1",
+                                                                "content": {
+                                                                    "body": "-3"
+                                                                },
+                                                                "feedback": {
+                                                                    "outcomeIdentifier": "FEEDBACK",
+                                                                    "identifier": "1",
+                                                                    "showHide": true,
+                                                                    "title": null,
+                                                                    "content": {
+                                                                        "body": "denk aan de haakjes."
+                                                                    }
+                                                                }
+                                                            }
+                                                        ],
+                                                        "responseIdentifier": "7680724_8_1",
+                                                        "feedback": null
+                                                    }
+                                                ],
+                                                "responseDeclarations": [
+                                                    {
+                                                        "identifier": "7680724_8_1",
+                                                        "cardinality": "ordered",
+                                                        "baseType": "identifier",
+                                                        "correctResponse": {
+                                                            "interpretation": null,
+                                                            "values": [
+                                                                {
+                                                                    "fieldIdentifier": null,
+                                                                    "value": "0"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "mapping": {
+                                                            "lowerBound": 0,
+                                                            "upperBound": 0,
+                                                            "default": 0,
+                                                            "mapEntries": [
+                                                                {
+                                                                    "key": "0",
+                                                                    "value": "0",
+                                                                    "caseSensitive": false
+                                                                },
+                                                                {
+                                                                    "key": "1",
+                                                                    "value": "0",
+                                                                    "caseSensitive": false
+                                                                }
+                                                            ]
+                                                        },
+                                                        "areaMapping": null
+                                                    }
+                                                ],
+                                                "outcomeDeclarations": [
+                                                    {
+                                                        "identifier": "SCORE",
+                                                        "cardinality": "single",
+                                                        "baseType": "float",
+                                                        "defaultValue": 0,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "FEEDBACK_CORRECT",
+                                                        "cardinality": "single",
+                                                        "baseType": "identifier",
+                                                        "defaultValue": false,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "FEEDBACK_INCORRECT",
+                                                        "cardinality": "single",
+                                                        "baseType": "identifier",
+                                                        "defaultValue": true,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "FEEDBACK_THRESHOLD",
+                                                        "cardinality": "single",
+                                                        "baseType": "float",
+                                                        "defaultValue": 0,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "RESPONSE_CORRECT",
+                                                        "cardinality": "single",
+                                                        "baseType": "boolean",
+                                                        "defaultValue": null,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "RESPONSE_INCORRECT",
+                                                        "cardinality": "single",
+                                                        "baseType": "boolean",
+                                                        "defaultValue": null,
+                                                        "interpretation": null
+                                                    }
+                                                ],
+                                                "feedback": null
+                                            },
+                                            {
+                                                "identifier": "7680724_9",
+                                                "itemBody": null,
+                                                "questions": [
+                                                    {
+                                                        "type": "choiceInteraction",
+                                                        "label": "",
+                                                        "prompt": {
+                                                            "body": "<p>8 + (5 x 3 - (10 - 5)) = </p>"
+                                                        },
+                                                        "shuffle": false,
+                                                        "maxChoices": 2,
+                                                        "minChoices": 1,
+                                                        "orientation": "vertical",
+                                                        "choices": [
+                                                            {
+                                                                "identifier": "0",
+                                                                "content": {
+                                                                    "body": "8"
+                                                                },
+                                                                "feedback": {
+                                                                    "outcomeIdentifier": "FEEDBACK",
+                                                                    "identifier": "0",
+                                                                    "showHide": true,
+                                                                    "title": null,
+                                                                    "content": {
+                                                                        "body": "Let op, tussen de haakjes staan nogmaals haakjes"
+                                                                    }
+                                                                }
+                                                            },
+                                                            {
+                                                                "identifier": "1",
+                                                                "content": {
+                                                                    "body": "18"
+                                                                },
+                                                                "feedback": {
+                                                                    "outcomeIdentifier": "FEEDBACK",
+                                                                    "identifier": "1",
+                                                                    "showHide": true,
+                                                                    "title": null,
+                                                                    "content": {
+                                                                        "body": "Heel goed"
+                                                                    }
+                                                                }
+                                                            }
+                                                        ],
+                                                        "responseIdentifier": "7680724_9_1",
+                                                        "feedback": null
+                                                    }
+                                                ],
+                                                "responseDeclarations": [
+                                                    {
+                                                        "identifier": "7680724_9_1",
+                                                        "cardinality": "ordered",
+                                                        "baseType": "identifier",
+                                                        "correctResponse": {
+                                                            "interpretation": null,
+                                                            "values": [
+                                                                {
+                                                                    "fieldIdentifier": null,
+                                                                    "value": "1"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "mapping": {
+                                                            "lowerBound": 0,
+                                                            "upperBound": 0,
+                                                            "default": 0,
+                                                            "mapEntries": [
+                                                                {
+                                                                    "key": "0",
+                                                                    "value": "0",
+                                                                    "caseSensitive": false
+                                                                },
+                                                                {
+                                                                    "key": "1",
+                                                                    "value": "0",
+                                                                    "caseSensitive": false
+                                                                }
+                                                            ]
+                                                        },
+                                                        "areaMapping": null
+                                                    }
+                                                ],
+                                                "outcomeDeclarations": [
+                                                    {
+                                                        "identifier": "SCORE",
+                                                        "cardinality": "single",
+                                                        "baseType": "float",
+                                                        "defaultValue": 0,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "FEEDBACK_CORRECT",
+                                                        "cardinality": "single",
+                                                        "baseType": "identifier",
+                                                        "defaultValue": false,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "FEEDBACK_INCORRECT",
+                                                        "cardinality": "single",
+                                                        "baseType": "identifier",
+                                                        "defaultValue": true,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "FEEDBACK_THRESHOLD",
+                                                        "cardinality": "single",
+                                                        "baseType": "float",
+                                                        "defaultValue": 0,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "RESPONSE_CORRECT",
+                                                        "cardinality": "single",
+                                                        "baseType": "boolean",
+                                                        "defaultValue": null,
+                                                        "interpretation": null
+                                                    },
+                                                    {
+                                                        "identifier": "RESPONSE_INCORRECT",
+                                                        "cardinality": "single",
+                                                        "baseType": "boolean",
+                                                        "defaultValue": null,
+                                                        "interpretation": null
+                                                    }
+                                                ],
+                                                "feedback": null
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "outcomeDeclarations": null,
+                                "showEvaluation": null,
+                                "feedback": null
+                            }
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [],
+            "backgroundImageUrl": null,
+            "dimension": null,
+            "suppressTitle": null
+        },
+        "color": "#333333"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Rekenvolgorde",
+                "reference": {
+                    "value": "7680715"
+                },
+                "sections": []
+            },
+            {
+                "title": "Uitleg rekenvolgorde",
+                "reference": {
+                    "value": "7687001"
+                },
+                "sections": [
+                    {
+                        "title": "Wanneer je het beheerst; KLIK HIER",
+                        "reference": {
+                            "value": "7680717"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": null,
+        "imageSrc": null,
+        "sources": [
+            {
+                "type": "video",
+                "title": "Uitgebreide uitleg rekenvolgorde",
+                "origin": "Uitgebreide uitleg rekenvolgorde",
+                "customOrigin": null,
+                "link": "https://youtu.be/NKhvK1RHaHs?si=_mqzzgFNG6QXbdp6",
+                "visible": true
+            }
+        ],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            },
+            {
+                "key": "keywords",
+                "label": "Trefwoorden",
+                "terms": [
+                    "rekenvolgorde"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}

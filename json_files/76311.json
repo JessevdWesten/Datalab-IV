@@ -1,0 +1,648 @@
+{
+    "documentAuthors": [
+        "Jeroen Basten"
+    ],
+    "uuid": null,
+    "authors": [
+        {
+            "fullName": "Jeroen Basten",
+            "referenceName": null,
+            "reference": {
+                "value": "28703"
+            },
+            "firstName": "Jeroen",
+            "infix": null,
+            "lastName": "Basten",
+            "emailAddress": "j.basten@atscholen.nl",
+            "type": "author"
+        }
+    ],
+    "documentDate": "2016-05-17T18:36:45Z",
+    "bulkId": "bulk-17041135-refresh_all",
+    "identifier": 76311,
+    "title": "1.4.1 Een game maken met Scratch",
+    "description": "",
+    "lastModifiedDate": "2016-05-17T18:36:45+02:00",
+    "dateCreated": "2016-05-04T11:04:02+02:00",
+    "published": true,
+    "publisher": null,
+    "team": {
+        "reference": {
+            "value": "wikiwijs_maken_authors"
+        },
+        "name": "Wikiwijs Maken Auteurs",
+        "members": [
+            {
+                "fullName": null,
+                "referenceName": "Basten, Jeroen",
+                "reference": {
+                    "value": "28703"
+                },
+                "firstName": "Jeroen",
+                "infix": null,
+                "lastName": "Basten",
+                "emailAddress": "j.basten@atscholen.nl",
+                "type": "author"
+            }
+        ],
+        "emailAddress": null,
+        "description": null
+    },
+    "metadata": {
+        "license": {
+            "identifier": "cc-by-30",
+            "name": "CC Naamsvermelding 3.0 Nederland licentie",
+            "description": "De Nederlandse Creative Commons 3.0 licentie waarbij de gebruiker het werk mag kopi\u00ebren, verspreiden en doorgeven en afgeleide werken mag maken onder de voorwaarde: Naamsvermelding, zie http://creativecommons.org/licenses/by/3.0/nl/.",
+            "link": "http://creativecommons.org/licenses/by/3.0/nl/"
+        },
+        "webAddress": "https://maken.wikiwijs.nl/76311/"
+    },
+    "sections": [
+        {
+            "reference": {
+                "value": "1935467"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Inleiding",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p><img alt=\"\" src=\"http://coderdojo.cs.dartmouth.edu/%7Ecoderdojo/wp-content/uploads/2014/11/scratchlogo.jpg\" class=\"height-240-pixels width-832-pixels\"/></p>\n<p> </p>\n<p><span class=\"font-size-14px\">In deze lessenserie van 3 weken gaan jullie een eigen game maken!</span></p>\n<p><span class=\"font-size-14px\">Er zijn veel programma's en manieren waarop je een game kan maken maar deze zijn allemaal erg moeilijk te begrijpen. Hieronder zie je een voorbeeld van hoe games zoals Call of Duty en GTA V worden eruit zien als zij worden gemaakt. Dan snap je wel dat we dat niet kunnen gaan doen.</span></p>\n<p><span class=\"font-size-14px\">Hoe gaan we het dan doen? Nou we gaan een game maken met behulp van het bekende programma <strong>Scratch</strong>. Games als Flappy Bird worden hierin gemaakt. De bedoeling is dat je via Scratch:</span></p>\n<ul>\n<li><span class=\"font-size-14px\">Leert inzicht te krijgen in hoe een game gemaakt wordt</span></li>\n<li><span class=\"font-size-14px\">Leert na te denken over elementen zoals 'gameplay', 'level-design' en 'functionaliteit'</span></li>\n<li><span class=\"font-size-14px\">Leert samen te werken aan een digitaal project</span></li>\n</ul>\n<p><span class=\"font-size-14px\">Gamen wordt een steeds populairdere manier van vrijetijdsbesteding. De verwachting is dat dit in de toekomst alleen nog maar zal groeien. In landen als Zuid-Korea zijn er bijvoorbeeld stadia (meervoud van stadium) zo groot als Camp Nou die alleen gebruikt worden voor gamingwedstrijden. Daar wordt niet gevoetbalt of gebasketbalt. Wij vinden games maken en erover nadenken dan ook een belangrijke vaardigheid om in je leven mee te nemen. De wereld veranderd immers snel op korte termijn.</span></p>\n<p> </p>\n<p><img alt=\"\" src=\"http://www.benbyford.com/site/assets/files/1110/coding.png\" class=\"height-269-pixels width-405-pixels\"/><img alt=\"http://cdn1.vox-cdn.com/uploads/chorus_image/image/37790520/league_of_legends_world_championships_staples_crowd.0_cinema_1280.0.jpg\" src=\"http://cdn1.vox-cdn.com/uploads/chorus_image/image/37790520/league_of_legends_world_championships_staples_crowd.0_cinema_1280.0.jpg\" class=\"height-228-pixels width-405-pixels\"/>w</p>\n<p><em>Afb. 1: Voorbeeld van code waarin games als GTA V worden gemaakt.                        Afb. 2: Stadium voor gametoernooien in Zuid-Korea</em></p>\n<p> </p>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "1935484"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Leerdoelen",
+                "level": 1
+            },
+            "items": [
+                {
+                    "type": "paragraph",
+                    "content": "<p><span class=\"font-size-14px\">De leerdoelen van deze serie lessen over games maken in Scratch zijn de onderstaande. Na afloop is het de bedoeling dat je dit kent en kunt. Is dat niet gelukt, dan heb je misschien niet goed opgelet!</span></p>\n<p><span class=\"font-size-14px\">Leerdoelen over wat je moet <strong>kennen</strong>:</span></p>\n<ul>\n<li><span class=\"font-size-14px\">Weten wat de begrippen <em>sprites, scripts, costumes, sounds</em> en <em>backdrop</em> betekenen</span></li>\n<li><span class=\"font-size-14px\">De functies benoemen van de bouwblokken <em>motion, looks, sound, pen, data, events, control, sensing, operators, more blocks</em></span></li>\n</ul>\n<p><span class=\"font-size-14px\">Leerdoelen over wat je moet <strong>kunnen:</strong></span></p>\n<ul>\n<li><span class=\"font-size-14px\">Een sprite simpele basisbewegingen laten uitvoeren</span></li>\n<li><span class=\"font-size-14px\">Een backdrop veranderen in Scratch</span></li>\n<li><span class=\"font-size-14px\">Een karakter aanmaken</span></li>\n<li><span class=\"font-size-14px\">Een simpele en werkende game maken</span></li>\n</ul>\n<p> </p>\n"
+                }
+            ],
+            "sections": []
+        },
+        {
+            "reference": {
+                "value": "1935491"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Les 1",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "1935492"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Inleiding",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><span class=\"font-size-14px\">We moeten ergens beginnen. Dat is in dit geval bij het maken van een account in Scratch. Deze les ga je verder leren wat een sprite en een backdrop is, en hoe een game er van binnen uit ziet.</span></p>\n<p><span class=\"font-size-14px\">Als jullie een account hebben gemaakt gaan jullie zelf al aan de slag met wat simpele bewerkingen in Scratch.</span></p>\n"
+                        },
+                        {
+                            "type": "video",
+                            "url": "https://www.youtube.com/embed/8Y3t52hWIas",
+                            "align": "left",
+                            "caption": "Game toernooi in Korea",
+                            "poster": "https://maken.wikiwijs.nl/res/images/playicon_wikiwijs.png"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "1935514"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Begrippen: Sprite en backdrop",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><span class=\"font-size-14px\"><strong>Sprite:</strong> Een sprite is een object in een project (game) dat bewegingen uitvoert. Sprites kunnen zelf gemaakt worden of uit de Scratch-bibliotheek komen. Soms zijn er meerdere sprites in \u00e9\u00e9n project.</span></p>\n<p> </p>\n<p><img alt=\"\" src=\"https://www.packtpub.com/sites/default/files/Article-Images/scratch-article3-image01.png\" class=\"height-327-pixels width-400-pixels\"/></p>\n<p> </p>\n<p><span class=\"font-size-14px\"><strong>Backdrop:</strong> De backdrop is de achtergrond van een project (game) waarin de game zich afspeelt. De backdrop in onderdeel van het level-design, het ontwerp van de levels in de game.</span></p>\n<p> </p>\n<p><img alt=\"\" src=\"https://i.ytimg.com/vi/dfVmJFb8MF8/maxresdefault.jpg\" class=\"height-282-pixels width-399-pixels\"/></p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "1935501"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Opdracht 1",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><span class=\"font-size-14px\">Maak een account in scratch. Volg om dit te doen hieronder de stappen.</span></p>\n<p><span class=\"font-size-14px\"><strong>LET OP: Kies een gebruikersnaam en wachtwoord die de docent mag weten!</strong></span></p>\n<ul>\n<li><span class=\"font-size-14px\">Ga naar <a href=\"http://www.scratch.mit.edu\">www.scratch.mit.edu</a></span></li>\n<li><span class=\"font-size-14px\">Klik rechtsboven op 'Join Scratch'</span></li>\n<li><span class=\"font-size-14px\">Kies een gebruikersnaam en een wachtwoord <span class=\"underline\">die de docent ook mag weten</span></span></li>\n<li><span class=\"font-size-14px\">Ga naar OneDrive en open een nieuw Word-document. Schrijf hierin jouw gebruikersnaam en wachtwoord en deel dit met de docent</span></li>\n</ul>\n<p><span class=\"font-size-14px\">Klaar!</span></p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "1935596"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Opdracht 2",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><span class=\"font-size-14px\">Maak een Word-document in OneDrive aan voor de komende lessen. Noem het: 'Opdrachtenboekje Scratch <em>jouwnaam</em>'.</span></p>\n<p><span class=\"font-size-14px\">Schrijf in het Word-document de antwoorden op de volgende vragen:</span></p>\n<ol>\n<li><span class=\"font-size-14px\">Wat ga jij leren in deze lessenserie over Scratch? Gebruik deze wikiwijspagina om je antwoorden te vinden.</span></li>\n<li><span class=\"font-size-14px\">Hoeveel weken gaan we werken aan Scratch?</span></li>\n<li><span class=\"font-size-14px\">Waarom is het volgens de wikiwijs-pagina belangrijk dat je leert met Scratch te werken?</span></li>\n<li><span class=\"font-size-14px\">Schrijf in je eigen woorden op wat de betekenis is van een <em>Sprite</em>. Gebruik deze pagina's om het antwoord te vinden.</span></li>\n<li><span class=\"font-size-14px\">Schrijf in je eigen woorden op wat de betekenis is van een <em>Backdrop</em>. Gebruik deze pagina's om het antwoord te vinden.</span></li>\n</ol>\n<p><span class=\"font-size-14px underline\">Let op: Als je deze vragen serieus hebt beantwoord, heb je minimaal 3/4 van een A4 volgeschreven.</span></p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "1951249"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Les 2",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "1951254"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Inleiding",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>In deze les gaan we kijken naar de menu's (scripts) in Scratch en de werking van de blokken. Ook gaan we alvast een opstelling maken van een sprite en deze laten bewegen. Je krijgt ook de betekenis van het begrip '<em>Costumes</em>' te leren.</p>\n<p>Je leert dus:</p>\n<ol>\n<li>Wat scripts zijn en hoe ze werken</li>\n<li>Hoe je een sprite kunt laten bewegen</li>\n<li>Wat een <em>costume</em> is</li>\n</ol>\n<p> </p>\n<p><img alt=\"\" src=\"https://www.raspberrypi.org/magpi/wp-content/uploads/2015/10/Scratch_Pac_Man.png\" class=\"height-629-pixels width-1118-pixels\"/></p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "1951257"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Begrippen: Costumes",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><em>Costume</em> is een Engels woord. In het Nederlands betekent het simpelweg 'kostuum'. Dat is een outfit dat uit \u00e9\u00e9n geheel bestaat zoals een onesie of een huispak. Maar in Scratch heeft een costume een hele andere betekenis.</p>\n<p>De sprite (karakter) kan vele vormen aannemen. Eigenlijk heeft het costume in Scratch niets te maken met kleding. Het is eigenlijk gewoon de <em>stand waarin het karakter (de sprite) staat</em><em>.</em> Als jij rent dan sta je ook anders dan als je loopt. Deze veranderingen in een beweging zijn de costumes. Hieronder een voorbeeld:</p>\n<p><img alt=\"\" src=\"http://1.bp.blogspot.com/-WUFA7z0M1vg/Uu30HCBwqoI/AAAAAAAAAKQ/FRGEbwWWM_k/s1600/Jessica%2527c+friend.png\" class=\"height-389-pixels width-892-pixels\"/></p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "1951259"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Scripts in Scratch",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Een script voor een film ken je. Daarin wordt opgeschreven wie wat wanneer gaat zeggen. In Scratch is dat hetzelfde. Daarin staat welk karakter waarheen gaat bewegen en wat er dan gebeurt. Scripts in Scratch zijn <em>een reeks opdrachten die vertellen wat er in de game gebeurt.</em> Er zijn vele <strong>script-menu's</strong>, zoals: <em>bewegen</em>, <em>data</em>, <em>uiterlijken</em>, <em>geluid</em>, <em>pen</em> en noem maar op. Elk script-menu heeft ook zijn eigen kleuren om het makkelijk te maken.</p>\n<p><img alt=\"\" src=\"https://classes.soe.ucsc.edu/cmpe003/Winter11/scratchGettingFamiliar.jpg\" class=\"height-590-pixels width-978-pixels\"/></p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "1951262"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Opdracht 3",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><span class=\"font-size-14px\" style=\"color:rgb(51, 204, 51);\"><strong>Ga naar Scratch en log in. Maak een nieuw project aan en noem het <em>'test 1'</em>. Zet dan een sprite in het midden van het spelscherm.</strong></span></p>\n<p><span class=\"font-size-14px underline\">Maak nu de volgende vragen in een nieuw Word-online (office365) document.</span></p>\n<ol>\n<li><span class=\"font-size-14px\">Onder welk script-menu kun je het blokje 'Richt naar 90 graden' vinden?</span></li>\n<li><span class=\"font-size-14px\">Onder welk script-menu kun je het blokje 'Muis ingedrukt?' vinden?</span></li>\n<li><span class=\"font-size-14px\">Onder welk script-menu kun je het blokje '...&gt;...' vinden?</span></li>\n<li><span class=\"font-size-14px\">Onder welk script-menu kun je het blokje 'Wanneer de groene vlag wordt aangeklikt' vinden?</span></li>\n</ol>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "1951264"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Opdracht 4",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>De volgende opdrachten ga je uitvoeren in Scratch. Doe dit via de script-menu's. Door blokjes te slepen naar het grote grijze vak aan de rechterkant kun je de opdrachten op een rij zetten.</p>\n<ul>\n<li>Plaats een blokje 'wanneer de groene vlag wordt aangeklikt' (hiermee start je altijd een script)</li>\n<li>Plaats een blokje 'herhaal'</li>\n<li>In het blokje herhaal zit een leeg stukje. Daarin sleep je het blokje 'verander y met'. Zet het getal hierin op -10</li>\n<li>Plaats een blokje 'wanneer spatiebalk wordt ingedrukt'</li>\n<li>Plaats weer een blokje 'herhaal'</li>\n<li>Zet ertussen weer een blokje 'verander y met'. Zet het getal nu op 20</li>\n</ul>\n<p><span style=\"color:#33cc33;\"><strong>Wat gebeurt er nu? Schrijf het op in je Word-online document.</strong></span></p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "1951266"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Opdracht 5",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Maak het onderstaande script na. Wat gebeurt er? Schrijf je antwoord in je Word-document.</p>\n<p> </p>\n<p><img alt=\"\" src=\"data:image/png;base64,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\"/></p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "1951268"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Klaar?",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><span style=\"color:#33cc33;\"><strong>Ga even oefenen of testen in Scratch</strong></span>. Schrijf op wat je geleerd hebt in je Word-document.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "reference": {
+                "value": "1971154"
+            },
+            "heading": {
+                "type": "heading",
+                "content": "Les 3",
+                "level": 1
+            },
+            "items": [],
+            "sections": [
+                {
+                    "reference": {
+                        "value": "1971155"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Inleiding",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Deze les ga je al een echte game maken. Je hebt nu wat stappen doorlopen en kent de betekenis van de begrippen <em>sprite, backdrop</em> en <em>costumes</em>. Je weet nu ook wat script-menus zijn en wat een script is. Je weet nu genoeg om aan de slag te gaan met Scratch!</p>\n<p><img alt=\"\" src=\"https://lh3.googleusercontent.com/nB7Oe87EqM4YJnBFhywETK6mtUsDMup2mJdHSVPI4RnA9kOXEGkZKOEigB4o--SWvak=h900\" class=\"height-301-pixels width-535-pixels\"/></p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "1971157"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Leerdoelen",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<ol>\n<li><span class=\"font-size-14px\">De functies benoemen van de bouwblokken <em>motion, looks, sound, pen, data, events, control, sensing, operators, more blocks.</em></span></li>\n<li><span class=\"font-size-14px\">Een sprite simpele basisbewegingen kunnen laten uitvoeren.</span></li>\n</ol>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "1971160"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "De blokken",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>In Scratch programmeer je de game door blokken te slepen uit de script-menus naar het script. Deze blokken hebben allemaal verschillende functies. Vaak zegt de naam van de menu's en blokken al precies wat het doet.</p>\n<p>Als je extra hulp nodig hebt bekijk dan het filmpje hieronder, vanaf ong. 3 minuten.</p>\n<div><iframe allowfullscreen=\"allowfullscreen\" frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/Zw_zq3QIElc\" width=\"560\" class=\"video-item\"/></div>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "1971165"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Opdracht 1",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p><em>Voer de onderstaande opdracht uit.</em></p>\n<p>Je ziet hieronder een afbeelding staan. Deze afbeelding moet de backdrop worden van een Scratch-game.</p>\n<ol>\n<li>Sla de afbeelding op op je computer en noem het 'Scratch 1'.</li>\n<li>Ga naar Scratch en upload de afbeelding door te klikken op de tab 'Achtergronden' en dan op het mapje met het pijltje omhoog.</li>\n<li>Laat zien aan de docent.</li>\n</ol>\n<p> </p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/1/12977cd41183e305a18fb887aa17726424ed34e5.png\" class=\"height-342-pixels width-684-pixels\"/></p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "1971162"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Opdracht 2",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Log in bij Scratch en klik linksboven op 'Maak'. Volg nu de onderstaande stappen.</p>\n<ol>\n<li>Klik linksboven in de menubalk op 'Tips'.</li>\n</ol>\n<p><img alt=\"\" src=\"data:image/png;base64,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\"/></p>\n<p> </p>\n<p>Je kunt nu aan de rechterkant kiezen voor allerlei 'tutorials' (oefeningen) die je kan maken.</p>\n<p><span class=\"underline\"><strong>Opdracht: Kies \u00e9\u00e9n van deze die je leuk vind en doorloop deze helemaal.</strong></span></p>\n<p> </p>\n<p><img alt=\"\" src=\"https://maken.wikiwijs.nl/userfiles/c/cdc9fc0072429c30b09e9dd09809c187ab2ed122.JPG\" class=\"height-740-pixels width-324-pixels\"/></p>\n<p> </p>\n<p>       2. In je opdrachtenboekje (Word-online) ga je nu antwoord geven op de volgende vragen:</p>\n<ul>\n<li>Welke game (oefening) heb jij gedaan?</li>\n<li>Wat is het resultaat?</li>\n<li>Plaats een screenshot van je game (druk op de knop 'PrtSc' op je toetsenbord, druk dan op ctrl+v in je Word-bestand)</li>\n</ul>\n<p> </p>\n<p> </p>\n<p> </p>\n"
+                        }
+                    ],
+                    "sections": []
+                },
+                {
+                    "reference": {
+                        "value": "1971167"
+                    },
+                    "heading": {
+                        "type": "heading",
+                        "content": "Klaar?",
+                        "level": 2
+                    },
+                    "items": [
+                        {
+                            "type": "paragraph",
+                            "content": "<p>Laat de opdrachten zien aan de docent. Daarna mag je iets voor jezelf doen.</p>\n"
+                        }
+                    ],
+                    "sections": []
+                }
+            ]
+        }
+    ],
+    "theme": {
+        "banner": {
+            "columns": [
+                {
+                    "content": "<span class=\"font-size-22px\"><span style=\"color:#66ff33;\">Wikiwijs CT</span> <span style=\"color:#666666;\">-</span> <span style=\"color:rgb(255, 0, 102);\">1.4.1 Een game maken met Scratch</span></span>"
+                }
+            ],
+            "backgroundImageUrl": "https://maken.wikiwijs.nl/generated/l1200x76_568daae45628e95c42051e515b93c7fb93335b43.jpg",
+            "dimension": null,
+            "suppressTitle": true
+        },
+        "color": "#495057"
+    },
+    "tableOfContents": {
+        "title": "Inhoudsopgave",
+        "headings": [
+            {
+                "title": "Inleiding",
+                "reference": {
+                    "value": "1935467"
+                },
+                "sections": []
+            },
+            {
+                "title": "Leerdoelen",
+                "reference": {
+                    "value": "1935484"
+                },
+                "sections": []
+            },
+            {
+                "title": "Les 1",
+                "reference": {
+                    "value": "1935491"
+                },
+                "sections": [
+                    {
+                        "title": "Inleiding",
+                        "reference": {
+                            "value": "1935492"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Begrippen: Sprite en backdrop",
+                        "reference": {
+                            "value": "1935514"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Opdracht 1",
+                        "reference": {
+                            "value": "1935501"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Opdracht 2",
+                        "reference": {
+                            "value": "1935596"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Les 2",
+                "reference": {
+                    "value": "1951249"
+                },
+                "sections": [
+                    {
+                        "title": "Inleiding",
+                        "reference": {
+                            "value": "1951254"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Begrippen: Costumes",
+                        "reference": {
+                            "value": "1951257"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Scripts in Scratch",
+                        "reference": {
+                            "value": "1951259"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Opdracht 3",
+                        "reference": {
+                            "value": "1951262"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Opdracht 4",
+                        "reference": {
+                            "value": "1951264"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Opdracht 5",
+                        "reference": {
+                            "value": "1951266"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Klaar?",
+                        "reference": {
+                            "value": "1951268"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Les 3",
+                "reference": {
+                    "value": "1971154"
+                },
+                "sections": [
+                    {
+                        "title": "Inleiding",
+                        "reference": {
+                            "value": "1971155"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Leerdoelen",
+                        "reference": {
+                            "value": "1971157"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "De blokken",
+                        "reference": {
+                            "value": "1971160"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Opdracht 1",
+                        "reference": {
+                            "value": "1971165"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Opdracht 2",
+                        "reference": {
+                            "value": "1971162"
+                        },
+                        "sections": []
+                    },
+                    {
+                        "title": "Klaar?",
+                        "reference": {
+                            "value": "1971167"
+                        },
+                        "sections": []
+                    }
+                ]
+            },
+            {
+                "title": "Over dit lesmateriaal",
+                "reference": {
+                    "value": "colophon"
+                },
+                "sections": []
+            }
+        ]
+    },
+    "colophon": {
+        "title": "Over dit lesmateriaal",
+        "description": null,
+        "imageSrc": null,
+        "sources": [
+            {
+                "type": "video",
+                "title": "Game toernooi in Korea",
+                "origin": "Game toernooi in Korea",
+                "customOrigin": null,
+                "link": "https://www.youtube.com/embed/8Y3t52hWIas",
+                "visible": true
+            }
+        ],
+        "metadata": [
+            {
+                "key": "intendedEndUserRole",
+                "label": "Eindgebruiker",
+                "terms": [
+                    "leerling/student"
+                ]
+            },
+            {
+                "key": "keywords",
+                "label": "Trefwoorden",
+                "terms": [
+                    "game maken",
+                    "ict",
+                    "onderwijs",
+                    "scratch"
+                ]
+            }
+        ],
+        "usedLearningResources": []
+    }
+}
